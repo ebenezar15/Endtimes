@@ -2,16 +2,18 @@
   "name": "last-things",
   "private": true,
   "version": "1.0.0",
-  "description": "Last Things — an interactive study of Christian eschatology",
+  "description": "Last Things \u2014 an interactive study of Christian eschatology",
   "type": "module",
   "scripts": {
     "bible": "node scripts/build-bible.mjs",
     "validate": "vite-node scripts/validate-content.ts",
     "dev": "vite",
-    "build": "npm run validate && tsc -b && vite build",
+    "build": "npm run bible && npm run validate && tsc -p tsconfig.json && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b",
+    "predev": "npm run bible",
+    "pretest": "npm run bible"
   },
   "dependencies": {
     "@fontsource/alegreya": "^5.3.0",

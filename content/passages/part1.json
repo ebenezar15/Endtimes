@@ -1,0 +1,912 @@
+[
+  {
+    "id": "revelation-20",
+    "title": "The Thousand Years",
+    "ref": "Revelation 20:1–10",
+    "ranges": ["Revelation 20:1-10"],
+    "category": "revelation",
+    "summary": "An angel binds Satan for a thousand years so that he can no longer deceive the nations; enthroned souls “came to life” (ezēsan) and reign with Christ in the “first resurrection”; afterwards Satan is released, gathers Gog and Magog, and is cast into the lake of fire. The only passage in Scripture that names a thousand-year period, it gives the millennial views their names.",
+    "keyIssue": "Does Revelation 20 follow the return of Christ in Revelation 19 chronologically (premillennial), or does it recapitulate and describe the whole period between the two advents (amillennial and most postmillennial readings)? Closely tied are what “bound” means (compare Matthew 12:29, where Jesus binds the strong man), whether ezēsan in 20:4 and 20:5 must mean bodily resurrection both times, and whether “thousand” is literal or symbolic.",
+    "timeText": false,
+    "topics": ["millennium", "satan-binding", "first-resurrection", "second-coming", "final-judgment"],
+    "readings": [
+      {
+        "position": "postmil",
+        "reading": "The thousand years is the long, symbolically numbered gospel age, begun at Christ's first advent and enthronement. Satan is bound so he cannot stop the gospel from discipling the nations (20:3), and the age moves, through the Spirit's work, toward a historical flourishing of the faith before a brief final rebellion (20:7-9) and Christ's return. Warfield read the reigning souls as the saints in heaven (the intermediate state); Gentry and Boettner stress the gradual triumph of the kingdom on earth that the binding makes possible.",
+        "support": "The binding language echoes Jesus' own claim to have bound the strong man (Matthew 12:29) and to see Satan fall (Luke 10:18; John 12:31-32), and the stated purpose of the binding is specifically about the nations, which matches the Great Commission. “Thousand” is used elsewhere for a vast, complete number (Psalm 50:10; Deuteronomy 7:9). Postmillennialists add that other texts (Psalm 110, 1 Corinthians 15:25, Matthew 13:31-33) predict growing dominion, so the millennium is naturally that era of growth.",
+        "objection": "Premillennialists reply that Satan is still described as active, prowling and deceiving in the New Testament (1 Peter 5:8; 2 Corinthians 4:4), and the abyss is sealed over him, which they think is far stronger than restriction. Amillennialists, who share the recapitulation reading, object that Revelation 20 itself says nothing about a future golden age within history; the visible reign is in heaven, and the age ends in global apostasy (20:8).",
+        "sources": ["gentry-he-shall-have-dominion", "boettner-millennium", "warfield-millennium-apocalypse"]
+      },
+      {
+        "position": "amil",
+        "reading": "Revelation 20:1 begins a new vision that goes back to the first advent, as Revelation 12 does. The thousand years is the whole church age. Satan's binding is his restraint from stopping the gospel among the nations or gathering them for the final battle before the appointed time. The “first resurrection” is either regeneration (Augustine) or, more often today, the believer's entrance into heavenly life with Christ at death (Hoekema, Kline, Riddlebarger, Storms); the second, bodily resurrection comes at Christ's single return, followed by the final judgment.",
+        "support": "The final battle of 20:8 is described with the same Ezekiel 38-39 imagery and the same article (“the war”) as 16:14 and 19:19, which suggests it is the same event seen again. The thrones of 20:4 are in heaven, as elsewhere in Revelation, and the persons are “souls”. John 5:24-29 has the same pattern of a spiritual resurrection now and a bodily one at the end. The rest of the New Testament teaches one return, one general resurrection and one judgment (John 5:28-29; Acts 24:15; Matthew 25:31-46).",
+        "objection": "Since Henry Alford, premillennialists have pressed that ezēsan cannot mean spiritual life in 20:4 and bodily life in 20:5 within the same passage, and that the word anastasis almost always means bodily resurrection. They also argue that 19:20 and 20:10 link the two chapters in sequence: the beast and false prophet are already in the lake of fire when the devil joins them.",
+        "sources": ["hoekema-bible-future", "riddlebarger-case-amil", "storms-millennium-revelation-20", "augustine-city-of-god"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "The visions run in order: Christ returns (19:11-21), Satan is then bound, and the martyrs and faithful are bodily raised to reign with Christ on earth for a long period (whether exactly a thousand years or not). After the rebellion at the end of that period come the resurrection of the rest of the dead and the final judgment. This is the hope of early church writers such as Papias, Justin and Irenaeus, held without the dispensational distinction between Israel and the church.",
+        "support": "The plain sequence of the narrative and the parallel use of ezēsan: if the second “came to life” (20:5) is bodily, so is the first. 1 Corinthians 15:23-24 seems to allow an interval between the resurrection of “those who belong to Christ” and “the end”. The interpretation is also old: Justin (Dialogue 80-81) and Irenaeus (Against Heresies V) held an earthly kingdom after Christ's return.",
+        "objection": "Amillennialists and postmillennialists answer that Revelation is a series of parallel visions rather than a single timeline, and 20:1 starts a fresh vision. They also ask why, if Christ has returned and the nations have been destroyed (19:18-21), there are still nations to deceive in 20:3 and 20:8, and why no other New Testament text clearly teaches two bodily resurrections separated by an age.",
+        "sources": ["ladd-commentary-revelation", "blomberg-chung-historic-premil", "irenaeus-against-heresies", "justin-dialogue-trypho"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "The thousand years is a literal future era after the Second Coming in which Christ reigns from Jerusalem on David's throne. In that era God fulfils his unconditional covenant promises to national Israel (land, kingdom, temple), and the raptured church reigns with him. The binding is a complete removal of Satan's activity from the earth. The first resurrection happens in stages (Christ, the raptured church, tribulation martyrs, Old Testament saints), and the rest of the dead are raised to the great white throne judgment afterwards.",
+        "support": "Six repetitions of “a thousand years” in a few verses suggest a real duration. The binding is described in heavy terms (seized, bound, thrown into the abyss, shut and sealed), which does not fit Satan's current activity. The reading also fits a consistent literal hermeneutic that expects the Old Testament kingdom prophecies (Isaiah 2; 11; 65; Zechariah 14) to be fulfilled on earth, in history, for Israel.",
+        "objection": "Critics observe that numbers in Revelation are overwhelmingly symbolic (seven spirits, 144,000, 666), and that Revelation 20 itself says nothing about Israel, Jerusalem's temple, or the land. They argue that importing those elements from the prophets presupposes the dispensational system rather than deriving it from this text.",
+        "sources": ["walvoord-millennial-kingdom", "pentecost-things-to-come", "bock-three-views"]
+      },
+      {
+        "position": "partial-preterism",
+        "reading": "Partial preterists (usually postmillennial, as Gentry, or amillennial, as some others) read Revelation 4-19 as chiefly fulfilled in the first-century judgment on Jerusalem and the persecuting Roman beast, and see Revelation 20 as looking beyond that to the long era of Christ's reign that began with his first coming. The martyrs under Nero are vindicated and reign; the binding began with Christ's ministry and cross; the final release of Satan and the end are still future.",
+        "support": "Revelation's repeated time indicators (“soon”, “the time is near”, 1:1, 1:3, 22:6, 22:10) govern the bulk of the prophecy, while Revelation 20 explicitly introduces a long period (a thousand years), which marks it off from the near events. The martyr language in 20:4 (beheaded for the testimony of Jesus, not worshipping the beast) ties it to the persecutions earlier in the book.",
+        "objection": "Futurists challenge the early (pre-70) dating of Revelation that the preterist frame usually relies on; most scholars favour c. AD 95 on the basis of Irenaeus (the date is disputed). Full preterists, from the other side, argue it is inconsistent to apply “soon” to Revelation 1-19 and then put the resurrection and judgment of 20:11-15 thousands of years later.",
+        "sources": ["gentry-before-jerusalem-fell", "gentry-he-shall-have-dominion", "gregg-revelation-four-views"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "All of Revelation, including chapter 20, was fulfilled by the AD 70 destruction of Jerusalem. Many full preterists take the thousand years as the transitional generation between the cross and AD 70 (or a symbolic era closing then). The first resurrection is the new life of believers in Christ, and the judgment and emptying of Hades (20:13-14) took place at the parousia in AD 70. There is no future bodily resurrection or end of history.",
+        "support": "Proponents appeal to the time statements in the frame of the book (1:1-3; 22:6-12, “do not seal up the prophecy... the time is near”), and to Daniel 12:2 and 12:7, which they say tie the resurrection to the shattering of the holy people's power. They argue that their view applies “near” consistently to the whole book.",
+        "objection": "Critics, including partial preterists, note that this view denies a future bodily resurrection and visible Second Coming, which all the ecumenical creeds confess (the Nicene Creed: he “will come again... to judge the living and the dead”), and so stands outside historic orthodoxy. They also argue it has to compress a “thousand years” into roughly forty. Proponents answer that Scripture outranks creeds and that the creeds did not anticipate the time-statement argument.",
+        "sources": ["king-spirit-of-prophecy", "mathison-when-shall", "nicene-creed"]
+      },
+      {
+        "position": "historicism",
+        "reading": "Historicists read Revelation as a continuous prophecy of church history from John's day to the end, with Revelation 20 coming after the fall of the papal “beast” and Antichrist. Many historicists (Elliott) were premillennial and placed the thousand years after a future return; others (Barnes, and much of the Puritan and post-Reformation tradition) expected a future era of gospel triumph after the overthrow of papal Rome, before Christ returns.",
+        "support": "The book's numbered sequences (seals, trumpets, bowls) look like a progressive history, and the year-day principle (Numbers 14:34; Ezekiel 4:6) allows long historical periods. To historicists, the record of church history read alongside the chapters confirms the scheme.",
+        "objection": "Critics point out that historicist identifications have changed with each generation and have often set dates that failed. The scheme also tends to centre Western European history in a way that John's first readers could not have understood.",
+        "sources": ["elliott-horae", "barnes-notes-revelation", "murray-puritan-hope"]
+      },
+      {
+        "position": "idealism",
+        "reading": "Revelation presents recurring spiritual realities rather than datable events. Following Hendriksen's “progressive parallelism”, chapter 20 is the last of seven parallel sections, each covering the age from the first to the second advent. The binding says Satan cannot halt the gathering of the nations through the gospel; the reigning souls depict the present victory of the faithful dead; Gog and Magog depict the final, intensified opposition that the church must always expect.",
+        "support": "Revelation's genre is apocalyptic, full of symbols, and it is addressed to seven real churches that needed comfort for their own day and every day. The cycles of judgment in the book visibly repeat and end in the final judgment more than once (6:12-17; 11:15-18; 16:17-21; 19:11-21; 20:11-15).",
+        "objection": "Critics say that idealism risks detaching the visions from any real history, although Revelation claims to show “what must soon take place” and predicts a concrete return, resurrection and judgment. Most idealists answer that they affirm those final events and read only the intervening symbols as transhistorical.",
+        "sources": ["hendriksen-more-than-conquerors", "beale-revelation-nigtc", "pate-four-views-revelation"]
+      }
+    ],
+    "sources": ["clouse-meaning-millennium", "bock-three-views", "gregg-revelation-four-views", "beale-revelation-nigtc"]
+  },
+  {
+    "id": "matthew-24",
+    "title": "The Olivet Discourse (Matthew)",
+    "ref": "Matthew 24:1–51",
+    "ranges": ["Matthew 24:1-51"],
+    "category": "olivet",
+    "summary": "After Jesus predicts the temple's destruction, the disciples ask when it will happen and what will be the sign of his coming (parousia) and of the end of the age (synteleia tou aiōnos). Jesus describes false messiahs, wars, persecution, the gospel going to the whole world, the “abomination of desolation”, great tribulation, cosmic signs and the Son of Man coming on the clouds. He then says “this generation” (hē genea hautē) will not pass away until all these things take place (24:34), but that no one knows the day or hour (24:36).",
+    "keyIssue": "What “this generation” (genea) in 24:34 means, and whether the discourse moves at 24:36 from the AD 70 destruction to the final coming. Nearly every reading depends on how the timing word in 24:34 relates to the coming of the Son of Man in 24:30 (quoting Daniel 7:13) and to the parousia language in 24:27, 37 and 39.",
+    "timeText": true,
+    "topics": ["olivet-generation", "great-tribulation", "second-coming", "rapture", "antichrist"],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "Matthew 24:4-34 predicts the events of AD 66-70. “This generation” means Jesus' contemporaries, as it does every other time in Matthew (11:16; 12:41-45; 23:36). The abomination of desolation is the Roman (and Zealot) desecration of the temple; the great tribulation is the siege of Jerusalem; and the Son of Man “coming on the clouds” (24:30) is Daniel 7:13 imagery for Christ's vindication and enthronement, shown in judgment on the city. Most partial preterists (Gentry, Sproul, DeMar, France) see a shift at 24:36 to the still-future final coming.",
+        "support": "The disciples' question is set off by the temple prediction (24:1-3). Within Matthew the timing is tied together: 23:36 says judgment will fall on “this generation”, 16:28 says some standing there will not taste death, and 26:64 says the high priest will “see” the Son of Man coming. In the prophets, cosmic collapse is standard imagery for the fall of nations (Isaiah 13:10; 34:4), and the details of the siege recorded by Josephus closely fit.",
+        "objection": "Futurists reply that Jesus describes the coming as universal and visible, like lightning (24:27), followed by a worldwide gathering of the elect (24:31), and that the tribulation is called unequalled in all history (24:21). The contrast between “these things” and “that day” is also disputed, since parousia appears on both sides of 24:36 (24:27, 37, 39).",
+        "sources": ["sproul-last-days", "demar-last-days-madness", "france-matthew-nicnt", "gentry-ice-great-tribulation"]
+      },
+      {
+        "position": "postmil",
+        "reading": "Most modern postmillennialists hold the partial-preterist reading of 24:1-34 and stress what it means for history. The great tribulation is behind the church, not ahead of it. The gospel was preached to the whole oikoumenē before AD 70 (24:14; compare Colossians 1:6, 23), and the end of the old covenant order leaves the kingdom free to grow. Kik divided the discourse at 24:35/36: the first part is AD 70, the second the unannounced Second Coming at the end of history.",
+        "support": "Paul uses the same language of universal proclamation about his own day (Romans 1:8; 10:18; Colossians 1:23). Removing a future global tribulation takes away the main textual objection to an optimistic view of the church age, and 24:36-51 still teaches watchfulness for a future coming.",
+        "objection": "Amillennialists and premillennialists argue that the signs (deception, lawlessness, persecution) are presented as typical of the whole age until the end, so the discourse does not support optimism even if AD 70 is in view. Futurists add that 24:14 ties the gospel's spread to “the end” (to telos), not to the temple's fall.",
+        "sources": ["kik-eschatology-of-victory", "gentry-he-shall-have-dominion", "mathison-postmillennialism"]
+      },
+      {
+        "position": "amil",
+        "reading": "The discourse answers both questions together. AD 70 is a real, near fulfilment and also a type of the final judgment, so the signs are both fulfilled in the first century and repeated through the whole age. The tribulation, deception and false Christs mark the entire interadvental period and intensify before the end. Amillennialists differ on details: Hoekema treats the signs as present throughout history; Riddlebarger accepts a preterist reading of much of 24:4-34 while holding 24:29-31 and 36-51 as future.",
+        "support": "Prophetic “foreshortening” is common in the Old Testament: Isaiah speaks of the return from Babylon and the messianic age in one breath. The disciples assumed the temple's fall meant the end of the age, and Jesus answers both without separating them sharply, while still saying the end is not yet (24:6).",
+        "objection": "Preterists object that “all these things” in 24:34 forbids double reference: the whole set of signs must occur within the generation. Dispensationalists object that a vague, age-long tribulation empties the specific language of 24:15-21 (a single event, a specific place, a flight from Judea).",
+        "sources": ["hoekema-bible-future", "riddlebarger-case-amil"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "Jesus looks at two events through one lens: the near destruction of Jerusalem and the end of the age, with the second still future. The tribulation of 24:21-29 culminates at the end in a final crisis, which the church will go through. The coming of 24:30-31 is the single posttribulational return, when the angels gather the elect with a trumpet (the same gathering as 1 Thessalonians 4:16-17). On 24:34, writers such as Blomberg take “all these things” to mean the preliminary signs of 24:4-28, all of which had begun before AD 70, while the coming itself is open-ended.",
+        "support": "The return comes “immediately after” the tribulation (24:29), and the elect are gathered then (24:31), not before, which fits a posttribulational return. Luke's parallel clarifies that a long Gentile period follows the fall of Jerusalem (Luke 21:24). The “trumpet” and “gathering” match Paul's rapture language.",
+        "objection": "Preterists ask how “all these things” in 24:33-34 can exclude the coming in 24:30, which is the climax of the list. Dispensationalists argue that the setting is Jewish (Judea, the Sabbath, 24:16, 20) and concerns Israel, not the church.",
+        "sources": ["ladd-blessed-hope", "blomberg-chung-historic-premil", "hultberg-three-views-rapture"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "Most of the discourse describes the future seven-year tribulation, especially its second half (24:15-28), which begins when the Antichrist sets up the abomination in a rebuilt temple (Daniel 9:27; 2 Thessalonians 2:4). The passage addresses believing Israel in that period, not the church, which will already have been raptured. “This generation” means the generation alive when these signs begin (Walvoord, Ice), or alternatively “this race” of Israel (Scofield). The Son of Man's coming in 24:30 is the visible Second Coming to set up the millennial kingdom.",
+        "support": "Jesus himself links the abomination to Daniel (24:15), which dispensationalists place in the future seventieth week. The scale of the tribulation (“such as has not been from the beginning of the world”, 24:21) and the cosmic signs exceed AD 70. The surrounding parables (24:32-33, the fig tree) describe the generation that “sees all these things”.",
+        "objection": "Critics argue that genea elsewhere in Matthew always means Jesus' contemporaries, and that the reading “the generation that sees these signs” is not natural Greek usage. Luke's parallel (Luke 21:20) interprets the abomination as Jerusalem surrounded by armies, which points to AD 70. Pre-tribulational placement of the church outside the discourse is also contested by historic premillennialists.",
+        "sources": ["walvoord-millennial-kingdom", "pentecost-things-to-come", "gentry-ice-great-tribulation"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "The whole discourse, including 24:36-51, was fulfilled within the generation that heard it. There is one question, one coming and one end of the age (the end of the old covenant age), and “this generation” governs all of it. The parousia, the gathering of the elect and the end of the age took place in AD 70, so no future visible return remains.",
+        "support": "Full preterists stress that the disciples' question is a single question with linked parts (24:3), that “all these things” (24:34) includes the coming of 24:30, and that parousia is used both before and after 24:36. They argue that dividing the discourse at 24:36 is an inconsistency on the part of partial preterists.",
+        "objection": "Partial preterists and futurists answer that 24:36 begins a contrast (peri de, “but concerning”) between datable signs and an unannounced day. They also point to other texts that present the return as bodily and visible (Acts 1:11) and that tie it to the general resurrection (1 Corinthians 15:23). Critics also note that this view sits outside the creedal confession of a future return to judge the living and the dead.",
+        "sources": ["king-spirit-of-prophecy", "mathison-when-shall"]
+      }
+    ],
+    "sources": ["gentry-ice-great-tribulation", "france-matthew-nicnt", "sproul-last-days", "walvoord-millennial-kingdom"]
+  },
+  {
+    "id": "mark-13",
+    "title": "The Olivet Discourse (Mark)",
+    "ref": "Mark 13:1–37",
+    "ranges": ["Mark 13:1-37"],
+    "category": "olivet",
+    "summary": "Mark's shorter version, probably the earliest. The disciples ask only when the temple will be destroyed and what the sign will be that “all these things” are about to be accomplished (13:4). Jesus warns of deceivers and persecution, says the gospel must first be preached to all nations (13:10), speaks of the abomination “standing where he ought not” (13:14), describes cosmic signs and the Son of Man coming with great power, says this generation will not pass until all these things happen (13:30), and ends with a call to watch because no one knows the day or hour (13:32-37).",
+    "keyIssue": "Mark's version of the question is only about the temple and “these things”, and there is no parousia language. Preterists take this as evidence that the discourse is about AD 70; futurists see the same structure as Matthew (signs, then a final coming) and take 13:32 as the turning point toward the last day.",
+    "timeText": true,
+    "topics": ["olivet-generation", "great-tribulation", "second-coming", "antichrist"],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "Mark's framing (13:1-4) is entirely about the temple, so 13:5-31 describes AD 70. The masculine participle in 13:14 (hestēkota, “he” standing) suggests a person or army desecrating the sanctuary. 13:24-27 uses Isaiah's and Daniel's imagery for the fall of the old order and the Son of Man's vindication, with the “gathering of the elect” referring to the worldwide mission. Many partial preterists see 13:32-37 as moving to the final day.",
+        "support": "Without the parousia question that appears in Matthew, the natural antecedent of “these things” in 13:4, 13:29 and 13:30 is the temple's destruction. Jesus' warning to flee to the mountains (13:14) fits Judea under siege and makes little sense for a global end-time event.",
+        "objection": "Futurists reply that 13:24-27 introduces a decisive, visible coming “with great power and glory” and a gathering “from the ends of the earth”, which goes well beyond AD 70, and that Mark's readers would have heard Daniel 7:13 as a coming at the end. Full preterists object that the break at 13:32 is arbitrary.",
+        "sources": ["wright-jesus-victory", "sproul-last-days", "demar-last-days-madness"]
+      },
+      {
+        "position": "postmil",
+        "reading": "Postmillennialists generally share the partial-preterist reading. They emphasise 13:10, which says the gospel must first be preached to all nations before the fall of Jerusalem, and stress that the discourse warns about the first-century crisis rather than predicting the course of the whole church age. Christ's present reign continues after AD 70, and the church's task of discipling the nations goes on.",
+        "support": "The emphasis is on local events (Judea, housetops, winter) and the disciples' own persecution before councils and synagogues (13:9), which fits the first century. Acts and Paul's letters describe the gospel reaching the nations within that generation.",
+        "objection": "Critics say the passage gives no positive picture of the later age at all; postmillennial optimism has to come from other texts. Futurists also question whether 13:10 was fully realised before AD 70.",
+        "sources": ["gentry-he-shall-have-dominion", "kik-eschatology-of-victory"]
+      },
+      {
+        "position": "amil",
+        "reading": "The discourse mixes near and far horizons. The temple's destruction is a type, a preview, of the final judgment, and the dangers it describes (deception, persecution, false messiahs) continue throughout the age. 13:24-27 points to the Second Coming, and the call to watch (13:33-37) applies to every generation of the church.",
+        "support": "The parable of the doorkeeper (13:34-37) addresses “all” (13:37) and assumes a long absence of the master, which suggests that the discourse looks beyond the first generation.",
+        "objection": "Preterists argue that the same “all” in 13:30 limits the whole set of signs to one generation, so the two horizons cannot be separated as easily as the amillennial reading suggests.",
+        "sources": ["hoekema-bible-future", "riddlebarger-case-amil"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "Historic premillennialists read Mark 13 much as Ladd did: Jesus spoke of the fall of Jerusalem and of the end of the age without clearly separating them in time. The near event fulfilled the first horizon, and the final tribulation and posttribulational return still lie ahead. The gathering of the elect (13:27) is the church's resurrection and rapture at the end of the tribulation.",
+        "support": "The sequence “in those days, after that tribulation” (13:24) puts the coming after the tribulation, which fits a posttribulational rapture. The disciples are addressed as representatives of the church in the gospel's mission to all nations (13:10).",
+        "objection": "Pretribulational dispensationalists argue that the elect here are tribulation saints (often Jewish), not the raptured church. Preterists argue that “prophetic telescoping” does not answer the explicit time limit in 13:30.",
+        "sources": ["ladd-blessed-hope", "blomberg-chung-historic-premil"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "Mark 13:14-27 describes the future tribulation and the abomination set up by the Antichrist in a rebuilt temple, followed by Christ's visible coming. The “elect” are believers on earth during that period, especially the Jewish remnant. “This generation” means the one that sees these final signs.",
+        "support": "Jesus calls the tribulation unique in all history (13:19), and the coming involves cosmic upheaval and a universal gathering (13:27). Dispensationalists argue that these exceed anything that occurred in AD 70.",
+        "objection": "Critics answer that hyperbolic “never before” language is used of other local judgments in the Old Testament (Ezekiel 5:9; Daniel 9:12), and that Mark gives no sign of a two-thousand-year gap or a rebuilt temple.",
+        "sources": ["walvoord-millennial-kingdom", "pentecost-things-to-come"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "Every element of Mark 13, including the coming of the Son of Man and the gathering of the elect, was fulfilled by AD 70. Since the question in 13:4 asks only about “these things”, the whole answer refers to them, and 13:30 sets its limit.",
+        "support": "Full preterists treat Mark's wording as their strongest Olivet evidence, because there is no separate question about the end of the world, and they argue that the “day or hour” of 13:32 is the hour of the same event.",
+        "objection": "Critics answer that other New Testament texts link the coming to a bodily resurrection and a renewed creation (Romans 8:18-23; 1 Corinthians 15), neither of which occurred in AD 70. They also note that this position lies outside the historic creeds.",
+        "sources": ["king-spirit-of-prophecy", "mathison-when-shall"]
+      }
+    ],
+    "sources": ["wright-jesus-victory", "gentry-ice-great-tribulation", "hoekema-bible-future"]
+  },
+  {
+    "id": "luke-21",
+    "title": "The Olivet Discourse (Luke)",
+    "ref": "Luke 21:5–36",
+    "ranges": ["Luke 21:5-36"],
+    "category": "olivet",
+    "summary": "Luke's account replaces the “abomination of desolation” with the plain warning “when you see Jerusalem surrounded by armies” (21:20). Jerusalem will be trampled by Gentiles “until the times of the Gentiles are fulfilled” (21:24). Then come signs in sun, moon and stars and the Son of Man coming in a cloud. Believers are to lift up their heads, because their redemption is drawing near (21:28); this generation will not pass away until all has taken place (21:32).",
+    "keyIssue": "Luke explicitly ties the abomination to the Roman siege of AD 70, which preterists take as the key to the parallels. But he also adds “the times of the Gentiles” (21:24), which seems to place an open-ended period between the city's fall and the coming of the Son of Man. Everything turns on how 21:24 relates to 21:25-28.",
+    "timeText": true,
+    "topics": ["olivet-generation", "great-tribulation", "israel", "second-coming"],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "Luke is the inspired interpreter of the parallels: the desolation is the Roman siege, and the “days of vengeance” (21:22) are the fulfilment of the curses on covenant-breaking Jerusalem. Some partial preterists also read the cosmic signs and the coming in 21:25-28 as the AD 70 judgment-vindication, with “redemption” referring to the church's deliverance from its persecutors; others take 21:24 as a hinge and 21:25-36 as future.",
+        "support": "Luke's language is concrete and local (armies, Judea, those in the country, 21:20-21). The phrase “all that is written” being fulfilled (21:22) presents AD 70 as the climax of covenant judgment. The time text in 21:32 matches Matthew and Mark.",
+        "objection": "Futurists argue that the “times of the Gentiles” in 21:24 opens an indefinite period after AD 70, and that the coming of 21:27 comes after it, so 21:25-28 must be later than AD 70. Partial preterists are themselves divided on this point.",
+        "sources": ["sproul-last-days", "demar-last-days-madness", "gentry-ice-great-tribulation"]
+      },
+      {
+        "position": "postmil",
+        "reading": "With most partial preterists, postmillennialists see 21:20-24 as fulfilled in AD 70 and the “times of the Gentiles” as the long era of the gospel among the nations. Many (following the Puritans and Romans 11:25) expect that this era will eventually be followed by a large turning of the Jews to Christ, which will bring further blessing to the world.",
+        "support": "“Until” (achri) in 21:24 implies that Jerusalem's trampling has a limit, which parallels Paul's “until the fullness of the Gentiles has come in” (Romans 11:25). That supports the hope of a future ingathering of Israel within history.",
+        "objection": "Critics argue that the Romans 11 link is not clearly made by Luke and that 21:24 may simply refer to Gentile domination until the end, not to a period of growing gospel success.",
+        "sources": ["murray-puritan-hope", "gentry-he-shall-have-dominion"]
+      },
+      {
+        "position": "amil",
+        "reading": "Luke separates the two horizons more clearly than Matthew or Mark. 21:8-24 concerns AD 70; 21:24 opens the church age (the times of the Gentiles); 21:25-28 describes the Second Coming at its end. The discourse thus supports a single future return after an indefinite period, with no separate millennial era.",
+        "support": "The structure of the chapter is a near event (the siege), then an open-ended period, then the final coming, which matches the amillennial picture of the present age. The universal language of 21:35 (“all who dwell on the face of the whole earth”) points beyond Judea.",
+        "objection": "Preterists ask how 21:32 (“all has taken place”) can include an event thousands of years later; amillennial answers usually take “all” to refer to the signs leading up to the end, which preterists find strained.",
+        "sources": ["hoekema-bible-future", "riddlebarger-case-amil"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "Luke shows the pattern that historic premillennialists find throughout the discourse: Jerusalem's fall, a long Gentile age, then the posttribulational return of Christ, at which believers' redemption, meaning bodily resurrection and the gathering of the church, arrives (21:28). Many also read 21:24 as implying a future restoration of Israel.",
+        "support": "The redemption of 21:28 parallels Romans 8:23 (the redemption of our bodies), suggesting the resurrection at the end. The open-ended times of the Gentiles makes room for a future coming after a long period.",
+        "objection": "Preterists press 21:32 again; dispensationalists argue that Luke's focus on Jerusalem points to a specifically Jewish future programme, which historic premillennialism does not develop.",
+        "sources": ["ladd-blessed-hope", "blomberg-chung-historic-premil"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "Dispensationalists usually concede that Luke 21:20-24 describes AD 70, unlike Matthew 24:15. They argue that Luke records a different part of Jesus' teaching, while 21:25-28 jumps forward to the end of the future tribulation and Christ's return. The “times of the Gentiles”, which began with Nebuchadnezzar and continue today, end when Christ restores Jerusalem and Israel.",
+        "support": "The “until” of 21:24 implies that Jerusalem will one day no longer be trampled, which fits national Israel's restoration. The different wording in Luke (armies rather than an abomination in the holy place) allows Matthew's abomination to remain a separate, future event.",
+        "objection": "Critics say that treating Luke 21:20 as a different event from the parallel Matthew 24:15 and Mark 13:14, which sit in the same place in the discourse with the same command to flee, is special pleading driven by the system.",
+        "sources": ["walvoord-millennial-kingdom", "pentecost-things-to-come", "gentry-ice-great-tribulation"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "The whole chapter, including the coming in a cloud and the believers' redemption, was fulfilled within the generation (21:32). The times of the Gentiles are the short period of Roman trampling in AD 66-70, which ended with the consummation of the kingdom (21:31).",
+        "support": "Full preterists point to the time limit in 21:32 and the near-redemption language of 21:28, which is addressed to the disciples (“your redemption”).",
+        "objection": "Critics argue that the Gentile trampling of Jerusalem continued for centuries after AD 70, and that “redemption” elsewhere includes the bodily resurrection (Romans 8:23), which full preterism does not expect in a physical sense. They note that this view lies outside creedal orthodoxy.",
+        "sources": ["king-spirit-of-prophecy", "mathison-when-shall"]
+      }
+    ],
+    "sources": ["gentry-ice-great-tribulation", "sproul-last-days", "ladd-blessed-hope"]
+  },
+  {
+    "id": "daniel-2",
+    "title": "The Statue and the Stone",
+    "ref": "Daniel 2:31–45",
+    "ranges": ["Daniel 2:31-45"],
+    "category": "daniel",
+    "summary": "Nebuchadnezzar's dream shows a statue of gold, silver, bronze, iron and iron mixed with clay, representing successive kingdoms. A stone cut out “without hands” strikes the statue's feet, destroys it entirely and grows into a great mountain that fills the earth. Daniel explains that “in the days of those kings” God will set up a kingdom that will never be destroyed (2:44).",
+    "keyIssue": "When the stone strikes, and how the kingdom grows. If the stone is Christ's first advent in the days of Rome and the kingdom then grows gradually to fill the earth, the passage supports a present, expanding kingdom. If the stone strikes a future, revived form of the fourth kingdom suddenly at the Second Coming, it supports premillennialism. Conservative interpreters usually identify the kingdoms as Babylon, Medo-Persia, Greece and Rome; critical scholars usually make them Babylon, Media, Persia and Greece.",
+    "timeText": false,
+    "topics": ["kingdom", "optimism", "second-coming", "church-history"],
+    "readings": [
+      {
+        "position": "postmil",
+        "reading": "The stone is Christ and his kingdom, set up during the Roman empire at his first coming. Growing from a small stone into a mountain that fills the earth is a picture of the gradual, worldwide spread of his kingdom in history through the gospel, until it overwhelms all rival powers. Daniel 2 is thus one of postmillennialism's key Old Testament proofs of the kingdom's growth before the end.",
+        "support": "The kingdom is established “in the days of those kings” (2:44), meaning during the fourth empire, which fits Christ's announcement that the kingdom had come near (Mark 1:15). The growth image matches the parables of the mustard seed and leaven (Matthew 13:31-33).",
+        "objection": "Premillennialists answer that in the dream the stone first destroys the statue completely, so the destruction is sudden and comes before the growth, which does not fit gradual conversion. Amillennialists agree that the kingdom came at the first advent but doubt that the mountain describes a stage of history before the return.",
+        "sources": ["boettner-millennium", "gentry-he-shall-have-dominion", "kik-eschatology-of-victory"]
+      },
+      {
+        "position": "amil",
+        "reading": "The stone is Christ's kingdom, inaugurated at his first advent during the Roman era. It is spiritual and heavenly in origin (“cut without hands”), already present, and will be consummated when Christ returns to destroy all opposing kingdoms. The mountain that fills the earth is the final, universal kingdom, partly realised now in the church among all nations and fully realised in the new creation.",
+        "support": "Jesus may allude to the stone in Luke 20:18, linking it to his own person. The kingdom “shall stand forever” (2:44), which suits a kingdom that runs straight from the first advent into eternity rather than a temporary millennium.",
+        "objection": "Postmillennialists say amillennialism does not take seriously the growth of the stone into a mountain within history. Premillennialists say it reads the crushing of the kingdoms as gradual or spiritual when the text describes a decisive blow.",
+        "sources": ["young-prophecy-of-daniel", "hoekema-bible-future"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "The kingdom of God was inaugurated by Christ, but the decisive smashing of world empires described by the stone comes at his return, which brings in the earthly kingdom. Ladd stresses the “already and not yet”: the kingdom's power is present now, but its visible triumph over the kingdoms of the world is still ahead.",
+        "support": "The stone does not coexist with the statue; it destroys it at one blow (2:34-35), which fits a cataclysmic return (compare Revelation 11:15; 19:15).",
+        "objection": "Critics note that the stone appears “in the days of those kings” (the fourth kingdom), which seems to fix its arrival in Roman times rather than in the distant future.",
+        "sources": ["ladd-blessed-hope", "grudem-systematic"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "The feet and ten toes represent a final, future phase of the Roman empire, a ten-king confederacy that has not yet existed. Christ, the stone, will strike it suddenly at his Second Coming, destroy Gentile world power and set up the millennial kingdom on earth, with Jerusalem as its centre. The kingdom does not grow gradually within the present age.",
+        "support": "The toes and the ten horns of Daniel 7:24 and Revelation 17:12 correspond, and no historical confederacy of ten kings fits them. The striking is catastrophic, not gradual, which matches the description of the return in Revelation 19.",
+        "objection": "Critics say Daniel gives no hint of a gap between the legs and the feet of the fourth kingdom, and the text dates the stone to the days of those kings. A revived Rome is read into the passage rather than drawn from it.",
+        "sources": ["walvoord-daniel", "pentecost-things-to-come"]
+      },
+      {
+        "position": "historicism",
+        "reading": "The four kingdoms are Babylon, Medo-Persia, Greece and Rome; the mixed iron and clay are the divided kingdoms of Western Europe after Rome's fall, which have never been successfully joined by marriage alliances or conquest. Christ's kingdom, begun at his first coming, will finally replace them.",
+        "support": "Historicists (Newton, Barnes) point to the long-term failure of every attempt to reunite Europe (Charlemagne, Napoleon) as striking evidence that the prophecy is being fulfilled in history.",
+        "objection": "Critics argue that the European focus is a narrow reading of a prophecy about God's universal kingdom, and that historical identifications are elastic enough to fit almost any outcome.",
+        "sources": ["newton-observations-daniel", "barnes-notes-revelation"]
+      },
+      {
+        "position": "partial-preterism",
+        "reading": "The stone struck the fourth (Roman) kingdom in the first century: Christ came during the Roman empire, and his kingdom was established at his ascension and vindicated in the judgment of AD 70. Since then it grows into the mountain that fills the earth, as the Christian faith outlasts and replaces the old Roman order.",
+        "support": "The fourth empire is Rome, so the stone's coming has to be placed in the Roman era. Rome's own conversion and eventual collapse while the church continued are taken to illustrate the vision.",
+        "objection": "Futurists reply that Rome continued for centuries after the first advent and that the statue was not destroyed “all together” (2:35) in the first century.",
+        "sources": ["gentry-he-shall-have-dominion", "gregg-revelation-four-views"]
+      }
+    ],
+    "sources": ["young-prophecy-of-daniel", "walvoord-daniel", "newton-observations-daniel"]
+  },
+  {
+    "id": "daniel-7",
+    "title": "The Four Beasts and the Son of Man",
+    "ref": "Daniel 7",
+    "ranges": ["Daniel 7:1-28"],
+    "category": "daniel",
+    "summary": "Daniel sees four beasts rise from the sea. The fourth has ten horns, and a little horn among them speaks boastfully and wages war on the saints for “a time, times and half a time” (7:25). The Ancient of Days sits in judgment, and “one like a son of man” comes with the clouds of heaven to the Ancient of Days and receives everlasting dominion (7:13-14). The kingdom is then given to the saints of the Most High (7:18, 22, 27).",
+    "keyIssue": "Who the little horn is (Antiochus IV, a Roman emperor, the papacy, or a future Antichrist) and what direction the Son of Man's “coming” takes. In 7:13 he comes to the Ancient of Days, which many read as Christ's ascension and enthronement; futurists read it as his return to earth. Jesus' use of the verse (Mark 14:62) is central.",
+    "timeText": false,
+    "topics": ["antichrist", "kingdom", "second-coming", "great-tribulation", "church-history"],
+    "readings": [
+      {
+        "position": "postmil",
+        "reading": "The Son of Man ascends to the Ancient of Days (7:13), which is Christ's ascension and enthronement, and receives a kingdom in which all peoples, nations and languages will serve him (7:14). That service is achieved through the gospel in history. The saints share his rule (7:18, 27), which postmillennialists connect with the church's task of discipling the nations.",
+        "support": "The direction is explicit: the figure comes to the Ancient of Days, not down to earth. Jesus' post-resurrection claim to all authority (Matthew 28:18) echoes 7:14 in the Greek translation. The worldwide scope (all nations serving) shapes the postmillennial hope.",
+        "objection": "Critics note that the saints receive the kingdom only after the little horn's persecution and the judgment (7:21-22, 26-27), which places the full kingdom at the end, not in a gradual process within history.",
+        "sources": ["gentry-he-shall-have-dominion", "mathison-postmillennialism", "wright-jesus-victory"]
+      },
+      {
+        "position": "amil",
+        "reading": "7:13-14 is fulfilled in Christ's ascension and heavenly enthronement, and the saints receive the kingdom now in principle and at the end in fullness. The little horn is a type of the final Antichrist: an anti-God ruler who persecutes the church. Antiochus IV (pictured in Daniel 8) is an early instance, and a final figure will appear before the end. The “time, times and half a time” is symbolic of the limited period of the church's suffering, picked up in Revelation 12-13.",
+        "support": "The book of Revelation reuses Daniel 7 for the church age (the beast of Revelation 13 combines Daniel's four beasts), which suggests the pattern is ongoing. Jesus' words to the high priest (Mark 14:62) say the Sanhedrin will see him enthroned, which fits ascension.",
+        "objection": "Dispensationalists argue that the little horn's specific actions and final destruction at the judgment (7:11, 26) describe one individual at the end, not a recurring type. Preterists argue that the ruler should be found in the first century.",
+        "sources": ["riddlebarger-man-of-sin-book", "young-prophecy-of-daniel", "beale-revelation-nigtc"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "The fourth beast is Rome and its later forms; the little horn is the future Antichrist, who persecutes the saints (the church) during the final tribulation. The Son of Man's receiving of the kingdom is enthronement, but its outworking on earth, when the saints take the kingdom (7:22), comes at Christ's return, followed by his earthly reign.",
+        "support": "The saints are persecuted by the horn until the judgment (7:21-22), which suggests that the church goes through the final tribulation, a key posttribulational point. Jesus in Matthew 24:30 uses Daniel 7:13 language for a future coming.",
+        "objection": "Amillennialists say that Daniel's kingdom is eternal (7:14, 27), with no intermediate millennial stage. Preterists say that Jesus applied Daniel 7:13 to events within that generation.",
+        "sources": ["ladd-blessed-hope", "grudem-systematic"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "The ten horns are a future ten-nation confederacy arising from a revived Roman empire. The little horn is the coming Antichrist, who will rule it and persecute Israel and tribulation saints for three and a half years (the second half of Daniel's seventieth week). The Son of Man then comes in glory to destroy him and establish the millennial kingdom, in which the saints reign.",
+        "support": "Daniel 7, Daniel 9:27, 2 Thessalonians 2:3-8 and Revelation 13 describe a single blasphemous persecutor who rules for the same period (three and a half years, 42 months, 1260 days), which suggests one future person.",
+        "objection": "Critics argue that the dispensational scheme requires an unmentioned gap of millennia within the fourth beast. Many also reject reading the “coming” of 7:13 as a descent when the text describes an ascent to God's throne.",
+        "sources": ["walvoord-daniel", "pentecost-things-to-come"]
+      },
+      {
+        "position": "historicism",
+        "reading": "The little horn is the papacy, rising among the ten kingdoms that succeeded Rome, uprooting three of them (in one common Protestant reckoning the Heruli, Vandals and Ostrogoths; Newton proposed a different three), speaking great words and persecuting the saints. By the year-day principle, its “time, times and half a time” is 1,260 years, often dated from AD 538 to 1798, when Napoleon's general took the pope prisoner. This was the dominant Protestant view from the Reformation into the nineteenth century.",
+        "support": "Historicists point to the long reign of papal power, its claims to change “times and law” (7:25), and the striking end of its political power in 1798. They note that the Reformers, the Westminster divines and Newton held this reading.",
+        "objection": "Critics argue that different historicists have assigned different start and end dates, and that the year-day principle is not a stated rule of prophecy. Roman Catholic and many Protestant scholars also reject the identification as polemical.",
+        "sources": ["newton-observations-daniel", "elliott-horae", "barnes-notes-revelation"]
+      },
+      {
+        "position": "partial-preterism",
+        "reading": "The fourth beast is Rome; the little horn is a first-century persecuting ruler (proposals vary, including Nero or the Flavian emperors). The Son of Man came to the Ancient of Days in the ascension, and his kingdom was publicly vindicated in AD 70, when the saints “possessed the kingdom” (7:22) as the old covenant order ended.",
+        "support": "Jesus applies Daniel 7:13 to what the Sanhedrin would see (Mark 14:62) and to the coming within his generation (Matthew 24:30, 34). Placing the vision in the Roman era fits the four-empire sequence.",
+        "objection": "Critics argue that no single first-century emperor clearly matches all the horn's details, and that proposals vary widely among preterists. Others argue that Daniel 7 should be read alongside chapters 8 and 11, which point to Antiochus.",
+        "sources": ["gentry-he-shall-have-dominion", "wright-jesus-victory"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "Daniel 7 was entirely fulfilled by AD 70: the Son of Man received his kingdom, the persecuting powers were judged, and the saints took possession of the everlasting kingdom when the old covenant ended. Nothing in the vision remains to be fulfilled.",
+        "support": "Full preterists link 7:22 (the time came for the saints to possess the kingdom) with Jesus' promise that the kingdom would come in power within the lifetime of his hearers (Mark 9:1).",
+        "objection": "Critics point out that Daniel 7 describes the destruction of all opposing kingdoms and the universal service of all peoples, which did not occur in AD 70. They note that the view rejects the creedal hope of a future return.",
+        "sources": ["king-spirit-of-prophecy", "mathison-when-shall"]
+      }
+    ],
+    "sources": ["young-prophecy-of-daniel", "walvoord-daniel", "newton-observations-daniel", "wright-jesus-victory"]
+  },
+  {
+    "id": "daniel-9",
+    "title": "The Seventy Weeks",
+    "ref": "Daniel 9:24–27",
+    "ranges": ["Daniel 9:24-27"],
+    "category": "daniel",
+    "summary": "Gabriel tells Daniel that seventy “sevens” (shavuʿim) are decreed for his people and city: to finish transgression, put an end to sin, atone for iniquity, bring in everlasting righteousness, seal vision and prophet, and anoint a most holy place (or one). From a decree to rebuild Jerusalem to an anointed one are seven sevens and sixty-two sevens; after the sixty-two, an anointed one is “cut off”, and the people of a coming prince destroy the city and sanctuary. “He” confirms a covenant with many for one seven, and in its middle puts an end to sacrifice.",
+    "keyIssue": "Whether the seventy weeks run continuously, with the seventieth fulfilled in Christ's ministry and death (most preterist, postmillennial, amillennial and historicist readings), or whether there is a gap after the sixty-ninth, with the seventieth a future seven-year tribulation (dispensational). The crux is the antecedent of “he” in 9:27 (Messiah, or the coming prince) and which decree starts the count (538, 458 or 445/444 BC).",
+    "timeText": true,
+    "topics": ["seventy-weeks", "great-tribulation", "antichrist", "israel"],
+    "readings": [
+      {
+        "position": "postmil",
+        "reading": "The seventy weeks run continuously. Counting from Artaxerxes' decree to Ezra (458/457 BC), 483 years reach AD 26/27 and Jesus' baptism. In the middle of the seventieth week the Messiah is cut off, and his once-for-all sacrifice ends the validity of temple sacrifices. He “confirms the covenant with many” (the new covenant, compare Matthew 26:28). The destruction of AD 70 is the consequence of his rejection. The six goals of 9:24 are accomplished by Christ's atoning work.",
+        "support": "The six goals of 9:24 are redemptive (atonement, everlasting righteousness) and fit the cross. Nothing in the text signals an interruption of the count. The most natural antecedent of “he” is the Messiah, the main subject of the prophecy, and “confirming a covenant with many” echoes Isaiah 53:11-12.",
+        "objection": "Dispensationalists argue that the nearest antecedent of “he” is “the prince who is to come” (9:26), and that the destruction of the city in 9:26 falls after the sixty-nine weeks but is not placed in the seventieth, implying a gap. They also note that the 458 BC decree is about the temple and worship rather than rebuilding the city.",
+        "sources": ["gentry-he-shall-have-dominion", "mathison-postmillennialism", "mauro-seventy-weeks"]
+      },
+      {
+        "position": "amil",
+        "reading": "Most Reformed amillennialists also see the prophecy fulfilled in Christ. E. J. Young took the weeks as symbolic periods culminating in Christ; Meredith Kline argued that the Messiah confirms the covenant and that the seventieth week extends symbolically through the church age, so the second half corresponds to the church's tribulation (the 1,260 days of Revelation 11-12). Riddlebarger is broadly sympathetic to Kline's reading.",
+        "support": "Revelation reuses the half-week period (“time, times and half a time”, 42 months) for the church's experience between the advents, which suggests that the second half of the seventieth week is symbolically extended. The messianic reading of 9:27 has a long history in the church.",
+        "objection": "Dispensationalists argue that a symbolic stretching of the seventieth week is itself a kind of gap. Postmillennial preterists argue that the plain arithmetic fits Christ's ministry without extending the week.",
+        "sources": ["young-prophecy-of-daniel", "kline-seventieth-week", "riddlebarger-case-amil"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "Historic premillennialists are divided. Many accept the messianic reading of 9:25-26 (Christ's coming and death) while leaving open a final fulfilment of 9:27's desolator in the end-time Antichrist, as Jesus' use of the abomination in Matthew 24:15 and Paul's man of lawlessness (2 Thessalonians 2:4) may suggest. Others adopt a futurist seventieth week without the full dispensational framework.",
+        "support": "Jesus treats the abomination of desolation as still future in his day (Matthew 24:15), which seems to place at least part of Daniel 9:27 after the crucifixion. Early church writers such as Irenaeus and Hippolytus already saw a future Antichrist in the last week.",
+        "objection": "Preterists answer that Jesus' “abomination” was fulfilled within his generation in AD 70, and dispensationalists answer that the divided historic premillennial approach lacks a coherent account of the gap.",
+        "sources": ["ladd-blessed-hope", "irenaeus-against-heresies"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "Sixty-nine weeks (483 years of 360 days each) run from Artaxerxes' decree to Nehemiah (444 BC) to Christ's triumphal entry (Hoehner: AD 33). Messiah is cut off after the sixty-ninth week; then the prophetic clock stops for the church age. The seventieth week is a future seven-year tribulation that begins when the coming prince (the Antichrist, from the people who destroyed the temple, the Romans) makes a covenant with Israel; he breaks it in the middle by stopping temple sacrifices.",
+        "support": "The events of 9:26 (the cutting off and the destruction of the city) come “after” the sixty-two weeks, not in the seventieth, which, Ice argues, implies a gap. The six goals of 9:24 include Israel's national restoration, which has not happened. Jesus placed the abomination in the future (Matthew 24:15).",
+        "objection": "Critics say a 2,000-year gap within a counted period of seventy weeks would make the counting meaningless, and that the antecedent of “he” in 9:27 is more naturally the Messiah, since “the prince” in 9:26 is subordinate to “the people”. Hoehner's 360-day year calculation is also disputed.",
+        "sources": ["ice-why-gap-daniel-70-weeks", "hoehner-chronological-aspects", "walvoord-daniel"]
+      },
+      {
+        "position": "partial-preterism",
+        "reading": "The seventy weeks were completely fulfilled in the first century. Christ's work accomplished the goals of 9:24; he was cut off in the middle of the seventieth week; and the desolation of 9:26-27 is the Roman destruction of Jerusalem, which Jesus explicitly linked to Daniel (Matthew 24:15). Some (Gentry) end the seventieth week around AD 34 with the gospel turning to the Gentiles; AD 70 is the outworking of the covenant judgment.",
+        "support": "Jesus' warning about the abomination (Matthew 24:15) and Luke's parallel (Luke 21:20) tie Daniel's desolation to the Roman siege. A continuous count fits the arithmetic and the theological goals.",
+        "objection": "Critics observe that AD 70 falls nearly forty years after the end of the seventieth week on this reading, so 9:26-27 must refer to events outside the seventy weeks, which they see as a gap of another kind.",
+        "sources": ["gentry-he-shall-have-dominion", "mauro-seventy-weeks", "demar-last-days-madness"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "The seventieth week extends to AD 70 and includes the consummation of all prophecy. The goals of 9:24 (to seal vision and prophecy, bring in everlasting righteousness) were completed at the destruction of the temple, so all prophecy, including the resurrection, was fulfilled then.",
+        "support": "Full preterists argue that “sealing up vision and prophet” means the fulfilment of all prophecy, which places every remaining expectation, including the resurrection, within the seventy weeks.",
+        "objection": "Critics argue that this stretches the seventieth week to about forty years, which is no more natural than the dispensational gap, and that the claim that all prophecy has been fulfilled conflicts with the creedal confession of a future return and resurrection.",
+        "sources": ["king-spirit-of-prophecy", "mathison-when-shall"]
+      },
+      {
+        "position": "historicism",
+        "reading": "Classical historicists (Newton, Barnes, Elliott) read the seventy weeks as fulfilled in Christ: counting from Artaxerxes' seventh year (457 BC), 483 years reach AD 27 and the Messiah's public ministry. They regarded this prophecy as the clearest confirmation of the year-day principle, since its “weeks” must be weeks of years.",
+        "support": "The accuracy of the count in years, starting from a known decree and ending in Christ's ministry, is offered as a template for interpreting other prophetic periods in years.",
+        "objection": "Critics accept that the seventy weeks are “sevens” of years but deny that this justifies applying a day-for-a-year rule to the other numbers in Daniel and Revelation, where the text speaks of days and months.",
+        "sources": ["newton-observations-daniel", "barnes-notes-revelation"]
+      }
+    ],
+    "sources": ["ice-why-gap-daniel-70-weeks", "young-prophecy-of-daniel", "hoehner-chronological-aspects", "gentry-he-shall-have-dominion"]
+  },
+  {
+    "id": "2-thessalonians-2",
+    "title": "The Man of Lawlessness",
+    "ref": "2 Thessalonians 2:1–12",
+    "ranges": ["2 Thessalonians 2:1-12"],
+    "category": "epistles",
+    "summary": "Concerning the coming (parousia) of Christ and our gathering to him, Paul tells the Thessalonians not to be shaken by claims that the Day of the Lord has already come. It will not come unless the apostasia (rebellion or apostasy) comes first and the man of lawlessness is revealed, who sets himself up in the temple of God. Something (neuter, to katechon, 2:6) and someone (masculine, ho katechōn, 2:7) restrains him now; the mystery of lawlessness is “already at work”. When the restrainer is removed, the lawless one will be revealed, and the Lord Jesus will destroy him with the breath of his mouth and the appearance of his coming.",
+    "keyIssue": "Who the restrainer is, what the apostasia is, and whether the man of lawlessness is a first-century figure (Nero, or a Jewish leader in the AD 70 crisis), the papacy, or a future Antichrist. Also contested is which coming is in view: the parousia that destroys him (2:8) could be the final return or, on preterist readings, the AD 70 judgment.",
+    "timeText": true,
+    "topics": ["antichrist", "rapture", "second-coming", "great-tribulation"],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "Gentry reads 2 Thessalonians 2 as concerned with first-century events. The man of lawlessness is Nero; the restrainer is Claudius and Roman law (noting the claudere, “to shut up”, wordplay), which held Nero back until his accession in AD 54. The temple is the Jerusalem temple; the apostasy is the Jewish revolt against Rome and against Christ. The “coming” is Christ's judgment-coming in AD 70. Warfield (1886) similarly read the man of sin as the line of Roman emperors.",
+        "support": "Paul's readers knew who the restrainer was (2:5-6) and the mystery was “already at work” (2:7), which suggests a first-century referent. A standing Jerusalem temple existed when Paul wrote, and Nero's self-deifying claims and his persecution are well documented.",
+        "objection": "Critics argue that Nero never set himself up in the Jerusalem temple, and that the one who is destroyed by Christ's coming (2:8) is linked to the parousia of 2:1, which includes the believers' “gathering” to Christ, a final, future event. Many partial preterists themselves hold the passage is about the end.",
+        "sources": ["gentry-restrainer-man-of-lawlessness", "gentry-before-jerusalem-fell"]
+      },
+      {
+        "position": "amil",
+        "reading": "Before Christ returns there will be a great apostasy within the visible church, and a final Antichrist will appear. The spirit of lawlessness is at work in every age (2:7; 1 John 2:18), and it culminates in a person. The “temple of God” may be the church (Paul's normal use of naos in 1 Corinthians 3:16 and 2 Corinthians 6:16) where false religion takes over. Amillennialists vary on the restrainer: the preaching of the gospel, God's providential order, or civil government.",
+        "support": "Paul joins the parousia with the believers' gathering (2:1) and with the destruction of the lawless one (2:8), so all three happen at the one return. Paul speaks of the mystery already working, which fits a recurring pattern with a final climax.",
+        "objection": "Preterists argue that Paul's readers would have understood the temple as the actual Jerusalem temple, and dispensationalists argue that a spiritualised temple weakens the force of the passage.",
+        "sources": ["riddlebarger-man-of-sin-podcast", "riddlebarger-man-of-sin-book", "vos-pauline-eschatology", "hoekema-bible-future"]
+      },
+      {
+        "position": "postmil",
+        "reading": "Many postmillennialists (Gentry, and Warfield before him) take the partial-preterist view, so the passage does not predict an apostasy at the end of the church age and does not undercut a hopeful view of history. Others, including older postmillennialists, place the apostasy and man of sin later in history (the papacy, for many Puritans) or allow for the final rebellion of Revelation 20:7-9 before the return.",
+        "support": "If the passage was fulfilled in the first century, it cannot prove that history ends in global apostasy, which removes a major objection to postmillennial optimism.",
+        "objection": "Amillennialists answer that the passage most naturally describes the time immediately before the final return, so its warning of apostasy contradicts the expectation of a Christianised world at the end.",
+        "sources": ["gentry-restrainer-man-of-lawlessness", "warfield-millennium-apocalypse"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "The passage is strong evidence for a posttribulational rapture: Paul tells the church that the “gathering to him” (2:1) will not happen before the apostasy and the revelation of the man of lawlessness. The church will see the Antichrist, and Christ will destroy him at his coming. The restrainer is often identified as God's providential order (Roman law in Paul's day) rather than the church.",
+        "support": "If believers were to be removed before the Antichrist appeared, Paul's simplest answer to the Thessalonians' fear would have been “you will be gone before then”. Instead he gives signs they will see first.",
+        "objection": "Pretribulationists argue that Paul's point is that the Day of the Lord (the tribulation) has not begun, which says nothing about the timing of the rapture itself. They also read the restrainer's removal as the church's removal.",
+        "sources": ["ladd-blessed-hope", "gundry-church-tribulation", "hultberg-three-views-rapture"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "The Thessalonians feared they were already in the Day of the Lord, the tribulation. Paul reassures them that it cannot begin until the restrainer, the Holy Spirit working through the church, is taken out of the way (ek mesou genētai) at the rapture. Some pretribulationists (E. Schuyler English, H. Wayne House, Thomas Ice) render apostasia as “departure”, meaning the rapture itself. The man of lawlessness is the future Antichrist, who will sit in a rebuilt Jerusalem temple.",
+        "support": "Only a divine power could restrain Satan's working, and the neuter/masculine switch fits the Holy Spirit (pneuma is neuter in Greek, but the Spirit is a person). The comfort Paul gives (1 Thessalonians 5:9; 2 Thessalonians 2:13) suggests believers are not appointed to the wrath of that day.",
+        "objection": "Critics note that the text does not name the Spirit, that apostasia in the New Testament and the Greek Old Testament means rebellion or defection, not spatial departure (Acts 21:21), and that the Spirit could not be removed from the world while people are still being saved during the tribulation.",
+        "sources": ["walvoord-rapture-question", "pentecost-things-to-come", "hultberg-three-views-rapture"]
+      },
+      {
+        "position": "historicism",
+        "reading": "The man of sin is the papacy, a line of persons in an office, which sits in the church (the temple of God) claiming divine prerogatives. The restrainer was the pagan Roman empire, whose fall cleared the way for papal power. This reading is in the original Westminster Confession (25.6) and was common among the Reformers.",
+        "support": "Historicists argue that the description of an apostasy within the church, centred in the “temple of God”, with a claim to sit in God's place, fits the papacy's development after Rome's fall better than any individual.",
+        "objection": "Critics say the passage describes an individual (“the man”, “the son of destruction”) destroyed at Christ's coming, not an institution lasting many centuries; many later Reformed bodies (for example the PCUSA in 1903) removed the identification from their confessions.",
+        "sources": ["westminster-confession", "elliott-horae", "barnes-notes-revelation"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "The coming of 2:1 and 2:8 is the parousia of AD 70. The man of lawlessness is a first-century figure (proposals include the Jewish high priestly establishment, Zealot leaders in the temple, or Nero), and the gathering of the saints and the destruction of the lawless one took place then.",
+        "support": "Full preterists argue that the parousia of 2:1 and 2:8 should be the same coming as Matthew 24, which Jesus placed within his generation.",
+        "objection": "Critics answer that the “gathering” language links this passage to 1 Thessalonians 4:17, a bodily resurrection, which did not occur in AD 70. Partial preterists add that identifying the coming of 2:8 with AD 70 is possible without denying a future bodily return.",
+        "sources": ["king-spirit-of-prophecy", "mathison-when-shall"]
+      }
+    ],
+    "sources": ["bruce-thessalonians-wbc", "gentry-restrainer-man-of-lawlessness", "riddlebarger-man-of-sin-book", "walvoord-rapture-question"]
+  },
+  {
+    "id": "1-thessalonians-4-5",
+    "title": "The Coming of the Lord and the Day of the Lord",
+    "ref": "1 Thessalonians 4:13–5:11",
+    "ranges": ["1 Thessalonians 4:13-18", "1 Thessalonians 5:1-11"],
+    "category": "epistles",
+    "summary": "Paul comforts grieving believers: at the coming (parousia) of the Lord, those who have died in Christ will rise first, then “we who are alive” will be caught up (harpagēsometha, Latin rapiemur, hence “rapture”) together with them in the clouds to meet (eis apantēsin) the Lord in the air. The Day of the Lord will come like a thief on the unprepared, but believers are children of the day and are not destined for wrath but for salvation.",
+    "keyIssue": "Whether this “catching up” is a separate, pretribulational coming for the church or the single visible return (and whether apantēsis, a civic term for a delegation going out to escort a visiting dignitary back to the city, implies the saints return with Christ to earth). Also, whether “we who are alive” is a time statement, and whether 5:1-11 describes the same event as 4:13-18.",
+    "timeText": true,
+    "topics": ["rapture", "second-coming", "first-resurrection", "final-judgment"],
+    "readings": [
+      {
+        "position": "disppremil",
+        "reading": "This is the rapture of the church, distinct from the Second Coming. Christ comes for his saints (in the air) before the seven-year tribulation, and later comes with them to earth (Zechariah 14:5; Revelation 19:14). The passage says nothing about tribulation signs, unlike Matthew 24, and the comfort Paul offers depends on the church being spared the Day of the Lord's wrath (5:9; 1:10). Prewrath advocates (Rosenthal) place the rapture later, inside the seventieth week but before God's wrath.",
+        "support": "The language of comfort (4:18), the absence of any warning about the Antichrist, and the promise of deliverance from wrath (5:9) fit a rapture before the tribulation. Differences from Matthew 24 (resurrection, meeting in the air, no signs) suggest distinct events.",
+        "objection": "Critics answer that wrath in 5:9 means final condemnation, not the tribulation, and that Paul uses the same terms (parousia, trumpet, angel, clouds) as Jesus in Matthew 24:30-31 for a coming after the tribulation. Nothing in the text separates this coming from the visible return.",
+        "sources": ["walvoord-rapture-question", "pentecost-things-to-come", "rosenthal-prewrath"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "The rapture is the gathering of the church at Christ's single, visible, posttribulational return. Apantēsis describes a welcoming delegation that goes out to meet a visiting ruler and escorts him back, so believers rise to meet Christ and accompany him to earth to reign. The resurrection here is the first resurrection of Revelation 20:4-5, before the millennium.",
+        "support": "The same word (apantēsis) is used in Matthew 25:6 and Acts 28:15 of people going out to meet someone and returning with them. The loud, public signals (a cry of command, an archangel's voice, God's trumpet) are hard to fit a secret event.",
+        "objection": "Pretribulationists argue that apantēsis need not have its technical sense here, and that the passage does not say where Christ and the church go after the meeting. They also argue that posttribulationism makes the rapture an odd up-and-down event.",
+        "sources": ["ladd-blessed-hope", "gundry-church-tribulation", "hultberg-three-views-rapture"]
+      },
+      {
+        "position": "amil",
+        "reading": "This is the one future return of Christ, when all the dead in Christ are raised, living believers are transformed and caught up, and the final judgment and new creation follow. The Day of the Lord (5:2) is the same event from the side of the unbelieving world, which it overtakes with sudden destruction (5:3). There is no separate rapture and no intermediate millennium after it.",
+        "support": "Paul treats the parousia and the Day of the Lord as one event with two sides: rescue for believers, destruction for unbelievers (compare 2 Thessalonians 1:6-10). Other texts tie the resurrection of believers to “the last day” (John 6:39-40).",
+        "objection": "Premillennialists reply that Paul mentions only the resurrection of believers here, which leaves room for the resurrection of the rest at a later point (Revelation 20:5).",
+        "sources": ["hoekema-bible-future", "riddlebarger-case-amil", "waldron-end-times-simple"]
+      },
+      {
+        "position": "postmil",
+        "reading": "Postmillennialists read the passage as amillennialists do: one visible return at the end of history, a general resurrection and the final judgment. Paul's “we who are alive” expresses solidarity with the whole church, not a prediction that the return would come within his lifetime. Most postmillennial partial preterists (Gentry, Mathison) regard this passage as still future.",
+        "support": "Paul admits he does not know the time (5:1-2), and elsewhere he expects that he might die before the return (2 Corinthians 5:1-8; Philippians 1:21-23), so “we” is a general self-inclusion.",
+        "objection": "Full preterists argue that partial preterists are inconsistent: they accept the time texts of Matthew 24 as fulfilled in AD 70 but not Paul's “we who are alive”.",
+        "sources": ["mathison-when-shall", "gentry-he-shall-have-dominion"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "The parousia and gathering were fulfilled in AD 70. Paul expected the coming in his own generation (“we who are alive”), and it came as the spiritual and covenantal resurrection of God's people and their entrance into the presence of God, not a physical removal of bodies. The “Day of the Lord” was the destruction of Jerusalem.",
+        "support": "Full preterists treat “we who are alive and remain” as a plain time statement, and link the trumpet and gathering to Matthew 24:31, which Jesus placed within his generation.",
+        "objection": "Critics argue that the text speaks of the dead rising and the living being caught up, which no one observed in AD 70, and that this reading denies the bodily resurrection confessed by all the historic creeds. Proponents answer that the resurrection is a covenantal, not biological, event.",
+        "sources": ["preston-we-shall-meet-him", "king-spirit-of-prophecy", "mathison-when-shall"]
+      },
+      {
+        "position": "futurism",
+        "reading": "All futurists place this event at the end of the age, but they divide on its timing relative to a future tribulation: pretribulational (before the seventieth week), midtribulational, prewrath (after the Antichrist's persecution but before God's wrath, after the sixth seal), and posttribulational (at the single return).",
+        "support": "Each timing view reads 5:9 (not appointed to wrath) and the parallels with Matthew 24 and 2 Thessalonians 2 differently; the question is how much of the future tribulation counts as divine wrath.",
+        "objection": "Non-futurists argue the debate rests on a future seven-year tribulation that the text never mentions.",
+        "sources": ["hultberg-three-views-rapture", "rosenthal-prewrath"]
+      }
+    ],
+    "sources": ["hultberg-three-views-rapture", "bruce-thessalonians-wbc", "ladd-blessed-hope", "walvoord-rapture-question"]
+  },
+  {
+    "id": "1-corinthians-15-20-28",
+    "title": "Each in His Own Order",
+    "ref": "1 Corinthians 15:20–28",
+    "ranges": ["1 Corinthians 15:20-28"],
+    "category": "epistles",
+    "summary": "Christ is the firstfruits (aparchē) of the resurrection; then (epeita) those who belong to Christ at his coming (parousia); then (eita) comes the end (to telos), when he hands over the kingdom to the Father after destroying every rule and power. He must reign until (achri hou) God has put all enemies under his feet (Psalm 110:1); the last enemy to be destroyed is death.",
+    "keyIssue": "Whether there is a long interval between “then at his coming” and “then the end” (a millennium after the return), or whether the end comes at the parousia. Closely connected: when Christ's reign of 15:25 takes place. If it is now, at the Father's right hand, and ends at the return, there is no room for a later millennial reign; it also matters whether enemies are subdued before he returns.",
+    "timeText": false,
+    "topics": ["millennium", "kingdom", "second-coming", "optimism", "final-judgment"],
+    "readings": [
+      {
+        "position": "postmil",
+        "reading": "Christ is reigning now from his ascension, and that reign must continue until all his enemies are subdued. Paul draws on Psalm 110:1: the session at the Father's right hand lasts until the enemies are a footstool. Every rule and authority is defeated during the present age, through the gospel, and only the last enemy, death, is destroyed at his return. Christ's parousia brings the end, not a further era.",
+        "support": "Paul places the subduing of enemies within the reign that precedes the end, and he applies Psalm 110:1 to Christ's present session (as do Acts 2:34-35 and Hebrews 10:12-13). Death is abolished at the resurrection (15:54-55), so the return coincides with the end.",
+        "objection": "Amillennialists agree on the timing but argue that the subduing of enemies is decisively accomplished at the cross and finally at the return, not progressively in history. Premillennialists argue that “then the end” leaves room for a period after the return.",
+        "sources": ["gentry-postmil-1-corinthians-15", "gentry-he-shall-have-dominion", "bahnsen-victory-in-jesus"]
+      },
+      {
+        "position": "amil",
+        "reading": "There are two stages in the resurrection: Christ, then his people at his coming. The end follows at that coming, with no millennium in between. Christ's reign (15:25) is his present heavenly reign, which lasts until the parousia, when death, the last enemy, is destroyed in the resurrection. A millennium after the return would mean that death continues after the resurrection, which Paul's sequence excludes.",
+        "support": "In 15:54-55 the resurrection at the last trumpet is when “death is swallowed up in victory”. If death is destroyed at the return, there can be no subsequent age in which people still die (as premillennialists usually hold, compare Isaiah 65:20).",
+        "objection": "Premillennialists argue that eita (“then”) in 15:24 can indicate a gap, just as epeita in 15:23 covers the interval of nearly two thousand years between Christ's resurrection and the parousia.",
+        "sources": ["vos-pauline-eschatology", "hoekema-bible-future", "waldron-end-times-simple"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "Paul lists ordered stages: Christ the firstfruits, then believers at his coming, then the end. Since the first two are separated by a long period, the last two may be also, which makes room for the millennial reign of Revelation 20 between the parousia and the end. Ladd and others regard this as the clearest Pauline hint of a millennium.",
+        "support": "The words epeita and eita both indicate succession, and the first interval is already about two thousand years. The final handing over of the kingdom to the Father (15:24) presupposes a period of the Son's rule.",
+        "objection": "Amillennialists and postmillennialists answer that the reign of 15:25 is located before the end by Psalm 110:1, which describes the present session, and that death being destroyed at the parousia excludes a later period in which death still operates.",
+        "sources": ["ladd-blessed-hope", "blomberg-chung-historic-premil", "grudem-systematic"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "Christ's reign in 15:25 includes his millennial reign on David's throne on earth after his return. The present session at the Father's right hand (Revelation 3:21 distinguishes “my throne” and “my Father's throne”) is not yet the Davidic reign, which begins at the Second Coming and ends when he hands the kingdom over after the millennium.",
+        "support": "Distinguishing the Father's throne from Christ's own throne (Revelation 3:21; Matthew 25:31) suggests a future throne on earth. A gap between epeita and eita is possible on grammatical grounds.",
+        "objection": "Critics argue that Acts 2:30-36 places Christ on David's throne at his ascension (a point accepted by progressive dispensationalists such as Bock), and that the destruction of death at the parousia leaves no room for death during a later millennium.",
+        "sources": ["vlach-he-will-reign-forever", "walvoord-millennial-kingdom", "blaising-bock-progressive"]
+      },
+      {
+        "position": "partial-preterism",
+        "reading": "Partial preterists, whether postmillennial or amillennial, regard this passage as describing a still-future bodily resurrection at Christ's final return, and treat it as the clearest refutation of full preterism. The parousia here is the coming that raises the dead and destroys death, which did not happen in AD 70.",
+        "support": "The resurrection in 15:20-23 is modelled on Christ's own bodily resurrection (firstfruits of the same harvest), and death as the last enemy refers to physical death, as Paul's whole argument against those denying bodily resurrection (15:12) shows.",
+        "objection": "Full preterists answer that the context (15:56, “the power of sin is the law”) shows that the death in view is covenantal death under the law, which was abolished when the old covenant ended in AD 70.",
+        "sources": ["mathison-when-shall", "gentry-he-shall-have-dominion"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "The resurrection is corporate and covenantal: the “body” of God's people is raised from the death of the old Adamic and Mosaic covenant order into the life of the new covenant. That was completed at the parousia of AD 70, when Christ finished subduing his enemies and death, whose power was the law (15:56), was conquered. Max King's “covenant eschatology” develops this.",
+        "support": "Proponents point to 15:56, which connects death's sting to sin and the law, and to the singular “body” (sōma) of 15:44, which they read corporately.",
+        "objection": "Critics argue that Paul's whole argument concerns individual bodily resurrection modelled on Christ's empty tomb (15:3-8, 12-20), that the creeds universally confess a future bodily resurrection, and that this view therefore lies outside historic Christian orthodoxy.",
+        "sources": ["king-cross-parousia", "mathison-when-shall"]
+      }
+    ],
+    "sources": ["vos-pauline-eschatology", "ladd-blessed-hope", "gentry-postmil-1-corinthians-15", "mathison-when-shall"]
+  },
+  {
+    "id": "romans-11",
+    "title": "All Israel Will Be Saved",
+    "ref": "Romans 11:25–27",
+    "ranges": ["Romans 11:11-32"],
+    "category": "epistles",
+    "summary": "Paul reveals a mystery: a partial hardening (pōrōsis apo merous) has come upon Israel until (achri hou) the fullness (plērōma) of the Gentiles has come in, “and so” (kai houtōs) all Israel will be saved, as written in Isaiah 59:20-21 (the Deliverer will come from Zion). The broader passage (11:11-32) speaks of Israel's “fullness” bringing much greater blessing to the world (11:12) and of their acceptance meaning “life from the dead” (11:15). The gifts and calling of God are irrevocable (11:29).",
+    "keyIssue": "What “all Israel” means: the whole church of Jews and Gentiles, the total of elect Jews across history, or the ethnic nation at a future point. Also: whether houtōs means “in this way” or (as many read it) implies a time sequence, and whether the coming of the Deliverer is the first or the second advent.",
+    "timeText": false,
+    "topics": ["israel", "optimism", "second-coming", "church-history"],
+    "readings": [
+      {
+        "position": "postmil",
+        "reading": "After the full number of Gentiles come in, there will be a widespread conversion of ethnic Jews to Christ, within history, before the end. That conversion will in turn bring great blessing to the world, “life from the dead” (11:15). This expectation fuelled the Puritan and evangelical missions movement (Edwards, the Puritans in Murray's study, Hodge).",
+        "support": "Paul contrasts Israel's present partial hardening (“until”) with a future change, and promises that Israel's full inclusion will bring much greater blessing (11:12, 15), which suggests a historical sequence with further worldwide effects.",
+        "objection": "Critics say “life from the dead” may well refer to the final resurrection, which would place Israel's conversion at the end rather than before a further period of blessing. Others deny that the passage predicts a mass conversion at all.",
+        "sources": ["murray-puritan-hope", "edwards-history-redemption", "boettner-millennium"]
+      },
+      {
+        "position": "amil",
+        "reading": "Amillennialists are divided. Hoekema (and Merkle, Robertson, Berkhof) argues that “all Israel” means the total number of elect Jews throughout the age, gathered alongside Gentiles; “and so” refers to the manner of their salvation. Calvin read “all Israel” as the whole people of God. Others, such as Riddlebarger and Vos, expect a future large-scale conversion of Jews near the end, before the return.",
+        "support": "Houtōs normally means “in this manner”, not “then”. Romans 9:6 distinguishes two senses of Israel, and 11:5 describes a present remnant, which suggests a continuing process rather than a single future event. The present tense of 11:31 (“that they now may receive mercy”) points to the present age.",
+        "objection": "Critics argue that in 11:25 “Israel” plainly means ethnic Israel, as distinct from Gentiles, and that a future conversion is the most natural reading of the contrast between present hardening and future salvation.",
+        "sources": ["hoekema-bible-future", "merkle-romans-11", "riddlebarger-case-amil"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "At or near Christ's return, the Deliverer coming from Zion, there will be a large-scale turning of ethnic Israel to Christ. Historic premillennialists hold that Israel and the church become one people in Christ, but that God has a future for the Jewish people, who will enter the millennial kingdom.",
+        "support": "Paul quotes Isaiah 59:20, which can be read of the Second Coming, and Moo and others regard a large end-time conversion of ethnic Israel as the most natural reading.",
+        "objection": "Others reply that Paul's quotation may describe Christ's first coming and the removal of sin through the new covenant (Jeremiah 31:33-34), not a future event.",
+        "sources": ["ladd-blessed-hope", "moo-romans-nicnt", "blomberg-chung-historic-premil"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "The passage is a key text for God's distinct future for national Israel. After the church age, the time of the Gentiles' fullness, national Israel will repent and turn to its Messiah at the Second Coming (compare Zechariah 12:10). This will lead to the fulfilment of the land and kingdom promises in the millennium, since the gifts and calling of God are irrevocable (11:29).",
+        "support": "Paul distinguishes Israel and the Gentiles throughout Romans 11, and irrevocable promises (11:28-29) seem to include the national and territorial covenants. The olive tree image (11:17-24) assumes natural branches can be grafted back.",
+        "objection": "Critics argue that Paul speaks of salvation, forgiveness and inclusion in the olive tree with Gentiles, not territorial promises or a separate future programme for Israel.",
+        "sources": ["vlach-he-will-reign-forever", "walvoord-millennial-kingdom", "ryrie-dispensationalism"]
+      },
+      {
+        "position": "partial-preterism",
+        "reading": "Partial preterists vary. Many, following postmillennial tradition, expect a future conversion of the Jews. Some see the context in the first-century mission and the AD 70 crisis, with N. T. Wright (often grouped with preterist readings of the Gospels) arguing that “all Israel” is the whole people of God, Jew and Gentile, completed through the gospel.",
+        "support": "Wright points to Paul's redefinition of Israel around Christ (Romans 2:28-29; 9:6; Galatians 6:16), and to the quotation of Isaiah 59 with “from Zion” rather than “for Zion”, suggesting the Deliverer goes out from Zion to the nations.",
+        "objection": "Critics argue that the shift from “Israel” meaning ethnic Jews in 11:25 to “all Israel” meaning the church in 11:26 is abrupt and unlikely within the same sentence.",
+        "sources": ["wright-climax-covenant", "gentry-he-shall-have-dominion"]
+      },
+      {
+        "position": "progressive-covenantalism",
+        "reading": "Progressive covenantalists (Wellum, Gentry) hold that Christ is the true Israel and that the land promises are fulfilled typologically in the new creation. Many still allow, with Moo and Schreiner, that Romans 11 predicts a future large-scale salvation of ethnic Jews, who are joined to the one people of God rather than given a separate national programme.",
+        "support": "This reading accepts a future for ethnic Jews while treating the covenants as fulfilled in Christ, which they argue fits both Romans 11 and Ephesians 2:11-22.",
+        "objection": "Dispensationalists argue that it promises Israel salvation but not the specific national restoration of the prophets. Covenant theologians argue that it adds little to the Reformed amillennial or postmillennial view.",
+        "sources": ["gentry-wellum-kingdom-covenant", "moo-romans-nicnt"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "The salvation of all Israel was completed at the parousia of AD 70, when the Deliverer came out of (heavenly) Zion and the covenant promises were fulfilled. “All Israel” is the faithful remnant together with believing Gentiles.",
+        "support": "Full preterists connect the quotation of Isaiah 59:20 to the coming in judgment and salvation that Jesus placed within his generation.",
+        "objection": "Critics say there is no evidence of a large-scale salvation of Jews in AD 70; on the contrary, the destruction of Jerusalem was a judgment on unbelief.",
+        "sources": ["king-spirit-of-prophecy", "mathison-when-shall"]
+      }
+    ],
+    "sources": ["merkle-romans-11", "moo-romans-nicnt", "murray-puritan-hope", "hoekema-bible-future"]
+  },
+  {
+    "id": "psalm-2",
+    "title": "The Lord's Anointed",
+    "ref": "Psalm 2",
+    "ranges": ["Psalms 2"],
+    "category": "psalms",
+    "summary": "The nations rage and their rulers plot against the LORD and his anointed. God laughs, having installed his king on Zion. The king announces God's decree, “You are my Son; today I have begotten you”, and the promise of the nations as his inheritance, to be broken with a rod of iron. The kings are warned to serve the LORD and “kiss the Son”.",
+    "keyIssue": "When the Son receives the nations and rules them with the rod. The New Testament applies 2:1-2 to the crucifixion (Acts 4:25-27) and 2:7 to the resurrection (Acts 13:33; Hebrews 1:5), but Revelation applies the rod of iron to Christ's return and to the reign of the saints (Revelation 2:26-27; 12:5; 19:15).",
+    "timeText": false,
+    "topics": ["kingdom", "optimism", "second-coming", "millennium"],
+    "readings": [
+      {
+        "position": "postmil",
+        "reading": "The Son was installed as king at his resurrection and ascension and is now claiming the nations given to him as an inheritance (2:8) through the preaching of the gospel. The psalm summons rulers to submit to Christ in history (2:10-12), which postmillennialists see as a mandate and a promise that nations, not just individuals, will be discipled.",
+        "support": "Acts 13:33 places the decree of 2:7 at the resurrection, so the inheritance is offered now. The call to kings to serve the LORD is addressed to rulers within history, before judgment.",
+        "objection": "Critics answer that the rod of iron in Revelation 19:15 is applied to Christ's return, which shows that the decisive subjugation of the nations is at the end, not progressively in history.",
+        "sources": ["gentry-he-shall-have-dominion", "bahnsen-victory-in-jesus"]
+      },
+      {
+        "position": "amil",
+        "reading": "Christ was enthroned on the heavenly Zion at his resurrection and ascension (Hebrews 12:22) and reigns now. The nations' rebellion continues throughout this age, and the rod of iron describes his final judgment at the return, as well as the present triumph of his people (Revelation 2:26-27).",
+        "support": "The New Testament applies the psalm to the crucifixion, resurrection and exaltation, which places the king's installation in the past and the judgment in the future, without an intervening millennium.",
+        "objection": "Postmillennialists argue that this underplays the promise of the nations as an inheritance; premillennialists argue that it removes the earthly dimension of the rule from Zion.",
+        "sources": ["hoekema-bible-future", "riddlebarger-case-amil"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "Christ was declared Son at the resurrection, but his rule over the nations with a rod of iron awaits his return and the millennial kingdom, in which the saints share it (Revelation 2:26-27). The psalm thus spans the first and second advents.",
+        "support": "Revelation 2:26-27 promises the overcomers authority over the nations with an iron rod, which premillennialists read as their reign in the millennium after the return (Revelation 20:4).",
+        "objection": "Amillennialists argue that Revelation 2:27 describes the saints sharing Christ's victory, already begun, not a future earthly reign.",
+        "sources": ["ladd-commentary-revelation", "grudem-systematic"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "Classical dispensationalists hold that Christ is not yet reigning on David's throne on Zion; the installation and rod of iron are fulfilled at the Second Coming, when he rules the nations from Jerusalem in the millennium. Progressive dispensationalists (Bock, Blaising) argue that the Davidic reign was inaugurated at the resurrection (Acts 2; 13), with the earthly rule from Zion still future.",
+        "support": "The psalm speaks of an earthly Zion and of crushing the rebellious nations, which dispensationalists argue has not happened yet.",
+        "objection": "Critics say the New Testament's own use of the psalm (Acts 4:25-27; 13:33) places the installation at the resurrection, and Hebrews 12:22 identifies the Zion of the new covenant as heavenly.",
+        "sources": ["vlach-he-will-reign-forever", "blaising-bock-progressive", "walvoord-millennial-kingdom"]
+      },
+      {
+        "position": "partial-preterism",
+        "reading": "The rulers raging against the anointed include Herod, Pilate and the leaders of Israel (Acts 4:25-27). The warning of 2:12 (that his wrath is quickly kindled) was carried out against unbelieving Jerusalem in AD 70, and the Son continues to receive the nations in the gospel age.",
+        "support": "Acts 4 explicitly applies 2:1-2 to the first-century authorities, and Jesus warned those same authorities of imminent judgment (Matthew 23:36).",
+        "objection": "Critics say the psalm's horizon is universal (all the nations, the ends of the earth), so AD 70 is at most a partial instance, not the fulfilment.",
+        "sources": ["demar-last-days-madness", "gentry-he-shall-have-dominion"]
+      }
+    ],
+    "sources": ["gentry-he-shall-have-dominion", "vlach-he-will-reign-forever", "hoekema-bible-future"]
+  },
+  {
+    "id": "psalm-110",
+    "title": "Sit at My Right Hand",
+    "ref": "Psalm 110",
+    "ranges": ["Psalms 110"],
+    "category": "psalms",
+    "summary": "The LORD says to David's Lord, “Sit at my right hand until I make your enemies your footstool.” The LORD will extend his mighty sceptre from Zion; he rules in the midst of his enemies; his people offer themselves willingly in the day of his power; he is a priest forever after the order of Melchizedek, and will shatter kings and judge among the nations. It is the Old Testament text most often quoted or alluded to in the New Testament.",
+    "keyIssue": "What happens during the session at the right hand. The New Testament places Christ's enthronement at his ascension (Acts 2:34-36; Hebrews 1:13; 10:12-13). The question is whether the subduing of enemies “until” the footstool is complete happens progressively during this age, all at once at the return, or after the return in a millennium.",
+    "timeText": false,
+    "topics": ["kingdom", "optimism", "millennium", "second-coming"],
+    "readings": [
+      {
+        "position": "postmil",
+        "reading": "Christ is now seated at the right hand and will remain there until his enemies are made his footstool. He rules “in the midst of his enemies” (110:2), and his people volunteer freely in the day of his power (110:3). The subjugation of enemies therefore happens in history, through the gospel, before he returns, and his return comes after that victory.",
+        "support": "Hebrews 10:12-13 pictures Christ seated, waiting until his enemies are made a footstool, which places their subjugation during the session. Paul uses the same psalm to describe the reign that ends in the end (1 Corinthians 15:25).",
+        "objection": "Amillennialists answer that the enemies are made a footstool in a final, decisive act at the return (compare 2 Thessalonians 1:7-9), not by gradual conversion of the world. Rule “in the midst of enemies” suggests ongoing opposition.",
+        "sources": ["gentry-he-shall-have-dominion", "bahnsen-victory-in-jesus", "gentry-postmil-1-corinthians-15"]
+      },
+      {
+        "position": "amil",
+        "reading": "Christ's session at the right hand is his present messianic reign, the millennium of Revelation 20. He rules now from the heavenly Zion through his word and Spirit, in the midst of enemies who will finally be subdued at his return and the last judgment. The psalm leaves no room for another reign after his return; at that point he hands the kingdom to the Father (1 Corinthians 15:24-28).",
+        "support": "Acts 2:34-36 announces Christ's enthronement as fulfilling the psalm, and Peter connects it with David's throne (Acts 2:30), which makes the present session the promised messianic reign.",
+        "objection": "Postmillennialists argue that this does not take seriously the progressive conquest implied in the psalm. Premillennialists argue that the session at the right hand is distinct from Christ's own kingdom on earth.",
+        "sources": ["hoekema-bible-future", "riddlebarger-case-amil", "storms-kingdom-come"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "Christ reigns now at the right hand, which is a real inauguration of his kingdom. The subjugation of his enemies will be completed in stages: at his return he will judge the nations and reign on earth (110:5-6), and at the end of the millennium the last enemy, death, will be destroyed.",
+        "support": "The psalm moves from session (110:1) to judgment of kings and nations (110:5-6), which premillennialists see as a sequence beginning with the session and ending with a visible conquest, matching Revelation 19-20.",
+        "objection": "Critics argue that 1 Corinthians 15:25-26 places the destruction of death at the end of the session, so there is no period after the session in which death continues.",
+        "sources": ["ladd-blessed-hope", "blomberg-chung-historic-premil"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "Classical dispensationalists (Walvoord) distinguish the Father's throne, where Christ sits now as priest, from the Davidic throne he will occupy on earth after his return; the rule from Zion (110:2) is millennial. Progressive dispensationalists (Bock) accept that the Davidic reign was inaugurated at the ascension, according to Acts 2:30-36, but hold that its fulfilment on earth, in relation to Israel and the nations, is still future.",
+        "support": "Revelation 3:21 distinguishes Christ's throne from his Father's throne. The psalm's concrete judgment of kings and nations awaits his visible return.",
+        "objection": "Critics argue that Acts 2 applies the psalm to Christ's present reign as David's heir, which makes a separate future Davidic throne unnecessary.",
+        "sources": ["walvoord-millennial-kingdom", "blaising-bock-progressive", "vlach-he-will-reign-forever"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "The session ended in AD 70, when his enemies (unbelieving Jerusalem and the old covenant order) were made his footstool and the day of his wrath (110:5) came. Christ reigns over a kingdom now fully established.",
+        "support": "Full preterists connect Jesus' warning to the high priest (Mark 14:62, citing Psalm 110:1 and Daniel 7:13) with the judgment within that generation.",
+        "objection": "Critics argue that death, the last enemy, has not been abolished, and that Paul places the subjugation of all enemies (including death) at the general resurrection.",
+        "sources": ["king-spirit-of-prophecy", "mathison-when-shall"]
+      }
+    ],
+    "sources": ["gentry-he-shall-have-dominion", "hoekema-bible-future", "blaising-bock-progressive"]
+  },
+  {
+    "id": "isaiah-2",
+    "title": "The Mountain of the LORD's House",
+    "ref": "Isaiah 2:2–4",
+    "ranges": ["Isaiah 2:2-4"],
+    "category": "prophets",
+    "summary": "“In the latter days” (beʾacharit hayyamim) the mountain of the LORD's house will be established as the highest of the mountains. All nations will stream to it to learn God's ways; instruction (torah) will go out from Zion; he will judge between the nations, and they will beat their swords into plowshares and learn war no more. Micah 4:1-3 has the same oracle.",
+    "keyIssue": "When the latter days are and what the mountain is. The New Testament says the last days began with Christ (Acts 2:17; Hebrews 1:2). The question is whether the oracle is fulfilled progressively in the church now, in a literal millennial Jerusalem after the return, or in the final new creation.",
+    "timeText": false,
+    "topics": ["kingdom", "optimism", "millennium", "israel"],
+    "readings": [
+      {
+        "position": "postmil",
+        "reading": "The latter days began with Christ's first coming. The mountain is the exalted kingdom of God, the heavenly Zion to which the church has come (Hebrews 12:22), and the nations are now streaming to it through the gospel. As this continues, the word of God will increasingly shape nations and international relations, bringing a real, if not perfect, era of peace before Christ returns.",
+        "support": "The New Testament places the latter days in the present (Acts 2:17; 1 Corinthians 10:11). The picture is of nations being taught and changed, not destroyed, which suits gradual conversion; judgment and peace come through instruction going out from Zion, which matches the Great Commission going out from Jerusalem (Luke 24:47).",
+        "objection": "Critics say the world has not seen a general end to war in the two millennia since, and amillennialists say the perfect peace described points to the new creation rather than to a stage in history.",
+        "sources": ["boettner-millennium", "gentry-he-shall-have-dominion", "murray-puritan-hope"]
+      },
+      {
+        "position": "amil",
+        "reading": "The prophecy is fulfilled in the church (spiritual Zion) as people from all nations come to Christ now, and is consummated in the new heavens and new earth, where war is no more. It does not describe an intermediate millennial age with a rebuilt Jerusalem.",
+        "support": "Hebrews 12:22 identifies Zion with the heavenly city that believers have already come to, and Revelation 21-22 pictures the nations walking in the light of the city in the new creation.",
+        "objection": "Premillennialists say the oracle describes a period in which nations still need judging and arbitration (2:4), which does not fit the eternal state. Postmillennialists say amillennialism postpones its historical aspect too much.",
+        "sources": ["hoekema-bible-future", "riddlebarger-case-amil", "motyer-prophecy-isaiah"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "The prophecy partly began with the gospel's spread, but its picture of universal peace among nations who still need arbitration (2:4) fits best the earthly reign of Christ after his return, before the eternal state.",
+        "support": "The oracle includes nations being judged and taught, which implies a world where sin is still present but restrained. That is what premillennialists expect in the millennium.",
+        "objection": "Amillennialists answer that the prophets regularly describe the eternal state with imagery from their own world, so arbitration between nations need not imply continuing sin.",
+        "sources": ["ladd-blessed-hope", "grudem-systematic"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "This is a literal prophecy of the millennial kingdom. Physical Mount Zion in Jerusalem will be elevated (compare Zechariah 14:10), the millennial temple will be there, and the nations will come to Jerusalem to be taught by the Messiah reigning on David's throne, while war ceases worldwide.",
+        "support": "The oracle uses specific geographic terms (Zion, Jerusalem, the house of the God of Jacob), and the companion passage Micah 4 adds that each will sit under his vine and fig tree, which implies an earthly, agricultural setting.",
+        "objection": "Critics argue that the New Testament reinterprets Zion and the temple in terms of Christ and the church (John 2:19-21; Hebrews 12:22), so a physical temple centre would reverse that fulfilment.",
+        "sources": ["walvoord-millennial-kingdom", "pentecost-things-to-come"]
+      },
+      {
+        "position": "partial-preterism",
+        "reading": "The “latter days” are the last days of the old covenant age, from Christ to AD 70 (Hebrews 1:2; 9:26). After the earthly temple was removed, the true house of the LORD, Christ and his church, was established as the chief mountain, and from then on the nations stream into it.",
+        "support": "The New Testament writers speak of living in the last days in their own time (Acts 2:16-17; 1 Peter 1:20), and the destruction of the old temple cleared the way for the new.",
+        "objection": "Critics argue that New Testament “last days” describe the whole period from Christ's first coming to his second, not only the forty years to AD 70.",
+        "sources": ["demar-last-days-madness", "gentry-he-shall-have-dominion"]
+      }
+    ],
+    "sources": ["motyer-prophecy-isaiah", "boettner-millennium", "walvoord-millennial-kingdom"]
+  },
+  {
+    "id": "isaiah-9",
+    "title": "The Increase of His Government",
+    "ref": "Isaiah 9:6–7",
+    "ranges": ["Isaiah 9:6-7"],
+    "category": "prophets",
+    "summary": "A child is born and a son given, on whose shoulder the government rests; he is called Wonderful Counsellor, Mighty God (ʾel gibbor), Everlasting Father, Prince of Peace. “Of the increase (marbeh) of his government and of peace there will be no end”, on the throne of David, established with justice and righteousness forever. The zeal of the LORD of hosts will do this.",
+    "keyIssue": "When the child sits on David's throne and what “increase without end” means: continual growth of Christ's present reign through history, the eternal reign that begins at his return, or a literal Davidic throne in Jerusalem after the return. Matthew 4:15-16 applies Isaiah 9:1-2 to Jesus' Galilean ministry, and Luke 1:32-33 echoes 9:7.",
+    "timeText": false,
+    "topics": ["kingdom", "optimism", "millennium", "israel"],
+    "readings": [
+      {
+        "position": "postmil",
+        "reading": "The child is Jesus, who took up David's throne at his resurrection and ascension. His government will increase continually and without end, starting from small beginnings and growing through history, which is how postmillennialists read the progress of the gospel. The guarantee is the zeal of the LORD of hosts (9:7), not human effort.",
+        "support": "Marbeh speaks of increase or growth, not mere duration, which matches the kingdom parables of growth (Matthew 13:31-33). The throne of David is linked to Christ's resurrection and enthronement (Acts 2:30-31).",
+        "objection": "Critics say that “no end” may describe the permanence of the kingdom rather than continuous growth in history, and that the history of the church shows decline as well as growth.",
+        "sources": ["boettner-millennium", "gentry-he-shall-have-dominion"]
+      },
+      {
+        "position": "amil",
+        "reading": "This prophecy is fulfilled in Christ's present reign on David's throne at the Father's right hand, which expands as the gospel goes to the nations and lasts eternally. There is no separate future Davidic reign in Jerusalem; the eternal kingdom begun at the first advent is consummated at the return.",
+        "support": "The prophecy emphasises the eternal (“forever”), not a thousand-year reign, and the New Testament presents the risen Christ as already on David's throne (Acts 2:30-36; 13:34).",
+        "objection": "Premillennialists argue that the throne of David is a specific, earthly throne in Jerusalem, so heaven cannot be its location.",
+        "sources": ["hoekema-bible-future", "motyer-prophecy-isaiah"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "The child is Jesus, and his rule was inaugurated at his exaltation, but the full, visible reign of justice and peace on David's throne will appear when he returns to reign on earth, and it will continue without end into the eternal state.",
+        "support": "The promise of justice and peace established on David's throne describes a visible order on earth, which premillennialists think the present age does not fulfil.",
+        "objection": "Amillennialists answer that the eternal character of the reign does not fit a limited millennium, and postmillennialists that it fits the present reign.",
+        "sources": ["ladd-blessed-hope", "grudem-systematic"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "The birth was fulfilled at the first advent, but the reign on David's throne is future: Christ will sit on David's literal throne in Jerusalem in the millennium and reign forever. Between the two lies the church age, which the prophet did not see. This is a classic case of prophetic “gap”.",
+        "support": "Luke 1:32-33 promises Jesus the throne of his father David and a reign over the house of Jacob, which dispensationalists take as national and literal. Jesus did not reign over Israel in that sense at his first coming.",
+        "objection": "Critics argue that Peter in Acts 2:30-36 says Christ was raised and exalted precisely to sit on David's throne.",
+        "sources": ["walvoord-millennial-kingdom", "pentecost-things-to-come"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "Christ's government was fully established in AD 70 when the old covenant age ended, and it now increases forever; there is no future consummation in which the kingdom changes.",
+        "support": "Full preterists see the present eternal reign without end as the kingdom fully come, which fits the endless increase of 9:7.",
+        "objection": "Critics argue that the full justice and peace described is not present in the world, and that the view leaves no future for the bodily resurrection confessed in the creeds.",
+        "sources": ["king-spirit-of-prophecy", "mathison-when-shall"]
+      }
+    ],
+    "sources": ["motyer-prophecy-isaiah", "boettner-millennium", "walvoord-millennial-kingdom"]
+  },
+  {
+    "id": "isaiah-65",
+    "title": "New Heavens and a New Earth",
+    "ref": "Isaiah 65:17–25",
+    "ranges": ["Isaiah 65:17-25"],
+    "category": "prophets",
+    "summary": "God announces that he creates new heavens and a new earth; Jerusalem will be a joy; weeping will not be heard. Yet the passage goes on to say that one who dies at a hundred will be considered young, and the sinner who reaches a hundred is accursed (65:20). People will build and plant and enjoy their work; the wolf and the lamb will feed together (65:25).",
+    "keyIssue": "The passage calls itself “new heavens and a new earth” but still includes death, sinners and a long lifespan. Is this the eternal state described in the language of Isaiah's time (with long life as a picture of no death), a millennial kingdom with death still present, or the new covenant era (the gospel age), which partial preterists and postmillennialists call the “new creation” already begun?",
+    "timeText": false,
+    "topics": ["millennium", "kingdom", "optimism", "final-judgment"],
+    "readings": [
+      {
+        "position": "postmil",
+        "reading": "This is the new creation already begun in Christ (2 Corinthians 5:17), described in the gospel age as it reaches maturity. Because death and sin still exist, it cannot be the eternal state. It describes the long-term flourishing of Christ's kingdom in history, with prosperity, long life, peace and justice increasing as the gospel transforms society.",
+        "support": "Death and sinners are present (65:20), which excludes the eternal state; but the passage also calls itself new creation, which fits the new covenant era inaugurated by Christ.",
+        "objection": "Amillennialists answer that Revelation 21:1-4, which takes up this prophecy, applies it to the eternal state with no death. Premillennialists answer that the passage describes conditions after a decisive divine intervention, not a gradual process.",
+        "sources": ["gentry-he-shall-have-dominion", "boettner-millennium"]
+      },
+      {
+        "position": "amil",
+        "reading": "This is the eternal state, but Isaiah describes it in the terms of his own time: a lifespan of a hundred years would be extraordinary to the original hearers, a way of saying death has lost its power. Revelation 21:1-4 confirms that the reference is to the consummated new creation, and the fulfilment begins with Christ's first advent.",
+        "support": "Isaiah himself calls the scene new heavens and a new earth (65:17; 66:22), and Revelation 21 takes it up for the eternal state. Prophetic language naturally pictures the future in present-day images.",
+        "objection": "Premillennialists and postmillennialists argue that a sinner dying at a hundred cannot describe a world without sin and death; reading it as symbolic seems to evade the text.",
+        "sources": ["riddlebarger-isaiah-65", "hoekema-bible-future", "motyer-prophecy-isaiah"]
+      },
+      {
+        "position": "histpremil",
+        "reading": "The passage describes the millennial kingdom, in which life is long but death and sin are not yet removed, a stage before the eternal state that only premillennialism has a place for. Grudem lists Isaiah 65:20 among the main Old Testament supports for a future millennium.",
+        "support": "The conditions (death, but at an advanced age; a curse on sinners; animals at peace) fit neither the present age nor the eternal state, which suggests an intermediate earthly kingdom.",
+        "objection": "Critics answer that the passage itself calls the period “new heavens and new earth”, which Revelation 21 uses for the eternal state, so splitting the passage between millennium and eternity is hard to justify.",
+        "sources": ["grudem-systematic", "blomberg-chung-historic-premil"]
+      },
+      {
+        "position": "disppremil",
+        "reading": "Many dispensationalists (Walvoord, Pentecost) take 65:17-19 as looking to the eternal state and 65:20-25 as describing the millennial kingdom, centred on Jerusalem, with long life and restored nature. Others read the whole passage as millennial, with the eternal state as its final form.",
+        "support": "The presence of death, building, planting and childbirth requires an earthly, pre-eternal kingdom in which Israel is restored in its land.",
+        "objection": "Critics argue that a shift from the eternal state to the millennium mid-passage has no textual marker, and that the passage is consistent if read either as a single picture of the consummation or as a picture of the present age.",
+        "sources": ["walvoord-millennial-kingdom", "pentecost-things-to-come"]
+      },
+      {
+        "position": "partial-preterism",
+        "reading": "The new heavens and new earth are the new covenant order that replaced the old covenant world (Hebrews 8:13). It was established in Christ and confirmed when the old order ended in AD 70. It then develops in history, which is why death and sin can still appear in it. A final consummation follows at Christ's return.",
+        "support": "Old Testament “heavens and earth” language can describe a covenant order (Isaiah 51:15-16; Deuteronomy 32:1), and the new covenant is new creation (2 Corinthians 5:17; Galatians 6:15).",
+        "objection": "Critics argue that 2 Peter 3:10-13 and Revelation 21 describe a cosmic renewal and the removal of death, which has not yet occurred, so the covenantal reading at most captures part of the meaning.",
+        "sources": ["gentry-he-shall-have-dominion", "demar-last-days-madness"]
+      },
+      {
+        "position": "full-preterism",
+        "reading": "The new heavens and new earth of Isaiah 65 and Revelation 21 are the new covenant world, fully arrived in AD 70. There is no future cosmic renewal; the passage describes the present spiritual reality of the church.",
+        "support": "Full preterists argue that the passage itself shows that the new heavens and earth contain death and sin, which makes it the present age rather than a future perfect world.",
+        "objection": "Critics answer that Revelation 21:4 explicitly removes death, and that Romans 8:18-23 expects creation itself to be freed from corruption. They note that denying a future renewal departs from historic orthodoxy.",
+        "sources": ["king-spirit-of-prophecy", "mathison-when-shall"]
+      }
+    ],
+    "sources": ["riddlebarger-isaiah-65", "motyer-prophecy-isaiah", "walvoord-millennial-kingdom", "gentry-he-shall-have-dominion"]
+  }
+]

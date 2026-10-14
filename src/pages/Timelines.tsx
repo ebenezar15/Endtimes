@@ -56,7 +56,7 @@ function Track({
 }: {
   t: Timeline; color: PositionPalette; flip?: boolean; onPick: (e: TimelineEvent) => void; picked?: string; delay?: number; mark: Set<string>
 }) {
-  const { sp, pt, spanLanes, pointLanes } = useMemo(() => place(t.events), [t])
+  const { sp, pt, spanLanes } = useMemo(() => place(t.events), [t])
   const dir = flip ? 1 : -1
   const spanY = (lane: number) => dir * (22 + lane * 22)
   const pointY = (lane: number) => dir * (22 + spanLanes * 22 + 14 + lane * 30)

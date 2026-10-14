@@ -27,7 +27,8 @@ function textArc(r: number, a0: number, a1: number) {
   return `M${x0},${y0} A${r},${r} 0 0 ${lower ? 0 : 1} ${x1},${y1}`
 }
 
-const RING = { m: [92, 178], h: [196, 286] } as const
+const RING = { m: [70, 146], h: [214, 286] } as const
+const GAP = [RING.m[1], RING.h[0]] as const
 
 export type RotaProps = {
   selected: string | null
@@ -47,11 +48,12 @@ export function Rota({ selected, highlight, onSelect }: RotaProps) {
   }, [])
   const mid = (id: string) => {
     const s = segs.find((x) => x.p.id === id)
-    return s ? { a: (s.a0 + s.a1) / 2, r: s.ring === 'm' ? RING.m[1] : RING.h[0] } : null
+    return s ? { a: (s.a0 + s.a1) / 2 } : null
   }
   const focus = selected ? [selected] : highlight
   const links = content.combinations.filter((c) => c.frequency !== 'incompatible')
   const lit = (c: (typeof links)[number]) => focus.length === 0 || focus.includes(c.millennial) || focus.includes(c.hermeneutic)
+  const visible = links.filter((c) => (focus.length ? lit(c) : c.frequency === 'common'))
 
   return (
     <svg viewBox="0 0 600 600" className="h-auto w-full max-w-[38rem] select-none" role="group" aria-label="Map of eschatological positions: inner ring, the four millennial views; outer ring, the six ways of reading Revelation. Threads show which pairings are common.">
@@ -74,32 +76,6 @@ export function Rota({ selected, highlight, onSelect }: RotaProps) {
         const [x1, y1] = polar(i % 6 === 0 ? 282 : 286, i * 5)
         return <line key={i} x1={x0} y1={y0} x2={x1} y2={y1} stroke="var(--gold)" strokeWidth={i % 6 === 0 ? 1.5 : 0.75} />
       })}
-
-      {/* threads between the rings */}
-      <g fill="none" aria-hidden>
-        {links.map((c) => {
-          const a = mid(c.millennial)
-          const b = mid(c.hermeneutic)
-          if (!a || !b) return null
-          const [x0, y0] = polar(a.r, a.a)
-          const [x1, y1] = polar(b.r, b.a)
-          const [cx, cy] = polar(60, (a.a + b.a) / 2)
-          const on = lit(c)
-          const w = c.frequency === 'common' ? 3 : c.frequency === 'occasional' ? 1.6 : 1
-          return (
-            <motion.path
-              key={c.millennial + c.hermeneutic}
-              d={`M${x0},${y0} Q${cx},${cy} ${x1},${y1}`}
-              stroke={c.frequency === 'common' ? 'var(--gold-bright)' : 'var(--ink-soft)'}
-              strokeWidth={w}
-              strokeDasharray={c.frequency === 'rare' ? '3 5' : undefined}
-              initial={{ pathLength: 0, opacity: 0 }}
-              animate={{ pathLength: 1, opacity: on ? (c.frequency === 'common' ? 0.95 : 0.6) : 0.08 }}
-              transition={{ duration: 1.2, delay: 0.4 }}
-            />
-          )
-        })}
-      </g>
 
       {/* ring segments */}
       {segs.map((s, i) => {
@@ -136,16 +112,52 @@ export function Rota({ selected, highlight, onSelect }: RotaProps) {
         )
       })}
 
+      {/* threads: cords running in the band between the rings, like the concentric bands of a rota */}
+      <g fill="none" aria-hidden pointerEvents="none">
+        {visible.map((c, lane) => {
+          const a = mid(c.millennial)
+          const b = mid(c.hermeneutic)
+          if (!a || !b) return null
+          const r = GAP[0] + 6 + (lane * (GAP[1] - GAP[0] - 12)) / Math.max(visible.length - 1, 1)
+          let d = b.a - a.a
+          if (d > 180) d -= 360
+          if (d < -180) d += 360
+          const [x0, y0] = polar(RING.m[1], a.a)
+          const [xa, ya] = polar(r, a.a)
+          const [xb, yb] = polar(r, a.a + d)
+          const [x1, y1] = polar(RING.h[0], b.a)
+          const path = `M${x0},${y0} L${xa},${ya} A${r},${r} 0 0 ${d > 0 ? 1 : 0} ${xb},${yb} L${x1},${y1}`
+          const w = c.frequency === 'common' ? 2.6 : c.frequency === 'occasional' ? 1.8 : 1.3
+          return (
+            <g key={c.millennial + c.hermeneutic}>
+              <motion.path
+                d={path}
+                stroke={c.frequency === 'common' ? 'var(--gold-bright)' : 'var(--ink-soft)'}
+                strokeWidth={w}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeDasharray={c.frequency === 'rare' ? '1.5 4' : c.frequency === 'occasional' ? '6 3' : undefined}
+                initial={{ pathLength: 0, opacity: 0 }}
+                animate={{ pathLength: 1, opacity: 1 }}
+                transition={{ duration: 1, delay: 0.3 + lane * 0.05 }}
+              />
+              <circle cx={x0} cy={y0} r={3} fill="var(--gold-bright)" />
+              <circle cx={x1} cy={y1} r={3} fill="var(--gold-bright)" />
+            </g>
+          )
+        })}
+      </g>
+
       {/* core */}
-      <circle cx={C} cy={C} r={84} fill="url(#rota-core)" stroke="var(--gold-bright)" strokeWidth={2} />
-      <circle cx={C} cy={C} r={78} fill="none" stroke="var(--rule)" strokeDasharray="1 5" strokeLinecap="round" />
-      <text x={C} y={C - 12} textAnchor="middle" fontFamily="Alegreya, serif" fontSize={27} fill="var(--rubric)">
+      <circle cx={C} cy={C} r={64} fill="url(#rota-core)" stroke="var(--gold-bright)" strokeWidth={2} />
+      <circle cx={C} cy={C} r={58} fill="none" stroke="var(--rule)" strokeDasharray="1 5" strokeLinecap="round" />
+      <text x={C} y={C - 6} textAnchor="middle" fontFamily="Alegreya, serif" fontSize={21} fill="var(--rubric)">
         χίλια ἔτη
       </text>
-      <text x={C} y={C + 12} textAnchor="middle" fontFamily="Alegreya, serif" fontStyle="italic" fontSize={14} fill="var(--ink-soft)">
+      <text x={C} y={C + 13} textAnchor="middle" fontFamily="Alegreya, serif" fontStyle="italic" fontSize={11.5} fill="var(--ink-soft)">
         “a thousand years”
       </text>
-      <text x={C} y={C + 32} textAnchor="middle" fontFamily="Alegreya Sans, sans-serif" fontSize={11} fill="var(--ink-soft)">
+      <text x={C} y={C + 29} textAnchor="middle" fontFamily="Alegreya Sans, sans-serif" fontSize={9.5} fill="var(--ink-soft)">
         Revelation 20:1–10
       </text>
     </svg>

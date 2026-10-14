@@ -34,7 +34,7 @@ export function App() {
   const reduce = useReducedMotion()
   return (
     <MotionConfig reducedMotion={reduce ? 'always' : 'never'}>
-      <HashRouter>
+      <HashRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <ScrollToTop />
         <Shell>
           <Suspense fallback={<p className="ui p-8 text-ink-soft">Opening…</p>}>

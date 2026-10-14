@@ -1,0 +1,1016 @@
+[
+  {
+    "id": "time-texts-soon-near",
+    "title": "The time texts: 'soon', 'near', 'at hand'",
+    "question": "Do the New Testament's time indicators bind the fulfilment of its prophecies to the first-century audience?",
+    "topic": "second-coming",
+    "summary": "Revelation opens and closes by saying its events are 'soon' and 'near', and Jesus and the apostles use similar language. Partial preterists take these as temporal markers pointing to AD 70; futurists read them as expressions of imminence measured on God's timescale; amillennial and inaugurated-eschatology interpreters read them as the already/not-yet nearness of the last days begun at Christ's resurrection.",
+    "positions": [
+      "partial-preterism",
+      "futurism",
+      "amil"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "partial-preterism",
+      "text": "The New Testament's time indicators (Revelation 1:1, 1:3, 22:6, 22:10; Matthew 16:28; James 5:8-9; 1 Peter 4:7) were addressed to real first-century audiences and should be taken at face value. Revelation 22:10 deliberately reverses Daniel 8:26 and 12:4: Daniel sealed his vision because its fulfilment was distant, while John is told not to seal his because 'the time is near'. Preterists such as Gentry, DeMar and Sproul argue that the most natural fulfilment of the bulk of these 'near' prophecies is Christ's covenantal coming in judgment on Jerusalem and the temple in AD 70, which preserves the plain force of the words for their first readers.",
+      "passages": [
+        "Revelation 1:1-3",
+        "Revelation 22:6-10",
+        "Daniel 12:4",
+        "Matthew 16:28"
+      ],
+      "sources": [
+        "demar-last-days-madness",
+        "gentry-before-jerusalem-fell",
+        "sproul-last-days"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "futurism",
+          "text": "Futurists answer that the phrase en tachei in Revelation 1:1 and 22:6 can describe the manner of events (rapidly, suddenly once they begin) rather than their nearness to John. Prophetic nearness is also measured on God's timescale, which 2 Peter 3:8-9 explicitly addresses in the face of scoffers who complained of delay. Since Revelation's content includes a bodily return, final judgment and new creation (Revelation 19-22) that plainly did not occur in AD 70, the time words cannot by themselves determine the fulfilment of the whole book.",
+          "passages": [
+            "Revelation 1:1",
+            "2 Peter 3:8-9",
+            "Revelation 21:1"
+          ],
+          "sources": [
+            "gentry-ice-great-tribulation",
+            "pentecost-things-to-come"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "partial-preterism",
+              "text": "Preterists reply that Revelation 1:3 and 22:10 use engys ('near'), a plainly temporal word that cannot be explained as manner, and that the instruction not to seal the book is explicitly about timing. 2 Peter 3:8 concerns God's patience, not a redefinition of the words he chose to comfort persecuted readers. Partial preterists also do not claim that all of Revelation was fulfilled: Gentry locates the near prophecies chiefly in chapters 4-19 and sees chapters 20-22 reaching beyond AD 70 to the consummation.",
+              "passages": [
+                "Revelation 1:3",
+                "Revelation 22:10"
+              ],
+              "sources": [
+                "gentry-before-jerusalem-fell",
+                "gentry-ice-great-tribulation"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "futurism",
+                  "text": "Critics observe that once partial preterists grant that the 'soon' language of Revelation 22:6-12 stands beside promises of a final coming still future to them (22:12, 22:20 'I am coming soon'), the principle that time words govern all adjacent content is weakened. If 22:20 can speak of a Second Coming that is still unfulfilled, the futurist appeal to God's perspective applies equally to 1:1. Futurists therefore read the time texts as expressing imminence and urgency rather than a calendar.",
+                  "passages": [
+                    "Revelation 22:12",
+                    "Revelation 22:20"
+                  ],
+                  "sources": [
+                    "gentry-ice-great-tribulation",
+                    "gregg-revelation-four-views"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "amil",
+          "text": "Amillennial and inaugurated-eschatology readers (Beale, Hoekema) agree the time texts are real but argue that they express the already/not-yet structure of New Testament eschatology. The last days began with Christ's resurrection and Pentecost (Acts 2:17, Hebrews 1:2), so the end is always 'near' in redemptive-historical terms. Revelation 1:1 echoes Daniel 2:28-29, signalling that what Daniel placed in 'the latter days' has begun, without restricting fulfilment to a single event such as AD 70.",
+          "passages": [
+            "Acts 2:17",
+            "Hebrews 1:2",
+            "Daniel 2:28-29"
+          ],
+          "sources": [
+            "beale-revelation-nigtc",
+            "hoekema-bible-future"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "partial-preterism",
+              "text": "Preterists grant the inaugurated framework but argue it does not exhaust the texts: Jesus ties specific events to specific hearers (Matthew 10:23, Matthew 16:28, Matthew 26:64), and the destruction of the temple is the one great public event within that horizon that the Olivet discourse names. Treating 'near' as a permanent quality of the entire age, they argue, means no prophecy could ever be 'not near', emptying the words of content for the original readers.",
+              "passages": [
+                "Matthew 10:23",
+                "Matthew 26:64"
+              ],
+              "sources": [
+                "sproul-last-days",
+                "wright-jesus-victory"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "amil",
+                  "text": "Beale replies that his reading is not timeless: the allusion to Daniel 2 in Revelation 1:1 is precisely a first-century claim that the eschatological era has dawned. Amillennialists add that identifying Revelation's prophecies chiefly with AD 70 depends on an early date for the book, which is disputed, whereas the inaugurated reading works on either date.",
+                  "passages": [
+                    "Revelation 1:1",
+                    "Daniel 2:28-29"
+                  ],
+                  "sources": [
+                    "beale-revelation-nigtc",
+                    "riddlebarger-case-amil"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "this-generation-genea",
+    "title": "'This generation' (Matthew 24:34)",
+    "question": "Who is the 'generation' that will not pass away until 'all these things' take place?",
+    "topic": "olivet-generation",
+    "summary": "Matthew 24:34 is a hinge text. Dispensational futurists read it of the future generation that sees the signs; partial preterists read it of Jesus' contemporaries and place the events of 24:4-34 in AD 70; many amillennial and evangelical commentators take it of Jesus' contemporaries while distinguishing the signs from the Second Coming itself.",
+    "positions": [
+      "disppremil",
+      "partial-preterism",
+      "amil",
+      "futurism"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "disppremil",
+      "text": "Matthew 24:34 means that the generation alive when 'all these things' (the signs of 24:4-31, including the abomination of desolation, the unparalleled tribulation and the visible coming of the Son of Man) begin to occur will not pass away before they are completed. Since Christ's return with cosmic signs and the worldwide gathering of the elect (24:29-31) did not occur in AD 70, Thomas Ice argues the generation must be the future one that witnesses the signs. The fig-tree parable immediately before (24:32-33) speaks of those who 'see all these things', defining the generation by what it sees.",
+      "passages": [
+        "Matthew 24:32-34",
+        "Matthew 24:29-31"
+      ],
+      "sources": [
+        "ice-matthew-24-this-generation",
+        "gentry-ice-great-tribulation",
+        "pentecost-things-to-come"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "partial-preterism",
+          "text": "Every other use of 'this generation' (he genea haute) in Matthew refers to Jesus' contemporaries (Matthew 11:16, 12:41-45, 23:36). Gentry stresses that Matthew 23:36, 'all these things will come upon this generation', immediately precedes the discourse, uses nearly identical wording and plainly targets the scribes and Pharisees; the disciples' question (24:3) arises from Jesus' prediction of the temple's ruin (24:2). The 'coming on the clouds' imagery of 24:29-31 draws on Old Testament judgment oracles against nations (Isaiah 13:10, Isaiah 19:1), fitting the fall of Jerusalem within forty years.",
+          "passages": [
+            "Matthew 23:36",
+            "Matthew 24:2-3",
+            "Isaiah 13:10",
+            "Isaiah 19:1"
+          ],
+          "sources": [
+            "gentry-key-fob-olivet",
+            "gentry-ice-great-tribulation",
+            "demar-last-days-madness"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "disppremil",
+              "text": "Ice answers that 23:36 concerns the judgment that fell on that generation for rejecting the Messiah, whereas 24:34 refers to the generation that sees the end-time signs; context, not a lexical default, sets the referent. Some interpreters also propose that genea can mean 'race' or 'kind', so that the Jewish people will survive until the end. Futurists further argue that the cosmic signs, the coming 'as lightning' visible everywhere (24:27) and the gathering from the four winds (24:31) are too universal to be exhausted by Rome's siege of Jerusalem.",
+              "passages": [
+                "Matthew 24:27",
+                "Matthew 24:30-31"
+              ],
+              "sources": [
+                "ice-matthew-24-this-generation",
+                "pentecost-things-to-come"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "partial-preterism",
+                  "text": "Preterists respond that most lexicons and commentators reject the 'race' sense for these Synoptic texts, and that Jesus' repeated 'you' to his disciples (24:4, 24:6, 24:15, 24:33) assumes they will witness the signs. They read 24:30 with Daniel 7:13 as the Son of Man's vindication, which Jesus told the high priest he would 'see' (Matthew 26:64). Gentry, Sproul and France place a transition at 24:36 ('that day and hour'), so the Second Coming is distinguished, not denied.",
+                  "passages": [
+                    "Daniel 7:13",
+                    "Matthew 24:36",
+                    "Matthew 26:64"
+                  ],
+                  "sources": [
+                    "gentry-he-shall-have-dominion",
+                    "sproul-last-days",
+                    "wright-jesus-victory"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "amil",
+          "text": "Many amillennial and evangelical commentators hold that 'this generation' does mean Jesus' contemporaries, but that 'all these things' refers to the preliminary signs (wars, persecution, false messiahs, the temple's fall) rather than to the parousia itself, whose 'day and hour' no one knows (24:36). That generation would see everything needed to make the end imminent, so Matthew 24:34 neither requires a distant future generation nor collapses the Second Coming into AD 70.",
+          "passages": [
+            "Matthew 24:34-36",
+            "Matthew 24:4-14"
+          ],
+          "sources": [
+            "riddlebarger-case-amil",
+            "hoekema-bible-future"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "disppremil",
+              "text": "Dispensationalists reply that this split view must still explain why 24:29 places the cosmic signs and coming 'immediately after the tribulation of those days'. If the tribulation was AD 70, either the Son of Man came then or 'immediately' must stretch across two millennia. The futurist reading keeps 'immediately' natural by placing both tribulation and coming in the same future generation.",
+              "passages": [
+                "Matthew 24:29"
+              ],
+              "sources": [
+                "ice-matthew-24-this-generation",
+                "pentecost-things-to-come"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "amil",
+                  "text": "Amillennialists answer that prophetic telescoping is common, with Old Testament oracles blending near and far horizons, and that 'the tribulation of those days' can describe the whole period of distress inaugurated by Jerusalem's fall (compare 'the times of the Gentiles' in Luke 21:24). Luke's parallel explicitly locates the desolation in Jerusalem surrounded by armies (Luke 21:20), anchoring at least part of the discourse in the first century, which a wholly future reading struggles to accommodate.",
+                  "passages": [
+                    "Luke 21:20-24"
+                  ],
+                  "sources": [
+                    "riddlebarger-case-amil",
+                    "hoekema-bible-future"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "revelation-date-early-late",
+    "title": "The date of Revelation: before AD 70 or c. AD 95?",
+    "question": "Was Revelation written under Nero (before AD 70) or late in Domitian's reign (c. AD 95)?",
+    "topic": "revelation-date",
+    "summary": "The date is disputed. Most modern commentators favour c. AD 95 on the strength of Irenaeus and other early witnesses; partial preterists argue for a date in the mid-60s from internal evidence. The question matters most for preterism, since a post-70 date makes a prophecy of Jerusalem's fall unlikely; many amillennial, idealist and eclectic readings do not depend on it.",
+    "positions": [
+      "futurism",
+      "eclectic",
+      "partial-preterism"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "futurism",
+      "text": "Most modern scholars date Revelation to about AD 95, near the end of Domitian's reign; the question is disputed. The earliest explicit witness is Irenaeus (Against Heresies 5.30.3, c. AD 180), who knew Polycarp, a disciple of John, and says the apocalyptic vision was seen toward the end of Domitian's reign; Clement of Alexandria, Victorinus and Eusebius agree. Internally, the spiritual decline of Ephesus and the complacent wealth of Laodicea (Revelation 2:4, 3:17) suit a later date. If so, Revelation cannot be primarily a prophecy of the AD 70 destruction, which favours futurist (and other non-preterist) readings.",
+      "passages": [
+        "Revelation 2:4",
+        "Revelation 3:17",
+        "Revelation 1:9"
+      ],
+      "sources": [
+        "irenaeus-against-heresies",
+        "beale-revelation-nigtc",
+        "gentry-ice-great-tribulation"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "partial-preterism",
+          "text": "Gentry argues the internal evidence points to the 60s. John is told to measure the temple and altar while the outer court is trampled for forty-two months (Revelation 11:1-2), implying the temple still stands. The seven kings of 17:10, of whom 'five have fallen, one is', fit the Julio-Claudian line with Nero as the sixth, and 666 (13:18) matches a Hebrew spelling of 'Nero Caesar'. He also stresses the silence about Jerusalem's destruction, the most momentous event imaginable for a Jewish-Christian prophet had it already happened.",
+          "passages": [
+            "Revelation 11:1-2",
+            "Revelation 17:10",
+            "Revelation 13:18"
+          ],
+          "sources": [
+            "gentry-before-jerusalem-fell",
+            "gregg-revelation-four-views"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "eclectic",
+              "text": "Late-date scholars such as Beale reply that the temple of 11:1-2 is symbolic of God's people, as temple language is elsewhere (1 Corinthians 3:16, Revelation 3:12), so it says nothing about a standing building. The count of kings in 17:10 depends on where one starts and whether the three brief emperors of 68-69 are included, and many read the seven as a symbolic totality. The 666 identification needs a particular Hebrew spelling, and silence about AD 70 is weak evidence in a book written in symbols.",
+              "passages": [
+                "Revelation 3:12",
+                "1 Corinthians 3:16"
+              ],
+              "sources": [
+                "beale-revelation-nigtc",
+                "pate-four-views-revelation"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "partial-preterism",
+                  "text": "Early-date advocates answer that a purely symbolic temple does not explain why the outer court is handed to the nations for a specific forty-two months, roughly the length of Rome's campaign (AD 67-70). They also note that the variant reading 616 in some manuscripts matches the Latin form of Nero's name, suggesting early scribes understood a Nero reference. In their view, coherent internal evidence should outweigh one ambiguous patristic statement.",
+                  "passages": [
+                    "Revelation 11:2",
+                    "Revelation 13:18"
+                  ],
+                  "sources": [
+                    "gentry-before-jerusalem-fell",
+                    "gregg-revelation-four-views"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "partial-preterism",
+          "text": "Gentry contends that Irenaeus' testimony is ambiguous: the verb heorathe ('it/he was seen') may refer to John himself being seen in Domitian's time rather than to the vision. Irenaeus made other demonstrable chronological errors (for example, that Jesus lived to nearly fifty), and some later traditions (the title of the Syriac version, a statement in Epiphanius) place John's exile under Claudius or Nero.",
+          "passages": [
+            "Revelation 1:9"
+          ],
+          "sources": [
+            "gentry-before-jerusalem-fell",
+            "gregg-revelation-four-views"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "eclectic",
+              "text": "Most patristic scholars and commentators judge 'the apocalyptic vision' to be the natural subject of the verb, since Irenaeus' point is how recently the Revelation was given, and the old Latin translation reads it that way. The alternative traditions are late or confused, whereas the Domitianic date is attested by several writers. Beale judges the late date more probable while stressing that his own interpretation does not hinge on it.",
+              "passages": [],
+              "sources": [
+                "beale-revelation-nigtc",
+                "irenaeus-against-heresies"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "partial-preterism",
+                  "text": "Early-date advocates respond that later fathers largely depend on Irenaeus, so the multiple attestation is less independent than it appears. They also note that scholarly majorities on the question have shifted before: in the nineteenth century Westcott, Hort, Lightfoot and Farrar favoured a Neronic date. They present the date as an open question in which internal evidence deserves decisive weight.",
+                  "passages": [],
+                  "sources": [
+                    "gentry-before-jerusalem-fell",
+                    "gregg-revelation-four-views"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "literal-symbolic-hermeneutic",
+    "title": "Literal or Christ-centred fulfilment? The prophetic hermeneutic",
+    "question": "Should Old Testament promises to Israel be fulfilled in the way their original hearers understood them, or as the New Testament reinterprets them in Christ?",
+    "topic": "kingdom",
+    "summary": "Underneath most millennial disagreements lies a hermeneutical one. Dispensationalists defend consistent 'normal' interpretation of prophecy; covenant theologians argue the New Testament's own use of the Old Testament must govern; progressive covenantalists stress typological escalation across the covenants. Progressive dispensationalism has narrowed some of the gaps.",
+    "positions": [
+      "dispensationalism",
+      "covenant-theology",
+      "progressive-covenantalism"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "dispensationalism",
+      "text": "Dispensationalists hold that consistent grammatical-historical interpretation, applied to prophecy as to any other genre, guards against subjective spiritualising; Ryrie lists it among the sine qua non of dispensationalism. 'Literal' here allows figures of speech but means that promises made to Israel about land, throne and nation (Jeremiah 31:35-37, Ezekiel 36-37, Amos 9:11-15) will be fulfilled in the sense their first hearers would have understood. First-advent prophecies were fulfilled literally (Micah 5:2, Zechariah 9:9), which Walvoord and Pentecost take as the pattern for the second.",
+      "passages": [
+        "Jeremiah 31:35-37",
+        "Amos 9:11-15",
+        "Micah 5:2",
+        "Zechariah 9:9"
+      ],
+      "sources": [
+        "ryrie-dispensationalism",
+        "pentecost-things-to-come",
+        "walvoord-millennial-kingdom"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "covenant-theology",
+          "text": "Covenant theologians argue the New Testament is the authoritative guide to reading the Old. James applies Amos 9:11-12 to the inclusion of Gentiles in the church (Acts 15:15-18), Paul identifies Abraham's seed as Christ and those in him (Galatians 3:16, 3:29), and Hebrews presents the land and city as pointing to a heavenly country (Hebrews 11:10, 11:16). Poythress argues that 'literal' is an ambiguous term and that original audiences already heard prophecy in typological, covenantal categories; Christ-centred fulfilment is reading as the apostles read, not spiritualising.",
+          "passages": [
+            "Acts 15:15-18",
+            "Galatians 3:16",
+            "Galatians 3:29",
+            "Hebrews 11:16"
+          ],
+          "sources": [
+            "poythress-understanding-dispensationalists",
+            "hoekema-bible-future",
+            "riddlebarger-case-amil"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "dispensationalism",
+              "text": "Dispensationalists, especially progressive ones such as Blaising and Bock, answer that New Testament fulfilment can be complementary rather than replacing. Including Gentiles in Acts 15 does not cancel the rebuilding of David's house for Israel, and Paul still says the promises belong to Israel (Romans 9:4) and that 'all Israel will be saved' because God's gifts and calling are irrevocable (Romans 11:26-29). Widening a promise's beneficiaries is not the same as reassigning it.",
+              "passages": [
+                "Romans 9:4",
+                "Romans 11:26-29"
+              ],
+              "sources": [
+                "blaising-bock-progressive",
+                "vlach-church-replaced-israel"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "covenant-theology",
+                  "text": "Reformed critics reply that the 'both/and' approach still has to retain features, such as restored temple sacrifices in Ezekiel's vision (Ezekiel 43:18-27), that Hebrews declares obsolete (Hebrews 8:13, 10:18). They note that dispensationalists themselves concede symbolic elements in prophecy, so the real question is not literal versus symbolic but which reading is controlled by the apostles' own usage.",
+                  "passages": [
+                    "Ezekiel 43:18-27",
+                    "Hebrews 8:13",
+                    "Hebrews 10:18"
+                  ],
+                  "sources": [
+                    "poythress-understanding-dispensationalists",
+                    "hoekema-bible-future"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "progressive-covenantalism",
+          "text": "Progressive covenantalists (Peter Gentry and Stephen Wellum) argue that the covenants unfold through escalating typology. Israel, land, temple and David are types that reach their antitype in Christ, the true Israel (Matthew 2:15, John 15:1) and true temple (John 2:19-21), and the land promise expands to the whole renewed earth (Romans 4:13, Matthew 5:5). Reading prophecy 'literally' without this escalation, they argue, misses the Bible's own storyline.",
+          "passages": [
+            "Matthew 2:15",
+            "John 2:19-21",
+            "Romans 4:13",
+            "Matthew 5:5"
+          ],
+          "sources": [
+            "gentry-wellum-kingdom-covenant"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "dispensationalism",
+              "text": "Dispensationalists respond that typology does not cancel the type: Christ as the true Israel can restore national Israel just as Christ as the true man redeems actual human beings. Vlach argues that the prophets repeatedly picture a restored Israel among the nations in the age to come (Isaiah 19:24-25, Isaiah 60), and that Acts 1:6-7 and Matthew 19:28 assume rather than deny a future restoration.",
+              "passages": [
+                "Isaiah 19:24-25",
+                "Acts 1:6-7",
+                "Matthew 19:28"
+              ],
+              "sources": [
+                "vlach-church-replaced-israel",
+                "blaising-bock-progressive"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "progressive-covenantalism",
+                  "text": "Gentry and Wellum reply that the issue is not whether ethnic Jews have a future in Christ (many in their camp affirm a future turning of Israel from Romans 11) but whether Israel as a nation retains a distinct covenant role after Christ fulfils the covenants. They read Acts 1:6-8 as Jesus redirecting the disciples from a national timetable to a worldwide witness.",
+                  "passages": [
+                    "Acts 1:6-8",
+                    "Romans 11:25-27"
+                  ],
+                  "sources": [
+                    "gentry-wellum-kingdom-covenant"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "recapitulation-revelation-19-20",
+    "title": "Recapitulation or sequence in Revelation 19-20?",
+    "question": "Does Revelation 20:1 continue the story after Christ's return in 19:11-21, or begin a new vision that goes back to the start of the church age?",
+    "topic": "millennium",
+    "summary": "If 20:1-10 follows 19:11-21 chronologically, the millennium comes after the Second Coming (premillennialism). If it recapitulates, the thousand years describe the present age (amillennialism, and many postmillennialists). The debate turns on Revelation's structure, the battle scenes and the nations.",
+    "positions": [
+      "amil",
+      "histpremil",
+      "disppremil"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "amil",
+      "text": "Revelation is built of parallel sections that each span the time between Christ's comings (Hendriksen's 'progressive parallelism'), and 20:1 begins a new section that returns to the start of the church age. R. Fowler White notes that the battle of 20:7-10 is the same as that of 19:17-21 and 16:14-16: each is called 'the war' (ton polemon), each draws on Ezekiel 38-39's Gog-Magog imagery, and each gathers the kings of the whole earth. If these are one final battle, 20:1-6 must precede it and describe the present age.",
+      "passages": [
+        "Revelation 16:14-16",
+        "Revelation 19:17-21",
+        "Revelation 20:7-10",
+        "Ezekiel 39:17-20"
+      ],
+      "sources": [
+        "white-recapitulation-rev20",
+        "hendriksen-more-than-conquerors",
+        "beale-revelation-nigtc"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "histpremil",
+          "text": "Premillennialists see a continuous narrative: the rider of 19:11-21 defeats the beast and false prophet and throws them into the lake of fire, and then ('and I saw', kai eidon, 20:1) an angel binds Satan. Revelation 20:10 throws the devil into the lake 'where the beast and the false prophet were', presupposing their earlier consignment in 19:20. Ladd argued that sealing Satan 'so that he might not deceive the nations any longer' (20:3) fits naturally after the nations' armies have been defeated at Christ's return.",
+          "passages": [
+            "Revelation 19:20",
+            "Revelation 20:1-3",
+            "Revelation 20:10"
+          ],
+          "sources": [
+            "ladd-commentary-revelation",
+            "blomberg-chung-historic-premil"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "amil",
+              "text": "Amillennialists reply that 'and I saw' introduces new visions throughout Revelation without implying chronological order. The note that the beast and false prophet 'were' already in the lake can reflect the order of John's visions rather than of events. And if the nations were destroyed in 19:18-21 ('all people, both free and slave, small and great'), no nations remain for Satan to deceive in 20:3 and 20:8, a problem White presses hard against the sequential reading.",
+              "passages": [
+                "Revelation 19:18",
+                "Revelation 20:3",
+                "Revelation 20:8"
+              ],
+              "sources": [
+                "white-recapitulation-rev20",
+                "riddlebarger-case-amil"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "histpremil",
+                  "text": "Premillennialists answer that apocalyptic 'all' is often hyperbolic in Revelation (compare 6:15, 13:16), and that survivors from the nations may enter the kingdom (compare Zechariah 14:16). Harold Hoehner argued that recapitulation must treat the binding of 20:1-3 as parallel to the casting down of 12:9, yet the two differ: in one Satan is thrown to earth and rages, in the other he is shut in the abyss and cannot deceive.",
+                  "passages": [
+                    "Revelation 12:9",
+                    "Zechariah 14:16"
+                  ],
+                  "sources": [
+                    "white-hoehner-recapitulation",
+                    "ladd-commentary-revelation"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "disppremil",
+          "text": "Dispensationalists argue that Revelation's structure is progressive, not cyclical: the seventh seal contains the trumpets and the seventh trumpet leads to the bowls (8:1-2, 11:15, 15:1), and 19:11-22:5 forms a single closing section (return, millennium, last judgment, new creation), each scene introduced by 'and I saw'. Deere and Walvoord argue that reading 20:1-6 back into the church age requires an unannounced leap across two thousand years.",
+          "passages": [
+            "Revelation 8:1-2",
+            "Revelation 15:1",
+            "Revelation 19:11",
+            "Revelation 21:1"
+          ],
+          "sources": [
+            "deere-premil-rev20",
+            "walvoord-millennial-kingdom"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "amil",
+              "text": "Beale counters that the seals, trumpets and bowls themselves show repetition: the sixth seal (6:12-17), seventh trumpet (11:15-19) and seventh bowl (16:17-21) each reach the final judgment, so the book arrives at the end several times. A return to the beginning at 20:1 fits a pattern already established, as 12:1-5 jumps back to Christ's birth and ascension.",
+              "passages": [
+                "Revelation 6:12-17",
+                "Revelation 11:15-19",
+                "Revelation 12:1-5"
+              ],
+              "sources": [
+                "beale-revelation-nigtc",
+                "hendriksen-more-than-conquerors"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "disppremil",
+                  "text": "Premillennialists respond that recapitulation elsewhere does not prove it here; each case needs textual signals, and they find none at 20:1 comparable to the clear restart at 12:1. They add that the sequence of a thousand years followed by Satan's release 'after these things' (meta tauta, 20:3) assumes historical progression.",
+                  "passages": [
+                    "Revelation 20:3",
+                    "Revelation 12:1"
+                  ],
+                  "sources": [
+                    "deere-premil-rev20",
+                    "walvoord-millennial-kingdom"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "one-or-two-resurrections",
+    "title": "One general resurrection or two?",
+    "question": "Does Scripture teach one resurrection of the just and unjust at Christ's return, or two bodily resurrections separated by the millennium?",
+    "topic": "first-resurrection",
+    "summary": "Premillennialists read Revelation 20:4-6 as two bodily resurrections a thousand years apart. Amillennialists and postmillennialists, with the Reformed confessions, hold to a single general resurrection, appealing to John 5:28-29, Daniel 12:2 and Acts 24:15, and to Paul's tie between the resurrection and the destruction of death.",
+    "positions": [
+      "histpremil",
+      "amil",
+      "postmil",
+      "disppremil"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "histpremil",
+      "text": "Revelation 20:4-6 describes two bodily resurrections separated by a thousand years: those who 'came to life and reigned with Christ' and 'the rest of the dead' who did not come to life until the thousand years ended. Paul's ordered resurrection, Christ the firstfruits, then at his coming those who belong to him, 'then the end' (1 Corinthians 15:23-24), leaves room for an interval, and Luke 14:14 ('the resurrection of the righteous') and Philippians 3:11 (a resurrection 'out from among' the dead) hint at a resurrection of believers distinct from the general one. Ladd held that later revelation can disclose an interval earlier texts did not specify.",
+      "passages": [
+        "Revelation 20:4-6",
+        "1 Corinthians 15:23-24",
+        "Luke 14:14",
+        "Philippians 3:11"
+      ],
+      "sources": [
+        "ladd-commentary-revelation",
+        "blomberg-chung-historic-premil",
+        "grudem-systematic"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "amil",
+          "text": "Jesus says 'an hour is coming' when all who are in the tombs will hear his voice and come out, the good to a resurrection of life and the evil to a resurrection of judgment (John 5:28-29); Daniel 12:2 and Acts 24:15 likewise speak of one resurrection of righteous and wicked together. Jesus repeatedly places the raising of believers 'on the last day' (John 6:39-40, 44, 54), and Matthew 25:31-46 sets the judgment of all nations at a single coming. Hoekema and Riddlebarger argue the clearer didactic texts should govern one highly symbolic vision.",
+          "passages": [
+            "John 5:28-29",
+            "Daniel 12:2",
+            "Acts 24:15",
+            "John 6:39-40"
+          ],
+          "sources": [
+            "hoekema-bible-future",
+            "riddlebarger-case-amil",
+            "storms-kingdom-come"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "histpremil",
+              "text": "Premillennialists reply that 'hour' (hora) in John need not be a single moment: the 'hour' that 'now is' in John 5:25 has lasted the whole church age, so the resurrection 'hour' of 5:28 can span a thousand years. Prophecy often compresses events later separated, as Isaiah 61:1-2 joins the two advents and Jesus stops reading mid-sentence (Luke 4:18-21). Some also read Daniel 12:2 as distinguishing 'some' raised to life from 'others' to shame.",
+              "passages": [
+                "John 5:25",
+                "Isaiah 61:1-2",
+                "Luke 4:18-21"
+              ],
+              "sources": [
+                "ladd-commentary-revelation",
+                "blomberg-chung-historic-premil"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "amil",
+                  "text": "Amillennialists answer that John 5:25 describes a spiritual raising and 5:28 a bodily one, so the elasticity of the first 'hour' cannot simply be transferred to the second. Believers are raised 'on the last day' (John 6:40) and unbelievers are judged 'on the last day' (John 12:48); placing a thousand years between them strains the phrase. They also note that the 'some... others' reading of Daniel 12:2 is a minority view among Hebrew scholars.",
+                  "passages": [
+                    "John 6:40",
+                    "John 12:48"
+                  ],
+                  "sources": [
+                    "hoekema-bible-future",
+                    "riddlebarger-case-amil"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "postmil",
+          "text": "Postmillennialists such as Boettner and Gentry, with the Westminster Confession (32.3) and its catechisms, affirm one general resurrection of just and unjust at Christ's single return at the end of history. Paul's 'then comes the end' (1 Corinthians 15:24) follows directly on Christ's coming, Christ reigns now 'until' the last enemy, death, is destroyed (15:25-26), and death is swallowed up at the very resurrection of believers (15:54). That leaves no room for death to continue through a millennium after believers are raised.",
+          "passages": [
+            "1 Corinthians 15:24-26",
+            "1 Corinthians 15:54"
+          ],
+          "sources": [
+            "westminster-confession",
+            "gentry-he-shall-have-dominion",
+            "boettner-millennium"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "histpremil",
+              "text": "Premillennialists argue that 'then' (eita) in 15:24 belongs to a sequence that already contains a long gap between Christ's resurrection and his coming (15:23), so a further interval between the coming and 'the end' fits Paul's wording. On this reading the reign 'until' all enemies are subdued (15:25) culminates in Christ's messianic kingdom on earth after the parousia.",
+              "passages": [
+                "1 Corinthians 15:23-25"
+              ],
+              "sources": [
+                "blomberg-chung-historic-premil",
+                "bock-three-views"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "postmil",
+                  "text": "Postmillennialists answer that the gap after the firstfruits is implied by Christ's ascension, whereas Paul gives no hint of a millennial gap. 15:54-55 ties the defeat of death to the resurrection at the last trumpet, so no death-bearing millennium can follow it. Gentry and Mathison also read the reign of 15:25 as Christ's present heavenly session (Psalm 110:1, Acts 2:34-36), already under way.",
+                  "passages": [
+                    "1 Corinthians 15:54-55",
+                    "Psalm 110:1",
+                    "Acts 2:34-36"
+                  ],
+                  "sources": [
+                    "gentry-he-shall-have-dominion",
+                    "mathison-postmillennialism"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "ezesan-came-to-life",
+    "title": "'They came to life' (ezesan) in Revelation 20:4-5",
+    "question": "Is the 'first resurrection' of Revelation 20:4-5 a bodily resurrection or the believer's present, spiritual life with Christ?",
+    "topic": "first-resurrection",
+    "summary": "The same verb, ezesan, describes the saints who 'came to life' (20:4) and the rest of the dead who did not 'come to life' until the thousand years ended (20:5). Premillennialists insist both are bodily; amillennialists (and many postmillennialists) read the first as the soul's life with Christ in heaven or as regeneration, citing the 'first/second' contrast in Revelation.",
+    "positions": [
+      "amil",
+      "histpremil",
+      "disppremil"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "amil",
+      "text": "Revelation 20:4 says the souls of the martyrs 'came to life' (ezesan) and reigned with Christ. Kline, Hoekema and Beale take this 'first resurrection' as the believer's entrance into heavenly life in the intermediate state. Kline argues that 'first' (protos) in Revelation marks the present, provisional order in contrast to the final one (21:1, 'the first heaven and the first earth had passed away'), so the first resurrection differs in kind from the bodily resurrection, just as the first (physical) death differs from the second death in the lake of fire (20:14).",
+      "passages": [
+        "Revelation 20:4-6",
+        "Revelation 21:1",
+        "Revelation 20:14"
+      ],
+      "sources": [
+        "kline-first-resurrection",
+        "hoekema-bible-future",
+        "beale-revelation-nigtc"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "histpremil",
+          "text": "Premillennialists since Henry Alford press a grammatical point: the same verb ezesan is used of the saints in 20:4 and of 'the rest of the dead' in 20:5. If the second is a bodily resurrection, consistency requires the first to be bodily too; reading one spiritually and the other literally in the same context, Alford argued, leaves language without fixed meaning. The same aorist describes Christ's bodily resurrection in Revelation 2:8 ('who died and came to life').",
+          "passages": [
+            "Revelation 20:5",
+            "Revelation 2:8"
+          ],
+          "sources": [
+            "ladd-commentary-revelation",
+            "deere-premil-rev20",
+            "blomberg-chung-historic-premil"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "amil",
+              "text": "Kline and Hoekema reply that John himself signals a qualitative contrast with 'first' and 'second': the text names a first resurrection and a second death, implying a non-bodily first resurrection paired with a non-final first death. John 5:24-29 shows the same pattern, with the dead who 'hear and live' spiritually now and a bodily resurrection to come. The 20:5 statement is also negative ('did not come to life'), so the parallel is looser than claimed.",
+              "passages": [
+                "John 5:24-29"
+              ],
+              "sources": [
+                "kline-first-resurrection",
+                "kline-first-resurrection-reaffirmation",
+                "hoekema-bible-future"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "histpremil",
+                  "text": "J. Ramsey Michaels, responding to Kline in the Westminster Theological Journal, accepted that 'first' can signal a difference in kind but argued it does not follow that the first resurrection is non-bodily. Premillennialists add that the 'souls of those beheaded' echoes Revelation 6:9-11, where the martyrs' souls wait for vindication; 20:4 grants that vindication by narrating a change of state, which is what resurrection means.",
+                  "passages": [
+                    "Revelation 6:9-11"
+                  ],
+                  "sources": [
+                    "michaels-first-resurrection-response",
+                    "ladd-commentary-revelation"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "disppremil",
+          "text": "Dispensationalists such as Deere and Walvoord argue that 'resurrection' (anastasis, 20:5-6) almost everywhere in the New Testament means bodily resurrection. The martyrs' reward of reigning answers the promise to overcomers of authority over the nations (2:26-27) and the song that the redeemed 'will reign on the earth' (5:10). A purely heavenly intermediate state, they argue, does not fulfil a promise of reigning on the earth.",
+          "passages": [
+            "Revelation 2:26-27",
+            "Revelation 5:10"
+          ],
+          "sources": [
+            "deere-premil-rev20",
+            "walvoord-millennial-kingdom"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "amil",
+              "text": "Beale replies that the saints' reign is already partly realised (Revelation 1:6, 'he made us a kingdom') and that the intermediate state is participation in Christ's present heavenly reign (Ephesians 2:6). 'Resurrection' in 20:5-6 is qualified by 'first', marking it as distinct, and the thrones of 20:4, like the thrones elsewhere in Revelation, are in heaven.",
+              "passages": [
+                "Revelation 1:6",
+                "Ephesians 2:6"
+              ],
+              "sources": [
+                "beale-revelation-nigtc",
+                "storms-kingdom-come"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "disppremil",
+                  "text": "Premillennialists respond that Ephesians 2:6 describes the living believer's positional union with Christ, not the post-mortem reward given specifically to martyrs, and that John's sequence (souls of the beheaded, then they 'came to life') narrates an event at a point in time. They regard the amillennial reading as importing categories from elsewhere into an otherwise natural sequence.",
+                  "passages": [
+                    "Revelation 20:4"
+                  ],
+                  "sources": [
+                    "deere-premil-rev20",
+                    "pentecost-things-to-come"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "binding-of-satan-now-or-future",
+    "title": "The binding of Satan: now or future?",
+    "question": "Was Satan bound at Christ's first coming, or does Revelation 20:1-3 describe a future, total confinement?",
+    "topic": "satan-binding",
+    "summary": "Amillennialists and postmillennialists hold that Satan was bound at the first advent so that he can no longer prevent the gospel from reaching the nations. Premillennialists argue that the language of Revelation 20:1-3 describes a complete removal from earthly activity that has not yet happened.",
+    "positions": [
+      "amil",
+      "postmil",
+      "disppremil",
+      "histpremil"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "amil",
+      "text": "Amillennialists (Riddlebarger, Hoekema, Storms), with postmillennialists, hold that Satan was bound at Christ's first coming. Jesus described his exorcisms as binding the strong man in order to plunder his house (Matthew 12:28-29, using the same verb deo as Revelation 20:2), saw Satan fall like lightning (Luke 10:18), and announced that the ruler of this world would be cast out as he drew all people to himself (John 12:31-32). The binding in Revelation 20:3 has a specific purpose: Satan can no longer deceive the nations as before (Acts 14:16, Acts 17:30), so the gospel goes to the Gentiles.",
+      "passages": [
+        "Matthew 12:28-29",
+        "Luke 10:18",
+        "John 12:31-32",
+        "Revelation 20:1-3"
+      ],
+      "sources": [
+        "riddlebarger-binding-satan",
+        "riddlebarger-case-amil",
+        "hoekema-bible-future"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "disppremil",
+          "text": "Premillennialists argue the binding of Revelation 20 is far more than a restriction: Satan is seized, chained, thrown into the abyss, which is then shut and sealed over him (20:1-3). Yet the New Testament describes Satan in the church age as prowling like a roaring lion (1 Peter 5:8), blinding unbelievers' minds (2 Corinthians 4:4) and at work in the disobedient (Ephesians 2:2). Waymeyer concludes that a partial, present restraint does not match the totality of John's language.",
+          "passages": [
+            "1 Peter 5:8",
+            "2 Corinthians 4:4",
+            "Ephesians 2:2"
+          ],
+          "sources": [
+            "waymeyer-binding-satan",
+            "walvoord-millennial-kingdom"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "amil",
+              "text": "Amillennialists respond that apocalyptic imagery depicts spiritual realities; the chain and the abyss are no more literal than the dragon himself. The binding has one stated purpose, 'so that he might not deceive the nations', and does not claim to end all satanic activity, just as a dog on a long chain is restrained without being idle. The worldwide spread of the gospel since Pentecost (Matthew 28:18-20) is the evidence of this restriction.",
+              "passages": [
+                "Revelation 20:3",
+                "Matthew 28:18-20"
+              ],
+              "sources": [
+                "riddlebarger-case-amil",
+                "hendriksen-more-than-conquerors"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "disppremil",
+                  "text": "Premillennialists reply that 2 Corinthians 4:4, Revelation 12:9 and 13:14 describe Satan's present work precisely as deception, including of 'the whole world', the very activity 20:3 says is halted. They also argue that the strong-man saying concerns Jesus' authority over demons in his ministry, not a sealed confinement lasting through the church age.",
+                  "passages": [
+                    "Revelation 12:9",
+                    "Revelation 13:14"
+                  ],
+                  "sources": [
+                    "waymeyer-binding-satan",
+                    "deere-premil-rev20"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "histpremil",
+          "text": "Historic premillennialists such as Ladd grant that Christ won a decisive victory over Satan at the cross, but argue that Revelation 20 depicts a further stage. Revelation 12 portrays Satan thrown down to the earth in great wrath (12:12); 20:1-3 portrays him removed from the earth altogether. Because these are distinct events in John's sequence, the first-advent victory texts do not exhaust 20:1-3.",
+          "passages": [
+            "Revelation 12:12",
+            "Revelation 20:1-3"
+          ],
+          "sources": [
+            "ladd-commentary-revelation",
+            "blomberg-chung-historic-premil"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "postmil",
+              "text": "Postmillennialists such as Gentry, agreeing with amillennialists on timing, note that Revelation 12 ties Satan's fall to Christ's ascension and to the saints' victory 'by the blood of the Lamb' (12:5, 12:10-11), the same first-advent setting. His raging and his inability to deceive the nations are complementary perspectives on one defeat, and the ongoing discipling of the nations (Matthew 28:19) shows the binding at work in history.",
+              "passages": [
+                "Revelation 12:5",
+                "Revelation 12:10-11",
+                "Matthew 28:19"
+              ],
+              "sources": [
+                "gentry-he-shall-have-dominion",
+                "mathison-postmillennialism"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "histpremil",
+                  "text": "Premillennialists answer that the two visions differ in location (earth versus abyss) and effect (raging versus sealed), so one cannot easily be read as the other. They also note that Paul and John describe the present age as marked by deception (2 Thessalonians 2:9-11, 1 John 5:19), which is hard to square with nations no longer deceived.",
+                  "passages": [
+                    "2 Thessalonians 2:9-11",
+                    "1 John 5:19"
+                  ],
+                  "sources": [
+                    "ladd-commentary-revelation",
+                    "waymeyer-binding-satan"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

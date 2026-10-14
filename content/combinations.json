@@ -1,0 +1,170 @@
+[
+  {
+    "millennial": "postmil",
+    "hermeneutic": "partial-preterism",
+    "frequency": "common",
+    "note": "The most common pairing among contemporary postmillennialists. The Olivet Discourse's tribulation and much of Revelation (usually dated before AD 70, a date that is disputed) are read as fulfilled in Jerusalem's fall, clearing the stage for the gospel's worldwide advance; Revelation 20 describes the present age, which ends with Christ's future bodily return.",
+    "exemplars": ["Kenneth L. Gentry Jr.", "Gary DeMar", "David Chilton", "Keith A. Mathison", "Douglas Wilson"]
+  },
+  {
+    "millennial": "postmil",
+    "hermeneutic": "full-preterism",
+    "frequency": "occasional",
+    "note": "Full preterists typically regard the millennium as the transitional 'last days' of roughly AD 30–70, ending with Christ's coming in AD 70. Formally this places the Parousia after the millennium, so some full preterists describe their view as postmillennial in structure and expect the kingdom to keep growing indefinitely; but because they deny any future bodily return, resurrection and final judgment, historic postmillennialists (who are creedal) reject the pairing. Some full preterists came out of postmillennial-preterist circles.",
+    "exemplars": ["Max R. King (millennium as the AD 30–70 transition)", "Don K. Preston"]
+  },
+  {
+    "millennial": "postmil",
+    "hermeneutic": "historicism",
+    "frequency": "common",
+    "note": "Historically the classic pairing: Puritans, Jonathan Edwards (following Moses Lowman's scheme) and many 19th-century Protestants read Revelation as an outline of church history, with the papacy as Antichrist and the fall of 'Babylon' and the conversion of the Jews ushering in the latter-day glory. Common in the 17th–19th centuries; uncommon among postmillennialists today, who mostly favour preterism.",
+    "exemplars": ["Thomas Brightman", "John Owen", "Jonathan Edwards", "Charles Hodge", "Albert Barnes", "David Brown"]
+  },
+  {
+    "millennial": "postmil",
+    "hermeneutic": "futurism",
+    "frequency": "rare",
+    "note": "Futurism normally locates the tribulation and Antichrist just before Christ's return, which fits poorly with a long golden age. Some 'latter-day glory' postmillennialists treat Revelation 20 as a still-future era within this age, which is futurist about the millennium itself, but a thoroughgoing futurist reading of Revelation 4–19 with postmillennialism is rare.",
+    "exemplars": []
+  },
+  {
+    "millennial": "postmil",
+    "hermeneutic": "idealism",
+    "frequency": "occasional",
+    "note": "Some postmillennialists read Revelation symbolically as the conflict and triumph of Christ's kingdom across the age, drawing their optimism mainly from the Psalms, Prophets and Gospels rather than from a historical decoding of Revelation. B. B. Warfield, for example, read Revelation 19:11-21 as a symbolic picture of the gospel's conquest and Revelation 20:1-6 idealistically (as the intermediate state).",
+    "exemplars": ["B. B. Warfield"]
+  },
+  {
+    "millennial": "postmil",
+    "hermeneutic": "eclectic",
+    "frequency": "occasional",
+    "note": "Postmillennialists who combine a preterist reading of the Olivet Discourse and Revelation's judgments with idealist or redemptive-historical readings of other visions (and futurist reading of Revelation 20:7-22:5) are fairly common in practice, though most label themselves partial preterists.",
+    "exemplars": []
+  },
+  {
+    "millennial": "amil",
+    "hermeneutic": "partial-preterism",
+    "frequency": "common",
+    "note": "Many amillennialists read the Olivet Discourse (at least Matthew 24:1-34) as fulfilled in AD 70 while expecting a future return, resurrection and judgment. Some read substantial parts of Revelation preteristically too, especially if they date it early (disputed). Jay Adams' 'realized millennialism' joined a largely preterist Revelation to a present millennium.",
+    "exemplars": ["Jay E. Adams", "R. C. Sproul (partial preterist; undecided between amil and postmil)", "N. T. Wright (preterist reading of the Olivet Discourse)"]
+  },
+  {
+    "millennial": "amil",
+    "hermeneutic": "full-preterism",
+    "frequency": "occasional",
+    "note": "Because full preterists place the millennium in the past (typically AD 30–70) and deny a future millennium, some describe themselves as 'amillennial' or speak of a 'realized' or 'fulfilled' eschatology, in which the kingdom continues forever after AD 70. Creedal amillennialists reject the pairing, since amillennialism's defining hope is a future return of Christ, one general bodily resurrection and the last judgment, which full preterism denies.",
+    "exemplars": []
+  },
+  {
+    "millennial": "amil",
+    "hermeneutic": "historicism",
+    "frequency": "occasional",
+    "note": "The Reformation pairing: Luther, Calvin and many Reformers kept Augustine's present millennium while reading prophecy historically, identifying the papacy with the Antichrist or man of sin (the original Westminster Confession 25.6 does so). Historically widespread, rare among amillennialists today.",
+    "exemplars": ["Martin Luther", "Reformation-era confessional theologians"]
+  },
+  {
+    "millennial": "amil",
+    "hermeneutic": "futurism",
+    "frequency": "occasional",
+    "note": "Amillennialists are futurist about the end of the age: many expect a future climactic tribulation, a personal Antichrist and a final apostasy just before Christ returns (2 Thessalonians 2; Revelation 20:7-10), while reading most of Revelation as spanning the whole age. A thoroughgoing futurist reading of Revelation 4–19 is uncommon among amillennialists.",
+    "exemplars": ["Anthony Hoekema (future personal Antichrist and final tribulation)", "Geerhardus Vos"]
+  },
+  {
+    "millennial": "amil",
+    "hermeneutic": "idealism",
+    "frequency": "common",
+    "note": "The natural partner of amillennialism: Revelation's cycles portray the whole inter-advent age from different angles (progressive parallelism), symbolising the church's struggle and Christ's victory; Revelation 20 recapitulates the age from the first advent.",
+    "exemplars": ["William Hendriksen", "Anthony Hoekema", "Kim Riddlebarger", "Samuel Waldron"]
+  },
+  {
+    "millennial": "amil",
+    "hermeneutic": "eclectic",
+    "frequency": "common",
+    "note": "Many recent amillennial scholars take a 'modified' or 'eclectic' idealism, recognising first-century referents (Rome, emperor cult), symbolic timeless principles, and a future consummation in the same visions.",
+    "exemplars": ["G. K. Beale (redemptive-historical, eclectic idealism)", "Dennis E. Johnson", "Sam Storms"]
+  },
+  {
+    "millennial": "histpremil",
+    "hermeneutic": "partial-preterism",
+    "frequency": "occasional",
+    "note": "Some historic premillennialists see the Olivet Discourse as fulfilled partly in AD 70 and partly at the end, and accept first-century referents for parts of Revelation, while keeping a future tribulation, return and millennium. Thoroughgoing preterism about Revelation 4–19 is rare in this camp.",
+    "exemplars": ["Craig L. Blomberg (Olivet Discourse partly fulfilled in AD 70)"]
+  },
+  {
+    "millennial": "histpremil",
+    "hermeneutic": "full-preterism",
+    "frequency": "incompatible",
+    "note": "Incompatible: historic premillennialism requires a future visible return of Christ followed by a future earthly reign, whereas full preterism holds that the Parousia occurred in AD 70 and that the millennium (typically AD 30–70) is already past.",
+    "exemplars": []
+  },
+  {
+    "millennial": "histpremil",
+    "hermeneutic": "historicism",
+    "frequency": "common",
+    "note": "Historically very common: from Joseph Mede (1627) through Isaac Newton and E. B. Elliott's Horae Apocalypticae (1844) and H. Grattan Guinness, premillennialists read Revelation as a sequential history of the church climaxing in Christ's premillennial return. Common before the rise of dispensational futurism; rare today.",
+    "exemplars": ["Joseph Mede", "Isaac Newton", "E. B. Elliott", "H. Grattan Guinness"]
+  },
+  {
+    "millennial": "histpremil",
+    "hermeneutic": "futurism",
+    "frequency": "common",
+    "note": "The dominant modern pairing: a future tribulation and Antichrist, a posttribulational return, and a millennium afterward, typically with the moderate futurism of Ladd, who also acknowledged first-century referents.",
+    "exemplars": ["George Eldon Ladd", "Robert H. Gundry", "Douglas J. Moo", "Wayne Grudem"]
+  },
+  {
+    "millennial": "histpremil",
+    "hermeneutic": "idealism",
+    "frequency": "rare",
+    "note": "A purely idealist reading treats Revelation's visions as timeless symbols rather than a sequence, which undercuts the chronological reading of Revelation 19–20 on which premillennialism rests. A few interpreters combine idealist readings of the central visions with a premillennial reading of chapters 19–20.",
+    "exemplars": []
+  },
+  {
+    "millennial": "histpremil",
+    "hermeneutic": "eclectic",
+    "frequency": "common",
+    "note": "Many evangelical commentators blend preterist (first-century setting), idealist (timeless message) and futurist (consummation) elements while reading Revelation 20 premillennially.",
+    "exemplars": ["Grant R. Osborne", "George Eldon Ladd", "Craig L. Blomberg"]
+  },
+  {
+    "millennial": "disppremil",
+    "hermeneutic": "partial-preterism",
+    "frequency": "rare",
+    "note": "Dispensationalism places the seventieth week of Daniel and Revelation 4–19 in the future, so preterism is generally rejected (Thomas Ice is a leading critic). Some progressive dispensationalists, however, read Luke 21:20-24 as fulfilled in AD 70 while keeping a future tribulation.",
+    "exemplars": ["Darrell L. Bock (Luke 21:20-24 as AD 70)"]
+  },
+  {
+    "millennial": "disppremil",
+    "hermeneutic": "full-preterism",
+    "frequency": "incompatible",
+    "note": "Incompatible: dispensationalism requires a future seventieth week, a future rapture and return, and a future millennium for national Israel, while full preterism places all of these, including the millennium (typically AD 30–70), in the first century.",
+    "exemplars": []
+  },
+  {
+    "millennial": "disppremil",
+    "hermeneutic": "historicism",
+    "frequency": "rare",
+    "note": "Darby and later dispensationalists rejected historicism in favour of futurism. The one common exception is the reading of the seven churches of Revelation 2–3 as seven successive eras of church history (popularised by the Scofield notes), a historicist element within an otherwise futurist system.",
+    "exemplars": ["Scofield Reference Bible (seven church eras in Revelation 2–3)"]
+  },
+  {
+    "millennial": "disppremil",
+    "hermeneutic": "futurism",
+    "frequency": "common",
+    "note": "The defining pairing: Revelation 4–22 and Daniel's seventieth week are future, following the rapture of the church; the millennium is a literal future reign.",
+    "exemplars": ["John F. Walvoord", "J. Dwight Pentecost", "Charles C. Ryrie", "Thomas Ice", "Robert L. Thomas"]
+  },
+  {
+    "millennial": "disppremil",
+    "hermeneutic": "idealism",
+    "frequency": "incompatible",
+    "note": "Incompatible in its pure form: idealism treats the visions as timeless symbols without concrete future referents, whereas dispensationalism insists on literal, future fulfilment of specific events for Israel and the nations.",
+    "exemplars": []
+  },
+  {
+    "millennial": "disppremil",
+    "hermeneutic": "eclectic",
+    "frequency": "occasional",
+    "note": "Progressive dispensationalists often acknowledge first-century referents and present-age 'already' fulfilments alongside a primarily futurist reading, a moderate eclecticism that traditional dispensationalists resist.",
+    "exemplars": ["Craig A. Blaising", "Darrell L. Bock"]
+  }
+]

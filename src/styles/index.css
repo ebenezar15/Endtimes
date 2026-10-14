@@ -131,6 +131,9 @@ body::before {
 ::selection {
   background: color-mix(in srgb, var(--gold-bright) 45%, transparent);
 }
+#main:focus-visible {
+  outline: none;
+}
 :focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 2px;
