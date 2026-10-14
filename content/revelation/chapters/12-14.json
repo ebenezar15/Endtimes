@@ -1,0 +1,2485 @@
+[
+  {
+    "chapter": 12,
+    "title": "The Woman, the Dragon and the War in Heaven",
+    "section": "The great conflict behind history: dragon, beasts and Lamb (chapters 12-14)",
+    "summary": "After the seventh trumpet, John steps back to show the spiritual war that lies behind the church's suffering. A radiant woman gives birth to a male child destined to rule the nations; a seven-headed red dragon tries to devour him, but the child is caught up to God's throne and the woman is protected in the wilderness. Michael and his angels expel the dragon, Satan, from heaven, and a heavenly hymn declares that the saints conquer him by the Lamb's blood and their testimony. Enraged and short of time, the dragon pursues the woman, fails, and turns to make war on her other children.",
+    "outline": [
+      {
+        "range": "12:1-6",
+        "heading": "Two signs: the woman, the dragon and the male child"
+      },
+      {
+        "range": "12:7-9",
+        "heading": "War in heaven: Michael casts out the dragon"
+      },
+      {
+        "range": "12:10-12",
+        "heading": "Hymn of victory: the accuser thrown down"
+      },
+      {
+        "range": "12:13-17",
+        "heading": "The dragon pursues the woman and her children"
+      }
+    ],
+    "context": "Chapter 12 opens the central section of Revelation (chapters 12-14), which most commentators regard as the book's theological core: it explains who the church's real enemy is and why believers suffer even though Christ has won. The imagery is thoroughly Jewish. It weaves together Genesis 3:15 (enmity between the serpent and the woman's seed), Joseph's dream of sun, moon and stars (Genesis 37), Zion in labour (Isaiah 26 and 66; Micah 4-5), the chaos dragon Leviathan or Rahab whom God crushes (Psalm 74; Isaiah 27 and 51), Daniel's angelic prince Michael and the 3.5-year persecution (Daniel 7, 10 and 12), and the exodus story of flight, eagles' wings, wilderness feeding and the earth swallowing enemies (Exodus 15 and 19; Numbers 16). Close parallels appear in the Qumran Thanksgiving Hymns and War Scroll and in 1 Enoch's accounts of fallen stars.\n\nThe chapter also speaks directly into the Greco-Roman world. The story of a pregnant goddess pursued by a dragon (Leto and Python, Isis and Typhon) was widely known, and Apollo, the child who slew Python, was a god Nero claimed to embody; coins of Domitian presented his deceased son as a divine child among the stars. Many scholars (Yarbro Collins, Aune, Koester) therefore read Revelation 12 as a deliberate counter-myth: the true divine child is Jesus, and the true dragon-slayer is God's Messiah, not the emperor. The chapter's date-dependent applications (the flight to Pella, the Neronic persecution, the Jewish War) are argued by preterists; the dating of Revelation (pre-70 or c. 95) is disputed and shapes how far such links are possible.",
+    "symbols": [
+      {
+        "id": "rev12-great-sign-in-heaven",
+        "phrase": "A great sign appeared in heaven",
+        "ref": "Revelation 12:1",
+        "keywords": [
+          "great sign"
+        ],
+        "category": "cosmic",
+        "jewish": "\"Sign\" (Greek semeion) recalls Isaiah 7:14, where the LORD gives a sign of a woman who conceives and bears a son, and the signs God worked in Egypt (Exodus 7:3; Deuteronomy 4:34). Jewish apocalypses commonly present heavenly tableaux that disclose the hidden meaning of earthly events (Daniel 7; 1 Enoch 85-90, the Animal Apocalypse).",
+        "cultural": "Readers in Asia Minor knew the night sky as a book of omens: astrology was pervasive, constellations were tied to myths, and emperors advertised celestial portents (the comet after Julius Caesar's death, the sidus Iulium, appeared on coins). A woman crowned with stars and a dragon in the sky would evoke constellation imagery such as Virgo and Draco or Hydra.",
+        "meaning": "This is the first of three 'signs' in heaven (12:1, 12:3, 15:1). It marks a new movement in the book: John steps behind the visible persecution to show the spiritual conflict driving it. Most interpreters agree the vision is symbolic, compressing the story of Messiah, his people and Satan into one scene; they differ on how much of it refers to specific historical events.",
+        "readings": [],
+        "texts": [
+          "Isaiah 7:14",
+          "Revelation 15:1",
+          "Genesis 1:14"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev12-woman-clothed-with-sun",
+        "phrase": "A woman clothed in the sun, with the moon under her feet and a crown of twelve stars",
+        "ref": "Revelation 12:1",
+        "keywords": [
+          "woman clothed in the sun",
+          "twelve stars",
+          "moon under her feet"
+        ],
+        "category": "person",
+        "jewish": "The clearest background is Joseph's dream (Genesis 37:9-11), where sun, moon and stars bow to Joseph and are read as Jacob, Rachel and the sons of Israel; twelve stars therefore point to the twelve tribes. Israel or Zion is pictured as a woman and mother in Isaiah 54:1-6, 66:7-9, Micah 4:9-10 and Jeremiah 4:31; the beloved 'fair as the moon, bright as the sun' appears in Song of Songs 6:10. Later Jewish tradition (Testament of Naphtali 5:3-5) also links Levi, Judah and the tribes with sun, moon and stars.",
+        "cultural": "Two pagan stories are widely compared. In the Greek Leto myth, the pregnant Leto is hunted by the serpent Python, is carried to safety, and gives birth to Apollo, who later kills the serpent; the Egyptian story of Isis, Horus and the red Typhon/Set is similar. Nero publicly cast himself as Apollo, so John's retelling may subvert imperial myth: the true divine child is Jesus, not the emperor. A coin of Domitian (c. 83) shows his dead infant son as a divine child seated on a globe amid seven stars, another possible point of contrast. The 'queen of heaven' and crowned goddesses (e.g. Roma, Artemis) were familiar civic images.",
+        "meaning": "The woman is a corporate figure: the faithful covenant people of God from whom Messiah comes, who then continue as the persecuted community in the wilderness. Disputes centre on whether she is Israel only, the church only, or the one people of God spanning both covenants. The Marian reading (the woman as Mary) has a long Catholic history and some patristic support, but most Protestant and many Catholic commentators treat Mary at most as a secondary echo, since the woman's later flight and 'other offspring' (12:17) fit a community better than an individual.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The faithful remnant of Israel, mother of Messiah, who becomes the Jewish-Christian church that is protected while apostate Jerusalem is judged (Chilton, Gentry)."
+          },
+          {
+            "position": "historicism",
+            "reading": "The true church, radiant with Christ's righteousness; her later flight is the faithful church's obscurity during the long era of papal dominance (Elliott, Barnes)."
+          },
+          {
+            "position": "futurism",
+            "reading": "National Israel, from whom Christ came and who will be persecuted and protected during the future Great Tribulation; dispensationalists stress that the Genesis 37 imagery requires Israel, not the church (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The one people of God in both testaments: Israel bringing forth Messiah and the church continuing as the bride under attack in every age (Hendriksen, Beale)."
+          }
+        ],
+        "texts": [
+          "Genesis 37:9-11",
+          "Isaiah 66:7-9",
+          "Song of Songs 6:10",
+          "Galatians 4:26"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "koester-revelation-ayb",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors",
+          "chilton-days-of-vengeance"
+        ]
+      },
+      {
+        "id": "rev12-birth-pains",
+        "phrase": "She was pregnant and crying out in the pain and agony of giving birth",
+        "ref": "Revelation 12:2",
+        "keywords": [
+          "pregnant",
+          "pain and agony"
+        ],
+        "category": "body",
+        "jewish": "Zion in labour is a prophetic image for the painful arrival of salvation: Isaiah 26:17-18, 66:7-9, Micah 4:9-10 and 5:3 (Israel 'gives birth' before the ruler from Bethlehem appears). A Qumran Thanksgiving Hymn (1QH 11, older numbering 1QH 3) describes a woman in agonising labour bringing forth a 'wonderful counsellor' while serpent-like forces threaten, a striking parallel. Later rabbinic texts speak of the 'birth pangs of the Messiah' (heblo shel mashiach) preceding the messianic age (b. Sanhedrin 98b, later material).",
+        "cultural": "Childbirth was the most common cause of death for women in antiquity, and goddesses such as Artemis of Ephesus were invoked as protectors of women in labour.",
+        "meaning": "The pains express the suffering of God's people as they wait for and bring forth the Messiah. Jesus uses similar language for the sufferings that precede the end (Matthew 24:8; John 16:21). Interpreters agree the picture is not about the physical nativity as such but about the covenant people's long travail.",
+        "readings": [],
+        "texts": [
+          "Isaiah 26:17-18",
+          "Micah 5:3",
+          "Matthew 24:8",
+          "John 16:21-22",
+          "Romans 8:22"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "vermes-complete-dss",
+          "charlesworth-otp"
+        ]
+      },
+      {
+        "id": "rev12-great-red-dragon",
+        "phrase": "A huge red dragon with seven heads, ten horns and seven royal crowns",
+        "ref": "Revelation 12:3",
+        "keywords": [
+          "red dragon",
+          "seven heads",
+          "ten horns"
+        ],
+        "category": "creature",
+        "jewish": "The dragon is the chaos-monster of the Old Testament: Leviathan, the twisting serpent and 'dragon in the sea' (Isaiah 27:1), Rahab (Isaiah 51:9; Job 26:12-13), the many-headed Leviathan whose heads God crushed (Psalm 74:13-14), and Pharaoh as the great monster (tannin) lying in the Nile (Ezekiel 29:3; 32:2). Ugaritic texts already describe Lotan as a seven-headed serpent defeated by Baal, showing how ancient the image is. The ten horns come from Daniel's fourth beast (Daniel 7:7, 24).",
+        "cultural": "Red was the colour of Typhon/Set in Egyptian lore (Plutarch, On Isis and Osiris), and Python and other serpents guarded or threatened divine births in Greek myth. Seven heads would later be linked to Rome's seven hills (Revelation 17:9). Diadems (diademata) were the royal headbands of Hellenistic kings, a claim to sovereignty.",
+        "meaning": "The text itself names the dragon as Satan (12:9). Red suggests murderous violence (John 8:44); seven heads and crowns suggest the fullness of usurped royal power; ten horns signal great military strength, and the dragon's features are passed on to the sea beast (13:1) and the scarlet beast (17:3), showing that persecuting empires are his instruments.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Satan working through the Roman empire (seven heads as emperors or hills, ten horns as provincial or client rulers) in the first century."
+          },
+          {
+            "position": "historicism",
+            "reading": "Satan embodied first in pagan imperial Rome; the heads are its successive forms of government (Elliott, Barnes)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Satan, whose heads and horns anticipate the end-time empire and ten-king confederation of Revelation 17 and Daniel 7 (Walvoord)."
+          },
+          {
+            "position": "idealism",
+            "reading": "Satan as the power behind every persecuting world-system; the numbers express completeness and might, not particular rulers (Hendriksen)."
+          }
+        ],
+        "texts": [
+          "Isaiah 27:1",
+          "Psalm 74:13-14",
+          "Ezekiel 29:3",
+          "Daniel 7:7",
+          "Revelation 13:1",
+          "Revelation 17:3"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "koester-revelation-ayb",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors",
+          "barnes-notes-revelation"
+        ]
+      },
+      {
+        "id": "rev12-third-of-stars",
+        "phrase": "His tail swept a third of the stars from the sky, tossing them to the earth",
+        "ref": "Revelation 12:4",
+        "keywords": [
+          "third of the stars"
+        ],
+        "category": "cosmic",
+        "jewish": "Daniel 8:10 describes the little horn (Antiochus IV) growing to the host of heaven and throwing some of the stars to the ground; there the stars are the faithful of Israel or their angelic patrons (compare Daniel 12:3). 1 Enoch 86-88 pictures fallen angels as stars falling from heaven, and Isaiah 14:12 uses the morning star image for a fallen king.",
+        "cultural": "Ancient astronomy imagined comets and meteors as stars falling or being swept away, often read as omens of disaster for rulers.",
+        "meaning": "The 'third' is a partial, limited destruction, as in the trumpet judgments. Two main readings exist: the fall of angels who joined Satan's rebellion (a very old reading, connecting with 12:7-9 where the dragon has 'his angels'), or Satan's assault on God's people, following Daniel 8:10. Many commentators combine them, seeing the verse as a picture of the dragon's destructive power rather than a precise chronology.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "Often taken as the original fall of angels who followed Satan, now his demonic host (Walvoord)."
+          },
+          {
+            "position": "idealism",
+            "reading": "Following Daniel 8:10, the dragon's persecution of the saints and the apostasy he provokes, rather than a primeval fall (Beale)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Satan's attack on Israel's faithful leaders and the apostasy of first-century Israel's rulers (Chilton)."
+          }
+        ],
+        "texts": [
+          "Daniel 8:10",
+          "Isaiah 14:12",
+          "Jude 6",
+          "Revelation 8:12"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "walvoord-revelation-jesus-christ",
+          "chilton-days-of-vengeance",
+          "charlesworth-otp"
+        ]
+      },
+      {
+        "id": "rev12-dragon-before-woman",
+        "phrase": "The dragon stood before the woman, ready to devour her child",
+        "ref": "Revelation 12:4",
+        "keywords": [
+          "devour her child"
+        ],
+        "category": "action",
+        "jewish": "Pharaoh's order to drown Israel's baby boys (Exodus 1:16-22) and Jeremiah 51:34 (Babylon as a dragon that swallowed Jerusalem) supply the pattern of the monster devouring God's people. The serpent's hostility to the woman's offspring goes back to Genesis 3:15.",
+        "cultural": "In the Leto myth Python sought to kill the unborn Apollo; the motif of a tyrant threatening a royal child was standard in ancient legend.",
+        "meaning": "Most readers see a compressed allusion to the whole of Satan's opposition to Messiah, with Herod's massacre of the infants at Bethlehem (Matthew 2:16) as its clearest historical instance, and the cross as its climax.",
+        "readings": [],
+        "texts": [
+          "Genesis 3:15",
+          "Exodus 1:22",
+          "Matthew 2:13-18",
+          "Jeremiah 51:34"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "koester-revelation-ayb",
+          "osborne-revelation-becnt"
+        ]
+      },
+      {
+        "id": "rev12-male-child-iron-scepter",
+        "phrase": "A son, a male child, who will rule all the nations with an iron scepter",
+        "ref": "Revelation 12:5",
+        "keywords": [
+          "male child",
+          "iron scepter"
+        ],
+        "category": "person",
+        "jewish": "Isaiah 66:7 speaks of Zion giving birth to a 'male child' before her labour; Psalm 2:9 promises the anointed King that he will shepherd or break the nations with a rod of iron. Revelation applies Psalm 2 to Jesus (19:15) and shares it with the faithful (2:26-27).",
+        "cultural": "Imperial propaganda celebrated the birth of heirs as the dawn of a golden age (Virgil's Fourth Eclogue was read this way), and Nero was hailed as a new Apollo.",
+        "meaning": "The child is Jesus the Messiah, the son of Psalm 2. The redundant 'son, a male' (huion arsen) highlights the fulfilment of Isaiah 66:7. Almost all interpreters agree; a few historicists and others have proposed secondary referents.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Some classic historicists (e.g. Elliott) saw the birth also as the 'birth' of a Christian empire under Constantine, when the church's offspring rose to rule; most later historicists returned to Christ."
+          },
+          {
+            "position": "futurism",
+            "reading": "Christ himself; some dispensational writers add the church united to him, raptured before the tribulation, though Walvoord and most keep the referent to Christ."
+          }
+        ],
+        "texts": [
+          "Psalm 2:7-9",
+          "Isaiah 66:7",
+          "Revelation 19:15",
+          "Revelation 2:26-27"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "elliott-horae",
+          "walvoord-revelation-jesus-christ",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "rev12-child-caught-up",
+        "phrase": "Her child was caught up to God and to His throne",
+        "ref": "Revelation 12:5",
+        "keywords": [
+          "caught up to god"
+        ],
+        "category": "action",
+        "jewish": "Exaltation to God's throne recalls Psalm 110:1 and Daniel 7:13-14, where the one like a son of man comes to the Ancient of Days to receive dominion. Elijah and Enoch were also taken up in Jewish tradition (2 Kings 2:11; Genesis 5:24).",
+        "cultural": "Romans spoke of emperors being taken up to the gods at death (apotheosis), shown on coins and reliefs with eagles carrying the deceased emperor heavenward.",
+        "meaning": "The life of Jesus is telescoped from birth to ascension: Satan's attempt to destroy him fails, and he is enthroned. The verb harpazo (snatched) stresses God's rescue. The scene implies that the cross and resurrection, though unmentioned, are Satan's defeat.",
+        "readings": [],
+        "texts": [
+          "Psalm 110:1",
+          "Acts 1:9-11",
+          "Acts 2:33-36",
+          "Daniel 7:13-14"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev12-woman-fled-wilderness",
+        "phrase": "The woman fled into the wilderness, to a place prepared by God, to be nourished",
+        "ref": "Revelation 12:6",
+        "keywords": [
+          "wilderness",
+          "nourished"
+        ],
+        "category": "place",
+        "jewish": "The wilderness is Israel's place of both testing and divine care after the exodus, where God fed them with manna (Exodus 16; Deuteronomy 8:2-4). Elijah fled to the wilderness and was fed by ravens and an angel (1 Kings 17:2-6; 19:3-8). Hosea 2:14 promises that God will lure Israel into the wilderness and speak tenderly to her. Qumran's community deliberately withdrew to the desert to 'prepare the way' (Isaiah 40:3; 1QS 8:13-14).",
+        "cultural": "Eusebius (Church History 3.5.3) records that the Jerusalem Christians, warned by an oracle, fled to Pella in the Decapolis before the siege of Jerusalem; historians debate the tradition's reliability.",
+        "meaning": "The faithful community is protected and sustained by God in a time of persecution, living as pilgrims between exodus and promised land. The 'place prepared' echoes John 14:2-3 language of God's provision. Protection here is spiritual preservation, not exemption from suffering, since the dragon still makes war on her children (12:17).",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The Jerusalem church's flight to Pella before AD 70 in obedience to Jesus' warning (Matthew 24:16), or more broadly the protected Jewish-Christian remnant (Chilton, Gentry)."
+          },
+          {
+            "position": "historicism",
+            "reading": "The true church driven into obscurity (Waldenses, Albigenses and other dissenting groups) during the 1,260 years of papal supremacy (Elliott, Barnes)."
+          },
+          {
+            "position": "futurism",
+            "reading": "A Jewish remnant fleeing at the midpoint of Daniel's seventieth week (Matthew 24:15-21); some dispensationalists suggest a refuge such as Petra, though that is speculative (Walvoord)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The church throughout the age, a pilgrim people kept and fed by God through word and sacrament while living in a hostile world (Hendriksen, Beale)."
+          }
+        ],
+        "texts": [
+          "Exodus 16:32",
+          "1 Kings 17:2-6",
+          "Hosea 2:14",
+          "Matthew 24:16"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "eusebius-church-history",
+          "chilton-days-of-vengeance",
+          "elliott-horae",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev12-1260-days",
+        "phrase": "1,260 days; a time, and times, and half a time",
+        "ref": "Revelation 12:6, 14",
+        "keywords": [
+          "1,260 days",
+          "half a time"
+        ],
+        "category": "time",
+        "jewish": "The period comes from Daniel 7:25 and 12:7 ('a time, times and half a time'), the length of the little horn's persecution, historically tied to Antiochus IV's desecration of the temple (167-164 BC). Three and a half years was also the length of the drought in Elijah's day according to Jesus and James (Luke 4:25; James 5:17), linking it with prophetic witness and wilderness provision. Revelation uses three equivalent forms: 42 months (11:2; 13:5), 1,260 days (11:3; 12:6) and time-times-half (12:14).",
+        "cultural": "",
+        "meaning": "Half of seven, the period represents a limited, God-bounded time of persecution and protection: severe, but cut short. Debate concerns whether it is literal, a symbol, or a code for years.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "A roughly three-and-a-half-year period in the first century: the Jewish War of 66-70 or the Neronic persecution from late 64 to Nero's death in June 68 (Gentry)."
+          },
+          {
+            "position": "historicism",
+            "reading": "On the day-for-a-year principle (Numbers 14:34; Ezekiel 4:6), 1,260 years of papal ascendancy, often dated from 538 (Justinian's support of the Roman bishop) to 1798 (the pope's capture by French forces), with other start dates proposed (Barnes, Elliott)."
+          },
+          {
+            "position": "futurism",
+            "reading": "The literal second half of Daniel's seventieth week, the Great Tribulation (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The whole church age between Christ's ascension and return, seen as a short, limited time of trial in which God preserves his people (Hendriksen, Beale)."
+          }
+        ],
+        "texts": [
+          "Daniel 7:25",
+          "Daniel 12:7",
+          "Revelation 11:2-3",
+          "Revelation 13:5",
+          "Luke 4:25",
+          "James 5:17"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "paulien-1260-days",
+          "gentry-before-jerusalem-fell",
+          "barnes-notes-revelation",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev12-war-in-heaven-michael",
+        "phrase": "War broke out in heaven: Michael and his angels fought against the dragon",
+        "ref": "Revelation 12:7",
+        "keywords": [
+          "michael",
+          "war broke out in heaven"
+        ],
+        "category": "person",
+        "jewish": "Michael is the angelic 'great prince' who stands for Israel in Daniel 10:13, 10:21 and 12:1, where his arising coincides with an unparalleled time of distress. In 1 Enoch 20:5 he is set over the people of God, in the Qumran War Scroll (1QM 17:6-8) God exalts Michael's rule among the angels when the sons of light win, and Jude 9 shows him disputing with the devil. His name means 'Who is like God?', which the beast's worshippers parody in 13:4.",
+        "cultural": "Greek myth told of wars in heaven (the Titanomachy and Gigantomachy, the latter vividly carved on the Great Altar of Pergamum, the city of 'Satan's throne' in Revelation 2:13).",
+        "meaning": "Satan loses his place of access in heaven. The hymn that follows (12:10-11) connects the victory to the 'blood of the Lamb', implying that Michael's victory is the heavenly counterpart of Christ's earthly work at the cross and ascension, as in Luke 10:18 and John 12:31. The main dispute is timing: primeval, at the cross, or still future.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "A future event at the midpoint of the tribulation, when Satan is finally barred from heaven and turns his fury on Israel (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The heavenly side of Christ's victory at the cross and ascension; since then Satan can no longer accuse believers before God (Hendriksen, Beale)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "The result of Christ's death, resurrection and ascension in the first century, leading to Satan's rage against the church and Israel up to AD 70 (Chilton, Gentry)."
+          },
+          {
+            "position": "historicism",
+            "reading": "Classic historicists read the war as the struggle between Christianity and paganism within the Roman empire, ending when paganism was cast from the imperial throne under Constantine (Elliott)."
+          }
+        ],
+        "texts": [
+          "Daniel 10:13",
+          "Daniel 12:1",
+          "Jude 9",
+          "Luke 10:18",
+          "John 12:31"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors",
+          "chilton-days-of-vengeance",
+          "elliott-horae",
+          "vermes-complete-dss",
+          "charlesworth-otp"
+        ]
+      },
+      {
+        "id": "rev12-ancient-serpent-devil-satan",
+        "phrase": "The great dragon, that ancient serpent called the devil and Satan, the deceiver of the whole world",
+        "ref": "Revelation 12:9",
+        "keywords": [
+          "ancient serpent",
+          "devil and satan",
+          "deceiver"
+        ],
+        "category": "title",
+        "jewish": "The 'ancient serpent' is the tempter of Genesis 3; the Wisdom of Solomon 2:24 already identifies the serpent's envy with the devil. 'Satan' (Hebrew ha-satan, the adversary) is the prosecuting angel of Job 1-2 and Zechariah 3:1-2; 'devil' (diabolos, slanderer) is the Greek translation used in the Septuagint. 1 Enoch 40:7 speaks of 'satans' who accuse humans before God.",
+        "cultural": "",
+        "meaning": "John piles up names to unmask the dragon: the deceiver from Eden, the accuser, the slanderer. Deception is his chief weapon throughout Revelation (13:14; 20:3, 8, 10), which is why the beasts work by signs and propaganda. All views agree that a personal evil power is meant.",
+        "readings": [],
+        "texts": [
+          "Genesis 3:1-15",
+          "Job 1:6-12",
+          "Zechariah 3:1-2",
+          "Revelation 20:2",
+          "2 Corinthians 11:3"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "charlesworth-otp"
+        ]
+      },
+      {
+        "id": "rev12-hurled-down",
+        "phrase": "He was hurled to the earth, and his angels with him",
+        "ref": "Revelation 12:9",
+        "keywords": [
+          "hurled down",
+          "hurled to the earth"
+        ],
+        "category": "action",
+        "jewish": "Isaiah 14:12-15 and Ezekiel 28:16-17 (taunts against the kings of Babylon and Tyre, long applied to Satan's fall) speak of being cast from heaven to earth. Jesus says he saw Satan fall like lightning (Luke 10:18) and that the ruler of this world would be 'cast out' at the cross (John 12:31).",
+        "cultural": "",
+        "meaning": "The casting down is a defeat but also the reason for intensified persecution on earth. It explains the church's experience: Satan is beaten yet dangerous, like a wounded animal. Amillennial interpreters link it with the binding of Satan in 20:1-3 as two views of the same victory; premillennialists generally distinguish them.",
+        "readings": [
+          {
+            "position": "amil",
+            "reading": "Parallel to the binding of Satan in Revelation 20: both describe the curtailing of Satan's power through Christ's first coming (Hendriksen, Riddlebarger)."
+          },
+          {
+            "position": "disppremil",
+            "reading": "A distinct future event in the tribulation; the binding of Revelation 20 is later still, at Christ's return (Walvoord)."
+          },
+          {
+            "position": "histpremil",
+            "reading": "Satan's defeat at the cross begins here, but the binding of Revelation 20 is a further, future restriction at the Parousia (Ladd)."
+          }
+        ],
+        "texts": [
+          "Luke 10:18",
+          "John 12:31",
+          "Isaiah 14:12",
+          "Revelation 20:1-3"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "hendriksen-more-than-conquerors",
+          "walvoord-revelation-jesus-christ",
+          "ladd-commentary-revelation"
+        ]
+      },
+      {
+        "id": "rev12-accuser-of-brothers",
+        "phrase": "The accuser of our brothers, who accuses them day and night before our God",
+        "ref": "Revelation 12:10",
+        "keywords": [
+          "accuser"
+        ],
+        "category": "title",
+        "jewish": "In Job 1-2 and Zechariah 3 the satan acts as prosecutor in God's heavenly court. Greek kategor was borrowed into later Hebrew and Aramaic as qategor, the term rabbis used for Satan as prosecutor of Israel. A later rabbinic tradition (b. Yoma 20a) observes that the numerical value of ha-satan is 364, so Satan may accuse on every day of the year except the Day of Atonement, when Israel is cleansed; this is later material but shows how naturally accusation and atonement were linked.",
+        "cultural": "Roman Asia knew the role of the delator, the informer who brought accusations, sometimes against Christians, before magistrates (Pliny, Letters 10.96-97, mentions anonymous accusations).",
+        "meaning": "Satan's charge against believers is silenced because Christ's sacrifice answers it (Romans 8:33-34). The hymn turns legal language into worship: the court verdict has been handed down for the saints.",
+        "readings": [],
+        "texts": [
+          "Job 1:9-11",
+          "Zechariah 3:1-5",
+          "Romans 8:33-34",
+          "1 John 2:1"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "pliny-letters-trajan",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev12-kingdom-hymn",
+        "phrase": "Now have come the salvation and the power and the kingdom of our God, and the authority of His Christ",
+        "ref": "Revelation 12:10",
+        "keywords": [
+          "kingdom of our god",
+          "authority of his christ"
+        ],
+        "category": "worship",
+        "jewish": "The language draws on Psalm 2 (the LORD and his anointed) and Daniel 7:14, 27 (dominion given to the son of man and the saints). The hymn answers 11:15, where the kingdom of the world becomes the kingdom of our Lord and of his Christ.",
+        "cultural": "Acclamations of an emperor's victory (soteria, dynamis, basileia) were standard at imperial celebrations; John assigns those claims to God and his Messiah.",
+        "meaning": "The 'now' marks the decisive arrival of God's reign through Christ's work. Interpreters disagree whether the 'now' is the first-century triumph of the cross (inaugurated kingdom) or an end-time moment, but the hymn's link to the Lamb's blood favours the cross for most commentators.",
+        "readings": [
+          {
+            "position": "postmil",
+            "reading": "The kingdom has come at the ascension and will progressively triumph through the gospel in history (Chilton, Gentry)."
+          },
+          {
+            "position": "disppremil",
+            "reading": "Proleptic: the hymn celebrates the future earthly kingdom that will follow the tribulation (Walvoord)."
+          }
+        ],
+        "texts": [
+          "Psalm 2:2",
+          "Daniel 7:14",
+          "Revelation 11:15",
+          "Matthew 28:18"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-of-vengeance",
+          "walvoord-revelation-jesus-christ",
+          "bauckham-theology-revelation"
+        ]
+      },
+      {
+        "id": "rev12-conquered-by-blood",
+        "phrase": "They have conquered him by the blood of the Lamb and by the word of their testimony; they did not love their lives so as to shy away from death",
+        "ref": "Revelation 12:11",
+        "keywords": [
+          "blood of the lamb",
+          "word of their testimony"
+        ],
+        "category": "action",
+        "jewish": "Jewish martyr theology held that the faithful who die rather than betray the covenant win a victory and even serve God's purposes (Daniel 11:32-35; 2 Maccabees 7; 4 Maccabees 17:11-22, which presents the martyrs' deaths as a ransom and triumph over the tyrant).",
+        "cultural": "'Testimony' (martyria) is courtroom vocabulary; in Roman trials, Christians' confession before the governor (as in Pliny's letters) could cost them their lives, and the word 'martyr' gradually came to mean one who dies for the faith.",
+        "meaning": "The saints win not by force but by relying on Christ's atoning death and by faithful witness unto death. This redefines victory in Revelation: the Lamb and his followers conquer by suffering (5:5-6; 15:2). It is the theological centre of the chapter.",
+        "readings": [],
+        "texts": [
+          "Revelation 5:5-6",
+          "Revelation 6:9-11",
+          "Mark 8:35",
+          "John 12:25"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation",
+          "pliny-letters-trajan"
+        ]
+      },
+      {
+        "id": "rev12-short-time",
+        "phrase": "Woe to the earth and the sea; the devil has come down in great fury, knowing he has only a short time",
+        "ref": "Revelation 12:12",
+        "keywords": [
+          "short time",
+          "great fury"
+        ],
+        "category": "time",
+        "jewish": "The 'woe' recalls the three woes announced by the eagle (8:13); the intensification of evil just before God's final intervention is a common apocalyptic pattern (Daniel 12:1; 4 Ezra 5:1-12).",
+        "cultural": "",
+        "meaning": "Satan's rage is the rage of the defeated; his time (kairos) is limited. Whether the 'short time' is the 3.5-year period that follows or the whole interval between ascension and return depends on one's wider framework.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The brief period up to AD 70 (and Nero's death) in which Satan vents his fury on the church and Israel."
+          },
+          {
+            "position": "futurism",
+            "reading": "The final three and a half years before Christ's return."
+          },
+          {
+            "position": "idealism",
+            "reading": "The whole church age, short from God's perspective."
+          }
+        ],
+        "texts": [
+          "Revelation 8:13",
+          "Daniel 12:1",
+          "1 Peter 5:8"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "gentry-before-jerusalem-fell",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev12-eagles-wings",
+        "phrase": "The woman was given two wings of a great eagle to fly to her place in the wilderness",
+        "ref": "Revelation 12:14",
+        "keywords": [
+          "wings of a great eagle"
+        ],
+        "category": "creature",
+        "jewish": "God says he bore Israel out of Egypt 'on eagles' wings' (Exodus 19:4) and is like an eagle that carries its young (Deuteronomy 32:11); those who wait on the LORD mount up with wings like eagles (Isaiah 40:31). The image is a new exodus.",
+        "cultural": "The eagle was Jupiter's bird and the standard (aquila) of the Roman legions; some commentators suggest an ironic contrast, though John's explicit allusion is to Exodus.",
+        "meaning": "God himself rescues and carries his people, as he did at the exodus. The passive 'was given' points to divine action. The verse repeats and expands 12:6.",
+        "readings": [],
+        "texts": [
+          "Exodus 19:4",
+          "Deuteronomy 32:11",
+          "Isaiah 40:31"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "koester-revelation-ayb",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "rev12-serpent-river-earth-swallows",
+        "phrase": "The serpent spewed water like a river; the earth opened its mouth and swallowed the river",
+        "ref": "Revelation 12:15-16",
+        "keywords": [
+          "like a river",
+          "swallow up the river"
+        ],
+        "category": "action",
+        "jewish": "Floods are a stock image for overwhelming enemies (Psalm 18:4, 16; 32:6; 124:2-5; Isaiah 43:2). The earth opening its mouth recalls Korah's rebellion (Numbers 16:30-32) and the Song of the Sea, where 'the earth swallowed them' (Exodus 15:12). Pharaoh, the Nile dragon, tried to destroy Israel's sons in the river (Exodus 1:22).",
+        "cultural": "Asia Minor was a land of rivers that vanished into limestone sinkholes, and earthquakes regularly opened the ground; such phenomena would make the picture vivid, though it is not a specific local reference.",
+        "meaning": "Satan tries to sweep God's people away with a torrent (persecution, slander or deceptive teaching, since the water comes from his mouth), but creation itself is enlisted to protect them. The scene again reworks the exodus.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Persecution and armies sent against the Jewish-Christian church in Judea, frustrated by providence (Chilton)."
+          },
+          {
+            "position": "historicism",
+            "reading": "Often the barbarian invasions or waves of persecution against the faithful church, absorbed or turned aside (Elliott, Barnes)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Possibly a literal flood or army sent against the fleeing Jewish remnant, thwarted by a supernatural intervention (Walvoord)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The flood of lies, false teaching and persecution that comes from Satan's mouth in every age, from which God preserves the church (Beale, Hendriksen)."
+          }
+        ],
+        "texts": [
+          "Exodus 15:12",
+          "Numbers 16:30-32",
+          "Psalm 124:2-5",
+          "Isaiah 43:2"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-of-vengeance",
+          "elliott-horae",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev12-rest-of-her-offspring",
+        "phrase": "The rest of her children, who keep the commandments of God and hold to the testimony of Jesus",
+        "ref": "Revelation 12:17",
+        "keywords": [
+          "rest of her children",
+          "testimony of jesus"
+        ],
+        "category": "person",
+        "jewish": "Genesis 3:15 promises enmity between the serpent and the woman's 'seed'; the woman's seed is here both Messiah and his brothers and sisters (Hebrews 2:11-13). Keeping the commandments is covenant language (Exodus 20:6; Deuteronomy 7:9).",
+        "cultural": "",
+        "meaning": "Having failed to destroy the Messiah and the protected woman, the dragon targets the individual believers who are her children. Interpreters debate whether the woman and her 'rest of offspring' are distinguished (e.g. Jewish and Gentile believers, or the ideal church and actual believers) or the same people seen from two angles.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The Gentile churches beyond Judea, persecuted under Nero after the Jewish-Christian 'woman' was protected (Gentry, Chilton)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Believers of the tribulation period, including Gentiles and Jews not among the protected remnant (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "Individual Christians on earth, as distinct from the church as a heavenly, protected entity (Beale)."
+          }
+        ],
+        "texts": [
+          "Genesis 3:15",
+          "Revelation 14:12",
+          "Revelation 19:10",
+          "Hebrews 2:11-13"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-of-vengeance",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev12-shore-of-the-sea",
+        "phrase": "The dragon stood on the shore of the sea",
+        "ref": "Revelation 12:17",
+        "keywords": [
+          "shore of the sea"
+        ],
+        "category": "place",
+        "jewish": "The sea is the home of chaos and of Daniel's beasts (Daniel 7:2-3); in Job 40-41 Leviathan dwells in the sea and Behemoth on land, a pairing echoed in 1 Enoch 60:7-9, 4 Ezra 6:49-52 and 2 Baruch 29:4.",
+        "cultural": "From the province of Asia, Roman power arrived over the sea: proconsuls landed each year at Ephesus. Some manuscripts (followed by the KJV, as 13:1) read 'I stood', placing John on the shore instead; the best manuscripts read 'he stood'.",
+        "meaning": "The dragon takes his stand at the sea's edge to summon a beast as his agent, linking chapter 12 to chapter 13. The textual variant is minor for meaning but explains differing verse divisions in English Bibles.",
+        "readings": [],
+        "texts": [
+          "Daniel 7:2-3",
+          "Job 41:1",
+          "Revelation 13:1"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "koester-revelation-ayb",
+          "charlesworth-otp"
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "The chapter is a theological history of the first-century conflict: faithful Israel gives birth to Messiah, whom Satan opposes through Herod and the cross; at the ascension Satan is cast down; the Jewish-Christian church is protected (the Pella flight) during the 3.5 years of the Jewish War, while Satan turns on the wider church through Nero. Gentry and Chilton stress that the time indicators of the book ('soon') point to these events."
+      },
+      {
+        "position": "full-preterism",
+        "reading": "Reads the chapter much like partial preterists, but treats the 'short time' and the woman's deliverance as culminating in AD 70, when the old-covenant age ended and the kingdom was fully established; critics note that this is tied to a broader denial of a future bodily return, which full preterists answer by arguing that the Parousia was spiritual and covenantal (Max King, Don Preston)."
+      },
+      {
+        "position": "historicism",
+        "reading": "A panorama of church history: the dragon is pagan Rome; the casting down of the dragon is the overthrow of paganism under Constantine; the woman's flight is the faithful church's long obscurity during 1,260 years of papal supremacy; the flood represents barbarian invasions or persecutions (Elliott, Barnes)."
+      },
+      {
+        "position": "futurism",
+        "reading": "The woman is Israel; the birth and ascension of Christ form a historical flashback, but the war in heaven, the woman's flight and the 1,260 days belong to the second half of the future seventieth week, when Satan, expelled from heaven, persecutes a Jewish remnant that God protects (Walvoord, Thomas)."
+      },
+      {
+        "position": "idealism",
+        "reading": "A timeless portrait of the church's whole existence between Christ's first and second comings: Satan, defeated at the cross, rages against God's people, who are spiritually protected and conquer by faith and witness even unto death (Hendriksen, Milligan)."
+      },
+      {
+        "position": "eclectic",
+        "reading": "Beale and others combine a redemptive-historical anchor (Christ's birth, cross and ascension as Satan's decisive defeat) with an idealist application across the church age and a final intensification before the end; Ladd likewise reads the inaugurated victory of the cross as leading to a future climax."
+      }
+    ],
+    "questions": [
+      "Why do you think John tells the story of Christ's birth and ascension in a single verse (12:5), and what does that omission of the life and cross of Jesus emphasise?",
+      "How does reading the woman as Israel, the church, or the whole people of God change how you understand her flight into the wilderness?",
+      "Revelation 12:11 says the saints conquer by the blood of the Lamb and their testimony. How does that redefine victory compared with Roman ideas of triumph?",
+      "Is the casting down of Satan in 12:9 the same event as the binding of Satan in 20:1-3? What is at stake for the millennial views?",
+      "What difference does it make whether the 1,260 days are read as literal days, years, or a symbol of the church age?"
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "aune-revelation-wbc",
+      "koester-revelation-ayb",
+      "gregg-revelation-four-views",
+      "gentry-before-jerusalem-fell",
+      "chilton-days-of-vengeance",
+      "elliott-horae",
+      "barnes-notes-revelation",
+      "walvoord-revelation-jesus-christ",
+      "thomas-revelation-8-22",
+      "hendriksen-more-than-conquerors",
+      "ladd-commentary-revelation",
+      "charlesworth-otp",
+      "vermes-complete-dss",
+      "eusebius-church-history"
+    ]
+  },
+  {
+    "chapter": 13,
+    "title": "The Beast from the Sea and the Beast from the Land",
+    "section": "The great conflict behind history: dragon, beasts and Lamb (chapters 12-14)",
+    "summary": "Standing on the shore, the dragon calls up his agents. A seven-headed, ten-horned beast rises from the sea, combining the features of Daniel's four beasts; it receives the dragon's throne, survives a mortal wound, blasphemes God for 42 months and makes war on the saints, while all whose names are not in the Lamb's book of life worship it. A second beast rises from the earth, lamb-like but speaking like a dragon; it performs signs, sets up an image of the first beast that can speak and kill, and forces everyone to receive a mark on hand or forehead to buy or sell. John ends with a riddle: the number of the beast is the number of a man, 666.",
+    "outline": [
+      {
+        "range": "13:1-4",
+        "heading": "The beast from the sea receives the dragon's authority"
+      },
+      {
+        "range": "13:5-10",
+        "heading": "Blasphemy and war on the saints for 42 months; a call to endurance"
+      },
+      {
+        "range": "13:11-15",
+        "heading": "The beast from the land and the speaking image"
+      },
+      {
+        "range": "13:16-18",
+        "heading": "The mark of the beast and the number 666"
+      }
+    ],
+    "context": "Revelation 13 rewrites Daniel 7 for the church's situation. Daniel's four beasts from the sea (lion, bear, leopard and a ten-horned monster) become a single composite beast; the little horn's boastful mouth, its 3.5-year persecution and its war on the saints transfer directly (Daniel 7:8, 21, 25). The two beasts recall Leviathan and Behemoth, the sea and land monsters of Job 40-41 that Second Temple texts (1 Enoch 60, 4 Ezra 6, 2 Baruch 29) say God will defeat at the end. Daniel 3 (the golden image and the death penalty for refusing to worship it) and Deuteronomy 13 (false prophets with signs) shape the second half, while the mark on hand and forehead parodies the Shema's command to bind God's words there (Deuteronomy 6:8) and the seal of God in Revelation 7. The beast, false prophet and dragon form a counterfeit trinity, and the beast's 'slain yet living' head is a dark parody of the Lamb.\n\nFor first-century readers in Asia, the setting was the imperial cult. Temples to Roma and the emperors stood in Pergamum, Smyrna and Ephesus; local elites served as high priests and promoted emperor-worship in civic festivals, guild banquets and the marketplace; coins carried the emperor's image and divine titles. Nero was the first emperor to persecute Christians (Tacitus, Annals 15.44), died by the sword in 68, and was rumoured to be returning (the Nero redivivus legend and several false Neros). Pliny's letter to Trajan (c. 112) shows the test that later faced Christians in this province: offer incense before the emperor's image or die. How directly John alludes to Nero depends partly on the disputed date of Revelation (pre-70 or c. 95); even late-date scholars often see the Nero legend behind the healed wound and the number 666, while futurists see these as anticipations of a future Antichrist.",
+    "symbols": [
+      {
+        "id": "rev13-beast-from-the-sea",
+        "phrase": "A beast rising out of the sea",
+        "ref": "Revelation 13:1",
+        "keywords": [
+          "beast",
+          "rising out of the sea"
+        ],
+        "category": "creature",
+        "jewish": "Daniel 7:2-8 sees four beasts rising from the wind-churned great sea, representing successive empires, the fourth with ten horns and a boastful little horn. The sea monster Leviathan (Job 41; Isaiah 27:1) stands behind the image; 1 Enoch 60:7-9, 4 Ezra 6:49-52 and 2 Baruch 29:4 pair a female sea monster Leviathan with a male land monster Behemoth, a pairing John seems to adapt in the two beasts of chapter 13.",
+        "cultural": "From the viewpoint of the seven churches, Roman power literally came from over the sea: the proconsul of Asia arrived by ship at Ephesus. The sea was also associated in Greek thought with chaos and the unruly masses (compare 17:15, 'waters' as peoples).",
+        "meaning": "The beast is the dragon's agent on earth: a political power that demands worship and persecutes the saints. In the first readers' world it most naturally evoked imperial Rome. The interpretive dispute is whether it is limited to Rome, refers to a later institution, points to a future individual Antichrist, or is a symbol of idolatrous state power that recurs in every age (several of these can be combined).",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Imperial Rome, which can be viewed corporately (the empire) or personified in its head Nero, the first emperor to persecute Christians (Gentry, Chilton)."
+          },
+          {
+            "position": "full-preterism",
+            "reading": "As in partial preterism, Rome and Nero in the run-up to AD 70; all of the chapter is fulfilled in the first century."
+          },
+          {
+            "position": "historicism",
+            "reading": "The papacy as a politico-religious power that rose from the ruins of the western Roman empire and ruled for 1,260 years (Barnes, Elliott, and in Adventist form Uriah Smith)."
+          },
+          {
+            "position": "futurism",
+            "reading": "The end-time Antichrist and his revived Roman or world empire, which will dominate during the final 3.5 years (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The persecuting state that claims divine honours, manifest in Rome and in every later totalitarian power, culminating at the end (Hendriksen, Beale)."
+          }
+        ],
+        "texts": [
+          "Daniel 7:2-8",
+          "Job 41:1-34",
+          "Revelation 17:3",
+          "Revelation 17:15"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "gentry-beast-of-revelation",
+          "gentry-pmw-beasts-of-revelation",
+          "barnes-notes-revelation",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors",
+          "charlesworth-otp"
+        ]
+      },
+      {
+        "id": "rev13-ten-crowns-blasphemous-names",
+        "phrase": "Ten royal crowns on its horns and blasphemous names on its heads",
+        "ref": "Revelation 13:1",
+        "keywords": [
+          "blasphemous names",
+          "ten royal crowns"
+        ],
+        "category": "title",
+        "jewish": "Daniel's little horn speaks great things against the Most High (Daniel 7:8, 25), and Antiochus IV 'magnifies himself above every god' (Daniel 11:36), even calling himself Epiphanes ('God manifest') on coins.",
+        "cultural": "Emperors bore titles that Jews and Christians regarded as blasphemous: divi filius ('son of the deified'), Augustus / Sebastos ('worthy of reverence'), soter (saviour), pontifex maximus, and, according to Suetonius (Domitian 13), Domitian liked to be called dominus et deus noster, 'our Lord and God'. Such titles were stamped on coins and inscribed on temples throughout Asia.",
+        "meaning": "The beast's heads bear names that claim divine status for human rulers. Crowns on the horns (where the dragon had them on the heads) suggest that the beast's royal authority is exercised through many rulers.",
+        "readings": [],
+        "texts": [
+          "Daniel 7:8",
+          "Daniel 11:36",
+          "2 Thessalonians 2:4",
+          "Revelation 17:3"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "suetonius-lives-caesars",
+          "friesen-imperial-cults"
+        ]
+      },
+      {
+        "id": "rev13-leopard-bear-lion",
+        "phrase": "Like a leopard, with the feet of a bear and the mouth of a lion",
+        "ref": "Revelation 13:2",
+        "keywords": [
+          "leopard",
+          "bear",
+          "lion"
+        ],
+        "category": "creature",
+        "jewish": "These are the first three beasts of Daniel 7:4-6 (lion, bear, leopard), listed here in reverse order. In Daniel they are usually understood as Babylon, Media-Persia and Greece (or Babylon, Media, Persia), followed by a fourth terrifying beast.",
+        "cultural": "",
+        "meaning": "John's beast combines the features of all Daniel's empires, so it is the climax and summary of world-empire opposed to God. Listing them in reverse order suggests John looks back from his own time through history. Hosea 13:7-8 also uses lion, leopard and bear for God's judgment, a less-noticed echo.",
+        "readings": [],
+        "texts": [
+          "Daniel 7:4-7",
+          "Hosea 13:7-8"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "osborne-revelation-becnt"
+        ]
+      },
+      {
+        "id": "rev13-dragon-gave-throne",
+        "phrase": "The dragon gave the beast his power and his throne and great authority",
+        "ref": "Revelation 13:2",
+        "keywords": [
+          "his throne",
+          "great authority"
+        ],
+        "category": "action",
+        "jewish": "In Daniel 7 dominion is taken from the beasts and given to the son of man; here the dragon parodies God by delegating his throne to a rival 'son'. Satan offers Jesus the kingdoms of the world in Luke 4:5-7.",
+        "cultural": "Pergamum, with its imperial temple to Roma and Augustus (29 BC), is called the place 'where Satan's throne is' (Revelation 2:13). Emperors claimed their authority from the gods; John says it comes from the dragon.",
+        "meaning": "The beast's political power is real but derivative: Satan is the true power behind persecuting empire. This counterfeit trinity (dragon, beast, false prophet) parodies the Father, the Son and the Spirit.",
+        "readings": [],
+        "texts": [
+          "Luke 4:5-7",
+          "Revelation 2:13",
+          "Daniel 7:14"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation",
+          "friesen-imperial-cults"
+        ]
+      },
+      {
+        "id": "rev13-mortal-wound-healed",
+        "phrase": "One of its heads appeared to be mortally wounded, but the mortal wound was healed",
+        "ref": "Revelation 13:3, 12, 14",
+        "keywords": [
+          "mortally wounded",
+          "mortal wound",
+          "wounded by the sword"
+        ],
+        "category": "body",
+        "jewish": "The phrase 'as slain' (hos esphagmenen) deliberately mirrors the Lamb 'as slain' in Revelation 5:6: the beast imitates Christ's death and resurrection. Genesis 3:15 promised a crushing blow to the serpent's head, and some see the 'wound by the sword' (13:14) as God's judgment, which the beast survives for a time.",
+        "cultural": "Nero killed himself with a sword (or had a freedman help him) in June 68 (Suetonius, Nero 49). Rumours soon spread that he was not dead or would return from the east with the Parthians; at least three impostors claimed to be Nero (Tacitus, Histories 2.8; Suetonius, Nero 57), and the Sibylline Oracles (4.119-139; 5.137-154, 361-370) turned this into a Nero redivivus myth. The empire itself nearly collapsed in the civil wars of 68-69 (the Year of the Four Emperors) and then revived under Vespasian.",
+        "meaning": "The beast suffers a fatal blow yet survives, provoking awe. Most scholars see some relation to the Nero legend; others see a parody of the resurrection with no single historical referent. Which head, which wound, and when it is healed are among the most debated details in the book.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The death of Nero (the head) brought Rome to the brink of collapse in 68-69; its recovery under Vespasian is the healing that made the world marvel (Gentry)."
+          },
+          {
+            "position": "historicism",
+            "reading": "The fall of the pagan western empire in 476 (or of Roman imperial rule generally) healed when papal Rome revived its power; Adventist historicism adds the 1798 captivity of the pope and the later restoration of the Vatican's sovereignty in 1929 (Barnes, Smith)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Either an apparent death and recovery of the Antichrist himself, possibly a satanic counterfeit of resurrection, or the revival of the Roman empire in the end times (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The beast was dealt a mortal blow by Christ's death and resurrection, yet state idolatry keeps reviving in new forms until the end (Beale, Hendriksen)."
+          }
+        ],
+        "texts": [
+          "Revelation 5:6",
+          "Revelation 17:8-11",
+          "Genesis 3:15"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "gentry-beast-of-revelation",
+          "suetonius-lives-caesars",
+          "tacitus-annals",
+          "charlesworth-otp",
+          "barnes-notes-revelation",
+          "smith-daniel-revelation",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev13-who-is-like-the-beast",
+        "phrase": "Who is like the beast, and who can wage war against it?",
+        "ref": "Revelation 13:4",
+        "keywords": [
+          "who is like the beast"
+        ],
+        "category": "worship",
+        "jewish": "A parody of Israel's praise after the Red Sea, 'Who is like you, O LORD, among the gods?' (Exodus 15:11; compare Psalm 35:10; 89:6-8; Micah 7:18), and of the name Michael ('Who is like God?'), whose victory was just narrated.",
+        "cultural": "Imperial hymns and acclamations praised the emperor's invincibility; the Roman army seemed beyond resistance (compare Josephus's speech of Agrippa II urging Jews not to fight Rome, Jewish War 2.345-401).",
+        "meaning": "The world's worship is driven by awe at military power. The irony is that Michael has already overcome the dragon whom the beast serves.",
+        "readings": [],
+        "texts": [
+          "Exodus 15:11",
+          "Micah 7:18",
+          "Revelation 12:7"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy",
+          "josephus-jewish-war"
+        ]
+      },
+      {
+        "id": "rev13-mouth-arrogant-blasphemies",
+        "phrase": "A mouth to speak arrogant and blasphemous words, slandering God's name and His tabernacle",
+        "ref": "Revelation 13:5-6",
+        "keywords": [
+          "arrogant and blasphemous",
+          "his tabernacle"
+        ],
+        "category": "body",
+        "jewish": "Daniel's little horn has 'a mouth speaking great things' (Daniel 7:8, 11, 20, 25) and the king of Daniel 11:36 speaks astonishing things against the God of gods. Antiochus profaned the temple; Caligula tried to set up his statue in Jerusalem's temple in 40 (Josephus, Antiquities 18.261-309; Philo, Embassy to Gaius).",
+        "cultural": "Nero appeared on coins with the radiate crown of the sun god and was hailed as Apollo; temples to living or deified emperors filled Asia. Domitian's 'Lord and God' title (Suetonius, Domitian 13) is often cited.",
+        "meaning": "Blasphemy is the beast's characteristic speech. Its slander of God's 'tabernacle, those who dwell in heaven' shows that God's dwelling is now his people (compare 21:3), whom the beast vilifies.",
+        "readings": [],
+        "texts": [
+          "Daniel 7:8",
+          "Daniel 7:25",
+          "Daniel 11:36",
+          "2 Thessalonians 2:4"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "suetonius-lives-caesars",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "rev13-42-months",
+        "phrase": "Authority to act for 42 months",
+        "ref": "Revelation 13:5",
+        "keywords": [
+          "42 months"
+        ],
+        "category": "time",
+        "jewish": "The same 3.5-year period as Daniel 7:25 and 12:7 and Revelation 11:2 and 12:6, 14: the limited span of the persecutor's power. 'Was given' (edothe) appears repeatedly, stressing that God sets the limit.",
+        "cultural": "Nero's persecution of Christians began after the great fire of Rome in July 64 (Tacitus, Annals 15.44) and ended with his death in June 68, roughly 42 months; partial preterists stress this match, while critics note the start date is approximate.",
+        "meaning": "The beast's authority is real but limited and God-bounded.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The Neronic persecution from late 64 to June 68 (Gentry)."
+          },
+          {
+            "position": "historicism",
+            "reading": "1,260 years of papal supremacy on the day-year principle (Barnes, Elliott, Smith)."
+          },
+          {
+            "position": "futurism",
+            "reading": "The literal final 3.5 years of Daniel's seventieth week (Walvoord)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The church age as a limited time of trial (Hendriksen)."
+          }
+        ],
+        "texts": [
+          "Daniel 7:25",
+          "Revelation 11:2",
+          "Revelation 12:6"
+        ],
+        "sources": [
+          "gentry-beast-of-revelation",
+          "tacitus-annals",
+          "barnes-notes-revelation",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev13-war-against-saints",
+        "phrase": "Permitted to wage war against the saints and to conquer them",
+        "ref": "Revelation 13:7",
+        "keywords": [
+          "war against the saints"
+        ],
+        "category": "action",
+        "jewish": "A direct citation of Daniel 7:21, where the little horn makes war on the saints and prevails until the Ancient of Days comes. It also reverses Revelation 11:7 and anticipates the saints' true victory in 15:2.",
+        "cultural": "Tacitus (Annals 15.44) records that under Nero 'a vast multitude' of Christians were arrested and executed, some burned as torches, some torn by dogs; later persecutions under Domitian are debated by historians, and Pliny (Letters 10.96) shows Christians executed in Asia by about 112.",
+        "meaning": "The beast's victory is physical (martyrdom), but the saints' faithfulness is the real victory (12:11; 15:2). The verse warns that the church should expect suffering, not exemption.",
+        "readings": [],
+        "texts": [
+          "Daniel 7:21-22",
+          "Revelation 11:7",
+          "Revelation 15:2"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "tacitus-annals",
+          "pliny-letters-trajan"
+        ]
+      },
+      {
+        "id": "rev13-every-tribe-tongue",
+        "phrase": "Authority over every tribe and people and tongue and nation",
+        "ref": "Revelation 13:7",
+        "keywords": [
+          "every tribe"
+        ],
+        "category": "place",
+        "jewish": "Nebuchadnezzar demanded that 'peoples, nations and languages' worship his golden image (Daniel 3:4, 7); John's fourfold formula also echoes the Lamb's redeemed from every tribe and tongue (5:9; 7:9).",
+        "cultural": "Roman propaganda presented the empire as the oikoumene, the whole inhabited world; the Sebasteion at Aphrodisias displayed reliefs of the many conquered nations (ethne) under Rome.",
+        "meaning": "The beast's claim to universal dominion counterfeits the Lamb's universal redemption. Whether 'every nation' is hyperbole for the Roman world or literally global is part of the wider interpretive dispute.",
+        "readings": [],
+        "texts": [
+          "Daniel 3:4-7",
+          "Revelation 5:9",
+          "Revelation 7:9"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev13-book-of-life-lamb-slain",
+        "phrase": "The Book of Life belonging to the Lamb who was slain, from the foundation of the world",
+        "ref": "Revelation 13:8",
+        "keywords": [
+          "book of life",
+          "foundation of the world"
+        ],
+        "category": "object",
+        "jewish": "God's book of the living appears in Exodus 32:32-33, Psalm 69:28, Isaiah 4:3, Daniel 12:1 and Malachi 3:16; 1 Enoch 47:3 and 108:3 and Jubilees 30:22 speak of heavenly books of the righteous. Qumran texts likewise speak of those 'written' for life.",
+        "cultural": "Greek cities kept citizen registers; a disgraced citizen's name could be erased (compare Revelation 3:5 to Sardis). Being inscribed meant belonging and rights.",
+        "meaning": "Those secure in the Lamb's book do not worship the beast. The Greek word order allows 'from the foundation of the world' to modify 'written' (names written before creation, as in 17:8) or 'slain' (the Lamb slain in God's eternal purpose, compare 1 Peter 1:19-20). Translations and commentators divide; both readings affirm God's sovereign purpose of salvation.",
+        "readings": [],
+        "texts": [
+          "Exodus 32:32-33",
+          "Daniel 12:1",
+          "Revelation 17:8",
+          "Revelation 20:12-15",
+          "1 Peter 1:19-20"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "charlesworth-otp"
+        ]
+      },
+      {
+        "id": "rev13-captivity-and-sword",
+        "phrase": "If anyone is destined for captivity, into captivity he will go; if anyone is to die by the sword, by the sword he must be killed",
+        "ref": "Revelation 13:10",
+        "keywords": [
+          "captivity",
+          "by the sword"
+        ],
+        "category": "action",
+        "jewish": "Adapted from Jeremiah 15:2 and 43:11, where God's people are destined for death, sword, famine and captivity. Manuscripts differ in the second line: some read that whoever kills with the sword must be killed with the sword (compare Matthew 26:52), which makes it a warning against armed resistance or a promise of retribution.",
+        "cultural": "",
+        "meaning": "The saying calls for patient endurance: believers should accept suffering as within God's sovereign plan and not take up the sword. The 'call for perseverance and faith' is the practical application of the whole chapter. The textual variant is genuinely uncertain and modern translations differ.",
+        "readings": [],
+        "texts": [
+          "Jeremiah 15:2",
+          "Jeremiah 43:11",
+          "Matthew 26:52",
+          "Revelation 14:12"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev13-he-who-has-an-ear",
+        "phrase": "He who has an ear, let him hear",
+        "ref": "Revelation 13:9",
+        "keywords": [
+          "has an ear"
+        ],
+        "category": "worship",
+        "jewish": "Echoes the hearing formula of Isaiah 6:9-10 and Ezekiel 3:27, used by Jesus with his parables (Matthew 13:9) and repeated in each of the seven letters (Revelation 2-3).",
+        "cultural": "",
+        "meaning": "The formula links this vision to the letters to the churches: the beast's pressure is exactly the danger addressed there (Pergamum, Thyatira, Laodicea). Only those with spiritual insight will see through the beast's propaganda.",
+        "readings": [],
+        "texts": [
+          "Isaiah 6:9-10",
+          "Matthew 13:9",
+          "Revelation 2:7"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy"
+        ]
+      },
+      {
+        "id": "rev13-beast-from-the-earth",
+        "phrase": "Another beast rising out of the earth",
+        "ref": "Revelation 13:11",
+        "keywords": [
+          "another beast",
+          "out of the earth"
+        ],
+        "category": "creature",
+        "jewish": "Behemoth, the land monster paired with Leviathan (Job 40:15-24; 1 Enoch 60:7-9; 4 Ezra 6:49-52). Later in the book this beast is called the 'false prophet' (16:13; 19:20; 20:10), recalling Deuteronomy 13:1-5, which warns against prophets who perform signs to lead Israel after other gods.",
+        "cultural": "In Asia the imperial cult was promoted not from Rome but by local elites: the provincial council (koinon) of Asia, its high priests (archiereis), city magistrates and wealthy benefactors. Provincial temples to the emperors stood at Pergamum (to Roma and Augustus, 29 BC), Smyrna (to Tiberius, 26) and Ephesus (to the Sebastoi, c. 89/90, with a colossal statue of Titus or Domitian). 'Earth' could also mean 'the land', i.e. Judea, which some preterists stress.",
+        "meaning": "A religious or ideological power that serves the political beast by promoting its worship through signs, propaganda and economic pressure. Identification depends on one's framework.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Either the provincial priesthood and elites of the imperial cult in Asia, or the Jewish high-priestly leadership in the land of Israel who aligned with Rome against Christ and his people (Gentry; Chilton reads it as the apostate Jewish leadership)."
+          },
+          {
+            "position": "historicism",
+            "reading": "The papal clergy or spiritual power that promoted the authority of the papal beast (Barnes, Elliott); Seventh-day Adventist historicism identifies it with the United States, rising peacefully 'from the earth' (Smith)."
+          },
+          {
+            "position": "futurism",
+            "reading": "A future individual, the false prophet, who will lead worldwide worship of the Antichrist (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "False religion, philosophy and propaganda in every age that persuade people to give ultimate loyalty to the state or culture (Hendriksen, Beale)."
+          }
+        ],
+        "texts": [
+          "Job 40:15-24",
+          "Deuteronomy 13:1-5",
+          "Revelation 16:13",
+          "Revelation 19:20"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "friesen-imperial-cults",
+          "gentry-pmw-beasts-of-revelation",
+          "chilton-days-of-vengeance",
+          "barnes-notes-revelation",
+          "smith-daniel-revelation",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors",
+          "charlesworth-otp"
+        ]
+      },
+      {
+        "id": "rev13-two-horns-like-lamb",
+        "phrase": "Two horns like a lamb, but spoke like a dragon",
+        "ref": "Revelation 13:11",
+        "keywords": [
+          "two horns like a lamb",
+          "spoke like a dragon"
+        ],
+        "category": "creature",
+        "jewish": "Jesus warns of false prophets who come in sheep's clothing but are ravenous wolves (Matthew 7:15). Daniel's ram with two horns (Daniel 8:3, 20) may also lie in the background.",
+        "cultural": "Imperial cult priests presented emperor worship as civic piety and benevolence, using the gentle language of peace (pax Romana) and benefaction.",
+        "meaning": "The second beast looks harmless, even Christ-like, but its message is the dragon's. It is a counterfeit of the Lamb and a warning against deception within religious and cultural institutions.",
+        "readings": [],
+        "texts": [
+          "Matthew 7:15",
+          "Matthew 24:24",
+          "Daniel 8:3"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev13-fire-from-heaven",
+        "phrase": "Great signs, even fire from heaven to come down to earth",
+        "ref": "Revelation 13:13",
+        "keywords": [
+          "fire from heaven",
+          "great signs"
+        ],
+        "category": "action",
+        "jewish": "Elijah called down fire from heaven on Mount Carmel and on the king's soldiers (1 Kings 18:38; 2 Kings 1:10-12), and the two witnesses have fire from their mouths (Revelation 11:5). Pharaoh's magicians imitated Moses' signs (Exodus 7:11, 22). Deuteronomy 13 and Jesus (Mark 13:22) warn of deceptive signs.",
+        "cultural": "Ancient temples staged marvels: hidden fires, automata (Hero of Alexandria described temple machines), and oracle tricks. Lucian's 'Alexander the False Prophet' satirises a 2nd-century Asia Minor prophet whose talking serpent-god Glycon drew crowds; Acts 8 and later legends depict Simon Magus as a wonder-worker.",
+        "meaning": "The false prophet counterfeits prophetic power to authenticate the beast. Whether the signs are real demonic wonders or skilful trickery is debated; the text's point is that signs do not prove truth.",
+        "readings": [],
+        "texts": [
+          "1 Kings 18:38",
+          "2 Kings 1:10",
+          "Mark 13:22",
+          "2 Thessalonians 2:9"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "koester-revelation-ayb",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "rev13-image-of-the-beast",
+        "phrase": "An image to the beast, given breath so that it could speak and cause those who refused to worship it to be killed",
+        "ref": "Revelation 13:14-15",
+        "keywords": [
+          "image",
+          "give breath"
+        ],
+        "category": "object",
+        "jewish": "Nebuchadnezzar's golden image required worship on pain of death in the furnace (Daniel 3:1-15); Antiochus set up the 'abomination of desolation' (Daniel 11:31; 1 Maccabees 1:54). The idols mocked in Psalm 115:5 and Habakkuk 2:18-19 have no breath; this one is given 'breath' (pneuma), a parody of God's life-giving Spirit (Genesis 2:7; Revelation 11:11).",
+        "cultural": "Statues of emperors stood in temples, marketplaces and gymnasia across Asia. Around 112 Pliny tested accused Christians by requiring them to invoke the gods and offer incense and wine before the emperor's image and to curse Christ, executing those who persisted (Letters 10.96). Speaking statues produced by ventriloquism or hidden devices are reported in ancient sources.",
+        "meaning": "The image represents enforced participation in idolatrous loyalty to the beast, with death for refusal. It is the crux of the chapter's call to faithful endurance.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The cult statues of the emperor in Asia and the demand to honour them, or (for those who see the land beast as Jewish leadership) the pressure on Christians to honour Caesar rather than Christ (Gentry)."
+          },
+          {
+            "position": "historicism",
+            "reading": "The papal system's images and its enforced religious conformity, or an image of papal authority in a later political power (Barnes, Smith)."
+          },
+          {
+            "position": "futurism",
+            "reading": "A literal image of the Antichrist, possibly technologically animated, set up in a rebuilt Jerusalem temple (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "Every idol of political or cultural power that society demands people honour (Hendriksen)."
+          }
+        ],
+        "texts": [
+          "Daniel 3:1-15",
+          "Daniel 11:31",
+          "Matthew 24:15",
+          "Habakkuk 2:18-19"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "pliny-letters-trajan",
+          "friesen-imperial-cults",
+          "gentry-beast-of-revelation",
+          "barnes-notes-revelation",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev13-small-and-great",
+        "phrase": "All people small and great, rich and poor, free and slave",
+        "ref": "Revelation 13:16",
+        "keywords": [
+          "small and great",
+          "free and slave"
+        ],
+        "category": "person",
+        "jewish": "Merisms like this express totality (compare Deuteronomy 1:17; Psalm 115:13; Revelation 11:18; 19:18; 20:12).",
+        "cultural": "Roman society was tightly stratified by wealth and legal status; the beast's demand cuts through every class, and the list anticipates 6:15 and 19:18.",
+        "meaning": "No one is exempt from the pressure to conform; the same categories appear at the final judgment, where every class stands before God (20:12).",
+        "readings": [],
+        "texts": [
+          "Revelation 6:15",
+          "Revelation 19:18",
+          "Revelation 20:12"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "rev13-mark-on-hand-or-forehead",
+        "phrase": "A mark on their right hand or on their forehead",
+        "ref": "Revelation 13:16",
+        "keywords": [
+          "mark",
+          "right hand",
+          "forehead"
+        ],
+        "category": "body",
+        "jewish": "The beast's mark parodies God's seal on the foreheads of his servants (Revelation 7:3; 14:1) and the Lamb's and Father's name they bear. Ezekiel 9:4 marks the faithful with the letter tav on their foreheads. Deuteronomy 6:8 (the Shema) tells Israel to bind God's words on hand and forehead (the origin of tefillin), so the beast's mark claims the loyalty of thought and action that belongs to God. 3 Maccabees 2:29 reports that Ptolemy IV ordered Jews to be branded with the ivy-leaf of Dionysus, a striking precedent for a religious mark imposed by a king.",
+        "cultural": "Charagma was the word for the imperial seal on contracts and for the stamped image on coins. Slaves, soldiers and temple devotees could be branded or tattooed (stigmata) as property of a master or god. Later (250) Decius required certificates of sacrifice (libelli) to prove loyalty, a later but illuminating parallel.",
+        "meaning": "The mark signifies ownership and allegiance to the beast, in contrast to God's seal. Most scholars read it symbolically (just as God's seal is not a visible tattoo), while some insist on a literal, visible mark. Either way it is a matter of worship, not an accidental technology.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Visible allegiance to Caesar or the imperial system, shown in conduct and in participation in civic cult and trade (Gentry); some preterists link it to the Roman coinage bearing the emperor's image and name."
+          },
+          {
+            "position": "historicism",
+            "reading": "Profession of allegiance to the papal system; Seventh-day Adventist historicism adds the enforcement of Sunday observance in place of the seventh-day Sabbath (Smith); most Protestant historicists read it as conformity to Rome's doctrine and worship (Barnes)."
+          },
+          {
+            "position": "futurism",
+            "reading": "A literal identifying mark that will be required for commerce under the Antichrist; many futurists note modern technologies could make this feasible, while warning against date-setting (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "A symbol of the mindset (forehead) and actions (hand) of those who give ultimate loyalty to the world-system, the counterpart of God's seal on believers (Hendriksen, Beale)."
+          }
+        ],
+        "texts": [
+          "Revelation 7:3",
+          "Revelation 14:1",
+          "Ezekiel 9:4",
+          "Deuteronomy 6:8",
+          "Revelation 14:9-11"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "charlesworth-otp",
+          "gentry-beast-of-revelation",
+          "barnes-notes-revelation",
+          "smith-daniel-revelation",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev13-buy-or-sell",
+        "phrase": "No one could buy or sell unless he had the mark",
+        "ref": "Revelation 13:17",
+        "keywords": [
+          "buy or sell"
+        ],
+        "category": "action",
+        "jewish": "Economic exclusion of the faithful appears in Jewish tradition (e.g. pressures under Antiochus in 1 Maccabees); Israel's prophets condemned commerce built on idolatry and injustice (Ezekiel 27-28; Amos 8:4-6).",
+        "cultural": "In the cities of Asia, trade guilds (collegia) held meals in honour of patron gods and the emperor; refusing participation could mean economic isolation, which is probably the issue behind the 'Jezebel' controversy at Thyatira (2:20). Roman coins carried the emperor's image and divine titles (compare Mark 12:16).",
+        "meaning": "Loyalty to the beast is enforced economically as well as politically. For the first readers this was a lived reality; John's call is to accept economic loss rather than compromise. Revelation 18 later shows the merchants who profited from Babylon lamenting her fall.",
+        "readings": [],
+        "texts": [
+          "Revelation 2:20",
+          "Revelation 18:11-19",
+          "Mark 12:16"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "koester-revelation-ayb",
+          "friesen-imperial-cults",
+          "bauckham-climax-prophecy"
+        ]
+      },
+      {
+        "id": "rev13-666",
+        "phrase": "The number of the beast: the number of a man, and that number is 666",
+        "ref": "Revelation 13:17-18",
+        "keywords": [
+          "666",
+          "number of the beast",
+          "number of a man"
+        ],
+        "category": "number",
+        "jewish": "Hebrew and Greek letters doubled as numerals, so every name had a numerical value (gematria in Hebrew, isopsephy in Greek). Jewish and Christian writers used it: the Sibylline Oracles (1.324-330) give the value of Jesus' name (Iesous) as 888, and later rabbis used gematria in interpretation. Solomon received 666 talents of gold a year (1 Kings 10:14; 2 Chronicles 9:13) just before his turn to idolatry, which some see as a background. 'Here is wisdom' echoes Daniel's wise who understand (Daniel 12:10).",
+        "cultural": "Number games with names were popular: a Pompeii graffito reads, in effect, 'I love her whose number is 545.' NERON KAISAR written in Hebrew letters (nrwn qsr) adds to 666 (50+200+6+50 + 100+60+200); the Latin form Nero Caesar (nrw qsr) gives 616, and 616 is the reading of some ancient witnesses, including P115 (P.Oxy. 4499, 3rd-4th century) and Codex Ephraemi; Irenaeus knew of 616 but defended 666. A Hebrew document from Murabba'at (Mur 18, dated to Nero's reign) spells Nero's name as nrwn qsr, supporting the spelling used (Hillers). Irenaeus himself (Against Heresies 5.30) proposed Euanthas, Lateinos and Teitan, all equalling 666, but counselled against dogmatism.",
+        "meaning": "The number identifies the beast for those with 'wisdom'. Leading proposals: (1) Nero Caesar by Hebrew gematria, with the 616 variant seen as a scribe's adjustment to the Latin spelling, now the majority scholarly view but disputed (critics note that it requires a Hebrew transliteration in a Greek book, that Irenaeus did not mention Nero, and that the spelling of Caesar varies); (2) the Greek word for beast (therion) written in Hebrew letters also equals 666, so the number may simply mean 'beast' (Bauckham); (3) 666 is a triangular number (of 36, itself triangular of 8), linking to the beast as 'an eighth' (17:11) (Bauckham); (4) a symbolic number of falling short of seven three times over, 'a human number' (Greek arithmos anthropou can mean 'a human number' rather than 'one man's number'), the counterfeit of perfection; (5) a future individual whose name will compute to 666. Many scholars combine symbolic and historical readings.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Nero Caesar (nrwn qsr = 666; Latin spelling = 616), confirming the first-century referent; 'let the one who has insight calculate' implies the first readers could do so (Gentry, Chilton)."
+          },
+          {
+            "position": "full-preterism",
+            "reading": "Also Nero, as part of the case that the whole prophecy was fulfilled before AD 70."
+          },
+          {
+            "position": "historicism",
+            "reading": "Lateinos ('the Latin one', Irenaeus' suggestion) taken as the Latin church or papacy; some Protestant historicists computed papal titles such as Vicarius Filii Dei in Roman numerals as 666, though whether that was an official papal title is disputed (Elliott, Barnes, Smith)."
+          },
+          {
+            "position": "futurism",
+            "reading": "The name of the future Antichrist, which believers will be able to calculate when he appears; futurists generally warn against attaching it to present figures and often note the symbolic overtone of six as the number of man (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "A symbol of human and satanic imperfection, always falling short of God's seven, characterising every beastly power; some idealists accept Nero as the first-century example (Hendriksen, Beale)."
+          }
+        ],
+        "texts": [
+          "1 Kings 10:14",
+          "Daniel 12:10",
+          "Revelation 15:2",
+          "Revelation 17:9-11"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy",
+          "irenaeus-against-heresies",
+          "hillers-murabbaat",
+          "williams-p115-number-beast",
+          "britannica-number-of-the-beast",
+          "gentry-beast-of-revelation",
+          "barnes-notes-revelation",
+          "elliott-horae",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors",
+          "charlesworth-otp"
+        ]
+      },
+      {
+        "id": "rev13-call-for-wisdom",
+        "phrase": "Here is a call for wisdom: let the one who has insight calculate",
+        "ref": "Revelation 13:18",
+        "keywords": [
+          "call for wisdom",
+          "insight"
+        ],
+        "category": "action",
+        "jewish": "Daniel 12:10 says the wise (maskilim) will understand the meaning of the end-time events while the wicked will not; Daniel 11:33-35 shows the wise teaching and suffering under persecution. Revelation 17:9 repeats the formula for the seven heads.",
+        "cultural": "",
+        "meaning": "John invites careful discernment, not curiosity: the wise see through the beast's claims. Whether 'calculate' requires literal gematria or spiritual discernment of the beast's character is part of the 666 debate.",
+        "readings": [],
+        "texts": [
+          "Daniel 11:33-35",
+          "Daniel 12:10",
+          "Revelation 17:9"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy"
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "The sea beast is Rome, especially Nero (the sixth head, 17:10), whose 42-month persecution (64-68), death by the sword and the empire's near-collapse and revival in 68-69 fit the chapter; 666 is Nero Caesar by Hebrew gematria. The land beast is either the imperial cult's provincial priesthood in Asia or the Jewish leadership that sided with Rome against Christians (Gentry, The Beast of Revelation; Chilton). The chapter therefore describes events the first readers would face 'soon'."
+      },
+      {
+        "position": "full-preterism",
+        "reading": "Agrees that the beast is Nero and Rome and that the chapter was fulfilled by AD 70, as part of a system in which all prophecy, including the Second Coming and resurrection, was fulfilled then; critics note this departs from the historic creeds, while proponents argue that the time-statements require it."
+      },
+      {
+        "position": "historicism",
+        "reading": "The sea beast is papal Rome, which inherited the western empire's power; its 42 months are 1,260 years of supremacy; the healed wound is the revival of Roman power through the papacy; the land beast is the papal clergy (Barnes, Elliott) or, in Seventh-day Adventist teaching, the United States enforcing religious law (Uriah Smith); 666 has been computed from Lateinos or papal titles. This was the dominant Protestant reading from the Reformation into the nineteenth century."
+      },
+      {
+        "position": "futurism",
+        "reading": "The sea beast is the future Antichrist, a world ruler over a revived Roman or global empire during the last 3.5 years of Daniel's seventieth week; the land beast is a personal false prophet; the image may stand in a rebuilt temple and the mark will be a literal requirement for commerce; the number will identify the Antichrist when he appears (Walvoord, Thomas)."
+      },
+      {
+        "position": "idealism",
+        "reading": "The two beasts are recurring realities throughout the church age: coercive political power that demands absolute loyalty, and the religious, cultural or ideological propaganda that serves it. Rome was the first readers' example; every age has its own, culminating at the end (Hendriksen, Milligan)."
+      },
+      {
+        "position": "eclectic",
+        "reading": "Many recent commentators (Beale, Osborne, Ladd, Bauckham, Keener) hold that John addressed Roman imperial power and probably drew on the Nero legend, while seeing Rome as a type of a final antichristian power to come and of beastly power in every age; Ladd, a historic premillennialist, stresses a future personal Antichrist foreshadowed by Rome."
+      }
+    ],
+    "questions": [
+      "How does the beast imitate the Lamb (a slain-yet-living head, worship, a mark like God's seal, universal authority)? What does that suggest about how evil works?",
+      "Weigh the case for and against reading 666 as Nero Caesar. How much does the 616 variant help, and what are the strongest objections?",
+      "The second beast looks like a lamb but speaks like a dragon. Where might religious or cultural institutions today serve idolatrous power?",
+      "How does the economic dimension of the mark ('no one could buy or sell') change if it is read against first-century trade guilds, versus future technology?",
+      "Why does John interrupt the vision with 'a call for the perseverance and faith of the saints' (13:10), and how should the different views apply it?"
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "aune-revelation-wbc",
+      "koester-revelation-ayb",
+      "bauckham-climax-prophecy",
+      "gregg-revelation-four-views",
+      "gentry-beast-of-revelation",
+      "gentry-pmw-beasts-of-revelation",
+      "gentry-before-jerusalem-fell",
+      "chilton-days-of-vengeance",
+      "elliott-horae",
+      "barnes-notes-revelation",
+      "smith-daniel-revelation",
+      "walvoord-revelation-jesus-christ",
+      "thomas-revelation-8-22",
+      "hendriksen-more-than-conquerors",
+      "ladd-commentary-revelation",
+      "osborne-revelation-becnt",
+      "irenaeus-against-heresies",
+      "hillers-murabbaat",
+      "williams-p115-number-beast",
+      "britannica-number-of-the-beast",
+      "tacitus-annals",
+      "suetonius-lives-caesars",
+      "pliny-letters-trajan",
+      "friesen-imperial-cults",
+      "charlesworth-otp"
+    ]
+  },
+  {
+    "chapter": 14,
+    "title": "The Lamb on Mount Zion, Three Angels, and the Harvest of the Earth",
+    "section": "The great conflict behind history: dragon, beasts and Lamb (chapters 12-14)",
+    "summary": "In answer to the beasts of chapter 13, John sees the Lamb standing on Mount Zion with the 144,000 who bear his and his Father's name, singing a new song as pure, truthful firstfruits who follow him wherever he goes. Three angels then fly in midheaven: one proclaims the eternal gospel and calls all nations to worship the Creator, one announces the fall of Babylon the great, and one warns that those who worship the beast and take its mark will drink the undiluted wine of God's wrath. A voice blesses those who die in the Lord. The chapter closes with two harvests: one like a son of man reaps the earth with a sickle, and an angel gathers the vine of the earth into the great winepress of God's wrath, from which blood flows for 1,600 stadia.",
+    "outline": [
+      {
+        "range": "14:1-5",
+        "heading": "The Lamb and the 144,000 on Mount Zion"
+      },
+      {
+        "range": "14:6-7",
+        "heading": "First angel: the eternal gospel and the call to fear God"
+      },
+      {
+        "range": "14:8",
+        "heading": "Second angel: Babylon the great has fallen"
+      },
+      {
+        "range": "14:9-13",
+        "heading": "Third angel: warning against the mark; the blessed dead"
+      },
+      {
+        "range": "14:14-16",
+        "heading": "The grain harvest by one like a son of man"
+      },
+      {
+        "range": "14:17-20",
+        "heading": "The vintage and the winepress of God's wrath"
+      }
+    ],
+    "context": "Chapter 14 completes the central triptych of chapters 12-14 by setting the Lamb and his people against the dragon and the beasts, and by previewing the end: Babylon's fall (chapters 17-18), the final judgment and the coming of the Son of Man (chapter 19). Its imagery comes from Israel's worship and harvest calendar. Mount Zion is the city of God's king (Psalm 2) and the place of deliverance (Joel 2:32); the 144,000 are pictured as both a holy army pure for battle (Deuteronomy 23; the Qumran War Scroll) and a firstfruits offering (Leviticus 23). The three angels echo the prophets' oracles against Babylon (Isaiah 21; Jeremiah 25 and 51), the cup of wrath, and the fire and smoke of Sodom and Edom (Genesis 19; Isaiah 34). The closing harvest scenes rework Joel 3:13 and Isaiah 63, and the Son of Man on the cloud is Daniel 7:13. Second Temple texts such as 1 Enoch 100, 4 Ezra 13 and 15 and 2 Baruch supply parallels to the Messiah on Zion and blood up to the horses' bridles.\n\nThe Greco-Roman background is just as present. 'Gospel' was imperial vocabulary for the good news of Augustus' birth and accession; hymn choirs sang the emperor's praises at provincial festivals; the kithara was Apollo's and Nero's instrument. Babylon as a code name for Rome appears in Jewish texts after the temple's destruction in 70, which some scholars take as support for a late date of Revelation, while preterists argue that the prophetic critique of faithless Jerusalem explains the image; Babylon's identity is disputed. The vivid harvest imagery would resonate in the grain and wine country of Asia Minor, and Josephus' account of the siege of Jerusalem (blood in the streets, mass crucifixions outside the walls) is often cited by preterists.",
+    "symbols": [
+      {
+        "id": "rev14-lamb-on-mount-zion",
+        "phrase": "The Lamb standing on Mount Zion",
+        "ref": "Revelation 14:1",
+        "keywords": [
+          "mount zion",
+          "lamb standing"
+        ],
+        "category": "place",
+        "jewish": "Zion is where God installs his king (Psalm 2:6) and where deliverance is found in the day of the LORD (Joel 2:32; Obadiah 17, 21); the LORD will reign on Mount Zion (Isaiah 24:23; Micah 4:7). In 4 Ezra 13:35-40 the Messiah stands on Mount Zion and gathers a peaceful multitude after destroying the hostile nations. Hebrews 12:22 calls believers already come to the heavenly Mount Zion.",
+        "cultural": "",
+        "meaning": "The scene answers chapter 13: in contrast to the beast and its marked worshippers, the Lamb stands (as in 5:6, alive though slain) with his protected people. Interpreters disagree whether Zion here is heavenly, earthly, or both, and whether the scene is present or future.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The heavenly Zion and new-covenant community, with the first-century Jewish-Christian remnant protected as Jerusalem falls (Chilton, Gentry)."
+          },
+          {
+            "position": "historicism",
+            "reading": "The faithful church gathered around Christ during the age of papal apostasy, a vision of the true church set against the false (Barnes, Elliott)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Often the literal Mount Zion in Jerusalem at Christ's return, with the 144,000 Jewish believers of Revelation 7 entering the millennial kingdom; some futurists see it as heavenly (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The heavenly Zion, where the church militant is already secure in Christ (Hebrews 12:22), anticipating final glory (Hendriksen, Beale)."
+          }
+        ],
+        "texts": [
+          "Psalm 2:6",
+          "Joel 2:32",
+          "Micah 4:7",
+          "Hebrews 12:22-24"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "charlesworth-otp",
+          "chilton-days-of-vengeance",
+          "barnes-notes-revelation",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev14-144000-names-on-foreheads",
+        "phrase": "144,000 who had His name and His Father's name written on their foreheads",
+        "ref": "Revelation 14:1",
+        "keywords": [
+          "144,000",
+          "foreheads",
+          "his father"
+        ],
+        "category": "number",
+        "jewish": "The number repeats the sealed 144,000 from the twelve tribes (Revelation 7:4-8): 12 x 12 x 1,000, the full people of God organised like Israel's tribes and military census (Numbers 1). The names on the forehead recall the high priest's gold plate inscribed 'Holy to the LORD' worn on the forehead (Exodus 28:36-38) and Ezekiel 9:4's mark on the faithful; Revelation 3:12 and 22:4 promise God's name on the overcomer.",
+        "cultural": "Slaves and devotees could bear a master's or god's name; in the Roman world, names inscribed on persons or property signified ownership.",
+        "meaning": "These are God's sealed and protected people, bearing his name as the counterpart of the beast's mark. Whether they are the same as the 'great multitude' of 7:9 or a distinct group (often Jewish believers) is disputed.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The first-century Jewish-Christian remnant, firstfruits of the new Israel, preserved through the judgment on Jerusalem (Chilton, Gentry)."
+          },
+          {
+            "position": "futurism",
+            "reading": "144,000 literal Jewish believers, 12,000 from each tribe, converted and protected during the tribulation (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The whole church, the true Israel, complete and secure, the same as the countless multitude of 7:9 viewed from another angle (Hendriksen, Beale, Bauckham)."
+          },
+          {
+            "position": "historicism",
+            "reading": "The faithful remnant of true believers throughout the era of papal apostasy (Barnes)."
+          }
+        ],
+        "texts": [
+          "Revelation 7:4-8",
+          "Revelation 7:9",
+          "Exodus 28:36-38",
+          "Revelation 22:4"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy",
+          "chilton-days-of-vengeance",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors",
+          "barnes-notes-revelation"
+        ]
+      },
+      {
+        "id": "rev14-many-waters-thunder-harps",
+        "phrase": "A sound like the roar of many waters, loud thunder, and harpists strumming their harps",
+        "ref": "Revelation 14:2",
+        "keywords": [
+          "many waters",
+          "harpists",
+          "thunder"
+        ],
+        "category": "worship",
+        "jewish": "God's voice and the glory of his presence sound like many waters in Ezekiel 1:24 and 43:2 (and the risen Christ's voice in Revelation 1:15); thunder accompanies theophany at Sinai (Exodus 19:16). Harps (kithara) were temple instruments of the Levitical musicians (1 Chronicles 25:1-6; Psalm 33:2; 150:3).",
+        "cultural": "The kithara was Apollo's instrument and was played at Greek festivals and imperial celebrations; Nero famously performed on it in public contests (Suetonius, Nero 20-25), so heavenly harp music may stand in pointed contrast.",
+        "meaning": "The heavenly liturgy is overwhelming in power yet musical and joyful. The sound combines God's majesty with the worship of the redeemed.",
+        "readings": [],
+        "texts": [
+          "Ezekiel 1:24",
+          "Ezekiel 43:2",
+          "Revelation 1:15",
+          "Revelation 5:8",
+          "Revelation 15:2"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "suetonius-lives-caesars"
+        ]
+      },
+      {
+        "id": "rev14-new-song",
+        "phrase": "They sang a new song before the throne; no one could learn the song except the 144,000",
+        "ref": "Revelation 14:3",
+        "keywords": [
+          "new song"
+        ],
+        "category": "worship",
+        "jewish": "A 'new song' celebrates a new act of divine deliverance or creation (Psalm 33:3; 40:3; 96:1; 98:1; 144:9; Isaiah 42:10). Moses and Israel sang after the Red Sea crossing (Exodus 15), echoed in the 'song of Moses and of the Lamb' (Revelation 15:3).",
+        "cultural": "Hymn choirs (hymnodoi) in Asia sang praises at festivals of the imperial cult; Pergamum had an association of hymn-singers devoted to Augustus and Roma.",
+        "meaning": "Only the redeemed can learn the song because only they have experienced redemption; it is the song of the new exodus in the Lamb (5:9-10).",
+        "readings": [],
+        "texts": [
+          "Psalm 96:1",
+          "Psalm 98:1",
+          "Isaiah 42:10",
+          "Revelation 5:9",
+          "Exodus 15:1"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "friesen-imperial-cults",
+          "bauckham-climax-prophecy"
+        ]
+      },
+      {
+        "id": "rev14-virgins-not-defiled",
+        "phrase": "These are the ones who have not been defiled with women, for they are virgins",
+        "ref": "Revelation 14:4",
+        "keywords": [
+          "virgins",
+          "defiled with women"
+        ],
+        "category": "body",
+        "jewish": "Israel's soldiers abstained from sexual relations during holy war (Deuteronomy 23:9-10; 1 Samuel 21:5; 2 Samuel 11:11), and the Qumran War Scroll (1QM 7:3-7) requires ritual purity in the eschatological army. Israel is called a virgin daughter (2 Kings 19:21; Jeremiah 18:13), and idolatry is pictured as adultery or prostitution (Hosea 1-3; Ezekiel 16 and 23). Paul presents the church as a pure virgin betrothed to Christ (2 Corinthians 11:2).",
+        "cultural": "Temple prostitution and sexual immorality at guild and cult banquets were linked with idolatry in early Christian polemic (Revelation 2:14, 20).",
+        "meaning": "Most interpreters take it figuratively: the 144,000 are an army of the Lamb ritually pure for holy war, and spiritually faithful, refusing the 'immorality' of Babylon (14:8; 17:2). Because the language is male (not defiled with women), many see the holy-war image rather than a literal statement about gender or celibacy. A minority, ancient and modern, take it literally of celibate men.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "Some futurists take it literally of men who remain celibate during the tribulation's distress; others read it as moral and spiritual purity (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "Spiritual chastity of the whole church, which refuses idolatrous compromise (Beale, Hendriksen)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "The faithful first-century remnant who kept themselves from the spiritual adultery of apostate Jerusalem (Chilton)."
+          }
+        ],
+        "texts": [
+          "Deuteronomy 23:9-10",
+          "2 Corinthians 11:2",
+          "Revelation 17:2",
+          "Revelation 19:7-8"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy",
+          "vermes-complete-dss",
+          "walvoord-revelation-jesus-christ",
+          "chilton-days-of-vengeance"
+        ]
+      },
+      {
+        "id": "rev14-follow-the-lamb",
+        "phrase": "They follow the Lamb wherever He goes",
+        "ref": "Revelation 14:4",
+        "keywords": [
+          "follow the lamb"
+        ],
+        "category": "action",
+        "jewish": "Discipleship language from the Gospels (Mark 8:34; John 10:4, 27); Israel followed God in the wilderness (Jeremiah 2:2).",
+        "cultural": "",
+        "meaning": "They are disciples who follow Christ even to death, in contrast to the whole world that 'followed the beast' (13:3).",
+        "readings": [],
+        "texts": [
+          "Mark 8:34",
+          "John 10:27",
+          "Jeremiah 2:2",
+          "Revelation 13:3"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation"
+        ]
+      },
+      {
+        "id": "rev14-firstfruits",
+        "phrase": "Redeemed from among men as firstfruits to God and to the Lamb",
+        "ref": "Revelation 14:4",
+        "keywords": [
+          "firstfruits",
+          "redeemed"
+        ],
+        "category": "worship",
+        "jewish": "The first portion of the harvest belonged to God (Exodus 23:19; Leviticus 23:9-21, offered at the festival of Firstfruits and at Shavuot/Pentecost). Israel itself was 'holy to the LORD, the firstfruits of his harvest' (Jeremiah 2:3). The New Testament applies the image to Christ's resurrection (1 Corinthians 15:20), to early converts (Romans 16:5) and to believers (James 1:18).",
+        "cultural": "Greek cities and individuals offered aparchai (first portions) to gods at temples, a widely understood act of consecration.",
+        "meaning": "The 144,000 are dedicated wholly to God as a sacrificial offering. Interpreters debate whether 'firstfruits' implies a later, larger harvest (a first group among others) or simply means 'an offering set apart' (as in Jeremiah 2:3).",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The first generation of Jewish believers before AD 70, the firstfruits of the gospel's worldwide harvest (Chilton, Gentry)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Jewish converts in the tribulation, first of the great harvest that enters the millennium (Walvoord)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The whole church as God's consecrated offering, not a preliminary group (Beale, Hendriksen)."
+          }
+        ],
+        "texts": [
+          "Jeremiah 2:3",
+          "Leviticus 23:9-14",
+          "James 1:18",
+          "1 Corinthians 15:20"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-of-vengeance",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev14-no-lie-blameless",
+        "phrase": "No lie was found in their mouths; they are blameless",
+        "ref": "Revelation 14:5",
+        "keywords": [
+          "no lie",
+          "blameless"
+        ],
+        "category": "body",
+        "jewish": "Zephaniah 3:13 describes the remnant of Israel as speaking no lies, with no deceitful tongue; the Servant had no deceit in his mouth (Isaiah 53:9). 'Blameless' (amomos) is the Septuagint word for unblemished sacrificial animals (Leviticus 1:3; Numbers 6:14).",
+        "cultural": "",
+        "meaning": "Their truthfulness contrasts with the 'lie' of the beast and false prophet (compare 21:27; 22:15, and 'the lie' of 2 Thessalonians 2:11); 'blameless' continues the sacrificial picture of firstfruits.",
+        "readings": [],
+        "texts": [
+          "Zephaniah 3:13",
+          "Isaiah 53:9",
+          "1 Peter 1:19",
+          "Revelation 21:27"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "rev14-angel-eternal-gospel",
+        "phrase": "Another angel flying overhead, with the eternal gospel to proclaim to every nation, tribe, tongue and people",
+        "ref": "Revelation 14:6",
+        "keywords": [
+          "eternal gospel",
+          "flying overhead"
+        ],
+        "category": "person",
+        "jewish": "The angel 'in midheaven' (mesouranema, the zenith where all can hear) matches the eagle of 8:13. Psalm 96:2-3, 10 calls for declaring God's salvation and glory among the nations and announces that he comes to judge; Isaiah 52:7 announces good news of God's reign. Jesus said the gospel must be preached to all nations before the end (Mark 13:10).",
+        "cultural": "Euangelion ('good news') was imperial vocabulary: the Priene calendar inscription (9 BC) hails the birthday of Augustus as the beginning of 'good tidings' for the world. John's 'eternal' gospel outlasts any imperial proclamation.",
+        "meaning": "A final call to repentance and worship of the Creator before judgment, addressed to every people. Whether it is the Christian gospel itself or a last-hour summons to acknowledge God (as 14:7 suggests) is debated.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Successive proclamations in church history: the Reformation's recovery of the gospel and the modern missionary movement; Seventh-day Adventists identify the three angels with the advent message from the 1840s (Elliott, Barnes, Smith)."
+          },
+          {
+            "position": "futurism",
+            "reading": "A literal angelic proclamation during the tribulation, a last offer of grace before final judgment (Walvoord, Thomas)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "The worldwide preaching of the gospel in the apostolic generation before the judgment of AD 70 (Colossians 1:23; Matthew 24:14) (Chilton)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The church's ongoing mission summoning all nations to worship God as Creator and Judge (Hendriksen, Beale)."
+          }
+        ],
+        "texts": [
+          "Revelation 8:13",
+          "Psalm 96:2-3",
+          "Mark 13:10",
+          "Matthew 24:14"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "koester-revelation-ayb",
+          "elliott-horae",
+          "barnes-notes-revelation",
+          "smith-daniel-revelation",
+          "walvoord-revelation-jesus-christ",
+          "chilton-days-of-vengeance",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev14-fear-god-creator",
+        "phrase": "Fear God and give Him glory, because the hour of His judgment has come; worship the One who made the heavens and the earth and the sea and the springs of waters",
+        "ref": "Revelation 14:7",
+        "keywords": [
+          "fear god",
+          "hour of his judgment",
+          "springs of waters"
+        ],
+        "category": "worship",
+        "jewish": "Echoes the fourth commandment's grounding of the Sabbath in creation (Exodus 20:11) and Psalm 146:6. 'Fear God and give him glory' is the language of conversion (Jeremiah 13:16; Revelation 11:13). Paul's appeal to pagans at Lystra uses the same creator formula (Acts 14:15).",
+        "cultural": "Polytheistic Asia worshipped deities of sky, earth, sea and springs (river gods, nymphs and healing springs at sanctuaries such as Hierapolis); worshipping the one Creator dethrones them all.",
+        "meaning": "The fourfold creation list (heaven, earth, sea, springs) corresponds to the realms struck by the first four trumpets and bowls, so the Creator is also the Judge. The 'hour' of judgment signals imminence.",
+        "readings": [],
+        "texts": [
+          "Exodus 20:11",
+          "Psalm 146:6",
+          "Acts 14:15",
+          "Revelation 11:13"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy",
+          "koester-revelation-ayb",
+          "smith-daniel-revelation"
+        ]
+      },
+      {
+        "id": "rev14-fallen-babylon",
+        "phrase": "Fallen, fallen is Babylon the great, who made all the nations drink the wine of the passion of her immorality",
+        "ref": "Revelation 14:8",
+        "keywords": [
+          "babylon the great",
+          "fallen, fallen"
+        ],
+        "category": "place",
+        "jewish": "Isaiah 21:9 cries 'Fallen, fallen is Babylon'; Jeremiah 51:7-8 calls Babylon a golden cup that made the nations drunk, and announces her sudden fall; Nebuchadnezzar boasts of 'Babylon the great' (Daniel 4:30). After AD 70 Jewish writers used 'Babylon' as a code name for Rome, the new destroyer of the temple (4 Ezra 3:1-2, 28-31; 2 Baruch 11:1; Sibylline Oracles 5.143, 159), as 1 Peter 5:13 probably does.",
+        "cultural": "Rome was the commercial and political hub of the Mediterranean, enriched by provincial trade (Revelation 18). Some scholars argue that the Babylon code arose because Rome, like Babylon, destroyed Jerusalem, which they take as evidence for a post-70 date; preterists answer that the prophetic tradition of faithless Jerusalem as harlot (Isaiah 1:21; Ezekiel 16) explains the image without that assumption. The identity of Babylon is disputed.",
+        "meaning": "This first mention of Babylon anticipates chapters 17-18. The prophetic past tense ('fallen') announces her doom as certain. 'Wine of passion' (thymos can mean both passion and wrath) links her seduction of the nations with the wrath it brings.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Many partial preterists (Gentry, Chilton) identify Babylon as apostate Jerusalem, the city 'where their Lord was crucified' (11:8), judged in AD 70; others in the same camp identify her with Rome."
+          },
+          {
+            "position": "historicism",
+            "reading": "Papal Rome, the apostate church allied with political power; Protestant confessional traditions long read it this way (Barnes, Elliott, Smith)."
+          },
+          {
+            "position": "futurism",
+            "reading": "An end-time world system centred either on a revived Rome (Walvoord) or on a literally rebuilt city of Babylon in Iraq (some dispensationalists, e.g. Charles Dyer); futurists differ among themselves."
+          },
+          {
+            "position": "idealism",
+            "reading": "The seductive world-system of economic, political and cultural idolatry in every age, embodied first in Rome (Hendriksen, Beale)."
+          },
+          {
+            "position": "eclectic",
+            "reading": "First-century Rome as a type of every proud, oppressive culture that will be finally judged (Bauckham, Osborne)."
+          }
+        ],
+        "texts": [
+          "Isaiah 21:9",
+          "Jeremiah 51:7-8",
+          "Daniel 4:30",
+          "1 Peter 5:13",
+          "Revelation 17:5",
+          "Revelation 18:2"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy",
+          "charlesworth-otp",
+          "gentry-before-jerusalem-fell",
+          "chilton-days-of-vengeance",
+          "barnes-notes-revelation",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors",
+          "osborne-revelation-becnt"
+        ]
+      },
+      {
+        "id": "rev14-wine-of-gods-anger-cup",
+        "phrase": "He too will drink the wine of God's anger, poured undiluted into the cup of His wrath",
+        "ref": "Revelation 14:10",
+        "keywords": [
+          "wine of god",
+          "cup of his wrath",
+          "undiluted"
+        ],
+        "category": "object",
+        "jewish": "The cup of God's wrath is a prophetic image for judgment (Psalm 75:8; Isaiah 51:17, 22; Jeremiah 25:15-29; Habakkuk 2:16). Jesus spoke of drinking the cup in Gethsemane (Mark 14:36). The word-play is exact: those who drank Babylon's wine (14:8) must drink God's.",
+        "cultural": "Greeks and Romans normally mixed wine with water; drinking it unmixed (akratos) was a mark of barbarism or excess. 'Mixed unmixed' (kekerasmenou akratou) is a vivid paradox: the cup is fully prepared, with nothing diluting its strength.",
+        "meaning": "Judgment corresponds to sin: those who share Babylon's intoxicating idolatry receive God's full, undiluted wrath.",
+        "readings": [],
+        "texts": [
+          "Psalm 75:8",
+          "Isaiah 51:17",
+          "Jeremiah 25:15-16",
+          "Mark 14:36",
+          "Revelation 16:19"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev14-fire-sulfur-smoke-forever",
+        "phrase": "Tormented in fire and sulfur in the presence of the holy angels and of the Lamb; the smoke of their torment rises forever and ever; no rest day and night",
+        "ref": "Revelation 14:10-11",
+        "keywords": [
+          "fire and sulfur",
+          "smoke of their torment",
+          "no rest"
+        ],
+        "category": "cosmic",
+        "jewish": "Fire and sulfur rained on Sodom, whose smoke rose like a furnace (Genesis 19:24, 28); Isaiah 34:9-10 says Edom's smoke will go up forever and never be quenched, language of permanent desolation. 1 Enoch 48:9 pictures the wicked burning before the righteous; Isaiah 66:24 ends with the corpses of rebels seen by the faithful. 'No rest day and night' inverts the unceasing worship of the living creatures (4:8).",
+        "cultural": "Sulfur (theion) was associated with divine judgment and with volcanic regions; Asia Minor's volcanic and hot-spring landscapes made the images familiar.",
+        "meaning": "This is one of the Bible's most solemn warnings of final judgment, aimed at deterring believers from worshipping the beast. Interpreters agree it is a warning of real and final divine judgment; they disagree on the nature of that judgment. The traditional view across all hermeneutical schools is eternal conscious punishment; some evangelicals (conditional immortality or annihilationism) argue the 'smoke rising forever' is an Old Testament idiom for irreversible destruction (Isaiah 34:10), a view traditionalists answer by pointing to 'no rest day and night' and 20:10.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Preterists see Sodom-and-Edom imagery applied first to a historical judgment (on Jerusalem or Rome) while also affirming final eternal judgment (Chilton, Gentry)."
+          },
+          {
+            "position": "futurism",
+            "reading": "The eternal punishment of those who take the mark in the tribulation, i.e. the lake of fire (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The final, irreversible judgment of all who give their allegiance to the world-system rather than God (Hendriksen, Beale)."
+          }
+        ],
+        "texts": [
+          "Genesis 19:24-28",
+          "Isaiah 34:9-10",
+          "Isaiah 66:24",
+          "Revelation 4:8",
+          "Revelation 20:10"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "charlesworth-otp",
+          "chilton-days-of-vengeance",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev14-perseverance-of-saints",
+        "phrase": "Here is a call for the perseverance of the saints who keep the commandments of God and the faith of Jesus",
+        "ref": "Revelation 14:12",
+        "keywords": [
+          "perseverance of the saints",
+          "faith of jesus"
+        ],
+        "category": "action",
+        "jewish": "Repeats 13:10 and 12:17. Keeping God's commandments recalls the covenant at Sinai; the faith of (or in) Jesus stresses loyalty to Christ. Daniel 12:12 blesses those who endure.",
+        "cultural": "",
+        "meaning": "The warnings of 14:9-11 serve pastoral exhortation: believers must endure rather than compromise. Whether 'faith of Jesus' means faith in Jesus or faithfulness like his is debated grammatically.",
+        "readings": [],
+        "texts": [
+          "Revelation 12:17",
+          "Revelation 13:10",
+          "Daniel 12:12",
+          "Matthew 24:13"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "rev14-blessed-dead-rest",
+        "phrase": "Blessed are the dead who die in the Lord from this moment on; they will rest from their labors, for their deeds will follow them",
+        "ref": "Revelation 14:13",
+        "keywords": [
+          "blessed are the dead",
+          "rest from their labors",
+          "deeds will follow"
+        ],
+        "category": "worship",
+        "jewish": "The second of seven beatitudes in Revelation. Rest for the righteous dead appears in Isaiah 57:1-2 and Daniel 12:13; Hebrews 4 develops the Sabbath rest of God's people. 4 Ezra 7:35 and 2 Baruch 14:12 speak of works or righteous deeds accompanying the righteous. A later rabbinic saying (Pirqe Avot 6:9) says that at death neither silver nor gold accompanies a person, only Torah and good deeds.",
+        "cultural": "Greco-Roman epitaphs often expressed resignation or hopelessness about death ('I was not, I was, I am not, I do not care'); John promises blessing and rest.",
+        "meaning": "Martyrs and all who die faithful are blessed: their toil ends and their faithful works are remembered by God. 'From now on' (ap' arti) marks the present era of persecution.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "A special comfort to believers dying in the coming Neronic and Jewish War crises, and to all believers thereafter (Gentry)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Especially the martyrs of the tribulation (Walvoord)."
+          },
+          {
+            "position": "idealism",
+            "reading": "All believers who die faithful in any age (Hendriksen)."
+          }
+        ],
+        "texts": [
+          "Isaiah 57:1-2",
+          "Daniel 12:13",
+          "Hebrews 4:9-11",
+          "1 Corinthians 15:58"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "charlesworth-otp",
+          "gentry-before-jerusalem-fell",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev14-son-of-man-white-cloud",
+        "phrase": "One like the Son of Man seated on a white cloud, with a golden crown on His head and a sharp sickle in His hand",
+        "ref": "Revelation 14:14",
+        "keywords": [
+          "son of man",
+          "white cloud",
+          "golden crown"
+        ],
+        "category": "person",
+        "jewish": "Daniel 7:13-14: one like a son of man comes with the clouds to receive everlasting dominion. Jesus applied this to himself (Mark 14:62; Matthew 24:30). Clouds are the vehicle of divine presence and judgment (Exodus 13:21; Psalm 104:3; Isaiah 19:1). Joel 3:13 commands, 'Put in the sickle, for the harvest is ripe.'",
+        "cultural": "The golden crown (stephanos) was the victor's wreath and the triumphing general's crown; Roman emperors wore golden wreaths in triumphs.",
+        "meaning": "Most identify the figure as Christ, the victorious Son of Man (compare 1:13). A minority argue that he is an angel because he receives instruction from 'another angel' (14:15); responders note that the angel merely relays God's timing, as Christ himself said only the Father knows the hour (Mark 13:32).",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Christ coming in judgment on Jerusalem in AD 70 (Matthew 24:30; 26:64) and gathering his elect (Chilton, Gentry)."
+          },
+          {
+            "position": "historicism",
+            "reading": "Christ's final judgment at the end of the historical sequence the book has traced (Barnes)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Christ's second coming at the end of the tribulation (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "Christ's final coming in judgment at the end of history (Hendriksen, Beale)."
+          }
+        ],
+        "texts": [
+          "Daniel 7:13-14",
+          "Revelation 1:13",
+          "Matthew 24:30",
+          "Mark 14:62",
+          "Joel 3:13"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "chilton-days-of-vengeance",
+          "barnes-notes-revelation",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev14-grain-harvest-sickle",
+        "phrase": "Swing Your sickle and reap, for the crop of the earth is ripe; the earth was harvested",
+        "ref": "Revelation 14:15-16",
+        "keywords": [
+          "sickle",
+          "harvest",
+          "ripe"
+        ],
+        "category": "action",
+        "jewish": "Joel 3:13 pairs grain harvest and winepress as judgment on the nations in the valley of decision. Jesus uses harvest for the gathering of the righteous at the end of the age (Matthew 13:30, 39-43; Mark 4:29; John 4:35-38). Grain harvest in Israel (barley, wheat) came in spring and early summer, celebrated at Passover/Firstfruits and Pentecost.",
+        "cultural": "Harvest was the economic heart of agrarian Asia Minor; reaping with sickles was a universal image of death (later the Grim Reaper).",
+        "meaning": "Commentators divide on whether the grain harvest (14:14-16) is the ingathering of the righteous, followed by the vintage of judgment (14:17-20), or whether both are judgment as in Joel 3:13. Since the term 'firstfruits' was just used of believers, many see a positive harvest of the saints; others note the 'dried up' or 'ripe' (xeraino) language suggests judgment.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The gathering of the elect through the gospel and the judgment on Israel at the end of the old-covenant age (Chilton)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Separating the righteous and wicked at Christ's return; many dispensationalists read both harvests as judgments at Armageddon (Walvoord)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The final gathering of God's people at the last judgment, paired with the judgment of the wicked (Beale, Bauckham)."
+          }
+        ],
+        "texts": [
+          "Joel 3:13",
+          "Matthew 13:30",
+          "Matthew 13:39-43",
+          "Mark 4:29"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy",
+          "chilton-days-of-vengeance",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev14-angel-from-temple-altar-fire",
+        "phrase": "Another angel came out of the temple; still another, with authority over the fire, came from the altar",
+        "ref": "Revelation 14:17-18",
+        "keywords": [
+          "authority over the fire",
+          "altar"
+        ],
+        "category": "person",
+        "jewish": "The altar in Revelation is where the souls of martyrs cry out for justice (6:9-11) and where the incense of the saints' prayers rises before fire is thrown on the earth (8:3-5). The perpetual fire of the altar (Leviticus 6:12-13) and coals from the altar used in judgment (Ezekiel 10:2) lie behind 'authority over the fire'.",
+        "cultural": "",
+        "meaning": "The vintage of judgment comes from the heavenly temple and altar, so it is God's answer to the martyrs' prayers. Jewish tradition assigned angels to elements (1 Enoch 60:11-21; Jubilees 2:2), and Revelation has angels of the winds (7:1) and waters (16:5).",
+        "readings": [],
+        "texts": [
+          "Revelation 6:9-11",
+          "Revelation 8:3-5",
+          "Leviticus 6:12-13",
+          "Ezekiel 10:2"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "charlesworth-otp"
+        ]
+      },
+      {
+        "id": "rev14-vine-of-the-earth",
+        "phrase": "Gather the clusters of grapes from the vine of the earth, because its grapes are ripe",
+        "ref": "Revelation 14:18",
+        "keywords": [
+          "vine of the earth",
+          "clusters of grapes"
+        ],
+        "category": "object",
+        "jewish": "Israel is God's vine or vineyard (Isaiah 5:1-7; Psalm 80:8-16; Jeremiah 2:21; Hosea 10:1), and Jesus is the true vine (John 15). The 'vine of Sodom' (Deuteronomy 32:32-33) produces poisonous grapes. Joel 3:13 calls for treading the full winepress of the nations.",
+        "cultural": "Grape harvest (vintage) came in late summer and autumn and was celebrated with festivals of Dionysus in the Greek world; Asia Minor's valleys were famous wine country. In Judaism the autumn vintage coincided with the festival of Tabernacles (ingathering).",
+        "meaning": "The 'vine of the earth' (or 'of the land') stands in contrast to the true vine: it is humanity organised in rebellion and ripe for judgment.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The 'vine of the land': apostate Israel, the vineyard that produced bad fruit (Isaiah 5), judged in AD 70 (Chilton)."
+          },
+          {
+            "position": "futurism",
+            "reading": "The ungodly nations gathered against Christ at Armageddon (Walvoord)."
+          },
+          {
+            "position": "idealism",
+            "reading": "Unbelieving humanity in rebellion, ripe for final judgment (Beale, Hendriksen)."
+          }
+        ],
+        "texts": [
+          "Isaiah 5:1-7",
+          "Deuteronomy 32:32-33",
+          "Joel 3:13",
+          "John 15:1-6"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-of-vengeance",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev14-winepress-outside-city",
+        "phrase": "The great winepress of God's wrath was trodden outside the city",
+        "ref": "Revelation 14:19-20",
+        "keywords": [
+          "winepress",
+          "outside the city"
+        ],
+        "category": "place",
+        "jewish": "Isaiah 63:1-6 pictures the LORD returning from Edom with garments stained red from treading the winepress of the nations alone; Lamentations 1:15 says the Lord trod Judah like grapes in a winepress; Joel 3:2, 12-14 places the nations' judgment in the Valley of Jehoshaphat, traditionally the Kidron valley outside Jerusalem; Zechariah 14:2-4 has the nations gathered against Jerusalem. Executions took place outside the camp or city (Leviticus 24:14; Numbers 15:35), as did Jesus' crucifixion (Hebrews 13:12).",
+        "cultural": "Ancient winepresses were stone vats where grapes were trodden by foot, the juice flowing down a channel; red juice splashing on clothes made the image of blood vivid. Roman sieges ended with mass slaughter outside the walls: Josephus describes the crucifixion of thousands of captives outside Jerusalem during the siege (Jewish War 5.446-451).",
+        "meaning": "God's judgment of rebellious humanity is complete and terrible. Revelation 19:15 shows Christ treading this winepress. 'The city' is probably Jerusalem or the holy city (the beloved city of 20:9), i.e. God's people are protected inside while judgment falls outside; others see it as Babylon.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The destruction of the Jewish nation in AD 70, with slaughter around Jerusalem and throughout the land (Chilton, Gentry)."
+          },
+          {
+            "position": "futurism",
+            "reading": "The battle of Armageddon, centred on the land of Israel around Jerusalem (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The final judgment on the ungodly, while the 'city' of God's people is safe (Beale)."
+          },
+          {
+            "position": "historicism",
+            "reading": "Final judgments on the enemies of the church at the end of the historical sequence (Barnes)."
+          }
+        ],
+        "texts": [
+          "Isaiah 63:1-6",
+          "Lamentations 1:15",
+          "Joel 3:12-14",
+          "Revelation 19:15",
+          "Hebrews 13:12"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "josephus-jewish-war",
+          "chilton-days-of-vengeance",
+          "walvoord-revelation-jesus-christ",
+          "barnes-notes-revelation"
+        ]
+      },
+      {
+        "id": "rev14-blood-to-horses-bridles",
+        "phrase": "The blood rose as high as the bridles of the horses",
+        "ref": "Revelation 14:20",
+        "keywords": [
+          "bridles of the horses",
+          "blood"
+        ],
+        "category": "body",
+        "jewish": "Jewish apocalyptic used this hyperbole for eschatological slaughter: 1 Enoch 100:3 says a horse will walk up to its chest in the blood of sinners, and 4 Ezra 15:35-36 speaks of blood up to a horse's belly. Later rabbinic tradition (y. Taanit 4:8; Lamentations Rabbah 2:2) described blood reaching the horses' nostrils at Bethar in the Bar Kokhba revolt (135), a later but parallel idiom.",
+        "cultural": "Josephus reports that during the sack of Jerusalem the alleys ran with blood that quenched fires (Jewish War 6.406), which preterists cite as a fulfilment.",
+        "meaning": "Deliberately hyperbolic battle imagery for the totality of judgment, not a literal measurement; some futurists take it more literally.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The slaughter of the Jewish War, as described by Josephus (Chilton)."
+          },
+          {
+            "position": "futurism",
+            "reading": "The great bloodshed of Armageddon; some futurists take it literally in places, others as hyperbole or spattering blood (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "A conventional apocalyptic image for complete judgment (Beale, Bauckham)."
+          }
+        ],
+        "texts": [
+          "Isaiah 63:3",
+          "Revelation 19:13-15"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "charlesworth-otp",
+          "josephus-jewish-war",
+          "chilton-days-of-vengeance",
+          "walvoord-revelation-jesus-christ",
+          "thomas-revelation-8-22"
+        ]
+      },
+      {
+        "id": "rev14-1600-stadia",
+        "phrase": "For a distance of 1,600 stadia",
+        "ref": "Revelation 14:20",
+        "keywords": [
+          "1,600 stadia"
+        ],
+        "category": "number",
+        "jewish": "1,600 is 40 x 40 or 4 x 4 x 100. Four is the number of the earth (four corners, four winds, Revelation 7:1), and forty recalls periods of judgment and testing (the flood, the wilderness). Jerome noted that the length of Palestine from Tyre to the Egyptian border was about 160 Roman miles, close to 1,600 stadia.",
+        "cultural": "A Greek stadion was about 185-192 metres, so 1,600 stadia is about 300 kilometres (some 184-190 miles). Distances measured in stadia were standard in Greek geography and in Josephus.",
+        "meaning": "The number signals judgment that covers the whole earth (4 squared, multiplied). A match with the approximate length of the land of Israel is noted by many, and fits preterist and futurist readings that tie the judgment to the land.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The length of Palestine: the judgment covers the whole land of Israel in the Jewish War (Chilton)."
+          },
+          {
+            "position": "futurism",
+            "reading": "A literal region, roughly the length of Israel, over which the Armageddon campaign extends (Walvoord, Thomas)."
+          },
+          {
+            "position": "idealism",
+            "reading": "A symbolic number for universal, complete judgment over the four corners of the earth (Beale, Hendriksen)."
+          },
+          {
+            "position": "historicism",
+            "reading": "Usually symbolic of extensive judgment on the papal or antichristian realm (Barnes)."
+          }
+        ],
+        "texts": [
+          "Revelation 7:1",
+          "Revelation 21:16"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "chilton-days-of-vengeance",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors",
+          "barnes-notes-revelation"
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "The 144,000 are the first-century Jewish-Christian firstfruits; the three angels announce the gospel to the world before the judgment on Jerusalem; Babylon is apostate Jerusalem (or Rome for some); the harvest and winepress depict the gathering of the elect and the destruction of the Jewish nation in AD 70, whose bloodshed covered the land (1,600 stadia, the length of Palestine) (Chilton, Gentry)."
+      },
+      {
+        "position": "full-preterism",
+        "reading": "Reads the harvest of 14:14-20 as the final coming of Christ in AD 70, in which the end of the age, the judgment and the resurrection were fulfilled; critics regard this as incompatible with the creedal hope of a future bodily return, while proponents argue the New Testament's time-texts demand it."
+      },
+      {
+        "position": "historicism",
+        "reading": "The 144,000 are the faithful church during papal supremacy; the three angels are successive movements in history: the Reformation and missionary proclamation, the Protestant identification of papal Rome as fallen Babylon, and a final warning; Seventh-day Adventists identify them with the advent message beginning in the 1840s; the harvests are the climax of history (Elliott, Barnes, Uriah Smith)."
+      },
+      {
+        "position": "futurism",
+        "reading": "A preview of the tribulation's climax: the 144,000 Jewish believers stand with Christ on the literal Mount Zion at his return; literal angels proclaim the gospel and warn against the mark; the harvest and winepress depict the battle of Armageddon in the land of Israel (Walvoord, Thomas)."
+      },
+      {
+        "position": "idealism",
+        "reading": "A pastoral counterpoint to chapter 13: the church, secure with the Lamb, must persevere because Babylon's fall and the final judgment are certain; the two harvests depict the end of history, the gathering of the saints and the judgment of the wicked (Hendriksen, Milligan)."
+      },
+      {
+        "position": "eclectic",
+        "reading": "Beale, Bauckham and Osborne read the 144,000 as the whole church depicted as a holy army, the three angels as a final call and warning, and the harvests as the last judgment, with first-century Rome as the immediate face of Babylon and the end of history as the horizon."
+      }
+    ],
+    "questions": [
+      "How does the picture of the 144,000 on Mount Zion function as a reply to the beast and its marked followers in chapter 13?",
+      "Is the grain harvest of 14:14-16 a gathering of the righteous or a judgment of the wicked? What clues in the text and in Joel 3 point each way?",
+      "Why might John announce Babylon's fall here before describing her in chapters 17-18, and how do the identifications (Rome, Jerusalem, papal Rome, a future system) change the warning?",
+      "How should the severe warning of 14:9-11 be read alongside the beatitude of 14:13 and the call to perseverance in 14:12?",
+      "What do the Old Testament harvest and winepress texts (Joel 3, Isaiah 63) contribute to understanding the scale and nature of judgment here?"
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "aune-revelation-wbc",
+      "koester-revelation-ayb",
+      "bauckham-climax-prophecy",
+      "bauckham-theology-revelation",
+      "gregg-revelation-four-views",
+      "gentry-before-jerusalem-fell",
+      "chilton-days-of-vengeance",
+      "elliott-horae",
+      "barnes-notes-revelation",
+      "smith-daniel-revelation",
+      "walvoord-revelation-jesus-christ",
+      "thomas-revelation-8-22",
+      "hendriksen-more-than-conquerors",
+      "osborne-revelation-becnt",
+      "charlesworth-otp",
+      "vermes-complete-dss",
+      "josephus-jewish-war",
+      "suetonius-lives-caesars",
+      "friesen-imperial-cults"
+    ]
+  }
+]

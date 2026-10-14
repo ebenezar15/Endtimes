@@ -1,0 +1,129 @@
+[
+  {
+    "id": "williams-p115-number-beast",
+    "title": "P115 and the Number of the Beast (Tyndale Bulletin 58.1, 151-53)",
+    "author": "P. J. Williams",
+    "url": "https://www.tyndalebulletin.org/article/29233-p115-and-the-number-of-the-beast",
+    "camp": "reference",
+    "type": "article",
+    "year": "2007",
+    "accessed": "2026-10-14",
+    "summary": "Short note on the 616 reading of Revelation 13:18 in P115 (P.Oxy. 4499): grants that 616 has been used to support the Nero reading and proposes that the numeral may also visually mimic abbreviations for Jesus' name.",
+    "verified": true
+  },
+  {
+    "id": "britannica-number-of-the-beast",
+    "title": "Number of the beast",
+    "author": "Encyclopaedia Britannica editors",
+    "url": "https://www.britannica.com/topic/number-of-the-beast",
+    "camp": "reference",
+    "type": "encyclopedia",
+    "accessed": "2026-10-14",
+    "summary": "Reference article on 666: notes that the Hebrew transliteration Neron Qesar is the most common gematria reading and that an Oxyrhynchus papyrus fragment reads 616.",
+    "verified": true
+  },
+  {
+    "id": "tacitus-annals",
+    "title": "Annals (esp. 15.38-44 on the fire of Rome and Nero's punishment of Christians) and Histories 2.8 (the false Nero)",
+    "author": "Tacitus",
+    "camp": "reference",
+    "type": "primary",
+    "year": "c. 105-117",
+    "accessed": "2026-10-14",
+    "verified": false,
+    "note": "Standard primary source (Loeb and other editions); not fetched online during research."
+  },
+  {
+    "id": "suetonius-lives-caesars",
+    "title": "Lives of the Caesars (esp. Nero 16, 49, 57; Domitian 13)",
+    "author": "Suetonius",
+    "camp": "reference",
+    "type": "primary",
+    "year": "c. 121",
+    "accessed": "2026-10-14",
+    "verified": false,
+    "note": "Standard primary source; not fetched online during research."
+  },
+  {
+    "id": "pliny-letters-trajan",
+    "title": "Letters, Book 10.96-97 (Pliny and Trajan on the Christians)",
+    "author": "Pliny the Younger",
+    "camp": "reference",
+    "type": "primary",
+    "year": "c. 112",
+    "accessed": "2026-10-14",
+    "verified": false,
+    "note": "Standard primary source; not fetched online during research."
+  },
+  {
+    "id": "josephus-jewish-war",
+    "title": "The Jewish War (esp. books 5-6 on the siege of Jerusalem)",
+    "author": "Flavius Josephus",
+    "camp": "reference",
+    "type": "primary",
+    "year": "c. 75",
+    "accessed": "2026-10-14",
+    "verified": false,
+    "note": "Standard primary source; not fetched online during research."
+  },
+  {
+    "id": "vermes-complete-dss",
+    "title": "The Complete Dead Sea Scrolls in English",
+    "author": "Geza Vermes",
+    "camp": "reference",
+    "type": "book",
+    "year": "1962; rev. 2004",
+    "accessed": "2026-10-14",
+    "summary": "Standard English translation of the Qumran texts, including the War Scroll (1QM) and the Thanksgiving Hymns (1QH).",
+    "verified": false,
+    "note": "Standard reference work; not checked online during research."
+  },
+  {
+    "id": "smith-daniel-revelation",
+    "title": "Daniel and the Revelation",
+    "author": "Uriah Smith",
+    "camp": "historicism",
+    "type": "book",
+    "year": "1897 (rev. ed.)",
+    "accessed": "2026-10-14",
+    "summary": "Classic Seventh-day Adventist historicist exposition: the sea beast as the papacy, the land beast as the United States, and the three angels of Revelation 14 as the advent message of the 1840s onward.",
+    "verified": false,
+    "note": "Not checked online during research."
+  },
+  {
+    "id": "koester-revelation-ayb",
+    "title": "Revelation: A New Translation with Introduction and Commentary (Anchor Yale Bible 38A)",
+    "author": "Craig R. Koester",
+    "url": "https://www.logos.com/product/46940",
+    "camp": "reference",
+    "type": "book",
+    "year": "2014",
+    "accessed": "2026-10-14",
+    "summary": "Major critical commentary attentive to social, economic and religious setting and to the book's history of interpretation and influence.",
+    "verified": true
+  },
+  {
+    "id": "friesen-imperial-cults",
+    "title": "Imperial Cults and the Apocalypse of John: Reading Revelation in the Ruins",
+    "author": "Steven J. Friesen",
+    "url": "https://www.oeaw.ac.at/resources/Record/993620366804498",
+    "camp": "reference",
+    "type": "book",
+    "year": "2001",
+    "accessed": "2026-10-14",
+    "summary": "Archaeological and textual study of the imperial cults of Roman Asia (Pergamum, Smyrna, Ephesus) and how they illuminate John's critique of empire.",
+    "verified": true
+  },
+  {
+    "id": "charlesworth-otp",
+    "title": "The Old Testament Pseudepigrapha (2 vols.)",
+    "author": "James H. Charlesworth (ed.)",
+    "camp": "reference",
+    "type": "book",
+    "year": "1983–1985",
+    "accessed": "2026-10-14",
+    "summary": "Standard English edition of Second Temple Jewish texts such as 1 Enoch, 4 Ezra, 2 Baruch, Jubilees, the Psalms of Solomon and the Testaments of the Twelve Patriarchs, cited here for the Jewish background of Revelation's imagery.",
+    "verified": false,
+    "note": "Standard reference work; not checked online during research."
+  }
+]
