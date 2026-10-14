@@ -1,0 +1,394 @@
+[
+  {
+    "id": "postmil",
+    "name": "Postmillennialism",
+    "shortName": "Postmil",
+    "axis": "millennial",
+    "color": "#B07D1A",
+    "initial": "P",
+    "tagline": "Christ returns after a long age in which the gospel wins the nations.",
+    "selfDescription": "Postmillennialists call their view an “eschatology of victory” or an “eschatology of hope.” They speak of the Great Commission as a promise as well as a command: the risen Christ already reigns, and through the Spirit-empowered preaching of the gospel he will disciple the nations, so that the knowledge of the Lord fills the earth before he returns. Many describe it as “optimistic amillennialism”: the same present reign of Christ, expected to bear visible fruit in history.",
+    "summary": "Postmillennialism holds that Christ's kingdom was inaugurated at his first coming and will grow, by ordinary means of grace rather than by a new dispensation, until the great majority of humanity and the nations are converted and a long era of righteousness and peace prevails. Christ returns after (post-) this millennial era for one general resurrection and judgment. Some postmillennialists identify the millennium with the whole inter-advent age; others with a future “latter-day glory” within it. Many, following the Puritans and Jonathan Edwards, expect a future large-scale conversion of ethnic Israel (Romans 11:12, 15, 25-26) as a trigger of still greater blessing among the Gentiles.",
+    "coreBeliefs": [
+      "Christ was enthroned at his resurrection and ascension (Psalm 110:1; Matthew 28:18) and now reigns over all things, putting his enemies under his feet until the last enemy, death, is destroyed (1 Corinthians 15:24-26).",
+      "The millennium of Revelation 20 is a long (symbolic) period within the present age, before the Second Coming; Satan is bound so that he can no longer deceive the nations or halt the gospel's advance.",
+      "The kingdom grows gradually and pervasively, like the mustard seed and the leaven (Matthew 13:31-33), and the stone that becomes a mountain filling the earth (Daniel 2:35, 44-45).",
+      "The Great Commission will succeed: the nations, not merely individuals out of them, will be discipled, so that “the earth shall be full of the knowledge of the Lord” (Isaiah 11:9; Habakkuk 2:14; Psalm 22:27).",
+      "This victory comes through the Spirit, the preached Word, prayer, the sacraments and faithful suffering, not by political coercion or a visible reign of Christ on earth.",
+      "Many postmillennialists expect a future mass conversion of ethnic Israel (Romans 11:12, 15, 25-26), which Paul calls “life from the dead” for the world.",
+      "Evil is not eradicated: a brief final apostasy or rebellion (Revelation 20:7-10) may precede the end, and history is never sinless before the consummation.",
+      "Christ returns once, after the millennium, to raise the righteous and the wicked together, conduct the final judgment and usher in the new heavens and new earth (John 5:28-29; 2 Peter 3:10-13)."
+    ],
+    "history": [
+      { "era": "Early church", "text": "Postmillennialists find seeds of their hope in patristic confidence that the gospel would subdue the nations (e.g. Origen's and Eusebius's expectations after Constantine) and especially in Augustine's identification of the millennium with the church age, which supplied the structure later postmillennialists extended with a more optimistic expectation." },
+      { "era": "Reformation", "text": "Calvin's commentaries display strong hope for the kingdom's spread (whether he was postmillennial is debated). Martin Bucer and Theodore Beza taught a future conversion of the Jews from Romans 11, a theme that became a seedbed for later postmillennial hope." },
+      { "era": "Puritans", "text": "English and Scottish Puritans (Thomas Brightman, John Owen, Samuel Rutherford and others) expected a latter-day glory with the calling of the Jews and the fullness of the Gentiles. The Westminster Larger Catechism (Q. 191) prays for both, and the Savoy Declaration (1658) speaks of a more peaceful and glorious condition of the church in the latter days. Daniel Whitby (1703) gave the view a systematic form; Iain Murray's The Puritan Hope traces this tradition." },
+      { "era": "18th century", "text": "Jonathan Edwards' A History of the Work of Redemption and his revival writings framed the Great Awakening as a foretaste of millennial glory. The modern missionary movement, including William Carey's Enquiry (1792), drew heavily on this expectation that missions would succeed." },
+      { "era": "19th century", "text": "Postmillennialism was the dominant view in American and British Protestantism: Princeton theologians Charles Hodge, A. A. Hodge and B. B. Warfield, Southern Presbyterians such as Robert Dabney and James Henley Thornwell, and David Brown's Christ's Second Coming (1846). Later, liberal 'social gospel' versions secularised the hope, which conservative postmillennialists regard as a distortion." },
+      { "era": "20th century to today", "text": "After the world wars the view declined, but it revived through Loraine Boettner's The Millennium (1957), Iain Murray (1971), R. J. Rushdoony and Greg Bahnsen (Christian Reconstruction), and later Kenneth Gentry's He Shall Have Dominion, Keith Mathison's Postmillennialism: An Eschatology of Hope, Gary DeMar and Douglas Wilson. It is growing among Reformed Presbyterians and Baptists today." }
+    ],
+    "keyTexts": [
+      "Psalm 2:8",
+      "Psalm 110:1-2",
+      "Isaiah 2:2-4",
+      "Isaiah 9:6-7",
+      "Daniel 2:35",
+      "Habakkuk 2:14",
+      "Matthew 13:31-33",
+      "Matthew 28:18-20",
+      "Romans 11:11-32",
+      "1 Corinthians 15:20-28"
+    ],
+    "scholars": ["jonathan-edwards", "john-owen", "hodge", "warfield", "boettner", "iain-murray", "rushdoony", "bahnsen", "gentry", "demar", "mathison", "douglas-wilson"],
+    "strengths": [
+      "Takes seriously the many Old Testament promises that all nations will worship the Lord and the Messiah's rule will extend to the ends of the earth, reading them as fulfilled within history and not only after it.",
+      "Coheres with the New Testament's simple 'one return, one resurrection, one judgment' structure (John 5:28-29; Matthew 25:31-46) shared with amillennialism.",
+      "Grounds missions, cultural labour and long-term institution-building in the conviction that faithful work in history will not be in vain (1 Corinthians 15:58).",
+      "Has deep roots in Reformed and Puritan tradition and in the theology that fuelled the Great Awakening and modern missions.",
+      "Reads the kingdom parables of growth (mustard seed, leaven) as describing a process that eventually dominates its environment, not one that remains marginal."
+    ],
+    "critiques": [
+      {
+        "critique": "The New Testament predicts persecution, apostasy and worsening conditions before the end (Matthew 24:9-12; Luke 18:8; 2 Timothy 3:1-5), and the wheat and tares grow together until the harvest (Matthew 13:24-30).",
+        "response": "Postmillennialists answer that many such texts describe the apostolic generation before AD 70 (especially in preterist readings), that the wheat-and-tares parable shows coexistence, not proportions, and that the parables of the mustard seed and leaven immediately follow it to show the kingdom's eventual dominance. Victory comes through suffering, not instead of it."
+      },
+      {
+        "critique": "History refutes it: the twentieth century's world wars, genocides and the secularisation of the West hardly look like a golden age dawning.",
+        "response": "The view does not claim steady, unbroken progress; it works on a scale of centuries and millennia. Proponents point to Christianity's expansion from a small Jewish sect to a worldwide faith and to explosive growth in the Global South as evidence the leaven is still working, while Western decline is a reversal Scripture also anticipates for unfaithful churches (Revelation 2:5)."
+      },
+      {
+        "critique": "Postmillennialism is tied to theonomy or Christian nationalism and risks pursuing the kingdom through political power.",
+        "response": "Many postmillennialists (Edwards, Hodge, Warfield, Iain Murray, Mathison) were not theonomists. All insist the engine of advance is the Spirit through the gospel; cultural transformation follows conversion and cannot be imposed. Reconstructionists themselves argue for change from the bottom up by regeneration, not top-down coercion."
+      },
+      {
+        "critique": "Revelation 19-20 reads most naturally as a sequence: Christ returns (19:11-21) and then the millennium begins (20:1-6), which favours premillennialism.",
+        "response": "Postmillennialists such as Warfield read Revelation 19:11-21 as a symbolic picture of the gospel's conquest (the rider fights with the sword from his mouth, his word), not the bodily return; others read it with preterists as Christ's judgment-coming in AD 70. Revelation 20 then recapitulates the age of gospel triumph."
+      },
+      {
+        "critique": "If a long golden age must come first, the return of Christ cannot be imminent, which weakens New Testament exhortations to watchfulness.",
+        "response": "Postmillennialists argue that biblical 'imminence' stresses certainty, suddenness and moral readiness rather than a possible return at any moment; Jesus himself spoke of a delay (Matthew 25:5, 19), and Peter of a Lord for whom a thousand years are as a day (2 Peter 3:8-9). Each believer should be ready to meet Christ at death or his coming."
+      }
+    ],
+    "subViews": [
+      {
+        "id": "puritan-revivalist",
+        "name": "Puritan / revivalist postmillennialism",
+        "summary": "The classic form found in the Puritans, Jonathan Edwards and the Princeton theologians: the latter-day glory comes chiefly through outpourings of the Spirit in revival, the preaching of the Word, prayer (Edwards' 'concerts of prayer'), missions and the conversion of the Jews. Cultural blessing follows as a by-product of widespread conversion. It is historicist in much of its reading of Revelation and generally does not tie the hope to a programme of civil law."
+      },
+      {
+        "id": "reconstructionist-theonomic",
+        "name": "Reconstructionist / theonomic postmillennialism",
+        "summary": "Associated with R. J. Rushdoony, Greg Bahnsen, Gary North, David Chilton and (in its eschatology) Kenneth Gentry and Gary DeMar. It joins postmillennial optimism to theonomy, the conviction that God's moral law, including the abiding equity of Mosaic civil law, should shape every sphere of life, including civil government. Advocates stress that this transformation follows mass conversion and is pursued by persuasion, not force; critics, including other postmillennialists, dispute the theonomic application."
+      },
+      {
+        "id": "preterist-postmil",
+        "name": "Preterist postmillennialism",
+        "summary": "Combines postmillennialism with partial preterism (Gentry, DeMar, Chilton, Mathison, Douglas Wilson). The Olivet Discourse's tribulation and most of Revelation are fulfilled in the judgment on Jerusalem in AD 70 (generally with an early, pre-70 date for Revelation, a dating that is disputed), clearing the way for the gospel's worldwide advance; Revelation 20 then describes the present church age, ending in the future bodily return of Christ."
+      },
+      {
+        "id": "latter-day-glory",
+        "name": "Whole-age versus latter-day-glory postmillennialism",
+        "summary": "Postmillennialists disagree on the millennium's extent. Some (e.g. Gentry, Boettner) identify it with the entire period between the advents, a reign that grows progressively. Others, following Edwards and many Puritans, see the millennium as a future, distinct era of unusual blessing still to come within the present age, often after the conversion of Israel."
+      }
+    ],
+    "related": ["amil", "partial-preterism", "historicism", "covenant-theology"],
+    "sources": ["gentry-he-shall-have-dominion", "mathison-postmillennialism", "boettner-millennium", "murray-puritan-hope", "bahnsen-victory-in-jesus", "warfield-millennium-apocalypse", "edwards-history-redemption", "rushdoony-thy-kingdom-come", "clouse-meaning-millennium", "bock-three-views"]
+  },
+  {
+    "id": "amil",
+    "name": "Amillennialism",
+    "shortName": "Amil",
+    "axis": "millennial",
+    "color": "#2F5DA8",
+    "initial": "A",
+    "tagline": "The millennium is now: Christ reigns and Satan is bound between the two comings.",
+    "selfDescription": "Amillennialists often dislike their own label, since 'a-millennial' suggests 'no millennium.' They affirm a real millennium, but a present one: an “inaugurated” or “realized millennium” (Jay Adams' preferred term, 'realized millennialism'), in which the risen Christ reigns from heaven, the souls of departed saints reign with him, and Satan is bound so that the gospel reaches the nations. They speak of “inaugurated eschatology”, the “already and not yet”, and the two-age structure of this age and the age to come.",
+    "summary": "Amillennialism teaches that the thousand years of Revelation 20 symbolise the whole period between Christ's first and second comings. Satan was bound by Christ's victory at the cross and resurrection so that he can no longer prevent the gospel from going to the nations; the 'first resurrection' refers to the believer's new birth and/or the reign of departed believers with Christ in heaven. History runs along two parallel tracks, the growth of the kingdom and the growth of evil, until a final apostasy and tribulation. Then Christ returns once, raises all the dead, judges all people and brings the new heavens and new earth. It has been the majority view in the Western church since Augustine and is held across Reformed, Lutheran, Roman Catholic and Orthodox traditions.",
+    "coreBeliefs": [
+      "The millennium (Revelation 20:1-6) is symbolic of the whole inter-advent age, beginning with Christ's death, resurrection and ascension and ending at his return.",
+      "Satan was bound at the first advent (Matthew 12:28-29; Luke 10:18; John 12:31-32; Colossians 2:15) in a specific respect: he cannot 'deceive the nations' so as to stop the gospel's worldwide spread, though he still opposes believers (1 Peter 5:8).",
+      "The 'first resurrection' is spiritual: regeneration (John 5:24-25; Ephesians 2:5-6) and/or the life and reign of believers' souls with Christ in the intermediate state (Revelation 20:4; 2 Corinthians 5:8).",
+      "The New Testament has a two-age structure: 'this age' and 'the age to come' (Matthew 12:32; Ephesians 1:21), with no third, intermediate earthly age between them.",
+      "There is one Second Coming, one general bodily resurrection of righteous and wicked together, and one final judgment (John 5:28-29; Acts 24:15; Matthew 25:31-46; 2 Thessalonians 1:6-10).",
+      "Good and evil coexist and mature together until the harvest (Matthew 13:24-30, 36-43); the age ends with a final apostasy, a climactic tribulation and the revealing of Antichrist (2 Thessalonians 2:3-8; Revelation 20:7-10).",
+      "Revelation is structured by recapitulation or 'progressive parallelism': its cycles (seals, trumpets, bowls, etc.) each cover the period between the advents, from different angles.",
+      "The Old Testament promises to Israel are fulfilled in Christ and his one people, Jew and Gentile, and consummated in the new creation, a renewed physical earth (Romans 8:18-23; Revelation 21-22)."
+    ],
+    "history": [
+      { "era": "Early church", "text": "Alongside the chiliasm of Papias, Justin and Irenaeus, a non-chiliast eschatology was present early; Justin himself acknowledged that many sincere Christians did not share his view (Dialogue with Trypho 80). Charles Hill argues that a belief that departed souls go at once to heaven correlated with non-chiliasm. Origen, Dionysius of Alexandria and later Tyconius (whose recapitulation approach to Revelation influenced Augustine) moved away from a literal earthly millennium." },
+      { "era": "Augustine", "text": "In The City of God (book 20) Augustine, who earlier held a spiritualised chiliasm, identified the thousand years with the church age, Satan's binding with Christ's binding of the strong man, and the first resurrection with the soul's rising from sin. This reading dominated the medieval Western church." },
+      { "era": "Reformation", "text": "Luther and Calvin, and the Lutheran and Reformed confessions, retained the Augustinian structure. The Augsburg Confession (Article 17) and Second Helvetic Confession (ch. 11) reject teaching of an earthly kingdom of the saints before the general resurrection; the Belgic and Westminster Confessions assume one general resurrection and judgment." },
+      { "era": "19th–20th century", "text": "Dutch Reformed theologians (Abraham Kuyper, Herman Bavinck) and Geerhardus Vos, whose Pauline Eschatology set out the two-age framework, gave the view rigorous biblical-theological grounding. William Hendriksen's More Than Conquerors (1939) popularised progressive parallelism in Revelation, and Anthony Hoekema's The Bible and the Future (1979) emphasised 'inaugurated eschatology' and the new earth." },
+      { "era": "Today", "text": "Major contemporary advocates include G. K. Beale (eclectic idealist commentary on Revelation), Dennis Johnson, Kim Riddlebarger, Sam Storms (a convert from dispensationalism), Samuel Waldron and many Lutheran, Reformed and Anglican scholars. The Catechism of the Catholic Church (676) rejects millenarianism, and Orthodox theology is broadly amillennial." }
+    ],
+    "keyTexts": [
+      "Revelation 20:1-10",
+      "Matthew 12:28-29",
+      "John 12:31-32",
+      "John 5:24-29",
+      "Matthew 13:24-30",
+      "Ephesians 1:20-22",
+      "2 Thessalonians 1:6-10",
+      "2 Peter 3:10-13",
+      "Romans 8:18-23",
+      "Colossians 2:15"
+    ],
+    "scholars": ["augustine", "luther", "calvin", "vos", "hendriksen", "hoekema", "beale", "dennis-johnson", "riddlebarger", "storms", "waldron"],
+    "strengths": [
+      "Simple, unified structure: one return, one resurrection, one judgment, which fits the many New Testament texts that place these together (John 5:28-29; 2 Thessalonians 1:6-10; Matthew 25:31-46).",
+      "Reads Revelation as apocalyptic literature, attentive to its pervasive symbolism and numerology and to its recapitulating structure.",
+      "Grounds the binding of Satan in the Gospels' own language of the strong man bound (Matthew 12:29) and the ruler of this world cast out (John 12:31).",
+      "Fits the New Testament's 'already/not yet' inaugurated eschatology and the two-age framework of Jesus and Paul.",
+      "Has the broadest historical and confessional support in the church since Augustine, across Catholic, Orthodox, Lutheran and Reformed traditions."
+    ],
+    "critiques": [
+      {
+        "critique": "A bound Satan contradicts texts that portray him as active now: he prowls like a lion (1 Peter 5:8), blinds unbelievers (2 Corinthians 4:4) and is the god of this age.",
+        "response": "The binding in Revelation 20:3 is limited in purpose, 'so that he might not deceive the nations any longer', which amillennialists take to mean he cannot prevent the gospel from going to the Gentiles. A chained dog can still be dangerous within the range of its chain. Jesus used the same binding language of his own ministry (Matthew 12:29, the same verb, deō)."
+      },
+      {
+        "critique": "The same verb, 'came to life' (ezēsan), is used of both groups in Revelation 20:4-5; if the second is a bodily resurrection, so is the first (Henry Alford's classic objection).",
+        "response": "Amillennialists reply that John deliberately contrasts a 'first resurrection' with the 'second death', implying differences in kind; that John 5:25-29 uses resurrection language for both spiritual and bodily life in one passage; and that Revelation 20:4 describes 'souls', which suits the intermediate state of believers who live and reign with Christ."
+      },
+      {
+        "critique": "Revelation 19-20 is a chronological sequence: the return of Christ (19:11-21) precedes the binding of Satan and the thousand years.",
+        "response": "Amillennialists note that the battle of 20:7-10 replays the same final battle as 19:17-21 and 16:14-16, each drawing on Ezekiel 38-39 and each called 'the war' with the article. Revelation repeatedly returns to the beginning of the age (e.g. 12:1-6), so 20:1 begins a new cycle at the first advent."
+      },
+      {
+        "critique": "It spiritualises Old Testament promises of an earthly kingdom, such as the wolf and lamb lying down (Isaiah 11:6-9; 65:17-25).",
+        "response": "Amillennialists insist the fulfilment is physical, but in the new heavens and new earth, the context Isaiah 65:17 itself names, not in an interim age. They argue that the apostles read Israel's prophecies Christologically (e.g. Amos 9:11-12 in Acts 15:16-18), so following that apostolic hermeneutic is not arbitrary spiritualising."
+      },
+      {
+        "critique": "Postmillennialists charge amillennialism with historical pessimism, expecting the church to remain a persecuted minority until the end.",
+        "response": "Amillennialists answer that their view is profoundly victorious, since Christ reigns now and his people conquer through his blood and their testimony (Revelation 12:11). They do not predict how much the gospel will prosper, only that the church will suffer and that triumph is assured at Christ's return; some amillennialists are quite hopeful about gospel growth and a future conversion of Israel."
+      }
+    ],
+    "subViews": [
+      {
+        "id": "realized-millennialism",
+        "name": "Realized millennialism",
+        "summary": "Jay E. Adams, in The Time Is at Hand (1966), proposed 'realized millennialism' as a more accurate name than 'amillennialism': the millennium is not denied but already realised in the present reign of Christ. Adams combined this with a largely preterist reading of Revelation, and reviewers differ on whether his view is better classed as amil or postmil. The term highlights the inaugurated-eschatology emphasis that most amillennialists share."
+      },
+      {
+        "id": "heavenly-millennium",
+        "name": "Heavenly-millennium (intermediate-state) amillennialism",
+        "summary": "Revelation 20:4-6 depicts the souls of deceased believers, especially martyrs, reigning with Christ in heaven during the inter-advent age; the first resurrection is the believer's entrance into this heavenly life at death. Associated with B. B. Warfield's essay on Revelation 20 (though Warfield was postmillennial elsewhere), William Hendriksen, Anthony Hoekema and Kim Riddlebarger. On this view the millennium is 'in heaven', while the binding of Satan is on earth."
+      },
+      {
+        "id": "inaugurated-new-creation",
+        "name": "Inaugurated new-creation amillennialism",
+        "summary": "Stresses that the resurrection of Jesus launched the new creation, that believers already share in it by regeneration (2 Corinthians 5:17), and that the final state is a renewed physical cosmos, not a disembodied heaven. Hoekema's chapter on the new earth and G. K. Beale's New Testament biblical theology are representative. It answers the charge that amillennialism 'spiritualises' the promises: the land and earthly promises are fulfilled concretely in the new earth."
+      },
+      {
+        "id": "optimistic-amil",
+        "name": "Optimistic vs. 'dualist' amillennialism",
+        "summary": "Amillennialists differ over expectations for history. Some are hopeful about significant gospel growth and, following Romans 11:25-26, expect a future mass conversion of ethnic Israel (e.g. Riddlebarger, following Vos and John Murray's exegesis), sitting close to postmillennialism. Others (e.g. Hoekema, O. Palmer Robertson) read 'all Israel' as the full number of elect Jews through the age. A more 'dualist' strand (Meredith Kline's common-grace model; the Protestant Reformed tradition) expects the church to remain a pilgrim minority and sharply rejects postmillennial optimism."
+      }
+    ],
+    "related": ["postmil", "idealism", "eclectic", "covenant-theology", "progressive-covenantalism"],
+    "sources": ["hoekema-bible-future", "riddlebarger-case-amil", "storms-kingdom-come", "beale-revelation-nigtc", "vos-pauline-eschatology", "augustine-city-of-god", "hendriksen-more-than-conquerors", "waldron-end-times-made-simple", "adams-time-at-hand", "hill-regnum-caelorum", "riddlebarger-amil-101", "storms-changed-mind-millennium", "clouse-meaning-millennium"]
+  },
+  {
+    "id": "histpremil",
+    "name": "Historic Premillennialism",
+    "shortName": "Historic Premil",
+    "axis": "millennial",
+    "color": "#2E7D6B",
+    "initial": "H",
+    "tagline": "Christ returns after the tribulation to reign on earth before the final state.",
+    "selfDescription": "Proponents call it “historic” or “classic” premillennialism to signal continuity with the earliest Christian chiliasts (Papias, Justin, Irenaeus) and to distinguish it from dispensationalism. Following George Ladd, they describe the kingdom as “the presence of the future”: already inaugurated in Jesus, yet awaiting a future, visible, earthly stage when Christ returns. Some Reformed advocates speak of “covenantal premillennialism.”",
+    "summary": "Historic premillennialism teaches that Christ will return visibly after a final tribulation, raise the righteous dead, and then reign on earth for a millennium (literal or symbolic in length) before the final rebellion, the resurrection of the rest of the dead, the last judgment and the eternal state. Unlike dispensationalism, it sees one people of God, holds that the church will pass through the tribulation (posttribulationism), and reads the Old Testament in the light of the New. It shares amillennialism's inaugurated eschatology but takes Revelation 19-20 as sequential and the first resurrection in Revelation 20:4-5 as bodily. Many historic premillennialists expect a future conversion of ethnic Israel (Romans 11:26).",
+    "coreBeliefs": [
+      "The kingdom of God was inaugurated in Jesus' ministry, death and resurrection ('already') but will be consummated in stages at and after his return ('not yet').",
+      "Revelation 19:11-20:6 is sequential: the Second Coming is followed by the binding of Satan and a thousand-year reign of Christ with his saints on earth.",
+      "There are two bodily resurrections: the 'first resurrection' of believers at Christ's return (Revelation 20:4-6; 1 Corinthians 15:23) and a later resurrection of the rest of the dead for judgment (Revelation 20:5, 11-15).",
+      "The church passes through the great tribulation; the 'rapture' and the Second Coming are a single event after the tribulation (Matthew 24:29-31; 2 Thessalonians 2:1-8), the saints rising to meet and escort the returning king (1 Thessalonians 4:16-17).",
+      "There is one people of God, Jew and Gentile, in the one olive tree; Old Testament prophecy is read through New Testament fulfilment, not by a strict Israel-church distinction.",
+      "Many expect a future turning of ethnic Israel to Christ (Romans 11:25-27), often around the time of his return.",
+      "The millennium vindicates Christ's rule within history on a renewed earth; it ends with Satan's release, a final rebellion, the last judgment and the eternal new creation.",
+      "The length of the millennium need not be exactly 1,000 years; what matters is an intermediate earthly reign between the Parousia and the eternal state."
+    ],
+    "history": [
+      { "era": "Early church (chiliasm)", "text": "Papias of Hierapolis (as reported by Irenaeus and Eusebius), Justin Martyr (Dialogue with Trypho 80-81, appealing to Revelation and Isaiah 65), Irenaeus (Against Heresies 5.32-36, who saw the kingdom as creation's restoration), Tertullian, Hippolytus and Lactantius taught a future earthly reign of Christ after his return. Justin admitted other orthodox Christians disagreed." },
+      { "era": "Decline", "text": "Origen's allegorical exegesis, Dionysius of Alexandria's doubts about Revelation, Eusebius's disparagement of Papias, reaction against crudely materialistic chiliasm, and above all Augustine's City of God made amillennialism dominant. The Reformers, reacting to radical Anabaptist millenarianism (e.g. Münster, 1534-35), also rejected chiliasm." },
+      { "era": "17th–19th century revival", "text": "Joseph Mede's Clavis Apocalyptica (1627) and Johann Heinrich Alsted revived premillennialism among learned Protestants, typically within a historicist reading of Revelation. In the 19th century Henry Alford's Greek Testament (with his famous argument on Revelation 20:4-5), Horatius Bonar and C. H. Spurgeon held premillennial views independent of Darby's dispensationalism." },
+      { "era": "20th century", "text": "George Eldon Ladd of Fuller Seminary gave the view its modern scholarly form, critiquing pretribulationism in The Blessed Hope (1956) and developing inaugurated eschatology in The Presence of the Future (1974). Robert Gundry's The Church and the Tribulation (1973) and Douglas Moo's contribution to the 1984 rapture debate defended posttribulationism." },
+      { "era": "Today", "text": "Craig Blomberg and Sung Wook Chung's A Case for Historic Premillennialism (2009), Wayne Grudem's Systematic Theology, and many Reformed Baptist and broadly evangelical scholars hold the view, offering it as an alternative to both dispensationalism and amillennialism." }
+    ],
+    "keyTexts": [
+      "Revelation 19:11-20:6",
+      "1 Corinthians 15:22-26",
+      "1 Thessalonians 4:13-17",
+      "Matthew 24:29-31",
+      "2 Thessalonians 2:1-8",
+      "Isaiah 65:17-25",
+      "Isaiah 24:21-23",
+      "Zechariah 14:1-11",
+      "Romans 11:25-27",
+      "Acts 1:6-11"
+    ],
+    "scholars": ["papias", "justin-martyr", "irenaeus", "tertullian", "ladd", "gundry", "moo", "blomberg", "grudem"],
+    "strengths": [
+      "Takes the sequence of Revelation 19-20 and the parallel use of 'came to life' in Revelation 20:4-5 at face value.",
+      "Has the earliest documented support among post-apostolic writers (Papias, Justin, Irenaeus).",
+      "Avoids the Israel-church dichotomy and the recent pretribulational scheme while still affirming a future earthly reign.",
+      "Explains Old Testament prophecies of an earthly age in which death still occurs but life is prolonged (Isaiah 65:20) better than views that place their fulfilment only in the eternal state.",
+      "Integrates well with inaugurated eschatology: the kingdom is present now but its public, earthly vindication awaits Christ's return."
+    ],
+    "critiques": [
+      {
+        "critique": "Only one passage (Revelation 20) explicitly teaches an intermediate kingdom, while many clearer texts join the resurrection of righteous and wicked and the final judgment in a single event (John 5:28-29; Acts 24:15; 2 Thessalonians 1:6-10).",
+        "response": "Historic premillennialists reply that progressive revelation often gives later detail to earlier outlines, and that one clear text is sufficient. They also find hints of an interval elsewhere: 1 Corinthians 15:23-24 lists Christ, then those who are his at his coming, then 'the end' (eita), and Old Testament texts such as Isaiah 24:21-23 speak of punishment 'after many days'."
+      },
+      {
+        "critique": "It is implausible that resurrected, glorified saints would coexist with mortal people on an earth where sin and death still exist.",
+        "response": "The risen Jesus lived and ate among mortal disciples for forty days (Acts 1:3; Luke 24:41-43). Premillennialists regard the mixed state as a purposeful transition from the present age to the eternal state."
+      },
+      {
+        "critique": "A final rebellion after a thousand years of Christ's visible rule seems incoherent and undermines the completeness of his victory at his return.",
+        "response": "Premillennialists see it as a final demonstration of the depth of human sin, which rebels even under ideal conditions and with Satan restrained, and of the justice of God's final judgment. Revelation 20:7-10 explicitly places such a rebellion after the thousand years."
+      },
+      {
+        "critique": "Dispensationalists object that historic premillennialism blurs Israel and the church and leaves the literal land and kingdom promises to Israel unfulfilled.",
+        "response": "Historic premillennialists follow the New Testament's application of Israel's promises to the one people in Christ (Galatians 3:29; Ephesians 2:11-22) while still affirming, with Romans 11, a future salvation of ethnic Israel; the millennium on a renewed earth also gives the land promises a real, earthly fulfilment."
+      },
+      {
+        "critique": "The early chiliasm it claims as ancestor was materialistic (Papias's vines of 10,000 branches), and the Fathers themselves largely abandoned it.",
+        "response": "Modern proponents do not adopt the extravagant details, but argue that Irenaeus's central conviction, that God will redeem and restore his physical creation, is thoroughly biblical, and that the early chiliasts' antiquity counts in the view's favour even if their particulars do not bind."
+      }
+    ],
+    "subViews": [
+      {
+        "id": "patristic-chiliasm",
+        "name": "Patristic chiliasm",
+        "summary": "The view of Papias, Justin, Irenaeus, Tertullian and Lactantius: after Antichrist's reign Christ returns, raises the righteous and reigns from a rebuilt Jerusalem for a thousand years in an earth of abundance. Some tied it to a 'world week' of six thousand years followed by a sabbath millennium. It was a hope of creation restored rather than a dispensational scheme."
+      },
+      {
+        "id": "posttribulational",
+        "name": "Posttribulational premillennialism (mainstream)",
+        "summary": "The dominant modern form (Ladd, Gundry, Moo, Blomberg, Grudem): the church endures the great tribulation and is gathered at Christ's single, visible return. The Greek apantēsis ('to meet', 1 Thessalonians 4:17) is read as the welcome party that goes out to escort a visiting king back to the city, so the saints rise to meet the Lord and return with him to earth."
+      },
+      {
+        "id": "covenantal-premil",
+        "name": "Covenantal premillennialism",
+        "summary": "Held by some Reformed and Particular Baptist theologians and Presbyterian premillennialists (historically including Horatius Bonar), who combine covenant theology's one people of God, often a future conversion of Israel, and a premillennial reading of Revelation 20, without dispensational distinctives."
+      },
+      {
+        "id": "historicist-premil",
+        "name": "Historicist premillennialism",
+        "summary": "From Joseph Mede (1627) through Isaac Newton and E. B. Elliott's Horae Apocalypticae (1844), many premillennialists read Revelation as a sequential outline of church history, often identifying the papacy with Antichrist and calculating the 1,260 days as years, with the millennium following Christ's return. It is uncommon today."
+      }
+    ],
+    "related": ["disppremil", "amil", "futurism", "eclectic", "progressive-covenantalism", "covenant-theology"],
+    "sources": ["ladd-blessed-hope", "ladd-commentary-revelation", "ladd-presence-future", "blomberg-chung-historic-premil", "irenaeus-against-heresies", "justin-dialogue-trypho", "gundry-church-tribulation", "reiter-three-views-rapture-1984", "grudem-systematic", "clouse-meaning-millennium", "bock-three-views", "hill-regnum-caelorum"]
+  },
+  {
+    "id": "disppremil",
+    "name": "Dispensational Premillennialism",
+    "shortName": "Disp. Premil",
+    "axis": "millennial",
+    "color": "#A23B2A",
+    "initial": "D",
+    "tagline": "God keeps his promises to Israel: rapture, tribulation, then a literal thousand-year reign.",
+    "selfDescription": "Dispensationalists describe their approach as “consistent literal” or “normal” (grammatical-historical) interpretation applied to prophecy as to the rest of Scripture. They speak of God's distinct programmes for Israel and the church, of the church as a “mystery” revealed in the New Testament, of the “blessed hope” (Titus 2:13) of an imminent pretribulational rapture, and of a literal millennial kingdom in which God keeps his unconditional covenants with national Israel.",
+    "summary": "Dispensational premillennialism holds that God's unconditional covenants with Abraham, David and Israel (the land, the throne, the new covenant) will be fulfilled literally to the nation of Israel in a future thousand-year reign of Christ from Jerusalem. The church, begun at Pentecost, is a distinct people; in most forms it will be raptured before a seven-year tribulation that fulfils Daniel's seventieth week (Daniel 9:24-27), during which Antichrist rises and Israel is refined and turns to its Messiah. Christ then returns visibly, judges the nations and reigns for a literal millennium, after which Satan's final rebellion, the great white throne judgment and the eternal state follow. The system has classic, revised and progressive forms, and its adherents differ on rapture timing.",
+    "coreBeliefs": [
+      "A consistent literal (normal, grammatical-historical) hermeneutic, applied to prophecy as well as to history, so that promises made to Israel are fulfilled to Israel.",
+      "A distinction between Israel and the church: the church, which began at Pentecost (Acts 2; 1 Corinthians 12:13), was a 'mystery' not revealed in the Old Testament (Ephesians 3:3-6) and does not replace or absorb national Israel (Romans 11:1, 29).",
+      "God's ultimate purpose in history is his own glory, displayed through several programmes, not solely through redemption (Ryrie's 'doxological' principle).",
+      "Daniel's seventy weeks (Daniel 9:24-27) contain a gap between the 69th and 70th weeks; the 70th week is a future seven-year tribulation in which Antichrist makes and breaks a covenant with Israel.",
+      "In most forms, the rapture of the church is pretribulational and imminent (John 14:1-3; 1 Thessalonians 1:10; 4:13-18; 5:9; Revelation 3:10), distinct from Christ's later return to earth with his saints.",
+      "After the tribulation Christ returns, Israel as a nation repents and is saved (Zechariah 12:10; Romans 11:26), and the nations are judged (Matthew 25:31-46).",
+      "Christ then reigns on David's throne from Jerusalem for a literal thousand years, fulfilling the Abrahamic, Davidic and new covenants to Israel (2 Samuel 7:12-16; Jeremiah 31:31-37; Ezekiel 36-37; 40-48), with Satan bound.",
+      "Salvation in every age is by grace through faith in God, though the content of revelation and stewardship (dispensation) differs."
+    ],
+    "history": [
+      { "era": "Precursors", "text": "Dispensationalists claim the early chiliasts as forebears of premillennialism (not of pretribulationism), note Protestant schemes of 'dispensations' (e.g. Pierre Poiret, Isaac Watts), and point to occasional earlier hints of a pre-tribulation removal of saints, such as the Baptist Morgan Edwards (1788) and a disputed sermon attributed to Pseudo-Ephraem; the significance of these precursors is disputed." },
+      { "era": "1830s: Darby and the Brethren", "text": "John Nelson Darby and the Plymouth Brethren, especially through the Powerscourt prophecy conferences (1831-33), systematised the Israel-church distinction, the 'parenthesis' church age and the pretribulational rapture. The claim that the rapture idea originated in Margaret MacDonald's 1830 vision or Edward Irving's circle is disputed; dispensationalists such as Thomas Ice deny it." },
+      { "era": "Late 19th–early 20th century", "text": "The view spread in America through the Niagara Bible Conferences (1876-97), D. L. Moody's circle, and above all the Scofield Reference Bible (1909; 1917). Lewis Sperry Chafer founded Dallas Theological Seminary (1924) and wrote an eight-volume dispensational systematic theology." },
+      { "era": "Mid-20th century: revised dispensationalism", "text": "Charles Ryrie's Dispensationalism Today (1965), John Walvoord's The Millennial Kingdom (1959) and J. Dwight Pentecost's Things to Come (1958) refined the system, softening the 'two peoples forever' language. Hal Lindsey's The Late Great Planet Earth (1970) and later the Left Behind novels (1995-2007) made it hugely popular." },
+      { "era": "1980s–today: progressive dispensationalism", "text": "From the Dispensational Study Group (1986) and Craig Blaising's 'Developing Dispensationalism' articles (1988), Blaising, Darrell Bock and Robert Saucy developed progressive dispensationalism. Revised dispensationalism remains strong (Thomas Ice, The Master's Seminary), and Michael Vlach has restated the case against supersessionism." }
+    ],
+    "keyTexts": [
+      "Daniel 9:24-27",
+      "1 Thessalonians 4:13-18",
+      "1 Thessalonians 5:9",
+      "Revelation 3:10",
+      "John 14:1-3",
+      "Romans 11:25-29",
+      "Jeremiah 31:31-37",
+      "Ezekiel 37:21-28",
+      "Zechariah 14:1-9",
+      "Revelation 20:1-6"
+    ],
+    "scholars": ["darby", "scofield", "ryrie", "walvoord", "pentecost", "ice", "blaising", "bock", "saucy", "vlach", "archer", "rosenthal", "kurschner"],
+    "strengths": [
+      "Treats God's unconditional promises to Abraham, David and Israel as irrevocable (Romans 11:29) and takes national Israel's future seriously.",
+      "Offers a coherent, consistently applied hermeneutic that reads prophecy in its plain sense, as many fulfilled messianic prophecies were fulfilled literally.",
+      "Takes the sequence of Revelation 19-20 and the details of Daniel and the Olivet Discourse as describing concrete future events.",
+      "Stresses imminence and the 'blessed hope', motivating holiness, evangelism and watchfulness (Titus 2:11-14; 1 John 3:2-3).",
+      "Progressive dispensationalism has integrated inaugurated eschatology and the unity of God's kingdom programme while keeping Israel's distinct future, opening dialogue with other traditions."
+    ],
+    "critiques": [
+      {
+        "critique": "The pretribulational rapture is absent from the first eighteen centuries of church history and appears only in the 1830s.",
+        "response": "Dispensationalists answer that the test of a doctrine is Scripture, not antiquity, and that doctrinal clarification often comes late (as with justification at the Reformation). They also point to possible precursors (Morgan Edwards, 1788; a Pseudo-Ephraem sermon, whose interpretation is disputed) and to the early church's belief in imminence."
+      },
+      {
+        "critique": "Inserting a gap of nearly two thousand years between the 69th and 70th weeks of Daniel 9 is arbitrary.",
+        "response": "Dispensationalists point to other prophetic gaps, such as Jesus stopping mid-sentence when reading Isaiah 61:1-2 (Luke 4:18-20), and note that Daniel 9:26 places the Messiah's 'cutting off' and the city's destruction after the 69th week without placing them in the 70th, which implies an interval."
+      },
+      {
+        "critique": "The New Testament applies Israel's titles and promises to the church (Galatians 3:29; 6:16; 1 Peter 2:9-10; Acts 15:14-18), which undermines a strict Israel-church distinction.",
+        "response": "They read 'the Israel of God' (Galatians 6:16) as Jewish believers, and argue that the church shares in Israel's blessings (Ephesians 2:12-13) without inheriting Israel's national, territorial promises. Progressive dispensationalists frame this as inclusion of the Gentiles alongside a restored Israel, not replacement (Romans 11:29)."
+      },
+      {
+        "critique": "The 'consistent literal' hermeneutic is applied inconsistently, since dispensationalists also recognise symbols (beasts, horns, a woman clothed with the sun).",
+        "response": "'Literal' means the normal sense intended by the author, including figures of speech; dispensationalists hold that symbols in prophecy have concrete, identifiable referents (real persons, nations, events) rather than being dissolved into timeless principles."
+      },
+      {
+        "critique": "Classic dispensationalism appeared to teach two ways of salvation (law and grace), and the popular movement has been marked by date-setting and speculative headline exegesis.",
+        "response": "Dispensational scholars (Ryrie, Walvoord, Blaising and Bock) affirm one way of salvation by grace through faith in every age, differing only in the content of revelation; ambiguous wording in the original Scofield notes was revised in the New Scofield Reference Bible (1967). Scholarly dispensationalists disavow date-setting (Matthew 24:36)."
+      }
+    ],
+    "subViews": [
+      {
+        "id": "classic",
+        "name": "Classic dispensationalism",
+        "summary": "Darby, Scofield and Chafer (c. 1830-1950): God has two peoples with two destinies, a heavenly people (the church) and an earthly people (Israel), whose distinction continues into eternity. The church age is a 'parenthesis' unforeseen by the prophets; the kingdom offered by Jesus was postponed when Israel rejected it. Usually seven dispensations are distinguished (innocence, conscience, human government, promise, law, grace, kingdom)."
+      },
+      {
+        "id": "revised",
+        "name": "Revised (normative) dispensationalism",
+        "summary": "Ryrie, Walvoord, Pentecost and later Thomas Ice (c. 1950-present): drops the eternal heavenly/earthly dualism, so all the redeemed share the eternal state, but keeps the Israel-church distinction in God's historical programmes, the postponed Davidic kingdom, and Ryrie's 'sine qua non': a consistent literal hermeneutic, the Israel-church distinction, and the glory of God as history's unifying purpose."
+      },
+      {
+        "id": "progressive",
+        "name": "Progressive dispensationalism",
+        "summary": "Blaising, Bock and Saucy (1986-present): Jesus already sits on David's throne at the Father's right hand since the ascension (Acts 2:30-36), so the Davidic kingdom is inaugurated now and consummated in the millennium. The church is not a parenthesis but a phase of the one kingdom plan, in which Jews and Gentiles share new covenant blessings, while national Israel retains a distinct, future territorial and political restoration. It uses a 'complementary' hermeneutic, allowing New Testament expansions of Old Testament promises without cancelling their original sense. Traditional dispensationalists such as Ice regard it as a significant departure."
+      },
+      {
+        "id": "pre-trib",
+        "name": "Pretribulational rapture",
+        "summary": "The majority dispensational view (Walvoord, Pentecost, Ryrie, Ice): Christ comes for his church before the seven-year tribulation, removing it from the period of God's wrath (1 Thessalonians 1:10; 5:9; Revelation 3:10). Arguments include imminence (no prophesied event must precede the rapture), the absence of the word 'church' in Revelation 4-19, the need for mortal believers to populate the millennium, and the distinct purposes of the tribulation for Israel. The rapture (Christ comes for his saints, in the air) is distinguished from the Second Coming (Christ comes with his saints, to the earth)."
+      },
+      {
+        "id": "mid-trib",
+        "name": "Midtribulational rapture",
+        "summary": "Defended by Gleason Archer in the 1984 three-views volume: the church is raptured at the midpoint of the seventieth week, before the 'great tribulation' of the final three and a half years (Daniel 9:27; Matthew 24:15-21). It often links the 'last trumpet' (1 Corinthians 15:52) with the seventh trumpet (Revelation 11:15) and the ascension of the two witnesses (Revelation 11:11-12). It holds that God's wrath falls only in the second half. It has few current advocates."
+      },
+      {
+        "id": "pre-wrath",
+        "name": "Prewrath rapture",
+        "summary": "Developed by Robert Van Kampen and Marvin Rosenthal (The Pre-Wrath Rapture of the Church, 1990) and today by Alan Kurschner: the church will face Antichrist's persecution in the second half of the seventieth week, but that 'great tribulation' is cut short (Matthew 24:22) by the cosmic signs of the sixth seal (Revelation 6:12-17; Matthew 24:29-31), at which Christ raptures his people before the Day of the Lord's wrath (the trumpet and bowl judgments). Wrath is God's, tribulation is man's and Satan's. It is futurist and premillennial, but many proponents do not hold dispensational distinctives."
+      },
+      {
+        "id": "post-trib",
+        "name": "Posttribulational rapture",
+        "summary": "The rapture and the visible Second Coming are one event after the tribulation (Matthew 24:29-31; 2 Thessalonians 2:1-8). The church is preserved through, not removed from, the tribulation (John 17:15; Revelation 3:10 read as protection). This is chiefly the historic premillennial view (Ladd, Gundry, Moo, Blomberg), though some futurists with dispensational sympathies hold it; Gundry's The Church and the Tribulation is its standard defence."
+      }
+    ],
+    "related": ["dispensationalism", "histpremil", "futurism"],
+    "sources": ["ryrie-dispensationalism", "walvoord-millennial-kingdom", "pentecost-things-to-come", "blaising-bock-progressive", "saucy-case-progressive-dispensationalism", "blaising-developing-dispensationalism", "ice-what-is-progressive-dispensationalism", "scofield-reference-bible", "rosenthal-prewrath", "kurschner-antichrist-before-day", "reiter-three-views-rapture-1984", "hultberg-three-views-rapture", "gundry-church-tribulation", "bock-three-views", "vlach-has-church-replaced-israel"]
+  }
+]

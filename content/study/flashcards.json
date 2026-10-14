@@ -1,0 +1,886 @@
+[
+  {
+    "set": "general",
+    "title": "Eschatology essentials",
+    "cards": [
+      {
+        "id": "eschatology",
+        "front": "Eschatology",
+        "back": "The doctrine of the 'last things' (Greek eschata): death, Christ's return, resurrection, judgment, the millennium and the new creation."
+      },
+      {
+        "id": "parousia",
+        "front": "Parousia",
+        "back": "Greek for 'presence' or 'arrival'; the usual New Testament term for Christ's coming (e.g. Matthew 24:3; 1 Thessalonians 4:15)."
+      },
+      {
+        "id": "millennium",
+        "front": "Millennium",
+        "back": "The 'thousand years' of Revelation 20:1-6, during which Satan is bound and the saints reign with Christ. Its timing and nature divide the millennial views."
+      },
+      {
+        "id": "chiliasm",
+        "front": "Chiliasm",
+        "back": "From Greek chilioi, 'thousand': the early church term for belief in a future earthly reign of Christ, held by Papias, Justin Martyr and Irenaeus."
+      },
+      {
+        "id": "four-views",
+        "front": "The four millennial views",
+        "back": "Postmillennialism, amillennialism, historic premillennialism and dispensational premillennialism (the line-up of Clouse's The Meaning of the Millennium, 1977)."
+      },
+      {
+        "id": "four-approaches",
+        "front": "The four approaches to Revelation",
+        "back": "Preterist (fulfilled in the first century), historicist (church history in sequence), futurist (mostly still future), idealist (timeless spiritual conflict). Many combine them (eclectic)."
+      },
+      {
+        "id": "already-not-yet",
+        "front": "Already / not yet",
+        "back": "Inaugurated eschatology: the kingdom came with Christ's first coming but awaits consummation at his return. Associated with Vos, Cullmann and Ladd."
+      },
+      {
+        "id": "olivet",
+        "front": "Olivet Discourse",
+        "back": "Jesus' teaching on the Mount of Olives about the temple's destruction and his coming: Matthew 24-25, Mark 13, Luke 21."
+      },
+      {
+        "id": "seventy-weeks",
+        "front": "Seventy weeks",
+        "back": "Daniel 9:24-27: seventy 'sevens' decreed for Daniel's people. Disputed whether the seventieth week follows directly or is separated by a gap."
+      },
+      {
+        "id": "man-of-lawlessness",
+        "front": "Man of lawlessness",
+        "back": "The figure of 2 Thessalonians 2:3-12, variously identified as a future Antichrist, the papacy (historicism), or a first-century figure (preterism)."
+      },
+      {
+        "id": "rapture",
+        "front": "Rapture",
+        "back": "From Latin rapiemur in 1 Thessalonians 4:17: believers 'caught up' to meet the Lord. Views differ on timing: pre-, mid-, prewrath, post-tribulation."
+      },
+      {
+        "id": "revelation-date",
+        "front": "Date of Revelation",
+        "back": "Disputed: most scholars favour c. AD 95 under Domitian (Irenaeus); an early date of c. AD 65-68 is argued by Gentry and J. A. T. Robinson."
+      },
+      {
+        "id": "creeds",
+        "front": "What the creeds settle",
+        "back": "Christ's return in glory to judge the living and the dead, and the resurrection of the body. The creeds take no position on the millennium."
+      }
+    ]
+  },
+  {
+    "set": "postmil",
+    "title": "Postmillennialism",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Postmillennialism in one sentence",
+        "back": "Christ returns after a long era of gospel triumph in which most of the world is converted through the Spirit's work."
+      },
+      {
+        "id": "key-texts",
+        "front": "Key postmillennial texts",
+        "back": "Psalm 2; Psalm 110:1; Isaiah 2:2-4; Daniel 2:35, 44; Matthew 13:31-33; Matthew 28:18-20; 1 Corinthians 15:24-26; Romans 11:25-26."
+      },
+      {
+        "id": "boettner",
+        "front": "Loraine Boettner",
+        "back": "Author of The Millennium (1957); defended postmillennialism in Clouse's Four Views (1977)."
+      },
+      {
+        "id": "gentry",
+        "front": "Kenneth Gentry",
+        "back": "Author of He Shall Have Dominion (1992); a leading postmillennialist and partial preterist."
+      },
+      {
+        "id": "whitby",
+        "front": "Daniel Whitby",
+        "back": "Anglican (1638-1726); his Treatise of the True Millennium (1703) systematised postmillennialism, though earlier Puritans held similar hopes."
+      },
+      {
+        "id": "puritan-hope",
+        "front": "The Puritan Hope",
+        "back": "Iain Murray's 1971 book tracing Puritan expectation of worldwide revival and the conversion of the Jews."
+      },
+      {
+        "id": "wlc-191",
+        "front": "Westminster Larger Catechism Q. 191",
+        "back": "On 'Thy kingdom come': prays for the gospel's spread, the calling of the Jews and the fullness of the Gentiles. Postmillennialists cite it as expressing their hope."
+      },
+      {
+        "id": "savoy",
+        "front": "Savoy Declaration (1658)",
+        "back": "The Congregationalist revision of Westminster, which adds an expectation of a more peaceful and glorious condition for the churches in the latter days (26.5)."
+      },
+      {
+        "id": "edwards",
+        "front": "Jonathan Edwards",
+        "back": "American theologian (1703-1758) whose History of the Work of Redemption expressed postmillennial hope linked to revival."
+      },
+      {
+        "id": "princeton",
+        "front": "Princeton postmillennialists",
+        "back": "Charles Hodge, A. A. Hodge and B. B. Warfield, nineteenth-century Reformed theologians who expected the gospel's worldwide triumph."
+      },
+      {
+        "id": "streams",
+        "front": "Two streams of modern postmillennialism",
+        "back": "Revivalist (Murray, Mathison) and theonomic/Reconstructionist (Rushdoony, Bahnsen, Gentry)."
+      },
+      {
+        "id": "decline",
+        "front": "Twentieth-century decline",
+        "back": "Often attributed to the world wars and association with the liberal social gospel. Revived from the 1970s."
+      }
+    ]
+  },
+  {
+    "set": "amil",
+    "title": "Amillennialism",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Amillennialism in one sentence",
+        "back": "The thousand years of Revelation 20 symbolise the present age, in which Christ reigns and Satan is bound, ending with one return, resurrection and judgment."
+      },
+      {
+        "id": "realized",
+        "front": "Realized millennialism",
+        "back": "Jay E. Adams's suggested name for amillennialism (1959 book later reissued as The Time Is at Hand), stressing that the millennium is now."
+      },
+      {
+        "id": "binding",
+        "front": "Binding of Satan (amil view)",
+        "back": "Christ's first coming restrained Satan from deceiving the nations (Matthew 12:29; Revelation 20:3), so the gospel goes worldwide."
+      },
+      {
+        "id": "first-resurrection",
+        "front": "First resurrection (amil view)",
+        "back": "A spiritual reality: regeneration, or the believer's soul entering Christ's presence at death to reign with him (Revelation 20:4)."
+      },
+      {
+        "id": "augustine",
+        "front": "Augustine's City of God, Book 20",
+        "back": "Read the thousand years as the church age; became the dominant view in the Western church for centuries."
+      },
+      {
+        "id": "tyconius",
+        "front": "Tyconius",
+        "back": "Fourth-century Donatist exegete whose symbolic reading of Revelation influenced Augustine."
+      },
+      {
+        "id": "hoekema",
+        "front": "Anthony Hoekema",
+        "back": "Author of The Bible and the Future (1979); defended amillennialism in Clouse's Four Views."
+      },
+      {
+        "id": "riddlebarger",
+        "front": "Kim Riddlebarger",
+        "back": "Author of A Case for Amillennialism (2003; expanded 2013), stressing the two-age structure."
+      },
+      {
+        "id": "two-age",
+        "front": "Two-age model",
+        "back": "This age and the age to come, divided by Christ's return (Luke 20:34-36), leaving no room for a further earthly millennium."
+      },
+      {
+        "id": "recapitulation",
+        "front": "Progressive parallelism",
+        "back": "Revelation repeats the history between the comings in seven parallel sections (Hendriksen's More Than Conquerors)."
+      },
+      {
+        "id": "one-resurrection",
+        "front": "Single general resurrection",
+        "back": "John 5:28-29: an 'hour' in which all the dead rise, some to life and some to judgment."
+      },
+      {
+        "id": "augsburg",
+        "front": "Augsburg Confession Article 17",
+        "back": "Rejects the 'Jewish opinions' of an earthly kingdom of the godly before the resurrection of the dead."
+      }
+    ]
+  },
+  {
+    "set": "histpremil",
+    "title": "Historic premillennialism",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Historic premillennialism in one sentence",
+        "back": "Christ returns once, after the tribulation, raises believers and reigns on earth for a millennium before the final judgment."
+      },
+      {
+        "id": "ladd",
+        "front": "George Eldon Ladd",
+        "back": "Fuller Seminary scholar; The Blessed Hope (1956) and The Gospel of the Kingdom; leading modern historic premillennialist."
+      },
+      {
+        "id": "early-fathers",
+        "front": "Early premillennial writers",
+        "back": "Papias, Justin Martyr (Dialogue with Trypho 80-81) and Irenaeus (Against Heresies Book 5)."
+      },
+      {
+        "id": "ezesan",
+        "front": "Ezesan argument",
+        "back": "In Revelation 20:4-5 'came to life' should mean bodily resurrection both times, so two bodily resurrections frame the millennium (Henry Alford)."
+      },
+      {
+        "id": "1-cor-15-order",
+        "front": "1 Corinthians 15:23-24 sequence",
+        "back": "Christ the firstfruits, then those who are his at his coming, then the end: an interval may fall between the coming and the end."
+      },
+      {
+        "id": "posttrib",
+        "front": "Posttribulational rapture",
+        "back": "The church endures the tribulation and meets Christ in the air as he comes to earth. Defended by Gundry (1973) and Moo (1984)."
+      },
+      {
+        "id": "israel",
+        "front": "Israel and the church (historic premil)",
+        "back": "One people of God, with many expecting a future turning of ethnic Israel to Christ (Romans 11:25-26)."
+      },
+      {
+        "id": "case-book",
+        "front": "A Case for Historic Premillennialism (2009)",
+        "back": "Edited by Craig Blomberg and Sung Wook Chung; essays defending the view against dispensational and amillennial alternatives."
+      },
+      {
+        "id": "prewrath",
+        "front": "Prewrath rapture",
+        "back": "Rapture in the second half of Daniel's seventieth week, before God's wrath. Associated with Marvin Rosenthal and Alan Kurschner."
+      },
+      {
+        "id": "isaiah-65",
+        "front": "Isaiah 65:20",
+        "back": "Pictures death still occurring but at great age in the new order. Premillennialists see an interim kingdom; amillennialists read it as poetic imagery."
+      },
+      {
+        "id": "grudem",
+        "front": "Wayne Grudem",
+        "back": "Systematic theologian who defends historic premillennialism in his Systematic Theology."
+      }
+    ]
+  },
+  {
+    "set": "disppremil",
+    "title": "Dispensational premillennialism",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Dispensational premillennialism in one sentence",
+        "back": "A pretribulational rapture, a seven-year tribulation, Christ's return, and a literal millennium fulfilling God's promises to national Israel."
+      },
+      {
+        "id": "darby",
+        "front": "John Nelson Darby",
+        "back": "Plymouth Brethren leader (1800-1882) who systematised dispensationalism and the pretribulational rapture."
+      },
+      {
+        "id": "powerscourt",
+        "front": "Powerscourt conferences",
+        "back": "Prophecy meetings (1831-1833) hosted by Lady Theodosia Powerscourt in County Wicklow, Ireland, where Darby's views developed."
+      },
+      {
+        "id": "scofield",
+        "front": "Scofield Reference Bible (1909)",
+        "back": "C. I. Scofield's study Bible, published by Oxford University Press, which spread dispensationalism widely."
+      },
+      {
+        "id": "seventieth-week",
+        "front": "Daniel's seventieth week",
+        "back": "Read as a future seven-year tribulation, separated from the first sixty-nine weeks by the church age (Daniel 9:27)."
+      },
+      {
+        "id": "imminence",
+        "front": "Imminence",
+        "back": "Christ may come for his church at any moment with no prophesied event first, supporting a pretribulational rapture."
+      },
+      {
+        "id": "two-stages",
+        "front": "Two-stage return",
+        "back": "Christ comes for his saints (rapture) and later with his saints (Revelation 19:11-21) to set up the millennial kingdom."
+      },
+      {
+        "id": "pentecost",
+        "front": "J. Dwight Pentecost",
+        "back": "Author of Things to Come (1958), a comprehensive dispensational eschatology."
+      },
+      {
+        "id": "walvoord",
+        "front": "John Walvoord",
+        "back": "Dallas Seminary president; The Rapture Question (1957), The Millennial Kingdom and The Revelation of Jesus Christ (1966)."
+      },
+      {
+        "id": "ice",
+        "front": "Thomas Ice",
+        "back": "Co-founded the Pre-Trib Research Center with Tim LaHaye; defends pretribulationism."
+      },
+      {
+        "id": "wrath-texts",
+        "front": "Pretrib 'wrath' texts",
+        "back": "1 Thessalonians 1:10; 5:9; Revelation 3:10: believers are not appointed to wrath."
+      },
+      {
+        "id": "progressive",
+        "front": "Progressive dispensationalism",
+        "back": "Blaising, Bock and Saucy (1993): Christ already reigns on David's throne in an inaugurated sense, with a future for national Israel."
+      }
+    ]
+  },
+  {
+    "set": "partial-preterism",
+    "title": "Partial preterism",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Partial preterism in one sentence",
+        "back": "Many prophecies, including much of the Olivet Discourse and Revelation, were fulfilled in AD 66-70; the bodily return, resurrection and judgment remain future."
+      },
+      {
+        "id": "preterist-term",
+        "front": "Preterist",
+        "back": "From Latin praeteritus, 'gone by': prophecy viewed as fulfilled in the past."
+      },
+      {
+        "id": "this-generation",
+        "front": "Matthew 24:34",
+        "back": "'This generation' is read as Jesus' contemporaries, who saw the temple destroyed in AD 70."
+      },
+      {
+        "id": "alcazar",
+        "front": "Luis de Alcázar",
+        "back": "Spanish Jesuit whose Vestigatio arcani sensus in Apocalypsi (1614) is often called the first systematic preterist commentary."
+      },
+      {
+        "id": "sproul",
+        "front": "R. C. Sproul",
+        "back": "The Last Days According to Jesus (1998): argued for a largely preterist reading of the Olivet Discourse."
+      },
+      {
+        "id": "gentry-date",
+        "front": "Before Jerusalem Fell (1989)",
+        "back": "Gentry's case for dating Revelation c. AD 65-66, before the temple's destruction. The date is disputed."
+      },
+      {
+        "id": "nero",
+        "front": "Nero and 666",
+        "back": "Nero Caesar in Hebrew letters (Nrwn Qsr) totals 666; the variant 616 fits a Latin spelling."
+      },
+      {
+        "id": "cloud-coming",
+        "front": "Cloud-coming",
+        "back": "Old Testament language for God's judgment (Isaiah 19:1), read as Christ's judgment on Jerusalem in Matthew 24:30."
+      },
+      {
+        "id": "josephus",
+        "front": "Josephus",
+        "back": "Jewish historian whose Jewish War records the siege and fall of Jerusalem in AD 70."
+      },
+      {
+        "id": "demar",
+        "front": "Gary DeMar",
+        "back": "Author of Last Days Madness; a leading popular partial preterist and postmillennialist."
+      },
+      {
+        "id": "chilton",
+        "front": "David Chilton",
+        "back": "The Days of Vengeance (1987), a preterist and postmillennial commentary on Revelation."
+      },
+      {
+        "id": "vs-full",
+        "front": "Partial vs full preterism",
+        "back": "Partial affirms a future bodily Second Coming and resurrection (Acts 1:11; 1 Corinthians 15); full places them in the first century."
+      }
+    ]
+  },
+  {
+    "set": "full-preterism",
+    "title": "Full preterism",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Full preterism in one sentence",
+        "back": "All biblical prophecy, including the Second Coming, resurrection and judgment, was fulfilled by AD 70."
+      },
+      {
+        "id": "names",
+        "front": "Other names",
+        "back": "Consistent preterism, covenant eschatology; critics often say hyper-preterism."
+      },
+      {
+        "id": "max-king",
+        "front": "Max King",
+        "back": "The Spirit of Prophecy (1971) and The Cross and the Parousia of Christ (1987); proposed a corporate covenantal resurrection."
+      },
+      {
+        "id": "russell",
+        "front": "J. Stuart Russell",
+        "back": "The Parousia (1878): argued all New Testament references to Christ's coming point to AD 70."
+      },
+      {
+        "id": "don-preston",
+        "front": "Don Preston",
+        "back": "Contemporary full preterist author and debater."
+      },
+      {
+        "id": "corporate-resurrection",
+        "front": "Corporate body view",
+        "back": "Resurrection as the people of God passing from the old covenant to the new, completed in AD 70."
+      },
+      {
+        "id": "orthodoxy",
+        "front": "Orthodoxy concern",
+        "back": "Critics note the creeds confess a future return and bodily resurrection; full preterists answer that Scripture outranks the creeds."
+      },
+      {
+        "id": "when-shall",
+        "front": "When Shall These Things Be? (2004)",
+        "back": "Keith Mathison's edited Reformed critique of full preterism."
+      },
+      {
+        "id": "hymenaeus",
+        "front": "2 Timothy 2:17-18",
+        "back": "Hymenaeus and Philetus said the resurrection had already happened; critics see a parallel."
+      },
+      {
+        "id": "acts-1-11",
+        "front": "Acts 1:11",
+        "back": "Christ will come 'in the same way' he ascended; critics read this as a visible bodily return."
+      },
+      {
+        "id": "consistency",
+        "front": "Consistency argument",
+        "back": "If the Olivet coming was in AD 70, full preterists argue all coming and resurrection texts belong there too."
+      }
+    ]
+  },
+  {
+    "set": "historicism",
+    "title": "Historicism",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Historicism in one sentence",
+        "back": "Revelation forecasts church and world history in sequence from the apostles to Christ's return."
+      },
+      {
+        "id": "day-year",
+        "front": "Day-year principle",
+        "back": "A prophetic day equals a year (Numbers 14:34; Ezekiel 4:6), so 1,260 days means 1,260 years."
+      },
+      {
+        "id": "antichrist",
+        "front": "Historicist Antichrist",
+        "back": "The papacy as an office; held by Luther, Calvin and the original Westminster Confession (25.6)."
+      },
+      {
+        "id": "mede",
+        "front": "Joseph Mede",
+        "back": "Clavis Apocalyptica (1627); Cambridge scholar who revived premillennialism among English Puritans."
+      },
+      {
+        "id": "newton",
+        "front": "Isaac Newton",
+        "back": "Observations upon the Prophecies of Daniel and the Apocalypse of St. John (1733)."
+      },
+      {
+        "id": "elliott",
+        "front": "E. B. Elliott",
+        "back": "Horae Apocalypticae (1844), four volumes of historicist commentary."
+      },
+      {
+        "id": "barnes",
+        "front": "Albert Barnes",
+        "back": "American Presbyterian whose Notes on the New Testament follow a historicist reading of Revelation."
+      },
+      {
+        "id": "islam",
+        "front": "Trumpets and Islam",
+        "back": "Many historicists saw the fifth and sixth trumpets (Revelation 9) as the Saracen and Turkish invasions."
+      },
+      {
+        "id": "adventism",
+        "front": "Seventh-day Adventism",
+        "back": "The major modern tradition that retains historicism."
+      },
+      {
+        "id": "critique",
+        "front": "Main critique",
+        "back": "Interpreters disagree widely and often place the climax in their own day; date-setting (e.g. 1844) failed."
+      },
+      {
+        "id": "dominance",
+        "front": "Historical dominance",
+        "back": "The leading Protestant approach from the Reformation until the mid-nineteenth century."
+      }
+    ]
+  },
+  {
+    "set": "futurism",
+    "title": "Futurism",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Futurism in one sentence",
+        "back": "Most of Revelation (usually chapters 4-22) describes events still future, clustered around Christ's return."
+      },
+      {
+        "id": "ribera",
+        "front": "Francisco Ribera",
+        "back": "Spanish Jesuit (1537-1591) whose Revelation commentary (c. 1590) put most of the book in a future three and a half years under one Antichrist."
+      },
+      {
+        "id": "bellarmine",
+        "front": "Robert Bellarmine",
+        "back": "Jesuit cardinal who also argued for a future individual Antichrist against the Protestant view."
+      },
+      {
+        "id": "lacunza",
+        "front": "Manuel Lacunza",
+        "back": "Chilean Jesuit; The Coming of Messiah in Glory and Majesty, under the name Juan Josafat Ben-Ezra; Edward Irving's English translation, 1827."
+      },
+      {
+        "id": "early-roots",
+        "front": "Early futurist elements",
+        "back": "Irenaeus and Hippolytus expected a future personal Antichrist and tribulation."
+      },
+      {
+        "id": "rev-4-1",
+        "front": "Revelation 4:1",
+        "back": "'Come up here': some dispensationalists see a picture of the rapture before the judgments."
+      },
+      {
+        "id": "walvoord",
+        "front": "Walvoord's Revelation",
+        "back": "The Revelation of Jesus Christ (1966), a classic dispensational futurist commentary."
+      },
+      {
+        "id": "ladd-futurism",
+        "front": "Moderate futurism",
+        "back": "Ladd's view: the end-time events are future, but without a pretribulational rapture or Israel-church division."
+      },
+      {
+        "id": "seven-churches",
+        "front": "Seven churches as eras",
+        "back": "Some dispensationalists read Revelation 2-3 as foreshadowing successive stages of church history."
+      },
+      {
+        "id": "strength",
+        "front": "Futurist strength",
+        "back": "The cosmic judgments, bodily resurrection and new creation plainly have not yet happened."
+      },
+      {
+        "id": "objection",
+        "front": "Chief objection",
+        "back": "Time texts such as Revelation 1:1, 3 and 22:10 suggest nearness for first readers; futurists answer with imminence and certainty."
+      }
+    ]
+  },
+  {
+    "set": "idealism",
+    "title": "Idealism",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Idealism in one sentence",
+        "back": "Revelation depicts in symbols the conflict between God and evil throughout the church age, ending in Christ's victory."
+      },
+      {
+        "id": "other-names",
+        "front": "Other names",
+        "back": "The spiritual, symbolic or poetic approach."
+      },
+      {
+        "id": "tyconius",
+        "front": "Tyconius",
+        "back": "Fourth-century Donatist whose symbolic reading influenced Augustine."
+      },
+      {
+        "id": "hendriksen",
+        "front": "William Hendriksen",
+        "back": "More Than Conquerors (1939): seven parallel sections, each spanning the first to the second coming."
+      },
+      {
+        "id": "milligan",
+        "front": "William Milligan",
+        "back": "Scottish scholar (1880s) who read Revelation as principles rather than predictions of specific events."
+      },
+      {
+        "id": "beale",
+        "front": "Greg Beale",
+        "back": "NIGTC Revelation (1999): a 'redemptive-historical' modified idealism with a future consummation."
+      },
+      {
+        "id": "progressive-parallelism",
+        "front": "Progressive parallelism",
+        "back": "Recapitulation: Revelation's cycles cover the same period from different angles, with growing intensity."
+      },
+      {
+        "id": "strength",
+        "front": "Idealist strength",
+        "back": "Every generation of Christians can read the book as addressed to its own struggles."
+      },
+      {
+        "id": "critique",
+        "front": "Idealist critique",
+        "back": "May detach the book from concrete history; idealists reply that the symbols name real patterns and a real end."
+      },
+      {
+        "id": "dennis-johnson",
+        "front": "Dennis Johnson",
+        "back": "Triumph of the Lamb (2001), a Reformed, broadly idealist commentary on Revelation."
+      }
+    ]
+  },
+  {
+    "set": "eclectic",
+    "title": "Eclectic approach",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Eclectic approach in one sentence",
+        "back": "Revelation addressed its first readers, applies to every age, and points to a future end, so several approaches are combined."
+      },
+      {
+        "id": "gregg",
+        "front": "Steve Gregg",
+        "back": "Revelation: Four Views (1997; rev. 2013), a parallel commentary of historicist, preterist, futurist and spiritual views."
+      },
+      {
+        "id": "beale",
+        "front": "Beale's approach",
+        "back": "Eclectic or 'redemptive-historical' modified idealism, combining idealist, preterist and futurist elements."
+      },
+      {
+        "id": "keener",
+        "front": "Craig Keener",
+        "back": "NIV Application Commentary on Revelation (2000), rooted in the first-century Roman setting."
+      },
+      {
+        "id": "osborne",
+        "front": "Grant Osborne",
+        "back": "BECNT Revelation (2002), an eclectic and premillennial reading."
+      },
+      {
+        "id": "bauckham",
+        "front": "Richard Bauckham",
+        "back": "The Theology of the Book of Revelation and The Climax of Prophecy (1993), stressing Old Testament allusion and critique of Rome."
+      },
+      {
+        "id": "rev-1-19",
+        "front": "Revelation 1:19",
+        "back": "Things seen, things that are, things to come: read by some as signalling the book's mixed timeframe."
+      },
+      {
+        "id": "strength",
+        "front": "Eclectic strength",
+        "back": "Respects historical setting, present relevance and future hope at once."
+      },
+      {
+        "id": "critique",
+        "front": "Eclectic critique",
+        "back": "Can seem arbitrary; eclectics reply that genre, context and allusion guide each choice."
+      },
+      {
+        "id": "millennium",
+        "front": "Millennial pairings",
+        "back": "Not tied to one view: amillennial (Beale), premillennial (Osborne), and some postmillennial."
+      }
+    ]
+  },
+  {
+    "set": "covenant-theology",
+    "title": "Covenant theology",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Covenant theology in one sentence",
+        "back": "Scripture is organised around God's covenants, with one people of God and one covenant of grace across both testaments."
+      },
+      {
+        "id": "redemption",
+        "front": "Covenant of redemption",
+        "back": "The eternal agreement between the Father and the Son to save the elect."
+      },
+      {
+        "id": "works",
+        "front": "Covenant of works",
+        "back": "God's covenant with Adam before the fall, promising life for obedience (Genesis 2:16-17; Romans 5:12-21)."
+      },
+      {
+        "id": "grace",
+        "front": "Covenant of grace",
+        "back": "God's single gracious covenant through Christ, administered differently in the Old and New Testaments."
+      },
+      {
+        "id": "wcf-7",
+        "front": "Westminster Confession chapter 7",
+        "back": "The classic confessional statement of the covenants of works and grace."
+      },
+      {
+        "id": "witsius",
+        "front": "Herman Witsius",
+        "back": "Dutch theologian; The Economy of the Covenants (1677)."
+      },
+      {
+        "id": "cocceius",
+        "front": "Johannes Cocceius",
+        "back": "Seventeenth-century Dutch theologian who developed federal theology."
+      },
+      {
+        "id": "israel-church",
+        "front": "Israel and the church",
+        "back": "One people of God; Galatians 3:29; Ephesians 2:11-22; Romans 11's single olive tree."
+      },
+      {
+        "id": "1689",
+        "front": "1689 Federalism",
+        "back": "Reformed Baptist covenant theology: the new covenant is made only with the regenerate, hence believer's baptism."
+      },
+      {
+        "id": "vos",
+        "front": "Geerhardus Vos",
+        "back": "Princeton biblical theologian; The Pauline Eschatology (1930) and the two-age framework."
+      },
+      {
+        "id": "millennial",
+        "front": "Millennial views among covenant theologians",
+        "back": "Mostly amillennial or postmillennial, with some historic premillennialists."
+      },
+      {
+        "id": "land",
+        "front": "Land promise",
+        "back": "Read as fulfilled and expanded in the new creation (Romans 4:13; Hebrews 11:16)."
+      }
+    ]
+  },
+  {
+    "set": "dispensationalism",
+    "title": "Dispensationalism",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Dispensationalism in one sentence",
+        "back": "A framework that distinguishes stages of God's administration in history and holds that Israel and the church are distinct, with Israel's promises still to be fulfilled."
+      },
+      {
+        "id": "oikonomia",
+        "front": "Oikonomia",
+        "back": "Greek for 'stewardship' or 'administration' (Ephesians 1:10; 3:2); the source of the term dispensation."
+      },
+      {
+        "id": "seven",
+        "front": "Scofield's seven dispensations",
+        "back": "Innocence, conscience, human government, promise, law, grace, kingdom."
+      },
+      {
+        "id": "sine-qua-non",
+        "front": "Ryrie's sine qua non",
+        "back": "Israel-church distinction, consistently literal (normal) interpretation, and the glory of God as history's purpose (Dispensationalism Today, 1965)."
+      },
+      {
+        "id": "classic",
+        "front": "Classic dispensationalism",
+        "back": "Darby, Scofield, Chafer: heavenly and earthly peoples with separate destinies."
+      },
+      {
+        "id": "revised",
+        "front": "Revised (normative) dispensationalism",
+        "back": "Ryrie, Walvoord, Pentecost: moderated the heavenly-earthly dualism while keeping the Israel-church distinction."
+      },
+      {
+        "id": "progressive",
+        "front": "Progressive dispensationalism",
+        "back": "Blaising, Bock, Saucy (1990s): one unfolding kingdom with an inaugurated Davidic reign."
+      },
+      {
+        "id": "parenthesis",
+        "front": "Church as mystery or parenthesis",
+        "back": "The church age was unrevealed in Old Testament prophecy (Ephesians 3:3-6)."
+      },
+      {
+        "id": "dts",
+        "front": "Dallas Theological Seminary",
+        "back": "Founded 1924 by Lewis Sperry Chafer; the leading dispensational school."
+      },
+      {
+        "id": "niagara",
+        "front": "Niagara Bible Conferences",
+        "back": "Late nineteenth-century meetings that spread premillennialism in North America."
+      },
+      {
+        "id": "vlach",
+        "front": "Michael Vlach",
+        "back": "Has the Church Replaced Israel? (2010); defends a future for national Israel."
+      },
+      {
+        "id": "critique",
+        "front": "Chief critique",
+        "back": "The New Testament reads Israel's promises as fulfilled in Christ; dispensationalists reply that it reaffirms them (Romans 11:26-29)."
+      }
+    ]
+  },
+  {
+    "set": "progressive-covenantalism",
+    "title": "Progressive covenantalism",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "Progressive covenantalism in one sentence",
+        "back": "God's plan unfolds through successive biblical covenants that find their fulfilment in Christ and the new covenant."
+      },
+      {
+        "id": "kingdom-through-covenant",
+        "front": "Kingdom through Covenant",
+        "back": "Peter Gentry and Stephen Wellum (2012; 2nd ed. 2018): the defining work."
+      },
+      {
+        "id": "progressive",
+        "front": "Why 'progressive'?",
+        "back": "Refers to the progressive revelation of God's plan across the covenants."
+      },
+      {
+        "id": "covenants",
+        "front": "The biblical covenants traced",
+        "back": "Creation (Adam), Noah, Abraham, Israel (Moses), David, and the new covenant."
+      },
+      {
+        "id": "via-media",
+        "front": "Via media",
+        "back": "A middle way between covenant theology and dispensationalism."
+      },
+      {
+        "id": "baptism",
+        "front": "Baptism",
+        "back": "Believer's baptism, since the new covenant community is regenerate (Jeremiah 31:31-34)."
+      },
+      {
+        "id": "land",
+        "front": "Land promise",
+        "back": "Typologically expanded to the whole new creation (Romans 4:13)."
+      },
+      {
+        "id": "typology",
+        "front": "Typology",
+        "back": "Types escalate through the covenants toward Christ."
+      },
+      {
+        "id": "ncte",
+        "front": "New Covenant Theology",
+        "back": "A related movement (Tom Wells, Fred Zaspel) stressing the newness of the new covenant."
+      },
+      {
+        "id": "multi-author",
+        "front": "Progressive Covenantalism (2016)",
+        "back": "Edited by Stephen Wellum and Brent Parker; essays developing the framework."
+      },
+      {
+        "id": "eschatology",
+        "front": "Typical eschatology",
+        "back": "Usually amillennial, sometimes historic premillennial."
+      }
+    ]
+  }
+]

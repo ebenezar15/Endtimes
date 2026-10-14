@@ -25,6 +25,7 @@ validation first and refuses to build broken content.
 | `study/quizzes.json` | Array of quiz sets | `QuizSet` |
 | `study/flashcards.json` | Array of flashcard decks | `FlashDeck` |
 | `sources/*.json` | The sources registry (array of `Source`, merged across files) | `Source` |
+| `tour.json` | The 60-second guided intro on the home page | `TourStep` |
 | `bible.json` | **Generated** by `npm run bible`. Do not edit by hand | `Bible` |
 
 Files in folders are merged. Split them however you like.

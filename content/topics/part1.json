@@ -1,0 +1,106 @@
+[
+  {
+    "id": "millennium",
+    "name": "The Millennium",
+    "question": "When and what is the millennium of Revelation 20?",
+    "description": "Revelation 20:1-10 speaks six times of a 'thousand years' during which Satan is bound and the saints reign with Christ. Views divide on whether this period is present or future, whether it comes before or after Christ's return, whether the number is literal or symbolic, and whether the reign is on earth or in heaven.",
+    "stances": [
+      { "code": "present-church-age", "label": "The whole present age between Christ's two comings (symbolic number)", "family": "present" },
+      { "code": "present-heavenly", "label": "The present reign of departed saints with Christ in heaven during the gospel age", "family": "present" },
+      { "code": "present-progressive", "label": "The present age, in which the gospel progressively triumphs and flowers into a golden age before Christ returns", "family": "present" },
+      { "code": "future-golden-age", "label": "A future era of gospel triumph within history, still before Christ's return, after Antichrist falls", "family": "future" },
+      { "code": "future-earthly-reign", "label": "A future earthly reign of Christ after his return, before the final state", "family": "future" },
+      { "code": "future-davidic-kingdom", "label": "A future, literal 1,000-year Davidic kingdom on earth, fulfilling promises to national Israel", "family": "future" },
+      { "code": "fulfilled-transition", "label": "Already fulfilled: the covenantal transition period that ended in AD 70", "family": "past" }
+    ]
+  },
+  {
+    "id": "satan-binding",
+    "name": "The Binding of Satan",
+    "question": "What is the binding of Satan in Revelation 20:1-3, and when does it happen?",
+    "description": "An angel seizes the dragon, binds him for a thousand years and seals the abyss 'so that he might not deceive the nations any longer'. Is this Christ's victory at his first coming (compare Matthew 12:29, John 12:31, Colossians 2:15), a future total imprisonment after his return, or a turning point in church history?",
+    "stances": [
+      { "code": "bound-first-advent", "label": "Bound by Christ's first-coming victory: restrained from stopping the gospel among the nations", "family": "first-advent" },
+      { "code": "bound-and-crushed-first-century", "label": "Bound at the cross and finally crushed by AD 70", "family": "first-advent" },
+      { "code": "bound-historical-epoch", "label": "Bound at a turning point in church history (e.g. the fall of paganism or of Antichrist)" },
+      { "code": "bound-future-total", "label": "A future, total imprisonment of Satan after Christ returns", "family": "future" }
+    ]
+  },
+  {
+    "id": "first-resurrection",
+    "name": "The First Resurrection",
+    "question": "What is the 'first resurrection' of Revelation 20:4-6?",
+    "description": "Those who 'came to life' reign with Christ for the thousand years; 'the rest of the dead' do not live until the thousand years end. The question is whether the first resurrection is spiritual (new birth, or the soul's entrance into heaven) or bodily, and how it relates to the general resurrection (John 5:24-29, 1 Corinthians 15).",
+    "stances": [
+      { "code": "spiritual-regeneration", "label": "Spiritual: the new birth and union with the risen Christ", "family": "spiritual" },
+      { "code": "souls-in-heaven", "label": "Spiritual: believers' souls entering Christ's presence at death and reigning in heaven", "family": "spiritual" },
+      { "code": "revival-of-cause", "label": "Figurative: the revival of the martyrs' cause and spirit in a later era", "family": "spiritual" },
+      { "code": "corporate-covenantal", "label": "Covenantal: the raising of God's people from 'death' under the old covenant, completed in AD 70", "family": "spiritual" },
+      { "code": "bodily-before-millennium", "label": "Bodily resurrection of believers at Christ's return, before the millennium", "family": "bodily" }
+    ]
+  },
+  {
+    "id": "second-coming",
+    "name": "The Second Coming",
+    "question": "What is the Second Coming, and is it past or future, single or in stages?",
+    "description": "All historic creeds confess that Christ 'will come again in glory to judge the living and the dead'. Views differ on its relation to the millennium, whether it unfolds in two stages (rapture and glorious appearing), and, for full preterists, whether it was already fulfilled in AD 70.",
+    "stances": [
+      { "code": "future-consummation", "label": "One future, visible, bodily return that brings the general resurrection, final judgment and new creation together", "family": "future" },
+      { "code": "future-premillennial", "label": "A future bodily return before the millennium; final judgment follows a thousand years later", "family": "future" },
+      { "code": "future-two-stage", "label": "Future, in two stages: a pre-tribulational rapture, then the glorious appearing to set up the millennial kingdom", "family": "future" },
+      { "code": "fulfilled-ad70", "label": "Fulfilled in AD 70 with the judgment on Jerusalem; no future bodily return is expected", "family": "past" }
+    ]
+  },
+  {
+    "id": "rapture",
+    "name": "The Rapture",
+    "question": "When is the church 'caught up' to meet the Lord (1 Thessalonians 4:17)?",
+    "description": "Paul says living believers will be 'caught up' (Latin rapiemur) to meet the Lord in the air. Debate centres on whether this is a distinct event that removes the church before a future tribulation, an event within or after that tribulation, simply one aspect of the single Second Coming, or something already fulfilled.",
+    "stances": [
+      { "code": "pretrib", "label": "Pre-tribulational: the church is removed before a future seven-year tribulation", "family": "distinct-rapture" },
+      { "code": "prewrath-midtrib", "label": "Mid-tribulational or pre-wrath: during the tribulation, before God's wrath is poured out", "family": "distinct-rapture" },
+      { "code": "posttrib", "label": "Post-tribulational: at Christ's return after a future tribulation, with the church passing through it", "family": "at-return" },
+      { "code": "at-second-coming", "label": "Not a separate event: believers are gathered to meet Christ at his one Second Coming", "family": "at-return" },
+      { "code": "fulfilled-ad70", "label": "Fulfilled in the first century, in connection with AD 70" }
+    ]
+  },
+  {
+    "id": "great-tribulation",
+    "name": "The Great Tribulation",
+    "question": "When is the 'great tribulation' (Matthew 24:21, Revelation 7:14)?",
+    "description": "Jesus warns of a distress unequalled 'from the beginning of the world until now', tied to the 'abomination of desolation' and flight from Judea. Is it the Jewish War of AD 66-70, an experience spread through church history, a final future crisis, or a future seven-year period?",
+    "stances": [
+      { "code": "fulfilled-ad66-70", "label": "Fulfilled in the Jewish War and the fall of Jerusalem, AD 66-70", "family": "past" },
+      { "code": "church-history", "label": "Spread through church history (e.g. 1,260 years of persecution read by the day-year principle)", "family": "church-age" },
+      { "code": "age-long-with-climax", "label": "Throughout the age (with AD 70 as an anticipation), intensifying into a final tribulation before Christ returns", "family": "church-age" },
+      { "code": "future-final", "label": "A future, final tribulation that the church passes through before Christ returns", "family": "future" },
+      { "code": "future-seven-years", "label": "A future seven-year period: Daniel's seventieth week", "family": "future" }
+    ]
+  },
+  {
+    "id": "antichrist",
+    "name": "Antichrist and the Beast",
+    "question": "Who is the Antichrist, the 'man of lawlessness' and the beast?",
+    "description": "John speaks of 'many antichrists' (1 John 2:18), Paul of a 'man of lawlessness' (2 Thessalonians 2:3-12) and Revelation of a beast numbered 666 (Revelation 13:18). Are these first-century figures such as Nero, a historical institution such as the papacy, a recurring anti-Christian principle, or a future world ruler?",
+    "stances": [
+      { "code": "first-century-figure", "label": "A first-century figure: Nero as the beast; the man of lawlessness tied to AD 70", "family": "past" },
+      { "code": "papacy", "label": "The papacy as a historical institution (with Islam often in view elsewhere in Revelation)", "family": "historical" },
+      { "code": "principle-with-final-person", "label": "A recurring anti-Christian principle, likely culminating in a final personal Antichrist", "family": "principle" },
+      { "code": "principle-only", "label": "A recurring anti-Christian power (persecuting state and false religion) in every age", "family": "principle" },
+      { "code": "future-world-ruler", "label": "A future individual world ruler during the coming tribulation", "family": "future" }
+    ]
+  },
+  {
+    "id": "olivet-generation",
+    "name": "'This Generation'",
+    "question": "What does 'this generation will not pass away' mean (Matthew 24:34)?",
+    "description": "Jesus says 'this generation' (Greek he genea haute) will not pass until 'all these things' happen. Does it mean his contemporaries (and if so, is everything in the discourse fulfilled by AD 70?), the generation alive when the end-time signs appear, or the Jewish people or an evil kind of people?",
+    "stances": [
+      { "code": "contemporaries-all-ad70", "label": "Jesus' contemporaries: everything in the discourse, including his coming, was fulfilled by AD 70", "family": "contemporaries" },
+      { "code": "contemporaries-ad70", "label": "Jesus' contemporaries: the signs and judgment of verses 4-34 were fulfilled by AD 70; the final coming is still future", "family": "contemporaries" },
+      { "code": "contemporaries-dual", "label": "Jesus' contemporaries saw the temple fall, but the discourse blends AD 70 with the end of the age", "family": "contemporaries" },
+      { "code": "future-generation", "label": "The future generation that sees the end-time signs", "family": "later" },
+      { "code": "race-or-kind", "label": "The Jewish people, or an evil 'kind' of people, which will last until the end", "family": "later" }
+    ]
+  }
+]

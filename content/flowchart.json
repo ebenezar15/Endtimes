@@ -1,0 +1,188 @@
+{
+  "start": "q-all-fulfilled",
+  "nodes": [
+    {
+      "id": "q-all-fulfilled",
+      "question": "Were all biblical prophecies, including the Second Coming and the bodily resurrection, fulfilled by AD 70?",
+      "explanation": "Full preterists answer yes because of the New Testament's time texts: Jesus promised some standing there would see him coming in his kingdom (Matthew 16:28), said 'this generation' would not pass until all was fulfilled (Matthew 24:34), and Revelation says its events are 'near'. They argue that splitting one coming into two is arbitrary. Everyone else, including partial preterists, answers no. They point to the visible, bodily return promised in Acts 1:11 and the physical resurrection described in 1 Corinthians 15, a hope confessed by every historic creed, and argue that these texts describe events with no first-century counterpart. Note that saying yes places a view outside historic creedal orthodoxy, which proponents accept on the grounds that Scripture outranks the creeds.",
+      "texts": ["Matthew 16:27-28", "Matthew 24:34", "Revelation 22:20", "Acts 1:11", "1 Corinthians 15:20-26", "2 Timothy 2:17-18"],
+      "options": [
+        { "label": "Yes: everything was fulfilled in the first century", "result": "r-full-preterist" },
+        { "label": "No: at least Christ's bodily return and the resurrection are still future", "next": "q-millennium-future" }
+      ]
+    },
+    {
+      "id": "q-millennium-future",
+      "question": "Is the thousand years of Revelation 20 a future reign of Christ on earth, beginning after he returns?",
+      "explanation": "Premillennialists read Revelation 19 and 20 in sequence: Christ returns (Revelation 19:11-21), then Satan is bound and the saints 'came to life' and reign (20:1-6). They note that the same verb describes both resurrections in 20:4-5, so if the second is bodily the first should be too, and that the earliest Fathers (Papias, Justin, Irenaeus) were chiliasts. Amillennialists and postmillennialists answer no. They read Revelation as cycles that recapitulate the age, so chapter 20 returns to the first advent; they note that Satan's binding echoes Matthew 12:29, and that elsewhere the New Testament presents one resurrection and judgment 'at the last day' (John 5:28-29), leaving no room for a thousand-year gap.",
+      "texts": ["Revelation 19:11-21", "Revelation 20:1-6", "Matthew 12:29", "John 5:28-29", "1 Corinthians 15:23-24"],
+      "options": [
+        { "label": "Yes: Christ returns first, then reigns on earth", "next": "q-return-stages" },
+        { "label": "No: the millennium is the present age (or a stage within it) before Christ returns", "next": "q-christianize" }
+      ]
+    },
+    {
+      "id": "q-return-stages",
+      "question": "Is Christ's return one event, or two stages (a rapture of the church, then a later return to earth)?",
+      "explanation": "Pre-tribulationists see two stages: in 1 Thessalonians 4 the Lord comes for his saints and takes them to the Father's house (John 14:3), while in Revelation 19 he comes with them to earth. The church is promised exemption from wrath (1 Thessalonians 5:9; Revelation 3:10), and the church is not mentioned on earth in Revelation 4–18. Prewrath and midtribulation advocates also see a rapture before the end, but place it within the final seven years, before God's wrath proper begins. Post-tribulationists see one event: Matthew 24:29-31 places the gathering of the elect 'after the tribulation', and the word for 'meeting' (apantēsis) suggests going out to welcome a dignitary and escorting him back.",
+      "texts": ["1 Thessalonians 4:15-17", "1 Thessalonians 5:9", "Revelation 3:10", "John 14:2-3", "Matthew 24:29-31", "2 Thessalonians 2:1-3"],
+      "options": [
+        { "label": "One event, after the tribulation", "next": "q-revelation-history-premil" },
+        { "label": "Two stages: the church is raptured before the tribulation", "next": "q-israel-distinct" },
+        { "label": "Two stages: the rapture comes partway through the final seven years (midtribulation or prewrath)", "result": "r-prewrath" }
+      ]
+    },
+    {
+      "id": "q-revelation-history-premil",
+      "question": "Does Revelation chart the course of church history in sequence, from the apostles to the end?",
+      "explanation": "Historicist premillennialists (E. B. Elliott, H. Grattan Guinness, and in many sermons C. H. Spurgeon) read the seals, trumpets and bowls as successive eras, usually applying the day-year principle (Ezekiel 4:6) to the 1,260 days. Futurist historic premillennialists (George Ladd, Craig Blomberg) read most of chapters 4–22 as the climactic events at the end of the age, arguing that the historicist identifications kept changing and could be read only by those with access to European history.",
+      "texts": ["Revelation 1:19", "Revelation 11:2-3", "Revelation 13:5", "Ezekiel 4:6", "Daniel 7:25"],
+      "options": [
+        { "label": "Yes: it is a continuous chart of church history", "result": "r-historicist-premil" },
+        { "label": "No: most of it describes a final period still to come", "result": "r-historic-premil" }
+      ]
+    },
+    {
+      "id": "q-israel-distinct",
+      "question": "Is Israel a distinct people of God, with future promises (land, throne, national restoration) separate from the church?",
+      "explanation": "Classic and revised dispensationalists (Darby, Scofield, Walvoord, Ryrie) see Israel and the church as two peoples with distinct programs; the church is a 'mystery' (Ephesians 3) not foreseen by the prophets, and God's unconditional covenant promises to Israel must be fulfilled to the nation. Progressive dispensationalists (Blaising, Bock, Saucy) still expect a future for national Israel, but see one unfolding kingdom program in which the church already shares the Davidic and New Covenant blessings, so that Israel and the church are distinct but not separate. (Covenant theologians and progressive covenantalists would see the church as the fulfilment of Israel, but few of them hold a pre-tribulation rapture.)",
+      "texts": ["Romans 11:25-29", "Jeremiah 31:31-37", "Ephesians 3:4-6", "Acts 15:14-17", "Acts 1:6-7"],
+      "options": [
+        { "label": "Yes: Israel and the church are two peoples with distinct programs", "result": "r-disp-pretrib" },
+        { "label": "Israel has a national future, but the church shares already in one kingdom program", "result": "r-progressive-disp" }
+      ]
+    },
+    {
+      "id": "q-christianize",
+      "question": "Will the gospel substantially Christianize the nations before Christ returns?",
+      "explanation": "Postmillennialists answer yes. They read the Great Commission as a command to disciple nations, not just individuals, and point to kingdom parables of growth (the mustard seed and the leaven), the stone that fills the earth (Daniel 2), Christ reigning until all enemies are subdued (Psalm 110; 1 Corinthians 15:25), and prophecies of the earth filled with the knowledge of the Lord. Amillennialists answer no. They see the wheat and tares growing together until the harvest, expect suffering as the church's normal lot until the end, and note warnings of a final apostasy and of lawlessness increasing (2 Thessalonians 2; 2 Timothy 3). Many still expect real gospel growth, but not a Christianized world.",
+      "texts": ["Matthew 28:18-20", "Matthew 13:31-33", "Daniel 2:35", "Psalm 110:1-2", "Habakkuk 2:14", "Matthew 13:24-30", "2 Timothy 3:1-5", "Luke 18:8"],
+      "options": [
+        { "label": "Yes: the gospel will prevail among the nations before the end", "next": "q-tribulation-past-postmil" },
+        { "label": "No: good and evil grow together, and the church suffers until Christ returns", "next": "q-tribulation-past-amil" }
+      ]
+    },
+    {
+      "id": "q-tribulation-past-postmil",
+      "question": "Did the Great Tribulation of Matthew 24 take place in AD 66–70?",
+      "explanation": "Partial preterists answer yes. Jesus was answering the disciples' question about the temple's destruction (Matthew 24:1-3), and 'this generation' (24:34) means his contemporaries, as it does elsewhere in Matthew. Luke's parallel (21:20) says 'Jerusalem surrounded by armies', and the 'coming on the clouds' is prophetic judgment language (Isaiah 19:1). Those who answer no argue that the cosmic signs, the worldwide gathering of the elect and the visible coming did not happen in AD 70, or that 'generation' can mean 'race' or the generation that sees the signs. Historicist postmillennialists such as the Puritans spread tribulation and Antichrist imagery across church history instead.",
+      "texts": ["Matthew 24:1-3", "Matthew 24:15-21", "Matthew 24:34", "Luke 21:20-24", "Isaiah 19:1", "Matthew 23:36"],
+      "options": [
+        { "label": "Yes: it was fulfilled in the Jewish War and the fall of Jerusalem", "result": "r-postmil-preterist" },
+        { "label": "No, or only partly", "next": "q-revelation-history-postmil" }
+      ]
+    },
+    {
+      "id": "q-revelation-history-postmil",
+      "question": "Does Revelation chart church history in sequence, toward a future era of gospel triumph?",
+      "explanation": "Puritan and later historicist postmillennialists (Thomas Brightman, John Owen, Jonathan Edwards) read Revelation as a chronological map: the fall of the papal Antichrist and the conversion of the Jews would usher in the millennial 'latter-day glory'. Others who expect the gospel to triumph read Revelation symbolically, as a portrait of Christ's victory throughout the age rather than as a timetable. B. B. Warfield, for example, read Revelation 20 as a picture of the intermediate state while holding postmillennial hopes on other grounds.",
+      "texts": ["Revelation 20:1-6", "Revelation 11:15", "Romans 11:12", "Romans 11:15"],
+      "options": [
+        { "label": "Yes: it maps church history, and the latter-day glory is still ahead", "result": "r-historicist-postmil" },
+        { "label": "No: it portrays Christ's victory symbolically, not as a timetable", "result": "r-postmil-idealist" }
+      ]
+    },
+    {
+      "id": "q-tribulation-past-amil",
+      "question": "Was the Great Tribulation of Matthew 24 fulfilled in AD 66–70?",
+      "explanation": "Some amillennialists (Jay Adams and others) read the Olivet Discourse and much of Revelation preteristically, as fulfilled in the first-century judgments on Jerusalem and Rome. Many others read Matthew 24 as a blend: AD 70 is a real fulfilment, but also a pattern of tribulation that characterizes the whole age and intensifies before the end. Still others regard the Great Tribulation as primarily an end-time event.",
+      "texts": ["Matthew 24:15-22", "Matthew 24:34", "Revelation 1:9", "Revelation 7:14", "Mark 13:9-13"],
+      "options": [
+        { "label": "Yes: it was fulfilled in AD 66–70", "result": "r-amil-preterist" },
+        { "label": "Partly: AD 70 begins a pattern of tribulation that runs to the end", "next": "q-revelation-structure-amil" },
+        { "label": "No: it mainly lies at the end of the age", "next": "q-revelation-structure-amil" }
+      ]
+    },
+    {
+      "id": "q-revelation-structure-amil",
+      "question": "How does Revelation's sequence of visions relate to history?",
+      "explanation": "Idealist and eclectic amillennialists (William Hendriksen, G. K. Beale, Dennis Johnson) see 'progressive parallelism': seals, trumpets and bowls each retell the whole age from a different angle, ending at the final judgment. That is why Revelation 20 can return to the first advent. Many Reformation-era Protestants (Luther, and the Reformers who followed Augustine's present millennium) read Revelation historically, as a chart that names the papacy as Antichrist. Other amillennialists (for example Anthony Hoekema and Kim Riddlebarger) emphasize that the 'signs of the times' run throughout the age but culminate in a personal Antichrist and a final tribulation, reading much of the book's climax as still future.",
+      "texts": ["Revelation 6:12-17", "Revelation 11:15-18", "Revelation 16:17-21", "Revelation 20:1-3", "2 Thessalonians 2:3-8"],
+      "options": [
+        { "label": "Parallel cycles: each retells the whole church age in symbols", "result": "r-amil-idealist-eclectic" },
+        { "label": "A chronological chart of church history", "result": "r-amil-historicist" },
+        { "label": "Mainly a picture of the end-time climax, with patterns that run through the age", "result": "r-amil-futurist" }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "r-full-preterist",
+      "title": "Full preterism (covenant eschatology)",
+      "positions": ["full-preterism"],
+      "summary": "You read every eschatological promise as fulfilled when the old covenant age ended in AD 70: the Parousia, the resurrection (usually understood corporately or as believers receiving immortal bodies at death) and the judgment. The new creation is the ongoing new covenant order. Advocates include Max King and Don Preston. This view sits outside the historic creeds, which confess a future bodily return and resurrection. Critics, including many partial preterists, also argue from 1 Corinthians 15 and Acts 1:11; proponents respond that the creeds must yield to the New Testament's time texts."
+    },
+    {
+      "id": "r-historic-premil",
+      "title": "Historic premillennialism (post-tribulational, futurist)",
+      "positions": ["histpremil", "futurism"],
+      "summary": "You expect a future Great Tribulation that the church will pass through, followed by one glorious return of Christ, the resurrection of believers and an earthly millennial reign before the final judgment. The view sees one people of God and an inaugurated kingdom (already/not yet). It has roots in the second-century Fathers and modern defenders such as George Ladd, Craig Blomberg and Wayne Grudem."
+    },
+    {
+      "id": "r-historicist-premil",
+      "title": "Historicist premillennialism",
+      "positions": ["histpremil", "historicism"],
+      "summary": "You read Revelation as a chart of church history, typically using the day-year principle, and expect Christ to return before an earthly millennium. This was a major nineteenth-century Protestant view (E. B. Elliott's Horae Apocalypticae, H. Grattan Guinness, with C. H. Spurgeon sharing its premillennial and historicist outlook), and Seventh-day Adventism inherits a form of it."
+    },
+    {
+      "id": "r-prewrath",
+      "title": "Premillennialism with a prewrath or midtribulation rapture",
+      "positions": ["futurism", "histpremil"],
+      "summary": "You expect the church to face part of the final seven years, including the Antichrist's persecution, and to be raptured before God's wrath in the Day of the Lord. That is followed by Christ's return to earth and a millennial reign. Prewrath advocates (Marvin Rosenthal, Alan Kurschner) are futurist premillennialists. Some retain dispensational distinctives about Israel and others do not, so this result sits between the historic and dispensational forms."
+    },
+    {
+      "id": "r-disp-pretrib",
+      "title": "Dispensational premillennialism (pre-tribulational, futurist)",
+      "positions": ["disppremil", "futurism", "dispensationalism"],
+      "summary": "You distinguish Israel and the church, expect the church to be raptured before a future seven-year tribulation (Daniel's seventieth week), and look for Christ's return to establish a literal thousand-year kingdom centred on restored national Israel. Classic and revised dispensationalists such as John Walvoord, J. Dwight Pentecost, Charles Ryrie and Thomas Ice defend this, citing a consistently literal reading of prophecy."
+    },
+    {
+      "id": "r-progressive-disp",
+      "title": "Progressive dispensational premillennialism",
+      "positions": ["disppremil", "futurism", "dispensationalism"],
+      "summary": "You expect a pre-tribulation rapture, a future tribulation and an earthly millennium with a restored national Israel, but see the Davidic and New Covenant promises as already inaugurated in Christ and shared by the church. Israel and the church are distinct but not separate peoples of God. Representatives include Craig Blaising, Darrell Bock and Robert Saucy."
+    },
+    {
+      "id": "r-postmil-preterist",
+      "title": "Postmillennialism + partial preterism",
+      "positions": ["postmil", "partial-preterism"],
+      "summary": "You read the Olivet Discourse's tribulation and much of Revelation (dated before AD 70, a disputed date) as fulfilled in the fall of Jerusalem, and expect the gospel to disciple the nations over the long millennial age before Christ's one bodily return, the general resurrection and the final judgment. Leading modern representatives include Kenneth Gentry, Greg Bahnsen, Gary DeMar, Keith Mathison and Douglas Wilson."
+    },
+    {
+      "id": "r-historicist-postmil",
+      "title": "Historicist postmillennialism (Puritan)",
+      "positions": ["postmil", "historicism"],
+      "summary": "You read Revelation as a map of church history, with Antichrist's fall and a future conversion of the Jews ushering in a 'latter-day glory' of worldwide gospel success before Christ returns. This was the dominant hope of many Puritans and of Jonathan Edwards, and it drove the early modern missionary movement (as traced in Iain Murray's The Puritan Hope)."
+    },
+    {
+      "id": "r-postmil-idealist",
+      "title": "Postmillennialism + idealist or eclectic reading",
+      "positions": ["postmil", "idealism", "eclectic"],
+      "summary": "You expect the gospel to triumph among the nations before Christ returns, but read Revelation symbolically, as a portrait of Christ's victory in the church age rather than a timetable. B. B. Warfield combined postmillennial optimism with a symbolic reading of Revelation 20, and Loraine Boettner's case rested more on the broad sweep of Scripture than on a particular scheme for Revelation."
+    },
+    {
+      "id": "r-amil-preterist",
+      "title": "Amillennialism + partial preterism",
+      "positions": ["amil", "partial-preterism"],
+      "summary": "You see the millennium as the present reign of Christ and read the Great Tribulation and much of Revelation as fulfilled in the first century, without expecting the nations to be Christianized before the end. Jay Adams's The Time Is at Hand is a classic statement. R. C. Sproul held partial preterism while remaining undecided between amillennialism and postmillennialism."
+    },
+    {
+      "id": "r-amil-idealist-eclectic",
+      "title": "Amillennialism + idealist or eclectic reading",
+      "positions": ["amil", "idealism", "eclectic"],
+      "summary": "You read Revelation as parallel cycles that span the whole age between Christ's comings, rooted in a first-century setting and climaxing in a real final judgment. The millennium is Christ's present reign. Representatives include William Hendriksen (More Than Conquerors), G. K. Beale and Dennis Johnson."
+    },
+    {
+      "id": "r-amil-historicist",
+      "title": "Amillennialism + historicism (Reformation pattern)",
+      "positions": ["amil", "historicism"],
+      "summary": "You see the millennium as the present (or, for some Reformers, an already-past) age, while reading Revelation and Daniel as a chart of church history that identifies the papacy as Antichrist. This combination was common among sixteenth-century Reformers, including Luther, who followed Augustine on the millennium while applying the historicist reading to their own day."
+    },
+    {
+      "id": "r-amil-futurist",
+      "title": "Amillennialism with a future climax",
+      "positions": ["amil", "futurism"],
+      "summary": "You see the millennium as the present age and Satan as bound now, while expecting a final intensification: a personal Antichrist, a last tribulation and apostasy, then one Second Coming, resurrection and judgment. Anthony Hoekema, Kim Riddlebarger and Sam Storms represent this 'signs of the times' amillennialism, though most also use idealist or eclectic readings of Revelation's structure."
+    }
+  ]
+}

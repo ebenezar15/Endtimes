@@ -1,0 +1,651 @@
+[
+  {
+    "id": "partial-preterism",
+    "name": "Partial Preterism",
+    "shortName": "Partial Preterist",
+    "axis": "hermeneutic",
+    "color": "#8A5A2B",
+    "initial": "P",
+    "tagline": "Much of the prophecy Jesus gave his own generation came true in AD 70, and Christ will still return bodily at the end.",
+    "selfDescription": "Proponents often call themselves 'orthodox preterists' (Kenneth Gentry's preferred label) to stress that they hold the creedal faith. They see their view as taking Jesus' time statements at face value ('this generation', 'some standing here', 'soon', 'near') while still confessing a future, visible, bodily return of Christ, a general resurrection and a last judgment.",
+    "summary": "Preterism (Latin praeter, 'past') holds that many prophecies that futurists place at the end of history were fulfilled in the first century, above all in the Jewish War and the destruction of Jerusalem and its temple in AD 66–70. Partial preterists read most of the Olivet Discourse, and on many accounts much of Revelation, as a covenant judgment on apostate Jerusalem, a 'coming' of Christ in judgment like the Old Testament 'day of the LORD' comings against Babylon or Egypt. They nevertheless confess, with the Apostles' and Nicene creeds, that Christ will return bodily and visibly, raise the dead and judge the world at the close of history (texts such as Acts 1:11, 1 Corinthians 15 and Revelation 20:11-15). The approach is a hermeneutic, not a millennial view: most of its modern advocates are postmillennial (Gentry, DeMar, Mathison), but it is also held by amillennialists and is compatible with some forms of historic premillennialism.",
+    "coreBeliefs": [
+      "Jesus' time indicators are meant to be taken literally: 'this generation will not pass away' (Matthew 24:34) refers to the generation then living, so the tribulation and sign-events of Matthew 24:4-34 were fulfilled by AD 70.",
+      "Cosmic imagery (darkened sun, falling stars, 'coming on the clouds') is drawn from Old Testament judgment oracles (Isaiah 13:10, Isaiah 34:4, Ezekiel 32:7) and signals the fall of a political-religious order, not the dissolution of the physical universe.",
+      "The 'coming of the Son of Man' in the Olivet Discourse and Matthew 26:64 alludes to Daniel 7:13-14, an ascent to the Ancient of Days for vindication and enthronement, visibly demonstrated in Jerusalem's judgment.",
+      "The destruction of the temple ended the Old Covenant order and confirmed the New Covenant church as the true Israel (Hebrews 8:13; Hebrews 12:26-28).",
+      "On the early-date view, Revelation was written before AD 70 and its 'soon' and 'near' language (Revelation 1:1-3; Revelation 22:6-10) points chiefly to the judgment on Jerusalem and the conflict with Nero's Rome.",
+      "Not everything is past: Christ's bodily second coming, the general resurrection of the just and unjust, the last judgment and the new heavens and earth remain future (Acts 1:11; 1 Corinthians 15:22-28; Revelation 20:11-15).",
+      "Preterism is the dominant patristic reading of key Olivet details (e.g. Eusebius), not a modern novelty, and it removes the need to set dates or read newspapers into prophecy."
+    ],
+    "history": [
+      {
+        "era": "Early church",
+        "text": "Eusebius (Ecclesiastical History 3.5–8) narrated the siege of Jerusalem as the fulfilment of Jesus' warnings, drawing heavily on Josephus; Chrysostom and others read much of the Olivet Discourse similarly. They did not, however, apply the same method to Revelation in a systematic way."
+      },
+      {
+        "era": "Counter-Reformation and 17th century",
+        "text": "The Jesuit Luis de Alcázar (Vestigatio arcani sensus in Apocalypsi, 1614) produced the first thorough preterist commentary on Revelation, partly to counter the Protestant identification of the papacy as Antichrist. Protestant scholars such as Hugo Grotius and Henry Hammond adopted preterist readings of several prophecies."
+      },
+      {
+        "era": "18th–19th centuries",
+        "text": "Preterist readings of Matthew 24 were common among Reformed and evangelical commentators (e.g. John Lightfoot, John Gill on parts of the discourse, Moses Stuart, Milton Terry). J. Stuart Russell's The Parousia (1878) pressed the method further, and is claimed by full preterists as a forerunner."
+      },
+      {
+        "era": "Late 20th-century revival",
+        "text": "David Chilton's The Days of Vengeance (1987), Kenneth Gentry's Before Jerusalem Fell (1989), Gary DeMar's Last Days Madness (1991) and R. C. Sproul's The Last Days According to Jesus (1998) brought the view to a wide Reformed and evangelical audience, largely as an alternative to popular dispensational futurism. Gentry debated Thomas Ice in The Great Tribulation: Past or Future? (1999)."
+      },
+      {
+        "era": "Biblical scholarship",
+        "text": "Independently of the Reformed revival, critical and evangelical scholars such as R. T. France and N. T. Wright (Jesus and the Victory of God, 1996) argued that the 'coming of the Son of Man' language in Mark 13 and Matthew 24 refers to vindication and the judgment of AD 70. Wright does not label himself a partial preterist, but reads the Olivet Discourse largely of AD 70 while affirming a future bodily resurrection and new creation."
+      },
+      {
+        "era": "Today",
+        "text": "The view is well represented in Reformed and postmillennial circles (Ligonier, American Vision, Postmillennial Worldview) and is often taught alongside amillennialism. Its advocates spend considerable effort distinguishing it from full preterism, which some have adopted after starting as partial preterists."
+      }
+    ],
+    "keyTexts": [
+      "Matthew 24:34",
+      "Matthew 24:1-35",
+      "Matthew 16:27-28",
+      "Matthew 26:64",
+      "Daniel 7:13-14",
+      "Luke 21:20-24",
+      "Revelation 1:1-3",
+      "Revelation 1:7",
+      "Revelation 22:10",
+      "Acts 1:11"
+    ],
+    "scholars": ["sproul", "gentry", "demar", "nt-wright", "mathison", "bahnsen", "douglas-wilson", "eusebius"],
+    "strengths": [
+      "Takes the plain force of time statements ('this generation', 'soon', 'at hand') seriously rather than stretching them across millennia.",
+      "Reads apocalyptic imagery against its Old Testament background, where cosmic collapse language routinely describes the fall of nations.",
+      "Explains the heavy emphasis on Jerusalem, Judea, the temple and fleeing to the mountains (Matthew 24:15-20) that fit the first-century setting closely, and is supported by the detailed correspondence with Josephus.",
+      "Gives the original audiences of the Gospels and Revelation direct relevance: the warnings concerned events they would live to see.",
+      "Holds together the 'already' fulfilment of covenant judgment with the creedal 'not yet' of the bodily return, resurrection and judgment.",
+      "Has patristic precedent for its Olivet reading and avoids the repeated failures of date-setting and headline-exegesis."
+    ],
+    "critiques": [
+      {
+        "critique": "The view depends heavily on a pre-70 date for Revelation, but most scholars, following Irenaeus (Against Heresies 5.30.3), date the book c. AD 95 under Domitian. If Revelation is late, it cannot be a prophecy of AD 70.",
+        "response": "Proponents answer that the date is genuinely disputed: Irenaeus' statement is grammatically ambiguous, internal evidence (the temple still standing in Revelation 11:1-2, the 'sixth king' now reigning in Revelation 17:10) points to the 60s, and several notable scholars have held an early date. Some preterists also hold a late date and read Revelation chiefly of Rome's judgment rather than Jerusalem's, so the hermeneutic does not stand or fall with one date."
+      },
+      {
+        "critique": "Matthew 24 contains details (worldwide gospel preaching in Matthew 24:14, the visible coming 'on the clouds' and gathering of the elect in Matthew 24:30-31) that seem far larger than a local war in Judea.",
+        "response": "Preterists note that the New Testament itself says the gospel had reached the 'whole world' (oikoumenē, the Roman world) before AD 70 (Romans 1:8; Colossians 1:6, 23); that 'coming on the clouds' is Old Testament judgment language (Isaiah 19:1); and that the 'angels' (angeloi, messengers) gathering the elect describes the gospel mission after the old order's fall."
+      },
+      {
+        "critique": "Partial preterism is inconsistent: if 'coming' language is past in Matthew 24, why not in every passage? Full preterists press this and say partial preterism leads naturally to their position.",
+        "response": "Proponents reply that each text must be read in context: the Olivet Discourse and Revelation contain explicit near-time markers, whereas passages on the bodily resurrection and final judgment (1 Corinthians 15; 1 Thessalonians 4:13-18; Acts 1:11) describe a universal, physical consummation that plainly did not occur in AD 70. Many also distinguish 'that day and hour' (Matthew 24:36) from the earlier signs."
+      },
+      {
+        "critique": "Reading the 'coming of the Son of Man' as AD 70 risks downplaying the church's blessed hope and makes much of the New Testament's expectation irrelevant to today.",
+        "response": "Partial preterists insist that the final parousia remains central to their hope and that recognising fulfilled prophecy strengthens confidence in Christ's reliability. They argue that fulfilled covenant judgments are themselves pledges of the final judgment, as the Old Testament 'days of the LORD' foreshadowed the last day."
+      }
+    ],
+    "subViews": [
+      {
+        "id": "early-date-revelation",
+        "name": "Early-date preterist reading of Revelation",
+        "summary": "Revelation written c. AD 65–68 under Nero; most of chapters 4–19 depict the judgment on Jerusalem ('the great city', the harlot) and the persecution under Nero, with Revelation 20–22 describing the church age and consummation. Gentry, Chilton, DeMar."
+      },
+      {
+        "id": "late-date-preterist-readings",
+        "name": "Late-date preterist readings",
+        "summary": "Accepts a c. AD 95 date but reads the book's main prophecies as fulfilled in the conflict with and fall of pagan Rome (Babylon), sometimes combined with an Olivet reading of AD 70. Closer to some patristic and 'Roman' preterist readings."
+      },
+      {
+        "id": "olivet-split-matthew-24-36",
+        "name": "Olivet split at Matthew 24:36",
+        "summary": "Matthew 24:4-35 concerns AD 70 ('these things' within 'this generation'), while 24:36–25:46 shifts to the unknown 'day and hour' of the final coming. Associated with J. Marcellus Kik and many others; some preterists instead read the whole discourse of AD 70 and find the final advent elsewhere."
+      },
+      {
+        "id": "olivet-only-preterism",
+        "name": "Olivet-only (minimal) preterism",
+        "summary": "Reads the Olivet Discourse largely of AD 70 but does not apply preterism systematically to Revelation, which may be read in an idealist or eclectic way. N. T. Wright and R. T. France broadly fit here, though neither uses the label."
+      }
+    ],
+    "related": ["full-preterism", "postmil", "amil", "eclectic", "idealism"],
+    "sources": [
+      "sproul-last-days",
+      "gentry-before-jerusalem-fell",
+      "demar-last-days-madness",
+      "wright-jesus-victory",
+      "gentry-ice-great-tribulation",
+      "gentry-i-am-not-a-preterist",
+      "gentry-orthodox-preterism-futurism",
+      "ligonier-sproul-signs-of-the-end",
+      "mathison-preterist-approach-revelation",
+      "gregg-revelation-four-views"
+    ]
+  },
+  {
+    "id": "full-preterism",
+    "name": "Full Preterism",
+    "shortName": "Full Preterist",
+    "axis": "hermeneutic",
+    "color": "#6B4C7A",
+    "initial": "F",
+    "tagline": "All biblical prophecy, including the Second Coming and the resurrection, was fulfilled by AD 70.",
+    "selfDescription": "Adherents call their view 'full preterism', 'consistent preterism', 'fulfilled eschatology' or 'covenant eschatology' (Max King's and Don Preston's term). They present it as the consistent application of the time statements partial preterists already accept, and as faithful sola scriptura exegesis. Critics call it 'hyper-preterism' or 'pantelism'.",
+    "summary": "Full preterism holds that every eschatological prophecy, including the parousia, the resurrection of the dead, the last judgment and the arrival of the new heavens and earth, was fulfilled in the climactic events of AD 70 that ended the Old Covenant age. In its covenant-eschatology form, the 'resurrection' is the corporate raising of God's people from the 'death' of the Old Covenant into the life of the New, and the 'last days' are the last days of the Mosaic age rather than of world history. Believers now live in the consummated kingdom, which has no end, and individuals enter the heavenly life at death. Because it denies a future bodily return of Christ and a future bodily resurrection, the view sits outside the historic creeds and is rejected as heterodox or heretical by virtually all Catholic, Orthodox and Protestant bodies.",
+    "coreBeliefs": [
+      "The 'last days' and 'end of the age' (Matthew 24:3; Hebrews 9:26; 1 Corinthians 10:11) refer to the end of the Old Covenant age, completed in AD 70.",
+      "Every New Testament time statement about the parousia ('soon', 'at hand', 'this generation', 'some standing here') must be fulfilled within the first-century generation, with no exceptions.",
+      "The Second Coming occurred in AD 70 as a spiritual, judgment coming of Christ in glory, not a future visible bodily descent.",
+      "The resurrection of 1 Corinthians 15 and Daniel 12:2 is the corporate raising of covenant Israel's 'body' into the body of Christ (King, Preston), or, on other versions, the entry of the departed saints into heavenly life in AD 70.",
+      "The last judgment, the defeat of death as the covenantal penalty of sin, and the new heavens and earth (Revelation 21–22) arrived with the end of the Old Covenant.",
+      "The kingdom is now fully present and eternal; history continues indefinitely with the church living in the consummated New Covenant.",
+      "Scripture alone, not later creeds, is the final authority on eschatology; the creeds were formulated without recognising the first-century fulfilment."
+    ],
+    "history": [
+      {
+        "era": "Forerunners",
+        "text": "Full preterists point to J. Stuart Russell's The Parousia (1878) and Milton Terry's preterist exegesis as forerunners, though Russell's own conclusions were tentative and Terry did not deny a future resurrection."
+      },
+      {
+        "era": "Max King and covenant eschatology",
+        "text": "Max R. King, a Church of Christ minister in Ohio, set out a systematic full-preterist scheme in The Spirit of Prophecy (1971) and The Cross and the Parousia of Christ (1987), centring on the corporate 'body' resurrection from the Old Covenant into the New."
+      },
+      {
+        "era": "Growth in the 1990s–2000s",
+        "text": "Don K. Preston, Ed Stevens and others spread the view through books, conferences, debates and the early internet, often recruiting from partial preterists who found the logic of the time statements compelling."
+      },
+      {
+        "era": "Reformed response",
+        "text": "Keith Mathison edited When Shall These Things Be? A Reformed Response to Hyper-Preterism (2004), with essays by Gentry, Mathison, Richard Pratt, Douglas Wilson and others, judging the view outside the bounds of orthodoxy. Gentry continues to write against 'hyper-preterism' at Postmillennial Worldview."
+      },
+      {
+        "era": "Internal diversification",
+        "text": "Proponents divide over the nature of the resurrection (corporate body, individual body at death, or a rapture of living saints in AD 70) and over ongoing applications such as whether the Great Commission and the sacraments continue. A few former full preterists, such as Sam Frost, have returned to creedal orthodoxy and now critique the view."
+      }
+    ],
+    "keyTexts": [
+      "Matthew 16:27-28",
+      "Matthew 24:34",
+      "Daniel 12:1-7",
+      "1 Corinthians 15:50-52",
+      "1 Thessalonians 4:15-17",
+      "Hebrews 10:37",
+      "James 5:7-9",
+      "1 Peter 4:7",
+      "Revelation 22:6-12",
+      "Luke 21:22"
+    ],
+    "scholars": ["max-king", "don-preston"],
+    "strengths": [
+      "Applies the near-time statements of the New Testament with complete consistency, without distinguishing between 'comings'.",
+      "Takes seriously the Old Covenant/New Covenant transition as the framework of New Testament eschatology (Hebrews 8:13).",
+      "Pushes all other views to explain the relationship between AD 70 and the end of the age more carefully.",
+      "Avoids speculative date-setting and sensationalist prophecy teaching."
+    ],
+    "critiques": [
+      {
+        "critique": "Creedal orthodoxy: the Apostles' Creed confesses that Christ 'will come to judge the living and the dead' and the resurrection of the body; the Nicene Creed looks for 'the resurrection of the dead'; confessions such as the Westminster Confession (chs. 32–33) affirm a future bodily resurrection and judgment. Denying these places the view outside the ecumenical faith.",
+        "response": "Proponents answer that creeds are subordinate standards and must yield to Scripture (sola scriptura); the creeds were written after AD 70 by churches that did not grasp the fulfilment. They add that the creeds do not specify the timing of the coming, and that their view affirms Christ's coming, judgment and resurrection, understood biblically."
+      },
+      {
+        "critique": "The resurrection in 1 Corinthians 15 is bodily: Paul contrasts the physical body that is sown with the spiritual body that is raised (1 Corinthians 15:42-44) and models it on Christ's bodily resurrection. A corporate or spiritual reading empties the chapter, and Paul condemned those who said 'the resurrection is already past' (2 Timothy 2:17-18).",
+        "response": "Covenant eschatology advocates read 'the body' in 1 Corinthians 15 as the corporate body passing from the Adamic/Mosaic state into Christ, and note Paul's use of corporate 'body' language elsewhere. They argue Hymenaeus and Philetus erred because they claimed the resurrection had happened before AD 70, not because the resurrection is non-physical."
+      },
+      {
+        "critique": "The ascension promise of Acts 1:11 says Christ will return 'in the same way' he was seen to go, that is, visibly and bodily; nothing of the kind was witnessed in AD 70. Sin and physical death obviously continue.",
+        "response": "Full preterists understand 'in the same way' as a coming in the cloud of glory (cf. the Shekinah), perceptible to faith and in historical judgment, not necessarily a physical descent. The death abolished in 1 Corinthians 15:26 is the covenantal death of sin and law, not biological mortality."
+      },
+      {
+        "critique": "The view leaves the church with no future hope and with unclear grounds for ongoing practices (the Lord's Supper is observed 'until he comes' in 1 Corinthians 11:26), and it can unsettle Christology regarding Christ's continuing bodily humanity.",
+        "response": "Proponents reply that believers' hope is now eternal life in the presence of God at death and the endless growth of the kingdom; many hold the Supper and Great Commission continue as expressions of the eternal covenant. Most affirm Christ's ongoing glorified humanity, though critics dispute how consistently."
+      }
+    ],
+    "subViews": [
+      {
+        "id": "corporate-body-view",
+        "name": "Corporate body view (covenant eschatology)",
+        "summary": "Max King and Don Preston: the resurrection is the corporate raising of God's covenant people from Old Covenant 'death' into the body of Christ, completed in AD 70."
+      },
+      {
+        "id": "individual-body-view",
+        "name": "Individual body at death view",
+        "summary": "Each believer receives an immortal, heavenly body at death; the souls in Hades were raised to heaven in AD 70, and believers since then go directly to that state."
+      },
+      {
+        "id": "rapture-view",
+        "name": "AD 70 rapture view",
+        "summary": "Associated with Ed Stevens: living first-century saints were literally caught up at the AD 70 parousia, explaining the apparent silence of the apostolic generation afterwards."
+      }
+    ],
+    "orthodoxyNote": "Full preterism denies a future, visible, bodily Second Coming of Christ and a future bodily resurrection of the dead and final judgment. These are confessed in the Apostles' Creed, the Nicene-Constantinopolitan Creed and the major Reformation confessions (e.g. Westminster Confession chs. 32–33), and are held by Catholic, Orthodox and Protestant churches alike. On that basis critics (notably the contributors to Keith Mathison's When Shall These Things Be?, 2004, and Kenneth Gentry) judge the view to be outside historic Christian orthodoxy, often citing Paul's warning in 2 Timothy 2:17-18. Proponents respond that the creeds are fallible subordinate standards to be corrected by Scripture, that their view still affirms the coming, judgment and resurrection (understood as fulfilled covenantally and corporately), and that the church never conciliarly ruled on the timing question.",
+    "related": ["partial-preterism"],
+    "sources": [
+      "king-spirit-of-prophecy",
+      "preston-resurrection-daniel-12",
+      "mathison-when-shall",
+      "gentry-orthodox-preterism-futurism",
+      "nicene-creed",
+      "westminster-confession",
+      "ligonier-sproul-signs-of-the-end"
+    ]
+  },
+  {
+    "id": "historicism",
+    "name": "Historicism",
+    "shortName": "Historicist",
+    "axis": "hermeneutic",
+    "color": "#5F6B2E",
+    "initial": "H",
+    "tagline": "Daniel and Revelation chart the whole course of church history from the apostles to the end.",
+    "selfDescription": "Historicists describe their method as the 'continuous-historical' or 'church-historical' reading: prophecy is a panorama unrolled across history, so that each generation can locate itself in God's plan. They regard it as the historic Protestant interpretation, held by the Reformers, the Puritans and most Protestant expositors until the nineteenth century.",
+    "summary": "Historicism reads Daniel's visions and Revelation's seals, trumpets and bowls as a continuous, sequential prophecy of history from the prophet's day to the Second Coming. Symbols are matched to identifiable events, such as the barbarian invasions of Rome, the rise of Islam, and the Reformation. A key tool is the day-year principle (Numbers 14:34; Ezekiel 4:6), by which prophetic periods such as the 1,260 days or 42 months (Revelation 11:2-3; Revelation 12:6) denote 1,260 years. Classical Protestant historicists identified the Antichrist, the 'man of lawlessness' (2 Thessalonians 2:3-4) and the beast or little horn with the papacy as an institution, a view written into several Reformation-era confessions. The method has declined among most Protestants since the nineteenth century, but it remains the official approach of the Seventh-day Adventist Church and a minority of other Protestants.",
+    "coreBeliefs": [
+      "Daniel and Revelation give a sequential outline of history from the prophet's time to the end (Daniel 2 and Daniel 7: four kingdoms followed by God's kingdom).",
+      "Prophetic time follows the day-year principle: a prophetic 'day' stands for a year (Numbers 14:34; Ezekiel 4:6), so the 1,260 days and the 'time, times and half a time' (Daniel 7:25; Revelation 12:14) span 1,260 years.",
+      "The seals, trumpets and bowls correspond to successive phases of church and world history (e.g. the fall of pagan Rome, Gothic invasions, the Saracens and Turks).",
+      "The Antichrist is not a single end-time individual but a succession, classically identified with the papal office (not individual popes as persons) as the apostate power seated in the 'temple of God' (2 Thessalonians 2:4).",
+      "The church lives in the midst of the prophecy, so Revelation is directly relevant to every generation and calls believers to separate from corruption (Revelation 18:4).",
+      "The fulfilment of earlier portions in recorded history provides evidence for the divine origin of prophecy and confidence about what remains.",
+      "The visible Second Coming, resurrection and last judgment conclude the prophetic sequence."
+    ],
+    "history": [
+      {
+        "era": "Medieval roots",
+        "text": "Joachim of Fiore (d. 1202) read Revelation as a map of church history in successive ages, and dissident movements (Wycliffites, Hussites) began identifying the corrupt papacy with Antichrist. The day-year principle also has antecedents in Jewish exegesis of Daniel's seventy weeks."
+      },
+      {
+        "era": "Reformation",
+        "text": "Luther's 1530 preface to Revelation read the book as a prophecy of church history culminating in the papacy (he had earlier been doubtful about the book). Calvin wrote no commentary on Revelation, but he identified the papacy with the Antichrist of 2 Thessalonians 2 (Institutes 4.7.25). The Reformers' views on the details varied."
+      },
+      {
+        "era": "Puritans and confessions",
+        "text": "Historicism dominated English-speaking Protestantism: Joseph Mede, John Owen and Jonathan Edwards worked within it, and the Westminster Confession (25.6) called the pope 'that Antichrist'. Some later Presbyterian bodies, including the American PCUSA in 1903, revised that clause."
+      },
+      {
+        "era": "Isaac Newton and the 18th century",
+        "text": "Isaac Newton's posthumous Observations upon the Prophecies of Daniel, and the Apocalypse of St. John (1733) applied the day-year principle rigorously; secondary accounts note he discouraged date-setting while suggesting the end would not come before about 2060."
+      },
+      {
+        "era": "19th-century high point",
+        "text": "E. B. Elliott's four-volume Horae Apocalypticae (1844) and Albert Barnes' Notes on Revelation (1852) represent mature scholarly historicism. Competing identifications of the symbols and failed calculations (notably William Miller's expectation of Christ's return in 1843–44 from Daniel 8:14) contributed to the method's decline as futurism and idealism rose."
+      },
+      {
+        "era": "Today",
+        "text": "Historicism remains the official interpretive approach of the Seventh-day Adventist Church, which emerged from the Millerite movement and reads Daniel 8:14 as beginning a heavenly ministry of Christ in 1844. A minority of other Protestant writers, particularly in confessional Reformed and Baptist circles, continue to defend classical historicism."
+      }
+    ],
+    "keyTexts": [
+      "Daniel 2:31-45",
+      "Daniel 7:1-27",
+      "Daniel 8:14",
+      "Daniel 9:24-27",
+      "Numbers 14:34",
+      "Ezekiel 4:6",
+      "2 Thessalonians 2:1-12",
+      "Revelation 11:2-3",
+      "Revelation 13:1-18",
+      "Revelation 17:1-18"
+    ],
+    "scholars": ["luther", "calvin", "isaac-newton", "barnes", "elliott", "john-owen", "jonathan-edwards"],
+    "strengths": [
+      "Makes Revelation relevant to every generation between the first and second comings, not only to the first century or the last few years.",
+      "Was the near-consensus Protestant reading for three centuries, embraced by major Reformers, Puritans and scientists such as Newton.",
+      "Daniel's own visions (Daniel 2, 7, 8) clearly do sweep through successive empires, providing a biblical model for prophecy spanning long ages.",
+      "The day-year principle has some scriptural precedent (Numbers 14:34; Ezekiel 4:6) and coheres with reading Daniel's seventy 'weeks' as weeks of years.",
+      "Takes seriously the theme of apostasy arising within the visible church (2 Thessalonians 2:3-4; Acts 20:29-30)."
+    ],
+    "critiques": [
+      {
+        "critique": "Historicists have never agreed on what the symbols denote; the identifications shift with each interpreter's own era and region, suggesting the method is subjective.",
+        "response": "Historicists reply that disagreement on details is found in every school, and that there has been substantial consensus on the main outline: the four empires, the fall of Rome, the rise of the papacy and of Islam, and the Reformation."
+      },
+      {
+        "critique": "The day-year principle is not a general rule: Numbers 14:34 and Ezekiel 4:6 are specific symbolic acts, not a key for all prophetic numbers, and the principle invited failed date calculations (e.g. 1844).",
+        "response": "Defenders point out that Daniel's seventy weeks are widely accepted as 490 years, showing that prophetic time can be symbolically compressed, and that failed calculations reflect misuse, not the principle; many historicists, like Newton, warned against date-setting."
+      },
+      {
+        "critique": "The approach is largely Western-European in focus and would have meant little to the first readers in the seven churches of Asia (Revelation 1:3-4).",
+        "response": "Historicists answer that the first readers grasped the main truths of persecution, apostasy and Christ's victory, while fuller understanding came as the prophecy unfolded (cf. Daniel 12:4, 9); the West was where the church's main history and the predicted apostasy unfolded."
+      },
+      {
+        "critique": "Identifying the papacy as Antichrist is polemical and fails to account for the 'denial of the Father and the Son' that marks antichrist in 1 John 2:22.",
+        "response": "Classical historicists insisted they were identifying an office and system, not condemning individual Catholics, and argued that usurping Christ's prerogatives within the church fits the 'man of lawlessness' who sits in God's temple (2 Thessalonians 2:4). Some modern historicists apply the symbols more broadly to apostate religious-political power."
+      }
+    ],
+    "subViews": [
+      {
+        "id": "continuous-historical",
+        "name": "Continuous-historical (classical Protestant)",
+        "summary": "The seals, trumpets and bowls run in strict sequence through church history to the present (Mede, Elliott, Barnes)."
+      },
+      {
+        "id": "church-historical-seven-churches",
+        "name": "Seven churches as seven eras",
+        "summary": "Reads the letters of Revelation 2–3 as a prophetic outline of seven successive periods of church history (Ephesus apostolic, Laodicea final). Also adopted by many dispensational futurists for chapters 2–3 only."
+      },
+      {
+        "id": "adventist-historicism",
+        "name": "Seventh-day Adventist historicism",
+        "summary": "Historicist reading tied to the 2,300 days of Daniel 8:14 ending in 1844 and an end-time conflict over worship and the Sabbath; the official approach of the Seventh-day Adventist Church."
+      }
+    ],
+    "related": ["futurism", "postmil", "histpremil", "amil"],
+    "sources": [
+      "elliott-horae",
+      "barnes-notes-revelation",
+      "newton-observations",
+      "westminster-confession",
+      "wikipedia-historicism",
+      "wikipedia-adventist-eschatology",
+      "gregg-revelation-four-views",
+      "pate-four-views-revelation"
+    ]
+  },
+  {
+    "id": "futurism",
+    "name": "Futurism",
+    "shortName": "Futurist",
+    "axis": "hermeneutic",
+    "color": "#C2662D",
+    "initial": "F",
+    "tagline": "Most of Revelation, and the climax of Daniel and the Olivet Discourse, still lies ahead.",
+    "selfDescription": "Futurists see themselves as reading prophecy in its normal or literal sense: the events described (a personal Antichrist, a seven-year tribulation, cosmic signs, the visible return of Christ) have not yet happened in the way the text describes, so they must still be future. Many emphasise that this was the expectation of the earliest church fathers.",
+    "summary": "Futurism holds that the bulk of Revelation, usually chapters 4 through 22, describes events that will occur in a relatively short period just before, at and after Christ's return. It reads Daniel's seventieth week (Daniel 9:27), the 'great tribulation' (Matthew 24:21), the 'man of lawlessness' (2 Thessalonians 2:3-4) and the beast of Revelation 13 as a future crisis led by a personal Antichrist. Modern futurism is closely tied to premillennialism, especially dispensationalism, which reads Revelation 4–19 as the seven-year tribulation following the rapture, but historic premillennialists such as George Ladd are also broadly futurist for Revelation 4–22. Its modern formulation is usually credited to the Jesuit Francisco Ribera (c. 1590), though futurists stress its continuity with the expectations of Irenaeus and Hippolytus.",
+    "coreBeliefs": [
+      "Revelation 1:19 provides an outline: 'the things you have seen' (chapter 1), 'the things that are' (chapters 2–3), and 'the things that will take place after this' (chapters 4–22, still future).",
+      "Prophecy should be interpreted according to the normal sense of language; numbers such as 1,260 days, 42 months and 1,000 years are taken literally where context permits.",
+      "Daniel's seventieth week (Daniel 9:27) is separated from the first sixty-nine by an interval and will be a future seven-year period of tribulation.",
+      "A personal, future Antichrist will make a covenant, desecrate a rebuilt temple and persecute God's people (Daniel 9:27; Matthew 24:15; 2 Thessalonians 2:3-4; Revelation 13).",
+      "The cosmic signs and the coming of the Son of Man in Matthew 24:29-31 describe Christ's visible bodily return at the end of the age.",
+      "In dispensational futurism, God's distinct promises to ethnic Israel will be fulfilled in the tribulation and millennium (Romans 11:25-27; Zechariah 12:10).",
+      "Unfulfilled prophecy encourages watchfulness and holiness, not date-setting (1 John 3:2-3; Titus 2:13)."
+    ],
+    "history": [
+      {
+        "era": "Early church",
+        "text": "Irenaeus (Against Heresies, Book 5) and Hippolytus (On Christ and Antichrist) expected a future personal Antichrist, a three-and-a-half-year reign and Christ's return to establish his kingdom. Futurists regard this as early futurism; other scholars note the fathers did not have a developed futurist system for Revelation."
+      },
+      {
+        "era": "Counter-Reformation",
+        "text": "The Spanish Jesuit Francisco Ribera's commentary on the Apocalypse (c. 1590) applied the first chapters to the apostolic era and most of the rest to a future Antichrist ruling for three and a half literal years, removing the Protestant application to the papacy. Robert Bellarmine defended similar views. Historicist writers have often stressed this origin; futurists reply that the origin of an idea does not settle its truth."
+      },
+      {
+        "era": "Protestant adoption",
+        "text": "Manuel Lacunza's posthumous futurist work (published under the pseudonym Ben-Ezra) influenced Edward Irving; S. R. Maitland, James Todd and the Prophetic conferences of the 1820s–30s brought futurism into British Protestantism."
+      },
+      {
+        "era": "Dispensationalism",
+        "text": "John Nelson Darby and the Plymouth Brethren joined futurism to a pre-tribulation rapture and a sharp Israel/church distinction. The Scofield Reference Bible (1909), Bible conferences and Dallas Theological Seminary (Walvoord, Pentecost, Ryrie) made it the dominant popular evangelical view in North America."
+      },
+      {
+        "era": "Modern breadth",
+        "text": "Futurism is also held by historic premillennialists (Ladd), progressive dispensationalists (Blaising, Bock), and pre-wrath and post-tribulation writers (Rosenthal, Kurschner, Gundry). Popular works, from The Late Great Planet Earth (1970) to the Left Behind novels (1995–2007), spread a futurist outlook widely."
+      }
+    ],
+    "keyTexts": [
+      "Revelation 1:19",
+      "Revelation 4:1",
+      "Daniel 9:24-27",
+      "Daniel 12:1-2",
+      "Matthew 24:15-31",
+      "2 Thessalonians 2:1-12",
+      "Revelation 13:1-18",
+      "Revelation 19:11-21",
+      "Zechariah 14:1-9",
+      "Romans 11:25-27"
+    ],
+    "scholars": ["darby", "scofield", "walvoord", "ryrie", "pentecost", "ice", "ladd", "irenaeus", "justin-martyr", "rosenthal", "kurschner", "gundry", "blaising", "bock"],
+    "strengths": [
+      "Reads the prophecies with a consistent, straightforward approach to language and numbers.",
+      "Accounts for the global, cosmic scale of the events in Revelation, which seem to exceed any first-century or past fulfilment (e.g. Revelation 6:12-17; Revelation 16).",
+      "Has continuity with second-century expectations of a personal Antichrist and a future crisis before the parousia (Irenaeus, Hippolytus).",
+      "Gives the church a clear framework for watchfulness and hope oriented to Christ's visible return.",
+      "Takes seriously the unfulfilled national promises to Israel and the sequence of Romans 11."
+    ],
+    "critiques": [
+      {
+        "critique": "If most of Revelation concerns the final few years of history, it had little relevance to its first readers, despite being addressed to seven real churches and promising blessing to those who keep it, because 'the time is near' (Revelation 1:3; Revelation 22:10).",
+        "response": "Futurists answer that the letters to the seven churches (chapters 2–3) addressed immediate needs, that the whole book always teaches endurance and hope, and that 'near' and 'soon' (en tachei) express imminence or swiftness of execution from God's perspective (2 Peter 3:8), not chronological proximity."
+      },
+      {
+        "critique": "Literal reading of highly symbolic apocalyptic literature is inconsistent: futurists themselves take the dragon, beasts and harlot symbolically, so the 'literal' label is misleading.",
+        "response": "Futurists clarify that 'literal' means the normal sense of the genre, including figures of speech; symbols refer to real future persons and events, and the text often interprets its own symbols (Revelation 1:20; Revelation 17:9-18)."
+      },
+      {
+        "critique": "The gap between Daniel's sixty-ninth and seventieth weeks is not stated in the text, and the approach has encouraged sensationalism and repeated speculation linking current events to prophecy.",
+        "response": "Defenders argue the gap is implied by events placed after the sixty-ninth week but before the seventieth (the Messiah 'cut off' and the city destroyed, Daniel 9:26) and by Jesus' placing of the abomination in the future (Matthew 24:15). Responsible futurist scholars condemn date-setting as an abuse of the method."
+      },
+      {
+        "critique": "Modern futurism is often said to originate in a Counter-Reformation polemic and in nineteenth-century innovations.",
+        "response": "Futurists reply that Irenaeus and Hippolytus already expected a future Antichrist and tribulation, so Ribera revived rather than invented the approach, and that the truth of an interpretation depends on exegesis, not its genealogy."
+      }
+    ],
+    "subViews": [
+      {
+        "id": "dispensational-futurism",
+        "name": "Dispensational futurism",
+        "summary": "Revelation 4–19 is the seven-year tribulation after a pre-tribulation rapture, focused on Israel's restoration; chapters 2–3 sometimes read as church eras (Walvoord, Ryrie, Pentecost, Ice)."
+      },
+      {
+        "id": "moderate-futurism",
+        "name": "Moderate (historic premillennial) futurism",
+        "summary": "Revelation addresses first-century churches and contains present application, but its climactic visions concern a future tribulation, Antichrist and return of Christ; the church goes through the tribulation (Ladd)."
+      },
+      {
+        "id": "early-catholic-futurism",
+        "name": "Patristic and Catholic futurism",
+        "summary": "Expectation of a personal Antichrist and short final persecution before Christ's return, from Irenaeus and Hippolytus to Ribera and Bellarmine, without the dispensational Israel/church framework."
+      }
+    ],
+    "related": ["disppremil", "histpremil", "dispensationalism", "historicism", "eclectic"],
+    "sources": [
+      "walvoord-revelation-jesus-christ",
+      "walvoord-millennial-kingdom",
+      "pentecost-things-to-come",
+      "ladd-commentary-revelation",
+      "irenaeus-against-heresies",
+      "wikipedia-futurism",
+      "wikipedia-ribera",
+      "bri-origin-futurist-school",
+      "gentry-ice-great-tribulation",
+      "gregg-revelation-four-views"
+    ]
+  },
+  {
+    "id": "idealism",
+    "name": "Idealism",
+    "shortName": "Idealist",
+    "axis": "hermeneutic",
+    "color": "#4A7FA0",
+    "initial": "I",
+    "tagline": "Revelation portrays the timeless battle between Christ and Satan, fought throughout the church age.",
+    "selfDescription": "Idealists (also called 'spiritual' or 'symbolic' interpreters) see Revelation as a God-given symbolic drama of the principles that govern history between Christ's first and second comings: the church suffering and conquering, the world and Satan raging and judged, and the Lamb triumphant. They see this as reading apocalyptic literature according to its genre.",
+    "summary": "Idealism holds that Revelation's visions do not map onto specific historical events, whether past, present or future, but depict in symbolic form realities that recur throughout the age: persecution, false religion, worldly power, God's judgments and the final victory of Christ. Many idealists (notably William Hendriksen) adopt 'progressive parallelism' or recapitulation, seeing the book as seven parallel sections each spanning the period from the first to the second coming, with increasing intensity toward the end. Pure idealism avoids any specific historical reference, while most Reformed idealists affirm that the book concludes with the literal return of Christ, final judgment and new creation. The approach is closely associated with amillennialism and with Augustine's reading of Revelation 20.",
+    "coreBeliefs": [
+      "Revelation is apocalyptic literature whose numbers, beasts and cities are symbols of spiritual realities, not codes for particular dates or persons.",
+      "The visions recapitulate: the seals, trumpets and bowls describe the same interadvent period from different angles with mounting intensity (progressive parallelism).",
+      "The book's message, the sovereignty of God, the victory of the Lamb and the call to faithful witness, applies equally to every generation of the church.",
+      "Babylon, the beast and the false prophet represent recurring forms of persecuting political power, seductive worldly culture and false religion.",
+      "The 1,000 years of Revelation 20:1-6 symbolise the entire church age, during which Satan is restrained from deceiving the nations (cf. Matthew 12:29).",
+      "Christ's victory at the cross (Revelation 5:5-10; Revelation 12:7-11) is decisive, and the book ends with his personal return, final judgment and the new creation (Revelation 20:11–22:5)."
+    ],
+    "history": [
+      {
+        "era": "Early and patristic",
+        "text": "Origen and the Alexandrian tradition favoured spiritual readings of prophecy. The Donatist Tyconius (late 4th century) wrote an influential commentary reading Revelation as describing the church's ongoing experience, and Augustine (City of God, Book XX) adopted and transmitted the recapitulation reading of Revelation 20."
+      },
+      {
+        "era": "Medieval",
+        "text": "Tyconian-Augustinian spiritual interpretation shaped much medieval commentary (e.g. Bede), until Joachim of Fiore's historical schemes encouraged more historicist readings."
+      },
+      {
+        "era": "19th century",
+        "text": "William Milligan's Baird Lecture, The Revelation of St. John (1886), and his Expositor's Bible commentary set out a classic idealist case: the book portrays principles of the conflict between the kingdom and the world, not a calendar of events."
+      },
+      {
+        "era": "Reformed amillennial development",
+        "text": "William Hendriksen's More Than Conquerors (1940) popularised progressive parallelism, dividing the book into seven parallel sections. Anthony Hoekema, Kim Riddlebarger, Sam Storms, Dennis Johnson (Triumph of the Lamb, 2001) and Sam Waldron work broadly in this tradition."
+      },
+      {
+        "era": "Today",
+        "text": "Pure idealism is relatively rare among commentators, but idealist and recapitulation elements are common in Reformed, Lutheran and some Catholic readings, and have heavily shaped the eclectic or 'modified idealist' approach of G. K. Beale."
+      }
+    ],
+    "keyTexts": [
+      "Revelation 1:1",
+      "Revelation 1:20",
+      "Revelation 5:5-10",
+      "Revelation 12:1-17",
+      "Revelation 13:1-18",
+      "Revelation 17:1-18",
+      "Revelation 20:1-6",
+      "Matthew 12:29",
+      "Daniel 7:1-27",
+      "Ephesians 6:12"
+    ],
+    "scholars": ["hendriksen", "augustine", "origen", "hoekema", "riddlebarger", "storms", "dennis-johnson", "waldron"],
+    "strengths": [
+      "Respects the symbolic nature of apocalyptic literature; Revelation itself says it is 'signified' or shown in signs (esēmanen, Revelation 1:1).",
+      "Keeps the whole book relevant to every generation of believers, including its first readers.",
+      "Explains the book's apparent repetitions (several 'endings' at Revelation 6:12-17, Revelation 11:15-19, Revelation 14:14-20 and Revelation 16:17-21) through recapitulation.",
+      "Avoids speculative identifications and date-setting that have repeatedly discredited other approaches.",
+      "Christ-centred and pastoral, emphasising perseverance, worship and the Lamb's victory."
+    ],
+    "critiques": [
+      {
+        "critique": "Pure idealism detaches Revelation from history, although the book claims to show 'what must soon take place' (Revelation 1:1) and is rooted in the concrete circumstances of seven churches.",
+        "response": "Idealists reply that recurring patterns are genuinely historical, being fulfilled repeatedly in concrete events, and that most Reformed idealists affirm historical anchors at both ends: Christ's death and exaltation and his literal return."
+      },
+      {
+        "critique": "Without historical referents, interpretation can become subjective, with the symbols meaning whatever the interpreter chooses.",
+        "response": "Idealists control the symbols by the Old Testament background John constantly alludes to (Daniel, Ezekiel, Zechariah) and by the book's own interpretations, which they argue offers more objective controls than matching symbols to newspapers or ancient events."
+      },
+      {
+        "critique": "The structure of Revelation suggests progression (seven seals, then seven trumpets, then seven bowls), not mere repetition, and Revelation 20 follows Revelation 19 sequentially.",
+        "response": "Recapitulation advocates note that each series ends with the end of history, that the cosmic catastrophe language reappears at each conclusion, and that Revelation 20:7-10 replays the same final battle as Revelation 19:17-21 and Revelation 16:14-16, using the same Ezekiel 38–39 imagery."
+      }
+    ],
+    "subViews": [
+      {
+        "id": "progressive-parallelism",
+        "name": "Progressive parallelism",
+        "summary": "Hendriksen's seven parallel sections (chapters 1–3, 4–7, 8–11, 12–14, 15–16, 17–19, 20–22), each spanning the interadvent age with increasing focus on the end."
+      },
+      {
+        "id": "pure-idealism",
+        "name": "Pure (symbolic-spiritual) idealism",
+        "summary": "Revelation portrays timeless principles with no specific historical referents other than the general conflict of good and evil (Milligan in his strongest statements)."
+      },
+      {
+        "id": "tyconian-augustinian",
+        "name": "Tyconian-Augustinian spiritual reading",
+        "summary": "The patristic form: the visions describe the church's present spiritual experience, and the millennium is the reign of Christ and the saints in the church age."
+      }
+    ],
+    "related": ["amil", "eclectic", "partial-preterism", "covenant-theology"],
+    "sources": [
+      "hendriksen-more-than-conquerors",
+      "milligan-revelation-st-john",
+      "augustine-city-of-god",
+      "dennis-johnson-triumph-lamb",
+      "hoekema-bible-future",
+      "wikipedia-idealism-eschatology",
+      "gregg-revelation-four-views"
+    ]
+  },
+  {
+    "id": "eclectic",
+    "name": "Eclectic (Modified Idealism)",
+    "shortName": "Eclectic",
+    "axis": "hermeneutic",
+    "color": "#7A6E5D",
+    "initial": "E",
+    "tagline": "Draw on the strengths of each approach: first-century setting, timeless principles and future consummation.",
+    "selfDescription": "G. K. Beale calls his approach 'eclectic' or a 'redemptive-historical form of modified idealism': Revelation symbolically portrays the conflict between God and evil across the age between Christ's comings, rooted in the first-century situation and culminating in a real, future return and judgment. Others in this camp describe their method as combining preterist, idealist and futurist insights.",
+    "summary": "The eclectic approach holds that no single school captures Revelation, and combines their valid insights. With preterism it reads the book against its first-century background (Roman imperial power, the emperor cult, pressures on the seven churches); with idealism it sees the symbols as transcending any one fulfilment and recurring throughout the church age; with futurism it affirms that the book climaxes in the yet-future return of Christ, final judgment and new creation; and some allow historicist-style fulfilments in particular events. G. K. Beale's major NIGTC commentary (1999) is the leading example, holding that apart from the final coming of Christ the book does not predict specific historical events beyond some fulfilments for particular churches. Steve Gregg's Revelation: Four Views lays out the four classical approaches side by side, and many contemporary commentators, including Richard Bauckham and Craig Keener, combine first-century reference with transhistorical application and future hope.",
+    "coreBeliefs": [
+      "Revelation must first be read as a letter to seven real first-century churches (Revelation 1:4, 11), against the background of Roman power and the imperial cult.",
+      "Its symbols, drawn from Old Testament prophecy (Daniel, Ezekiel, Zechariah, Exodus plagues), typically depict recurring realities rather than one-off events, so they apply throughout the church age.",
+      "The 'last days' began with Christ's death and resurrection (inaugurated eschatology), so the book describes the whole interadvent period as eschatological.",
+      "The visions largely recapitulate, presenting the same age from different angles, while moving toward a climax.",
+      "The book culminates in the real, future, personal return of Christ, the final judgment and the new heavens and earth (Revelation 19:11–22:5).",
+      "Method should be governed by careful exegesis of each passage rather than by a single system imposed on the whole book."
+    ],
+    "history": [
+      {
+        "era": "Precedents",
+        "text": "Commentators have long mixed approaches. Many older works combine an Olivet preterism with an idealist or futurist Revelation, and George Ladd described his own commentary (1972) as a blend of preterist and futurist methods."
+      },
+      {
+        "era": "Beale's NIGTC (1999)",
+        "text": "G. K. Beale's The Book of Revelation (NIGTC) argued at length for an eclectic, 'redemptive-historical form of modified idealism', heavily attentive to Old Testament allusions; a condensed Revelation: A Shorter Commentary followed in 2015 with David Campbell."
+      },
+      {
+        "era": "Multi-view presentations",
+        "text": "Steve Gregg's Revelation: Four Views (1997, revised 2013) set preterist, historicist, futurist and spiritual (idealist) readings in parallel columns verse by verse, encouraging readers to weigh each, and C. Marvin Pate's Four Views on the Book of Revelation (1998) staged a similar conversation."
+      },
+      {
+        "era": "Contemporary scholarship",
+        "text": "Richard Bauckham's The Theology of the Book of Revelation (1993) and The Climax of Prophecy read the book as prophetic critique of Rome with universal theological significance and future hope, and Craig Keener's NIV Application Commentary combines historical background with ongoing application and a future consummation. Many recent evangelical commentators describe their approach in similar mixed terms."
+      }
+    ],
+    "keyTexts": [
+      "Revelation 1:1-3",
+      "Revelation 1:4",
+      "Revelation 1:19",
+      "Revelation 2:10",
+      "Revelation 12:1-17",
+      "Revelation 13:1-18",
+      "Revelation 17:9-18",
+      "Revelation 19:11-21",
+      "Revelation 21:1-5",
+      "Daniel 7:1-27"
+    ],
+    "scholars": ["beale", "gregg", "keener", "bauckham", "dennis-johnson", "ladd"],
+    "strengths": [
+      "Honours the genuine insights of each school rather than forcing a single grid onto a complex book.",
+      "Grounds the symbols in the first-century setting while preserving relevance for every generation.",
+      "Keeps the creedal future hope of Christ's return, resurrection and judgment clearly in view.",
+      "Driven by detailed attention to Old Testament background, which is the main source of Revelation's imagery.",
+      "Reflects the current direction of much evangelical and broader scholarship on Revelation."
+    ],
+    "critiques": [
+      {
+        "critique": "Eclecticism can be arbitrary: the interpreter chooses which approach to apply to each passage, so results may reflect preference rather than method.",
+        "response": "Advocates answer that exegesis of each passage, controlled by genre, Old Testament allusion and the book's own structure, determines the reading, and that any single-system approach is more likely to impose an external grid."
+      },
+      {
+        "critique": "Beale's modified idealism is criticised for arguing mainly by critique of other systems and for underplaying the specific near-time indicators ('soon', 'near') that preterists stress.",
+        "response": "Beale reads 'soon' and 'near' in the light of inaugurated eschatology: the end-time events began at the cross and resurrection and are already in progress, so the language is fulfilled without requiring a single first-century event."
+      },
+      {
+        "critique": "Futurists object that blending approaches dilutes the book's specific predictions about a future tribulation and Antichrist; preterists object that it dilutes the specific prophecy of AD 70.",
+        "response": "Eclectic interpreters reply that recurring patterns can include both intense first-century expressions and a climactic final expression (as 1 John 2:18 speaks of many antichrists and a coming Antichrist), so the approach accommodates both concerns."
+      }
+    ],
+    "subViews": [
+      {
+        "id": "modified-idealism",
+        "name": "Redemptive-historical modified idealism",
+        "summary": "Beale: the visions symbolise the conflict across the interadvent age with no specific predicted events except the final coming and a few church-specific fulfilments."
+      },
+      {
+        "id": "preterist-futurist-blend",
+        "name": "Preterist-futurist blend",
+        "summary": "The book addresses first-century crises (Rome, persecution) that foreshadow a climactic future fulfilment (Ladd's self-description; many evangelical commentators)."
+      },
+      {
+        "id": "preterist-idealist-blend",
+        "name": "Preterist-idealist blend",
+        "summary": "Revelation critiques first-century Rome and its imperial cult, and its symbols apply to every later empire that claims divine honours, with a future consummation (broadly Bauckham-style readings)."
+      }
+    ],
+    "related": ["idealism", "partial-preterism", "futurism", "amil", "histpremil"],
+    "sources": [
+      "beale-revelation-nigtc",
+      "beale-campbell-shorter-revelation",
+      "gregg-revelation-four-views",
+      "pate-four-views-revelation",
+      "bauckham-theology-revelation",
+      "keener-revelation-niv-application",
+      "ladd-commentary-revelation"
+    ]
+  }
+]

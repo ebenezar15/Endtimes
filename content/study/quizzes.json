@@ -1,0 +1,1538 @@
+[
+  {
+    "set": "general",
+    "title": "Eschatology: the big picture",
+    "questions": [
+      {
+        "id": "four-millennial-views",
+        "q": "The four classic millennial views are distinguished chiefly by how they relate which two things?",
+        "options": [
+          "The date of Revelation and the identity of the beast",
+          "The number of resurrections and the location of heaven",
+          "The timing of Christ's return and the nature of the thousand years of Revelation 20",
+          "The order of the Gospels and the authorship of Revelation"
+        ],
+        "answer": 2,
+        "explanation": "Premillennialists place the Second Coming before the millennium, postmillennialists after it, and amillennialists read the thousand years of Revelation 20:1-6 as the present age, so 'no future millennium' rather than 'no millennium'."
+      },
+      {
+        "id": "two-axes",
+        "q": "Why does this study treat preterism, historicism, futurism and idealism separately from the millennial views?",
+        "options": [
+          "They are approaches to the timing and reference of Revelation's prophecies, and can combine with more than one millennial view",
+          "They are four older names for the four millennial views",
+          "They are Roman Catholic alternatives to Protestant millennial views",
+          "They concern only the book of Daniel, not Revelation"
+        ],
+        "answer": 0,
+        "explanation": "The hermeneutic approaches ask when and to what Revelation's visions refer; for example, partial preterism pairs with postmillennialism (Gentry, Mathison) and with amillennialism, and futurism pairs with both kinds of premillennialism."
+      },
+      {
+        "id": "creedal-core",
+        "q": "What do the ecumenical creeds affirm about the end that all the historic millennial views share?",
+        "options": [
+          "A literal thousand-year reign on earth after Christ's return",
+          "A pretribulational rapture of the church",
+          "That the millennium began in AD 70",
+          "Christ will come again in glory to judge the living and the dead, with the resurrection of the dead"
+        ],
+        "answer": 3,
+        "explanation": "The Apostles' and Nicene Creeds confess Christ's return to judge and the resurrection, but take no position on the millennium; the millennial debate takes place inside that shared creedal core."
+      },
+      {
+        "id": "clouse-four-views",
+        "q": "Which 1977 multi-view book, edited by Robert G. Clouse, set the modern pattern of comparing millennial views side by side?",
+        "options": [
+          "Revelation: Four Views",
+          "The Meaning of the Millennium: Four Views",
+          "Three Views on the Rapture",
+          "When Shall These Things Be?"
+        ],
+        "answer": 1,
+        "explanation": "Clouse's volume had George Eldon Ladd (historic premillennialism), Herman Hoyt (dispensational premillennialism), Loraine Boettner (postmillennialism) and Anthony Hoekema (amillennialism) present and respond to each other."
+      },
+      {
+        "id": "already-not-yet",
+        "q": "The phrase 'already and not yet', associated with Geerhardus Vos, Oscar Cullmann and George Ladd, means that",
+        "options": [
+          "The rapture has already happened for some believers but not for others",
+          "The kingdom and the age to come have broken in with Christ's first coming but await consummation at his return",
+          "Some prophecies were fulfilled in AD 70 and none remain",
+          "The millennium has begun in heaven but will never come on earth"
+        ],
+        "answer": 1,
+        "explanation": "Inaugurated eschatology holds that the 'last days' began with Christ's resurrection and Pentecost (Acts 2:16-17; Hebrews 1:2) while the resurrection of the body and new creation remain future. Nearly every modern view uses some version of it."
+      },
+      {
+        "id": "olivet-generation",
+        "q": "Why is Matthew 24:34 ('this generation will not pass away') so central to the debate?",
+        "options": [
+          "It is the only verse that mentions the millennium",
+          "It is missing from the oldest manuscripts",
+          "It names the Antichrist",
+          "Its time reference shapes whether the Olivet Discourse is read as fulfilled in AD 70, still future, or both"
+        ],
+        "answer": 3,
+        "explanation": "Preterists take 'this generation' as Jesus' contemporaries and see fulfilment in Jerusalem's fall; many futurists read it as 'the generation that sees these signs' or 'this race'; others divide the discourse between AD 70 and the final coming."
+      },
+      {
+        "id": "revelation-date",
+        "q": "Which statement about the date of Revelation is accurate?",
+        "options": [
+          "It is disputed: most scholars favour c. AD 95 under Domitian, while a significant minority argue for a date before AD 70",
+          "All scholars agree it was written in AD 68",
+          "It was certainly written after AD 135",
+          "The book itself states the year of writing"
+        ],
+        "answer": 0,
+        "explanation": "The late date rests heavily on Irenaeus (Against Heresies 5.30.3); early-date advocates such as Gentry (Before Jerusalem Fell) and J. A. T. Robinson appeal to internal evidence like the temple in Revelation 11:1-2. The question matters most for preterist readings."
+      },
+      {
+        "id": "seventy-weeks",
+        "q": "Daniel 9:24-27 (the 'seventy weeks') is a flashpoint mainly because interpreters disagree about",
+        "options": [
+          "Whether Daniel was written in Greek or Aramaic",
+          "Whether the weeks are counted from the Exodus",
+          "Whether the seventieth week followed the sixty-ninth directly in Christ's ministry or is separated from it by a gap reaching to the end of the age",
+          "Whether the passage mentions the Messiah at all"
+        ],
+        "answer": 2,
+        "explanation": "Dispensationalists see a gap with a future seven-year week (the tribulation); many covenant interpreters see the week fulfilled in Christ's death and the following years, with Jerusalem's destruction as its consequence."
+      },
+      {
+        "id": "chiliasm",
+        "q": "What is 'chiliasm'?",
+        "options": [
+          "The belief that the world will end in the year 1000",
+          "A Latin term for the binding of Satan",
+          "The Reformed doctrine of the covenant of works",
+          "An older name, from the Greek for 'thousand', for belief in a future earthly millennial reign of Christ"
+        ],
+        "answer": 3,
+        "explanation": "Chiliasm (Greek chilioi, 'thousand'; Latin equivalent millenarianism) describes the premillennial expectation held by early writers such as Papias, Justin Martyr and Irenaeus."
+      },
+      {
+        "id": "rapture-term",
+        "q": "Where does the word 'rapture' come from?",
+        "options": [
+          "The Latin rapiemur ('we shall be caught up') in the Vulgate of 1 Thessalonians 4:17",
+          "The Hebrew word for 'trumpet' in Joel 2",
+          "A nineteenth-century coinage by C. I. Scofield",
+          "The Greek title of the book of Revelation"
+        ],
+        "answer": 0,
+        "explanation": "All views believe believers will be 'caught up' to meet the Lord (Greek harpazo). The dispute is over timing: pretribulational, midtribulational, prewrath, posttribulational, or simultaneous with a single final return."
+      }
+    ]
+  },
+  {
+    "set": "postmil",
+    "title": "Postmillennialism",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "What does postmillennialism hold about the relation of Christ's return to the millennium?",
+        "options": [
+          "Christ returns before a literal thousand-year reign in Jerusalem",
+          "There is no millennium at all, present or future",
+          "Christ returns after a long era in which the gospel, through the Spirit, brings the great majority of people and nations to faith",
+          "Christ returned spiritually in AD 70 and there is no future coming"
+        ],
+        "answer": 2,
+        "explanation": "Postmillennialists such as Loraine Boettner (The Millennium, 1957) and Kenneth Gentry (He Shall Have Dominion) teach that Christ's kingdom grows through gospel means, issuing in a 'golden age' before a single, visible Second Coming, general resurrection and judgment."
+      },
+      {
+        "id": "mustard-leaven",
+        "q": "Which parables do postmillennialists commonly cite for the gradual, pervasive growth of the kingdom?",
+        "options": [
+          "The ten virgins and the talents (Matthew 25)",
+          "The mustard seed and the leaven (Matthew 13:31-33)",
+          "The rich man and Lazarus (Luke 16:19-31)",
+          "The prodigal son (Luke 15:11-32)"
+        ],
+        "answer": 1,
+        "explanation": "The kingdom begins small but grows to fill the field and permeate the whole lump; postmillennialists combine these with Daniel 2:35, where the stone becomes a mountain filling the earth."
+      },
+      {
+        "id": "psalm-110",
+        "q": "How do postmillennialists use Psalm 110:1 together with 1 Corinthians 15:24-26?",
+        "options": [
+          "They argue Christ will begin to reign only after he returns",
+          "They read both texts as fulfilled in Solomon",
+          "Christ reigns now from heaven until his enemies are made his footstool, so his return comes at the end of that conquering reign",
+          "They hold the enemies are subdued only in heaven, not on earth"
+        ],
+        "answer": 2,
+        "explanation": "Psalm 110:1 is the Old Testament text most quoted in the New Testament; postmillennialists stress that Christ sits at the right hand 'until' his enemies are subdued, with death the last enemy destroyed at his coming."
+      },
+      {
+        "id": "whitby",
+        "q": "What role did Daniel Whitby (1638-1726) play in the history of postmillennialism?",
+        "options": [
+          "His 'Treatise of the True Millennium' (1703) popularised a systematic postmillennial scheme, though optimistic views predate him",
+          "He founded dispensationalism at Powerscourt",
+          "He wrote the Westminster Confession's chapter on the last things",
+          "He was the first to teach that the Pope is Antichrist"
+        ],
+        "answer": 0,
+        "explanation": "Critics sometimes call Whitby the 'founder' of postmillennialism; proponents such as Iain Murray (The Puritan Hope) show that Puritans like Thomas Brightman, John Owen and others held hopes of a latter-day spread of the gospel well before him."
+      },
+      {
+        "id": "wlc-191",
+        "q": "Why do postmillennialists often cite the Westminster Larger Catechism Q. 191?",
+        "options": [
+          "It explicitly defines a thousand-year golden age before Christ's return",
+          "It condemns premillennialism by name",
+          "It dates Revelation before AD 70",
+          "Its exposition of 'Thy kingdom come' asks that the gospel be spread through the world, the Jews called, and the fullness of the Gentiles brought in"
+        ],
+        "answer": 3,
+        "explanation": "The catechism does not adopt a millennial scheme, so the link is an inference; postmillennialists argue that the prayer it teaches expects a worldwide gospel triumph and a future conversion of Israel (Romans 11:25-26)."
+      },
+      {
+        "id": "edwards-hodge",
+        "q": "Which of these figures is a historic representative of postmillennialism?",
+        "options": [
+          "John Nelson Darby",
+          "Jonathan Edwards",
+          "Anthony Hoekema",
+          "George Eldon Ladd"
+        ],
+        "answer": 1,
+        "explanation": "Edwards, the Princeton theologians Charles Hodge and B. B. Warfield, and many nineteenth-century American evangelicals held postmillennial hopes; Darby was a dispensationalist, Hoekema an amillennialist, Ladd a historic premillennialist."
+      },
+      {
+        "id": "decline",
+        "q": "What is commonly given as a reason postmillennialism declined in the early twentieth century?",
+        "options": [
+          "Its rejection by the Westminster Assembly",
+          "The shock of the world wars and its perceived association with the liberal 'social gospel'",
+          "The discovery of the Dead Sea Scrolls",
+          "Its condemnation at the Council of Ephesus"
+        ],
+        "answer": 1,
+        "explanation": "Postmillennialists respond that their hope rests on the Spirit's work through the gospel rather than on human progress, and that evangelical postmillennialism differs fundamentally from social-gospel optimism; the view revived from the 1970s through writers such as Rushdoony, Bahnsen, Gentry and Mathison."
+      },
+      {
+        "id": "revival-vs-theonomic",
+        "q": "Contemporary postmillennialism is often divided into two broad streams. Which pair is correct?",
+        "options": [
+          "Pretribulational and posttribulational postmillennialism",
+          "Historic and progressive postmillennialism",
+          "Jewish and Gentile postmillennialism",
+          "Revivalist (Puritan/Edwardsean) postmillennialism and theonomic or Reconstructionist postmillennialism"
+        ],
+        "answer": 3,
+        "explanation": "Iain Murray and Keith Mathison represent a revival-centred emphasis, while R. J. Rushdoony, Greg Bahnsen and Gentry linked postmillennial hope with the application of biblical law to society; many postmillennialists hold neither theonomy nor its rejection as essential."
+      },
+      {
+        "id": "warfield-rev20",
+        "q": "How did B. B. Warfield interpret Revelation 20:1-10 in 'The Millennium and the Apocalypse' (1904)?",
+        "options": [
+          "As a vision of the blessed state of saints in heaven during the present age, while he located postmillennial hope in other texts",
+          "As a literal thousand years after a future rapture",
+          "As fulfilled entirely in the reign of Constantine",
+          "As a prediction of the Protestant Reformation"
+        ],
+        "answer": 0,
+        "explanation": "Warfield's reading of Revelation 20 resembles amillennial exegesis; his optimism about the gospel's worldwide victory came from texts such as 1 Corinthians 15 and from Revelation 19's picture of the conquering Word."
+      },
+      {
+        "id": "objection-apostasy",
+        "q": "How do postmillennialists usually answer the objection that 2 Timothy 3:1-5 and Luke 18:8 predict worsening conditions?",
+        "options": [
+          "They deny these books are canonical",
+          "They agree the world will grow steadily worse until Christ returns",
+          "Many read these as describing particular periods (such as the apostolic generation) or as compatible with overall progress that includes setbacks",
+          "They apply these verses only to the millennium after Christ returns"
+        ],
+        "answer": 2,
+        "explanation": "Gentry and others argue the 'last days' language often refers to the era beginning with Christ's first coming, and that persecution and apostasy coexist with the long-term advance of the kingdom, as in the parable of the wheat and tares."
+      }
+    ]
+  },
+  {
+    "set": "amil",
+    "title": "Amillennialism",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "What does amillennialism hold about the thousand years of Revelation 20?",
+        "options": [
+          "They are a literal future era after Christ returns",
+          "They never refer to any real period",
+          "They ended in AD 70 and nothing has followed",
+          "They symbolise the present age between Christ's first and second comings, during which Christ reigns and the saints reign with him"
+        ],
+        "answer": 3,
+        "explanation": "Anthony Hoekema (The Bible and the Future) and Kim Riddlebarger (A Case for Amillennialism) stress that amillennialists affirm a millennium; they deny only a future earthly one."
+      },
+      {
+        "id": "realized",
+        "q": "Which term did Jay E. Adams propose (in a 1959 book later reissued as 'The Time Is at Hand') as a better name than 'amillennialism'?",
+        "options": [
+          "Realized millennialism",
+          "Inaugurated chiliasm",
+          "Progressive covenantalism",
+          "Covenant eschatology"
+        ],
+        "answer": 0,
+        "explanation": "Adams argued the prefix 'a-' wrongly suggests no millennium; 'realized' signals that the millennium is being realized now. Hoekema likewise noted the term 'amillennialism' is unfortunate."
+      },
+      {
+        "id": "binding",
+        "q": "How do amillennialists interpret the binding of Satan in Revelation 20:2-3?",
+        "options": [
+          "Satan is entirely inactive during the present age",
+          "Satan will be bound only after a future seven-year tribulation",
+          "It is a restriction on Satan's ability to deceive the nations and prevent the gospel's spread, accomplished by Christ's first coming",
+          "The binding is a metaphor for the end of the Roman Empire"
+        ],
+        "answer": 2,
+        "explanation": "They link it to Matthew 12:29 (binding the strong man), Luke 10:18 and John 12:31-32: the nations, once deceived, can now be reached by the gospel even though Satan still prowls (1 Peter 5:8)."
+      },
+      {
+        "id": "first-resurrection",
+        "q": "Amillennialists commonly identify the 'first resurrection' of Revelation 20:5-6 as",
+        "options": [
+          "The bodily resurrection of believers at a pretribulational rapture",
+          "A spiritual reality: either regeneration or, more commonly today, believers' entry into Christ's presence at death",
+          "The rebuilding of the temple",
+          "The conversion of Israel at the end of the age"
+        ],
+        "answer": 1,
+        "explanation": "Hoekema and Meredith Kline read the scene as the souls of martyrs living and reigning in heaven (Revelation 20:4); premillennialists reply that 'came to life' (ezesan) should mean bodily resurrection in both verses 4 and 5."
+      },
+      {
+        "id": "augustine",
+        "q": "Which early theologian's 'City of God' (Book 20) shaped the dominant amillennial reading in the Western church?",
+        "options": [
+          "Justin Martyr",
+          "Irenaeus of Lyons",
+          "Augustine of Hippo",
+          "Papias of Hierapolis"
+        ],
+        "answer": 2,
+        "explanation": "Augustine, who had earlier held a form of chiliasm, came to read the thousand years as the church age, building on the Donatist exegete Tyconius; Justin, Irenaeus and Papias were premillennial."
+      },
+      {
+        "id": "recapitulation",
+        "q": "What is 'progressive parallelism' (recapitulation), which many amillennialists apply to Revelation?",
+        "options": [
+          "The view that Revelation's sections repeatedly cover the whole period between the comings from different angles",
+          "The view that Revelation 4-22 is in strict chronological order",
+          "The idea that each church in Revelation 2-3 represents a future era",
+          "The belief that Revelation repeats Daniel word for word"
+        ],
+        "answer": 0,
+        "explanation": "William Hendriksen's More Than Conquerors identified seven parallel sections; on this reading Revelation 20:1 begins again at the first coming rather than following 19:11-21 chronologically."
+      },
+      {
+        "id": "one-resurrection",
+        "q": "Which texts do amillennialists cite for a single general resurrection and judgment at Christ's return?",
+        "options": [
+          "Revelation 20:4-6 alone",
+          "Daniel 9:27 and Ezekiel 40-48",
+          "Zechariah 14:4 and Isaiah 65:20",
+          "John 5:28-29 and Matthew 25:31-46"
+        ],
+        "answer": 3,
+        "explanation": "Jesus speaks of one 'hour' when all in the tombs come out, some to life and some to judgment, and of a single gathering of the nations; amillennialists see no room for a thousand-year interval between the resurrections."
+      },
+      {
+        "id": "two-age",
+        "q": "The 'two-age' structure emphasised by Geerhardus Vos and Kim Riddlebarger holds that",
+        "options": [
+          "There are two separate peoples of God with two destinies",
+          "Scripture contrasts 'this age' and 'the age to come', with the age to come beginning at Christ's return in resurrection and new creation",
+          "History is divided into the age of law and the age of grace",
+          "The millennium is a third age between this age and the age to come"
+        ],
+        "answer": 1,
+        "explanation": "Texts such as Luke 20:34-36 and Matthew 12:32 put resurrection and the age to come together; amillennialists argue this leaves no slot for a further earthly age after the Second Coming."
+      },
+      {
+        "id": "optimism",
+        "q": "How does amillennialism usually regard the course of history before Christ's return?",
+        "options": [
+          "The world will be almost entirely Christianised",
+          "The kingdom grows alongside evil, with suffering and gospel advance both continuing until the end; views range from cautious to optimistic",
+          "The church will be removed before a seven-year tribulation",
+          "Nothing of significance happens between the comings"
+        ],
+        "answer": 1,
+        "explanation": "The wheat and tares grow together until harvest (Matthew 13:24-30); some amillennialists stress a final apostasy, while others (sometimes called 'optimistic amillennialists') stress gospel growth."
+      },
+      {
+        "id": "confessions",
+        "q": "Which Reformation-era confession explicitly rejected the idea of an earthly reign of the saints before the resurrection?",
+        "options": [
+          "The Westminster Larger Catechism",
+          "The Scofield Reference Bible",
+          "The Chicago Statement on Biblical Inerrancy",
+          "The Augsburg Confession (Article 17)"
+        ],
+        "answer": 3,
+        "explanation": "Article 17 condemns those spreading 'Jewish opinions' of a worldly kingdom of the godly before the resurrection; the Second Helvetic Confession has a similar rejection. Premillennialists note these were aimed largely at radical Anabaptist movements."
+      }
+    ]
+  },
+  {
+    "set": "histpremil",
+    "title": "Historic premillennialism",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "What is the central claim of historic premillennialism?",
+        "options": [
+          "Christ returns once, after the tribulation, raises believers, and then reigns on earth for a millennium before the final judgment",
+          "Christ returns twice: secretly for the church and later with it",
+          "The millennium is the present church age",
+          "The millennium is a golden age before Christ returns"
+        ],
+        "answer": 0,
+        "explanation": "George Eldon Ladd (The Blessed Hope, 1956) defended a single posttribulational return followed by a millennial reign, without dispensationalism's sharp Israel-church distinction."
+      },
+      {
+        "id": "historic-name",
+        "q": "Why is the view called 'historic' premillennialism?",
+        "options": [
+          "It was the official view of the Council of Nicaea",
+          "It was invented by historians in the nineteenth century",
+          "Proponents argue it resembles the chiliasm of second-century writers such as Papias, Justin Martyr and Irenaeus",
+          "It interprets Revelation by the day-year principle"
+        ],
+        "answer": 2,
+        "explanation": "Justin's Dialogue with Trypho (80-81) and Irenaeus's Against Heresies Book 5 expected a future reign in a restored Jerusalem; Justin also admitted that some orthodox Christians thought otherwise."
+      },
+      {
+        "id": "ezesan",
+        "q": "What exegetical argument about Revelation 20:4-5 do historic premillennialists consider decisive?",
+        "options": [
+          "The word 'thousand' never means a literal number in Greek",
+          "The first resurrection refers to Israel's national restoration",
+          "The verses are missing from early manuscripts",
+          "The same verb, 'came to life' (ezesan), should mean bodily resurrection in both verses, so there are two bodily resurrections separated by the thousand years"
+        ],
+        "answer": 3,
+        "explanation": "Henry Alford famously argued that if the second resurrection is literal the first must be too; Ladd and Craig Blomberg repeat the point. Amillennialists reply that John contrasts a spiritual first resurrection with physical death."
+      },
+      {
+        "id": "1-cor-15",
+        "q": "How do historic premillennialists read 1 Corinthians 15:23-24?",
+        "options": [
+          "As a sequence (Christ the firstfruits, then those who are Christ's at his coming, then the end) that leaves room for an interval before the end",
+          "As proof that there will be no future resurrection",
+          "As fulfilled entirely at Pentecost",
+          "As describing a secret rapture before the tribulation"
+        ],
+        "answer": 0,
+        "explanation": "The words 'then' (epeita, eita) can mark intervals, as between Christ's resurrection and his coming; Ladd suggested the millennium falls between 'at his coming' and 'the end'. Critics answer that 'the end' follows the coming directly."
+      },
+      {
+        "id": "posttrib",
+        "q": "What view of the rapture do most historic premillennialists hold?",
+        "options": [
+          "Pretribulational: the church is removed seven years before Christ returns",
+          "Partial rapture: only watchful believers are taken",
+          "Posttribulational: the church goes through the tribulation and is caught up to meet Christ as he comes",
+          "No rapture of any kind"
+        ],
+        "answer": 2,
+        "explanation": "Douglas Moo argued the posttribulational view in Three Views on the Rapture (1984), and Robert Gundry's The Church and the Tribulation (1973) is a classic statement; Alan Kurschner's prewrath view is a related variant."
+      },
+      {
+        "id": "ladd-kingdom",
+        "q": "How does George Ladd's understanding of the kingdom of God differ from classic dispensationalism?",
+        "options": [
+          "He believed the kingdom was offered to Israel and withdrawn until the end",
+          "He saw the kingdom as God's reign already inaugurated in Jesus' ministry, not wholly postponed until the millennium",
+          "He identified the kingdom with the visible church on earth",
+          "He denied that the kingdom has any future aspect"
+        ],
+        "answer": 1,
+        "explanation": "Ladd's The Gospel of the Kingdom and A Theology of the New Testament popularised the 'already and not yet' framework among evangelicals; the millennium is a future stage of a kingdom already present."
+      },
+      {
+        "id": "israel",
+        "q": "How do historic premillennialists typically see the relation of Israel and the church?",
+        "options": [
+          "Two peoples with permanently separate destinies and programmes",
+          "The church has no connection to Old Testament promises",
+          "One people of God, while many still expect a future large-scale turning of ethnic Israel to Christ (Romans 11:25-26)",
+          "Israel will be saved apart from faith in Christ"
+        ],
+        "answer": 2,
+        "explanation": "This continuity is a key difference from dispensationalism; contributors to A Case for Historic Premillennialism (Blomberg and Chung, eds., 2009) argue the case from Scripture and church history."
+      },
+      {
+        "id": "purpose",
+        "q": "What purpose do historic premillennialists often give for a millennial reign after Christ's return?",
+        "options": [
+          "It displays Christ's public victory within history and vindicates God's purposes for the created order before the final state",
+          "It allows unbelievers a second chance after the final judgment",
+          "It replaces the new heavens and new earth",
+          "It exists to rebuild the temple sacrifices for atonement"
+        ],
+        "answer": 0,
+        "explanation": "Proponents such as Ladd and Wayne Grudem argue the reign shows that the curse is partially lifted and Christ's rule is vindicated on earth; critics ask why glorified saints would share the world with mortals."
+      },
+      {
+        "id": "objection",
+        "q": "What is a common amillennial objection to historic premillennialism, and the typical reply?",
+        "options": [
+          "That it denies the Second Coming; they reply it affirms two comings",
+          "That it requires a pre-AD 70 date for Revelation; they reply with Irenaeus",
+          "That it rejects Romans 11; they reply by rejecting Romans",
+          "That Revelation 20 is the only text teaching an interim kingdom; premillennialists reply that one clear text suffices and that other texts allow for it"
+        ],
+        "answer": 3,
+        "explanation": "Critics stress that no other passage explicitly mentions a thousand-year reign after the parousia; premillennialists answer that Isaiah 65:20, Zechariah 14 and 1 Corinthians 15 fit such an interval and that Scripture need only say something once."
+      }
+    ]
+  },
+  {
+    "set": "disppremil",
+    "title": "Dispensational premillennialism",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "Which sequence best summarises dispensational premillennialism?",
+        "options": [
+          "Gospel growth, golden age, Christ's return, final judgment",
+          "Pretribulational rapture, seven-year tribulation (Daniel's seventieth week), Christ's return, a literal thousand-year reign centred on Israel",
+          "Church age, single return, general resurrection, new creation",
+          "AD 70 parousia, eternal kingdom, no further return"
+        ],
+        "answer": 1,
+        "explanation": "Classic statements include J. Dwight Pentecost's Things to Come (1958) and John Walvoord's The Rapture Question (1957) and The Millennial Kingdom."
+      },
+      {
+        "id": "darby-powerscourt",
+        "q": "Which figure, associated with the Plymouth Brethren and the Powerscourt conferences in Ireland (1831-1833), systematised dispensational teaching?",
+        "options": [
+          "Jonathan Edwards",
+          "John Nelson Darby",
+          "Francisco Ribera",
+          "Daniel Whitby"
+        ],
+        "answer": 1,
+        "explanation": "Lady Theodosia Powerscourt hosted prophecy conferences at her Wicklow estate, where Darby developed his distinction between Israel and the church and a pretribulational 'catching up' of the church."
+      },
+      {
+        "id": "scofield",
+        "q": "What made the Scofield Reference Bible (1909) so influential?",
+        "options": [
+          "It was the first English translation of the Bible",
+          "It was the official Bible of the Church of England",
+          "It introduced the day-year principle",
+          "Its notes carried dispensational premillennialism into a widely used study Bible across English-speaking evangelicalism"
+        ],
+        "answer": 3,
+        "explanation": "C. I. Scofield's notes (Oxford University Press; revised 1917 and 1967) divided history into seven dispensations and taught a pretribulational rapture; Dallas Theological Seminary (founded 1924 by Lewis Sperry Chafer) carried the tradition forward."
+      },
+      {
+        "id": "gap",
+        "q": "How do dispensationalists read Daniel 9:26-27?",
+        "options": [
+          "The seventieth week is separated from the sixty-ninth by the church age and will be fulfilled in a future seven-year tribulation",
+          "The seventieth week ended at the crucifixion with no gap",
+          "The seventy weeks are symbolic of the whole of world history",
+          "The passage refers only to Antiochus Epiphanes"
+        ],
+        "answer": 0,
+        "explanation": "The 'he' who confirms a covenant (Daniel 9:27) is read as the coming Antichrist; critics argue the text gives no gap and that 'he' is Messiah, while dispensationalists point to prophetic gaps elsewhere (e.g. Isaiah 61:1-2 in Luke 4:18-19)."
+      },
+      {
+        "id": "1-thess-4",
+        "q": "Which text is the primary description of the rapture for dispensationalists?",
+        "options": [
+          "Revelation 20:1-3",
+          "Matthew 13:31-33",
+          "1 Thessalonians 4:13-18",
+          "Daniel 2:44"
+        ],
+        "answer": 2,
+        "explanation": "All views accept the 'catching up' of 1 Thessalonians 4:17; pretribulationists add arguments from promises of deliverance from wrath (1 Thessalonians 1:10; 5:9; Revelation 3:10) and from the church's absence from Revelation 4-19."
+      },
+      {
+        "id": "imminence",
+        "q": "Why is 'imminence' important to the pretribulational argument?",
+        "options": [
+          "It shows the rapture happened in AD 70",
+          "It proves the millennium is the present age",
+          "It means Christ will return in the year 2000",
+          "If Christ may come for the church at any moment with no signs preceding, the rapture must precede the tribulation events"
+        ],
+        "answer": 3,
+        "explanation": "Walvoord and Thomas Ice argue that New Testament exhortations to watch (e.g. James 5:8-9; Titus 2:13) imply no prophesied event must come first; posttribulationists reply that watching is compatible with expected signs (Matthew 24:33)."
+      },
+      {
+        "id": "millennium-israel",
+        "q": "What role does national Israel have in the dispensational millennium?",
+        "options": [
+          "Israel is restored to its land and receives the fulfilment of its covenant promises, with Christ reigning from Jerusalem",
+          "Israel plays no distinct role, having been replaced by the church",
+          "Israel is judged and excluded",
+          "Israel's promises were fulfilled in the Maccabean era"
+        ],
+        "answer": 0,
+        "explanation": "Dispensationalists read the Abrahamic, Davidic and new covenant promises (e.g. Genesis 15; 2 Samuel 7; Jeremiah 31; Ezekiel 40-48) as including a literal national and territorial fulfilment."
+      },
+      {
+        "id": "prewrath-mid",
+        "q": "Which of these rapture views is held by some premillennialists but is NOT the classic dispensational position?",
+        "options": [
+          "The pretribulational view",
+          "The view that the rapture precedes Daniel's seventieth week",
+          "The prewrath view (rapture during the second half of the seventieth week, before God's wrath)",
+          "The view that the church is absent from Revelation 4-19"
+        ],
+        "answer": 2,
+        "explanation": "Marvin Rosenthal and Alan Kurschner developed the prewrath view; Gleason Archer argued a mid-seventieth-week rapture in Three Views on the Rapture (1984). Classic dispensationalism is pretribulational."
+      },
+      {
+        "id": "revised-progressive",
+        "q": "How does progressive dispensationalism (Blaising, Bock, Saucy, early 1990s) differ from earlier forms?",
+        "options": [
+          "It abandons premillennialism for amillennialism",
+          "It sees more continuity, holding that Christ is already reigning in an inaugurated Davidic kingdom while still expecting a future for national Israel",
+          "It rejects any distinction between Israel and the church",
+          "It teaches that the rapture happened in AD 70"
+        ],
+        "answer": 1,
+        "explanation": "Craig Blaising and Darrell Bock's Progressive Dispensationalism (1993) and Robert Saucy's The Case for Progressive Dispensationalism (1993) present an 'already/not yet' Davidic reign; most remain pretribulational but some are less committed to it."
+      }
+    ]
+  },
+  {
+    "set": "partial-preterism",
+    "title": "Partial preterism",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "What does partial preterism hold?",
+        "options": [
+          "Every prophecy, including the resurrection, was fulfilled by AD 70",
+          "No prophecy has yet been fulfilled",
+          "Many prophecies, including much of the Olivet Discourse and Revelation, were fulfilled in the events of AD 66-70, while the Second Coming, resurrection and final judgment remain future",
+          "Revelation outlines church history from Pentecost to the present"
+        ],
+        "answer": 2,
+        "explanation": "R. C. Sproul's The Last Days According to Jesus (1998), Kenneth Gentry and Gary DeMar defend this view; 'preterist' comes from Latin praeteritus, 'gone by'."
+      },
+      {
+        "id": "time-texts",
+        "q": "Which 'time texts' are central to partial preterist arguments?",
+        "options": [
+          "Matthew 24:34, Matthew 16:28 and Revelation 1:1, 3 ('the time is near')",
+          "Genesis 1:1 and John 1:1",
+          "Daniel 12:2 and Revelation 20:12",
+          "Psalm 90:4 and 2 Peter 3:8"
+        ],
+        "answer": 0,
+        "explanation": "Preterists argue that 'this generation', 'some standing here' and 'what must soon take place' signal fulfilment within the first readers' lifetime; futurists reply that these may express certainty, prophetic perspective, or a future generation."
+      },
+      {
+        "id": "alcazar",
+        "q": "Which Counter-Reformation Jesuit is often credited with the first systematic preterist commentary on Revelation?",
+        "options": [
+          "Francisco Ribera",
+          "Manuel Lacunza",
+          "Robert Bellarmine",
+          "Luis de Alcázar (Vestigatio arcani sensus in Apocalypsi, 1614)"
+        ],
+        "answer": 3,
+        "explanation": "Alcázar read most of Revelation as fulfilled in the church's victories over Judaism and pagan Rome; Ribera's commentary pointed in the opposite, futurist direction. Earlier writers such as Eusebius also saw parts of the Olivet Discourse fulfilled in AD 70."
+      },
+      {
+        "id": "nero",
+        "q": "How does Gentry identify the beast's number 666 (Revelation 13:18)?",
+        "options": [
+          "The Pope, through the Latin title Vicarius Filii Dei",
+          "Nero Caesar, whose name in Hebrew letters (Nrwn Qsr) totals 666",
+          "Muhammad",
+          "A future world ruler who has not yet appeared"
+        ],
+        "answer": 1,
+        "explanation": "Gentry also notes the variant reading 616, which matches the Latin spelling Nero Caesar, as supporting evidence; critics question whether Asian Gentile readers would compute a Hebrew spelling."
+      },
+      {
+        "id": "early-date",
+        "q": "Why does the dating of Revelation matter so much for partial preterism?",
+        "options": [
+          "Because a late date would prove dispensationalism",
+          "If Revelation was written before AD 70, its 'soon' prophecies can refer to the Jewish War; a c. AD 95 date makes AD 70 fulfilment of Revelation impossible",
+          "Because the date determines the author's identity",
+          "Because a pre-70 date would place Revelation before the Gospels in every case"
+        ],
+        "answer": 1,
+        "explanation": "Gentry's Before Jerusalem Fell argues for c. AD 65-66 from internal evidence such as the temple (Revelation 11:1-2) and the sixth king (17:10). Most scholars still favour the Domitianic date, so the question is disputed. Some preterists apply Revelation to Rome's fall instead."
+      },
+      {
+        "id": "coming-on-clouds",
+        "q": "How do partial preterists read 'the Son of Man coming on the clouds' in Matthew 24:30?",
+        "options": [
+          "As the bodily Second Coming at the end of history only",
+          "As the pretribulational rapture",
+          "As a reference to Pentecost",
+          "As a judgment-coming against Jerusalem, echoing Old Testament cloud-comings of God in judgment (e.g. Isaiah 19:1) and Daniel 7:13's enthronement"
+        ],
+        "answer": 3,
+        "explanation": "N. T. Wright and Gentry read Daniel 7:13 as the Son of Man's vindication before the Ancient of Days. Many partial preterists then see a transition to the final coming at Matthew 24:36 or later."
+      },
+      {
+        "id": "josephus",
+        "q": "Which ancient historian do partial preterists cite most often for the details of Jerusalem's fall?",
+        "options": [
+          "Josephus (The Jewish War)",
+          "Herodotus",
+          "Thucydides",
+          "Bede"
+        ],
+        "answer": 0,
+        "explanation": "Josephus describes famine, false prophets, the siege and the temple's burning, which preterists match with Matthew 24 and Luke 21:20-24. Critics caution against reading Josephus's rhetoric too precisely."
+      },
+      {
+        "id": "vs-full",
+        "q": "What is the key difference between partial and full preterism?",
+        "options": [
+          "Partial preterists date Revelation after AD 95",
+          "Full preterists deny that AD 70 had any prophetic significance",
+          "Partial preterists affirm a future bodily Second Coming, resurrection and final judgment; full preterists place all of these in the first century",
+          "Partial preterists reject the creeds"
+        ],
+        "answer": 2,
+        "explanation": "Partial preterists often cite Acts 1:11 and 1 Corinthians 15 for a future visible return and bodily resurrection, and several (e.g. Mathison's edited volume When Shall These Things Be?) have written critiques of full preterism."
+      },
+      {
+        "id": "millennial-pairing",
+        "q": "With which millennial views is partial preterism commonly combined?",
+        "options": [
+          "Only dispensational premillennialism",
+          "Only historicist premillennialism",
+          "None; it rejects all millennial views",
+          "Postmillennialism and amillennialism"
+        ],
+        "answer": 3,
+        "explanation": "Gentry and DeMar are postmillennial; many amillennialists, and Sproul (who did not commit firmly), accept preterist readings of the Olivet Discourse. The pairing with dispensational premillennialism is rare because dispensationalists place these prophecies in a future tribulation."
+      }
+    ]
+  },
+  {
+    "set": "full-preterism",
+    "title": "Full preterism",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "What does full preterism (also called 'consistent' or 'covenant eschatology') hold?",
+        "options": [
+          "All biblical prophecy, including the Second Coming, resurrection and final judgment, was fulfilled by AD 70",
+          "The Second Coming is future but the tribulation is past",
+          "Revelation describes church history to the present",
+          "Most prophecy remains future"
+        ],
+        "answer": 0,
+        "explanation": "Advocates such as Max King (The Spirit of Prophecy, 1971; The Cross and the Parousia of Christ, 1987) and Don Preston argue that the time texts require a complete first-century fulfilment."
+      },
+      {
+        "id": "orthodoxy",
+        "q": "Why do critics say full preterism stands outside historic creedal orthodoxy?",
+        "options": [
+          "It rejects the Trinity",
+          "It denies Christ's bodily resurrection on the third day",
+          "The ecumenical creeds confess a future return of Christ to judge and a future resurrection of the body, which full preterism places in the past",
+          "It teaches a pretribulational rapture"
+        ],
+        "answer": 2,
+        "explanation": "Critics such as Keith Mathison (ed., When Shall These Things Be?, 2004) argue this; proponents respond that creeds are subordinate to Scripture and that they affirm the return and resurrection as biblical events, though now fulfilled. Most full preterists affirm the Trinity and Christ's own bodily resurrection."
+      },
+      {
+        "id": "russell",
+        "q": "Which nineteenth-century book is often regarded as a precursor of modern full preterism?",
+        "options": [
+          "Darby's Synopsis of the Books of the Bible",
+          "J. Stuart Russell's The Parousia (1878)",
+          "Elliott's Horae Apocalypticae",
+          "Hendriksen's More Than Conquerors"
+        ],
+        "answer": 1,
+        "explanation": "Russell, a Congregationalist minister, argued that every New Testament reference to the parousia pointed to the destruction of Jerusalem; the work was reprinted and became influential among later full preterists."
+      },
+      {
+        "id": "resurrection",
+        "q": "How do many full preterists, following Max King, understand the resurrection of 1 Corinthians 15?",
+        "options": [
+          "As the resurrection of all bodies from their graves at a future date",
+          "As reincarnation",
+          "As a corporate, covenantal resurrection of the people of God from the old covenant into the new, completed in AD 70",
+          "As fulfilled only in the conversion of individual believers today"
+        ],
+        "answer": 2,
+        "explanation": "Some full preterists instead hold an individual view in which believers receive immortal bodies in heaven at death. Critics point to the bodily resurrection of Christ as 'firstfruits' (1 Corinthians 15:20-23) as requiring a like resurrection of believers' bodies."
+      },
+      {
+        "id": "hymenaeus",
+        "q": "Which text do critics cite as an apostolic warning relevant to full preterism?",
+        "options": [
+          "2 Timothy 2:17-18, on Hymenaeus and Philetus saying the resurrection had already happened",
+          "Romans 11:25-26",
+          "Revelation 1:7",
+          "Acts 2:16-21"
+        ],
+        "answer": 0,
+        "explanation": "Critics see a parallel with claiming a past resurrection; full preterists reply that the error lay in claiming completion before AD 70, not in claiming the resurrection would occur within that generation."
+      },
+      {
+        "id": "time-text-logic",
+        "q": "What is the core argument full preterists press against partial preterists?",
+        "options": [
+          "That Revelation was written after AD 95",
+          "That the Gospels are unreliable",
+          "That the Olivet Discourse refers only to the end of the world",
+          "If the time texts limit the 'coming' in Matthew 24 to that generation, the same consistency should apply to other coming and resurrection texts"
+        ],
+        "answer": 3,
+        "explanation": "Full preterists argue that the Olivet Discourse is a single coming and that texts like Matthew 16:27-28 tie judgment to Jesus' generation. Partial preterists respond that Scripture speaks of more than one 'coming', and that texts like Acts 1:11 describe a visible, bodily return."
+      },
+      {
+        "id": "acts-1-11",
+        "q": "Which passage do critics stress as requiring a future, visible, bodily return?",
+        "options": [
+          "Matthew 13:33",
+          "Acts 1:11 (Jesus will come 'in the same way' as he was seen going into heaven)",
+          "Psalm 2:8",
+          "Daniel 9:25"
+        ],
+        "answer": 1,
+        "explanation": "Critics argue 'in the same way' implies a bodily, visible return; full preterists typically read it as a cloud-coming in judgment, comparable to Old Testament theophanies."
+      },
+      {
+        "id": "ongoing-history",
+        "q": "What do full preterists say about history after AD 70?",
+        "options": [
+          "The world will end in a future tribulation",
+          "The kingdom is fully established and continues indefinitely, with the church living in the new covenant age without a future end-of-history event",
+          "History ended in AD 70 and nothing since is real",
+          "A future rapture is still expected"
+        ],
+        "answer": 1,
+        "explanation": "Most full preterists hold that human history continues without end and that believers enter heaven at death; critics see this as removing the Christian hope of bodily resurrection and new creation (Romans 8:18-23)."
+      }
+    ]
+  },
+  {
+    "set": "historicism",
+    "title": "Historicism",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "What does historicism hold about the book of Revelation?",
+        "options": [
+          "It was entirely fulfilled by AD 70",
+          "It describes only the final seven years before Christ returns",
+          "It conveys timeless principles with no specific historical referents",
+          "It forecasts the course of church and world history from the apostolic age to Christ's return in sequence"
+        ],
+        "answer": 3,
+        "explanation": "Historicists read the seals, trumpets and bowls as successive eras of history; it was the dominant Protestant approach from the Reformation to the mid-nineteenth century."
+      },
+      {
+        "id": "day-year",
+        "q": "What is the 'day-year principle'?",
+        "options": [
+          "Prophetic days stand for years, so 1,260 days (Revelation 12:6) signify 1,260 years",
+          "Each day of creation lasted a thousand years",
+          "A day with the Lord is as a thousand years, so the millennium is a single day",
+          "Prophecies about days must be fulfilled within one year"
+        ],
+        "answer": 0,
+        "explanation": "Historicists appeal to Numbers 14:34 and Ezekiel 4:6, and to the seventy 'weeks' of Daniel 9 being weeks of years; critics argue these texts are specific instances rather than a general rule."
+      },
+      {
+        "id": "antichrist",
+        "q": "Whom did the Protestant Reformers and most historicists identify as the Antichrist or man of lawlessness?",
+        "options": [
+          "Nero",
+          "A future Jewish world ruler",
+          "The papacy, understood as an office rather than a single individual",
+          "The Ottoman sultan alone"
+        ],
+        "answer": 2,
+        "explanation": "Luther, Calvin and many later Protestants held this; the original Westminster Confession (25.6) called the pope 'that Antichrist', a line later removed by several Presbyterian bodies. Many historicists also identified Islam with parts of the trumpet visions."
+      },
+      {
+        "id": "mede-newton",
+        "q": "Which pair are notable English historicist interpreters of the seventeenth and early eighteenth centuries?",
+        "options": [
+          "John Nelson Darby and C. I. Scofield",
+          "Max King and Don Preston",
+          "William Hendriksen and Greg Beale",
+          "Joseph Mede and Isaac Newton"
+        ],
+        "answer": 3,
+        "explanation": "Mede's Clavis Apocalyptica (1627) and Newton's Observations upon the Prophecies of Daniel and the Apocalypse of St. John (published 1733) shaped later historicism; Mede also revived premillennial expectation among English Puritans."
+      },
+      {
+        "id": "elliott-barnes",
+        "q": "Which nineteenth-century work is a monumental four-volume historicist commentary on Revelation?",
+        "options": [
+          "E. B. Elliott's Horae Apocalypticae (1844)",
+          "Gentry's Before Jerusalem Fell",
+          "Pentecost's Things to Come",
+          "Wright's Jesus and the Victory of God"
+        ],
+        "answer": 0,
+        "explanation": "Elliott interpreted Revelation as a detailed chronology of church history; Albert Barnes's Notes also followed a historicist approach in America."
+      },
+      {
+        "id": "millennial-pairing",
+        "q": "With which millennial views has historicism been combined?",
+        "options": [
+          "Only dispensational premillennialism",
+          "Only full preterism",
+          "Both premillennialism and postmillennialism (and some amillennialism)",
+          "None; historicism has no view of the millennium"
+        ],
+        "answer": 2,
+        "explanation": "Mede was premillennial, many Puritans and Jonathan Edwards combined historicist exegesis with postmillennial hope, and Seventh-day Adventism today combines historicism with its own distinctive millennial view."
+      },
+      {
+        "id": "decline",
+        "q": "What is a common criticism of historicism, and how do historicists reply?",
+        "options": [
+          "It ignores the Old Testament; they reply it uses only Daniel",
+          "Interpreters disagree widely and repeatedly identify their own era as the climax; historicists reply that the overall pattern of fulfilment is clear even if details are debated",
+          "It denies the Second Coming; they reply it is preterist",
+          "It requires a late date of Revelation; they reply with Gentry"
+        ],
+        "answer": 1,
+        "explanation": "Failed date-setting (for example, around 1844) damaged the approach's credibility; defenders argue that the identification of the papacy and the rise of Islam display real prophetic fulfilment."
+      },
+      {
+        "id": "revival",
+        "q": "Where is historicism still prominent today?",
+        "options": [
+          "In dispensational seminaries such as Dallas",
+          "In the Roman Catholic magisterium",
+          "In Seventh-day Adventism and among some confessional Protestant writers",
+          "In all major evangelical study Bibles"
+        ],
+        "answer": 2,
+        "explanation": "Adventist prophetic interpretation (e.g. LeRoy Froom's The Prophetic Faith of Our Fathers) is historicist, and some Reformed and Presbyterian writers continue the Reformation tradition."
+      }
+    ]
+  },
+  {
+    "set": "futurism",
+    "title": "Futurism",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "What does futurism hold about the book of Revelation?",
+        "options": [
+          "Most of Revelation, typically chapters 4-22, describes events still future, clustered around Christ's return",
+          "Revelation was fulfilled in the fall of Jerusalem",
+          "Revelation traces church history from the apostles to now",
+          "Revelation teaches only timeless principles"
+        ],
+        "answer": 0,
+        "explanation": "Futurism is held by dispensationalists (Walvoord, The Revelation of Jesus Christ, 1966) and in modified forms by many historic premillennialists such as Ladd."
+      },
+      {
+        "id": "ribera",
+        "q": "What was Francisco Ribera's role in the history of futurism?",
+        "options": [
+          "He invented the pretribulational rapture",
+          "He wrote the first preterist commentary",
+          "He founded the Plymouth Brethren",
+          "This Spanish Jesuit's commentary on Revelation (c. 1590) placed most of the book in a future period of three and a half years under a single Antichrist"
+        ],
+        "answer": 3,
+        "explanation": "Ribera's work is widely seen as a Counter-Reformation response to the Protestant identification of the papacy with Antichrist; futurists note that early writers such as Irenaeus and Hippolytus already expected a future Antichrist."
+      },
+      {
+        "id": "lacunza",
+        "q": "Who was Manuel Lacunza?",
+        "options": [
+          "An Anglican bishop who devised the day-year principle",
+          "A Chilean Jesuit whose futurist premillennial work, published under the name 'Juan Josafat Ben-Ezra', was translated by Edward Irving in 1827",
+          "The editor of the Scofield Reference Bible",
+          "A Puritan who wrote the Savoy Declaration"
+        ],
+        "answer": 1,
+        "explanation": "The Coming of Messiah in Glory and Majesty influenced the British prophetic movement of the 1820s and 1830s, including circles around Irving and the Albury and Powerscourt conferences."
+      },
+      {
+        "id": "early-church",
+        "q": "What do futurists claim about early church support?",
+        "options": [
+          "The early church universally held the pretribulational rapture",
+          "Early writers such as Irenaeus and Hippolytus expected a future personal Antichrist and future tribulation before Christ's return",
+          "The early church read Revelation as fulfilled in AD 70",
+          "The early church never commented on Revelation"
+        ],
+        "answer": 1,
+        "explanation": "Irenaeus (Against Heresies 5.25-30) and Hippolytus (On Christ and Antichrist) are cited as evidence that futurist elements are ancient, even though the full modern system developed later."
+      },
+      {
+        "id": "dispensational-vs-moderate",
+        "q": "How does 'moderate' futurism differ from dispensational futurism?",
+        "options": [
+          "Moderate futurists deny any future Second Coming",
+          "Moderate futurists date all of Revelation to AD 70",
+          "Moderate futurists use the day-year principle exclusively",
+          "Moderate futurists (e.g. Ladd) see the seals partly fulfilled through the church age and do not separate Israel and the church or posit a pretribulational rapture"
+        ],
+        "answer": 3,
+        "explanation": "Ladd's A Commentary on the Revelation of John (1972) mixes futurism with present-age application; dispensational futurism also reads the letters to the seven churches as foreshadowing church-age eras."
+      },
+      {
+        "id": "rev-4-1",
+        "q": "Why do some dispensational futurists regard Revelation 4:1 as significant?",
+        "options": [
+          "The call 'come up here' and the absence of the word 'church' from chapters 4-19 are read as suggesting the church has been raptured",
+          "It names the Antichrist",
+          "It gives the date of Revelation",
+          "It describes the binding of Satan"
+        ],
+        "answer": 0,
+        "explanation": "Critics note that John's ascent is personal and that 'saints' appear throughout chapters 4-19; dispensationalists reply that the saints in those chapters are tribulation converts."
+      },
+      {
+        "id": "strength",
+        "q": "What do futurists consider a major strength of their approach?",
+        "options": [
+          "It requires the earliest possible date for Revelation",
+          "It identifies the Pope as Antichrist",
+          "It takes the cosmic scale of Revelation's judgments and the return of Christ (Revelation 19) at face value as events not yet seen in history",
+          "It removes the need for a future Second Coming"
+        ],
+        "answer": 2,
+        "explanation": "Futurists argue that worldwide judgments, a resurrection and the new creation have plainly not yet occurred; critics reply that the opening time texts (Revelation 1:1, 3; 22:10) imply relevance to the first readers."
+      },
+      {
+        "id": "first-readers",
+        "q": "How do futurists answer the objection that a mostly future Revelation would have been irrelevant to its first readers?",
+        "options": [
+          "They concede the book was irrelevant to its first readers",
+          "They argue Revelation was written in the twentieth century",
+          "They claim the first readers lived during the tribulation",
+          "The letters to the churches addressed them directly, and the future victory of Christ gave them hope and exhortation to endure"
+        ],
+        "answer": 3,
+        "explanation": "Futurists add that 'soon' may express imminence or certainty from God's perspective (2 Peter 3:8), so the book remained relevant even if fulfilment was long delayed."
+      }
+    ]
+  },
+  {
+    "set": "idealism",
+    "title": "Idealism (the spiritual approach)",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "What does the idealist approach say Revelation primarily depicts?",
+        "options": [
+          "The ongoing conflict between God and evil, Christ and Satan, throughout the whole church age, in symbolic form",
+          "A detailed chronology of world history",
+          "Events limited to AD 66-70",
+          "Only the last seven years before Christ returns"
+        ],
+        "answer": 0,
+        "explanation": "Idealists (also called the 'spiritual' or 'symbolic' approach) read the visions as recurring patterns applicable in every generation, culminating in Christ's final victory."
+      },
+      {
+        "id": "tyconius",
+        "q": "Which fourth-century North African exegete influenced Augustine toward a spiritual reading of Revelation?",
+        "options": [
+          "Papias",
+          "Josephus",
+          "Tyconius",
+          "Joachim of Fiore"
+        ],
+        "answer": 2,
+        "explanation": "Tyconius, a Donatist, wrote a lost commentary and a book of interpretive rules; his symbolic approach shaped Augustine's City of God and much later Western exegesis."
+      },
+      {
+        "id": "hendriksen",
+        "q": "Which book by William Hendriksen (1939) is a classic idealist-amillennial reading of Revelation?",
+        "options": [
+          "The Blessed Hope",
+          "More Than Conquerors",
+          "Days of Vengeance",
+          "Things to Come"
+        ],
+        "answer": 1,
+        "explanation": "Hendriksen divided Revelation into seven parallel sections, each running from the first coming to the second; the method is called progressive parallelism."
+      },
+      {
+        "id": "strength",
+        "q": "What do idealists see as a strength of their approach?",
+        "options": [
+          "It allows precise date-setting for Christ's return",
+          "It identifies Nero as the beast",
+          "It makes the book directly relevant to Christians in every era rather than to one generation only",
+          "It requires a literal thousand-year reign"
+        ],
+        "answer": 2,
+        "explanation": "Idealists argue that apocalyptic symbols communicate theological truths about persecution, false worship and perseverance applicable in every age."
+      },
+      {
+        "id": "critique",
+        "q": "What is a common critique of pure idealism, and the idealist reply?",
+        "options": [
+          "That it detaches Revelation from concrete history; idealists reply that the symbols refer to real historical patterns and to a real final consummation",
+          "That it denies the Second Coming; they reply that it is premillennial",
+          "That it relies on a pre-70 date; they reply with Irenaeus",
+          "That it ignores Old Testament imagery; they reply it uses only Greek myths"
+        ],
+        "answer": 0,
+        "explanation": "Pure idealism without a historical anchor is rare; most idealists, like Hendriksen, affirm a literal final coming, resurrection and judgment."
+      },
+      {
+        "id": "milligan",
+        "q": "Which nineteenth-century Scottish scholar is often cited as a classic idealist interpreter?",
+        "options": [
+          "E. B. Elliott",
+          "J. Stuart Russell",
+          "John Walvoord",
+          "William Milligan"
+        ],
+        "answer": 3,
+        "explanation": "Milligan's lectures and commentary on Revelation (1880s) argued that the book sets forth principles rather than predicting particular events."
+      },
+      {
+        "id": "beale-modified",
+        "q": "How does Greg Beale describe his own approach to Revelation?",
+        "options": [
+          "Strict dispensational futurism",
+          "A 'redemptive-historical' or eclectic form of modified idealism that includes a future consummation",
+          "Full preterism",
+          "Strict historicism using the day-year principle"
+        ],
+        "answer": 1,
+        "explanation": "Beale's NIGTC commentary (1999) holds that the visions symbolise the church-age conflict but anticipate Christ's final coming and judgment, combining idealist with some futurist and preterist elements."
+      },
+      {
+        "id": "millennium",
+        "q": "With which millennial view is idealism most often combined?",
+        "options": [
+          "Dispensational premillennialism",
+          "Amillennialism",
+          "Full preterism",
+          "No millennial view has ever combined with it"
+        ],
+        "answer": 1,
+        "explanation": "Reading Revelation 20 as a symbolic picture of the present age fits amillennialism naturally; Warfield's postmillennialism also drew on a broadly idealist reading of Revelation 20."
+      }
+    ]
+  },
+  {
+    "set": "eclectic",
+    "title": "Eclectic approach",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "What characterises the eclectic approach to Revelation?",
+        "options": [
+          "It rejects all four classic approaches",
+          "It is identical to historicism",
+          "It applies only to Daniel",
+          "It combines elements of preterism, futurism and idealism, holding that the visions addressed first-century readers, apply to every age, and point to a future consummation"
+        ],
+        "answer": 3,
+        "explanation": "Scholars such as Greg Beale, Craig Keener and Grant Osborne combine approaches, arguing each captures part of the book's purpose."
+      },
+      {
+        "id": "gregg",
+        "q": "Which reference work presents historicist, preterist, futurist and spiritual readings in parallel columns?",
+        "options": [
+          "Steve Gregg's Revelation: Four Views",
+          "Clouse's The Meaning of the Millennium",
+          "Scofield's Reference Bible",
+          "Elliott's Horae Apocalypticae"
+        ],
+        "answer": 0,
+        "explanation": "Gregg's parallel commentary (1997; revised 2013) lets readers compare each approach verse by verse, and itself models an evenhanded, eclectic study."
+      },
+      {
+        "id": "keener",
+        "q": "How does Craig Keener's eclectic reading treat the first readers of Revelation?",
+        "options": [
+          "He holds the book was irrelevant to its first readers",
+          "He reads it as a chronology of church history",
+          "He anchors the symbols in first-century Roman Asia while applying them to later believers and to the future return of Christ",
+          "He holds it was entirely fulfilled in AD 70"
+        ],
+        "answer": 2,
+        "explanation": "Keener's NIV Application Commentary on Revelation (2000) emphasises the imperial cult and persecution context while affirming a future consummation."
+      },
+      {
+        "id": "strength",
+        "q": "What do eclectic interpreters see as the strength of their method?",
+        "options": [
+          "It eliminates every interpretive disagreement",
+          "It requires only one millennial view",
+          "It avoids the Old Testament entirely",
+          "It respects the book's first-century setting, its ongoing relevance, and its genuinely future hope together"
+        ],
+        "answer": 3,
+        "explanation": "Advocates argue Revelation itself combines letters to real churches, symbolic visions of recurring conflict, and prophecy of the end (Revelation 1:19 is sometimes read in this threefold way)."
+      },
+      {
+        "id": "critique",
+        "q": "What is a common critique of the eclectic approach, and the reply?",
+        "options": [
+          "That it can seem arbitrary in choosing which approach to apply; eclectics reply that genre, context and Old Testament allusion guide the choice",
+          "That it denies the Second Coming; they reply it is full preterist",
+          "That it is unknown to modern scholarship; they reply it is medieval",
+          "That it requires a literal 1,260 years; they reply with the day-year principle"
+        ],
+        "answer": 0,
+        "explanation": "Critics want a single controlling principle; eclectics answer that complex apocalyptic literature naturally works on several levels."
+      },
+      {
+        "id": "rev-1-19",
+        "q": "Which verse do some interpreters use to argue Revelation has past, present and future dimensions?",
+        "options": [
+          "Revelation 22:21",
+          "Revelation 13:18",
+          "Revelation 1:19 (write the things seen, the things that are, and the things to come)",
+          "Revelation 7:4"
+        ],
+        "answer": 2,
+        "explanation": "Dispensationalists read the verse as an outline (chapter 1; chapters 2-3; chapters 4-22); eclectics and Beale often read it as describing the mixed temporal scope of the whole book."
+      },
+      {
+        "id": "millennial-pairing",
+        "q": "Is the eclectic approach tied to one millennial view?",
+        "options": [
+          "Yes, only amillennialism",
+          "No; eclectic interpreters include amillennialists, premillennialists and postmillennialists",
+          "Yes, only dispensationalism",
+          "Yes, only full preterism"
+        ],
+        "answer": 1,
+        "explanation": "Beale is amillennial, Grant Osborne is premillennial, and some postmillennialists also blend preterist and idealist readings."
+      },
+      {
+        "id": "bauckham",
+        "q": "Which scholar's work on the theology of Revelation stresses its prophetic critique of Rome and its relevance as Christian prophecy?",
+        "options": [
+          "John Walvoord",
+          "Max King",
+          "Richard Bauckham",
+          "Francisco Ribera"
+        ],
+        "answer": 2,
+        "explanation": "Bauckham's The Theology of the Book of Revelation (1993) and The Climax of Prophecy highlight the book's Old Testament allusions and its critique of Roman power while affirming a future eschatological hope."
+      }
+    ]
+  },
+  {
+    "set": "covenant-theology",
+    "title": "Covenant theology",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "What is covenant theology?",
+        "options": [
+          "A framework that organises Scripture around God's covenants, often summarised as covenants of redemption, works and grace, with strong continuity between Israel and the church",
+          "A system dividing history into seven dispensations",
+          "A form of full preterism",
+          "A Roman Catholic doctrine of sacraments"
+        ],
+        "answer": 0,
+        "explanation": "Covenant theology developed in the Reformed tradition (Zwingli, Bullinger, Cocceius, Witsius) and is expressed in the Westminster Confession chapter 7."
+      },
+      {
+        "id": "covenant-grace",
+        "q": "What is the 'covenant of grace' in covenant theology?",
+        "options": [
+          "A covenant made with Adam before the fall requiring perfect obedience",
+          "A covenant between the Father and the Son in eternity",
+          "A covenant made only with the church after Pentecost",
+          "God's single gracious covenant of salvation through Christ, administered differently in the Old and New Testaments"
+        ],
+        "answer": 3,
+        "explanation": "The covenant of works was with Adam (Genesis 2:16-17; Romans 5:12-21), and the covenant of redemption is the intratrinitarian pact; the covenant of grace unites believers of all ages in Christ."
+      },
+      {
+        "id": "israel-church",
+        "q": "How does covenant theology generally relate Israel and the church?",
+        "options": [
+          "As two peoples with separate destinies",
+          "As one people of God across both testaments, with the church as the continuation and fulfilment of Israel",
+          "As unrelated entities",
+          "As identical to modern national Israel"
+        ],
+        "answer": 1,
+        "explanation": "Texts such as Galatians 3:29, Galatians 6:16, Ephesians 2:11-22 and Romans 11's single olive tree are central; many covenant theologians still expect a future mass conversion of Jews (Romans 11:25-26)."
+      },
+      {
+        "id": "millennial-views",
+        "q": "Which millennial views are most common among covenant theologians?",
+        "options": [
+          "Only dispensational premillennialism",
+          "Amillennialism and postmillennialism, with a minority of historic premillennialists",
+          "Only full preterism",
+          "Only historicist premillennialism"
+        ],
+        "answer": 1,
+        "explanation": "Vos, Hoekema and Riddlebarger are amillennial; Charles Hodge, Warfield, Bahnsen and Gentry are postmillennial; some Reformed thinkers, such as some Puritans, held premillennial views."
+      },
+      {
+        "id": "baptism",
+        "q": "What do Reformed Baptists (1689 Federalism) differ on with Westminster covenant theology?",
+        "options": [
+          "Whether Christ will return",
+          "Whether God made any covenants at all",
+          "Whether the Bible is inspired",
+          "Whether the new covenant includes believers' children, and so whether infants should be baptised"
+        ],
+        "answer": 3,
+        "explanation": "Paedobaptist covenant theology sees the sign of the covenant given to believers and their children (Genesis 17; Acts 2:39); 1689 Federalists see the new covenant as made only with the regenerate (Jeremiah 31:31-34)."
+      },
+      {
+        "id": "hermeneutic",
+        "q": "What hermeneutical principle is typical of covenant theology?",
+        "options": [
+          "The New Testament's use of the Old Testament guides interpretation, so Old Testament promises are read in light of their fulfilment in Christ",
+          "Old Testament promises must be fulfilled literally to national Israel",
+          "Only the Old Testament is authoritative",
+          "Prophecy should be interpreted using the day-year principle exclusively"
+        ],
+        "answer": 0,
+        "explanation": "Covenant theologians argue that Christ is the true Israel and seed of Abraham (Galatians 3:16), so promises such as the land find fulfilment in the new creation (Romans 4:13; Hebrews 11:16)."
+      },
+      {
+        "id": "vos",
+        "q": "Which Princeton theologian is seen as a founder of Reformed biblical theology and the 'two-age' eschatological framework?",
+        "options": [
+          "C. I. Scofield",
+          "Max King",
+          "Geerhardus Vos",
+          "Joseph Mede"
+        ],
+        "answer": 2,
+        "explanation": "Vos's The Pauline Eschatology (1930) and Biblical Theology (1948) shaped later covenantal and amillennial thinking about the overlap of this age and the age to come."
+      },
+      {
+        "id": "critique",
+        "q": "What criticism do dispensationalists typically raise against covenant theology, and the reply?",
+        "options": [
+          "That it denies the Trinity; they reply with the Nicene Creed",
+          "That it is too recent; they reply it dates from 1909",
+          "That it rejects Romans; they reply by rejecting Galatians",
+          "That it 'spiritualises' Old Testament promises to Israel; covenant theologians reply that the New Testament itself interprets those promises as fulfilled in Christ"
+        ],
+        "answer": 3,
+        "explanation": "Michael Vlach argues covenant theology is a form of 'replacement' theology; covenant theologians prefer 'fulfilment' and stress that Gentiles are grafted into Israel, not replacing it."
+      }
+    ]
+  },
+  {
+    "set": "dispensationalism",
+    "title": "Dispensationalism",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "What is a 'dispensation' in dispensational theology?",
+        "options": [
+          "A distinct stewardship or administration of God's dealings with humanity in history (from Greek oikonomia)",
+          "A period of exactly one thousand years",
+          "A spiritual gift given to the church",
+          "A Catholic indulgence"
+        ],
+        "answer": 0,
+        "explanation": "Ephesians 1:10 and 3:2 use oikonomia; Scofield described seven dispensations (innocence, conscience, human government, promise, law, grace, kingdom)."
+      },
+      {
+        "id": "sine-qua-non",
+        "q": "What were Charles Ryrie's three 'sine qua non' of dispensationalism (Dispensationalism Today, 1965)?",
+        "options": [
+          "Seven dispensations, a pretribulational rapture, and a pre-70 Revelation",
+          "The covenant of works, covenant of grace and covenant of redemption",
+          "A consistent distinction between Israel and the church, consistently literal (normal) interpretation, and God's glory as the ultimate purpose of history",
+          "Historicism, idealism and futurism"
+        ],
+        "answer": 2,
+        "explanation": "Ryrie argued these, not the number of dispensations, define the system; progressive dispensationalists have modified the first two."
+      },
+      {
+        "id": "forms",
+        "q": "Which order of historical development is correct?",
+        "options": [
+          "Progressive, revised, classic",
+          "Classic (Darby, Scofield, Chafer), revised or normative (Ryrie, Walvoord, Pentecost), progressive (Blaising, Bock, Saucy)",
+          "Revised, classic, progressive",
+          "Classic, progressive, revised"
+        ],
+        "answer": 1,
+        "explanation": "Classic dispensationalism sharply separated a heavenly and earthly people; revised dispensationalism moderated this; progressive dispensationalism (1990s) sees a single, progressively unfolding kingdom with an inaugurated Davidic reign."
+      },
+      {
+        "id": "parenthesis",
+        "q": "What do classic and revised dispensationalists mean by calling the church a 'mystery' or 'parenthesis'?",
+        "options": [
+          "The church will last only a thousand years",
+          "The church is the fulfilment of all Old Testament prophecy",
+          "The church age was not revealed in Old Testament prophecy and intervenes before God resumes his programme for Israel",
+          "The church began with Abraham"
+        ],
+        "answer": 2,
+        "explanation": "They cite Ephesians 3:3-6 and Colossians 1:26; progressive dispensationalists prefer to see the church as a new stage within the unfolding kingdom rather than a parenthesis."
+      },
+      {
+        "id": "institutions",
+        "q": "Which institutions and events spread dispensationalism in America?",
+        "options": [
+          "The Niagara Bible Conferences, the Scofield Reference Bible, and Dallas Theological Seminary",
+          "The Westminster Assembly and Princeton Seminary",
+          "The Council of Trent and Jesuit colleges",
+          "The Synod of Dort and Leiden University"
+        ],
+        "answer": 0,
+        "explanation": "The Niagara conferences (from the 1870s) promoted premillennialism; Scofield's 1909 study Bible and Lewis Sperry Chafer's founding of Dallas Theological Seminary (1924) made dispensationalism mainstream in evangelicalism."
+      },
+      {
+        "id": "israel-future",
+        "q": "Why do dispensationalists say the future of national Israel is essential to their system?",
+        "options": [
+          "They believe the church replaced Israel",
+          "They believe Israel's promises were fulfilled in Solomon",
+          "They hold that Israel has no future role",
+          "God's unconditional covenant promises to Abraham and David, including land and kingdom, must be fulfilled to ethnic Israel"
+        ],
+        "answer": 3,
+        "explanation": "Michael Vlach (Has the Church Replaced Israel?) argues the New Testament reaffirms Israel's restoration (Matthew 19:28; Acts 1:6; Romans 11:26-29)."
+      },
+      {
+        "id": "hermeneutic",
+        "q": "What does 'literal' or 'normal' interpretation mean in dispensationalism?",
+        "options": [
+          "Taking every image in Revelation as physically literal",
+          "Reading texts according to their ordinary grammatical-historical sense, recognising figures of speech, and applying this consistently to prophecy",
+          "Reading the Old Testament only through the New",
+          "Ignoring historical context"
+        ],
+        "answer": 1,
+        "explanation": "Ryrie and others argued that prophecy should be read like the rest of Scripture; critics say the New Testament's own use of the Old models typological fulfilment."
+      },
+      {
+        "id": "critique",
+        "q": "What critique of dispensationalism concerns history, and how do proponents respond?",
+        "options": [
+          "That it originated in AD 70; they reply it is 1,000 years old",
+          "That its pretribulational rapture appeared only in the nineteenth century; proponents reply that truth is judged by Scripture, not age, and point to earlier hints of the idea",
+          "That it was invented by Augustine; they reply it was Origen",
+          "That it denies Romans 11; they reply by rejecting it"
+        ],
+        "answer": 1,
+        "explanation": "Critics trace the pretrib rapture to Darby in the 1830s; Thomas Ice and others cite earlier writers such as Pseudo-Ephraem and Morgan Edwards as partial anticipations, though how close these are is disputed."
+      }
+    ]
+  },
+  {
+    "set": "progressive-covenantalism",
+    "title": "Progressive covenantalism",
+    "questions": [
+      {
+        "id": "definition",
+        "q": "What is progressive covenantalism?",
+        "options": [
+          "A new form of full preterism",
+          "A Roman Catholic doctrine of tradition",
+          "A form of historicism",
+          "A framework that traces the unfolding of God's covenants through Scripture to their fulfilment in Christ, positioned between covenant theology and dispensationalism"
+        ],
+        "answer": 3,
+        "explanation": "Peter Gentry and Stephen Wellum's Kingdom through Covenant (2012; 2nd ed. 2018) is the defining work; 'progressive' refers to the progressive revelation of God's plan through the biblical covenants."
+      },
+      {
+        "id": "vs-ct",
+        "q": "How does progressive covenantalism differ from Westminster covenant theology?",
+        "options": [
+          "It holds the new covenant community consists of regenerate believers, so it supports believer's baptism, and it emphasises the distinct biblical covenants rather than a single 'covenant of grace' framework",
+          "It rejects any covenant with Adam",
+          "It teaches two peoples of God",
+          "It requires infant baptism"
+        ],
+        "answer": 0,
+        "explanation": "Wellum and Gentry affirm a covenant with creation/Adam, then Noah, Abraham, Israel (Moses), David and the new covenant (Jeremiah 31:31-34)."
+      },
+      {
+        "id": "vs-disp",
+        "q": "How does progressive covenantalism differ from dispensationalism?",
+        "options": [
+          "It holds a pretribulational rapture",
+          "It denies any typology in Scripture",
+          "It sees Christ as the fulfilment of Israel and the land promise as typologically expanding to the new creation, rather than requiring a separate future for national Israel",
+          "It teaches the church replaced Israel through supersession"
+        ],
+        "answer": 2,
+        "explanation": "Proponents prefer 'fulfilment' language and argue from Romans 4:13 (Abraham as heir of the world) and Hebrews 11:10-16 that the land promise expands in Christ."
+      },
+      {
+        "id": "typology",
+        "q": "What role does typology play in progressive covenantalism?",
+        "options": [
+          "Types are rejected as allegory",
+          "Types are fulfilled only in national Israel",
+          "Types replace the literal meaning entirely",
+          "Types escalate as they move through the covenants and find their fulfilment in Christ"
+        ],
+        "answer": 3,
+        "explanation": "Wellum stresses that persons, events and institutions (e.g. Adam, David, temple) point forward with increasing intensity to Christ (Romans 5:14; Hebrews 8:5)."
+      },
+      {
+        "id": "eschatology",
+        "q": "Which millennial views are most common among progressive covenantalists?",
+        "options": [
+          "Amillennialism, with some historic premillennialists",
+          "Only dispensational premillennialism",
+          "Only full preterism",
+          "Only historicist postmillennialism"
+        ],
+        "answer": 0,
+        "explanation": "Wellum leans amillennial, while the framework does not require a single millennial view; it typically rejects dispensational distinctives such as a future millennial temple with sacrifices."
+      },
+      {
+        "id": "ncte",
+        "q": "How does progressive covenantalism relate to 'New Covenant Theology'?",
+        "options": [
+          "They are identical names for covenant theology",
+          "New Covenant Theology is a form of dispensationalism",
+          "They are closely related, both stressing the newness of the new covenant, but progressive covenantalism is a distinct articulation with its own emphases",
+          "They have no connection"
+        ],
+        "answer": 2,
+        "explanation": "New Covenant Theology (e.g. Tom Wells and Fred Zaspel) shares concerns about Mosaic law and the new covenant; progressive covenantalism developed through Gentry, Wellum and contributors to Progressive Covenantalism (2016)."
+      },
+      {
+        "id": "critique",
+        "q": "What is a common critique of progressive covenantalism, and the response?",
+        "options": [
+          "That it denies Christ's return; they reply it is premillennial",
+          "Covenant theologians say it undervalues the unity of the covenant of grace and the place of children; proponents reply that Scripture's covenants are better handled individually and the new covenant is distinctively regenerate",
+          "That it is from the 1600s; they reply it is from 2012",
+          "That it rejects all typology; they reply it is allegorical"
+        ],
+        "answer": 1,
+        "explanation": "The debate centres on texts such as Jeremiah 31:34 ('they shall all know me') and Hebrews 8; paedobaptists stress continuity of the household principle."
+      },
+      {
+        "id": "israel",
+        "q": "How does progressive covenantalism view the future of ethnic Israel?",
+        "options": [
+          "Israel has a separate millennial programme with temple sacrifices",
+          "Ethnic Israel will never come to faith",
+          "Many hold Romans 11 may anticipate a future turning of ethnic Jews to Christ, but within one people of God rather than as a separate programme",
+          "National Israel is identical with the church"
+        ],
+        "answer": 2,
+        "explanation": "Proponents argue that all promises to Israel find their 'yes' in Christ (2 Corinthians 1:20) and are shared by Jew and Gentile together."
+      }
+    ]
+  }
+]

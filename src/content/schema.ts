@@ -278,6 +278,9 @@ export const Flowchart = z.object({
   results: z.array(FlowResult).min(3),
 })
 
+export const TourStep = z.object({ focus: z.array(Id).default([]), title: Text, text: Text })
+export type TourStep = z.infer<typeof TourStep>
+
 export const BibleVerse = z.object({ ref: z.string(), text: z.string() })
 export const Bible = z.object({
   translations: z.record(z.string(), z.object({ name: z.string(), license: z.string(), url: z.string() })),

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "seventy-weeks",
+    "name": "Daniel's Seventy Weeks",
+    "question": "When is the seventieth week of Daniel 9:24-27 fulfilled, and does a gap separate it from the first sixty-nine?",
+    "description": "Gabriel's prophecy of 'seventy sevens' (Daniel 9:24-27) sets out six goals: finishing transgression, atoning for iniquity, bringing in everlasting righteousness, sealing vision and prophet, and anointing a most holy place. It also says an 'anointed one' will be cut off after sixty-nine weeks. Interpreters disagree on whether the seventieth week runs on straight after the sixty-ninth and is fulfilled in Christ's first coming and its sequel in AD 70, or whether an interval (the church age) separates it so that it remains a future seven-year period. They also disagree on whether 'he' who confirms a covenant in Daniel 9:27 is the Messiah or a future prince, and on how literally to count the numbers.",
+    "stances": [
+      {
+        "code": "messianic-fulfilled",
+        "label": "Continuous: the 70th week is fulfilled in Christ's ministry, death and the new covenant, with AD 70 as its consequence",
+        "family": "continuous"
+      },
+      {
+        "code": "fulfilled-ad70",
+        "label": "Continuous: the seventy weeks run up to and end in the destruction of Jerusalem in AD 70, completing all prophecy",
+        "family": "continuous"
+      },
+      {
+        "code": "symbolic-church-age",
+        "label": "Symbolic and Christ-centred: the 70th week begins with Christ, and its second half spans the church age to his return",
+        "family": "continuous"
+      },
+      {
+        "code": "gap-future-week",
+        "label": "Gap: a parenthesis (the church age) follows week 69, and the 70th week is a future seven-year tribulation",
+        "family": "future-week"
+      },
+      {
+        "code": "future-final-week",
+        "label": "Future final week tied to the Antichrist, without a full dispensational Israel/church parenthesis",
+        "family": "future-week"
+      }
+    ]
+  },
+  {
+    "id": "revelation-date",
+    "name": "Date of Revelation",
+    "question": "When was the book of Revelation written: before AD 70 under Nero, or c. AD 95 under Domitian?",
+    "description": "Disputed. The late date (c. AD 95-96, late in Domitian's reign) rests mainly on Irenaeus (Against Heresies 5.30.3), followed by Eusebius and most later tradition, together with internal hints such as the condition of the seven churches and possible echoes of the Nero-redivivus legend. The early date (c. AD 65-68, under Nero or just after) appeals to the measuring of a still-standing temple (Revelation 11:1-2), the 'seventh king' count (Revelation 17:9-11), the possible Nero gematria of 666 (Revelation 13:18), the time texts (Revelation 1:1, 1:3, 22:10), and a rereading of Irenaeus's ambiguous sentence. Most modern commentators favour the late date, but a significant minority, including some non-preterists such as J. A. T. Robinson, argue for an early one. The question matters most for preterist readings, which need a pre-70 date if Revelation predicts Jerusalem's fall.",
+    "stances": [
+      {
+        "code": "early-neronic",
+        "label": "Early date: written before AD 70, usually c. 65-68 under Nero",
+        "family": "early"
+      },
+      {
+        "code": "late-domitianic",
+        "label": "Late date: written c. AD 95-96 under Domitian",
+        "family": "late"
+      },
+      {
+        "code": "either-date",
+        "label": "Date secondary: the interpretation does not depend on it (adherents differ, most leaning late)"
+      }
+    ]
+  },
+  {
+    "id": "israel",
+    "name": "Israel and the Church",
+    "question": "Does ethnic Israel have a distinct future in God's plan, and what does 'all Israel will be saved' (Romans 11:26) mean?",
+    "description": "Everyone agrees that Romans 9-11 is central. The questions are whether 'all Israel' means a future large-scale conversion of ethnic Jews, the full number of elect Jews saved throughout history, or the whole church of Jews and Gentiles. A further question is whether the Old Testament land and kingdom promises await a literal national fulfilment (dispensationalism) or are fulfilled and expanded in Christ and the new creation (covenant and progressive covenantal views). Holding a future conversion of Jews is not the same as holding a distinct national programme: many postmillennialists and some amillennialists expect the first without the second.",
+    "stances": [
+      {
+        "code": "future-mass-conversion",
+        "label": "Future large-scale conversion of ethnic Jews into the one church (Romans 11:25-26), with no separate national programme",
+        "family": "future-ethnic"
+      },
+      {
+        "code": "distinct-national-future",
+        "label": "Israel and the church are distinct: a future national salvation, return to the land and central role in the millennial kingdom",
+        "family": "future-ethnic"
+      },
+      {
+        "code": "elect-jews-through-history",
+        "label": "'All Israel' is the full number of elect Jews saved throughout the church age, not a future national event",
+        "family": "no-distinct-future"
+      },
+      {
+        "code": "church-is-israel",
+        "label": "'All Israel' is the whole people of God, Jew and Gentile, united in the Messiah",
+        "family": "no-distinct-future"
+      },
+      {
+        "code": "fulfilled-first-century",
+        "label": "Israel's promised salvation and restoration were completed in the first-century remnant and the new-covenant consummation of AD 70",
+        "family": "no-distinct-future"
+      }
+    ]
+  },
+  {
+    "id": "optimism",
+    "name": "Historical Optimism",
+    "question": "What should the church expect of history before Christ returns: gospel triumph, mixed growth of good and evil, or decline into apostasy?",
+    "description": "This is the practical, 'mood' question of eschatology. Postmillennialists expect the Great Commission to succeed in history, so that most of the world is discipled before the Second Coming. Amillennialists usually describe themselves as neither optimistic nor pessimistic about history. Wheat and tares grow together, the kingdom advances alongside persistent evil, and a final intensification precedes the end. Their optimism rests on Christ's return. Premillennialists expect apostasy and tribulation before the return, with the world's restoration coming through Christ's personal reign. Every view is hopeful about the final outcome. They differ on what happens before it.",
+    "stances": [
+      {
+        "code": "optimistic-history",
+        "label": "Optimistic: the gospel will prevail and disciple the nations before Christ returns",
+        "family": "optimistic"
+      },
+      {
+        "code": "endless-growth",
+        "label": "Optimistic without a terminus: the kingdom, fully come, grows without end and history has no final consummation",
+        "family": "optimistic"
+      },
+      {
+        "code": "realistic-coexistence",
+        "label": "'Realistic': kingdom and evil grow side by side until the end, with hope fixed on the return"
+      },
+      {
+        "code": "decline-before-return",
+        "label": "Decline: apostasy and tribulation precede the return, and Christ himself restores the world in the millennium",
+        "family": "pessimistic"
+      },
+      {
+        "code": "apostasy-and-rapture",
+        "label": "Decline and rescue: the church age ends in apostasy, the church is raptured and the world enters tribulation",
+        "family": "pessimistic"
+      }
+    ]
+  },
+  {
+    "id": "kingdom",
+    "name": "The Kingdom of God",
+    "question": "In what sense is the kingdom of God present now, and what form does its future take?",
+    "description": "Almost everyone now accepts an 'already/not yet' kingdom inaugurated by Jesus. The questions are what form the 'already' takes and how much of the 'not yet' falls within history. Postmillennialists stress progressive expansion of Christ's present reign until it fills the earth (Daniel 2:35, Matthew 13:31-33). Amillennialists stress a present spiritual reign of Christ and the saints, consummated in the new heavens and new earth. Premillennialists add a future earthly kingdom between the Second Coming and the eternal state. Classic dispensationalists see the Davidic kingdom as offered, rejected and postponed. Full preterists hold that the kingdom arrived in its fullness in AD 70.",
+    "stances": [
+      {
+        "code": "present-progressive",
+        "label": "Inaugurated and progressively expanding: Christ reigns now from heaven and his kingdom grows to fill the earth before his return",
+        "family": "spiritual-reign"
+      },
+      {
+        "code": "inaugurated-consummated",
+        "label": "Already/not yet: a present spiritual reign, consummated at the return in the new heavens and earth",
+        "family": "spiritual-reign"
+      },
+      {
+        "code": "inaugurated-plus-millennial",
+        "label": "Inaugurated now, with a future earthly millennial phase after the return and before the eternal state",
+        "family": "earthly-millennial"
+      },
+      {
+        "code": "postponed-davidic",
+        "label": "Davidic kingdom offered, rejected and postponed, to be established literally on earth for a thousand years",
+        "family": "earthly-millennial"
+      },
+      {
+        "code": "fully-come",
+        "label": "Fully come: the kingdom was consummated in AD 70 and is eternal and ever-present, with no future consummation",
+        "family": "realized"
+      }
+    ]
+  },
+  {
+    "id": "final-judgment",
+    "name": "The Final Judgment",
+    "question": "Is there one general resurrection and judgment of all people at Christ's return, or several judgments separated in time?",
+    "description": "The historic creeds confess that Christ 'will come again to judge the living and the dead'. Reformed confessions (Westminster Confession 32-33) teach one general resurrection of just and unjust followed by one general judgment (John 5:28-29, Acts 24:15, Matthew 25:31-46). Premillennialists separate the resurrection of the righteous at the return from that of the wicked after the thousand years (Revelation 20:4-6, 11-15). Dispensationalists further distinguish the judgment seat of Christ for believers, the judgment of living nations and Israel, and the Great White Throne. Full preterists place the resurrection and judgment at AD 70 and treat individual judgment as ongoing at death. Critics regard this as a departure from creedal orthodoxy.",
+    "stances": [
+      {
+        "code": "single-general-judgment",
+        "label": "One general resurrection and judgment of the righteous and the wicked at Christ's return",
+        "family": "general"
+      },
+      {
+        "code": "two-stage-premil",
+        "label": "Two resurrections a thousand years apart: the righteous at the return, the wicked before the Great White Throne",
+        "family": "multi-stage"
+      },
+      {
+        "code": "multiple-judgments",
+        "label": "Several distinct judgments: believers' rewards (bema), living nations and Israel, and the Great White Throne",
+        "family": "multi-stage"
+      },
+      {
+        "code": "fulfilled-ad70-ongoing",
+        "label": "Judgment and resurrection fulfilled at AD 70, with individuals judged at death ever since",
+        "family": "realized"
+      }
+    ]
+  },
+  {
+    "id": "church-history",
+    "name": "Place in Church History",
+    "question": "Where does each view's historical weight lie: in which era did it arise, dominate or flourish?",
+    "description": "Every school claims historical roots, and each claim is debated. Early chiliasm (Papias, Justin, Irenaeus) is the strongest patristic witness for premillennialism. Augustine's reading of Revelation 20 (City of God XX) shaped the medieval and Reformation churches. Protestant historicism dominated from the Reformation to the mid-nineteenth century. Postmillennial hope flourished among Puritans, in the Great Awakening and at Old Princeton. Dispensationalism arose with J. N. Darby in the 1830s and spread through the Scofield Reference Bible. Systematic preterism and futurism both have early-modern origins, often linked to the Jesuits Alcázar and Ribera, and both have recent revivals. Antiquity is not proof, and proponents of newer views argue that they are recovering biblical teaching rather than inventing it.",
+    "stances": [
+      {
+        "code": "patristic-roots",
+        "label": "Patristic roots: strongest in the second-century fathers (Papias, Justin, Irenaeus)",
+        "family": "early-church"
+      },
+      {
+        "code": "patristic-then-revived",
+        "label": "Patristic seeds, systematised in the Counter-Reformation and revived in the nineteenth century",
+        "family": "early-church"
+      },
+      {
+        "code": "augustinian-dominant",
+        "label": "Augustinian-dominant: the majority view from Augustine through the Middle Ages and the Reformation",
+        "family": "majority-tradition"
+      },
+      {
+        "code": "reformation-dominant",
+        "label": "Reformation-dominant: the standard Protestant reading from the Reformers to the mid-nineteenth century",
+        "family": "majority-tradition"
+      },
+      {
+        "code": "puritan-flourishing",
+        "label": "Puritan flourishing: rose in the seventeenth century and dominated through the Awakenings and Old Princeton",
+        "family": "majority-tradition"
+      },
+      {
+        "code": "19th-century-rise",
+        "label": "Nineteenth-century rise: from Darby (1830s) and the Scofield Bible to twentieth-century evangelical dominance",
+        "family": "modern"
+      },
+      {
+        "code": "early-modern-revival",
+        "label": "Patristic AD 70 readings, systematised in the seventeenth century and revived since the 1980s",
+        "family": "modern"
+      },
+      {
+        "code": "recent-origin",
+        "label": "Recent: a nineteenth-century precursor (J. S. Russell) and a movement since the 1970s",
+        "family": "modern"
+      },
+      {
+        "code": "modern-scholarly-synthesis",
+        "label": "Modern scholarly synthesis: a late twentieth-century blend drawing on every older stream",
+        "family": "modern"
+      }
+    ]
+  }
+]
