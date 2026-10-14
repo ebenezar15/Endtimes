@@ -1,0 +1,2582 @@
+[
+  {
+    "chapter": 1,
+    "title": "The prologue and the vision of the risen Son of Man",
+    "section": "Prologue and inaugural vision",
+    "summary": "Revelation opens by naming itself a revelation of Jesus Christ given through an angel to John, with a blessing on those who read it aloud and keep it, because the time is near. A letter greeting from the eternal God, the sevenfold Spirit and Jesus Christ leads into a doxology and a prophetic announcement that Christ is coming with the clouds. John, exiled on Patmos, is caught up 'in the Spirit' on the Lord's day and sees the glorified Son of Man walking among seven golden lampstands, a figure combining Daniel's Son of Man and Ancient of Days. Christ commissions him to write what he sees to the seven churches and explains the stars and lampstands.",
+    "outline": [
+      {
+        "range": "1:1-3",
+        "heading": "Title, chain of revelation and first beatitude"
+      },
+      {
+        "range": "1:4-8",
+        "heading": "Letter greeting, doxology and the coming of Christ"
+      },
+      {
+        "range": "1:9-11",
+        "heading": "John on Patmos, in the Spirit on the Lord's day"
+      },
+      {
+        "range": "1:12-16",
+        "heading": "Vision of one like a Son of Man among the lampstands"
+      },
+      {
+        "range": "1:17-20",
+        "heading": "Fear, reassurance and commission; the mystery of stars and lampstands"
+      }
+    ],
+    "context": "Chapter 1 sets the frame for the whole book. Its opening words echo Daniel 2:28-29, where God reveals to Nebuchadnezzar 'what must happen in the latter days'; John's version, 'what must soon come to pass', is read by many as a deliberate claim that Daniel's latter days have begun. The chain of revelation (God, Christ, angel, John, servants) mirrors Jewish apocalypses, which use angelic mediators, but John writes in his own name, as a prophet, to real congregations. The greeting turns the divine name of Exodus 3:14 into a threefold title, the doxology applies Israel's calling as a kingdom of priests (Exodus 19:6) to those freed by Jesus' blood, and Revelation 1:7 fuses Daniel 7:13 with Zechariah 12:10. The inaugural vision is built from Daniel 7 and 10, Ezekiel 1 and 43, and Zechariah 4: Christ wears the priest's long robe and walks among the lampstands as a priest tending the temple lights, while bearing attributes that in Daniel belong to God himself.\n\nThe Greco-Roman backdrop is equally present. Patmos was a small island off Miletus with a Roman garrison, and banishment to an island (relegatio) was a common Roman penalty. Ephesus, Smyrna and Pergamum all competed for imperial temples, and emperors were hailed with titles of saviour, lord and son of god; Revelation's claims that Jesus is 'ruler of the kings of the earth' and holds the keys of Death and Hades confront that ideology. The seven stars in the right hand may evoke imperial coins on which a deified emperor's child or the emperor is shown with stars, and Hecate, a goddess honoured in Asia, was said to hold the keys of Hades. Each element of the vision is reused in the opening titles of the seven letters that follow.",
+    "symbols": [
+      {
+        "id": "r1-revelation-apokalypsis",
+        "phrase": "The revelation of Jesus Christ",
+        "ref": "Revelation 1:1",
+        "keywords": [
+          "revelation of jesus christ"
+        ],
+        "category": "title",
+        "jewish": "Greek apokalypsis translates the idea of God 'uncovering' secrets, as in Daniel 2:19-30 (Theodotion uses apokalyptō), where God 'reveals mysteries' about the latter days. Jewish apocalypses (1 Enoch, 4 Ezra, 2 Baruch) share this disclosure through visions and angels.",
+        "cultural": "In ordinary Greek the word meant unveiling or disclosure; it was not yet a technical name for a literary genre, a sense that later grew from this very book.",
+        "meaning": "The book is an unveiling that comes from Jesus Christ (given him by God) and also concerns him. Grammatically 'of Jesus Christ' can be subjective (Christ reveals) or objective (Christ revealed); most commentators think both are intended. It frames all that follows as divine disclosure, not human speculation.",
+        "readings": [],
+        "texts": [
+          "Daniel 2:28-29",
+          "Daniel 2:47",
+          "Galatians 1:12",
+          "1 Peter 1:7"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "r1-soon-time-near",
+        "phrase": "What must soon come to pass ... the time is near",
+        "ref": "Revelation 1:1, 1:3",
+        "keywords": [
+          "must soon come to pass",
+          "the time is near"
+        ],
+        "category": "time",
+        "jewish": "Daniel 2:28 (Septuagint) speaks of what must happen 'in the last days'; John substitutes 'soon'. Daniel 12:4 told Daniel to seal up the book until the time of the end, whereas John is told the time is near (Revelation 22:10). Prophets often announced the nearness of the day of the LORD (Joel 1:15; Zephaniah 1:14).",
+        "cultural": "",
+        "meaning": "John says the events revealed are imminent and pressing for the first hearers. How 'soon' and 'near' relate to events still unfulfilled is one of the most contested questions in the book, and the answer largely determines one's interpretive school.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The time words should be taken at face value: the bulk of the prophecy, especially the judgment on Jerusalem and the persecuting powers, was fulfilled within the first hearers' lifetime (AD 66–70, with Rome also in view). The same words bracket the book (Revelation 22:6, 10), so they govern its main content, though the final consummation in chapters 20–22 lies beyond."
+          },
+          {
+            "position": "full-preterism",
+            "reading": "'Soon' governs the entire book, including the Second Coming and new creation, so all of it was fulfilled by AD 70; proponents argue that any delay empties the time statements of meaning."
+          },
+          {
+            "position": "futurism",
+            "reading": "'Soon' can mean 'quickly' (suddenly once it begins) or reflect God's perspective in which a thousand years are as a day (2 Peter 3:8); the nearness is the imminence of the last days, which began with Christ and may culminate at any time."
+          },
+          {
+            "position": "idealism",
+            "reading": "The time is always near because the conflict John describes is constantly present; each generation lives at the threshold of the end, and the call to readiness applies to all."
+          },
+          {
+            "position": "eclectic",
+            "reading": "The latter days foretold in Daniel were inaugurated by Christ's death and resurrection (already), so the fulfilment has begun 'soon', while its consummation is still awaited (not yet)."
+          }
+        ],
+        "texts": [
+          "Daniel 2:28",
+          "Daniel 12:4",
+          "Revelation 22:6",
+          "Revelation 22:10",
+          "Mark 1:15",
+          "2 Peter 3:8-9"
+        ],
+        "sources": [
+          "gentry-before-jerusalem-fell",
+          "beale-revelation-nigtc",
+          "walvoord-revelation-jesus-christ",
+          "gregg-revelation-four-views"
+        ]
+      },
+      {
+        "id": "r1-blessed-reader",
+        "phrase": "Blessed is the one who reads aloud",
+        "ref": "Revelation 1:3",
+        "keywords": [
+          "blessed is the one who reads aloud"
+        ],
+        "category": "worship",
+        "jewish": "Public reading of Scripture was central to synagogue worship (Nehemiah 8:1-8; Luke 4:16-21; Acts 15:21). Beatitudes ('blessed is the one who...') are a wisdom form common in the Psalms (Psalm 1:1).",
+        "cultural": "Most people in the first century could not read; letters were read aloud to gathered households and assemblies (Colossians 4:16).",
+        "meaning": "This is the first of seven beatitudes in Revelation (1:3; 14:13; 16:15; 19:9; 20:6; 22:7; 22:14). It assumes the book will be read aloud in worship and pronounces blessing not on understanding alone but on hearing and keeping it, showing the book's practical, pastoral aim.",
+        "readings": [],
+        "texts": [
+          "Revelation 22:7",
+          "Psalm 1:1",
+          "Colossians 4:16",
+          "Luke 11:28"
+        ],
+        "sources": [
+          "bauckham-theology-revelation",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "r1-seven-churches-asia",
+        "phrase": "The seven churches in the province of Asia",
+        "ref": "Revelation 1:4, 1:11",
+        "keywords": [
+          "seven churches",
+          "province of asia"
+        ],
+        "category": "place",
+        "jewish": "Seven signals completeness from the creation week (Genesis 1–2:3). Old Testament prophets addressed nations and cities in series (Amos 1–2).",
+        "cultural": "Asia was the wealthy Roman province on the Aegean coast of modern Turkey, with Ephesus as its leading city. The seven cities lie on a circular road in the order a courier would follow from Ephesus.",
+        "meaning": "Seven literal congregations are addressed, but the number and the refrain 'to the churches' indicate that they also represent the whole church. The book was meant for all seven, and through them for others.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Some historicists and many older dispensationalists see the seven churches also as prophetic of seven successive eras of church history, from apostolic Ephesus to lukewarm modern Laodicea."
+          },
+          {
+            "position": "idealism",
+            "reading": "The seven stand for the universal church in every age, displaying the recurring strengths and failures of Christian communities."
+          }
+        ],
+        "texts": [
+          "Revelation 2:7",
+          "Acts 19:10",
+          "Colossians 4:13-16"
+        ],
+        "sources": [
+          "ramsay-letters-seven-churches",
+          "hemer-letters-seven-churches"
+        ]
+      },
+      {
+        "id": "r1-who-is-was-is-to-come",
+        "phrase": "Him who is and was and is to come",
+        "ref": "Revelation 1:4, 1:8",
+        "keywords": [
+          "who is and was and is to come"
+        ],
+        "category": "title",
+        "jewish": "An expansion of the divine name in Exodus 3:14 ('I AM WHO I AM'; Septuagint: 'I am the one who is'). Palestinian Targums on Exodus 3:14 and Deuteronomy 32:39 contain similar threefold paraphrases (the Targums are later, though they may preserve older traditions).",
+        "cultural": "Greeks applied 'was, is and will be' to Zeus (Pausanias 10.12.10) and to deities in inscriptions; John's version is distinctive because the third member is not 'will be' but 'is coming'.",
+        "meaning": "God is eternal and sovereign over past, present and future, but the future is expressed as his coming to set things right. John deliberately keeps the divine name grammatically unchanged after the preposition, a 'solecism' most scholars think is intentional reverence for the name.",
+        "readings": [],
+        "texts": [
+          "Exodus 3:14",
+          "Isaiah 41:4",
+          "Revelation 4:8",
+          "Revelation 11:17",
+          "Revelation 16:5"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "r1-seven-spirits",
+        "phrase": "The seven Spirits before His throne",
+        "ref": "Revelation 1:4",
+        "keywords": [
+          "seven spirits"
+        ],
+        "category": "person",
+        "jewish": "Zechariah 4:2-10 has a lampstand with seven lamps that are 'the eyes of the LORD ranging through all the earth' and the word 'not by might nor by power but by my Spirit'. Isaiah 11:2 (Septuagint) lists sevenfold gifts of the Spirit resting on the Messiah. Jewish texts also knew seven chief angels (Tobit 12:15; 1 Enoch 20).",
+        "cultural": "",
+        "meaning": "Placed between the Father and Jesus Christ in a Trinitarian-shaped greeting, the seven Spirits most likely represent the Holy Spirit in his fullness and active presence in all the churches (Revelation 4:5; 5:6). A minority view identifies them as seven archangels.",
+        "readings": [],
+        "texts": [
+          "Zechariah 4:2-10",
+          "Isaiah 11:2",
+          "Revelation 3:1",
+          "Revelation 4:5",
+          "Revelation 5:6"
+        ],
+        "sources": [
+          "bauckham-theology-revelation",
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "r1-faithful-witness-firstborn-ruler",
+        "phrase": "The faithful witness, the firstborn from the dead, and the ruler of the kings of the earth",
+        "ref": "Revelation 1:5",
+        "keywords": [
+          "faithful witness",
+          "firstborn from the dead",
+          "ruler of the kings of the earth"
+        ],
+        "category": "title",
+        "jewish": "Psalm 89:27 and 89:37 promise David's heir will be God's 'firstborn, the highest of the kings of the earth' and established like 'the faithful witness in the sky'. The three titles summarise Jesus' death (witness), resurrection (firstborn) and enthronement (ruler).",
+        "cultural": "Roman emperors claimed rule over client kings; John claims that the crucified and risen Jesus, not Caesar, rules the kings of the earth. 'Witness' (martys) later came to mean martyr, partly through this book.",
+        "meaning": "Jesus is the model of faithful testimony even to death, the first to rise in resurrection life, and the present king above all earthly kings. The titles set the pattern for the churches: to bear witness as he did and to share his victory.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Christ already reigns as ruler of the kings of the earth since his ascension, a present kingship that undergirds an expectation of the gospel's growing triumph in history."
+          },
+          {
+            "position": "futurism",
+            "reading": "Christ holds the title by right now, but its full public exercise over the nations awaits his return and earthly kingdom (Revelation 19–20)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The title assures persecuted believers in every age that the powers which oppress them are already subject to the risen Christ."
+          }
+        ],
+        "texts": [
+          "Psalm 89:27",
+          "Psalm 89:37",
+          "Colossians 1:18",
+          "1 Corinthians 15:20",
+          "Revelation 3:14",
+          "Revelation 19:16"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation",
+          "gentry-he-shall-have-dominion"
+        ]
+      },
+      {
+        "id": "r1-kingdom-priests",
+        "phrase": "A kingdom, priests to His God and Father",
+        "ref": "Revelation 1:6",
+        "keywords": [
+          "kingdom, priests"
+        ],
+        "category": "title",
+        "jewish": "Exodus 19:6 calls Israel, freed from Egypt, a 'kingdom of priests and a holy nation'. Isaiah 61:6 promises restored Israel will be called 'priests of the LORD'. The language also recalls the Passover deliverance by the blood of the lamb.",
+        "cultural": "",
+        "meaning": "By his blood Jesus has freed people and made them, now, a royal priesthood, the fulfilment of Israel's vocation. This is a present status (the verb is past tense), anticipating its fuller form in Revelation 5:10 and 20:6.",
+        "readings": [
+          {
+            "position": "amil",
+            "reading": "Believers already reign and serve as priests with Christ; the 'reign' of Revelation 20 describes this present heavenly and spiritual kingship."
+          },
+          {
+            "position": "disppremil",
+            "reading": "The church shares this priestly status, but it should not be merged with national Israel's distinct promises, which await a future literal kingdom."
+          },
+          {
+            "position": "postmil",
+            "reading": "The present kingship of the saints expresses itself in history as the gospel advances and Christ's rule extends through his people."
+          }
+        ],
+        "texts": [
+          "Exodus 19:6",
+          "Isaiah 61:6",
+          "1 Peter 2:9",
+          "Revelation 5:10",
+          "Revelation 20:6"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "walvoord-revelation-jesus-christ",
+          "gentry-he-shall-have-dominion"
+        ]
+      },
+      {
+        "id": "r1-coming-with-clouds",
+        "phrase": "He is coming with the clouds ... even those who pierced Him",
+        "ref": "Revelation 1:7",
+        "keywords": [
+          "coming with the clouds",
+          "pierced him",
+          "tribes of the earth"
+        ],
+        "category": "action",
+        "jewish": "Combines Daniel 7:13 (one like a son of man coming with the clouds of heaven to the Ancient of Days) and Zechariah 12:10-14 (the house of David and Jerusalem look on the one they pierced and mourn, tribe by tribe, 'the land' mourning). In the Old Testament, God 'rides on the clouds' in judgment (Isaiah 19:1; Psalm 104:3). Jesus combined the same texts in Matthew 24:30.",
+        "cultural": "",
+        "meaning": "A prophetic announcement of Christ's coming in power and judgment, seen by those responsible for his death. John widens Zechariah's mourning to 'all the tribes of the earth'. The Greek word ge can mean 'earth' or 'land' (of Israel), and whether the mourning is repentance or remorse is debated. Which coming is meant is a central dispute.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Primarily a coming in judgment on first-century Jerusalem (AD 70), on the generation that pierced him; 'tribes of the land' means the tribes of Israel, and 'clouds' is Old Testament language for divine judgment (Isaiah 19:1). Many add that it also foreshadows the final bodily return."
+          },
+          {
+            "position": "full-preterism",
+            "reading": "This is the one Second Coming, fulfilled in AD 70 in the destruction of Jerusalem; there is no further visible return."
+          },
+          {
+            "position": "futurism",
+            "reading": "The visible, personal Second Coming at the end of the tribulation, when every eye will literally see him; Zechariah 12 points to a future national repentance of Israel."
+          },
+          {
+            "position": "historicism",
+            "reading": "The final personal advent at the close of the prophetic history, the goal toward which all the seals, trumpets and vials move."
+          },
+          {
+            "position": "eclectic",
+            "reading": "The final, worldwide return of Christ (Revelation 19), while Daniel 7:13 also speaks of his enthronement already begun; the 'mourning' may include both repentance and judgment."
+          }
+        ],
+        "texts": [
+          "Daniel 7:13",
+          "Zechariah 12:10-14",
+          "Matthew 24:30",
+          "Matthew 26:64",
+          "John 19:37",
+          "Acts 1:9-11"
+        ],
+        "sources": [
+          "gentry-before-jerusalem-fell",
+          "chilton-days-vengeance",
+          "walvoord-revelation-jesus-christ",
+          "beale-revelation-nigtc",
+          "gregg-revelation-four-views"
+        ]
+      },
+      {
+        "id": "r1-alpha-and-omega",
+        "phrase": "I am the Alpha and the Omega ... the Almighty",
+        "ref": "Revelation 1:8",
+        "keywords": [
+          "alpha and the omega",
+          "the almighty"
+        ],
+        "category": "title",
+        "jewish": "Isaiah 41:4, 44:6 and 48:12: 'I am the first and I am the last.' Later rabbinic tradition said the Hebrew word for truth (emet) spans the first, middle and last letters of the alphabet, to show God is from beginning to end (Genesis Rabbah 81, later material). 'Almighty' (pantokratōr) is the Septuagint's rendering of 'LORD of hosts' and 'Shaddai'.",
+        "cultural": "Pantokratōr ('ruler of all') echoed and outbid claims of imperial power; the letters A and Ω had a use in Greek mystical texts as signs of totality.",
+        "meaning": "God is the source and goal of all history, sovereign over everything. Later in the book Jesus uses the same title (Revelation 22:13), placing him on the divine side of the line between Creator and creation, a key datum for New Testament Christology.",
+        "readings": [],
+        "texts": [
+          "Isaiah 44:6",
+          "Isaiah 48:12",
+          "Revelation 21:6",
+          "Revelation 22:13",
+          "Amos 4:13"
+        ],
+        "sources": [
+          "bauckham-theology-revelation",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r1-patmos",
+        "phrase": "On the island of Patmos",
+        "ref": "Revelation 1:9",
+        "keywords": [
+          "patmos"
+        ],
+        "category": "place",
+        "jewish": "Prophets often received visions in exile or by rivers away from the land (Ezekiel 1:1 by the Chebar; Daniel 10:4 by the Tigris).",
+        "cultural": "Patmos was a small rocky island about 60 km from Miletus, with a garrison, a temple of Artemis and a settled population; it was not a deserted penal colony. Roman governors could sentence people to relegation on islands. Victorinus (c. 260) says John was sentenced to labour in mines there under Domitian; the tradition is late but early in Christian memory.",
+        "meaning": "John is on Patmos 'because of the word of God and the testimony of Jesus', most naturally meaning exiled for his preaching, though some suggest he went there to preach. As a 'partner in the tribulation and kingdom and perseverance', he shares the churches' situation.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Banishment fits Nero's reign (c. 64–68) and a church entering 'the tribulation' of the 60s; later traditions placing the exile under Nero are cited in support."
+          },
+          {
+            "position": "futurism",
+            "reading": "Most futurists accept the Domitianic tradition (c. 95); John's tribulation is the general suffering of believers, distinct from the future Great Tribulation."
+          }
+        ],
+        "texts": [
+          "Revelation 6:9",
+          "Revelation 20:4",
+          "Ezekiel 1:1"
+        ],
+        "sources": [
+          "koester-revelation-ayb",
+          "gentry-before-jerusalem-fell",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "r1-tribulation-kingdom-perseverance",
+        "phrase": "Partner in the tribulation and kingdom and perseverance",
+        "ref": "Revelation 1:9",
+        "keywords": [
+          "tribulation and kingdom and perseverance"
+        ],
+        "category": "time",
+        "jewish": "Daniel 7:21-27 pictures the saints suffering under a hostile power yet receiving the kingdom. Jewish expectation linked the 'messianic woes' of distress with the arrival of the kingdom.",
+        "cultural": "",
+        "meaning": "One Greek article governs all three nouns, binding them together: believers share in Christ's kingdom now, in the midst of tribulation, and the way of the kingdom is patient endurance. This combination shapes the book's ethic.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "'The tribulation' is the specific great tribulation coming on that generation (Matthew 24:21), which John and his readers are entering."
+          },
+          {
+            "position": "futurism",
+            "reading": "John speaks of the ordinary tribulation of believers in this age, which is distinct from the future seven-year Tribulation described from chapter 6."
+          },
+          {
+            "position": "amil",
+            "reading": "Tribulation and kingdom are simultaneous throughout the church age: the saints reign while they suffer, which is the pattern of Revelation 20."
+          }
+        ],
+        "texts": [
+          "Daniel 7:21-27",
+          "Acts 14:22",
+          "2 Timothy 2:12",
+          "Matthew 24:21"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "gentry-before-jerusalem-fell",
+          "thomas-revelation-1-7"
+        ]
+      },
+      {
+        "id": "r1-lords-day",
+        "phrase": "On the Lord's day",
+        "ref": "Revelation 1:10",
+        "keywords": [
+          "lord’s day"
+        ],
+        "category": "time",
+        "jewish": "The prophets spoke of 'the day of the LORD', the coming day of judgment and salvation (Joel 2:31; Amos 5:18). The Sabbath was Israel's holy day.",
+        "cultural": "In Asia Minor some cities marked a monthly or annual 'Augustus' day' (Sebastē) in honour of the emperor; a Christian 'Lord's day' implicitly contrasts with it. Early Christian writers use 'Lord's day' (kyriakē hēmera) for Sunday, the resurrection day (Didache 14.1; Ignatius, Magnesians 9.1).",
+        "meaning": "Most interpreters take it as Sunday, the day of Christian worship; John receives his vision while the churches gather. A minority (including some futurists such as Seiss and E. W. Bullinger) understand it as 'the day of the Lord', meaning John is transported in vision into the eschatological day of judgment, but the Greek adjective differs from the Old Testament phrase.",
+        "readings": [],
+        "texts": [
+          "Acts 20:7",
+          "1 Corinthians 16:2",
+          "Joel 2:31",
+          "1 Corinthians 11:20"
+        ],
+        "sources": [
+          "aune-revelation-wbc",
+          "koester-revelation-ayb",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "r1-in-the-spirit",
+        "phrase": "I was in the Spirit ... a loud voice like a trumpet",
+        "ref": "Revelation 1:10",
+        "keywords": [
+          "in the spirit",
+          "voice like a trumpet"
+        ],
+        "category": "action",
+        "jewish": "Ezekiel is repeatedly lifted by the Spirit into visions (Ezekiel 2:2; 3:12-14; 11:1). A trumpet blast accompanied God's descent at Sinai (Exodus 19:16-19) and announces the day of the LORD (Joel 2:1; Zephaniah 1:16).",
+        "cultural": "",
+        "meaning": "John describes a prophetic visionary state under the Spirit's control. The phrase recurs at Revelation 4:2, 17:3 and 21:10, marking major sections. The trumpet-like voice signals a Sinai-like theophany: the voice is Christ's.",
+        "readings": [],
+        "texts": [
+          "Ezekiel 3:12",
+          "Exodus 19:16",
+          "Revelation 4:1-2",
+          "Revelation 17:3",
+          "Revelation 21:10"
+        ],
+        "sources": [
+          "bauckham-climax-prophecy",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r1-seven-golden-lampstands",
+        "phrase": "Seven golden lampstands",
+        "ref": "Revelation 1:12, 1:20",
+        "keywords": [
+          "seven golden lampstands",
+          "lampstands"
+        ],
+        "category": "object",
+        "jewish": "The tabernacle menorah was a single golden lampstand with seven lamps, tended daily by priests (Exodus 25:31-40; Leviticus 24:1-4). Zechariah 4 sees a golden lampstand with seven lamps fed by two olive trees, symbolising Israel's witness empowered by the Spirit. Solomon's temple had ten lampstands (1 Kings 7:49).",
+        "cultural": "Lamps and lampstands were common in homes and temples; the Arch of Titus in Rome (after 81) famously shows the temple menorah carried in triumph after 70.",
+        "meaning": "Christ himself interprets them as the seven churches (Revelation 1:20). The church is God's true temple, a light-bearer whose task is witness, and its light depends on Christ's presence and the Spirit. A lampstand can be removed (Revelation 2:5) if a church ceases to witness.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "With the earthly temple's lampstand about to be removed in AD 70, Christ shows that his churches are now the true lampstands of God's house."
+          },
+          {
+            "position": "futurism",
+            "reading": "The lampstands represent the local churches of the present age before the events of chapters 4–22, which follow the church's departure."
+          }
+        ],
+        "texts": [
+          "Exodus 25:31-40",
+          "Zechariah 4:2-6",
+          "Matthew 5:14-16",
+          "Revelation 2:5",
+          "Revelation 11:4"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-vengeance",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "r1-son-of-man",
+        "phrase": "One like the Son of Man",
+        "ref": "Revelation 1:13",
+        "keywords": [
+          "like the son of man"
+        ],
+        "category": "title",
+        "jewish": "From Daniel 7:13, the human-like figure who comes to the Ancient of Days and receives everlasting dominion, and Daniel 10:5-6, the radiant heavenly being by the Tigris. In 1 Enoch 37–71 (the Similitudes) a pre-existent 'Son of Man' sits on the throne of glory and judges; 4 Ezra 13 has a man rising from the sea and flying with the clouds.",
+        "cultural": "",
+        "meaning": "Jesus' favourite self-designation in the Gospels. The risen Christ is the Danielic Son of Man who has received the kingdom and now stands among his churches as Lord and judge.",
+        "readings": [],
+        "texts": [
+          "Daniel 7:13-14",
+          "Daniel 10:5-6",
+          "Mark 14:62",
+          "Revelation 14:14"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "collins-apocalyptic-imagination"
+        ]
+      },
+      {
+        "id": "r1-robe-golden-sash",
+        "phrase": "A long robe, with a golden sash around His chest",
+        "ref": "Revelation 1:13",
+        "keywords": [
+          "long robe",
+          "golden sash"
+        ],
+        "category": "object",
+        "jewish": "The high priest's robe reached to the feet (podērēs in the Septuagint of Exodus 28:4, 31 and Zechariah 3:4) and he wore a woven sash. Josephus (Antiquities 3.7.2) describes the priestly girdle wound high on the chest. Daniel 10:5 has a man clothed in linen with a belt of gold.",
+        "cultural": "Long robes also signified dignity for kings and magistrates.",
+        "meaning": "Christ appears as high priest (tending the lampstands) and as king. Some note the sash worn high at the chest rather than the waist signals rest from labour or majestic dignity, but the main point is priestly-royal glory.",
+        "readings": [],
+        "texts": [
+          "Exodus 28:4",
+          "Exodus 28:31",
+          "Daniel 10:5",
+          "Hebrews 4:14",
+          "Revelation 15:6"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "r1-hair-white-like-wool",
+        "phrase": "Hair white like wool, as white as snow",
+        "ref": "Revelation 1:14",
+        "keywords": [
+          "white like wool",
+          "white as snow"
+        ],
+        "category": "body",
+        "jewish": "In Daniel 7:9 the hair of the Ancient of Days is like pure wool and his garment white as snow. 1 Enoch 46:1 and 71:10 describe the 'Head of Days' with hair white as wool. Isaiah 1:18 uses snow and wool for cleansing.",
+        "cultural": "In the ancient world white hair signified age, honour and wisdom.",
+        "meaning": "John applies to the Son of Man an attribute of the Ancient of Days himself, identifying Christ with God's eternity, wisdom and purity. This fusion of Daniel's two figures is one of the boldest Christological moves in the New Testament.",
+        "readings": [],
+        "texts": [
+          "Daniel 7:9",
+          "Isaiah 1:18"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation"
+        ]
+      },
+      {
+        "id": "r1-eyes-blazing-fire",
+        "phrase": "His eyes were like a blazing fire",
+        "ref": "Revelation 1:14",
+        "keywords": [
+          "blazing fire"
+        ],
+        "category": "body",
+        "jewish": "Daniel 10:6: the heavenly man's eyes are like flaming torches. Fire is associated with God's holiness and judgment (Deuteronomy 4:24).",
+        "cultural": "",
+        "meaning": "Christ's piercing sight sees all and judges truly. The image returns for Thyatira (Revelation 2:18, 2:23: he searches minds and hearts) and for the rider on the white horse (Revelation 19:12).",
+        "readings": [],
+        "texts": [
+          "Daniel 10:6",
+          "Revelation 2:18",
+          "Revelation 19:12",
+          "Hebrews 4:13"
+        ],
+        "sources": [
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r1-feet-polished-bronze",
+        "phrase": "Feet like polished bronze refined in a furnace",
+        "ref": "Revelation 1:15",
+        "keywords": [
+          "polished bronze"
+        ],
+        "category": "body",
+        "jewish": "Daniel 10:6 (arms and legs like burnished bronze) and Ezekiel 1:7 (the living creatures' feet gleaming like burnished bronze). The 'furnace' may echo Daniel 3, where a divine figure walks in the fiery furnace.",
+        "cultural": "The rare Greek word chalkolibanon is otherwise unknown; Hemer argues it denotes a fine alloy produced by Thyatira's bronze-working guild, which explains why the image heads the Thyatira letter (Revelation 2:18).",
+        "meaning": "Strength, stability, purity and the power to trample enemies; Christ stands firm and treads down evil.",
+        "readings": [],
+        "texts": [
+          "Daniel 10:6",
+          "Ezekiel 1:7",
+          "Revelation 2:18"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r1-voice-many-waters",
+        "phrase": "His voice was like the roar of many waters",
+        "ref": "Revelation 1:15",
+        "keywords": [
+          "many waters"
+        ],
+        "category": "body",
+        "jewish": "Ezekiel 43:2: the glory of the God of Israel came, and his voice was like the sound of many waters; compare Ezekiel 1:24 and Daniel 10:6 (voice like the sound of a multitude).",
+        "cultural": "",
+        "meaning": "Christ's voice carries the overwhelming majesty of God's own voice. In Ezekiel 43 this voice accompanies God's glory returning to the temple, suggesting Christ's presence among the churches is the glory's return to God's house.",
+        "readings": [],
+        "texts": [
+          "Ezekiel 43:2",
+          "Ezekiel 1:24",
+          "Revelation 14:2",
+          "Revelation 19:6"
+        ],
+        "sources": [
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r1-seven-stars-right-hand",
+        "phrase": "In His right hand seven stars",
+        "ref": "Revelation 1:16, 1:20",
+        "keywords": [
+          "seven stars",
+          "right hand"
+        ],
+        "category": "object",
+        "jewish": "Stars stand for angels and heavenly beings (Job 38:7; Daniel 8:10; 12:3; 1 Enoch 86). The right hand is the place of power and protection (Psalm 110:1; Isaiah 41:10).",
+        "cultural": "The seven planets (sun, moon and five visible planets) symbolised cosmic rule. A Roman coin of Domitian shows his deceased infant son as a divine child seated on a globe surrounded by seven stars, an image of imperial world-dominion (the coin is post-82, so its relevance depends on dating). Mithraic and astrological imagery also linked seven stars with sovereignty.",
+        "meaning": "Christ, not the emperor or the stars of fate, holds cosmic sovereignty and holds the churches' 'angels' securely in his hand. The stars are interpreted as the angels of the churches (see 'angels of the seven churches').",
+        "readings": [],
+        "texts": [
+          "Daniel 12:3",
+          "Job 38:7",
+          "Revelation 2:1",
+          "Revelation 3:1"
+        ],
+        "sources": [
+          "aune-revelation-wbc",
+          "koester-revelation-ayb",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r1-sharp-double-edged-sword",
+        "phrase": "A sharp double-edged sword came from His mouth",
+        "ref": "Revelation 1:16",
+        "keywords": [
+          "sharp double-edged sword",
+          "from his mouth"
+        ],
+        "category": "object",
+        "jewish": "Isaiah 49:2: the Servant's mouth is made 'like a sharp sword'; Isaiah 11:4: the Messiah strikes the earth with the rod of his mouth and slays the wicked with the breath of his lips. Wisdom of Solomon 18:15-16 pictures God's word as a stern warrior with a sharp sword. 4 Ezra 13:10 has the messianic man destroy enemies with a stream of fire from his mouth.",
+        "cultural": "The sword (Latin ius gladii, 'right of the sword') symbolised a Roman governor's power of capital punishment, held by the proconsul of Asia, who held assizes in Pergamum among other cities. The Greek rhomphaia was a long Thracian sword.",
+        "meaning": "Christ's judging and conquering word. His power is exercised by speech, not by military force, and it cuts both ways: it defends his people and judges unfaithful members of his church (Revelation 2:12, 2:16) as well as his enemies (Revelation 19:15, 19:21).",
+        "readings": [
+          {
+            "position": "postmil",
+            "reading": "The sword from the mouth signals that Christ conquers the nations through the preached word, a picture of the gospel's progressive triumph in history."
+          },
+          {
+            "position": "disppremil",
+            "reading": "The sword's ultimate use is the literal judgment of the nations at Christ's return (Revelation 19:15), preceding his millennial reign."
+          }
+        ],
+        "texts": [
+          "Isaiah 49:2",
+          "Isaiah 11:4",
+          "Hebrews 4:12",
+          "Ephesians 6:17",
+          "Revelation 2:12",
+          "Revelation 19:15"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "hemer-letters-seven-churches",
+          "gentry-he-shall-have-dominion",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "r1-face-like-sun",
+        "phrase": "His face was like the sun shining at its brightest",
+        "ref": "Revelation 1:16",
+        "keywords": [
+          "face was like the sun"
+        ],
+        "category": "body",
+        "jewish": "Judges 5:31 (those who love the LORD are like the sun rising in strength); Daniel 10:6 (face like lightning); the Transfiguration (Matthew 17:2). Moses' face shone after meeting God (Exodus 34:29-35).",
+        "cultural": "Emperors were associated with the sun god (Sol, Helios), and Nero had himself portrayed with a radiate crown.",
+        "meaning": "Unbearable divine glory. John sees in Christ the glory once seen on the mountain of Transfiguration, and the effect is overwhelming.",
+        "readings": [],
+        "texts": [
+          "Judges 5:31",
+          "Matthew 17:2",
+          "Exodus 34:29-35",
+          "Revelation 10:1"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "r1-fell-as-dead",
+        "phrase": "I fell at His feet like a dead man ... Do not be afraid",
+        "ref": "Revelation 1:17",
+        "keywords": [
+          "fell at his feet",
+          "do not be afraid"
+        ],
+        "category": "action",
+        "jewish": "The classic response to theophany: Ezekiel falls on his face (Ezekiel 1:28); Daniel falls into a deep sleep and is touched and raised by the heavenly figure, who says 'do not fear' (Daniel 8:17-18; 10:9-12).",
+        "cultural": "",
+        "meaning": "Christ's touch and word of comfort reverse the terror of his holiness. The pattern of fear, touch and reassurance follows Daniel 10 closely, and it is the pastoral heart of the vision: the one who terrifies is the one who comforts.",
+        "readings": [],
+        "texts": [
+          "Daniel 10:9-12",
+          "Ezekiel 1:28",
+          "Isaiah 6:5",
+          "Matthew 17:6-7"
+        ],
+        "sources": [
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r1-first-and-last-living-one",
+        "phrase": "I am the First and the Last, the Living One. I was dead, and behold, now I am alive",
+        "ref": "Revelation 1:17-18",
+        "keywords": [
+          "first and the last",
+          "the living one"
+        ],
+        "category": "title",
+        "jewish": "Isaiah 44:6 and 48:12 ('I am the first and I am the last; besides me there is no god'). 'The living God' is a standard Old Testament title (Deuteronomy 5:26; Daniel 6:26).",
+        "cultural": "",
+        "meaning": "Christ claims the exclusive divine title of Isaiah's polemic against idols and grounds it in his death and resurrection. He who lives forever experienced death and conquered it.",
+        "readings": [],
+        "texts": [
+          "Isaiah 44:6",
+          "Isaiah 48:12",
+          "Revelation 2:8",
+          "Revelation 22:13",
+          "Romans 6:9"
+        ],
+        "sources": [
+          "bauckham-theology-revelation",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r1-keys-death-hades",
+        "phrase": "I hold the keys of Death and of Hades",
+        "ref": "Revelation 1:18",
+        "keywords": [
+          "keys of death and of hades"
+        ],
+        "category": "object",
+        "jewish": "In Jewish thought God alone holds the keys to life, death and the grave (later rabbinic tradition, e.g. Babylonian Talmud Taanit 2a, lists the key of resurrection as one God does not delegate). Hades translates Sheol, the realm of the dead (Isaiah 38:10 speaks of the gates of Sheol). Wisdom of Solomon 16:13 says God leads down to the gates of Hades and back.",
+        "cultural": "In Greco-Roman religion the goddess Hecate, honoured widely in Asia Minor, was credited with holding the keys of Hades; Aeacus was the gatekeeper. Christ displaces these claims.",
+        "meaning": "Having been dead and risen, Christ has authority over death and the realm of the dead; believers facing martyrdom need not fear, because he can open death's prison.",
+        "readings": [],
+        "texts": [
+          "Isaiah 38:10",
+          "Matthew 16:18",
+          "Hebrews 2:14-15",
+          "Revelation 6:8",
+          "Revelation 20:13-14"
+        ],
+        "sources": [
+          "aune-revelation-wbc",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r1-things-seen-are-after",
+        "phrase": "The things you have seen, and the things that are, and the things that will happen after this",
+        "ref": "Revelation 1:19",
+        "keywords": [
+          "things you have seen",
+          "things that are",
+          "after this"
+        ],
+        "category": "time",
+        "jewish": "Daniel 2:28-29 and 2:45 (Septuagint/Theodotion): God has made known 'what must happen after these things'. The phrase ties Revelation's visions to Daniel's latter days.",
+        "cultural": "Greek writers sometimes described prophetic knowledge as of past, present and future (a formula also applied to seers like Calchas in Homer).",
+        "meaning": "A commission to write the whole vision. Whether the verse is a three-part outline of the book or a general description of its present-and-future scope is debated.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "A divinely given outline: chapter 1 (what John has seen), chapters 2–3 (the present church age) and chapters 4–22 (events after the church age, beginning with 'after this' in Revelation 4:1)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "The 'things after this' are events soon to unfold in the first century, not a distant future; the formula marks imminence, not a long gap."
+          },
+          {
+            "position": "idealism",
+            "reading": "The phrase describes the nature of the visions, which interpret the present and the future together; it is not a chronological table of contents."
+          },
+          {
+            "position": "eclectic",
+            "reading": "A Danielic formula meaning the vision concerns the latter days now inaugurated; present and future are mixed throughout the book (Beale)."
+          }
+        ],
+        "texts": [
+          "Daniel 2:28-29",
+          "Daniel 2:45",
+          "Revelation 4:1"
+        ],
+        "sources": [
+          "walvoord-revelation-jesus-christ",
+          "thomas-revelation-1-7",
+          "beale-revelation-nigtc",
+          "gregg-revelation-four-views"
+        ]
+      },
+      {
+        "id": "r1-angels-of-churches",
+        "phrase": "The seven stars are the angels of the seven churches",
+        "ref": "Revelation 1:20",
+        "keywords": [
+          "angels of the seven churches",
+          "mystery"
+        ],
+        "category": "person",
+        "jewish": "Daniel 10:13, 20-21 assigns heavenly 'princes' (angels) to nations; Deuteronomy 32:8 (Septuagint) speaks of nations allotted to angels. Jews believed angels were present in worship (Qumran texts; 1 Corinthians 11:10). Malachi 2:7 calls a priest the 'messenger' (angelos) of the LORD.",
+        "cultural": "Angelos also meant simply 'messenger' or envoy.",
+        "meaning": "Each letter is addressed to the church's 'angel'. Proposed meanings: guardian angels representing the churches in heaven (most common), human leaders or bishops, human messengers carrying the letters, or a personification of each church's spirit. 'Mystery' indicates a hidden truth now explained.",
+        "readings": [],
+        "texts": [
+          "Daniel 10:13",
+          "Daniel 10:20-21",
+          "Malachi 2:7",
+          "Revelation 2:1"
+        ],
+        "sources": [
+          "aune-revelation-wbc",
+          "beale-revelation-nigtc",
+          "koester-revelation-ayb"
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "Chapter 1 announces judgments that are 'soon' and a coming with the clouds upon those who pierced Christ, which Gentry and Chilton read as Christ's judgment-coming on Jerusalem in AD 70. Christ appears as the true high priest in the true temple (the church) as the old temple order is about to end. The future bodily return is affirmed elsewhere in Scripture and in the book's closing chapters."
+      },
+      {
+        "position": "full-preterism",
+        "reading": "The time statements and the coming of Revelation 1:7 refer to the one Parousia, fulfilled in AD 70; the whole book is therefore past. Critics note this sets aside the historic creeds' future return; proponents answer that the creeds must yield to the plain time texts."
+      },
+      {
+        "position": "historicism",
+        "reading": "The prologue introduces a prophecy that will unfold through the whole history of the church from John's day to the Second Advent; the seven churches may also foreshadow the course of church history."
+      },
+      {
+        "position": "futurism",
+        "reading": "Chapter 1 reveals the glorified Christ who commissions John. Revelation 1:19 gives the book's outline: the present church age (chapters 2–3) and future events (chapters 4–22), culminating in the visible return announced in 1:7."
+      },
+      {
+        "position": "idealism",
+        "reading": "The vision portrays Christ's permanent presence among his suffering churches as priest, king and judge. Its message for every age: the risen Lord, not the powers of the world, holds history, death and the churches in his hand."
+      },
+      {
+        "position": "eclectic",
+        "reading": "The latter days of Daniel have begun with Christ's resurrection; the vision reveals his present reign and priestly care and points to a future consummation (Beale's 'already and not yet')."
+      }
+    ],
+    "questions": [
+      "Revelation 1 fuses Daniel's 'Son of Man' with the 'Ancient of Days'. What does this suggest about who Jesus is?",
+      "How should the words 'soon' and 'near' (Revelation 1:1, 1:3) shape how we read the rest of the book?",
+      "John calls himself a partner in 'tribulation and kingdom and perseverance'. How do these three belong together in the Christian life?",
+      "Why might it matter to churches under imperial pressure that Christ holds the seven stars and the keys of Death and Hades?",
+      "What does the image of the church as a lampstand say about its purpose?"
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "bauckham-theology-revelation",
+      "gregg-revelation-four-views",
+      "gentry-before-jerusalem-fell",
+      "walvoord-revelation-jesus-christ",
+      "aune-revelation-wbc",
+      "koester-revelation-ayb"
+    ]
+  },
+  {
+    "chapter": 2,
+    "title": "Letters to Ephesus, Smyrna, Pergamum and Thyatira",
+    "section": "The seven messages to the churches",
+    "summary": "The first four of the seven messages follow a common pattern: a command to write to the church's angel, a title of Christ drawn from the vision of chapter 1, 'I know your deeds', praise and/or rebuke, a call to repent or endure, the refrain 'he who has an ear', and a promise to the one who overcomes. Ephesus is orthodox and hard-working but has abandoned its first love. Smyrna, poor and slandered, receives no rebuke and is told to be faithful unto death. Pergamum, living where Satan's throne is, has held firm under persecution but tolerates the teaching of Balaam and the Nicolaitans. Thyatira is growing in love and service but tolerates the prophetess 'Jezebel' who encourages idolatry and immorality.",
+    "outline": [
+      {
+        "range": "2:1-7",
+        "heading": "Ephesus: labour without love"
+      },
+      {
+        "range": "2:8-11",
+        "heading": "Smyrna: poor but rich, faithful unto death"
+      },
+      {
+        "range": "2:12-17",
+        "heading": "Pergamum: faithful at Satan's throne but compromised"
+      },
+      {
+        "range": "2:18-29",
+        "heading": "Thyatira: growing love, tolerated Jezebel"
+      }
+    ],
+    "context": "The seven messages resemble both prophetic oracles (such as Amos 1–2, oracles introduced by 'thus says the LORD', here 'these are the words of', a Septuagint formula for prophetic speech) and royal or imperial edicts, which opened by naming the ruler, praised loyalty and issued commands. Some scholars think the form deliberately mirrors imperial decrees, presenting Christ as the true sovereign. Each message is addressed to one church but the refrain says it is what the Spirit says to the churches, so all seven were heard by all.\n\nThe main pressures are visible in this chapter. Externally, Christians faced the civic religion of their cities: the imperial cult (strongest at Pergamum and Smyrna), the patron gods of trade guilds (Thyatira), and accusation by hostile neighbours, including members of local synagogues who, John says, slander the believers (Smyrna). Internally, teachers labelled Nicolaitans, Balaam and Jezebel argued, apparently, that Christians could eat food offered to idols and take part in pagan banquets without harm, an accommodation that would ease economic and social life. The issue echoes the debate in 1 Corinthians 8–10 and the Jerusalem decree of Acts 15:20, 29. The local allusions identified by Ramsay and Hemer (Ephesus' tree-shrine of Artemis, Smyrna's 'crown' and refounding, Pergamum's altar and imperial temple, Thyatira's bronze-smiths and guilds) show how carefully each message addresses its city.",
+    "symbols": [
+      {
+        "id": "r2-walks-among-lampstands",
+        "phrase": "Him who holds the seven stars ... and walks among the seven golden lampstands",
+        "ref": "Revelation 2:1",
+        "keywords": [
+          "walks among the seven golden lampstands"
+        ],
+        "category": "title",
+        "jewish": "God 'walked' among Israel in the tabernacle camp (Leviticus 26:11-12; Deuteronomy 23:14). Priests tended and trimmed the menorah daily (Exodus 27:20-21).",
+        "cultural": "Ephesus was the leading city and assize centre of Asia, the first stop on the courier route.",
+        "meaning": "Christ is present among and inspecting his churches, as a priest tends the lamps; this prepares for the warning that he can remove Ephesus' lampstand.",
+        "readings": [],
+        "texts": [
+          "Leviticus 26:11-12",
+          "Revelation 1:13",
+          "Revelation 1:20"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "hemer-letters-seven-churches"
+        ]
+      },
+      {
+        "id": "r2-i-know-your-deeds",
+        "phrase": "I know your deeds",
+        "ref": "Revelation 2:2, 2:9, 2:13, 2:19",
+        "keywords": [
+          "i know your deeds"
+        ],
+        "category": "action",
+        "jewish": "God knows and weighs deeds (Psalm 139:1-4; Jeremiah 17:10). Prophetic oracles open with God's knowledge of the people's ways (Hosea 5:3; Amos 5:12).",
+        "cultural": "",
+        "meaning": "A formula in every message: Christ's assessment is based on full knowledge of each church's conduct and circumstances. It brings both comfort (he knows their suffering) and warning (he knows their compromise).",
+        "readings": [],
+        "texts": [
+          "Jeremiah 17:10",
+          "Psalm 139:1-4",
+          "Revelation 3:1",
+          "Revelation 3:15"
+        ],
+        "sources": [
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r2-false-apostles",
+        "phrase": "Those who falsely claim to be apostles",
+        "ref": "Revelation 2:2",
+        "keywords": [
+          "claim to be apostles"
+        ],
+        "category": "person",
+        "jewish": "Deuteronomy 13:1-5 and 18:20-22 required Israel to test prophets. Jeremiah 23 condemns prophets who were not sent.",
+        "cultural": "Itinerant teachers and philosophers travelled the Roman roads and relied on hospitality; the Didache (11–12) gives rules for testing travelling apostles and prophets.",
+        "meaning": "Ephesus examined itinerant teachers and exposed impostors, fulfilling Paul's warning to the Ephesian elders about wolves (Acts 20:29-30). Orthodoxy and discernment are commended.",
+        "readings": [],
+        "texts": [
+          "Acts 20:29-31",
+          "2 Corinthians 11:13",
+          "1 John 4:1",
+          "Deuteronomy 13:1-5"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "r2-first-love",
+        "phrase": "You have abandoned your first love",
+        "ref": "Revelation 2:4",
+        "keywords": [
+          "first love"
+        ],
+        "category": "action",
+        "jewish": "Jeremiah 2:2 recalls Israel's early devotion to God 'like a bride' in the wilderness; Hosea 2 calls her back to the love of her youth.",
+        "cultural": "",
+        "meaning": "Ephesus has lost the love it had at first, whether love for Christ, love for one another, or (as Beale argues) the zeal of loving witness to the world. Many see these as connected: a church can be doctrinally vigilant yet cold.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "In the church-age scheme, Ephesus represents the apostolic church of the late first century, sound in doctrine but already declining in fervour."
+          },
+          {
+            "position": "idealism",
+            "reading": "A perennial danger for orthodox churches: doctrinal vigilance can crowd out the love that gives it meaning."
+          }
+        ],
+        "texts": [
+          "Jeremiah 2:2",
+          "Matthew 24:12",
+          "Ephesians 1:15",
+          "1 John 4:7-11"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "scofield-reference-bible",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "r2-remove-lampstand",
+        "phrase": "I will come to you and remove your lampstand",
+        "ref": "Revelation 2:5",
+        "keywords": [
+          "remove your lampstand"
+        ],
+        "category": "action",
+        "jewish": "God removed his presence from an unfaithful sanctuary (Ezekiel 10, the glory leaving the temple; Jeremiah 7:12-14, the fate of Shiloh).",
+        "cultural": "Ephesus had a long history of shifting location: its harbour silted up and the city had been moved more than once (under Lysimachus, c. 287 BC). Hemer and Ramsay see an allusion to a city whose site could change.",
+        "meaning": "A conditional coming of Christ in judgment on one congregation: unless it repents, it will cease to be a true church and witness. Most interpreters see this as a historical, local 'coming', not the final Second Coming.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "An example of Christ's 'comings' in historical judgment, which supports reading other comings in Revelation as covenantal judgments within history."
+          },
+          {
+            "position": "futurism",
+            "reading": "A conditional, local visitation in discipline, distinct from the future Second Coming."
+          }
+        ],
+        "texts": [
+          "Jeremiah 7:12-14",
+          "Ezekiel 10:18-19",
+          "Revelation 2:16",
+          "Revelation 3:3"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "ramsay-letters-seven-churches",
+          "gentry-before-jerusalem-fell"
+        ]
+      },
+      {
+        "id": "r2-nicolaitans",
+        "phrase": "The works of the Nicolaitans",
+        "ref": "Revelation 2:6, 2:15",
+        "keywords": [
+          "nicolaitans"
+        ],
+        "category": "person",
+        "jewish": "The name may be a Greek equivalent of 'Balaam': Nikolaos means 'conqueror of the people', and a later rabbinic etymology took Balaam as 'he swallowed the people' (Babylonian Talmud Sanhedrin 105a; later). Revelation 2:14-15 links the two.",
+        "cultural": "Irenaeus (Against Heresies 1.26.3) and Hippolytus say the sect followed Nicolaus of Antioch, one of the seven deacons (Acts 6:5), and lived indulgently; Clement of Alexandria defends Nicolaus personally. The connection is uncertain.",
+        "meaning": "An otherwise unknown group, apparently teaching that Christians could eat idol-food and join pagan feasts and sexual practices. Christ 'hates' their works, a strong word showing the seriousness of compromise with idolatry.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Some historicists and older dispensationalists read the name as 'conquering the laity', an early form of clerical domination that grew into priestly hierarchy."
+          }
+        ],
+        "texts": [
+          "Acts 6:5",
+          "Revelation 2:14-15",
+          "1 Corinthians 10:14-22"
+        ],
+        "sources": [
+          "aune-revelation-wbc",
+          "hemer-letters-seven-churches",
+          "irenaeus-against-heresies"
+        ]
+      },
+      {
+        "id": "r2-he-who-has-an-ear",
+        "phrase": "He who has an ear, let him hear what the Spirit says to the churches",
+        "ref": "Revelation 2:7, 2:11, 2:17, 2:29",
+        "keywords": [
+          "he who has an ear",
+          "spirit says to the churches"
+        ],
+        "category": "worship",
+        "jewish": "Echoes Isaiah 6:9-10 and Ezekiel 3:27 ('he who hears, let him hear'), prophetic formulas that expose spiritual deafness; Jesus used it after his parables (Mark 4:9, 23).",
+        "cultural": "",
+        "meaning": "Each message is the Spirit's word to all the churches, not one alone. The formula also signals that the message, like a parable, must be heard with spiritual perception.",
+        "readings": [],
+        "texts": [
+          "Isaiah 6:9-10",
+          "Ezekiel 3:27",
+          "Mark 4:9",
+          "Revelation 13:9"
+        ],
+        "sources": [
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r2-overcomer",
+        "phrase": "To the one who overcomes",
+        "ref": "Revelation 2:7, 2:11, 2:17, 2:26",
+        "keywords": [
+          "the one who overcomes"
+        ],
+        "category": "action",
+        "jewish": "Victory language from holy war traditions (the War Scroll at Qumran speaks of the sons of light conquering); Daniel 7 has the saints ultimately receiving the kingdom.",
+        "cultural": "'Victory' (nikē) was a key word in imperial propaganda; Nike was a goddess, emperors celebrated victories, and athletes were crowned as victors at games in all these cities.",
+        "meaning": "Overcoming (nikaō) means remaining faithful to Christ to the end, even through death, following the Lamb who conquered by being slain (Revelation 5:5-6; 12:11). The promises to overcomers anticipate the new creation of chapters 21–22.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "Some dispensationalists hold that every genuine believer overcomes (1 John 5:4-5); others (such as Zane Hodges' 'free grace' school) see overcomers as a subset receiving special rewards."
+          },
+          {
+            "position": "idealism",
+            "reading": "Overcoming is the calling of every believer in every age, achieved through faithful witness rather than worldly power."
+          }
+        ],
+        "texts": [
+          "1 John 5:4-5",
+          "Revelation 3:21",
+          "Revelation 12:11",
+          "Revelation 21:7"
+        ],
+        "sources": [
+          "bauckham-theology-revelation",
+          "beale-revelation-nigtc",
+          "thomas-revelation-1-7"
+        ]
+      },
+      {
+        "id": "r2-tree-of-life-paradise",
+        "phrase": "The tree of life in the Paradise of God",
+        "ref": "Revelation 2:7",
+        "keywords": [
+          "tree of life",
+          "paradise of god"
+        ],
+        "category": "object",
+        "jewish": "The tree of life in Eden (Genesis 2:9; 3:22-24), lost through sin. Ezekiel 47:12 pictures life-giving trees by the temple river. 1 Enoch 24–25 and the Testament of Levi 18:10-11 promise the righteous will eat from the tree of life; 'paradise' (from Persian for a walled garden) became the name for the restored Eden.",
+        "cultural": "The Temple of Artemis at Ephesus originated, according to local tradition, at a sacred tree shrine and was a place of asylum; coins of Ephesus depict a date-palm. Hemer argues the promise contrasts Christ's paradise with Artemis' sanctuary.",
+        "meaning": "The overcomer is restored to Eden's life with God, fulfilled in Revelation 22:2, 14. What Adam lost, Christ gives.",
+        "readings": [],
+        "texts": [
+          "Genesis 2:9",
+          "Genesis 3:22-24",
+          "Ezekiel 47:12",
+          "Revelation 22:2",
+          "Luke 23:43"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r2-died-and-returned-to-life",
+        "phrase": "The First and the Last, who died and returned to life",
+        "ref": "Revelation 2:8",
+        "keywords": [
+          "died and returned to life"
+        ],
+        "category": "title",
+        "jewish": "Isaiah 44:6; 48:12, applied to Christ as in Revelation 1:17-18.",
+        "cultural": "Smyrna was destroyed by the Lydians around 600 BC and lay largely abandoned for centuries before being refounded under Alexander's successors (c. 290 BC); ancient writers spoke of the city that had 'died' and lived again. Smyrna also claimed to be 'first' of Asia in beauty, rivalling Ephesus and Pergamum.",
+        "meaning": "The Christ who conquered death addresses a church facing possible death; his resurrection is the ground of their hope.",
+        "readings": [],
+        "texts": [
+          "Isaiah 44:6",
+          "Revelation 1:17-18"
+        ],
+        "sources": [
+          "ramsay-letters-seven-churches",
+          "hemer-letters-seven-churches"
+        ]
+      },
+      {
+        "id": "r2-poverty-rich",
+        "phrase": "Your affliction and your poverty—though you are rich!",
+        "ref": "Revelation 2:9",
+        "keywords": [
+          "affliction and your poverty",
+          "you are rich"
+        ],
+        "category": "action",
+        "jewish": "The 'poor' (anawim) in the Psalms and prophets are the faithful oppressed (Psalm 37:11; Isaiah 61:1). James 2:5 says God chose the poor to be rich in faith.",
+        "cultural": "Smyrna was a wealthy port. Christians who refused guild feasts and civic religion could be excluded from trade, and their property could be seized (Hebrews 10:34).",
+        "meaning": "Smyrna's believers were materially poor, probably through economic exclusion or plunder, yet spiritually rich. The contrast is the mirror of Laodicea (Revelation 3:17).",
+        "readings": [],
+        "texts": [
+          "James 2:5",
+          "2 Corinthians 6:10",
+          "Hebrews 10:34",
+          "Revelation 3:17"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "r2-synagogue-of-satan",
+        "phrase": "Those who falsely claim to be Jews, but are in fact a synagogue of Satan",
+        "ref": "Revelation 2:9; 3:9",
+        "keywords": [
+          "synagogue of satan",
+          "claim to be jews"
+        ],
+        "category": "place",
+        "jewish": "Satan means 'accuser' (Job 1–2; Zechariah 3:1). Intra-Jewish polemic used similar language: the Qumran community called its opponents a 'congregation of Belial' (1QH 2.22; 1QM). Paul defined the true Jew by the heart (Romans 2:28-29).",
+        "cultural": "Smyrna had a significant Jewish community. Judaism had recognised status in Roman law, while Christians, once distinguished from Jews, were exposed; denunciation could lead to trial. The Martyrdom of Polycarp (12–13, c. 155) reports Jews in Smyrna joining the crowd against Polycarp (historians debate this account).",
+        "meaning": "John, himself a Jew, denies the title 'Jews' to members of a local synagogue who slander (blasphēmia) the Christians, likely by denouncing them to the authorities, and so act as the accuser's agents. It is an intra-Jewish prophetic polemic about who are God's true people, not a statement about Jews in general; interpreters across all schools stress that the text must not be used to justify antisemitism.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Part of the book's indictment of first-century Jewish opponents of the church, which culminates in the judgment on Jerusalem; it shows that the true Israel is now the community of Messiah's followers."
+          },
+          {
+            "position": "futurism",
+            "reading": "A local first-century conflict; dispensationalists stress that it does not cancel God's future purpose for national Israel."
+          },
+          {
+            "position": "idealism",
+            "reading": "Applies to any religious community that claims God's name while opposing his people; the true people of God are defined by allegiance to Christ."
+          }
+        ],
+        "texts": [
+          "Romans 2:28-29",
+          "John 8:44",
+          "Revelation 3:9",
+          "Zechariah 3:1"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "chilton-days-vengeance",
+          "koester-revelation-ayb",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "r2-prison-ten-days",
+        "phrase": "Throw some of you into prison ... tribulation for ten days",
+        "ref": "Revelation 2:10",
+        "keywords": [
+          "into prison",
+          "ten days"
+        ],
+        "category": "time",
+        "jewish": "Daniel 1:12-15: Daniel and his friends are tested for ten days and remain faithful regarding the king's food, a striking parallel since the issue in Asia is food offered to idols. Ten is a round number for a limited period (Genesis 24:55).",
+        "cultural": "Roman prisons usually held people awaiting trial or execution, not long sentences; prison often preceded death. Gladiatorial games, which Smyrna hosted, lasted a set number of days.",
+        "meaning": "A brief, limited, but real ordeal, permitted by God for testing and instigated by the devil. Its limit assures the church that suffering is bounded.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Some historicists see the ten days as ten years of persecution (day for a year), often matched to Diocletian's great persecution (303–313), or as ten imperial persecutions from Nero to Diocletian."
+          },
+          {
+            "position": "idealism",
+            "reading": "A symbolic short period of trial that recurs whenever the church is persecuted."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "A literal, imminent trial in Smyrna in the first century."
+          }
+        ],
+        "texts": [
+          "Daniel 1:12-15",
+          "Matthew 10:28",
+          "1 Peter 4:12-13"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "barnes-notes-revelation",
+          "elliott-horae"
+        ]
+      },
+      {
+        "id": "r2-crown-of-life",
+        "phrase": "Be faithful even unto death, and I will give you the crown of life",
+        "ref": "Revelation 2:10",
+        "keywords": [
+          "crown of life",
+          "faithful even unto death"
+        ],
+        "category": "object",
+        "jewish": "The righteous receive a crown or diadem of glory (Wisdom of Solomon 5:16; Testament of Benjamin 4:1). James 1:12 promises the crown of life to those who endure trial.",
+        "cultural": "A stephanos was a victor's wreath at games or a civic honour for faithful service. Smyrna's skyline of buildings on Mount Pagos was called 'the crown of Smyrna' (Aelius Aristides), and its coins and civic honours used crown imagery; magistrates wore wreaths. Polycarp, bishop of Smyrna, was martyred c. 155 and his followers spoke of his 'crown of immortality' (Martyrdom of Polycarp 17, 19).",
+        "meaning": "The 'crown' is eternal life itself, a victor's reward for faithfulness to death. Smyrna's civic pride in its crown is answered by a far better one.",
+        "readings": [],
+        "texts": [
+          "James 1:12",
+          "2 Timothy 4:8",
+          "1 Corinthians 9:25",
+          "Revelation 3:11"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "ramsay-letters-seven-churches"
+        ]
+      },
+      {
+        "id": "r2-second-death",
+        "phrase": "Will not be harmed by the second death",
+        "ref": "Revelation 2:11",
+        "keywords": [
+          "second death"
+        ],
+        "category": "time",
+        "jewish": "The phrase appears in Aramaic Targums (e.g. Targum Onqelos and Jerusalem Targums on Deuteronomy 33:6; Targum Isaiah 22:14; 65:6, 15) for final exclusion from the world to come; the Targums' dates are disputed and may be later than Revelation.",
+        "cultural": "",
+        "meaning": "The second death is final judgment, defined in Revelation 20:14 and 21:8 as the lake of fire. Believers may suffer the first (physical) death but are immune to the second.",
+        "readings": [],
+        "texts": [
+          "Revelation 20:6",
+          "Revelation 20:14",
+          "Revelation 21:8",
+          "Matthew 10:28"
+        ],
+        "sources": [
+          "aune-revelation-wbc",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r2-throne-of-satan",
+        "phrase": "Where the throne of Satan sits ... where Satan dwells",
+        "ref": "Revelation 2:13",
+        "keywords": [
+          "throne of satan",
+          "where satan dwells"
+        ],
+        "category": "place",
+        "jewish": "Satan as ruler of this age (compare John 12:31; 2 Corinthians 4:4). Idolatry is the worship of demons (Deuteronomy 32:17; 1 Corinthians 10:20).",
+        "cultural": "Several candidates: (1) the first provincial temple of the imperial cult in Asia (to Augustus and Roma, 29 BC), making Pergamum the cult's centre; (2) the Great Altar of Zeus on the acropolis, shaped like a throne (now in Berlin); (3) the sanctuary of Asclepius the healer, whose symbol was a serpent; (4) the city itself on its throne-like hill, and the proconsul's judgment seat where Christians could be tried. Many scholars favour the imperial cult as primary.",
+        "meaning": "Pergamum was a stronghold of pagan and imperial power, where loyalty to Christ was most dangerous. Satan works through the state's claim to divine honours.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The imperial cult under Nero is the immediate threat; it reappears as the beast and its worship in Revelation 13."
+          },
+          {
+            "position": "idealism",
+            "reading": "Any centre of power demanding worship and loyalty that belong to God is Satan's throne."
+          }
+        ],
+        "texts": [
+          "Revelation 13:2",
+          "Revelation 13:4",
+          "John 12:31",
+          "1 Corinthians 10:20"
+        ],
+        "sources": [
+          "friesen-imperial-cults",
+          "hemer-letters-seven-churches",
+          "ramsay-letters-seven-churches"
+        ]
+      },
+      {
+        "id": "r2-antipas",
+        "phrase": "My faithful witness Antipas was killed among you",
+        "ref": "Revelation 2:13",
+        "keywords": [
+          "antipas"
+        ],
+        "category": "person",
+        "jewish": "Jewish tradition honoured those who died rather than betray the covenant (Daniel 3; 2 Maccabees 7; 4 Maccabees), and the prophets were remembered as faithful witnesses who were killed (2 Chronicles 24:20-22; Matthew 23:35).",
+        "cultural": "Nothing certain is known of Antipas; later tradition says he was roasted in a bronze bull. His death suggests local, not empire-wide, violence. The name is an abbreviation of Antipater.",
+        "meaning": "Antipas receives Christ's own title, 'faithful witness' (Revelation 1:5), the model for all who die for their testimony. His death shows that violence has already happened in Asia.",
+        "readings": [],
+        "texts": [
+          "Revelation 1:5",
+          "Revelation 6:9",
+          "Revelation 11:3"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "r2-balaam-balak",
+        "phrase": "The teaching of Balaam, who taught Balak to place a stumbling block",
+        "ref": "Revelation 2:14",
+        "keywords": [
+          "balaam",
+          "balak",
+          "stumbling block"
+        ],
+        "category": "person",
+        "jewish": "Numbers 22–24: Balaam could not curse Israel, but Numbers 31:16 says his counsel led Israel to sin at Baal-Peor, eating sacrifices and committing immorality with Moabite women (Numbers 25). Jewish tradition made Balaam the archetypal false prophet who seduced Israel through compromise (Josephus, Antiquities 4.6.6; Philo, Life of Moses 1.294-300); 2 Peter 2:15 and Jude 11 use him the same way.",
+        "cultural": "Pergamum's civic and guild life revolved around sacrificial meals in temples.",
+        "meaning": "Some in Pergamum, like Balaam, encouraged participation in idolatrous feasts and associated immorality. What Satan could not do by persecution (Antipas) he tries by seduction.",
+        "readings": [],
+        "texts": [
+          "Numbers 25:1-3",
+          "Numbers 31:16",
+          "2 Peter 2:15",
+          "Jude 11"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "r2-food-sacrificed-to-idols",
+        "phrase": "Eat food sacrificed to idols and commit sexual immorality",
+        "ref": "Revelation 2:14, 2:20",
+        "keywords": [
+          "food sacrificed to idols",
+          "sexual immorality"
+        ],
+        "category": "action",
+        "jewish": "The Jerusalem council asked Gentile believers to abstain from food sacrificed to idols and sexual immorality (Acts 15:20, 29). Jewish law forbade eating idol sacrifices (Exodus 34:15; 4 Maccabees 5:2). The prophets called idolatry 'adultery' (Hosea 1–3; Ezekiel 16).",
+        "cultural": "Meat in Greco-Roman cities was mostly from sacrifices; guilds held banquets in temple dining rooms honouring patron gods and often the emperor; such feasts could include sexual licence. Refusal meant social and economic isolation.",
+        "meaning": "The issue is participation in idolatrous worship and its moral world. 'Immorality' may be literal, figurative (spiritual adultery) or both. Paul's more nuanced treatment of market meat (1 Corinthians 8–10) agrees that temple feasts are off-limits.",
+        "readings": [],
+        "texts": [
+          "Acts 15:29",
+          "1 Corinthians 8:1-13",
+          "1 Corinthians 10:14-22",
+          "Numbers 25:1-2"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "koester-revelation-ayb",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r2-sword-of-my-mouth",
+        "phrase": "The sharp, double-edged sword ... wage war against them with the sword of My mouth",
+        "ref": "Revelation 2:12, 2:16",
+        "keywords": [
+          "sword of my mouth",
+          "double-edged sword"
+        ],
+        "category": "object",
+        "jewish": "Isaiah 11:4; 49:2. The angel with a drawn sword confronted Balaam (Numbers 22:23, 31), and Balaam was killed with the sword (Numbers 31:8), a link that may explain the image here.",
+        "cultural": "Pergamum was probably a seat where the proconsul exercised the 'right of the sword' (capital jurisdiction). Christ's sword outranks Rome's.",
+        "meaning": "Christ warns that he himself will fight against the false teachers by his word of judgment, unless the church repents.",
+        "readings": [],
+        "texts": [
+          "Numbers 22:31",
+          "Numbers 31:8",
+          "Revelation 1:16",
+          "Revelation 19:15"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r2-hidden-manna",
+        "phrase": "I will give the hidden manna",
+        "ref": "Revelation 2:17",
+        "keywords": [
+          "hidden manna"
+        ],
+        "category": "object",
+        "jewish": "A jar of manna was kept before the LORD in the ark (Exodus 16:32-34; Hebrews 9:4). Jewish tradition held that Jeremiah hid the ark before the exile (2 Maccabees 2:4-8) and that manna would fall again in the messianic age (2 Baruch 29:8; later rabbinic texts). Jesus called himself the bread from heaven (John 6:31-35).",
+        "cultural": "Contrasts with the meat from pagan sacrificial feasts that Pergamum's compromisers enjoyed.",
+        "meaning": "Those who refuse idol food will share the true, heavenly food of the messianic banquet and of Christ himself, now hidden but one day revealed.",
+        "readings": [],
+        "texts": [
+          "Exodus 16:32-34",
+          "Psalm 78:24",
+          "John 6:31-35",
+          "Hebrews 9:4",
+          "Revelation 19:9"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "r2-white-stone-new-name",
+        "phrase": "A white stone inscribed with a new name",
+        "ref": "Revelation 2:17",
+        "keywords": [
+          "white stone",
+          "new name"
+        ],
+        "category": "object",
+        "jewish": "The high priest bore the tribes' names engraved on stones (Exodus 28:9-21). Isaiah 62:2 and 65:15 promise God's people a new name. Some link the stone to the Urim and Thummim or to later tradition of precious stones falling with manna.",
+        "cultural": "Many uses of white stones: jurors voted acquittal with a white pebble; small stone or ivory tokens (tesserae) served as admission tickets to feasts and games; white stones marked festival days; amulets bore secret names of gods for magical power. The token-for-a-banquet sense fits the manna context well.",
+        "meaning": "The precise background is uncertain, but the main ideas are acceptance, vindication and admission to the messianic feast, with a new name signifying a new identity and intimate relationship known only to the recipient. Whether the name is Christ's or the believer's is debated.",
+        "readings": [],
+        "texts": [
+          "Isaiah 62:2",
+          "Isaiah 65:15",
+          "Revelation 3:12",
+          "Revelation 19:12"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "aune-revelation-wbc",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r2-son-of-god-title",
+        "phrase": "The Son of God, whose eyes are like a blazing fire and whose feet are like polished bronze",
+        "ref": "Revelation 2:18",
+        "keywords": [
+          "son of god"
+        ],
+        "category": "title",
+        "jewish": "Psalm 2:7-9: the LORD's anointed king is his Son and will rule the nations with an iron rod (quoted in Revelation 2:27). Daniel 10:6 supplies the eyes and feet.",
+        "cultural": "Thyatira's guardian deity was Tyrimnos, identified with Apollo, son of Zeus, often shown on coins; emperors also claimed the title 'son of god' (divi filius). The bronze-smiths' guild was prominent in Thyatira.",
+        "meaning": "The only use of 'Son of God' in Revelation, chosen to confront rival divine sons and to introduce the Psalm 2 promise. His fiery eyes search hearts and his bronze feet trample evil.",
+        "readings": [],
+        "texts": [
+          "Psalm 2:7-9",
+          "Daniel 10:6",
+          "Revelation 1:14-15"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "ramsay-letters-seven-churches"
+        ]
+      },
+      {
+        "id": "r2-jezebel",
+        "phrase": "That woman Jezebel, who calls herself a prophetess",
+        "ref": "Revelation 2:20",
+        "keywords": [
+          "jezebel",
+          "prophetess"
+        ],
+        "category": "person",
+        "jewish": "Queen Jezebel promoted Baal worship in Israel, persecuted the prophets, and was charged with 'harlotries and sorceries' (1 Kings 16:31; 18:4; 21:25; 2 Kings 9:22). Her name became a byword for seductive idolatry.",
+        "cultural": "Thyatira had a temple of the Sibyl Sambathe, a prophetess (debated relevance). Its many trade guilds (wool, dyers, leather, bronze, potters, slave dealers) met in banquets honouring patron gods, making membership difficult for Christians.",
+        "meaning": "A real, influential woman prophet in the church, given a symbolic name; she apparently taught that believers could join guild feasts and their idolatry, perhaps as 'deep things'. The issue is her teaching, not her being a woman prophet.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Many historicists and older dispensational church-age schemes saw Thyatira as the medieval church (c. 600–1500), Jezebel as the corrupting influence of a worldly, idolatrous ecclesiastical system."
+          },
+          {
+            "position": "idealism",
+            "reading": "Jezebel is the perennial voice within the church that baptises cultural compromise with spiritual authority."
+          }
+        ],
+        "texts": [
+          "1 Kings 16:31",
+          "1 Kings 21:25",
+          "2 Kings 9:22",
+          "Revelation 17:1-6"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "barnes-notes-revelation",
+          "scofield-reference-bible",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r2-bed-of-sickness",
+        "phrase": "I will cast her onto a bed of sickness ... strike her children dead",
+        "ref": "Revelation 2:22-23",
+        "keywords": [
+          "bed of sickness",
+          "her children"
+        ],
+        "category": "action",
+        "jewish": "Ahab's line (Jezebel's 'children') was destroyed (2 Kings 10:7). Sickness as divine discipline: 1 Corinthians 11:30.",
+        "cultural": "Banqueting couches (klinē) were used at guild feasts; a 'bed' of adultery becomes a bed of suffering, an ironic reversal. Thyatira also had a sanctuary of the healing god.",
+        "meaning": "Measure-for-measure judgment: the couch of feasting and immorality becomes a sickbed. Her 'children' are her followers. The aim is that 'all the churches will know' Christ's justice.",
+        "readings": [],
+        "texts": [
+          "2 Kings 10:7",
+          "1 Corinthians 11:30-32"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "hemer-letters-seven-churches"
+        ]
+      },
+      {
+        "id": "r2-searches-minds-hearts",
+        "phrase": "I am the One who searches minds and hearts",
+        "ref": "Revelation 2:23",
+        "keywords": [
+          "searches minds and hearts"
+        ],
+        "category": "title",
+        "jewish": "Jeremiah 17:10 and 11:20: the LORD searches the heart and tests the mind (literally 'kidneys and heart') and repays each according to his deeds; Psalm 7:9.",
+        "cultural": "",
+        "meaning": "Christ claims a prerogative of the LORD in Jeremiah: he judges by inner reality, not outward claims to prophetic depth.",
+        "readings": [],
+        "texts": [
+          "Jeremiah 17:10",
+          "Psalm 7:9",
+          "Romans 2:6"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation"
+        ]
+      },
+      {
+        "id": "r2-deep-things-of-satan",
+        "phrase": "The so-called deep things of Satan",
+        "ref": "Revelation 2:24",
+        "keywords": [
+          "deep things of satan"
+        ],
+        "category": "object",
+        "jewish": "Paul speaks of the Spirit searching 'the deep things of God' (1 Corinthians 2:10). Daniel 2:22 says God reveals deep and hidden things.",
+        "cultural": "Later Gnostic groups claimed secret, deep knowledge; some may already have argued that a mature believer could enter pagan temples unharmed because idols are nothing (compare 1 Corinthians 8:4).",
+        "meaning": "Likely an ironic twist: the teachers claimed 'deep things' (of God), but Christ calls them deep things of Satan. Alternatively they boasted of knowing Satan's realm in order to master it. Either way, esoteric spirituality was used to justify compromise.",
+        "readings": [],
+        "texts": [
+          "1 Corinthians 2:10",
+          "1 Corinthians 8:1-4"
+        ],
+        "sources": [
+          "aune-revelation-wbc",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r2-iron-scepter",
+        "phrase": "Authority over the nations ... rule them with an iron scepter and shatter them like pottery",
+        "ref": "Revelation 2:26-27",
+        "keywords": [
+          "authority over the nations",
+          "iron scepter",
+          "like pottery"
+        ],
+        "category": "object",
+        "jewish": "Psalm 2:8-9 (Septuagint: 'shepherd them with an iron rod'), the Messiah's inheritance of the nations; Psalms of Solomon 17:23-24 applies it to the Davidic Messiah who will shatter sinners like a potter's vessel.",
+        "cultural": "Pottery-making was a guild trade in Thyatira; Rome's governors exercised rule with the rods of the lictors.",
+        "meaning": "Christ shares his messianic rule over the nations with faithful believers. The Greek verb poimainō means 'shepherd', which can include both protective rule and destructive judgment. When and how this rule is exercised is a key millennial question.",
+        "readings": [
+          {
+            "position": "postmil",
+            "reading": "The saints share Christ's present reign as the gospel subdues the nations in history; Psalm 2 is being fulfilled as Christ's enemies are progressively brought under his rule before his return."
+          },
+          {
+            "position": "amil",
+            "reading": "Believers share Christ's rule now in a heavenly, spiritual sense and fully in the consummated kingdom; it does not require an earthly millennium."
+          },
+          {
+            "position": "disppremil",
+            "reading": "Overcomers will literally rule with Christ over the nations during his thousand-year earthly kingdom after his return (Revelation 20:4-6)."
+          },
+          {
+            "position": "histpremil",
+            "reading": "A promise of shared rule in the future millennial kingdom, inaugurated at Christ's return, in continuity with the church's present witness."
+          }
+        ],
+        "texts": [
+          "Psalm 2:8-9",
+          "Revelation 12:5",
+          "Revelation 19:15",
+          "Revelation 20:4",
+          "1 Corinthians 6:2"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "gentry-he-shall-have-dominion",
+          "walvoord-revelation-jesus-christ",
+          "ladd-commentary-revelation"
+        ]
+      },
+      {
+        "id": "r2-morning-star",
+        "phrase": "I will give him the morning star",
+        "ref": "Revelation 2:28",
+        "keywords": [
+          "morning star"
+        ],
+        "category": "cosmic",
+        "jewish": "Numbers 24:17: Balaam's oracle of a star coming out of Jacob, read messianically at Qumran (Damascus Document 7; War Scroll 11) and by Bar Kokhba's followers ('son of the star'). Daniel 12:3: the wise will shine like stars.",
+        "cultural": "The morning star (Venus) was a symbol of sovereignty and victory; Roman generals and emperors associated themselves with Venus, the legendary ancestress of the Julian line, and Roman legions carried standards with zodiac signs.",
+        "meaning": "Christ himself is the bright morning star (Revelation 22:16); the promise is that the overcomer will have Christ and share his royal victory. The star announces the dawn of the new day.",
+        "readings": [],
+        "texts": [
+          "Numbers 24:17",
+          "Revelation 22:16",
+          "2 Peter 1:19",
+          "Daniel 12:3"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc"
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "The letters address real churches of the 60s facing Nero's persecution, conflict with synagogues, and the approaching crisis of AD 66–70. Christ's 'comings' in the letters are historical visitations, a pattern that supports reading later 'comings' as judgments within history."
+      },
+      {
+        "position": "historicism",
+        "reading": "Besides addressing first-century churches, the seven letters are often read as a prophetic panorama of church history: Ephesus the apostolic age, Smyrna the age of martyrs under the pagan emperors (the 'ten days' sometimes linked to ten persecutions), Pergamum the church after Constantine allied with the state, Thyatira the medieval church with its 'Jezebel'."
+      },
+      {
+        "position": "futurism",
+        "reading": "The letters address historical churches and give lessons for the whole church age. Many dispensationalists (Scofield, Walvoord in part) also see a secondary prophetic sequence of church eras culminating in Laodicea. The church is addressed in chapters 2–3 and not again on earth until chapter 19, which is taken to support a pretribulation rapture; other futurists reject the church-age scheme."
+      },
+      {
+        "position": "idealism",
+        "reading": "The seven churches represent the whole church in every age; their virtues and failures (orthodoxy without love, faithful poverty, compromise with culture, tolerated false teaching) recur in every generation, and the promises apply to all who overcome."
+      },
+      {
+        "position": "eclectic",
+        "reading": "Real first-century churches in their local settings, whose situations are paradigmatic for the church throughout the age; most eclectic commentators reject the church-ages scheme as unsupported by the text."
+      }
+    ],
+    "questions": [
+      "Ephesus is commended for orthodoxy but rebuked for losing its first love. How can doctrinal faithfulness and love be held together?",
+      "Smyrna and Laodicea present opposite pictures of poverty and wealth. What makes a church rich in Christ's eyes?",
+      "The teaching of Balaam and Jezebel concerned food offered to idols and trade-guild feasts. What are the modern equivalents of these economic and social pressures to compromise?",
+      "How do the promises to overcomers (tree of life, crown of life, hidden manna, white stone, morning star) anticipate Revelation 21–22?",
+      "Should the seven churches be read as stages of church history? What does the text itself suggest?"
+    ],
+    "sources": [
+      "hemer-letters-seven-churches",
+      "ramsay-letters-seven-churches",
+      "beale-revelation-nigtc",
+      "friesen-imperial-cults",
+      "gregg-revelation-four-views",
+      "scofield-reference-bible",
+      "aune-revelation-wbc"
+    ]
+  },
+  {
+    "chapter": 3,
+    "title": "Letters to Sardis, Philadelphia and Laodicea",
+    "section": "The seven messages to the churches",
+    "summary": "The last three messages complete the sevenfold address. Sardis has a reputation for life but is dead, and must wake up or Christ will come like a thief; a faithful few will walk with him in white. Philadelphia, weak but faithful, receives no rebuke: Christ, holding the key of David, sets before it an open door, promises that its opponents will acknowledge his love for it, and pledges to keep it from the hour of testing coming on the whole world. Laodicea, wealthy and self-satisfied, is lukewarm and about to be spat out; Christ counsels it to buy true gold, white garments and eye salve from him, and stands at the door knocking, offering fellowship and a share in his throne.",
+    "outline": [
+      {
+        "range": "3:1-6",
+        "heading": "Sardis: a reputation for life, but dead"
+      },
+      {
+        "range": "3:7-13",
+        "heading": "Philadelphia: little strength, an open door"
+      },
+      {
+        "range": "3:14-22",
+        "heading": "Laodicea: lukewarm and self-deceived"
+      }
+    ],
+    "context": "These three cities lay in the Hermus and Lycus valleys, an earthquake-prone region. Sardis and Philadelphia were both devastated by the great earthquake of AD 17 and rebuilt with help from Tiberius; Laodicea was heavily damaged in AD 60 and, according to Tacitus (Annals 14.27), rebuilt from its own resources without imperial aid. Their histories supply many of the letters' images: Sardis' acropolis twice captured by surprise because no one was watching, Philadelphia's position as a gateway city and its frequent tremors, its name changes in honour of emperors, and Laodicea's banking, black wool, medical school and inconvenient water supply. Ramsay and Hemer argued for these allusions; some (Laodicea's eye salve, the precise point about lukewarm water) remain debated, but most commentators accept that John deliberately speaks each city's language.\n\nTheologically, chapter 3 introduces themes that run through the rest of the book: Christ coming like a thief (Revelation 16:15), the book of life (Revelation 13:8; 20:12-15), the hour of testing on 'those who dwell on the earth' (a recurring phrase for the unbelieving world, Revelation 6:10; 13:8), the new Jerusalem coming down out of heaven (Revelation 21:2), and sharing Christ's throne (Revelation 20:4). Revelation 3:10 is also central in the debate over the timing of the rapture.",
+    "symbols": [
+      {
+        "id": "r3-seven-spirits-seven-stars",
+        "phrase": "The One who holds the seven Spirits of God and the seven stars",
+        "ref": "Revelation 3:1",
+        "keywords": [
+          "seven spirits of god",
+          "seven stars"
+        ],
+        "category": "title",
+        "jewish": "Zechariah 4:6, 10: 'not by might ... but by my Spirit'; the seven lamps are the eyes of the LORD. Ezekiel 37:1-14: the Spirit brings dry bones to life.",
+        "cultural": "",
+        "meaning": "To a church that is spiritually dead, Christ presents himself as the one who has the life-giving Spirit in fullness and holds the church in his hand: only he can revive it.",
+        "readings": [],
+        "texts": [
+          "Zechariah 4:6",
+          "Ezekiel 37:1-14",
+          "Revelation 1:4",
+          "Revelation 5:6"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation"
+        ]
+      },
+      {
+        "id": "r3-reputation-alive-dead",
+        "phrase": "You have a reputation for being alive, yet you are dead",
+        "ref": "Revelation 3:1",
+        "keywords": [
+          "reputation for being alive",
+          "you are dead"
+        ],
+        "category": "action",
+        "jewish": "Isaiah 29:13: honouring God with lips while hearts are far away. The image of a 'name' (reputation) without reality recalls prophetic critiques of empty religion (Jeremiah 7:4).",
+        "cultural": "Sardis, once capital of Lydia under the legendarily wealthy Croesus, lived on past glory; by Roman times it was prosperous but eclipsed. Its huge necropolis (the mounds of Bin Tepe) was a visible 'city of the dead'.",
+        "meaning": "A church with a name for vitality but no real spiritual life, probably at peace because it was compromising rather than witnessing (there is no mention of persecution or heresy).",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "In the church-history scheme, Sardis often represents the Protestant churches after the Reformation: a reputation for life (the name of the Reformation) with formalism and deadness in practice."
+          },
+          {
+            "position": "idealism",
+            "reading": "Any church that trades on its name and history while lacking living faith."
+          }
+        ],
+        "texts": [
+          "Isaiah 29:13",
+          "2 Timothy 3:5",
+          "Matthew 23:27"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "ramsay-letters-seven-churches",
+          "scofield-reference-bible"
+        ]
+      },
+      {
+        "id": "r3-come-like-a-thief",
+        "phrase": "Wake up ... If you do not wake up, I will come like a thief",
+        "ref": "Revelation 3:2-3",
+        "keywords": [
+          "wake up",
+          "like a thief"
+        ],
+        "category": "action",
+        "jewish": "The watchman image of Ezekiel 33:1-9. Jesus' parables of the thief and the watchful servant (Matthew 24:42-44).",
+        "cultural": "Sardis' acropolis stood on a sheer, seemingly impregnable cliff, yet it was captured twice because defenders failed to keep watch: by Cyrus' soldiers climbing a crack in the rock in 547 BC (Herodotus 1.84) and by Antiochus III's troops c. 214 BC (Polybius 7.15-18). 'Wake up' would sting.",
+        "meaning": "A call to vigilance. If Sardis does not repent, Christ will come unexpectedly in judgment. Whether this is a local visitation or the Second Coming is debated; most see a conditional, historical coming, though the language is borrowed from Second Coming sayings.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "A conditional judgment-visitation on the church at Sardis within history, using the same coming language that elsewhere refers to AD 70 or the final advent."
+          },
+          {
+            "position": "futurism",
+            "reading": "A local disciplinary visitation; the image anticipates the unexpected Second Coming for unbelievers (Revelation 16:15)."
+          },
+          {
+            "position": "idealism",
+            "reading": "Christ continually comes to his churches in discipline and judgment; every complacent church stands under this warning."
+          }
+        ],
+        "texts": [
+          "Matthew 24:42-44",
+          "1 Thessalonians 5:2-6",
+          "2 Peter 3:10",
+          "Revelation 16:15"
+        ],
+        "sources": [
+          "ramsay-letters-seven-churches",
+          "hemer-letters-seven-churches",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r3-soiled-garments-walk-in-white",
+        "phrase": "A few people who have not soiled their garments ... they will walk with Me in white",
+        "ref": "Revelation 3:4-5",
+        "keywords": [
+          "soiled their garments",
+          "in white",
+          "dressed in white"
+        ],
+        "category": "colour",
+        "jewish": "Zechariah 3:3-5: Joshua the high priest's filthy garments are replaced with clean ones. Daniel 7:9; 12:10 (the wise purified and made white). Priests wore white linen. 1 Enoch 62:15-16: the righteous clothed in garments of glory.",
+        "cultural": "Sardis was famed for dyeing and woollen textiles. White robes were worn by worshippers at pagan festivals and temples (unclean garments barred entry), by citizens at Roman triumphs and celebrations, and by victors.",
+        "meaning": "Clothing symbolises moral condition. The faithful few who have not defiled themselves by idolatrous compromise will share in Christ's purity, victory and resurrection life. White garments recur for the martyrs (Revelation 6:11), the multitude (7:9-14) and the bride (19:8).",
+        "readings": [],
+        "texts": [
+          "Zechariah 3:3-5",
+          "Daniel 12:10",
+          "Revelation 6:11",
+          "Revelation 7:14",
+          "Revelation 19:8"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r3-book-of-life",
+        "phrase": "I will never blot out his name from the Book of Life",
+        "ref": "Revelation 3:5",
+        "keywords": [
+          "book of life",
+          "blot out his name"
+        ],
+        "category": "object",
+        "jewish": "Exodus 32:32-33 (Moses asks to be blotted out of God's book); Psalm 69:28; Daniel 12:1 (everyone found written in the book will be delivered); Malachi 3:16 (book of remembrance); 1 Enoch 47:3 and 108:3. Jubilees 30:22 speaks of names written in the heavenly tablets.",
+        "cultural": "Greek cities kept citizen registers; a criminal's or disgraced citizen's name could be erased, removing civic rights. Ancient Athens and other cities struck condemned citizens from the rolls.",
+        "meaning": "A reassuring double negative ('never') guarantees the overcomer's eternal citizenship. Whether it implies that some names can be blotted out (a question in the Calvinist-Arminian debate) is disputed; many read it as a figure of assurance rather than a hint of removal.",
+        "readings": [],
+        "texts": [
+          "Exodus 32:32-33",
+          "Daniel 12:1",
+          "Philippians 4:3",
+          "Luke 10:20",
+          "Revelation 13:8",
+          "Revelation 20:12-15"
+        ],
+        "sources": [
+          "aune-revelation-wbc",
+          "hemer-letters-seven-churches",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r3-confess-his-name",
+        "phrase": "I will confess his name before My Father and His angels",
+        "ref": "Revelation 3:5",
+        "keywords": [
+          "confess his name"
+        ],
+        "category": "action",
+        "jewish": "A heavenly court before God with angels in attendance (Daniel 7:10).",
+        "cultural": "Roman courts and civic assemblies proclaimed names publicly in recognition or condemnation.",
+        "meaning": "Echoing Jesus' saying (Matthew 10:32; Luke 12:8), Christ will acknowledge the faithful before the divine court, the reversal of their public denial by the world.",
+        "readings": [],
+        "texts": [
+          "Matthew 10:32",
+          "Luke 12:8",
+          "Daniel 7:10"
+        ],
+        "sources": [
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r3-holy-and-true",
+        "phrase": "The One who is holy and true",
+        "ref": "Revelation 3:7",
+        "keywords": [
+          "holy and true"
+        ],
+        "category": "title",
+        "jewish": "'The Holy One' is a divine title, especially in Isaiah ('the Holy One of Israel'); God is 'true' or faithful (Exodus 34:6, 'abounding in faithfulness'). Revelation 6:10 uses the same pair for God.",
+        "cultural": "",
+        "meaning": "Christ shares God's holiness and faithfulness, and is the true (genuine) Messiah, set against those who 'falsely claim to be Jews' (Revelation 3:9).",
+        "readings": [],
+        "texts": [
+          "Isaiah 40:25",
+          "Revelation 6:10",
+          "John 6:69",
+          "1 John 5:20"
+        ],
+        "sources": [
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r3-key-of-david",
+        "phrase": "Who holds the key of David. What He opens no one can shut",
+        "ref": "Revelation 3:7",
+        "keywords": [
+          "key of david",
+          "opens no one can shut"
+        ],
+        "category": "object",
+        "jewish": "Isaiah 22:20-22: God replaces the unfaithful steward Shebna with Eliakim and lays on his shoulder the key of the house of David; what he opens none shall shut. The steward controlled access to the king.",
+        "cultural": "Keys were large and sometimes carried on the shoulder as a badge of office.",
+        "meaning": "Christ is the Davidic Messiah with sole authority over access to God's kingdom and the true people of God; a local synagogue may exclude the believers, but Christ admits them. It parallels the keys of Death and Hades (Revelation 1:18).",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Christ has replaced the unfaithful stewards of Israel's house (as Eliakim replaced Shebna), transferring kingdom access to his people, a theme that culminates in the judgment on Jerusalem."
+          },
+          {
+            "position": "futurism",
+            "reading": "Christ's Davidic authority now opens doors for the church, while the fulfilment of David's throne for Israel awaits the millennial kingdom."
+          }
+        ],
+        "texts": [
+          "Isaiah 22:20-22",
+          "Matthew 16:19",
+          "Revelation 1:18",
+          "Revelation 5:5"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-vengeance",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "r3-open-door",
+        "phrase": "I have placed before you an open door ... you have only a little strength",
+        "ref": "Revelation 3:8",
+        "keywords": [
+          "open door",
+          "little strength"
+        ],
+        "category": "object",
+        "jewish": "Building on the key of David, the open door suggests entry into the messianic kingdom; compare Isaiah 45:1 (doors opened before Cyrus).",
+        "cultural": "Philadelphia was founded (2nd century BC) on a major road at the edge of Phrygia; Ramsay called it a 'missionary city' meant to spread Greek culture eastward, a gateway to the interior. 'Open door' was a common metaphor for opportunity (1 Corinthians 16:9; 2 Corinthians 2:12; Colossians 4:3).",
+        "meaning": "Either (1) guaranteed access to the kingdom that opponents cannot shut, or (2) an opportunity for mission. Many commentators combine the two. The church is weak in resources but faithful.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "In the church-ages scheme, Philadelphia often stands for the evangelical revival and missionary era of the eighteenth and nineteenth centuries, with an open door for world mission."
+          },
+          {
+            "position": "postmil",
+            "reading": "The open door that no one can shut encourages confidence that Christ will advance his church's mission, even through weak churches, against all opposition."
+          }
+        ],
+        "texts": [
+          "1 Corinthians 16:9",
+          "2 Corinthians 2:12",
+          "Colossians 4:3",
+          "Acts 14:27"
+        ],
+        "sources": [
+          "ramsay-letters-seven-churches",
+          "hemer-letters-seven-churches",
+          "scofield-reference-bible",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r3-bow-down-at-your-feet",
+        "phrase": "I will make them come and bow down at your feet, and they will know that I love you",
+        "ref": "Revelation 3:9",
+        "keywords": [
+          "bow down at your feet",
+          "i love you"
+        ],
+        "category": "action",
+        "jewish": "A deliberate reversal of Isaiah 45:14, 49:23 and 60:14, where the nations come and bow before Israel and acknowledge that God is with them; and Isaiah 43:4, 'I love you'.",
+        "cultural": "",
+        "meaning": "Opponents from the 'synagogue of Satan' will one day acknowledge that the Gentile and Jewish believers in Jesus are the beloved people of God. Whether this means their conversion or their forced acknowledgement at the judgment is debated.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The church is the true Israel to whom Isaiah's promises now belong; the vindication came historically as the persecuting synagogue authorities were humbled and the church outlasted them."
+          },
+          {
+            "position": "futurism",
+            "reading": "A local promise of vindication; dispensationalists stress that Isaiah's promises to national Israel are not thereby transferred to the church and still await fulfilment."
+          },
+          {
+            "position": "postmil",
+            "reading": "Some postmillennialists see a hint of the future conversion of the Jewish people (Romans 11), coming to honour the church and its Messiah."
+          }
+        ],
+        "texts": [
+          "Isaiah 45:14",
+          "Isaiah 60:14",
+          "Isaiah 43:4",
+          "Romans 11:25-27",
+          "Revelation 2:9"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "walvoord-revelation-jesus-christ",
+          "gentry-he-shall-have-dominion"
+        ]
+      },
+      {
+        "id": "r3-hour-of-testing",
+        "phrase": "I will also keep you from the hour of testing that is about to come upon the whole world",
+        "ref": "Revelation 3:10",
+        "keywords": [
+          "hour of testing",
+          "keep you from",
+          "whole world"
+        ],
+        "category": "time",
+        "jewish": "Daniel 12:1 foretells a time of trouble such as never was, from which God's people are delivered. 'Those who dwell on the earth' is a recurring phrase in Revelation (6:10; 8:13; 13:8) for unbelievers hostile to God. John 17:15 uses the same verb and preposition (tēreō ek, 'keep from'): Jesus prays not that the Father take the disciples out of the world but that he keep them from the evil one.",
+        "cultural": "The Greek oikoumenē ('whole world') was commonly used for the Roman Empire's inhabited world (Luke 2:1).",
+        "meaning": "A promise of protection for faithful Philadelphia from a coming worldwide trial aimed chiefly at 'those who dwell on the earth'. The meaning of 'keep from' (removal from the time of trial, or protection through it), the identity of the 'hour', and its scope are among the most debated questions in the book.",
+        "readings": [
+          {
+            "position": "disppremil",
+            "reading": "A key pretribulation rapture text: 'keep from the hour' (tēreō ek) means preservation outside the very period of testing, i.e. the seven-year tribulation of chapters 6–19; since the trial is worldwide, only removal from the earth could keep the church from the hour itself (Walvoord, Thomas)."
+          },
+          {
+            "position": "histpremil",
+            "reading": "Like John 17:15, 'keep from' means spiritual protection from the evil, not physical removal; the church passes through the tribulation guarded by God, as Israel was in Goshen during the plagues (Ladd, Gundry)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "The 'hour of testing about to come' is the imminent upheaval of AD 66–70 throughout the Roman oikoumenē (the year of four emperors, the Jewish War); Philadelphia would be spared its full force (Gentry, Chilton)."
+          },
+          {
+            "position": "idealism",
+            "reading": "God preserves his faithful people spiritually through every trial that overtakes the world, and finally through the last great trial; the promise is protection of faith, not escape from suffering."
+          },
+          {
+            "position": "amil",
+            "reading": "Protection from apostasy and from God's wrath in the trials that run throughout the church age and intensify at its close; the sealed servants of Revelation 7 picture the same protection."
+          }
+        ],
+        "texts": [
+          "John 17:15",
+          "Daniel 12:1",
+          "Revelation 7:3-4",
+          "Revelation 13:8",
+          "1 Thessalonians 1:10",
+          "Luke 2:1"
+        ],
+        "sources": [
+          "walvoord-rapture-question",
+          "thomas-revelation-1-7",
+          "ladd-blessed-hope",
+          "gentry-before-jerusalem-fell",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r3-coming-soon-crown",
+        "phrase": "I am coming soon. Hold fast to what you have, so that no one will take your crown",
+        "ref": "Revelation 3:11",
+        "keywords": [
+          "i am coming soon",
+          "your crown"
+        ],
+        "category": "time",
+        "jewish": "Prophetic announcements that the LORD is coming (Isaiah 40:10; 62:11; Zechariah 2:10) and the image of the righteous receiving a crown (Wisdom of Solomon 5:16).",
+        "cultural": "Philadelphia held games and festivals ('little Athens', according to some ancient descriptions, for its temples and festivals); the athlete's wreath could be lost by disqualification.",
+        "meaning": "Unlike the conditional comings to Ephesus, Pergamum and Sardis, this coming is good news for a faithful church. The call is to persevere to the end and not forfeit the victor's reward.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Christ's soon coming in judgment on the persecutors (AD 70) would vindicate the faithful church."
+          },
+          {
+            "position": "futurism",
+            "reading": "The imminent return of Christ, which could occur at any moment, motivates perseverance."
+          },
+          {
+            "position": "eclectic",
+            "reading": "The final coming is near in the sense that it is the next great event in God's plan; Christ also comes in the present to strengthen his church."
+          }
+        ],
+        "texts": [
+          "Revelation 22:7",
+          "Revelation 22:12",
+          "Revelation 22:20",
+          "2 Timothy 4:8"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "gentry-before-jerusalem-fell",
+          "walvoord-revelation-jesus-christ",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r3-pillar-in-temple",
+        "phrase": "I will make a pillar in the temple of My God, and he will never again leave it",
+        "ref": "Revelation 3:12",
+        "keywords": [
+          "pillar in the temple",
+          "never again leave it"
+        ],
+        "category": "object",
+        "jewish": "The bronze pillars Jachin and Boaz stood at the entrance of Solomon's temple (1 Kings 7:21). Leaders were called 'pillars' (Galatians 2:9). Isaiah 56:5 promises faithful outsiders 'a name better than sons and daughters' in God's house. Qumran's community saw itself as a living temple.",
+        "cultural": "After the AD 17 earthquake and continuing tremors, many Philadelphians lived outside the city and fled repeatedly (Strabo 12.8.18; 13.4.10). In temple architecture, pillars often survived when walls fell. Provincial priests of the imperial cult were sometimes honoured by having a statue erected in a temple with their name inscribed.",
+        "meaning": "The overcomer will have a permanent, stable place in God's presence, part of the true temple, which in Revelation 21:22 is God and the Lamb themselves; no more fleeing.",
+        "readings": [],
+        "texts": [
+          "1 Kings 7:21",
+          "Galatians 2:9",
+          "Isaiah 56:5",
+          "Revelation 21:22",
+          "1 Peter 2:5"
+        ],
+        "sources": [
+          "ramsay-letters-seven-churches",
+          "hemer-letters-seven-churches",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r3-names-new-jerusalem",
+        "phrase": "The name of My God, and the name of the city of My God (the new Jerusalem), and My new name",
+        "ref": "Revelation 3:12",
+        "keywords": [
+          "new jerusalem",
+          "name of the city of my god",
+          "my new name"
+        ],
+        "category": "place",
+        "jewish": "Ezekiel 48:35: the restored city will be named 'The LORD is there'. Isaiah 62:2: a new name for Zion. The idea of a heavenly Jerusalem appears in Galatians 4:26, Hebrews 12:22, 4 Ezra 7:26 and 10:27, 2 Baruch 4:2-6. The high priest wore God's name on his forehead (Exodus 28:36-38).",
+        "cultural": "Philadelphia was renamed Neocaesarea in gratitude for Tiberius' earthquake relief and later took the name Flavia under Vespasian (Hemer); it knew what it was to receive a new imperial name. The new name here belongs to God, not Caesar.",
+        "meaning": "The overcomer is marked as belonging to God, as a citizen of the new Jerusalem, and as Christ's own. This anticipates Revelation 14:1, 21:2 and 22:4.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The new Jerusalem, coming down from heaven, is the new covenant people of God replacing the earthly Jerusalem about to be destroyed; it is already present in principle and fully realised in the consummation."
+          },
+          {
+            "position": "futurism",
+            "reading": "The new Jerusalem is a literal future city, the eternal dwelling of the redeemed (many dispensationalists also see it hovering above the earth during the millennium)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The heavenly city is the redeemed community in communion with God, now and forever."
+          }
+        ],
+        "texts": [
+          "Ezekiel 48:35",
+          "Isaiah 62:2",
+          "Galatians 4:26",
+          "Hebrews 12:22",
+          "Revelation 14:1",
+          "Revelation 21:2",
+          "Revelation 22:4"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "chilton-days-vengeance",
+          "walvoord-revelation-jesus-christ",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r3-the-amen",
+        "phrase": "The Amen, the faithful and true Witness",
+        "ref": "Revelation 3:14",
+        "keywords": [
+          "the amen",
+          "faithful and true witness"
+        ],
+        "category": "title",
+        "jewish": "Isaiah 65:16 speaks of 'the God of Amen' (often translated 'God of truth'), in the context of the new creation (Isaiah 65:17). 'Amen' means firm, reliable, true.",
+        "cultural": "",
+        "meaning": "Christ is God's reliable 'yes' (2 Corinthians 1:20), the trustworthy and true witness, in contrast with Laodicea's unreliable self-assessment.",
+        "readings": [],
+        "texts": [
+          "Isaiah 65:16",
+          "2 Corinthians 1:20",
+          "Revelation 1:5",
+          "Revelation 19:11"
+        ],
+        "sources": [
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r3-originator-of-creation",
+        "phrase": "The Originator of God's creation",
+        "ref": "Revelation 3:14",
+        "keywords": [
+          "originator of god’s creation"
+        ],
+        "category": "title",
+        "jewish": "Proverbs 8:22 (Wisdom as the 'beginning' of God's works); Genesis 1:1. Isaiah 65:17 links the 'God of Amen' to new creation.",
+        "cultural": "Colossians, written to the neighbouring church at Colossae (a letter to be read also at Laodicea, Colossians 4:16), calls Christ 'the beginning' and 'firstborn of all creation' in whom all things were created (Colossians 1:15-18).",
+        "meaning": "Greek archē can mean beginning, source or ruler. Most interpreters read it as source or ruler of creation, not the first created being (an Arian reading rejected by mainstream Christianity). Beale argues it also signals Christ as the beginning of the new creation through his resurrection.",
+        "readings": [],
+        "texts": [
+          "Colossians 1:15-18",
+          "Proverbs 8:22",
+          "John 1:3",
+          "Isaiah 65:16-17"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "r3-lukewarm",
+        "phrase": "Neither cold nor hot ... because you are lukewarm ... I am about to vomit you out of My mouth",
+        "ref": "Revelation 3:15-16",
+        "keywords": [
+          "lukewarm",
+          "neither cold nor hot",
+          "vomit you out"
+        ],
+        "category": "action",
+        "jewish": "Leviticus 18:28 and 20:22 warn that the land would 'vomit out' Israel if it defiled itself, as it had the Canaanites.",
+        "cultural": "Laodicea had no adequate water source of its own and piped water by aqueduct from springs several miles south; it arrived tepid and laden with calcium carbonate (the stone pipes are heavily encrusted). Nearby Hierapolis had famous hot springs used for healing, and Colossae was known for cold, fresh water. Rudwick and Green, followed by Hemer and Porter, argued that 'hot' (healing) and 'cold' (refreshing) are both good, and 'lukewarm' means useless and nauseating, like Laodicea's water.",
+        "meaning": "Laodicea's works are useless: the church provides neither healing nor refreshment and is distasteful to Christ. Older interpreters read 'cold' as hostile unbelief and 'hot' as zeal, so that Christ would prefer open opposition to half-heartedness; the water-supply reading avoids that awkward implication and is now widely held, though not universally.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "In the church-age reading, Laodicea represents the final era of the church before Christ's return: wealthy, self-satisfied, indifferent, and widely applied to the modern Western church."
+          },
+          {
+            "position": "disppremil",
+            "reading": "Many dispensationalists (Scofield) see Laodicea as the apostate professing church of the last days, from which the true church is raptured."
+          },
+          {
+            "position": "idealism",
+            "reading": "Complacent, comfortable religion that has lost its usefulness is a permanent temptation for prosperous churches."
+          }
+        ],
+        "texts": [
+          "Leviticus 18:28",
+          "Leviticus 20:22",
+          "Colossians 4:13-16"
+        ],
+        "sources": [
+          "rudwick-lukewarmness-laodicea",
+          "porter-laodicean-water",
+          "hemer-letters-seven-churches",
+          "scofield-reference-bible"
+        ]
+      },
+      {
+        "id": "r3-rich-need-nothing",
+        "phrase": "You say, 'I am rich; I have grown wealthy and need nothing'",
+        "ref": "Revelation 3:17",
+        "keywords": [
+          "i am rich",
+          "need nothing",
+          "wretched, pitiful, poor, blind, and naked"
+        ],
+        "category": "action",
+        "jewish": "Hosea 12:8: Ephraim boasts 'I am rich, I have found wealth'. Deuteronomy 8:11-18 warns against forgetting God in prosperity.",
+        "cultural": "Laodicea was a banking and commercial centre. After the earthquake of AD 60, it rebuilt from its own resources without seeking imperial help (Tacitus, Annals 14.27), a matter of civic pride; Cicero had cashed bills of exchange there in the first century BC.",
+        "meaning": "The church has absorbed its city's self-sufficiency and is blind to its spiritual destitution. Each of Laodicea's points of pride (wealth, clothing, medicine) is reversed: poor, naked, blind.",
+        "readings": [],
+        "texts": [
+          "Hosea 12:8",
+          "Deuteronomy 8:11-18",
+          "Luke 12:16-21",
+          "Revelation 18:7"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "ramsay-letters-seven-churches"
+        ]
+      },
+      {
+        "id": "r3-gold-refined-by-fire",
+        "phrase": "Buy from Me gold refined by fire so that you may become rich",
+        "ref": "Revelation 3:18",
+        "keywords": [
+          "gold refined by fire"
+        ],
+        "category": "object",
+        "jewish": "Isaiah 55:1 invites people to 'buy' without money; Zechariah 13:9 and Malachi 3:2-3 picture refining God's people as gold; Job 23:10.",
+        "cultural": "Laodicea's bankers dealt in gold; the language of buying fits a commercial city.",
+        "meaning": "True riches (faith tested and purified, 1 Peter 1:7) come only from Christ, and are obtained not with money but by repentant dependence on him.",
+        "readings": [],
+        "texts": [
+          "Isaiah 55:1",
+          "Zechariah 13:9",
+          "Malachi 3:2-3",
+          "1 Peter 1:7"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "r3-white-garments-nakedness",
+        "phrase": "White garments so that you may be clothed and your shameful nakedness not exposed",
+        "ref": "Revelation 3:18",
+        "keywords": [
+          "white garments",
+          "shameful nakedness"
+        ],
+        "category": "colour",
+        "jewish": "Nakedness as shame and judgment (Genesis 3:7-10; Isaiah 47:3; Ezekiel 16:36-39; Nahum 3:5). Isaiah 61:10: garments of salvation.",
+        "cultural": "Laodicea was famous for clothing made of a glossy black wool from local sheep (Strabo 12.8.16), and for garment manufacture. Christ offers white garments instead of the city's prized black wool.",
+        "meaning": "Righteousness and purity that only Christ supplies, covering the shame of spiritual nakedness, in contrast to the city's fashionable black garments.",
+        "readings": [],
+        "texts": [
+          "Genesis 3:7-10",
+          "Isaiah 61:10",
+          "Ezekiel 16:36-39",
+          "Revelation 16:15",
+          "Revelation 19:8"
+        ],
+        "sources": [
+          "hemer-letters-seven-churches",
+          "ramsay-letters-seven-churches"
+        ]
+      },
+      {
+        "id": "r3-eye-salve",
+        "phrase": "Salve to anoint your eyes so that you may see",
+        "ref": "Revelation 3:18",
+        "keywords": [
+          "salve to anoint your eyes"
+        ],
+        "category": "object",
+        "jewish": "Spiritual blindness is a prophetic theme (Isaiah 6:10; 42:18-20). Jesus healed the blind and called the Pharisees blind guides (Matthew 23:16-26; John 9:39-41).",
+        "cultural": "Laodicea had a medical school associated with the temple of Men Karou nearby, and ancient medical writers (Galen) mention a 'Phrygian powder' or stone used for eye remedies; Ramsay and Hemer connect it to Laodicea. The specific link is debated, as the evidence for an eye salve made at Laodicea is indirect.",
+        "meaning": "Only Christ can heal spiritual blindness so that the church sees itself and him truly. The image matches the 'blind' of Revelation 3:17.",
+        "readings": [],
+        "texts": [
+          "Isaiah 42:18-20",
+          "John 9:39-41",
+          "Matthew 23:16-26",
+          "Ephesians 1:18"
+        ],
+        "sources": [
+          "ramsay-letters-seven-churches",
+          "hemer-letters-seven-churches",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "r3-rebuke-discipline",
+        "phrase": "Those I love, I rebuke and discipline. Therefore be earnest and repent",
+        "ref": "Revelation 3:19",
+        "keywords": [
+          "rebuke and discipline",
+          "be earnest and repent"
+        ],
+        "category": "action",
+        "jewish": "Proverbs 3:12: the LORD disciplines the one he loves, as a father the son he delights in (quoted in Hebrews 12:5-6).",
+        "cultural": "",
+        "meaning": "Even the harshest letter is an act of love. The word for 'be earnest' (zēleuō) is related to 'zeal' and may pun on 'hot' (zestos), the very quality Laodicea lacks.",
+        "readings": [],
+        "texts": [
+          "Proverbs 3:11-12",
+          "Hebrews 12:5-11"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "r3-stand-at-door-knock",
+        "phrase": "I stand at the door and knock ... I will come in and dine with him",
+        "ref": "Revelation 3:20",
+        "keywords": [
+          "stand at the door and knock",
+          "dine with him"
+        ],
+        "category": "action",
+        "jewish": "Song of Songs 5:2: the beloved knocks and says 'open to me'. Messianic banquet traditions (Isaiah 25:6-8; 1 Enoch 62:14: the righteous will eat with the Son of Man). Jesus' parable of the master returning and knocking, who then serves his servants at table (Luke 12:36-37).",
+        "cultural": "Shared meals were the strongest expression of friendship and covenant in the ancient Mediterranean world; the evening meal (deipnon) was the main meal. The verb echoes the Lord's Supper (deipnon kyriakon, 1 Corinthians 11:20).",
+        "meaning": "Addressed primarily to a church (and its members) that had excluded Christ: he offers renewed fellowship to any individual who responds. The verse is often used evangelistically, which is a legitimate application, though its first audience is believers. Some also hear an echo of the Second Coming at the door (James 5:9) and the messianic banquet.",
+        "readings": [
+          {
+            "position": "eclectic",
+            "reading": "Christ's present offer of renewed fellowship, anticipating the marriage supper of the Lamb (Revelation 19:9)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Many dispensationalists read it as Christ standing outside the apostate end-time church, inviting individuals within it to fellowship."
+          }
+        ],
+        "texts": [
+          "Song of Songs 5:2",
+          "Luke 12:36-37",
+          "John 14:23",
+          "Revelation 19:9",
+          "James 5:9"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "koester-revelation-ayb",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "r3-sit-on-my-throne",
+        "phrase": "I will grant the right to sit with Me on My throne, just as I overcame and sat down with My Father on His throne",
+        "ref": "Revelation 3:21",
+        "keywords": [
+          "sit with me on my throne",
+          "sat down with my father"
+        ],
+        "category": "object",
+        "jewish": "Psalm 110:1: the LORD tells David's Lord to sit at his right hand. Daniel 7:9, 22, 27: thrones set up, judgment given to the saints, and the kingdom given to the people of the saints of the Most High.",
+        "cultural": "In the Roman world, sharing a ruler's throne or seat signified co-regency. Imperial heirs were shown seated beside emperors.",
+        "meaning": "The climactic promise of the seven letters. Christ's own pattern, conquest through suffering followed by enthronement, is shared with his people. The verse introduces the throne room of chapters 4–5, where the Lamb who overcame is seen.",
+        "readings": [
+          {
+            "position": "amil",
+            "reading": "Christ already sits on the Father's throne since his ascension; believers share this reign, especially at death (the thrones of Revelation 20:4) and in the consummation."
+          },
+          {
+            "position": "postmil",
+            "reading": "Christ reigns now from the Father's throne until all enemies are subdued (1 Corinthians 15:25); his people share and extend this reign in history."
+          },
+          {
+            "position": "disppremil",
+            "reading": "Christ now sits on the Father's throne; his own throne, David's throne, will be established on earth at his return, and overcomers will reign with him in the millennium. The verse distinguishes the two thrones."
+          },
+          {
+            "position": "histpremil",
+            "reading": "Christ's present heavenly reign will be followed by a visible reign shared with the saints in the millennial kingdom after his return."
+          }
+        ],
+        "texts": [
+          "Psalm 110:1",
+          "Daniel 7:22",
+          "Daniel 7:27",
+          "Matthew 19:28",
+          "Revelation 5:5-6",
+          "Revelation 20:4"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "gentry-he-shall-have-dominion",
+          "walvoord-revelation-jesus-christ",
+          "ladd-commentary-revelation",
+          "hoekema-bible-future"
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "The letters address churches on the eve of the crisis of AD 64–70; Christ's 'soon' coming and the 'hour of testing about to come' on the oikoumenē refer to the imminent judgments of the Jewish War and the Roman civil wars, while the promises (new Jerusalem, sharing the throne) begin to be realised as the new covenant order replaces the old and come to full flower at the final consummation."
+      },
+      {
+        "position": "full-preterism",
+        "reading": "Christ's coming to these churches and the hour of trial are the events of AD 66–70; the new Jerusalem descended at that time as the consummated new covenant people. This reading departs from the historic creeds' expectation of a future return, a point critics stress and proponents answer by appeal to the time texts."
+      },
+      {
+        "position": "historicism",
+        "reading": "The last three letters are often read as the later ages of church history: Sardis the post-Reformation Protestant churches with a living name but deadness, Philadelphia the missionary and revival era with its open door, Laodicea the wealthy, indifferent church of the last days before Christ's return."
+      },
+      {
+        "position": "futurism",
+        "reading": "The letters close the 'things that are' (the church age). Revelation 3:10 promises that the church will be kept from the coming worldwide Tribulation; dispensationalists see a pretribulation rapture implied here and pictured in Revelation 4:1, after which the church is not mentioned on earth until chapter 19. Historic premillennial futurists read 3:10 as protection through the Tribulation."
+      },
+      {
+        "position": "idealism",
+        "reading": "Sardis, Philadelphia and Laodicea portray types of churches that exist in every age: the nominal, the weak but faithful, and the comfortable. Christ's warnings and promises apply wherever these conditions recur."
+      },
+      {
+        "position": "eclectic",
+        "reading": "Historical churches with local issues whose messages apply to the whole church; the hour of testing is a recurring and ultimately final trial, from which faithful believers are spiritually protected."
+      },
+      {
+        "position": "disppremil",
+        "reading": "Revelation 3:10's promise to keep the church 'from the hour' of testing is among the strongest supports for a pretribulation rapture, with 'those who dwell on the earth' distinguished from the church."
+      },
+      {
+        "position": "histpremil",
+        "reading": "Revelation 3:10 promises preservation in the hour, as in John 17:15; the church will face the final tribulation, protected by God, before Christ's return and the millennium."
+      }
+    ],
+    "questions": [
+      "Sardis had a name for being alive. What markers of 'reputation' can mask spiritual deadness in a church?",
+      "How does Philadelphia's 'little strength' combined with an 'open door' challenge assumptions about effective churches?",
+      "Compare the main interpretations of 'keep you from the hour of testing' (Revelation 3:10). What do John 17:15 and the context of Revelation contribute?",
+      "Laodicea's wealth, clothing and medicine all reappear as images of spiritual need. What are the 'points of pride' of churches today?",
+      "Revelation 3:20 is often used in evangelism. How does reading it in its original context (a letter to a church) deepen its meaning?"
+    ],
+    "sources": [
+      "hemer-letters-seven-churches",
+      "ramsay-letters-seven-churches",
+      "rudwick-lukewarmness-laodicea",
+      "beale-revelation-nigtc",
+      "walvoord-rapture-question",
+      "ladd-blessed-hope",
+      "gentry-before-jerusalem-fell",
+      "gregg-revelation-four-views"
+    ]
+  }
+]
