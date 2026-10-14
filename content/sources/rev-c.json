@@ -1,0 +1,26 @@
+[
+  {
+    "id": "josephus-jewish-war",
+    "title": "The Wars of the Jews; or, The History of the Destruction of Jerusalem (tr. William Whiston)",
+    "author": "Flavius Josephus",
+    "url": "https://www.gutenberg.org/ebooks/2850",
+    "camp": "reference",
+    "type": "primary",
+    "year": "c. 75",
+    "accessed": "2026-10-14",
+    "summary": "Eyewitness history of the Jewish revolt and the Roman siege and destruction of Jerusalem and the temple (AD 66-70); the main source for preterist correlations with Revelation 8-11.",
+    "verified": true
+  },
+  {
+    "id": "koester-revelation-ayb",
+    "title": "Revelation: A New Translation with Introduction and Commentary (Anchor Yale Bible 38A)",
+    "author": "Craig R. Koester",
+    "url": "https://www.logos.com/product/46940",
+    "camp": "reference",
+    "type": "book",
+    "year": "2014",
+    "accessed": "2026-10-14",
+    "summary": "Major critical commentary attentive to the social, economic and religious setting of Roman Asia and to Jewish sources including the Dead Sea Scrolls.",
+    "verified": true
+  }
+]

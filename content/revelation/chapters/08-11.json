@@ -1,0 +1,2838 @@
+[
+  {
+    "chapter": 8,
+    "title": "The seventh seal, the golden censer and the first four trumpets",
+    "section": "The seven trumpets (Revelation 8:1-11:19)",
+    "summary": "The Lamb opens the seventh seal and heaven falls silent for about half an hour. Seven angels who stand before God receive seven trumpets, while another angel offers incense with the prayers of the saints on the golden altar and then hurls fire from that altar to the earth, setting off thunder, lightning and earthquake. The first four trumpets strike a third of the land, sea, fresh waters and heavenly lights in plagues modelled on the Exodus: hail and fire mixed with blood, a burning mountain thrown into the sea, a falling star named Wormwood, and darkness. An eagle in mid-heaven then announces three woes still to come on those who dwell on the earth.",
+    "outline": [
+      {
+        "range": "Revelation 8:1",
+        "heading": "The seventh seal: silence in heaven"
+      },
+      {
+        "range": "Revelation 8:2-6",
+        "heading": "Seven trumpets given; the prayers of the saints and the golden censer"
+      },
+      {
+        "range": "Revelation 8:7",
+        "heading": "First trumpet: hail and fire mixed with blood on the land"
+      },
+      {
+        "range": "Revelation 8:8-9",
+        "heading": "Second trumpet: a burning mountain cast into the sea"
+      },
+      {
+        "range": "Revelation 8:10-11",
+        "heading": "Third trumpet: the star Wormwood poisons the rivers"
+      },
+      {
+        "range": "Revelation 8:12",
+        "heading": "Fourth trumpet: a third of sun, moon and stars darkened"
+      },
+      {
+        "range": "Revelation 8:13",
+        "heading": "The eagle's threefold woe"
+      }
+    ],
+    "context": "The chapter is built from the temple and from the Exodus. In the Second Temple the twice-daily Tamid offering was accompanied by the burning of incense on the golden altar inside the sanctuary, while the people prayed outside (Luke 1:9-10; Mishnah Tamid 5-7, a later codification of earlier practice); Levites sang and trumpets were blown at the climax of the service. John fuses that liturgy with the prayer of the martyrs under the altar (Revelation 6:9-11): the incense-prayer goes up, and judgment comes down. Trumpets (shofar or silver trumpets, Numbers 10:1-10) summoned Israel to assembly and to war, announced festivals and the Day of the Lord (Joel 2:1; Zephaniah 1:16), brought down Jericho after seven priests with seven trumpets circled it seven times (Joshua 6), and in apocalyptic texts herald the end (Isaiah 27:13; 4 Ezra 6:23; 1 Thessalonians 4:16). The first four trumpets track the plagues on Egypt (hail and fire, water to blood, darkness) but are limited to \"a third\", which most commentators take as partial, warning judgments short of the final bowls (Revelation 16), echoing the divided thirds of Ezekiel 5:2-12 and Zechariah 13:8-9.\n\nFor readers in Roman Asia the images carried local weight. The province lived by the sea trade that the second trumpet wrecks; the eruption of Vesuvius (AD 79), which some commentators think lies behind the burning mountain, was recent news if the book dates to c. 95, while those who date it before AD 70 point instead to Jeremiah 51:25 and the Jewish War. Eagles were the standards of the Roman legions, and in Jewish apocalyptic (4 Ezra 11-12) the eagle stood for Rome; here, however, an eagle is a herald of God. Whether the trumpets follow the seals chronologically or recapitulate them from another angle is one of the oldest debates on the book: Victorinus of Pettau (c. 260, the earliest surviving Latin commentary) already argued that the trumpets and bowls repeat the same events.",
+    "symbols": [
+      {
+        "id": "rev8-half-hour-silence",
+        "phrase": "Silence in heaven for about half an hour",
+        "ref": "Revelation 8:1",
+        "keywords": [
+          "silence in heaven",
+          "half an hour"
+        ],
+        "category": "time",
+        "jewish": "Silence before the Lord precedes his coming in judgment in Habakkuk 2:20, Zephaniah 1:7 and Zechariah 2:13. Jewish tradition also imagined the heavenly praise pausing so that Israel's prayers could be heard (a later rabbinic motif in the Babylonian Talmud, Hagigah 12b, and Genesis Rabbah); in temple practice the people prayed silently while the priest offered incense (Luke 1:10). 2 Baruch 3:7 and 4 Ezra 7:30 speak of a primeval silence returning before the new creation.",
+        "cultural": "Ancient sacrifices and mystery rites often called for ritual silence (Greek euphemia, Latin favete linguis) so that ill-omened words would not spoil the offering.",
+        "meaning": "A dramatic pause that marks the seventh seal as a hinge: the ceaseless worship of chapters 4-5 stops so that the saints' prayers in 8:3-5 are heard and judgment can begin. \"Half an hour\" signals a short, broken interval rather than a measurable period. Whether the seventh seal \"contains\" the seven trumpets (a telescoping structure) or brings the seal series to its end with the final judgment is debated.",
+        "readings": [
+          {
+            "position": "idealism",
+            "reading": "A liturgical silence of awe before God's answer to prayer; it belongs to the repeating cycle of judgment and is not a datable moment."
+          },
+          {
+            "position": "futurism",
+            "reading": "A literal, ominous lull in heaven in the future Tribulation before the more severe trumpet judgments, which unfold out of the seventh seal."
+          },
+          {
+            "position": "historicism",
+            "reading": "Elliott and Barnes saw a brief lull after Theodosius and the Christian empire's settlement (late fourth century) before the barbarian invasions of the trumpets fell on the western empire."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "The pause before the covenant judgments of the Jewish War (AD 66-70) fall on the land; Chilton links it to the silence of the people during the temple incense offering."
+          }
+        ],
+        "texts": [
+          "Habakkuk 2:20",
+          "Zephaniah 1:7",
+          "Zechariah 2:13",
+          "Luke 1:10",
+          "Revelation 6:9-11"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy",
+          "gregg-revelation-four-views"
+        ]
+      },
+      {
+        "id": "rev8-seven-angels-before-god",
+        "phrase": "The seven angels who stand before God",
+        "ref": "Revelation 8:2",
+        "keywords": [
+          "seven angels"
+        ],
+        "category": "person",
+        "jewish": "The definite article points to a known group: the seven archangels of Second Temple angelology. Tobit 12:15 has Raphael call himself one of the seven angels who stand ready before the Lord's glory, and 1 Enoch 20 names seven (Uriel, Raphael, Raguel, Michael, Sariel, Gabriel, Remiel). Gabriel says he \"stands before God\" in Luke 1:19. \"Standing before\" is court and priestly language for ministers in attendance (1 Kings 17:1; Deuteronomy 10:8).",
+        "cultural": "Royal and imperial courts had an inner circle of attendants with direct access to the ruler; seven-fold groupings also echoed the seven planetary powers of astrology, which Jewish writers subordinated to God.",
+        "meaning": "High angelic ministers of the divine court who execute the trumpet judgments, showing that what follows is ordered from the throne, not random catastrophe.",
+        "readings": [],
+        "texts": [
+          "Tobit 12:15",
+          "Luke 1:19",
+          "Revelation 1:4",
+          "Revelation 15:1"
+        ],
+        "sources": [
+          "aune-revelation-wbc",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev8-seven-trumpets",
+        "phrase": "Seven trumpets",
+        "ref": "Revelation 8:2, 8:6",
+        "keywords": [
+          "seven trumpets"
+        ],
+        "category": "object",
+        "jewish": "Trumpets assembled Israel, sounded alarm for war and marked festivals (Numbers 10:1-10); Rosh Hashanah is the day of trumpet blasts (Leviticus 23:24). Seven priests with seven ram's-horn trumpets brought down Jericho (Joshua 6:4-20). The prophets use the trumpet for the Day of the Lord and for warning (Joel 2:1; Zephaniah 1:14-16; Ezekiel 33:3-6), and the great trumpet gathers the exiles (Isaiah 27:13). The Qumran War Scroll (1QM 2-3, 7-9) prescribes inscribed trumpets for each stage of the eschatological war.",
+        "cultural": "Roman armies used the tuba and cornu to give signals in battle and on the march; trumpets also opened games and processions.",
+        "meaning": "Heralds of holy war and warning. Their judgments are partial (a third) and aimed at prompting repentance (9:20-21), in contrast to the final bowls of chapter 16. The seventh trumpet (11:15) announces the kingdom and is often linked with the \"last trumpet\" of 1 Corinthians 15:52 and 1 Thessalonians 4:16, a link that is itself contested.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "Seven sequential judgments in the future seven-year Tribulation, following the seals; dispensationalists (Walvoord, Thomas) generally deny that the seventh trumpet is the \"last trumpet\" of 1 Corinthians 15 because they place the rapture before the Tribulation."
+          },
+          {
+            "position": "historicism",
+            "reading": "A chronological series across church history: the first four against the western Roman Empire (Goths, Vandals, Huns, the fall of the western emperor in 476), the fifth and sixth against the eastern empire (Saracens and Turks)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "The covenant-lawsuit alarm against apostate Jerusalem, sounding through the Jewish War; like Jericho, the \"city\" falls at the seventh blast."
+          },
+          {
+            "position": "idealism",
+            "reading": "Recurring warning judgments throughout the age between Christ's comings; the trumpets recapitulate the seals from a different angle and climax at the end."
+          }
+        ],
+        "texts": [
+          "Numbers 10:1-10",
+          "Joshua 6:4-20",
+          "Joel 2:1",
+          "Zephaniah 1:16",
+          "1 Corinthians 15:52"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "gregg-revelation-four-views",
+          "elliott-horae",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev8-golden-censer",
+        "phrase": "Another angel with a golden censer at the altar",
+        "ref": "Revelation 8:3",
+        "keywords": [
+          "golden censer"
+        ],
+        "category": "worship",
+        "jewish": "On the Day of Atonement the high priest took a censer full of coals from the altar and two handfuls of incense into the Holy of Holies (Leviticus 16:12-13); Hebrews 9:4 associates a golden censer with the inner sanctuary. Censers also carried atonement in Numbers 16:46-48, where Aaron stops a plague. Some Jewish traditions describe an angel (often Michael) offering the prayers of the righteous in heaven (Tobit 12:12, 15; 3 Baruch 11-16; Testament of Levi 3:5-6).",
+        "cultural": "Incense burners were standard in Greco-Roman sacrifice and in the imperial cult, where incense offered before the emperor's image was a test of loyalty that Christians refused (Pliny, Letters 10.96).",
+        "meaning": "An angel performs a priestly role in the heavenly temple, presenting the prayers of God's people. The question whether this \"other angel\" is Christ (as some older Protestant commentators held) is answered no by most modern interpreters, since Revelation never calls Christ an angel and here the angel only assists the saints' prayers.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Several historicists (e.g. Elliott) read the angel as Christ the true High Priest, contrasted with corrupt intercession of saints and clergy in the church of the fourth and fifth centuries."
+          },
+          {
+            "position": "futurism",
+            "reading": "Usually a created angel ministering in the heavenly temple in the Tribulation period."
+          }
+        ],
+        "texts": [
+          "Leviticus 16:12-13",
+          "Numbers 16:46-48",
+          "Hebrews 9:4",
+          "Revelation 5:8"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "elliott-horae",
+          "osborne-revelation-becnt"
+        ]
+      },
+      {
+        "id": "rev8-incense-prayers-saints",
+        "phrase": "Much incense with the prayers of all the saints on the golden altar",
+        "ref": "Revelation 8:3-4",
+        "keywords": [
+          "incense",
+          "prayers of all the saints",
+          "golden altar"
+        ],
+        "category": "worship",
+        "jewish": "The golden altar of incense stood before the veil in the Holy Place (Exodus 30:1-10; 40:5); incense was burned morning and evening with the daily sacrifice, the hour of prayer (Luke 1:9-10; Acts 3:1). Psalm 141:2 asks that prayer rise like incense. Revelation 5:8 has already identified bowls of incense as the saints' prayers, and 6:9-11 placed the martyrs' cry for vindication under the altar.",
+        "cultural": "Incense (frankincense from Arabia) was costly and burned in pagan temples and at imperial ceremonies; in Asia, Christians would have recognised the contrast with offering incense to Caesar.",
+        "meaning": "The trumpet judgments are presented as God's answer to his people's prayers, especially the martyrs' plea \"How long?\" (6:10). Prayer is not passive: it is part of the means by which God governs history.",
+        "readings": [],
+        "texts": [
+          "Exodus 30:1-10",
+          "Psalm 141:2",
+          "Luke 1:9-10",
+          "Revelation 5:8",
+          "Revelation 6:9-11"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev8-fire-hurled-to-earth",
+        "phrase": "The censer filled with altar fire and hurled to the earth",
+        "ref": "Revelation 8:5",
+        "keywords": [
+          "hurled it to the earth",
+          "fire from the altar"
+        ],
+        "category": "action",
+        "jewish": "Modelled on Ezekiel 10:2-7, where a man in linen takes coals from between the cherubim and scatters them over Jerusalem as a sign of its coming destruction. Fire from the altar elsewhere signifies divine judgment (Leviticus 10:1-2; Isaiah 6:6-7 for its purifying side).",
+        "cultural": "",
+        "meaning": "The same altar that receives prayer becomes the source of judgment: the saints' prayers are answered by fire cast on the earth. The reversal of the censer's direction (up as incense, down as fire) is the theological centre of the chapter.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Because Ezekiel 10 concerns the burning of Jerusalem, preterists such as Chilton see the echo as a signal that the coming judgments target the same city in AD 70."
+          },
+          {
+            "position": "idealism",
+            "reading": "A pattern of judgment answering the persecuted church's prayers in every era."
+          }
+        ],
+        "texts": [
+          "Ezekiel 10:2-7",
+          "Luke 12:49"
+        ],
+        "sources": [
+          "chilton-days-of-vengeance",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "rev8-thunder-lightning-earthquake",
+        "phrase": "Thunder, rumblings, lightning and an earthquake",
+        "ref": "Revelation 8:5",
+        "keywords": [
+          "peals of thunder",
+          "earthquake"
+        ],
+        "category": "cosmic",
+        "jewish": "The Sinai theophany formula (Exodus 19:16-18) with storm, trumpet and quaking mountain. Revelation repeats the formula at 4:5, 8:5, 11:19 and 16:18-21, adding an element each time (earthquake, then hail, then a great earthquake and huge hail), a deliberate crescendo that links the end of each sevenfold series.",
+        "cultural": "Asia Minor was earthquake country: Sardis and Philadelphia were devastated in AD 17, and Laodicea in about AD 60.",
+        "meaning": "A structural marker. Bauckham showed that the escalating storm formula ties the seventh seal, seventh trumpet and seventh bowl to the same climax, which many take as evidence that the three series end at the same point (recapitulation) rather than in simple sequence.",
+        "readings": [
+          {
+            "position": "idealism",
+            "reading": "Evidence for recapitulation: each series ends in the final theophany."
+          },
+          {
+            "position": "futurism",
+            "reading": "Literal cosmic and seismic events, often read with a progressive (telescoping) structure in which each series grows out of the last."
+          }
+        ],
+        "texts": [
+          "Exodus 19:16-18",
+          "Revelation 4:5",
+          "Revelation 11:19",
+          "Revelation 16:18-21"
+        ],
+        "sources": [
+          "bauckham-climax-prophecy",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "rev8-hail-fire-blood",
+        "phrase": "First trumpet: hail and fire mixed with blood",
+        "ref": "Revelation 8:7",
+        "keywords": [
+          "hail and fire",
+          "blood",
+          "green grass"
+        ],
+        "category": "cosmic",
+        "jewish": "The seventh Egyptian plague (Exodus 9:23-26) of hail with fire flashing through it, which struck plants and trees. Blood and fire together recall Joel 2:30-31 and Ezekiel 38:22 (fire, hail and bloodshed against Gog). Wisdom of Solomon 16:16-22 meditates on fire raging in hail as creation fighting for the righteous.",
+        "cultural": "Burning of crops and orchards was a standard tactic of invading armies in the ancient world.",
+        "meaning": "The first of four judgments on the created order, partial (a third) and patterned on the Exodus: God is again judging an oppressor so as to deliver his people. The note that \"all the green grass\" burns while 9:4 still mentions grass is often cited to show the visions are not a strictly literal chronicle.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "The Gothic invasions under Alaric (c. 400-410), ending in the sack of Rome, a storm from the north on the western empire (Elliott, Barnes)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Devastation of the land of Israel as Roman armies burned crops and trees in the campaign of AD 67-70; Josephus records the stripping of trees around Jerusalem for siege works."
+          },
+          {
+            "position": "futurism",
+            "reading": "Literal ecological catastrophe in the future Tribulation, possibly by natural or military means."
+          },
+          {
+            "position": "idealism",
+            "reading": "Recurring natural disasters through history that warn humanity and limit its resources."
+          }
+        ],
+        "texts": [
+          "Exodus 9:23-26",
+          "Joel 2:30-31",
+          "Ezekiel 38:22"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "elliott-horae",
+          "chilton-days-of-vengeance",
+          "josephus-jewish-war"
+        ]
+      },
+      {
+        "id": "rev8-one-third",
+        "phrase": "A third (of earth, trees, sea, waters, lights, mankind)",
+        "ref": "Revelation 8:7-12",
+        "keywords": [
+          "a third"
+        ],
+        "category": "number",
+        "jewish": "Ezekiel 5:2, 12 divides Jerusalem's people into thirds (burned, slain, scattered); Zechariah 13:8-9 has two thirds cut off and a third refined. The fraction thus belongs to prophetic judgment-and-remnant language.",
+        "cultural": "",
+        "meaning": "A substantial but limited portion: the trumpets are severe yet not final, greater than the quarter of the fourth seal (6:8) and less than the totality of the bowls. The point is restraint that leaves room for repentance (9:20-21).",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Often taken geopolitically as the third of the Roman world (the western empire, then the eastern), following the triple division of the empire."
+          },
+          {
+            "position": "futurism",
+            "reading": "Usually literal proportions of the earth affected."
+          },
+          {
+            "position": "idealism",
+            "reading": "A symbolic proportion marking partial, warning judgment."
+          }
+        ],
+        "texts": [
+          "Ezekiel 5:2",
+          "Ezekiel 5:12",
+          "Zechariah 13:8-9",
+          "Revelation 6:8"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "barnes-notes-revelation"
+        ]
+      },
+      {
+        "id": "rev8-burning-mountain",
+        "phrase": "Second trumpet: something like a great mountain burning, thrown into the sea",
+        "ref": "Revelation 8:8-9",
+        "keywords": [
+          "great mountain burning",
+          "third of the ships"
+        ],
+        "category": "cosmic",
+        "jewish": "Jeremiah 51:25 calls Babylon a destroying mountain that God will make a burnt mountain; Jeremiah 51:42 says the sea will cover her. Jesus speaks of a mountain cast into the sea (Mark 11:23, spoken near the temple mount). 1 Enoch 18:13 and 21:3 describe disobedient stars as \"great burning mountains\", and Sibylline Oracles 5.158-161 has a great star fall into the sea and burn Babylon (Rome).",
+        "cultural": "Vesuvius erupted in AD 79, destroying Pompeii and darkening the Bay of Naples; Pliny the Younger described the eruption. Sea trade was the lifeblood of Asian cities like Ephesus and Smyrna, so the loss of a third of ships threatened the economy that Revelation 18 later mourns.",
+        "meaning": "A judgment on the sea and its commerce, echoing the first Egyptian plague (water to blood, Exodus 7:20-21). John says \"something like\" a mountain, signalling a vision rather than a description.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Chilton and others read the mountain as Jerusalem/Mount Zion, the apostate \"mountain\", cast into the sea of the nations (cf. Mark 11:23); some note the Jewish fleet destroyed at Joppa and the sea of Galilee battle in Josephus (Jewish War 3.9.3; 3.10.9)."
+          },
+          {
+            "position": "historicism",
+            "reading": "Genseric's Vandals, a naval power that ravaged Mediterranean islands and coasts and sacked Rome by sea in 455 (Elliott, Barnes)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Possibly a literal meteor, asteroid or volcanic mass striking the ocean in the Tribulation."
+          },
+          {
+            "position": "idealism",
+            "reading": "God's judgment on the commercial and maritime structures humans trust, recurring in every age; some see allusion to Babylon's fall (Jeremiah 51)."
+          }
+        ],
+        "texts": [
+          "Jeremiah 51:25",
+          "Jeremiah 51:42",
+          "Mark 11:23",
+          "Exodus 7:20-21",
+          "Revelation 18:17-19"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-of-vengeance",
+          "elliott-horae",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev8-wormwood",
+        "phrase": "Third trumpet: a great star named Wormwood",
+        "ref": "Revelation 8:10-11",
+        "keywords": [
+          "wormwood",
+          "great star",
+          "bitter waters"
+        ],
+        "category": "cosmic",
+        "jewish": "Wormwood (Artemisia, a bitter plant) is a prophetic image of the bitterness of judgment and apostasy: God will make idolatrous Israel drink wormwood and poisoned water (Jeremiah 9:15; 23:15); Deuteronomy 29:18 warns of a root bearing poison and wormwood among those who turn to other gods; Amos 5:7 and 6:12 speak of justice turned to wormwood. A fallen star recalls Isaiah 14:12 (the king of Babylon as a fallen morning star) and the fallen watchers of 1 Enoch 86-88. The scene reverses the sweetening of Marah's bitter water (Exodus 15:23-25).",
+        "cultural": "Wormwood was used in antiquity as a medicine and vermifuge and was known to be bitter but not usually lethal, which underlines the symbolic character of the deaths. Popular modern claims that \"Chernobyl\" means wormwood are inexact (the name refers to mugwort, a related Artemisia) and are not part of scholarly exegesis.",
+        "meaning": "Judgment on fresh water, the source of life, under a name that recalls the punishment of idolatry. The star is probably an agent of judgment (angelic or symbolic) rather than an astronomical body only.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Attila the Hun, \"the scourge of God\", whose campaigns (c. 440-453) swept the river regions of the Danube, Rhine and Po (Elliott, Barnes)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Apostate Israel itself, or its leadership, fallen from heaven and turning the land's waters bitter, echoing Jeremiah 9:15; Chilton connects it to Deuteronomy 29:18. Josephus describes the Jordan and Galilee choked with corpses in AD 67-68."
+          },
+          {
+            "position": "futurism",
+            "reading": "A literal celestial body (perhaps a comet or meteor) contaminating water supplies, or a powerful fallen angel."
+          },
+          {
+            "position": "idealism",
+            "reading": "Recurring judgments by which God lets idolaters taste the bitterness of their idolatry; the false teaching that poisons life."
+          }
+        ],
+        "texts": [
+          "Jeremiah 9:15",
+          "Jeremiah 23:15",
+          "Deuteronomy 29:18",
+          "Isaiah 14:12",
+          "Exodus 15:23-25"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-of-vengeance",
+          "elliott-horae",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev8-sun-moon-stars-darkened",
+        "phrase": "Fourth trumpet: a third of the sun, moon and stars struck",
+        "ref": "Revelation 8:12",
+        "keywords": [
+          "sun and moon and stars",
+          "darkened"
+        ],
+        "category": "cosmic",
+        "jewish": "The ninth Egyptian plague of darkness (Exodus 10:21-23). Prophetic texts use darkened luminaries for the fall of nations and the Day of the Lord (Isaiah 13:10 of Babylon; Ezekiel 32:7-8 of Egypt; Joel 2:10, 31; Amos 8:9). Jesus uses the same idiom in the Olivet Discourse (Matthew 24:29).",
+        "cultural": "Eclipses and astral signs were read in the Roman world as omens of the fall of rulers; Roman writers (Suetonius, Tacitus) record portents around the deaths of emperors.",
+        "meaning": "Darkness is the undoing of the creation of light (Genesis 1:14-18) and a classic sign of political and cosmic upheaval. Interpreters disagree whether the language is primarily literal or the conventional prophetic idiom for the collapse of powers.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "The extinction of the western Roman emperorship (Odoacer deposed Romulus Augustulus in 476) and the eclipse of Rome's consuls and senate, the \"lights\" of the western third."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "De-creation language for the collapse of Israel's political and religious order in AD 70, as in Isaiah 13 for Babylon."
+          },
+          {
+            "position": "futurism",
+            "reading": "Literal reduction of sunlight and moonlight during the Tribulation."
+          },
+          {
+            "position": "idealism",
+            "reading": "God's judgment on idolatrous society experienced as darkness and despair, recurring until the end."
+          }
+        ],
+        "texts": [
+          "Exodus 10:21-23",
+          "Isaiah 13:10",
+          "Ezekiel 32:7-8",
+          "Joel 2:10",
+          "Matthew 24:29"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "barnes-notes-revelation",
+          "gentry-before-jerusalem-fell",
+          "thomas-revelation-8-22"
+        ]
+      },
+      {
+        "id": "rev8-eagle-woe",
+        "phrase": "An eagle flying in mid-heaven crying \"Woe, woe, woe\"",
+        "ref": "Revelation 8:13",
+        "keywords": [
+          "eagle",
+          "woe"
+        ],
+        "category": "creature",
+        "jewish": "Hosea 8:1 sets the trumpet to the mouth because an eagle is over the Lord's house; Deuteronomy 28:49 threatens a nation swooping like an eagle against covenant-breakers; Habakkuk 1:8 likens the Babylonians to eagles. In 2 Baruch 77:17-26 an eagle carries Baruch's letter to the exiles, and in 4 Ezra 11-12 the eagle is Rome. Some later manuscripts (followed by the KJV) read \"angel\" instead of \"eagle\"; the earliest witnesses read \"eagle\". \"Woe\" is the prophetic lament-oracle (Isaiah 5; Amos 5:18).",
+        "cultural": "The eagle (aquila) was the sacred standard of every Roman legion and an emblem of Jupiter; a heavenly eagle announcing doom would strike readers who knew the legions' standards.",
+        "meaning": "A herald (perhaps one of the four living creatures, the third of which is like an eagle, Revelation 4:7) announcing that the last three trumpets are worse and are directed at \"those who dwell on the earth\", Revelation's phrase for unbelieving humanity hostile to God's people (6:10; 13:8).",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Recalls Deuteronomy 28:49 and Hosea 8:1: the covenant curse of an eagle-like (Roman) army falling on Israel; some note the legionary eagles set up in the temple courts in AD 70 (Josephus, Jewish War 6.6.1)."
+          },
+          {
+            "position": "historicism",
+            "reading": "The three woes are the Saracen, Turkish and final (often papal or French Revolution era) woe trumpets."
+          },
+          {
+            "position": "futurism",
+            "reading": "A literal heavenly messenger warning the world in the Tribulation."
+          }
+        ],
+        "texts": [
+          "Hosea 8:1",
+          "Deuteronomy 28:49",
+          "Revelation 4:7",
+          "Revelation 9:12",
+          "Revelation 11:14"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "chilton-days-of-vengeance",
+          "josephus-jewish-war"
+        ]
+      },
+      {
+        "id": "rev8-earth-dwellers",
+        "phrase": "Those who dwell on the earth",
+        "ref": "Revelation 8:13",
+        "keywords": [
+          "dwell on the earth"
+        ],
+        "category": "person",
+        "jewish": "The phrase echoes Isaiah 24:1-6 and 26:9, 21 (judgment on the earth's inhabitants). In 1 Enoch (e.g. 37:5; 54:9) \"those who dwell on the earth\" can denote the wicked who are judged, and in Hebrew \"the land\" (ha-aretz) can mean the land of Israel.",
+        "cultural": "",
+        "meaning": "In Revelation the phrase consistently names unbelievers who persecute the saints and worship the beast (6:10; 11:10; 13:8, 12, 14; 17:2, 8). The dispute is over scope.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Translates as \"those who dwell on the land\", that is, the inhabitants of Judea and Jerusalem under covenant judgment (Gentry, Chilton)."
+          },
+          {
+            "position": "futurism",
+            "reading": "The unbelieving population of the whole world during the Tribulation."
+          },
+          {
+            "position": "idealism",
+            "reading": "Humanity whose home and loyalties are in this present order rather than in God."
+          }
+        ],
+        "texts": [
+          "Isaiah 24:1-6",
+          "Revelation 6:10",
+          "Revelation 13:8"
+        ],
+        "sources": [
+          "gentry-before-jerusalem-fell",
+          "beale-revelation-nigtc"
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "The trumpets are the covenant curses of Leviticus 26 and Deuteronomy 28 falling on Judea and Jerusalem in the Jewish War (AD 66-70). The fire from the altar recalls Ezekiel 10 and the burning of Jerusalem; the burning mountain cast into the sea is Mount Zion's fall; Wormwood is apostate Israel (Jeremiah 9:15); \"those who dwell on the land\" are the people of Judea. Chilton and Gentry stress the Jericho pattern: seven trumpets announce the fall of the city that rejected God's messengers. This reading depends on a pre-70 date of Revelation, which is disputed."
+      },
+      {
+        "position": "historicism",
+        "reading": "The seventh seal opens a new era of judgments on the Roman Empire after its Christianisation. The four trumpets fall on the western third of the empire: Alaric's Goths (first), Genseric's Vandals by sea (second), Attila's Huns along the rivers (third), and the extinction of the western emperor in 476 (fourth), as set out in detail by Elliott's Horae Apocalypticae and Barnes's Notes. The eagle's three woes introduce the Saracens, the Turks and the final judgments."
+      },
+      {
+        "position": "futurism",
+        "reading": "The trumpets are literal, future judgments in the seven-year Tribulation that follow and intensify the seal judgments, unfolding out of the seventh seal (Walvoord, Thomas). They involve real ecological and astronomical catastrophes on a third of the world; the eagle (or angel) gives a final warning before the demonic woe judgments of chapter 9."
+      },
+      {
+        "position": "idealism",
+        "reading": "The trumpets recapitulate the period between Christ's ascension and return from the angle of warning. Like the Exodus plagues they show God judging an idolatrous world through disasters in nature and society, partially (a third), so that people might repent, while answering the prayers of the persecuted church (Hendriksen, Beale in modified form). The final trumpet, like the final seal and bowl, brings the last judgment."
+      },
+      {
+        "position": "eclectic",
+        "reading": "Many recent commentators (Beale, Osborne, Koester, Keener) combine approaches: the imagery is drawn from the Exodus and prophetic judgment oracles and spoke to first-century Asia (sea trade, Roman power), it describes recurring patterns of judgment through the church age, and it climaxes in the still-future consummation. They typically see the series as overlapping rather than strictly sequential."
+      },
+      {
+        "position": "full-preterism",
+        "reading": "Like partial preterists, full preterists place all the trumpets in the period ending in AD 70, but they also identify the seventh trumpet of this series with the \"last trumpet\" of 1 Corinthians 15 and the resurrection, held to have been fulfilled spiritually then. This conclusion places full preterism outside the historic creeds, which confess a future bodily resurrection; proponents reply that Scripture, not the creeds, must govern."
+      }
+    ],
+    "questions": [
+      "What does it mean that the trumpet judgments are presented as God's answer to the prayers of the saints (Revelation 8:3-5)? How should that shape the way Christians pray about injustice?",
+      "Trace the parallels between the first four trumpets and the plagues of Egypt. What does the Exodus pattern suggest about whom the judgments are against and whom they are for?",
+      "Why does the text keep limiting the judgments to \"a third\"? How do the different views explain this restraint?",
+      "Does the seventh seal contain the trumpets, or do the seals, trumpets and bowls describe the same period from different angles? What evidence (such as the repeated thunder-earthquake formula) bears on the question?"
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "gregg-revelation-four-views",
+      "chilton-days-of-vengeance",
+      "elliott-horae",
+      "walvoord-revelation-jesus-christ",
+      "hendriksen-more-than-conquerors",
+      "bauckham-climax-prophecy",
+      "koester-revelation-ayb"
+    ]
+  },
+  {
+    "chapter": 9,
+    "title": "The fifth and sixth trumpets: locusts from the Abyss and the cavalry from the Euphrates",
+    "section": "The seven trumpets (Revelation 8:1-11:19)",
+    "summary": "The fifth trumpet (the first woe) shows a star fallen from heaven that receives the key to the Abyss; smoke pours out, and from it come locust-like creatures with scorpion stings that torment, but may not kill, those without God's seal for five months. Their king is the angel of the Abyss, Abaddon or Apollyon, \"Destroyer\". The sixth trumpet (the second woe) releases four angels bound at the Euphrates, and a cavalry of two hundred million, with lion-headed horses breathing fire, smoke and sulfur, kills a third of humanity. Yet the survivors do not repent of idolatry, murder, sorcery, sexual immorality or theft, which shows that the trumpets aim at repentance and that judgment alone does not produce it.",
+    "outline": [
+      {
+        "range": "Revelation 9:1-2",
+        "heading": "Fifth trumpet: the fallen star opens the Abyss"
+      },
+      {
+        "range": "Revelation 9:3-6",
+        "heading": "Locusts that torment the unsealed for five months"
+      },
+      {
+        "range": "Revelation 9:7-11",
+        "heading": "Description of the locusts and their king Abaddon/Apollyon"
+      },
+      {
+        "range": "Revelation 9:12",
+        "heading": "The first woe passes"
+      },
+      {
+        "range": "Revelation 9:13-15",
+        "heading": "Sixth trumpet: the four angels at the Euphrates released"
+      },
+      {
+        "range": "Revelation 9:16-19",
+        "heading": "The two hundred million cavalry"
+      },
+      {
+        "range": "Revelation 9:20-21",
+        "heading": "The rest of humanity does not repent"
+      }
+    ],
+    "context": "The fifth trumpet expands the eighth Egyptian plague (Exodus 10:12-20) through Joel 1-2, where a locust swarm is described as an invading army with teeth like lions and the appearance of horses, the herald of the Day of the Lord. Locust plagues were a real terror in the ancient Near East and appear among the covenant curses (Deuteronomy 28:38, 42). The Abyss draws on Second Temple traditions about rebellious angels imprisoned until the judgment (1 Enoch 10:4-6, 18-21, 88; Jubilees 5:6-10; Luke 8:31; 2 Peter 2:4; Jude 6), so the scene is widely read as a demonic plague released under God's permission and limited by his seal. Abaddon (\"destruction\") is a poetic name for the realm of the dead in Job, Psalms and Proverbs and is personified in the Qumran Thanksgiving Hymns.\n\nThe sixth trumpet turns east. The Euphrates was the ideal border of the land promised to Abraham (Genesis 15:18) and the river beyond which Israel's invaders, Assyria and Babylon, came (Isaiah 8:7; Jeremiah 46:10). In the first century it was Rome's frontier with Parthia, whose mounted archers had destroyed Crassus's army at Carrhae (53 BC) and humiliated a Roman force at Rhandeia (AD 62). Parthian horsemen were famed for long hair and for shooting arrows backwards while riding away (the \"Parthian shot\"), which many see behind the creatures whose power is in their tails. The legend that Nero would return from the east with Parthian armies (Sibylline Oracles 4.119-139; 5.361-368; Tacitus, Histories 2.8) and 1 Enoch 56:5-8, where angels stir up the Parthians and Medes against the land, show how charged the Euphrates image was. The vice list in 9:20-21 reflects Jewish polemic against idols that cannot see, hear or walk (Psalm 115:4-7; Daniel 5:23; Wisdom of Solomon 13-15) and the trade-guild idolatry pressed on Christians in Asia.",
+    "symbols": [
+      {
+        "id": "rev9-fallen-star-key",
+        "phrase": "A star fallen from heaven given the key to the shaft of the Abyss",
+        "ref": "Revelation 9:1",
+        "keywords": [
+          "star that had fallen",
+          "key to the pit"
+        ],
+        "category": "person",
+        "jewish": "Stars represent angels in Jewish apocalyptic (Judges 5:20; Job 38:7; Daniel 8:10; Revelation 1:20). 1 Enoch 86-88 portrays the fallen watchers as stars that fall from heaven and are bound in the abyss; Isaiah 14:12 depicts the king of Babylon as a fallen star. Keys signify delegated authority (Isaiah 22:22); in Revelation 1:18 Christ holds the keys of death and Hades and in 20:1 an angel holds the key of the Abyss.",
+        "cultural": "",
+        "meaning": "An angelic agent. The perfect tense \"had fallen\" leads many to see a fallen angel, perhaps Satan (cf. Luke 10:18; Revelation 12:9), though others hold it is simply a good angel descending, as in 20:1. Either way, the key is \"given\": evil acts only within limits set by God.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Often identified with Muhammad (Barnes, Elliott), or with the apostate influences that opened the way to Islam in the seventh century."
+          },
+          {
+            "position": "futurism",
+            "reading": "Usually Satan or a fallen angel, literally releasing demonic hordes in the Tribulation (Walvoord)."
+          },
+          {
+            "position": "idealism",
+            "reading": "Satan or a fallen angel, permitted throughout the age to unleash spiritual deception and torment on unbelievers."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Satan or a fallen angel unleashing demonic oppression on apostate Israel during the war years; Chilton links it to Jesus' warning of the unclean spirit returning sevenfold to \"this evil generation\" (Matthew 12:43-45)."
+          }
+        ],
+        "texts": [
+          "Isaiah 14:12",
+          "Luke 10:18",
+          "Revelation 1:18",
+          "Revelation 20:1-3"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "barnes-notes-revelation",
+          "walvoord-revelation-jesus-christ",
+          "chilton-days-of-vengeance"
+        ]
+      },
+      {
+        "id": "rev9-abyss",
+        "phrase": "The pit of the Abyss",
+        "ref": "Revelation 9:1-2, 9:11",
+        "keywords": [
+          "abyss"
+        ],
+        "category": "place",
+        "jewish": "The Greek abyssos renders the Hebrew tehom, the primeval deep of Genesis 1:2 and Psalm 107:26, and came to mean the underworld prison of evil spirits: 1 Enoch 10:4-6, 13 and 18:11-16 (a chasm of fire where disobedient stars are bound), 21:7-10, Jubilees 5:6-10. Demons beg Jesus not to send them into the Abyss (Luke 8:31). Romans 10:7 uses it for the realm of the dead.",
+        "cultural": "Greek mythology had a parallel in Tartarus, the deep prison of the Titans (2 Peter 2:4 uses the verb \"tartarize\").",
+        "meaning": "The source of demonic evil and later of the beast (11:7; 17:8) and the place where Satan is bound (20:1-3). Its opening means God permits a measured outbreak of demonic power as judgment.",
+        "readings": [],
+        "texts": [
+          "Genesis 1:2",
+          "Luke 8:31",
+          "Romans 10:7",
+          "Revelation 11:7",
+          "Revelation 20:1-3"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "rev9-smoke-furnace",
+        "phrase": "Smoke like the smoke of a great furnace, darkening sun and air",
+        "ref": "Revelation 9:2",
+        "keywords": [
+          "smoke of a great furnace"
+        ],
+        "category": "cosmic",
+        "jewish": "Smoke from a furnace rose from Sodom and Gomorrah after their destruction (Genesis 19:28) and from Sinai at God's descent (Exodus 19:18). Locust swarms dense enough to darken the land are described in Exodus 10:15 and Joel 2:10.",
+        "cultural": "",
+        "meaning": "An image of judgment and spiritual darkness; the darkening may also anticipate the swarm itself, since huge locust clouds literally blot out the sun.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "The spread of Islam and its doctrine, which historicists described as darkening the \"sun\" of the gospel in the East."
+          },
+          {
+            "position": "idealism",
+            "reading": "Deception and spiritual blindness released on those who reject God."
+          }
+        ],
+        "texts": [
+          "Genesis 19:28",
+          "Exodus 19:18",
+          "Exodus 10:15",
+          "Joel 2:10"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "barnes-notes-revelation"
+        ]
+      },
+      {
+        "id": "rev9-locusts",
+        "phrase": "Locusts with power like scorpions",
+        "ref": "Revelation 9:3, 9:5, 9:10",
+        "keywords": [
+          "locusts",
+          "scorpions"
+        ],
+        "category": "creature",
+        "jewish": "The eighth Egyptian plague (Exodus 10:4-15) and the locust army of Joel 1-2, a figure for invading nations and the Day of the Lord. Locusts are among the covenant curses for disobedience (Deuteronomy 28:38, 42; 1 Kings 8:37). Scorpions symbolise hostile, painful forces (Ezekiel 2:6; Deuteronomy 8:15; Luke 10:19, where Jesus gives disciples authority over serpents and scorpions). Wisdom of Solomon 16:9 recalls the Egyptians killed by the bites of locusts and flies.",
+        "cultural": "Locust plagues periodically devastated Syria, Palestine and Asia Minor. Scorpions were common in the region, and their sting causes intense pain but is rarely fatal to adults, which fits the limit \"torment, not kill\". The locust was associated with Apollo, honoured in some places as a locust-averting god (Apollo Parnopios).",
+        "meaning": "A hybrid plague of demonic torment: real locusts eat vegetation, but these are forbidden to touch plants and attack only people, so the image is not of an ordinary insect swarm.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "The Saracen (Arab Muslim) armies of the seventh and eighth centuries, coming from Arabia, the land of locust swarms; the order not to hurt grass was compared to Abu Bakr's reported instruction not to destroy palm trees or crops (Barnes, Elliott)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "A demonic plague of madness and torment on Judea in the war years, or the Roman siege forces; Chilton stresses demonic oppression and the internal Zealot terror described by Josephus."
+          },
+          {
+            "position": "futurism",
+            "reading": "Literal demonic beings released in the Tribulation (Walvoord, Thomas); popular writers (e.g. Hal Lindsey) once suggested attack helicopters, a reading most futurist scholars do not adopt."
+          },
+          {
+            "position": "idealism",
+            "reading": "Demonic forces that torment unbelievers with the inner misery, fear and emptiness of life without God, throughout history (Hendriksen)."
+          }
+        ],
+        "texts": [
+          "Exodus 10:4-15",
+          "Joel 1:4-7",
+          "Joel 2:4-11",
+          "Deuteronomy 28:38",
+          "Luke 10:19"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "barnes-notes-revelation",
+          "elliott-horae",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev9-seal-on-foreheads",
+        "phrase": "Only those without the seal of God on their foreheads harmed",
+        "ref": "Revelation 9:4",
+        "keywords": [
+          "seal of god on their foreheads"
+        ],
+        "category": "body",
+        "jewish": "Ezekiel 9:4-6 has a mark (the Hebrew letter tav) put on the foreheads of those who grieve over Jerusalem's abominations, so that they are spared the slaughter. In the Exodus plagues Israel in Goshen was spared (Exodus 8:22; 9:4, 26) and the blood on the doorposts protected the firstborn (Exodus 12:13). Psalms of Solomon 15:6-9 speaks of the mark of God on the righteous for salvation.",
+        "cultural": "Slaves and soldiers in the Roman world could be branded or tattooed to show ownership; seals on documents and goods marked owners' protection.",
+        "meaning": "Refers back to the sealing of the servants of God in 7:3-8. Believers are protected from this spiritual plague (not necessarily from physical suffering or martyrdom, which Revelation expects), while the plague falls on those who bear no mark of belonging to God.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "Includes the literal 144,000 Jewish servants sealed in chapter 7, and other believers living in the Tribulation."
+          },
+          {
+            "position": "idealism",
+            "reading": "All true believers, sealed by the Spirit (Ephesians 1:13), preserved from demonic deception."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "The Christian remnant in Judea who heeded Jesus' warning and fled before the siege (Luke 21:20-21; Eusebius, Church History 3.5 on flight to Pella)."
+          }
+        ],
+        "texts": [
+          "Ezekiel 9:4-6",
+          "Exodus 12:13",
+          "Revelation 7:3-4",
+          "Ephesians 1:13"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "gentry-before-jerusalem-fell"
+        ]
+      },
+      {
+        "id": "rev9-five-months",
+        "phrase": "Tormented for five months",
+        "ref": "Revelation 9:5, 9:10",
+        "keywords": [
+          "five months"
+        ],
+        "category": "time",
+        "jewish": "The lifespan of a locust is about five months, roughly the dry season from spring to late summer. The floodwaters prevailed for 150 days (Genesis 7:24; 8:3). Some see a limited, divinely set period of judgment.",
+        "cultural": "Locust swarms in the eastern Mediterranean typically appear in spring and summer.",
+        "meaning": "A limited, relatively short period of torment, framed by the natural locust season. Interpreters differ on whether it is a literal span or symbolic of a restricted period.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Using the day-for-a-year principle, 150 years of Saracen expansion, often dated from c. 612 (the start of Muhammad's preaching) to 762 (the founding of Baghdad, when the caliphate settled), or similar ranges (Elliott, Barnes)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "A literal five-month period in the war, often linked to the five months of Gessius Florus's outrages in AD 66 (May to September) or to the five-month siege of Jerusalem in AD 70 (roughly April to September)."
+          },
+          {
+            "position": "futurism",
+            "reading": "A literal five months within the Tribulation."
+          },
+          {
+            "position": "idealism",
+            "reading": "A symbolic, limited time: the torment is real but restrained."
+          }
+        ],
+        "texts": [
+          "Genesis 7:24",
+          "Revelation 9:10"
+        ],
+        "sources": [
+          "elliott-horae",
+          "barnes-notes-revelation",
+          "chilton-days-of-vengeance",
+          "thomas-revelation-8-22"
+        ]
+      },
+      {
+        "id": "rev9-seek-death",
+        "phrase": "People will seek death and not find it",
+        "ref": "Revelation 9:6",
+        "keywords": [
+          "seek death",
+          "long to die"
+        ],
+        "category": "action",
+        "jewish": "Job 3:21 speaks of those who long for death that does not come; Jeremiah 8:3 says the survivors of judgment will prefer death to life. Hosea 10:8 and Revelation 6:16 have people calling on mountains to cover them.",
+        "cultural": "Suicide was regarded by Stoics as an honourable exit; denying even that escape intensifies the horror.",
+        "meaning": "The torment is psychological and spiritual as much as physical: life becomes unbearable, yet no escape is granted. It portrays the despair of life under judgment without repentance.",
+        "readings": [],
+        "texts": [
+          "Job 3:21",
+          "Jeremiah 8:3",
+          "Revelation 6:16"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "osborne-revelation-becnt"
+        ]
+      },
+      {
+        "id": "rev9-locust-appearance",
+        "phrase": "Horses prepared for battle, crowns of gold, human faces, women's hair, lions' teeth, iron breastplates",
+        "ref": "Revelation 9:7-9",
+        "keywords": [
+          "horses prepared for battle",
+          "crowns of gold",
+          "hair like that of women",
+          "teeth like those of lions",
+          "breastplates of iron"
+        ],
+        "category": "creature",
+        "jewish": "Joel 2:4-5 says the locusts look like horses and sound like chariots; Joel 1:6 gives them teeth like a lion's. The resemblance of a locust's head to a horse's head was noticed in antiquity (Italian cavalletta and German Heupferd, \"hay-horse\", preserve it). The sound of chariots rushing into battle echoes Joel 2:5. Crowns suggest authority to conquer, as with the first rider in Revelation 6:2.",
+        "cultural": "Parthian cavalry were known for long, flowing hair; armoured cavalry (cataphracts) wore scale or iron breastplates. Locusts' antennae could be likened to hair, and their thorax plates to armour.",
+        "meaning": "A nightmarish composite that turns Joel's locust army into an invincible, intelligent, cruel host: human faces suggest intelligence, women's hair perhaps seduction or wildness, lions' teeth ferocity, and iron breastplates invulnerability. The piling up of \"like\" shows John is describing a visionary image, not a zoological species.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Detailed matches with Arab warriors: turbans like crowns, beards (faces of men), long hair, mounted on horses, armour, as argued by Barnes and Elliott."
+          },
+          {
+            "position": "futurism",
+            "reading": "A description of grotesque demonic beings, perhaps visible, in the Tribulation."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Either demonic forces or the Roman and Zealot armies, depicted with Joel's locust-army imagery to show the Day of the Lord against Jerusalem."
+          },
+          {
+            "position": "idealism",
+            "reading": "Symbolic portrait of the power, cunning and cruelty of demonic forces."
+          }
+        ],
+        "texts": [
+          "Joel 1:6",
+          "Joel 2:4-5",
+          "Revelation 6:2"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "barnes-notes-revelation",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "rev9-abaddon-apollyon",
+        "phrase": "Their king, the angel of the Abyss: Abaddon in Hebrew, Apollyon in Greek",
+        "ref": "Revelation 9:11",
+        "keywords": [
+          "abaddon",
+          "apollyon"
+        ],
+        "category": "title",
+        "jewish": "Abaddon (\"destruction\", \"place of destruction\") is a poetic parallel to Sheol and death (Job 26:6; 28:22; 31:12; Psalm 88:11; Proverbs 15:11; 27:20). In the Qumran Thanksgiving Hymns (1QH 11:16-19) the torrents of Belial burst into Abaddon, a step toward personifying it. Proverbs 30:27 observes that locusts have no king, so a king over these locusts marks them as unnatural.",
+        "cultural": "Apollyon (\"Destroyer\") is probably a pun on Apollo, whose name some ancient writers derived from the verb \"to destroy\" (apollumi) and whose symbols included the locust. Emperors associated themselves with Apollo, notably Nero (who performed as Apollo the lyre-player) and Augustus; Domitian was also linked to him. Many scholars therefore see a jab at the imperial claim: the god the emperors honour is the destroyer from the pit. The pun is widely accepted but not certain.",
+        "meaning": "The ruler of the demonic locusts, the personification of destruction. Some identify him with Satan, others with a subordinate demon or with the fallen star of 9:1. The bilingual name presents a hellish counterpart to the Lamb who rules.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Variously the Saracen caliph or Muhammad as the leader of the destructive armies (Barnes notes the destructive character of the Muslim conquests)."
+          },
+          {
+            "position": "futurism",
+            "reading": "A specific powerful demon or Satan himself, leading literal demonic forces in the future."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Satan as destroyer, with a possible allusion to Nero, the Apollo-imitating emperor of the war years."
+          },
+          {
+            "position": "idealism",
+            "reading": "Satan or a chief demon whose work in every age is destruction, in contrast to Christ who gives life."
+          }
+        ],
+        "texts": [
+          "Job 26:6",
+          "Job 28:22",
+          "Psalm 88:11",
+          "Proverbs 15:11",
+          "Proverbs 30:27"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "koester-revelation-ayb",
+          "barnes-notes-revelation"
+        ]
+      },
+      {
+        "id": "rev9-first-woe",
+        "phrase": "The first woe has passed; two woes still to come",
+        "ref": "Revelation 9:12",
+        "keywords": [
+          "first woe",
+          "two woes"
+        ],
+        "category": "time",
+        "jewish": "Woe-oracles were a standard prophetic form (Isaiah 5:8-22; Habakkuk 2:6-19). The triad of woes echoes the eagle's cry in 8:13.",
+        "cultural": "",
+        "meaning": "A structural marker: the fifth, sixth and seventh trumpets are the three woes. The third woe is announced (11:14) but not explicitly labelled; many locate it in the seventh trumpet and its outworking (chapters 12-16, including the devil's descent in 12:12).",
+        "readings": [],
+        "texts": [
+          "Revelation 8:13",
+          "Revelation 11:14",
+          "Revelation 12:12"
+        ],
+        "sources": [
+          "bauckham-climax-prophecy",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "rev9-four-horns-golden-altar",
+        "phrase": "A voice from the four horns of the golden altar before God",
+        "ref": "Revelation 9:13",
+        "keywords": [
+          "four horns of the golden altar"
+        ],
+        "category": "worship",
+        "jewish": "The golden altar of incense had four horns (Exodus 30:1-3, 10), on which the high priest put blood annually on the Day of Atonement. Horns of the altar were a place of asylum (1 Kings 1:50; 2:28), and their being cut off meant judgment (Amos 3:14). The voice links back to 8:3-5 and the martyrs' prayers.",
+        "cultural": "",
+        "meaning": "The sixth trumpet is again presented as an answer to the prayers offered on the incense altar; the place of intercession and atonement becomes the source of the command to judge.",
+        "readings": [],
+        "texts": [
+          "Exodus 30:1-10",
+          "Leviticus 16:18",
+          "Amos 3:14",
+          "Revelation 8:3-5"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "osborne-revelation-becnt"
+        ]
+      },
+      {
+        "id": "rev9-euphrates-four-angels",
+        "phrase": "Four angels bound at the great river Euphrates",
+        "ref": "Revelation 9:14-15",
+        "keywords": [
+          "euphrates",
+          "four angels"
+        ],
+        "category": "place",
+        "jewish": "The Euphrates is the northern boundary of the promised land (Genesis 15:18; Deuteronomy 1:7; Joshua 1:4), the river from which Assyria and Babylon came as God's instruments of judgment (Isaiah 7:20; 8:7-8; Jeremiah 46:10; Jeremiah 13:4-7). 1 Enoch 56:5-8 predicts that angels will stir up the Parthians and Medes to invade the land of the elect. Bound angels recall 1 Enoch 10:4-12 and Jubilees 5:6. The \"four\" may relate to the four winds (Revelation 7:1).",
+        "cultural": "In John's day the Euphrates was Rome's eastern frontier and the border with the Parthian empire, Rome's most feared rival; the Parthians had defeated Crassus at Carrhae (53 BC) and forced a Roman army to surrender at Rhandeia (AD 62). The Nero redivivus legend expected Nero to return leading Parthian hosts against Rome (Sibylline Oracles 4.119-139).",
+        "meaning": "Evil angels held in check until a precise time ordained by God now unleash a massive invasion from the east, the classic direction of Israel's judgment. The \"hour, day, month and year\" stresses divine timing: nothing happens before God's appointed moment.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "The four Turkish sultanates (Seljuk powers) settled near the Euphrates, released to overthrow the eastern Roman empire; the hour, day, month and year was computed as about 391 years (and 15 days) from roughly 1057 to the fall of Constantinople in 1453 (Elliott, Barnes). Josiah Litch (1838) famously applied a related calculation to predict the fall of Ottoman power in August 1840."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Roman legions massed in the Euphrates region and Syria (Josephus notes troops drawn from the Euphrates garrison for Titus's siege, Jewish War 5.1.6), loosed upon Judea; the Euphrates recalls Babylon's invasion of 587 BC."
+          },
+          {
+            "position": "futurism",
+            "reading": "A literal future invasion from the east, often linked to the kings of the east of Revelation 16:12, perhaps involving Asian powers, or a demonic army (Walvoord)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The river stands for the boundary from which threatening, destructive powers come; demonic forces stirring warfare across history."
+          }
+        ],
+        "texts": [
+          "Genesis 15:18",
+          "Isaiah 8:7-8",
+          "Jeremiah 46:10",
+          "Revelation 7:1",
+          "Revelation 16:12"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "elliott-horae",
+          "barnes-notes-revelation",
+          "josephus-jewish-war",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev9-two-hundred-million",
+        "phrase": "Mounted troops numbering two hundred million",
+        "ref": "Revelation 9:16",
+        "keywords": [
+          "two hundred million",
+          "mounted troops"
+        ],
+        "category": "number",
+        "jewish": "The Greek is literally \"two myriads of myriads\", an expression for an incalculable number; compare the thousands and myriads of Daniel 7:10 and the vast chariots of God in Psalm 68:17. Ancient armies numbered in the tens of thousands; the whole Roman army was perhaps 300,000.",
+        "cultural": "Parthian armies were famous for their mounted archers, and the idea of countless eastern cavalry was a Roman nightmare.",
+        "meaning": "An overwhelming, unimaginable army. Most interpreters read the figure as hyperbolic and symbolic (an innumerable host) rather than as a literal census; John hears the number, stressing its revelatory not observational character.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "Some futurists take the number literally, noting that modern populations make an army of this size conceivable (some popular writers pointed to China); others, including Walvoord, allow that the hosts may be demonic."
+          },
+          {
+            "position": "historicism",
+            "reading": "The vast Turkish cavalry hosts that overran Asia Minor and the Balkans."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "The overwhelming Roman forces and auxiliaries arrayed against Jerusalem, described with exaggerated numbering typical of apocalyptic."
+          },
+          {
+            "position": "idealism",
+            "reading": "Symbol of demonic forces numberless in their reach, warring against humanity across the ages."
+          }
+        ],
+        "texts": [
+          "Daniel 7:10",
+          "Psalm 68:17",
+          "Revelation 5:11"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "walvoord-revelation-jesus-christ",
+          "gregg-revelation-four-views"
+        ]
+      },
+      {
+        "id": "rev9-breastplates-fire-sapphire-sulfur",
+        "phrase": "Breastplates of fire, hyacinth and sulfur; lion-headed horses breathing fire, smoke and sulfur",
+        "ref": "Revelation 9:17-18",
+        "keywords": [
+          "fire, sapphire, and sulfur",
+          "fire, smoke, and sulfur",
+          "heads of lions"
+        ],
+        "category": "colour",
+        "jewish": "Fire and sulfur (brimstone) rained on Sodom and Gomorrah (Genesis 19:24, 28), and fire with brimstone is the punishment of Gog (Ezekiel 38:22) and of the wicked (Psalm 11:6; Isaiah 34:9). The leviathan breathes fire and smoke (Job 41:19-21). Lions' heads recall Joel's lion-toothed locusts and suggest royal ferocity. The colours (fiery red, dark blue hyacinth, sulfurous yellow) match the three plagues.",
+        "cultural": "The Greek \"hyakinthinos\" (BSB \"sapphire\") denotes a dark blue-violet, the colour of the smoke from burning sulfur. Fire-breathing hybrid monsters such as the Chimaera (lion-headed, serpent-tailed) were familiar from Greek myth and art in Asia Minor (Lycia).",
+        "meaning": "The riders and horses are infernal: they bear the colours and weapons of hell itself. The three plagues of fire, smoke and sulfur anticipate the lake of fire and sulfur (Revelation 19:20; 21:8).",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Barnes and Elliott saw here a description of Turkish cavalry with gunpowder and cannon, which the Ottomans used decisively in the siege of Constantinople in 1453: fire and smoke and sulfur issuing from the \"mouths\" of guns."
+          },
+          {
+            "position": "futurism",
+            "reading": "Either literal demonic creatures or, in some popular readings, modern weaponry; Walvoord leaves open demonic hosts."
+          },
+          {
+            "position": "idealism",
+            "reading": "Hellish, destructive warfare described with the imagery of Sodom's judgment."
+          }
+        ],
+        "texts": [
+          "Genesis 19:24",
+          "Ezekiel 38:22",
+          "Job 41:19-21",
+          "Revelation 14:10",
+          "Revelation 19:20"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "barnes-notes-revelation",
+          "elliott-horae",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev9-tails-like-serpents",
+        "phrase": "Power in their mouths and in their tails like serpents with heads",
+        "ref": "Revelation 9:19",
+        "keywords": [
+          "tails were like snakes",
+          "mouths and in their tails"
+        ],
+        "category": "creature",
+        "jewish": "Serpents bring God's judgment in Numbers 21:6 and Jeremiah 8:17, and recall the serpent of Genesis 3; Isaiah 9:15 says the prophet who teaches lies is the \"tail\". The scorpion-tailed locusts of 9:10 are matched here by serpent-tailed horses.",
+        "cultural": "The Parthian cavalry tactic of feigned retreat while shooting arrows backward over the horse's rump made their \"tails\" dangerous; Roman writers (e.g. Plutarch on Crassus) describe it. Lion-headed, serpent-tailed beasts like the Chimaera were standard monsters in Greek art.",
+        "meaning": "The creatures harm both coming and going, a picture of inescapable, demonic destruction. The serpent link ties the plague to the dragon, \"that ancient serpent\" (12:9).",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Barnes linked the tails to the horse-tail standards (tughs) used as Turkish insignia of rank by pashas."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "An allusion to eastern (Parthian-style) cavalry tactics among the forces that ravaged Judea."
+          }
+        ],
+        "texts": [
+          "Numbers 21:6",
+          "Isaiah 9:15",
+          "Revelation 9:10",
+          "Revelation 12:9"
+        ],
+        "sources": [
+          "barnes-notes-revelation",
+          "aune-revelation-wbc",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev9-no-repentance",
+        "phrase": "The rest did not repent of idols, murder, sorcery, immorality and theft",
+        "ref": "Revelation 9:20-21",
+        "keywords": [
+          "did not repent",
+          "idols of gold",
+          "sorcery"
+        ],
+        "category": "action",
+        "jewish": "The polemic against idols of gold, silver, bronze, stone and wood that cannot see, hear or walk comes from Psalm 115:4-7, Psalm 135:15-17 and Daniel 5:4, 23, and Deuteronomy 32:17 identifies idol-worship with demon-worship (also 1 Corinthians 10:20). Wisdom of Solomon 14:22-27 traces murder, theft and sexual corruption to idolatry. The hardening echoes Pharaoh's refusal to let Israel go despite the plagues (Exodus 7-11). The vice list echoes the Decalogue's second table.",
+        "cultural": "In the cities of Asia, idols stood in temples, homes and guild halls; trade guilds held banquets in honour of patron gods, and refusal to participate cost Christians economically (compare Revelation 2:14, 20). \"Sorcery\" (pharmakeia) covers magic and drug-related spells, flourishing in Ephesus (Acts 19:19).",
+        "meaning": "The goal of the trumpet judgments is repentance, but judgments alone do not soften hearts; the gospel witness of chapters 10-11 is the next step. The verses show the moral roots of judgment: false worship produces social evil.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "The unreformed Christendom of the Middle Ages, whose saint-and-image veneration historicist Protestants called idolatry, did not repent despite the Saracen and Turkish scourges; the next vision (ch. 10) is the Reformation."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Applied by some to the pagan world and to apostate Judaism which, as the war progressed, did not turn; others stress that the idolatry language suits Gentile Asia and the world beyond Judea."
+          },
+          {
+            "position": "futurism",
+            "reading": "Shows the hardness of humanity in the Tribulation, setting up the final bowl judgments."
+          },
+          {
+            "position": "idealism",
+            "reading": "A permanent truth about fallen humanity: suffering alone does not convert."
+          }
+        ],
+        "texts": [
+          "Psalm 115:4-7",
+          "Daniel 5:23",
+          "Deuteronomy 32:17",
+          "1 Corinthians 10:20",
+          "Exodus 7:13"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation",
+          "barnes-notes-revelation"
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "The fifth and sixth trumpets describe the escalating horrors of the Jewish War. The locusts are a demonic plague of torment and madness unleashed on the land, which Chilton relates to Jesus' saying that the unclean spirit would return with seven others to \"this evil generation\" (Matthew 12:43-45) and to the factional terror inside Jerusalem described by Josephus; the five months may be the summer of AD 66 or the siege of AD 70. The Euphrates armies are the Roman legions gathered from the east under Vespasian and Titus. The failure to repent is the failure of the generation that rejected the Messiah. This depends on a pre-70 date for Revelation, which most scholars dispute."
+      },
+      {
+        "position": "historicism",
+        "reading": "The fifth trumpet is the rise of Islam and the Saracen conquests from Arabia (the fallen star often identified with Muhammad); the five months are 150 years by the year-day principle. The sixth trumpet is the Turkish (Seljuk and Ottoman) power released from the Euphrates, whose fixed period of about 391 years ends with the fall of Constantinople in 1453, taken with gunpowder and cannon (the fire, smoke and sulfur). The unrepentant are western Christendom, still given to image-veneration, which sets the stage for the Reformation in chapter 10 (Elliott, Barnes)."
+      },
+      {
+        "position": "futurism",
+        "reading": "These are literal future judgments in the second half of the Tribulation. The locusts are demonic beings released from the Abyss who torment unbelievers for five literal months; the two hundred million are a massive army (some take it literally as a human force from the east, others as demonic cavalry) that kills a third of the world's population. Humanity's refusal to repent demonstrates the justice of the final bowls (Walvoord, Thomas)."
+      },
+      {
+        "position": "idealism",
+        "reading": "The locusts portray the demonic torment, inner emptiness and despair experienced by those who reject God throughout the church age, while believers sealed by the Spirit are protected. The Euphrates army represents the destructive warfare, often demonically driven, that recurs across history, culminating before the end. The unrepentant response shows that judgment cannot by itself transform hearts (Hendriksen, Beale)."
+      },
+      {
+        "position": "eclectic",
+        "reading": "Commentators such as Beale, Osborne and Koester see the locusts as demonic agents (following Enochic traditions about the Abyss), the Euphrates cavalry as evoking first-century fear of Parthian invasion, and the whole as both a pattern of judgment during the church age and a foreshadowing of an intensified final outbreak before Christ's return. They generally hold that the images are not meant to be decoded into specific historical events."
+      }
+    ],
+    "questions": [
+      "Why might John describe the locusts with so many conflicting features (horse, human face, women's hair, lion teeth, scorpion tail)? What does that suggest about how to read the vision?",
+      "How does the seal of God in Revelation 9:4 relate to the sealing in Revelation 7? What kind of protection is promised to believers?",
+      "What associations would the Euphrates have had for a Jewish reader and for a Roman reader in Asia? How do those associations shape the different views?",
+      "Revelation 9:20-21 says that the survivors did not repent. What does this teach about the relationship between suffering, judgment and repentance?",
+      "Historicists have computed precise dates from \"the hour, day, month and year\". What are the strengths and dangers of such calculations?"
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "gregg-revelation-four-views",
+      "barnes-notes-revelation",
+      "elliott-horae",
+      "chilton-days-of-vengeance",
+      "walvoord-revelation-jesus-christ",
+      "hendriksen-more-than-conquerors",
+      "aune-revelation-wbc",
+      "josephus-jewish-war"
+    ]
+  },
+  {
+    "chapter": 10,
+    "title": "The mighty angel and the little scroll",
+    "section": "The seven trumpets: interlude before the seventh trumpet (Revelation 10:1-11:14)",
+    "summary": "Between the sixth and seventh trumpets, as between the sixth and seventh seals, comes an interlude. A mighty angel, clothed with a cloud, crowned with a rainbow, with a face like the sun and legs like pillars of fire, plants one foot on the sea and one on the land, holding a small open scroll. He roars like a lion and seven thunders speak, but John is told to seal up what they said. The angel swears by the Creator that there will be no more delay: when the seventh trumpet sounds, the mystery of God announced to the prophets will be fulfilled. John, like Ezekiel, is told to eat the scroll, sweet in his mouth and bitter in his stomach, and is recommissioned to prophesy again about many peoples, nations, languages and kings.",
+    "outline": [
+      {
+        "range": "Revelation 10:1-2",
+        "heading": "The mighty angel with the open little scroll"
+      },
+      {
+        "range": "Revelation 10:3-4",
+        "heading": "The seven thunders sealed up"
+      },
+      {
+        "range": "Revelation 10:5-7",
+        "heading": "The oath: no more delay; the mystery of God to be fulfilled"
+      },
+      {
+        "range": "Revelation 10:8-10",
+        "heading": "John eats the scroll: sweet and bitter"
+      },
+      {
+        "range": "Revelation 10:11",
+        "heading": "John recommissioned to prophesy again"
+      }
+    ],
+    "context": "Chapter 10 is a prophetic call narrative modelled on Ezekiel 2:8-3:3, where the prophet is given a scroll written with lament and woe, eats it and finds it sweet as honey, and is then sent to a rebellious house. The oath of the angel with raised hand comes from Daniel 12:7, where a man clothed in linen above the river swears by the one who lives forever that the end will come after \"a time, times and half a time\", the very period that chapter 11 takes up (42 months, 1,260 days). Daniel was told to seal up his words until the end (Daniel 12:4, 9); John is told to seal up only the seven thunders, while the rest of his prophecy is to be left open (Revelation 22:10), a signal that the end-time revelation Daniel awaited has begun. The \"mystery\" fulfilled echoes Daniel 2 and Amos 3:7; at Qumran the Habakkuk Pesher (1QpHab 7:1-5) says God made known to the Teacher of Righteousness all the mysteries of the prophets, though their final fulfilment was being prolonged.\n\nFor Asian readers, a colossal figure astride sea and land would recall the Colossus of Rhodes, the giant bronze statue of the sun-god Helios (fallen in an earthquake c. 226 BC but still a famous wonder), and the radiant sun-crown that emperors such as Nero adopted on coins. The scene asserts that true cosmic sovereignty belongs to the Creator. Structurally, the interlude explains how the church's prophetic witness fits into the judgments: the trumpets have not produced repentance (9:20-21), so the next movement turns to the witnessing church (11:1-13). Many scholars (Bauckham, Beale) argue that the little scroll is the same scroll the Lamb opened in chapter 5, now given to John to prophesy; others distinguish them.",
+    "symbols": [
+      {
+        "id": "rev10-mighty-angel",
+        "phrase": "Another mighty angel coming down from heaven",
+        "ref": "Revelation 10:1",
+        "keywords": [
+          "mighty angel"
+        ],
+        "category": "person",
+        "jewish": "The figure combines features of the man clothed in linen of Daniel 10:5-6 and 12:6-7 and of God's glory in Ezekiel 1:26-28. The earlier \"mighty angel\" of Revelation 5:2 asked who was worthy to open the scroll, and a third appears in 18:21. Some find a wordplay on Gabriel (\"God is mighty\"), who interprets Daniel's visions.",
+        "cultural": "The image of a giant astride land and sea evokes the Colossus of Rhodes, a famous statue of Helios standing at the harbour of Rhodes, off the coast of Asia.",
+        "meaning": "A powerful angelic messenger reflecting divine glory. Whether he is Christ is disputed: his features (cloud, rainbow, sun-like face, fiery legs) recall the description of Christ in 1:13-16 and of God in 4:3, but Revelation never calls Christ an angel, and the angel swears by God rather than as God.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Many historicists (Elliott, Barnes) see Christ himself, or Christ's coming in the Reformation, with the angel's descent representing the renewed light of the gospel in the sixteenth century."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Chilton takes the angel as Christ, the covenant Lord who comes to announce judgment and to commission the church's witness against Israel."
+          },
+          {
+            "position": "futurism",
+            "reading": "Most dispensational futurists (Walvoord, Thomas) treat him as a strong created angel, not Christ."
+          },
+          {
+            "position": "idealism",
+            "reading": "Beale argues the angel is the Angel of the Lord, a manifestation of Christ; Hendriksen also sees Christ; others in the idealist tradition think a high angel."
+          }
+        ],
+        "texts": [
+          "Daniel 10:5-6",
+          "Daniel 12:6-7",
+          "Ezekiel 1:26-28",
+          "Revelation 1:13-16",
+          "Revelation 5:2"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "elliott-horae",
+          "chilton-days-of-vengeance",
+          "walvoord-revelation-jesus-christ",
+          "hendriksen-more-than-conquerors"
+        ]
+      },
+      {
+        "id": "rev10-cloud-rainbow-sun-fire",
+        "phrase": "Wrapped in a cloud, a rainbow over his head, face like the sun, legs like pillars of fire",
+        "ref": "Revelation 10:1",
+        "keywords": [
+          "wrapped in a cloud",
+          "rainbow",
+          "face was like the sun",
+          "pillars of fire"
+        ],
+        "category": "body",
+        "jewish": "Clouds are the vehicle of theophany and of the Son of Man (Exodus 19:9; Daniel 7:13; Psalm 104:3). The rainbow surrounds God's throne in Ezekiel 1:28 and Revelation 4:3 and recalls the covenant mercy after the flood (Genesis 9:13-16). The sun-like face recalls Moses after Sinai (Exodus 34:29-35), the transfiguration (Matthew 17:2) and Christ in Revelation 1:16. The pillars of fire and cloud guided Israel in the wilderness (Exodus 13:21-22).",
+        "cultural": "Sun-rays and radiant crowns were symbols of Helios and Sol, and emperors (Nero, later Domitian) appeared with radiate crowns on coins. Here such glory belongs to God's messenger.",
+        "meaning": "The angel bears the attributes of God's presence: judgment (cloud and fire), mercy (rainbow) and glory (sun). The wilderness imagery suggests a new Exodus, guiding God's people through judgment, and the rainbow suggests that judgment is tempered by covenant faithfulness.",
+        "readings": [],
+        "texts": [
+          "Exodus 13:21-22",
+          "Ezekiel 1:28",
+          "Genesis 9:13-16",
+          "Exodus 34:29-35",
+          "Revelation 1:15-16"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev10-little-scroll",
+        "phrase": "A small scroll lying open in his hand",
+        "ref": "Revelation 10:2, 10:8-10",
+        "keywords": [
+          "small scroll",
+          "lay open"
+        ],
+        "category": "object",
+        "jewish": "Ezekiel receives a scroll written on both sides with lament, mourning and woe (Ezekiel 2:9-10). Daniel's words were sealed until the end (Daniel 12:4, 9). Zechariah 5:1-4 sees a flying scroll of curse. The Lamb took the sealed scroll from God's hand in Revelation 5:1-7.",
+        "cultural": "Scrolls (biblion, here the diminutive biblaridion) were the form of books and legal documents; an \"open\" scroll signifies a document whose seals have been broken and whose contents are in force.",
+        "meaning": "The content John must now proclaim. Many scholars (Bauckham, Beale, Koester) identify it with the seven-sealed scroll of chapter 5, now opened by the Lamb and handed via the angel to John, so that the \"little\" description is relative to the giant angel. Others (Aune, many futurists) see a distinct, smaller message, often the contents of 11:1-13 or of chapters 11-22. The open scroll suggests God's plan now being revealed and carried out.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "The Bible opened to the people at the Reformation, through printing and vernacular translation (Elliott, Barnes)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "The message of judgment against Jerusalem and of the new covenant, which John must proclaim; Chilton sees it as the \"new covenant\" document given to the prophet."
+          },
+          {
+            "position": "futurism",
+            "reading": "A distinct scroll containing the prophecy of the remaining Tribulation events (often chapters 11-19)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The gospel and God's redemptive plan entrusted to the church, the same scroll as chapter 5 (Beale)."
+          }
+        ],
+        "texts": [
+          "Ezekiel 2:9-10",
+          "Daniel 12:4",
+          "Revelation 5:1-7",
+          "Revelation 22:10"
+        ],
+        "sources": [
+          "bauckham-climax-prophecy",
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc",
+          "elliott-horae"
+        ]
+      },
+      {
+        "id": "rev10-foot-sea-land",
+        "phrase": "Right foot on the sea, left foot on the land",
+        "ref": "Revelation 10:2, 10:5, 10:8",
+        "keywords": [
+          "foot on the sea",
+          "on the land"
+        ],
+        "category": "action",
+        "jewish": "God made the sea and the dry land (Psalm 95:5; Jonah 1:9). Setting the foot on territory is a gesture of claiming possession (Joshua 1:3; 10:24; Psalm 8:6). In Revelation, the beast later rises from the sea (13:1) and another from the land (13:11).",
+        "cultural": "The pose echoes the Colossus of Rhodes at the harbour mouth, an image of power over sea and land.",
+        "meaning": "A claim of universal authority: the message is for the whole world. It also prepares for the counterfeit sovereignty of the beasts from sea and land in chapter 13.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Some preterists render \"land\" as the land of Israel, contrasted with the sea of the Gentile nations, both under the coming judgment and the new covenant."
+          }
+        ],
+        "texts": [
+          "Psalm 95:5",
+          "Joshua 1:3",
+          "Revelation 13:1",
+          "Revelation 13:11"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-of-vengeance"
+        ]
+      },
+      {
+        "id": "rev10-lion-roar",
+        "phrase": "He cried out with a loud voice like the roar of a lion",
+        "ref": "Revelation 10:3",
+        "keywords": [
+          "roar of a lion"
+        ],
+        "category": "action",
+        "jewish": "God roars like a lion from Zion in judgment (Amos 1:2; 3:8; Joel 3:16; Jeremiah 25:30) and also calls his scattered children home (Hosea 11:10-11). Amos 3:7-8 ties the lion's roar to prophecy: when the lion roars, who will not fear, and when the Lord speaks, who will not prophesy? 4 Ezra 11-12 has a lion (the Messiah) roar against the eagle (Rome).",
+        "cultural": "",
+        "meaning": "An announcement with divine authority, inviting John's prophetic response (10:11). The Amos background links the roar to the revelation of God's secret to his servants the prophets (10:7).",
+        "readings": [],
+        "texts": [
+          "Amos 3:7-8",
+          "Hosea 11:10",
+          "Joel 3:16",
+          "Revelation 5:5"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy"
+        ]
+      },
+      {
+        "id": "rev10-seven-thunders",
+        "phrase": "The seven thunders spoke; \"Seal up what they said and do not write it\"",
+        "ref": "Revelation 10:3-4",
+        "keywords": [
+          "seven thunders",
+          "seal up"
+        ],
+        "category": "cosmic",
+        "jewish": "Psalm 29 describes the voice of the Lord seven times in the storm, thundering over the waters; thunder as God's voice appears in John 12:28-29 and Exodus 19:16-19. Daniel was told to seal up the vision (Daniel 8:26; 12:4, 9), and Paul heard things that cannot be told (2 Corinthians 12:4).",
+        "cultural": "",
+        "meaning": "A further series of seven judgments or revelations that John is forbidden to record. Most interpreters take this to mean either that God has more judgments than are revealed, or (Bauckham, Beale) that a further series of warning judgments has been cancelled because, as the trumpets showed, warnings alone do not bring repentance; the next stage is the church's witness. The command reverses Daniel: what Daniel sealed is now open, but this part remains secret.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Elliott identified the seven thunders with the papal anathemas and bulls thundered against the Reformers, which the Reformers refused to accept as God's word."
+          },
+          {
+            "position": "futurism",
+            "reading": "Unrevealed future judgments in the Tribulation (Walvoord), reminding readers that not all is disclosed."
+          },
+          {
+            "position": "idealism",
+            "reading": "A reminder of the limits of revelation and/or the cancellation of further warning-judgments in favour of the church's witness (Bauckham, Beale)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Additional judgments on Jerusalem known to God but not recorded, or the sealing of matters not needed for the church's present task."
+          }
+        ],
+        "texts": [
+          "Psalm 29:3-9",
+          "Daniel 12:4",
+          "2 Corinthians 12:4",
+          "Revelation 22:10"
+        ],
+        "sources": [
+          "bauckham-climax-prophecy",
+          "beale-revelation-nigtc",
+          "elliott-horae",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev10-raised-hand-oath",
+        "phrase": "He lifted his right hand to heaven and swore by the one who lives forever, the Creator",
+        "ref": "Revelation 10:5-6",
+        "keywords": [
+          "lifted up his right hand",
+          "swore by him who lives forever"
+        ],
+        "category": "action",
+        "jewish": "Directly modelled on Daniel 12:7, where the man in linen raises both hands and swears by the one who lives forever that the end will come after a time, times and half a time. Raising the hand is an oath gesture (Genesis 14:22; Deuteronomy 32:40, where God swears by his own eternal life). The threefold Creator formula (heaven, earth, sea and all in them) recalls Exodus 20:11 and Nehemiah 9:6.",
+        "cultural": "Oaths by the gods, and especially by the emperor's genius, were part of Roman civic and military life; here the oath is by the true Creator alone.",
+        "meaning": "A solemn guarantee that God, as Creator, will complete his purpose for his creation. The oath ties the coming events to Daniel's three-and-a-half-year period, which chapter 11 develops.",
+        "readings": [],
+        "texts": [
+          "Daniel 12:7",
+          "Deuteronomy 32:40",
+          "Genesis 14:22",
+          "Exodus 20:11"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy"
+        ]
+      },
+      {
+        "id": "rev10-no-more-delay",
+        "phrase": "There will be no more delay",
+        "ref": "Revelation 10:6",
+        "keywords": [
+          "no more delay"
+        ],
+        "category": "time",
+        "jewish": "Answers the martyrs' cry \"How long?\" (Revelation 6:10-11), where they were told to rest a little longer. Habakkuk 2:3 promises that the vision will not delay; 2 Baruch 20:1-2 and 4 Ezra 4:26 speak of the times hastening toward the end. Daniel 12:6 asked \"How long until the end of these wonders?\"",
+        "cultural": "",
+        "meaning": "The Greek chronos ouketi estai means \"there will be no more interval/delay\", not \"time will cease to exist\" as the KJV phrase \"time no longer\" was sometimes taken. The period of waiting is over: the final events leading to the seventh trumpet are now under way.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The judgment on that generation is imminent (Matthew 24:34); there will be no further delay before Jerusalem's fall."
+          },
+          {
+            "position": "futurism",
+            "reading": "Signals the final, rapid progression of judgments in the second half of the Tribulation leading to Christ's return."
+          },
+          {
+            "position": "historicism",
+            "reading": "Some historicists read \"time\" (chronos) as a prophetic period and tied the oath to the Reformation era; Elliott read it as no more delay of the consummation once the last period begins."
+          },
+          {
+            "position": "idealism",
+            "reading": "The final stage of history before the consummation is announced; the church lives under the certainty that God will not delay beyond his appointed time."
+          }
+        ],
+        "texts": [
+          "Revelation 6:10-11",
+          "Habakkuk 2:3",
+          "Daniel 12:6-7",
+          "2 Peter 3:9"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "gentry-before-jerusalem-fell",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev10-mystery-of-god",
+        "phrase": "The mystery of God will be fulfilled, as he proclaimed to his servants the prophets",
+        "ref": "Revelation 10:7",
+        "keywords": [
+          "mystery of god",
+          "servants the prophets"
+        ],
+        "category": "title",
+        "jewish": "Amos 3:7: the Lord does nothing without revealing his secret (sod) to his servants the prophets. Daniel 2:18-47 uses the Aramaic raz (mystery) for God's hidden plan of history, revealed to Daniel. At Qumran, raz nihyeh (\"the mystery of what is to be\") is a key term, and 1QpHab 7:1-5 says God revealed to the Teacher of Righteousness all the mysteries of the prophets' words. The verb \"proclaimed\" is literally \"evangelized\" (euangelizo).",
+        "cultural": "",
+        "meaning": "God's long-hidden plan, announced by the prophets, of establishing his kingdom over the world through the Messiah, including the inclusion of the nations and the defeat of evil (compare Romans 16:25-26; Ephesians 3:3-6; Colossians 1:26-27). At the seventh trumpet the kingdom of the world becomes the kingdom of God and his Christ (11:15).",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The mystery includes the full revelation of the new covenant and the inclusion of the Gentiles, sealed by the end of the old covenant order in AD 70 (Ephesians 3)."
+          },
+          {
+            "position": "futurism",
+            "reading": "God's purposes for the end of the age, completed when Christ returns to establish his millennial kingdom."
+          },
+          {
+            "position": "idealism",
+            "reading": "The consummation of God's kingdom at Christ's return, toward which the whole age moves."
+          }
+        ],
+        "texts": [
+          "Amos 3:7",
+          "Daniel 2:28",
+          "Romans 16:25-26",
+          "Ephesians 3:3-6",
+          "Revelation 11:15"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation",
+          "chilton-days-of-vengeance"
+        ]
+      },
+      {
+        "id": "rev10-eat-scroll-sweet-bitter",
+        "phrase": "Take it and eat it: sweet as honey in the mouth, bitter in the stomach",
+        "ref": "Revelation 10:9-10",
+        "keywords": [
+          "eat it",
+          "sweet as honey",
+          "bitter"
+        ],
+        "category": "action",
+        "jewish": "Ezekiel eats the scroll and finds it sweet as honey (Ezekiel 3:1-3), though its message is lament and woe and he goes away in bitterness (Ezekiel 3:14). Jeremiah ate God's words with joy (Jeremiah 15:16). God's words are sweeter than honey (Psalm 19:10; 119:103).",
+        "cultural": "Ancient writers used eating as a metaphor for internalising teaching; Jewish children in later tradition were given honey on letters of the alphabet when beginning Torah study (a medieval custom, cited only as illustration).",
+        "meaning": "Prophetic internalisation of God's word: receiving the revelation is sweet, but proclaiming its message of judgment, and the suffering it entails for the witnesses (11:7-10), is bitter. Some see the sweetness as the salvation of God's people and the bitterness as judgment on unbelievers.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "The joy of the Reformers at receiving the Scriptures, followed by the bitterness of persecution, schism and religious wars (Elliott)."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Sweet in the new covenant blessings it announces, bitter in the destruction of Jerusalem it foretells."
+          },
+          {
+            "position": "futurism",
+            "reading": "The prophetic word about the remaining judgments is sweet as God's word yet bitter in its content of woe (Walvoord)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The experience of every faithful witness: joy in God's word, sorrow in its rejection and in the suffering of proclaiming it."
+          }
+        ],
+        "texts": [
+          "Ezekiel 3:1-3",
+          "Ezekiel 3:14",
+          "Jeremiah 15:16",
+          "Psalm 19:10"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "elliott-horae",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev10-prophesy-again",
+        "phrase": "You must prophesy again about many peoples, nations, tongues and kings",
+        "ref": "Revelation 10:11",
+        "keywords": [
+          "prophesy again",
+          "peoples and nations and tongues and kings"
+        ],
+        "category": "action",
+        "jewish": "Jeremiah was appointed a prophet to nations and kingdoms (Jeremiah 1:10). The fourfold \"peoples, nations, languages\" echoes Daniel 3:4, 7; 5:19; 7:14, where it describes the empires and then the Son of Man's universal kingdom.",
+        "cultural": "",
+        "meaning": "John's recommissioning: the second half of the book (chapters 11-22), or at least the following visions, is a renewed prophecy concerning the world's peoples and rulers. The preposition (epi) can mean \"about\" or \"against\", leaving open whether the prophecy is primarily judgment or witness for the nations.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "After judging Israel, John prophesies concerning the Gentile nations and Rome (chapters 12-19)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Introduces the further prophecies about world rulers and the final empire (chapters 11-19)."
+          },
+          {
+            "position": "historicism",
+            "reading": "Introduces a second, parallel account of church history (chapters 11-14 retracing the same period from the church's side)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The church's ongoing prophetic witness to the nations through the whole age."
+          }
+        ],
+        "texts": [
+          "Jeremiah 1:10",
+          "Daniel 3:4",
+          "Daniel 7:14",
+          "Revelation 5:9"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy"
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "The interlude introduces a new phase in the judgment of the first-century generation. The mighty angel (often Christ, as Chilton holds) stands over land (Israel) and sea (the nations), swearing that there will be no more delay: the judgment Jesus promised within a generation is about to fall. The little scroll is the covenant message John must proclaim, sweet in its new-covenant promise and bitter in its sentence on Jerusalem, and his recommissioning turns his prophecy toward the nations and Rome. This reading presupposes a pre-70 date, which is disputed."
+      },
+      {
+        "position": "historicism",
+        "reading": "The descending angel is Christ's intervention at the Reformation, after the Saracen and Turkish woes. The open little scroll is the Bible restored to the people through the printing press and vernacular translations; the seven thunders are the papal anathemas that the Reformers rejected; eating the scroll is the Reformers' joyful reception of Scripture, with the bitterness of persecution to follow; and \"prophesy again\" is the renewed preaching of the gospel to many nations (Elliott, Barnes)."
+      },
+      {
+        "position": "futurism",
+        "reading": "The chapter is a parenthesis in the Tribulation between the sixth and seventh trumpets. A strong angel (not Christ) announces that the final judgments, culminating in the seventh trumpet and the bowls, will proceed without delay. The seven thunders are unrevealed judgments. The little scroll contains prophecies about the remaining events, which John must proclaim concerning the nations and kings of the end time (Walvoord, Thomas)."
+      },
+      {
+        "position": "idealism",
+        "reading": "The chapter recommissions the church as a prophetic community. The glorious angel (perhaps the Angel of the Lord) gives John the scroll of God's redemptive plan, opened by the Lamb, and calls the church to internalise it and bear witness to the nations even at the cost of suffering. Because the trumpet warnings did not bring repentance (9:20-21), God turns from further warnings (the sealed thunders) to the witness of the church that follows in chapter 11 (Beale, Bauckham)."
+      },
+      {
+        "position": "eclectic",
+        "reading": "Many commentators blend approaches: the chapter echoes Daniel 12 and Ezekiel 2-3 to present John's renewed prophetic commission for his first-century audience, describes the mission of the church through history, and points to the still-future consummation at the seventh trumpet. Bauckham's argument that the scroll is the Lamb's scroll and that its message is the conversion of the nations through the church's witness has been influential across views."
+      }
+    ],
+    "questions": [
+      "Is the mighty angel Christ or a created angel? What features of the text support each answer?",
+      "What does it mean that John was forbidden to write what the seven thunders said? How does this relate to Daniel 12:4 and Revelation 22:10?",
+      "Compare John's eating of the scroll with Ezekiel 2:8-3:3 and Jeremiah 15:16. Why is God's word both sweet and bitter for a prophet?",
+      "How does the \"mystery of God\" announced to the prophets (Revelation 10:7) relate to the kingdom proclaimed in Revelation 11:15 and to Paul's use of \"mystery\" in Ephesians 3?"
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "bauckham-climax-prophecy",
+      "gregg-revelation-four-views",
+      "elliott-horae",
+      "chilton-days-of-vengeance",
+      "walvoord-revelation-jesus-christ",
+      "koester-revelation-ayb"
+    ]
+  },
+  {
+    "chapter": 11,
+    "title": "Measuring the temple, the two witnesses and the seventh trumpet",
+    "section": "The seven trumpets: interlude and seventh trumpet (Revelation 10:1-11:19)",
+    "summary": "John is given a measuring rod and told to measure the temple of God, the altar and the worshippers, but to leave out the outer court, which is given to the nations to trample the holy city for 42 months. God's two witnesses, clothed in sackcloth and identified as the two olive trees and two lampstands of Zechariah 4, prophesy for 1,260 days with Elijah-like and Moses-like powers. When their testimony is finished, the beast from the Abyss kills them; their bodies lie unburied for three and a half days in the great city, spiritually called Sodom and Egypt, where their Lord was crucified, while the world celebrates. Then God raises them, they ascend in a cloud, an earthquake strikes the city and the survivors give glory to God. The seventh trumpet sounds: heavenly voices proclaim that the kingdom of the world has become the kingdom of our Lord and his Christ, the elders worship, and God's temple in heaven opens to reveal the ark of the covenant.",
+    "outline": [
+      {
+        "range": "Revelation 11:1-2",
+        "heading": "Measuring the temple; the outer court trampled for 42 months"
+      },
+      {
+        "range": "Revelation 11:3-6",
+        "heading": "The two witnesses and their powers"
+      },
+      {
+        "range": "Revelation 11:7-10",
+        "heading": "The witnesses killed by the beast; the world rejoices"
+      },
+      {
+        "range": "Revelation 11:11-13",
+        "heading": "Resurrection, ascension and earthquake; the survivors give glory to God"
+      },
+      {
+        "range": "Revelation 11:14",
+        "heading": "The second woe passes"
+      },
+      {
+        "range": "Revelation 11:15-18",
+        "heading": "Seventh trumpet: the kingdom proclaimed; the elders' thanksgiving"
+      },
+      {
+        "range": "Revelation 11:19",
+        "heading": "The heavenly temple opened and the ark of the covenant seen"
+      }
+    ],
+    "context": "This is one of the most contested chapters in Revelation, and it carries weight in the debate about the book's date. The measuring of the temple draws on Ezekiel 40-48 (an angel measures an idealised temple) and Zechariah 2:1-5 (Jerusalem measured for protection), while measuring can also mark out for destruction (2 Samuel 8:2; 2 Kings 21:13; Lamentations 2:8). Herod's temple had a vast Court of the Gentiles, separated from the inner courts by a balustrade with Greek and Latin warnings forbidding foreigners entry on pain of death (two such inscriptions have been found). Jesus foretold that Jerusalem would be trampled by the Gentiles until the times of the Gentiles are fulfilled (Luke 21:24). The period of 42 months, 1,260 days and (in chapter 12) \"a time, times and half a time\" comes from Daniel 7:25 and 12:7, Daniel's measure for the persecution of the saints, historically associated with Antiochus IV's desecration of the temple (167-164 BC, 1 Maccabees 1-4). It also echoes the three and a half years of drought under Elijah (Luke 4:25; James 5:17).\n\nPartial preterists (notably Gentry, Before Jerusalem Fell) argue that a command to measure a still-standing temple implies the book was written before AD 70, and that the 42 months match the Roman campaign from spring 67 to August 70. Most scholars, who date Revelation to about AD 95, reply that John's temple is symbolic (as elsewhere in Revelation, 3:12; 21:22) or that he reuses an older oracle, and that the date question cannot rest on this passage. The two witnesses combine Moses (water to blood, plagues) and Elijah (fire from heaven, shutting the sky), the figures expected at the end in Malachi 4:5 and seen with Jesus on the mountain of transfiguration; early Christian writers (Hippolytus, Tertullian) often identified them as Enoch and Elijah, who never died. The \"great city\" that is spiritually Sodom and Egypt and where the Lord was crucified invites identification with Jerusalem, though many argue it is Babylon/Rome or the world city. The seventh trumpet then leaps to the consummation, with language from Psalm 2 and Daniel 7, and the ark, lost since the Babylonian destruction of 587 BC and said in 2 Maccabees 2:4-8 to have been hidden by Jeremiah until God gathers his people, appears in the heavenly temple.",
+    "symbols": [
+      {
+        "id": "rev11-measuring-rod",
+        "phrase": "A measuring rod like a staff: measure the temple of God, the altar and the worshippers",
+        "ref": "Revelation 11:1",
+        "keywords": [
+          "measuring rod",
+          "measure the temple"
+        ],
+        "category": "action",
+        "jewish": "In Ezekiel 40:3-42:20 a man with a measuring reed measures the future temple, a sign of its restoration and holiness; in Zechariah 2:1-5 Jerusalem is measured as a promise of protection, with God as a wall of fire. Measuring can also mean marking out for judgment (2 Samuel 8:2; 2 Kings 21:13; Amos 7:7-9; Lamentations 2:8). 1 Enoch 61:1-5 has angels take measuring cords to measure the righteous, signifying preservation. Revelation 21:15-17 measures the New Jerusalem.",
+        "cultural": "Surveyors with measuring rods (Greek kalamos, a reed of about 3 metres) laid out cities, temples and land boundaries in the Roman world.",
+        "meaning": "Measuring here most likely signifies protection and ownership: God guards his true sanctuary and worshippers. What exactly the temple, altar and worshippers represent is disputed.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "A command concerning the literal Herodian temple still standing when John wrote, separating the faithful remnant (the inner sanctuary, i.e. the true worshippers, the church) from the apostate city given to the Romans (Gentry, Chilton)."
+          },
+          {
+            "position": "futurism",
+            "reading": "A future rebuilt temple in Jerusalem during the Tribulation, measured to mark it for God's evaluation and the protection of a believing Jewish remnant (Walvoord, Thomas)."
+          },
+          {
+            "position": "historicism",
+            "reading": "The Reformers' re-establishment of true worship and doctrine, measuring the church by the rule of Scripture and excluding the outer court of nominal (papal) Christendom."
+          },
+          {
+            "position": "idealism",
+            "reading": "The church as God's temple (1 Corinthians 3:16; Ephesians 2:21), spiritually protected even while physically persecuted (Beale, Hendriksen)."
+          }
+        ],
+        "texts": [
+          "Ezekiel 40:3",
+          "Zechariah 2:1-5",
+          "Amos 7:7-9",
+          "Revelation 21:15-17",
+          "1 Corinthians 3:16"
+        ],
+        "sources": [
+          "gentry-before-jerusalem-fell",
+          "beale-revelation-nigtc",
+          "walvoord-revelation-jesus-christ",
+          "elliott-horae"
+        ]
+      },
+      {
+        "id": "rev11-temple-of-god",
+        "phrase": "The temple of God and the altar",
+        "ref": "Revelation 11:1",
+        "keywords": [
+          "temple of god",
+          "altar"
+        ],
+        "category": "place",
+        "jewish": "The word naos refers to the inner sanctuary (Holy Place and Holy of Holies), not the whole temple complex (hieron). In Revelation, the naos is usually the heavenly sanctuary (7:15; 11:19; 15:5) and believers are pillars in it (3:12); in the New Jerusalem there is no temple, because God and the Lamb are its temple (21:22). The altar may be the incense altar of 8:3-5 or the altar of burnt offering under which the martyrs cry (6:9).",
+        "cultural": "Temples (naoi) of the imperial cult stood in Ephesus, Pergamum and Smyrna, the contrast between God's true sanctuary and the emperor's being sharp for Asian readers.",
+        "meaning": "The sanctuary of God's presence, whose identity depends on the interpretive approach. The worshippers being counted suggests that it is people, not merely a building, that God preserves.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Gentry argues the Jerusalem temple was standing, so the book predates AD 70; the inner sanctuary stands for the faithful (Christian) remnant within Israel. Critics reply that the language is visionary and symbolic and that John's readers in Asia were far from the Jerusalem temple."
+          },
+          {
+            "position": "futurism",
+            "reading": "A literal third temple rebuilt in Jerusalem, to be desecrated by the Antichrist (Daniel 9:27; 2 Thessalonians 2:4)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The church, God's spiritual temple, where true worship takes place."
+          },
+          {
+            "position": "historicism",
+            "reading": "The true, spiritual church as distinguished from the outward ecclesiastical system."
+          }
+        ],
+        "texts": [
+          "Revelation 3:12",
+          "Revelation 21:22",
+          "2 Thessalonians 2:4",
+          "Ephesians 2:21"
+        ],
+        "sources": [
+          "gentry-before-jerusalem-fell",
+          "beale-revelation-nigtc",
+          "thomas-revelation-8-22"
+        ]
+      },
+      {
+        "id": "rev11-outer-court",
+        "phrase": "The court outside the temple, given to the nations",
+        "ref": "Revelation 11:2",
+        "keywords": [
+          "courtyard outside the temple",
+          "given over to the nations"
+        ],
+        "category": "place",
+        "jewish": "Herod's temple had a large outer court, the Court of the Gentiles, where non-Jews could enter; a stone barrier (soreg) with inscriptions forbade them to go further on pain of death (Josephus, Jewish War 5.5.2; Antiquities 15.11.5; two inscriptions survive). Ezekiel 44:7-9 condemns bringing foreigners into the sanctuary. Jesus foretold that Jerusalem would be trampled by Gentiles (Luke 21:24).",
+        "cultural": "During the Roman siege in AD 70, rival Jewish factions held the inner temple courts while the Romans eventually burned the outer porticoes and entered the courts (Josephus, Jewish War 6.2-6.4).",
+        "meaning": "The outer court represents what God permits to be overrun or persecuted; the contrast between measured (protected) inner sanctuary and unmeasured (exposed) outer court is the key to interpretation.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The literal outer court and city of Jerusalem, given over to Roman armies (Luke 21:20-24), in contrast to the preserved spiritual remnant."
+          },
+          {
+            "position": "futurism",
+            "reading": "The literal court of a future temple, given to Gentile domination during the second half of the Tribulation."
+          },
+          {
+            "position": "historicism",
+            "reading": "The outward visible church overrun by corruption, the papal system \"trampling\" the church for 1,260 years."
+          },
+          {
+            "position": "idealism",
+            "reading": "The church's external, physical existence, exposed to persecution, while its inner spiritual life is secure (Beale)."
+          }
+        ],
+        "texts": [
+          "Luke 21:24",
+          "Ezekiel 44:7-9",
+          "Daniel 8:13"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "josephus-jewish-war",
+          "chilton-days-of-vengeance"
+        ]
+      },
+      {
+        "id": "rev11-holy-city-trampled",
+        "phrase": "They will trample the holy city",
+        "ref": "Revelation 11:2",
+        "keywords": [
+          "trample the holy city"
+        ],
+        "category": "place",
+        "jewish": "Jerusalem is the holy city (Isaiah 52:1; Nehemiah 11:1; Matthew 4:5). Its trampling by nations is a lament in Isaiah 63:18, Psalm 79:1, Daniel 8:13 (the sanctuary and host trampled under Antiochus) and 1 Maccabees 3:45, 51; 4:60. Luke 21:24 is the nearest parallel.",
+        "cultural": "",
+        "meaning": "An image of the people of God, or of their city, under hostile power for a limited time. Elsewhere in Revelation \"the holy city\" is the New Jerusalem (21:2, 10; 22:19), which suggests to many that here, too, it means God's people rather than the earthly Jerusalem.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Literal Jerusalem, besieged and trampled by Rome in AD 67-70, as Jesus foretold in Luke 21:24."
+          },
+          {
+            "position": "futurism",
+            "reading": "Literal Jerusalem during the future Tribulation, under the Antichrist's domination."
+          },
+          {
+            "position": "idealism",
+            "reading": "The church, which suffers persecution throughout the age."
+          },
+          {
+            "position": "historicism",
+            "reading": "The true church oppressed under papal domination for 1,260 years."
+          }
+        ],
+        "texts": [
+          "Luke 21:24",
+          "Isaiah 63:18",
+          "Daniel 8:13",
+          "Revelation 21:2"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "gentry-before-jerusalem-fell"
+        ]
+      },
+      {
+        "id": "rev11-forty-two-months",
+        "phrase": "42 months; 1,260 days",
+        "ref": "Revelation 11:2-3",
+        "keywords": [
+          "42 months",
+          "1,260 days"
+        ],
+        "category": "time",
+        "jewish": "Daniel 7:25 and 12:7 limit the persecution of the saints to \"a time, times and half a time\" (three and a half years); Daniel 9:27 speaks of the covenant broken in the middle of the week; Daniel 12:11-12 has 1,290 and 1,335 days. The period evokes Antiochus IV's persecution and temple desecration (167-164 BC) and Elijah's three-and-a-half-year drought (Luke 4:25; James 5:17). Israel's wilderness journey had 42 stages (Numbers 33). Revelation uses all three forms (11:2-3; 12:6, 14; 13:5).",
+        "cultural": "",
+        "meaning": "The time of the church's (or God's people's) persecution and witness, limited by God. Half of seven, it signals a broken, incomplete period of evil. Its relation to Daniel's seventieth week is a major dividing line among views.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The literal period of the Roman war against Judea, from Vespasian's commission in early AD 67 to the fall of the temple in August 70 (about 42 months), as argued by Gentry."
+          },
+          {
+            "position": "futurism",
+            "reading": "The literal second half (or, for the witnesses, perhaps the first half) of Daniel's seventieth week, a future seven-year Tribulation (Walvoord, Thomas)."
+          },
+          {
+            "position": "historicism",
+            "reading": "By the year-for-a-day principle, 1,260 years of papal supremacy, variously dated (e.g. 533/538 to 1793/1798, with the French Revolution and Napoleon's capture of Pope Pius VI in 1798 often cited)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The whole period between Christ's first and second comings, during which the church both witnesses and suffers (Beale, Hendriksen)."
+          },
+          {
+            "position": "full-preterism",
+            "reading": "The 1,260 days fit within the generation ending in AD 70, as in partial preterism, with the seventh trumpet that follows read as the consummation also fulfilled then."
+          }
+        ],
+        "texts": [
+          "Daniel 7:25",
+          "Daniel 12:7",
+          "Daniel 9:27",
+          "Luke 4:25",
+          "Revelation 12:6",
+          "Revelation 13:5"
+        ],
+        "sources": [
+          "gentry-before-jerusalem-fell",
+          "beale-revelation-nigtc",
+          "elliott-horae",
+          "walvoord-revelation-jesus-christ",
+          "gregg-revelation-four-views"
+        ]
+      },
+      {
+        "id": "rev11-two-witnesses",
+        "phrase": "My two witnesses",
+        "ref": "Revelation 11:3",
+        "keywords": [
+          "two witnesses"
+        ],
+        "category": "person",
+        "jewish": "Valid testimony required two witnesses (Deuteronomy 19:15; Numbers 35:30; Matthew 18:16); Jesus sent disciples out two by two (Luke 10:1). Moses and Elijah, the law and the prophets, appear with Jesus at the transfiguration (Mark 9:4), and Jewish tradition expected Elijah's return before the Day of the Lord (Malachi 4:5-6; Sirach 48:10) and a prophet like Moses (Deuteronomy 18:15). Zechariah 4 has two anointed ones (Joshua the high priest and Zerubbabel the governor). Qumran anticipated two messiahs, of Aaron and of Israel (1QS 9:11). Early Christian writers often expected Enoch and Elijah to return (Hippolytus, On Christ and Antichrist 43; Tertullian, On the Soul 50).",
+        "cultural": "",
+        "meaning": "Prophetic witnesses empowered by God to testify during the period of trampling. The question of whether they are two individuals or a symbol of the witnessing community is central. Their description as lampstands (cf. 1:20, where lampstands are churches) inclines many to the corporate reading.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "Two literal individuals in the future Tribulation, often Moses and Elijah (Walvoord leans this way) or Enoch and Elijah, or two prophets in their spirit."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Interpretations vary: the faithful Christian witness in Jerusalem before AD 70 (Chilton, typified by the law and prophets), or particular apostles or leaders (some suggest Peter and Paul, or James the Just and another) killed in that era."
+          },
+          {
+            "position": "historicism",
+            "reading": "The faithful witnesses against Rome through the 1,260 years of papal dominance, such as the Waldenses, Albigenses, Wycliffe and Hus; their \"death\" and \"resurrection\" is applied to the suppression of dissent before the Fifth Lateran Council (1512-1517) and Luther's posting of the theses three and a half years later (Elliott)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The whole church in its prophetic witness (two for legal testimony, and because only two of the seven churches in chapters 2-3 were wholly faithful), suffering and yet vindicated (Beale, Hendriksen, Bauckham)."
+          }
+        ],
+        "texts": [
+          "Deuteronomy 19:15",
+          "Malachi 4:5-6",
+          "Mark 9:4",
+          "Zechariah 4:3",
+          "Revelation 1:20"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy",
+          "walvoord-revelation-jesus-christ",
+          "elliott-horae",
+          "chilton-days-of-vengeance"
+        ]
+      },
+      {
+        "id": "rev11-sackcloth",
+        "phrase": "Clothed in sackcloth",
+        "ref": "Revelation 11:3",
+        "keywords": [
+          "sackcloth"
+        ],
+        "category": "colour",
+        "jewish": "Sackcloth, a coarse dark cloth of goat or camel hair, was worn in mourning and repentance (Genesis 37:34; Jonah 3:5-8; Daniel 9:3; Matthew 11:21). Elijah wore a hairy garment (2 Kings 1:8) and prophets were known by rough garments (Zechariah 13:4; Mark 1:6 for John the Baptist).",
+        "cultural": "",
+        "meaning": "The witnesses call for repentance and mourn the sin and coming judgment of those they address; their garb identifies them as prophets in the line of Elijah and John the Baptist.",
+        "readings": [],
+        "texts": [
+          "2 Kings 1:8",
+          "Jonah 3:5-8",
+          "Matthew 11:21",
+          "Mark 1:6"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev11-olive-trees-lampstands",
+        "phrase": "The two olive trees and the two lampstands that stand before the Lord of the earth",
+        "ref": "Revelation 11:4",
+        "keywords": [
+          "two olive trees",
+          "two lampstands",
+          "lord of the earth"
+        ],
+        "category": "object",
+        "jewish": "Zechariah 4:2-14 sees a golden lampstand fed by two olive trees, interpreted as the \"two anointed ones\" (literally \"sons of oil\") who stand by the Lord of the whole earth, namely Joshua the high priest and Zerubbabel the Davidic governor, who rebuilt the temple \"not by might nor by power, but by my Spirit\" (Zechariah 4:6). In Revelation 1:20 lampstands are churches. Olive oil fuelled the temple menorah (Exodus 27:20).",
+        "cultural": "",
+        "meaning": "The witnesses are Spirit-empowered bearers of priestly and royal testimony, like Joshua and Zerubbabel who rebuilt the temple. John adapts one lampstand into two, which supports the view that they represent the witnessing church (lampstands) in its royal-priestly calling (1:6; 5:10).",
+        "readings": [
+          {
+            "position": "idealism",
+            "reading": "The church in its kingly and priestly witness, sustained by the Spirit (Beale)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Two individual prophets empowered by the Holy Spirit in the Tribulation."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "The witnessing church (or its leaders) as the true priesthood and kingship in contrast to Jerusalem's apostate leaders."
+          }
+        ],
+        "texts": [
+          "Zechariah 4:2-14",
+          "Revelation 1:20",
+          "Revelation 1:6",
+          "Exodus 27:20"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy"
+        ]
+      },
+      {
+        "id": "rev11-fire-from-mouths",
+        "phrase": "Fire comes from their mouths and consumes their enemies",
+        "ref": "Revelation 11:5",
+        "keywords": [
+          "fire proceeds from their mouths"
+        ],
+        "category": "action",
+        "jewish": "Elijah called down fire on the soldiers of Ahaziah (2 Kings 1:10-12); God made Jeremiah's words a fire that consumes the people (Jeremiah 5:14); Sirach 48:1-3 says Elijah arose like fire and his word burned like a torch. 4 Ezra 13:10 has the Messiah destroy enemies with a stream of fire from his mouth.",
+        "cultural": "",
+        "meaning": "The witnesses' prophetic word carries God's judgment on those who reject it; the fire comes from their mouths, i.e. their testimony. Most see it as figurative (the power of the word), though some futurists take it literally.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "Literal miraculous fire defending the witnesses during their ministry."
+          },
+          {
+            "position": "idealism",
+            "reading": "The power of the gospel word to pronounce judgment on those who oppose it."
+          }
+        ],
+        "texts": [
+          "2 Kings 1:10-12",
+          "Jeremiah 5:14",
+          "Luke 9:54"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev11-shut-sky-waters-blood",
+        "phrase": "Power to shut the sky, turn waters to blood and strike the earth with plagues",
+        "ref": "Revelation 11:6",
+        "keywords": [
+          "shut the sky",
+          "waters into blood",
+          "every kind of plague"
+        ],
+        "category": "action",
+        "jewish": "Elijah shut the heavens for three and a half years (1 Kings 17:1; 18:1; Luke 4:25; James 5:17). Moses turned the Nile to blood and struck Egypt with plagues (Exodus 7:17-20; 1 Samuel 4:8).",
+        "cultural": "",
+        "meaning": "The witnesses carry on the ministries of Moses and Elijah: confronting an oppressive and idolatrous power, calling God's people out of bondage and proclaiming judgment. The plagues link them to the trumpet plagues just described.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "Literal miraculous powers in the Tribulation; some (Walvoord) see the two as Moses and Elijah themselves."
+          },
+          {
+            "position": "idealism",
+            "reading": "The church's prophetic witness has power to bring God's judgments, as the trumpets show (Beale)."
+          },
+          {
+            "position": "historicism",
+            "reading": "Figurative of the spiritual power of the faithful witnesses' testimony against the corrupt church."
+          }
+        ],
+        "texts": [
+          "1 Kings 17:1",
+          "Exodus 7:17-20",
+          "James 5:17",
+          "Malachi 4:5"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev11-beast-from-abyss",
+        "phrase": "The beast that comes up from the Abyss will make war on them",
+        "ref": "Revelation 11:7",
+        "keywords": [
+          "beast that comes up from the abyss",
+          "wage war"
+        ],
+        "category": "creature",
+        "jewish": "The first mention of \"the beast\", introduced as if already known. It draws on Daniel 7:3, 7 (beasts from the sea) and 7:21, where the little horn wages war against the saints and prevails until the Ancient of Days comes. The Abyss connects it to the demonic origin of 9:1-11; in 17:8 the beast \"was, and is not, and is about to come up from the Abyss\".",
+        "cultural": "For many scholars the beast's ascent from the Abyss after death reflects the Nero redivivus legend, the belief that Nero would return after his death in AD 68 (Tacitus, Histories 2.8; Suetonius, Nero 57).",
+        "meaning": "The persecuting power, energised by Satan, which seems to triumph over God's witnesses. It anticipates the fuller portrait of chapters 13 and 17.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Rome under Nero (who persecuted the church and began the Jewish War), or the Jewish authorities allied with Rome; Gentry identifies the beast with Nero/Rome."
+          },
+          {
+            "position": "futurism",
+            "reading": "The future Antichrist, a world ruler who kills the two witnesses in the middle or end of the Tribulation."
+          },
+          {
+            "position": "historicism",
+            "reading": "The papacy (or the papal power with its secular allies) suppressing the witnesses."
+          },
+          {
+            "position": "idealism",
+            "reading": "Satanic persecuting power embodied in states and systems throughout history, culminating before the end."
+          }
+        ],
+        "texts": [
+          "Daniel 7:3",
+          "Daniel 7:21",
+          "Revelation 13:1-7",
+          "Revelation 17:8"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "gentry-before-jerusalem-fell",
+          "bauckham-climax-prophecy",
+          "elliott-horae"
+        ]
+      },
+      {
+        "id": "rev11-great-city-sodom-egypt",
+        "phrase": "The great city, spiritually called Sodom and Egypt, where their Lord was crucified",
+        "ref": "Revelation 11:8",
+        "keywords": [
+          "great city",
+          "sodom and egypt",
+          "lord was also crucified"
+        ],
+        "category": "place",
+        "jewish": "Prophets called Jerusalem \"Sodom\" when it was unfaithful (Isaiah 1:9-10; Jeremiah 23:14; Ezekiel 16:46-56). Egypt is the archetypal oppressor and place of bondage (Exodus 1-14). Jerusalem killed the prophets (Matthew 23:37; Luke 13:33-34), and Jesus was crucified outside its walls (Hebrews 13:12). The adverb pneumatikos (\"spiritually\", \"prophetically\", BSB \"figuratively\") signals a symbolic, Spirit-given name.",
+        "cultural": "",
+        "meaning": "The \"great city\" in Revelation elsewhere always refers to Babylon (16:19; 17:18; 18:10-21), which many identify with Rome. The reference to the crucifixion suggests Jerusalem, so interpreters divide: Jerusalem, Rome, or the world-city of rebellious humanity that includes both. Which city is meant is a disputed matter.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Literal Jerusalem, which killed the Lord and his prophets and is about to be judged (Chilton, Gentry); the identification also supports reading \"Babylon\" in chapters 17-18 as Jerusalem (a minority view even among scholars)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Literal Jerusalem in the Tribulation, morally degraded and allied with the Antichrist (Walvoord, Thomas)."
+          },
+          {
+            "position": "historicism",
+            "reading": "Papal Rome or the territory of Latin Christendom, spiritually Sodom and Egypt, where Christ was crucified afresh in his members."
+          },
+          {
+            "position": "idealism",
+            "reading": "The world-city of humanity in rebellion against God (Babylon), which includes Jerusalem's rejection of Jesus; it is everywhere the church suffers (Beale, Bauckham)."
+          }
+        ],
+        "texts": [
+          "Isaiah 1:9-10",
+          "Ezekiel 16:46-56",
+          "Luke 13:33-34",
+          "Hebrews 13:12",
+          "Revelation 16:19",
+          "Revelation 17:18"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-of-vengeance",
+          "gentry-before-jerusalem-fell",
+          "walvoord-revelation-jesus-christ",
+          "bauckham-climax-prophecy"
+        ]
+      },
+      {
+        "id": "rev11-unburied-bodies",
+        "phrase": "Their bodies lie in the street and are not permitted burial",
+        "ref": "Revelation 11:8-9",
+        "keywords": [
+          "bodies",
+          "laid in a tomb"
+        ],
+        "category": "body",
+        "jewish": "Denial of burial was a supreme disgrace and curse in Israel (Deuteronomy 28:26; Psalm 79:2-3, lamenting the dead of Jerusalem left unburied by the nations; Jeremiah 8:1-2; 16:4). Tobit risked his life to bury executed Jews (Tobit 1:17-19; 2:3-8).",
+        "cultural": "Leaving enemies unburied was a deliberate humiliation in the Greco-Roman world (the Antigone story is the classic example); executed criminals were often denied burial, and crucified bodies were left on crosses.",
+        "meaning": "The world's utmost contempt for the witnesses: total public humiliation, exposed to \"peoples, tribes, languages and nations\" (11:9), which points beyond a single local event to a universal scene.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "A literal public display, which some futurists suggest would be visible worldwide through modern media."
+          },
+          {
+            "position": "idealism",
+            "reading": "The apparent defeat and public shaming of the church at the end of the age."
+          }
+        ],
+        "texts": [
+          "Psalm 79:2-3",
+          "Deuteronomy 28:26",
+          "Tobit 1:17-19"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "walvoord-revelation-jesus-christ",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev11-three-and-half-days",
+        "phrase": "Three and a half days",
+        "ref": "Revelation 11:9, 11:11",
+        "keywords": [
+          "three and a half days"
+        ],
+        "category": "time",
+        "jewish": "A brief counterpart to the 1,260 days of witness: the witnesses' public ministry lasts three and a half years, their apparent defeat three and a half days. It recalls Jesus' death and resurrection after three days and Daniel's half-week.",
+        "cultural": "",
+        "meaning": "A short time of apparent triumph for evil, contrasted with the longer period of witness; the death of the witnesses is real but brief, and vindication follows.",
+        "readings": [
+          {
+            "position": "historicism",
+            "reading": "Three and a half years, by the day-year principle, from the Fifth Lateran Council's declaration of victory over dissent (May 1514) to Luther's Ninety-Five Theses (October 1517), a match Elliott emphasized."
+          },
+          {
+            "position": "futurism",
+            "reading": "A literal three and a half days."
+          },
+          {
+            "position": "idealism",
+            "reading": "A short period of apparent triumph over the church immediately before Christ's return."
+          }
+        ],
+        "texts": [
+          "Hosea 6:2",
+          "Daniel 9:27",
+          "Matthew 12:40"
+        ],
+        "sources": [
+          "elliott-horae",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "rev11-gloat-send-gifts",
+        "phrase": "Those who dwell on the earth gloat, celebrate and send one another gifts",
+        "ref": "Revelation 11:10",
+        "keywords": [
+          "send one another gifts",
+          "gloat"
+        ],
+        "category": "action",
+        "jewish": "An inverted Purim: in Esther 9:19, 22 the Jews celebrated deliverance from their enemies by sending portions to one another; here the persecutors celebrate the death of God's witnesses. Compare also Nehemiah 8:10-12.",
+        "cultural": "Gift exchange marked Roman festivals such as the Saturnalia and imperial celebrations of victories.",
+        "meaning": "The world's relief at being freed from the prophets' unwelcome testimony (\"these two prophets had tormented them\"), a parody of godly celebration. It shows how deeply the message of repentance was resented.",
+        "readings": [],
+        "texts": [
+          "Esther 9:19",
+          "Esther 9:22",
+          "John 16:20"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "aune-revelation-wbc"
+        ]
+      },
+      {
+        "id": "rev11-breath-of-life",
+        "phrase": "The breath of life from God entered them and they stood on their feet",
+        "ref": "Revelation 11:11",
+        "keywords": [
+          "breath of life",
+          "stood on their feet"
+        ],
+        "category": "action",
+        "jewish": "Ezekiel 37:5, 10: in the valley of dry bones, breath enters the slain and they stand on their feet, a vision of Israel's national restoration. Genesis 2:7 has God breathe life into Adam.",
+        "cultural": "",
+        "meaning": "The vindication and resurrection of the witnesses. Whether this is a literal bodily resurrection of two individuals, the final resurrection of the church, or a figure for the revival of the church's witness depends on the overall approach.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "Literal resurrection and ascension of the two witnesses near the end of the Tribulation."
+          },
+          {
+            "position": "historicism",
+            "reading": "The revival of Protestant witness at the Reformation, or later restoration of liberty to Protestants."
+          },
+          {
+            "position": "idealism",
+            "reading": "The vindication of the church at Christ's return (the resurrection of the righteous), or more generally God's pattern of reviving his witness after apparent defeat."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "The vindication of the martyred witnesses and the church's triumph over Jerusalem, sometimes linked to the safety of the church after the city's fall."
+          }
+        ],
+        "texts": [
+          "Ezekiel 37:5-10",
+          "Genesis 2:7",
+          "Romans 8:11"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "elliott-horae",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev11-come-up-here-cloud",
+        "phrase": "\"Come up here\" — they went up to heaven in a cloud",
+        "ref": "Revelation 11:12",
+        "keywords": [
+          "come up here",
+          "went up to heaven in a cloud"
+        ],
+        "category": "action",
+        "jewish": "Elijah was taken up to heaven in a whirlwind (2 Kings 2:11); Jewish tradition held that Moses too was taken up (the lost Assumption of Moses; Josephus, Antiquities 4.326 says a cloud came over him). Jesus ascended in a cloud (Acts 1:9-11). John himself heard \"Come up here\" in Revelation 4:1.",
+        "cultural": "",
+        "meaning": "Public vindication: the enemies see the witnesses honoured by God, as Jesus' enemies will see the Son of Man coming on the clouds (1:7). The witnesses follow the pattern of their Lord: witness, death, resurrection, ascension.",
+        "readings": [
+          {
+            "position": "futurism",
+            "reading": "A literal ascension of the two witnesses; some (e.g. some mid-tribulationists) connect it with a rapture of believers, but most dispensationalists place the rapture before the Tribulation (Revelation 4:1 is often read as its symbol)."
+          },
+          {
+            "position": "idealism",
+            "reading": "The church's exaltation at the end, possibly corresponding to 1 Thessalonians 4:17."
+          }
+        ],
+        "texts": [
+          "2 Kings 2:11",
+          "Acts 1:9-11",
+          "Revelation 4:1",
+          "1 Thessalonians 4:17"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "walvoord-revelation-jesus-christ"
+        ]
+      },
+      {
+        "id": "rev11-earthquake-tenth-seven-thousand",
+        "phrase": "A great earthquake: a tenth of the city fell, seven thousand killed",
+        "ref": "Revelation 11:13",
+        "keywords": [
+          "tenth of the city",
+          "seven thousand",
+          "great earthquake"
+        ],
+        "category": "number",
+        "jewish": "Ezekiel 38:19-20 has a great earthquake in the land at God's final judgment; Amos 5:3 says a city that marches out a thousand will be left with a hundred (a tenth). Elijah was told that God kept 7,000 who had not bowed to Baal (1 Kings 19:18), so the number reverses Elijah's remnant: now 7,000 die and the majority are converted.",
+        "cultural": "Earthquakes repeatedly destroyed cities in Asia Minor (Sardis AD 17; Laodicea c. AD 60).",
+        "meaning": "A limited judgment (a tenth, not a third or all) that, unlike the trumpets, results in the majority repenting. Bauckham argues this is the key reversal of the book: where judgment alone failed (9:20-21), the witness of the church, vindicated by God, leads the nations to give glory to God.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "Upheaval in Jerusalem in the war years; some note Josephus's report of an earthquake and storm in AD 68 (Jewish War 4.4.5). Interpreters differ on whether the survivors' response is genuine conversion."
+          },
+          {
+            "position": "futurism",
+            "reading": "A literal earthquake in Jerusalem near the end of the Tribulation."
+          },
+          {
+            "position": "historicism",
+            "reading": "The political upheaval of the Reformation era or the French Revolution, in which a \"tenth\" kingdom of the papal realm fell (often France)."
+          },
+          {
+            "position": "idealism",
+            "reading": "A partial judgment that, with the church's vindicated witness, brings many to repentance."
+          }
+        ],
+        "texts": [
+          "Ezekiel 38:19-20",
+          "Amos 5:3",
+          "1 Kings 19:18",
+          "Revelation 16:18-19"
+        ],
+        "sources": [
+          "bauckham-climax-prophecy",
+          "beale-revelation-nigtc",
+          "josephus-jewish-war",
+          "barnes-notes-revelation"
+        ]
+      },
+      {
+        "id": "rev11-gave-glory-god-of-heaven",
+        "phrase": "The rest were terrified and gave glory to the God of heaven",
+        "ref": "Revelation 11:13",
+        "keywords": [
+          "gave glory to the god of heaven"
+        ],
+        "category": "worship",
+        "jewish": "\"Give glory to God\" can be a call to confession and repentance (Joshua 7:19; Jeremiah 13:16), and in Revelation it is the response of repentance (14:7; 16:9, where the lack of it is condemned). \"God of heaven\" is a Persian-era title in Daniel 2:18-19, 37, 44, Ezra and Nehemiah, used by Gentile kings who acknowledge Israel's God (Daniel 4:34-37).",
+        "cultural": "",
+        "meaning": "Whether this is genuine conversion or merely forced acknowledgment is disputed. Bauckham, Caird and others argue for true repentance, since 14:7 and 16:9 equate \"giving glory\" with repentance; Beale, Thomas and others think it may be coerced recognition, like Nebuchadnezzar's.",
+        "readings": [
+          {
+            "position": "idealism",
+            "reading": "Bauckham and Sweet: a picture of the conversion of the nations through the church's faithful witness, the great hope of Revelation."
+          },
+          {
+            "position": "futurism",
+            "reading": "Thomas and Walvoord: likely the conversion of a remnant in Jerusalem, perhaps connected with the salvation of Israel (Romans 11:26), though some say it is only fearful acknowledgment."
+          },
+          {
+            "position": "partial-preterism",
+            "reading": "Varies: either superficial fear in Jerusalem, or the conversion of many Jews who acknowledged Christ after the judgments."
+          }
+        ],
+        "texts": [
+          "Joshua 7:19",
+          "Daniel 2:19",
+          "Revelation 14:7",
+          "Revelation 16:9",
+          "Romans 11:26"
+        ],
+        "sources": [
+          "bauckham-climax-prophecy",
+          "beale-revelation-nigtc",
+          "thomas-revelation-8-22"
+        ]
+      },
+      {
+        "id": "rev11-second-woe-passed",
+        "phrase": "The second woe has passed; the third woe is coming soon",
+        "ref": "Revelation 11:14",
+        "keywords": [
+          "second woe",
+          "third woe"
+        ],
+        "category": "time",
+        "jewish": "Continues the woe-oracle structure of 8:13 and 9:12.",
+        "cultural": "",
+        "meaning": "Ties the interlude (10:1-11:13) to the sixth trumpet. The third woe is not explicitly identified; most link it to the seventh trumpet and the judgments it opens, including the devil's rage on the earth (12:12) and the bowls (15-16).",
+        "readings": [],
+        "texts": [
+          "Revelation 8:13",
+          "Revelation 9:12",
+          "Revelation 12:12"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-climax-prophecy"
+        ]
+      },
+      {
+        "id": "rev11-seventh-trumpet-kingdom",
+        "phrase": "The seventh trumpet: the kingdom of the world has become the kingdom of our Lord and of his Christ",
+        "ref": "Revelation 11:15",
+        "keywords": [
+          "seventh angel",
+          "kingdom of the world",
+          "kingdom of our lord and of his christ",
+          "reign forever and ever"
+        ],
+        "category": "title",
+        "jewish": "Psalm 2:2 speaks of the Lord and his anointed (Christ), against whom the nations rage; Daniel 2:44 and 7:14, 18, 27 promise an everlasting kingdom given to the Son of Man and the saints; Exodus 15:18 ends the song of the sea with the Lord reigning forever; Obadiah 21 and Zechariah 14:9 foresee the Lord as king over all the earth. Trumpets were sounded at royal enthronements (1 Kings 1:34, 39; 2 Kings 9:13).",
+        "cultural": "Emperors claimed kingship over the oikoumene, the inhabited world; coins and inscriptions proclaimed Caesar's reign as a gift of the gods. The heavenly announcement asserts that world rule belongs to God and his Messiah.",
+        "meaning": "The climax of the trumpets and of the mystery of God (10:7). The singular \"kingdom\" stresses that world rule passes entirely to God and Christ. The nature and timing of this transfer is the central millennial question in this chapter.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The decisive transfer of the kingdom at Christ's ascension and its public vindication in AD 70, after which the kingdom grows through the church until the final consummation (Gentry, Chilton)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Anticipates Christ's literal return and earthly reign; dispensationalists see the reign beginning at the second coming after the Tribulation, followed by the millennium (Walvoord)."
+          },
+          {
+            "position": "historicism",
+            "reading": "The final establishment of Christ's kingdom after the overthrow of the papal and Turkish powers, often expected in the near future of the commentator."
+          },
+          {
+            "position": "idealism",
+            "reading": "The consummation of the kingdom at Christ's return at the end of history (Beale, Hendriksen); the seventh trumpet parallels the seventh seal and bowl."
+          },
+          {
+            "position": "full-preterism",
+            "reading": "The full arrival of the kingdom and the \"last trumpet\" (1 Corinthians 15:52) in AD 70. This places the view outside creedal orthodoxy, since the creeds confess a future return and bodily resurrection; proponents argue that the New Testament's time statements require it."
+          }
+        ],
+        "texts": [
+          "Psalm 2:2",
+          "Daniel 2:44",
+          "Daniel 7:14",
+          "Daniel 7:27",
+          "Zechariah 14:9",
+          "1 Corinthians 15:52"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-of-vengeance",
+          "walvoord-revelation-jesus-christ",
+          "gregg-revelation-four-views"
+        ]
+      },
+      {
+        "id": "rev11-twenty-four-elders-thanksgiving",
+        "phrase": "The twenty-four elders fall on their faces and give thanks",
+        "ref": "Revelation 11:16-17",
+        "keywords": [
+          "twenty-four elders",
+          "we give thanks"
+        ],
+        "category": "worship",
+        "jewish": "The elders recall the twenty-four priestly divisions (1 Chronicles 24:7-19) and the elders of Israel before God (Isaiah 24:23); their prostration and hymn follow temple patterns of thanksgiving (todah). \"Lord God Almighty\" (Pantokrator) renders the Septuagint's title for the Lord of hosts (Amos 4:13).",
+        "cultural": "Prostration (proskynesis) before rulers was a feature of eastern and later imperial court ceremony; Domitian reportedly liked to be addressed as \"Lord and God\" (Suetonius, Domitian 13).",
+        "meaning": "The heavenly court responds to the kingdom proclamation with thanksgiving, affirming that God has taken his great power and begun to reign.",
+        "readings": [],
+        "texts": [
+          "1 Chronicles 24:7-19",
+          "Isaiah 24:23",
+          "Revelation 4:10",
+          "Revelation 19:4"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev11-who-is-and-who-was",
+        "phrase": "The one who is and who was (no longer \"who is to come\")",
+        "ref": "Revelation 11:17",
+        "keywords": [
+          "who is and who was",
+          "begun to reign"
+        ],
+        "category": "title",
+        "jewish": "The threefold title of 1:4, 8 and 4:8 (who was, and is, and is to come) echoes Exodus 3:14 as expanded in Jewish tradition; the Palestinian Targum (Pseudo-Jonathan) on Deuteronomy 32:39 and Exodus 3:14 develops a similar three-tense formula (a later text, reflecting earlier traditions).",
+        "cultural": "Greek religious formulas spoke of Zeus who was, is and will be (Pausanias 10.12.10), which Revelation adapts for Israel's God.",
+        "meaning": "The omission of \"who is to come\" here and in 16:5 is deliberate: from the perspective of the seventh trumpet, God has come and begun to reign. It signals that the seventh trumpet depicts the consummation.",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "God's \"coming\" in judgment in AD 70 established his reign in a decisive new way, while a final coming remains (for partial preterists) future."
+          },
+          {
+            "position": "futurism",
+            "reading": "Anticipates the second coming at the end of the Tribulation."
+          },
+          {
+            "position": "idealism",
+            "reading": "The final coming of God at the end of history (Beale, Bauckham)."
+          }
+        ],
+        "texts": [
+          "Exodus 3:14",
+          "Revelation 1:4",
+          "Revelation 1:8",
+          "Revelation 16:5"
+        ],
+        "sources": [
+          "bauckham-theology-revelation",
+          "beale-revelation-nigtc"
+        ]
+      },
+      {
+        "id": "rev11-nations-enraged-judge-dead",
+        "phrase": "The nations raged, your wrath came; the time to judge the dead and reward your servants",
+        "ref": "Revelation 11:18",
+        "keywords": [
+          "nations were enraged",
+          "judge the dead",
+          "small and great"
+        ],
+        "category": "action",
+        "jewish": "Psalm 2:1, 5, 12 (the nations rage and God speaks in wrath) and Psalm 99:1 in the Greek translation (the Lord reigns, let the peoples be angry). Daniel 12:2 speaks of the resurrection of the dead for judgment and reward; Psalm 115:13 blesses those who fear the Lord, small and great. Amos 3:7 calls the prophets God's servants.",
+        "cultural": "",
+        "meaning": "A summary of the final events: the nations' rebellion, God's wrath, the judgment of the dead, and the reward of prophets, saints and God-fearers. It previews chapters 19-20, especially the last judgment (20:11-15).",
+        "readings": [
+          {
+            "position": "postmil",
+            "reading": "Most postmillennialists (and partial preterists) take 11:18 as a proleptic summary of the final judgment at the end of history, after the kingdom has grown through the gospel; some partial preterists see a first-century foreshadowing in AD 70."
+          },
+          {
+            "position": "amil",
+            "reading": "The final judgment at Christ's single return, parallel to Revelation 20:11-15, supporting the recapitulation structure of the book."
+          },
+          {
+            "position": "disppremil",
+            "reading": "The judgment of the dead mentioned here is anticipatory; the rewards are given at various stages (at the judgment seat of Christ, after the Tribulation, and the great white throne after the millennium)."
+          },
+          {
+            "position": "histpremil",
+            "reading": "Anticipates both the rewards at Christ's return and, after the millennium, the final judgment, summarised together."
+          },
+          {
+            "position": "full-preterism",
+            "reading": "The judgment of the dead took place in the spiritual realm in AD 70 (Max King, Don Preston); critics say this denies the future judgment of the creeds."
+          }
+        ],
+        "texts": [
+          "Psalm 2:1-5",
+          "Daniel 12:2",
+          "Psalm 115:13",
+          "Revelation 20:11-15"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "gentry-before-jerusalem-fell",
+          "walvoord-revelation-jesus-christ",
+          "ladd-commentary-revelation"
+        ]
+      },
+      {
+        "id": "rev11-destroy-destroyers",
+        "phrase": "To destroy those who destroy the earth",
+        "ref": "Revelation 11:18",
+        "keywords": [
+          "destroy those who destroy the earth"
+        ],
+        "category": "action",
+        "jewish": "A wordplay on diaphtheirō (ruin, corrupt). Genesis 6:11-13 (in the Greek translation) says the earth was corrupted and God would destroy it with the corrupters; Jeremiah 51:25 calls Babylon a \"destroying mountain\" that corrupts the whole earth. Jubilees and 1 Enoch associate the watchers' corruption of the earth with the flood judgment.",
+        "cultural": "Imperial propaganda presented Rome as the bringer of peace and prosperity (Pax Romana); Revelation inverts this, calling Rome (Babylon) the corrupter of the earth (19:2).",
+        "meaning": "God's judgment is fitting retribution (lex talionis) on those who ruin his creation and its peoples, especially the beast and Babylon (19:2). It affirms God's commitment to his creation rather than its abandonment.",
+        "readings": [],
+        "texts": [
+          "Genesis 6:11-13",
+          "Jeremiah 51:25",
+          "Revelation 19:2"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "bauckham-theology-revelation",
+          "koester-revelation-ayb"
+        ]
+      },
+      {
+        "id": "rev11-ark-heavenly-temple",
+        "phrase": "God's temple in heaven opened and the ark of his covenant seen",
+        "ref": "Revelation 11:19",
+        "keywords": [
+          "temple of god in heaven",
+          "ark of his covenant"
+        ],
+        "category": "object",
+        "jewish": "The ark, symbol of God's presence and covenant, kept in the Holy of Holies (Exodus 25:10-22; Leviticus 16:2), disappeared at the Babylonian destruction of 587 BC; the Second Temple's Holy of Holies was empty (Josephus, Jewish War 5.5.5; Pompey found it so in 63 BC, Tacitus, Histories 5.9). 2 Maccabees 2:4-8 relates that Jeremiah hid the ark until God would gather his people again, and 2 Baruch 6:7-10 has an angel hide the temple vessels until the restoration. Jeremiah 3:16 says that in the future the ark will no longer be remembered.",
+        "cultural": "Pagan temples hid their most sacred objects in the inner adyton, to be seen only on special festival days when the doors were opened.",
+        "meaning": "God's covenant presence, unseen in the earthly sanctuary, is revealed in heaven: his covenant faithfulness to his people is the ground of the coming judgments and of their salvation. The lightning, thunder, earthquake and hail end the trumpet series and anticipate the bowls (16:18-21), and the heavenly temple frames the next section (chapters 12-14).",
+        "readings": [
+          {
+            "position": "partial-preterism",
+            "reading": "The heavenly reality supersedes the earthly temple about to be destroyed in AD 70: access to God's presence is now through the heavenly sanctuary (Hebrews 9:11-12; Chilton)."
+          },
+          {
+            "position": "futurism",
+            "reading": "A heavenly sanctuary from which the final judgments proceed; some popular futurists link it to speculation about the recovery of the literal ark, which most scholars reject."
+          },
+          {
+            "position": "idealism",
+            "reading": "Revelation of God's covenant presence, guaranteeing the salvation of his people at the consummation and introducing a new cycle of visions."
+          }
+        ],
+        "texts": [
+          "Exodus 25:10-22",
+          "2 Maccabees 2:4-8",
+          "Jeremiah 3:16",
+          "Hebrews 9:11-12",
+          "Revelation 15:5"
+        ],
+        "sources": [
+          "beale-revelation-nigtc",
+          "chilton-days-of-vengeance",
+          "koester-revelation-ayb",
+          "josephus-jewish-war"
+        ]
+      },
+      {
+        "id": "rev11-lightning-hail",
+        "phrase": "Lightning, rumblings, thunder, an earthquake and great hail",
+        "ref": "Revelation 11:19",
+        "keywords": [
+          "great hailstorm",
+          "flashes of lightning"
+        ],
+        "category": "cosmic",
+        "jewish": "The Sinai storm theophany (Exodus 19:16-19), with hail added from the Egyptian plague (Exodus 9:23-24) and Joshua's battle (Joshua 10:11). The formula expands from 8:5 and anticipates 16:18-21.",
+        "cultural": "",
+        "meaning": "The end of the trumpet series in the final theophany of judgment; the escalating formula ties together the ends of the seals (8:5), trumpets (11:19) and bowls (16:18-21).",
+        "readings": [
+          {
+            "position": "idealism",
+            "reading": "Supports recapitulation: each series ends at the final judgment (Bauckham, Beale)."
+          },
+          {
+            "position": "futurism",
+            "reading": "Literal phenomena in the final stage of the Tribulation, in a progressive sequence."
+          }
+        ],
+        "texts": [
+          "Exodus 19:16-19",
+          "Exodus 9:23-24",
+          "Revelation 8:5",
+          "Revelation 16:18-21"
+        ],
+        "sources": [
+          "bauckham-climax-prophecy",
+          "beale-revelation-nigtc"
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "Revelation 11 is a key text for the pre-70 dating and preterist reading (Gentry, Before Jerusalem Fell; Chilton, Days of Vengeance). The temple still stands and John measures its inner sanctuary (the faithful remnant) while the outer court and holy city are handed to the Roman armies for the 42 months of the Jewish War (AD 67-70), as Jesus foretold in Luke 21:24. The great city \"where their Lord was crucified\" is Jerusalem; the two witnesses are the church's witness in Jerusalem (variously identified). The seventh trumpet announces the kingdom of God, decisively established in Christ's ascension and vindicated by the judgment on Jerusalem, and continuing until the final judgment. Most scholars, who date Revelation to c. AD 95, regard the temple language as symbolic and dispute this dating argument."
+      },
+      {
+        "position": "full-preterism",
+        "reading": "Full preterists accept the first-century reading of the temple, the 42 months and the great city, but also take the seventh trumpet as the \"last trumpet\" of 1 Corinthians 15:52, so that the resurrection, judgment of the dead and full arrival of the kingdom took place (spiritually) in AD 70 (Max King, Don Preston). This places the view outside the creeds, which confess a future bodily resurrection and final judgment; proponents reply that the time statements of the New Testament require it, while critics (including partial preterists such as Gentry) argue that it confuses a covenantal judgment with the end of history."
+      },
+      {
+        "position": "historicism",
+        "reading": "The chapter traces the true church through the 1,260 years of papal supremacy. Measuring the temple is the Reformation's restoration of true worship by the rule of Scripture, with the outer court representing nominal Christendom. The two witnesses are the faithful minority who testified against Rome across the centuries (Waldenses, Wycliffe, Hus); their apparent death and three-and-a-half-day exposure correspond to the suppression of dissent proclaimed at the Fifth Lateran Council (1514), and their resurrection to Luther's Reformation (1517). The earthquake and fall of a tenth of the city are often applied to the Reformation or the French Revolution, and the seventh trumpet looks to the final triumph of Christ (Elliott, Barnes)."
+      },
+      {
+        "position": "futurism",
+        "reading": "A rebuilt temple will stand in Jerusalem during the Tribulation; it is measured while the city is trampled by Gentiles for 42 months under the Antichrist. Two literal prophets (perhaps Moses and Elijah, or Enoch and Elijah) minister for 1,260 days with miraculous powers, are killed by the Antichrist in Jerusalem, lie unburied for three and a half literal days while the world watches, and are raised and taken to heaven. A great earthquake strikes Jerusalem, and survivors acknowledge God. The seventh trumpet anticipates Christ's return to set up his literal kingdom (Walvoord, Thomas)."
+      },
+      {
+        "position": "idealism",
+        "reading": "The temple is the church, measured (protected) in its spiritual life while its outward existence is trampled throughout the church age (the 42 months). The two witnesses are the witnessing church, in the roles of Moses and Elijah, the royal priesthood of Zechariah 4; they suffer, appear to be defeated at the end by the beast, but are raised and vindicated. The great city is the world-system in rebellion. The response of the survivors in 11:13 portrays the conversion of the nations through the church's faithful witness. The seventh trumpet is the last judgment and consummation (Hendriksen, Beale, Bauckham)."
+      },
+      {
+        "position": "eclectic",
+        "reading": "Many recent commentators blend approaches. Osborne and Ladd, for example, see a future fulfilment involving literal Jerusalem and perhaps two individual prophets, while also seeing the witnesses as models for the church's witness in every age. Bauckham and Koester stress first-century resonances (the trampled city, Nero's persecution, the imperial claims) along with the symbolic nature of the measures and the universal scope of the church's witness."
+      },
+      {
+        "position": "postmil",
+        "reading": "Postmillennialists emphasize that the seventh trumpet proclaims a kingdom already given to Christ at his ascension (Daniel 7:13-14; Matthew 28:18) and that the church's witness (11:13) leads to the conversion of the nations. Partial preterist postmillennialists see AD 70 as the public vindication of the kingdom, after which it grows through the gospel until the final judgment summarised in 11:18."
+      },
+      {
+        "position": "amil",
+        "reading": "Amillennialists read 11:15-19 as the end of history: the seventh trumpet is the last trumpet, the consummation of the kingdom and the final judgment, parallel to the end of the seals (6:12-17) and the bowls (16:17-21). The witnesses' 1,260 days are the church age, with the beast's war on them corresponding to the final rebellion of 20:7-10 (Beale, Hendriksen, Riddlebarger)."
+      },
+      {
+        "position": "histpremil",
+        "reading": "Historic premillennialists (Ladd) see the seventh trumpet as anticipating Christ's return, after which he reigns on earth during the millennium (Revelation 20) before the final judgment; 11:15-18 compresses these stages into a single announcement. Ladd held that the passage may point to the future conversion of Israel (Romans 11:26)."
+      },
+      {
+        "position": "disppremil",
+        "reading": "Dispensational premillennialists place the chapter in the future seven-year Tribulation, which is Daniel's seventieth week, with a rebuilt temple and two literal prophets; the seventh trumpet announces Christ's return at the end of the Tribulation to establish the millennial kingdom from Jerusalem. They usually distinguish this trumpet from the \"last trumpet\" of 1 Corinthians 15:52, which they connect with a pretribulational rapture (Walvoord, Thomas)."
+      }
+    ],
+    "questions": [
+      "What does the act of measuring signify in Ezekiel 40, Zechariah 2 and Amos 7? Which background best fits Revelation 11:1-2, and why?",
+      "Are the two witnesses two individuals or a symbol of the witnessing church? Weigh the clues: lampstands (Revelation 1:20), Moses and Elijah, worldwide audience (11:9).",
+      "How does the reference to the great city \"where their Lord was crucified\" affect the identity of the city, and how does that connect to Babylon in Revelation 17-18?",
+      "Compare 9:20-21 (no repentance after the trumpets) with 11:13 (people give glory to God after the witnesses' vindication). What does this contrast suggest about how God brings the nations to himself?",
+      "How do the millennial views interpret the seventh trumpet and the proclamation of the kingdom in Revelation 11:15? What would each say about the time of its fulfilment?"
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "gentry-before-jerusalem-fell",
+      "chilton-days-of-vengeance",
+      "elliott-horae",
+      "barnes-notes-revelation",
+      "walvoord-revelation-jesus-christ",
+      "thomas-revelation-8-22",
+      "bauckham-climax-prophecy",
+      "hendriksen-more-than-conquerors",
+      "ladd-commentary-revelation",
+      "gregg-revelation-four-views",
+      "josephus-jewish-war"
+    ]
+  }
+]
