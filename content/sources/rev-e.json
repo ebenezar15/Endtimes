@@ -1,0 +1,122 @@
+[
+  {
+    "id": "gentry-babylon-is-jerusalem",
+    "title": "Babylon Is Jerusalem (Parts 1 and 2)",
+    "author": "Kenneth L. Gentry Jr.",
+    "url": "https://postmillennialworldview.com/2014/01/29/babylon-is-jerusalem-in-revelation-1/",
+    "camp": "partial-preterism",
+    "type": "blog",
+    "year": "2014",
+    "accessed": "2026-10-14",
+    "summary": "Argues that the harlot Babylon of Revelation 17-18 is first-century Jerusalem, from the 'great city' of 11:8, the priestly colours, the blood of the prophets and the contrast with the New Jerusalem.",
+    "verified": true
+  },
+  {
+    "id": "koester-revelation-ayb",
+    "title": "Revelation: A New Translation with Introduction and Commentary (Anchor Yale Bible 38A)",
+    "author": "Craig R. Koester",
+    "url": "https://themelios.thegospelcoalition.org/review/revelation-a-new-translation-with-introduction-and-commentary/",
+    "camp": "reference",
+    "type": "book",
+    "year": "2014",
+    "accessed": "2026-10-14",
+    "summary": "Major critical commentary stressing Revelation's engagement with the social, religious and economic world of Roman Asia; reads Babylon as Rome and its pattern.",
+    "verified": true,
+    "note": "URL is a Themelios review confirming the publication details."
+  },
+  {
+    "id": "dyer-rise-of-babylon",
+    "title": "The Rise of Babylon: Sign of the End Times",
+    "author": "Charles H. Dyer (with Angela Elwell Hunt)",
+    "url": "https://christianitytoday.com/ct/1991/march-11/end-times-prophecy-books-become-big-sellers.html",
+    "camp": "futurism",
+    "type": "book",
+    "year": "1991",
+    "accessed": "2026-10-14",
+    "summary": "Dispensational argument that the Old Testament prophecies against Babylon were never literally fulfilled, so a literal Babylon on the Euphrates must be rebuilt and judged in the end time.",
+    "verified": true,
+    "note": "URL is a 1991 Christianity Today report on the book, not the book itself."
+  },
+  {
+    "id": "woods-babylon-bible-prophecy",
+    "title": "Babylon in Bible Prophecy",
+    "author": "Andy Woods",
+    "url": "https://www.pre-trib.org/articles/all-articles/message/babylon-in-bible-prophecy1/read",
+    "camp": "futurism",
+    "type": "article",
+    "accessed": "2026-10-14",
+    "summary": "Pre-Trib Research Center article arguing that Babylon in Revelation 17-18 is a literal future city rebuilt on the Euphrates in Iraq, against symbolic readings.",
+    "verified": true
+  },
+  {
+    "id": "bauckham-climax-prophecy",
+    "title": "The Climax of Prophecy: Studies on the Book of Revelation",
+    "author": "Richard Bauckham",
+    "camp": "reference",
+    "type": "book",
+    "year": "1993",
+    "accessed": "2026-10-14",
+    "summary": "Collected studies including 'The Economic Critique of Rome in Revelation 18' and a long treatment of Nero, the Nero redivivus legend and 666.",
+    "verified": false
+  },
+  {
+    "id": "aune-revelation-wbc",
+    "title": "Revelation (Word Biblical Commentary 52A-C)",
+    "author": "David E. Aune",
+    "camp": "reference",
+    "type": "book",
+    "year": "1997",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "walvoord-revelation-jesus-christ",
+    "title": "The Revelation of Jesus Christ",
+    "author": "John F. Walvoord",
+    "camp": "futurism",
+    "type": "book",
+    "year": "1966",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "chilton-days-of-vengeance",
+    "title": "The Days of Vengeance: An Exposition of the Book of Revelation",
+    "author": "David Chilton",
+    "camp": "partial-preterism",
+    "type": "book",
+    "year": "1987",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "thomas-revelation-8-22",
+    "title": "Revelation 8-22: An Exegetical Commentary",
+    "author": "Robert L. Thomas",
+    "camp": "futurism",
+    "type": "book",
+    "year": "1995",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "osborne-revelation-becnt",
+    "title": "Revelation (Baker Exegetical Commentary on the New Testament)",
+    "author": "Grant R. Osborne",
+    "camp": "eclectic",
+    "type": "book",
+    "year": "2002",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "milligan-revelation",
+    "title": "The Book of Revelation (Expositor's Bible)",
+    "author": "William Milligan",
+    "camp": "idealism",
+    "type": "book",
+    "year": "1889",
+    "accessed": "2026-10-14",
+    "verified": false
+  }
+]
