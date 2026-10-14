@@ -22,6 +22,8 @@ export type ContentBundle = {
   sources: S.Source[]
   bible: S.Bible | null
   tour: S.TourStep[]
+  revChapters: S.RevChapter[]
+  revIntro: S.RevIntroSection[]
 }
 
 const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema: z.ZodTypeAny; single?: boolean }[] = [
@@ -41,6 +43,8 @@ const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema:
   { match: (p) => p.startsWith('sources/'), key: 'sources', schema: S.Source },
   { match: (p) => p === 'bible.json', key: 'bible', schema: S.Bible, single: true },
   { match: (p) => p === 'tour.json', key: 'tour', schema: S.TourStep },
+  { match: (p) => p.startsWith('revelation/chapters'), key: 'revChapters', schema: S.RevChapter },
+  { match: (p) => p === 'revelation/intro.json', key: 'revIntro', schema: S.RevIntroSection },
 ]
 
 export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
@@ -48,7 +52,7 @@ export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
 export function emptyBundle(): ContentBundle {
   return {
     positions: [], combinations: [], topics: [], matrix: [], passages: [], arguments: [], timelines: [],
-    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [],
+    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [],
   }
 }
 
@@ -177,6 +181,24 @@ export function checkBundle(b: ContentBundle, opts: { partial?: boolean } = {}):
     q.questions.forEach((x) => x.answer >= x.options.length && errors.push(`quiz ${q.set}/${x.id}: answer out of range`))
   }
   b.tour.forEach((t, i) => t.focus.forEach((f) => needPos(`tour[${i}]`, f)))
+  const symIds = new Set<string>()
+  const chapters = new Set<number>()
+  for (const c of b.revChapters) {
+    const where = `revelation ${c.chapter}`
+    if (chapters.has(c.chapter)) errors.push(`${where}: duplicate chapter`)
+    chapters.add(c.chapter)
+    needSrc(where, c.sources)
+    c.readings.forEach((r) => needPos(where, r.position))
+    for (const s of c.symbols) {
+      if (symIds.has(s.id)) errors.push(`${where}: duplicate symbol id "${s.id}"`)
+      symIds.add(s.id)
+      needSrc(`${where}/${s.id}`, s.sources)
+      s.readings.forEach((r) => needPos(`${where}/${s.id}`, r.position))
+    }
+  }
+  b.revIntro.forEach((x) => needSrc(`revelation intro ${x.id}`, x.sources))
+  if (!opts.partial && b.revChapters.length)
+    for (let n = 1; n <= 22; n++) if (!chapters.has(n)) errors.push(`missing Revelation chapter ${n}`)
   if (b.flowchart) errors.push(...checkFlowchart(b.flowchart))
 
   if (!opts.partial) {

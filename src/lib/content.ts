@@ -16,7 +16,13 @@ export const content = data as unknown as {
   sources: Source[]
   tour: TourStep[]
   /** Slim indexes of the per-feature files (see src/lib/data/). */
-  index: { passages: PassageIndex[]; arguments: ArgumentIndex[]; scholars: { id: string; name: string; dates: string }[]; quizzes: number }
+  index: {
+    passages: PassageIndex[]
+    arguments: ArgumentIndex[]
+    scholars: { id: string; name: string; dates: string }[]
+    quizzes: number
+    revelation: { chapter: number; title: string; section: string; symbols: { id: string; phrase: string; ref: string; category: string }[] }[]
+  }
 }
 
 /** Bible text is large and only needed in the Passage Lab, so it loads on demand. */

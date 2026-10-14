@@ -18,6 +18,9 @@ const Library = lazy(() => import('../pages/Library'))
 const Glossary = lazy(() => import('../pages/Glossary'))
 const Study = lazy(() => import('../pages/Study'))
 const Settings = lazy(() => import('../pages/Settings'))
+const Revelation = lazy(() => import('../pages/Revelation'))
+const RevelationChapter = lazy(() => import('../pages/RevelationChapter'))
+const RevelationSymbols = lazy(() => import('../pages/RevelationSymbols'))
 const NotFound = lazy(() => import('../pages/NotFound'))
 
 function ScrollToTop() {
@@ -53,6 +56,9 @@ export function App() {
               <Route path="/glossary" element={<Glossary />} />
               <Route path="/study" element={<Study />} />
               <Route path="/settings" element={<Settings />} />
+              <Route path="/revelation" element={<Revelation />} />
+              <Route path="/revelation/symbols" element={<RevelationSymbols />} />
+              <Route path="/revelation/:n" element={<RevelationChapter />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>

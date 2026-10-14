@@ -1,0 +1,86 @@
+[
+  {
+    "id": "koester-revelation-ayb",
+    "title": "Revelation: A New Translation with Introduction and Commentary (Anchor Yale Bible 38A)",
+    "author": "Craig R. Koester",
+    "url": "https://www.logos.com/product/46940",
+    "camp": "reference",
+    "type": "book",
+    "year": "2014",
+    "accessed": "2026-10-14",
+    "summary": "Major critical commentary attentive to social, economic and religious setting and to the book's history of interpretation and influence.",
+    "verified": true
+  },
+  {
+    "id": "mounce-revelation-nicnt",
+    "title": "The Book of Revelation (NICNT, revised)",
+    "author": "Robert H. Mounce",
+    "camp": "eclectic",
+    "type": "book",
+    "year": "1977 (rev. 1998)",
+    "accessed": "2026-10-14",
+    "summary": "Evangelical commentary; late date, apostolic authorship held as probable, a blend of preterist setting and future consummation.",
+    "verified": false,
+    "note": "Not checked online during research."
+  },
+  {
+    "id": "thomas-revelation-1-7",
+    "title": "Revelation 1–7: An Exegetical Commentary",
+    "author": "Robert L. Thomas",
+    "camp": "futurism",
+    "type": "book",
+    "year": "1992",
+    "accessed": "2026-10-14",
+    "summary": "Detailed dispensational futurist commentary; defends apostolic authorship, a late date and a pretribulational reading of Revelation 3:10.",
+    "verified": false,
+    "note": "Not checked online during research."
+  },
+  {
+    "id": "charles-revelation-icc",
+    "title": "A Critical and Exegetical Commentary on the Revelation of St. John (ICC, 2 vols.)",
+    "author": "R. H. Charles",
+    "camp": "reference",
+    "type": "book",
+    "year": "1920",
+    "accessed": "2026-10-14",
+    "summary": "Older critical commentary strong on Jewish apocalyptic parallels and Revelation's Semitic Greek; attributes the book to a John other than the apostle.",
+    "verified": false,
+    "note": "Public-domain work; no URL checked during research."
+  },
+  {
+    "id": "friesen-imperial-cults",
+    "title": "Imperial Cults and the Apocalypse of John: Reading Revelation in the Ruins",
+    "author": "Steven J. Friesen",
+    "url": "https://www.oeaw.ac.at/resources/Record/993620366804498",
+    "camp": "reference",
+    "type": "book",
+    "year": "2001",
+    "accessed": "2026-10-14",
+    "summary": "Archaeological and textual study of the imperial cults of Roman Asia (Pergamum, Smyrna, Ephesus) and how they illuminate John's critique of empire.",
+    "verified": true
+  },
+  {
+    "id": "charlesworth-otp",
+    "title": "The Old Testament Pseudepigrapha (2 vols.)",
+    "author": "James H. Charlesworth (ed.)",
+    "camp": "reference",
+    "type": "book",
+    "year": "1983–1985",
+    "accessed": "2026-10-14",
+    "summary": "Standard English edition of Second Temple Jewish texts such as 1 Enoch, 4 Ezra, 2 Baruch, Jubilees, the Psalms of Solomon and the Testaments of the Twelve Patriarchs, cited here for the Jewish background of Revelation's imagery.",
+    "verified": false,
+    "note": "Standard reference work; not checked online during research."
+  },
+  {
+    "id": "beale-mcdonough-revelation-cnuot",
+    "title": "Revelation, in Commentary on the New Testament Use of the Old Testament (ed. Beale and Carson)",
+    "author": "G. K. Beale and Sean M. McDonough",
+    "camp": "eclectic",
+    "type": "book",
+    "year": "2007",
+    "accessed": "2026-10-14",
+    "summary": "Verse-by-verse survey of Revelation's allusions to Daniel, Ezekiel, Isaiah, Zechariah, Exodus and the Psalms, with notes on Jewish interpretive tradition.",
+    "verified": false,
+    "note": "Not checked online during research."
+  }
+]

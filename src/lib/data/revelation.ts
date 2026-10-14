@@ -1,0 +1,12 @@
+import type { Bible, RevChapter, RevIntroSection } from '../../content/schema'
+import data from '../../generated/revelation.json'
+
+export const { intro, chapters } = data as unknown as { intro: RevIntroSection[]; chapters: RevChapter[] }
+export const chapterByNumber = new Map(chapters.map((c) => [c.chapter, c]))
+
+type RevText = { translations: Bible['translations']; chapters: Record<string, Record<'BSB' | 'KJV' | 'WEB', { ref: string; text: string }[]>> }
+let textPromise: Promise<RevText> | null = null
+/** The full text of Revelation is large, so it loads on demand. */
+export const loadRevelationText = () => (textPromise ??= import('../../generated/revelation-text.json').then((m) => m.default as unknown as RevText))
+
+export { versesIn } from './revelationRefs'

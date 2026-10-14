@@ -6,9 +6,11 @@
  *   KJV — King James Version, 1769 (via `kjv`)
  *   WEB — World English Bible (via `world-english-bible`), public domain
  *
+ * Also writes src/generated/revelation-text.json (all of Revelation) for the Revelation Study.
+ *
  * Usage: npm run bible
  */
-import { readFileSync, readdirSync, writeFileSync, existsSync } from 'node:fs'
+import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
 
 const root = join(import.meta.dirname, '..')
@@ -102,3 +104,10 @@ const bible = {
 }
 writeFileSync(join(root, 'content', 'bible.json'), JSON.stringify(bible))
 console.log(`bible.json: ${Object.keys(passages).length} passages`)
+
+// The whole book of Revelation, chapter by chapter, for the Revelation Study (loaded on demand).
+const rev = {}
+for (let c = 1; c <= 22; c++) rev[c] = verses(`Revelation ${c}`)
+mkdirSync(join(root, 'src', 'generated'), { recursive: true })
+writeFileSync(join(root, 'src', 'generated', 'revelation-text.json'), JSON.stringify({ translations: bible.translations, chapters: rev }))
+console.log('revelation-text.json: 22 chapters')

@@ -305,3 +305,61 @@ export type FlashDeck = z.infer<typeof FlashDeck>
 export type Flowchart = z.infer<typeof Flowchart>
 export type FlowNode = z.infer<typeof FlowNode>
 export type Bible = z.infer<typeof Bible>
+
+/* ---------- Revelation Study ------------------------------------------------------------ */
+
+export const SymbolCategory = z.enum([
+  'number', 'colour', 'creature', 'person', 'place', 'object', 'action', 'time', 'title', 'cosmic', 'worship', 'body',
+])
+export const ViewReading = z.object({ position: Id, reading: Text })
+
+/** One phrase or image in Revelation, explained from its backgrounds outward. */
+export const RevSymbol = z.object({
+  id: Id,
+  phrase: Text,
+  /** Verse(s), e.g. "Revelation 1:16". */
+  ref: Ref,
+  /** Words to highlight in the chapter text (lower-case substrings that occur in the BSB wording). */
+  keywords: z.array(z.string()).default([]),
+  category: SymbolCategory,
+  /** Old Testament and Second Temple Jewish background (Daniel, Ezekiel, Zechariah, 1 Enoch, 4 Ezra, Qumran, temple practice…). */
+  jewish: Text,
+  /** Greco-Roman / Asia Minor cultural and historical context. Empty string if none is relevant. */
+  cultural: z.string(),
+  /** What the image means, as broadly agreed by interpreters, with uncertainty flagged. */
+  meaning: Text,
+  /** How the different views read it, where they differ. */
+  readings: z.array(ViewReading).default([]),
+  texts: z.array(Ref).default([]),
+  sources: z.array(Id).min(1),
+})
+
+export const RevChapter = z.object({
+  chapter: z.number().int().min(1).max(22),
+  title: Text,
+  /** Which movement of the book it belongs to (e.g. "The seven seals"). */
+  section: Text,
+  summary: Text,
+  outline: z.array(z.object({ range: Text, heading: Text })).min(2),
+  /** The chapter's overall Jewish and cultural setting. */
+  context: Text,
+  symbols: z.array(RevSymbol).min(4),
+  /** Chapter-level readings: at least partial-preterism, historicism, futurism, idealism; others where relevant. */
+  readings: z.array(ViewReading).min(4),
+  questions: z.array(Text).default([]),
+  sources: z.array(Id).min(1),
+})
+
+export const RevIntroSection = z.object({
+  id: Id,
+  title: Text,
+  body: Text,
+  /** Optional facts table (label → value), e.g. for the seven cities. */
+  facts: z.array(z.object({ label: Text, value: Text })).default([]),
+  sources: z.array(Id).min(1),
+})
+
+export type RevSymbol = z.infer<typeof RevSymbol>
+export type RevChapter = z.infer<typeof RevChapter>
+export type RevIntroSection = z.infer<typeof RevIntroSection>
+export type ViewReading = z.infer<typeof ViewReading>

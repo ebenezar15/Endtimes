@@ -19,6 +19,7 @@ const FEATURES: { to: string; title: string; text: string; icon: IconName }[] = 
   { to: '/compare', title: 'Compare views', text: 'Two to four views side by side across fifteen topics, agreement marked at a glance.', icon: 'layers' },
   { to: '/timelines', title: 'Timelines', text: 'Overlay any two views from the Cross to the new creation and see where they part.', icon: 'timeline' },
   { to: '/fit', title: 'Which view fits me?', text: 'A branching set of questions that explains the texts behind every fork.', icon: 'fork' },
+  { to: '/revelation', title: 'Revelation Study', text: 'All 22 chapters: every image traced to its Jewish and Roman setting, then read by each view.', icon: 'seal' },
   { to: '/passages', title: 'Passage Lab', text: 'Thirty-five key texts, read by every position, with support and objections.', icon: 'scroll' },
   { to: '/arena', title: 'Argument Arena', text: 'Claim, objection, rebuttal and counter-rebuttal, as a tree or a live graph.', icon: 'scales' },
   { to: '/library', title: 'Debates & Library', text: 'Multi-view books, public debates and the scholars behind each camp.', icon: 'library' },
@@ -189,7 +190,7 @@ export default function Home() {
       </details>
 
       <h2 className="mb-6 mt-16 text-3xl">Ways in</h2>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {FEATURES.map((f, i) => (
           <motion.div key={f.to} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-40px' }} transition={{ delay: (i % 4) * 0.07, type: 'spring', stiffness: 200, damping: 22 }}>
             <GlowCard to={f.to}>

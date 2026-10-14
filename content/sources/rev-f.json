@@ -1,0 +1,74 @@
+[
+  {
+    "id": "koester-revelation-ayb",
+    "title": "Revelation: A New Translation with Introduction and Commentary (Anchor Yale Bible 38A)",
+    "author": "Craig R. Koester",
+    "url": "https://www.logos.com/product/46940",
+    "camp": "reference",
+    "type": "book",
+    "year": "2014",
+    "accessed": "2026-10-14",
+    "summary": "Major critical commentary that reads Revelation against Greek and Latin inscriptions, classical literature and Jewish writings including the Dead Sea Scrolls, with strong attention to the social and economic world of Roman Asia.",
+    "verified": true
+  },
+  {
+    "id": "gundry-new-jerusalem-people-as-place",
+    "title": "The New Jerusalem: People as Place, Not Place for People (Novum Testamentum 29:3, pp. 254-264)",
+    "author": "Robert H. Gundry",
+    "camp": "reference",
+    "type": "article",
+    "year": "1987",
+    "accessed": "2026-10-14",
+    "summary": "Argues that every feature of the New Jerusalem in Revelation 21-22 describes the glorified people of God themselves rather than a place built for them to live in.",
+    "verified": true,
+    "note": "Bibliographic details confirmed via secondary citations online (e.g. psephizo.com); no open full-text URL found."
+  },
+  {
+    "id": "mounce-revelation-nicnt",
+    "title": "The Book of Revelation (New International Commentary on the New Testament, revised edition)",
+    "author": "Robert H. Mounce",
+    "camp": "eclectic",
+    "type": "book",
+    "year": "1997",
+    "accessed": "2026-10-14",
+    "summary": "Standard evangelical commentary combining a first-century historical reading with a future consummation; reads Revelation 20 in a premillennial direction.",
+    "verified": false,
+    "note": "Well-known standard commentary; publisher page not checked during this research pass."
+  },
+  {
+    "id": "charlesworth-otp",
+    "title": "The Old Testament Pseudepigrapha (2 vols.)",
+    "author": "James H. Charlesworth (ed.)",
+    "camp": "reference",
+    "type": "primary",
+    "year": "1983-1985",
+    "accessed": "2026-10-14",
+    "summary": "Standard English edition of Second Temple and related Jewish writings such as 1 Enoch, 2 Baruch, 4 Ezra, Jubilees, the Psalms of Solomon and the Sibylline Oracles, cited here for Jewish background to Revelation's imagery.",
+    "verified": false,
+    "note": "Standard reference edition; no URL checked."
+  },
+  {
+    "id": "josephus-antiquities",
+    "title": "Jewish Antiquities (esp. 3.186 on the high priest's twelve stones) and Jewish War (5.217-218, 5.234)",
+    "author": "Flavius Josephus",
+    "camp": "reference",
+    "type": "primary",
+    "year": "c. 75-94",
+    "accessed": "2026-10-14",
+    "summary": "First-century Jewish historian whose descriptions of the tabernacle, the high priest's breastpiece and the Jerusalem temple supply background for the jewelled city of Revelation 21.",
+    "verified": false,
+    "note": "Primary ancient text, cited by standard section numbers; no specific online edition checked."
+  },
+  {
+    "id": "pliny-natural-history",
+    "title": "Natural History (Book 37 on gemstones; Book 9 on pearls)",
+    "author": "Pliny the Elder",
+    "camp": "reference",
+    "type": "primary",
+    "year": "c. 77",
+    "accessed": "2026-10-14",
+    "summary": "Roman encyclopedia whose discussion of precious stones and pearls shows how first-century readers valued and named the jewels listed in Revelation 21.",
+    "verified": false,
+    "note": "Primary ancient text cited by book and section; ancient stone names do not map neatly onto modern mineralogy."
+  }
+]

@@ -258,6 +258,7 @@ function Progress() {
       <Bar label="Positions read" n={visited.filter((v) => v.startsWith('position/')).length} of={content.positions.length} to="/positions" />
       <Bar label="Passages studied" n={visited.filter((v) => v.startsWith('passage/')).length} of={content.index.passages.length} to="/passages" />
       <Bar label="Debates explored" n={visited.filter((v) => v.startsWith('argument/')).length} of={content.index.arguments.length} to="/arena" />
+      <Bar label="Revelation chapters studied" n={visited.filter((v) => v.startsWith('revelation/')).length} of={22} to="/revelation" />
       <Bar label="Quizzes taken" n={Object.keys(quizBest).length} of={quizzes.length} />
       <Bar label="Flashcards learned" n={learned} of={cardsTotal} />
       {Object.keys(quizBest).length > 0 && (
@@ -289,6 +290,7 @@ function labelFor(key: string): { label: string; to: string } {
   if (kind === 'position') return { label: positionsById.get(id)?.name ?? id, to: `/positions/${id}` }
   if (kind === 'passage') return { label: passageIndex.get(id)?.ref ?? id, to: `/passages/${id}` }
   if (kind === 'argument') return { label: argumentIndex.get(id)?.title ?? id, to: `/arena/${id}` }
+  if (kind === 'revelation') return { label: `Revelation ${id}`, to: `/revelation/${id}` }
   return { label: key, to: '/' }
 }
 
