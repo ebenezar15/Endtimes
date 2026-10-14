@@ -1,0 +1,1443 @@
+[
+  {
+    "id": "eschatology",
+    "term": "Eschatology",
+    "aliases": [
+      "eschatological",
+      "doctrine of last things"
+    ],
+    "definition": "The branch of theology concerned with the 'last things': death, the intermediate state, the return of Christ, resurrection, judgment, and the final state, as well as the shape of history leading to them. Biblical scholars also use it for the way the age to come has already broken into the present through Christ.",
+    "origin": "Greek eschatos ('last') + logos ('word, study').",
+    "related": [
+      "eschaton",
+      "parousia",
+      "inaugurated-eschatology",
+      "consummation"
+    ]
+  },
+  {
+    "id": "eschaton",
+    "term": "Eschaton",
+    "aliases": [
+      "the eschaton"
+    ],
+    "definition": "The final events of history or the end of the present age as a whole, especially the climactic return of Christ and the consummation of God's purposes.",
+    "origin": "Greek to eschaton, 'the last (thing)'.",
+    "related": [
+      "eschatology",
+      "consummation",
+      "parousia"
+    ]
+  },
+  {
+    "id": "parousia",
+    "term": "Parousia",
+    "aliases": [
+      "second coming",
+      "Second Coming",
+      "return of Christ",
+      "Christ's return",
+      "second advent"
+    ],
+    "definition": "The 'coming' or 'presence' of Christ, the standard New Testament term for his return in glory (e.g. Matthew 24:27; 1 Thessalonians 4:15; 1 Corinthians 15:23). Interpreters differ on whether some uses refer to a coming in judgment in AD 70 and whether all are fulfilled (full preterism) or await a future bodily return (all creedal views).",
+    "origin": "Greek parousia, 'presence, arrival', used of the official visit of a ruler.",
+    "related": [
+      "epiphaneia",
+      "apokalypsis",
+      "rapture",
+      "eschatology"
+    ]
+  },
+  {
+    "id": "apokalypsis",
+    "term": "Apokalypsis",
+    "aliases": [
+      "apocalypse",
+      "apocalyptic",
+      "revelation (unveiling)"
+    ],
+    "definition": "An 'unveiling' or 'revelation'; the first word of the Book of Revelation (Revelation 1:1) and a New Testament term for Christ's revealing at his coming (1 Peter 1:7). 'Apocalyptic' also names a Jewish and Christian literary genre using symbolic visions to disclose heavenly realities and the end of the age.",
+    "origin": "Greek apokalyptō, 'to uncover'.",
+    "related": [
+      "parousia",
+      "epiphaneia",
+      "idealism"
+    ]
+  },
+  {
+    "id": "epiphaneia",
+    "term": "Epiphaneia",
+    "aliases": [
+      "appearing",
+      "epiphany"
+    ],
+    "definition": "The 'appearing' or 'manifestation' of Christ, used of his first coming (2 Timothy 1:10) and of his return (Titus 2:13; 2 Thessalonians 2:8). Some pretribulationists once distinguished it from the parousia; most scholars now treat the terms as overlapping.",
+    "origin": "Greek epiphaneia, 'manifestation', used of a deity's visible appearance.",
+    "related": [
+      "parousia",
+      "apokalypsis"
+    ]
+  },
+  {
+    "id": "chiliasm",
+    "term": "Chiliasm",
+    "aliases": [
+      "chiliast",
+      "chiliastic",
+      "millenarianism",
+      "millenarian"
+    ],
+    "definition": "The early church term for belief in a literal thousand-year earthly kingdom after Christ's return and the resurrection of the righteous, held by Papias, Justin Martyr, Irenaeus and Tertullian. It is the ancestor of modern premillennialism, though the term is sometimes used pejoratively for crude materialist versions.",
+    "origin": "Greek chilioi, 'a thousand'.",
+    "related": [
+      "millennium",
+      "premillennialism",
+      "papias",
+      "montanism"
+    ]
+  },
+  {
+    "id": "millennium",
+    "term": "Millennium",
+    "aliases": [
+      "thousand years",
+      "millennial",
+      "millennial kingdom"
+    ],
+    "definition": "The thousand-year period of Revelation 20:1-7 in which Satan is bound and the saints reign with Christ. Premillennialists place it after Christ's return, postmillennialists before it as a future golden age within history, and amillennialists identify it with the whole present church age.",
+    "origin": "Latin mille ('thousand') + annus ('year').",
+    "related": [
+      "chiliasm",
+      "premillennialism",
+      "postmillennialism",
+      "amillennialism",
+      "binding-of-satan",
+      "first-resurrection"
+    ]
+  },
+  {
+    "id": "premillennialism",
+    "term": "Premillennialism",
+    "aliases": [
+      "premil",
+      "premillennial",
+      "premillennialist",
+      "historic premillennialism",
+      "dispensational premillennialism"
+    ],
+    "definition": "The view that Christ will return before ('pre') the millennium and reign on earth for a thousand years before the final judgment and new creation. Historic premillennialism holds this without the dispensational distinction between Israel and the church; dispensational premillennialism adds a pretribulational rapture and a central role for national Israel.",
+    "origin": "Latin prae ('before') + millennium.",
+    "related": [
+      "millennium",
+      "chiliasm",
+      "dispensationalism",
+      "rapture",
+      "postmillennialism",
+      "amillennialism"
+    ]
+  },
+  {
+    "id": "postmillennialism",
+    "term": "Postmillennialism",
+    "aliases": [
+      "postmil",
+      "postmillennial",
+      "postmillennialist"
+    ],
+    "definition": "The view that Christ will return after ('post') the millennium, understood as a long era within history in which the gospel, through the Spirit's work in the church, wins the great majority of people and transforms the nations. Proponents ground it in the Great Commission, the growth parables and the Psalms and Prophets.",
+    "origin": "Latin post ('after') + millennium.",
+    "related": [
+      "millennium",
+      "golden-age",
+      "great-commission",
+      "theonomy",
+      "amillennialism",
+      "premillennialism"
+    ]
+  },
+  {
+    "id": "amillennialism",
+    "term": "Amillennialism",
+    "aliases": [
+      "amil",
+      "amillennial",
+      "amillennialist",
+      "realized millennialism"
+    ],
+    "definition": "The view that the millennium of Revelation 20 is not a future earthly era but the present reign of Christ and departed saints during the church age, between his first and second comings. Its proponents note that 'no millennium' is a misleading label; some prefer 'realized millennialism'.",
+    "origin": "Greek alpha-privative a- ('not') + millennium.",
+    "related": [
+      "millennium",
+      "binding-of-satan",
+      "first-resurrection",
+      "recapitulation",
+      "progressive-parallelism",
+      "postmillennialism",
+      "premillennialism"
+    ]
+  },
+  {
+    "id": "preterism",
+    "term": "Preterism",
+    "aliases": [
+      "preterist",
+      "preterist view"
+    ],
+    "definition": "The interpretive approach that sees many (or all) New Testament prophecies, especially the Olivet Discourse and much of Revelation, as fulfilled in the first century, chiefly the destruction of Jerusalem in AD 70. It comes in partial and full forms.",
+    "origin": "Latin praeter ('past, beyond').",
+    "related": [
+      "partial-preterism",
+      "full-preterism",
+      "ad-70",
+      "olivet-discourse",
+      "historicism",
+      "futurism",
+      "idealism"
+    ]
+  },
+  {
+    "id": "partial-preterism",
+    "term": "Partial preterism",
+    "aliases": [
+      "orthodox preterism",
+      "partial preterist",
+      "moderate preterism"
+    ],
+    "definition": "The view that many prophecies (such as the great tribulation and the 'coming' in judgment of Matthew 24:29-34) were fulfilled in AD 70, while a future bodily return of Christ, general resurrection and final judgment remain. It is compatible with the historic creeds and is held by many postmillennialists and some amillennialists.",
+    "origin": "Latin praeter ('past').",
+    "related": [
+      "preterism",
+      "full-preterism",
+      "ad-70",
+      "olivet-discourse",
+      "postmillennialism"
+    ]
+  },
+  {
+    "id": "full-preterism",
+    "term": "Full preterism",
+    "aliases": [
+      "hyper-preterism",
+      "hyperpreterism",
+      "consistent preterism",
+      "covenant eschatology",
+      "full preterist"
+    ],
+    "definition": "The view that all biblical prophecy, including the Second Coming, resurrection and final judgment, was fulfilled by AD 70. It denies a future bodily return and resurrection, which places it outside the historic creeds; critics call it 'hyper-preterism', while proponents ('covenant eschatology') argue that the creeds must yield to Scripture's time-statements.",
+    "origin": "Latin praeter ('past').",
+    "related": [
+      "preterism",
+      "partial-preterism",
+      "ad-70",
+      "general-resurrection",
+      "apostles-creed"
+    ]
+  },
+  {
+    "id": "historicism",
+    "term": "Historicism",
+    "aliases": [
+      "historicist",
+      "continuous-historical view"
+    ],
+    "definition": "The approach that reads Daniel and Revelation as a continuous forecast of church history from the apostles to the end, often using the day-year principle and identifying the papacy with Antichrist. It dominated Protestant interpretation from the Reformation to the nineteenth century.",
+    "origin": "From 'history', as reading prophecy as a sequence through history.",
+    "related": [
+      "day-year-principle",
+      "antichrist",
+      "preterism",
+      "futurism",
+      "idealism"
+    ]
+  },
+  {
+    "id": "futurism",
+    "term": "Futurism",
+    "aliases": [
+      "futurist",
+      "futurist view"
+    ],
+    "definition": "The approach that places most of Revelation (usually chapters 4–22) and the climactic events of Daniel and the Olivet Discourse in the future, immediately before Christ's return. It is held by dispensationalists and most historic premillennialists.",
+    "origin": "From 'future'.",
+    "related": [
+      "dispensationalism",
+      "seventy-weeks",
+      "tribulation",
+      "preterism",
+      "historicism",
+      "idealism"
+    ]
+  },
+  {
+    "id": "idealism",
+    "term": "Idealism",
+    "aliases": [
+      "idealist",
+      "spiritual view",
+      "symbolic view",
+      "modified idealism"
+    ],
+    "definition": "The approach that reads Revelation's visions as symbolic depictions of timeless spiritual principles and the ongoing conflict between Christ and evil throughout the church age, rather than as predictions of specific events. Many idealists ('modified idealists') still affirm a literal final consummation.",
+    "origin": "From 'ideal', meaning principle or idea rather than particular event.",
+    "related": [
+      "recapitulation",
+      "progressive-parallelism",
+      "amillennialism",
+      "preterism",
+      "futurism",
+      "historicism"
+    ]
+  },
+  {
+    "id": "eclecticism",
+    "term": "Eclectic approach",
+    "aliases": [
+      "eclectic",
+      "eclecticism"
+    ],
+    "definition": "An approach to Revelation that combines elements of preterism, idealism and futurism, recognizing first-century referents, ongoing principles and a future consummation. Many contemporary commentators (e.g. Beale, Keener) describe their method this way.",
+    "origin": "Greek eklegein, 'to pick out'.",
+    "related": [
+      "preterism",
+      "idealism",
+      "futurism"
+    ]
+  },
+  {
+    "id": "genea",
+    "term": "Genea ('generation')",
+    "aliases": [
+      "this generation",
+      "genea"
+    ],
+    "definition": "The Greek word in Matthew 24:34 ('this generation will not pass away'). Preterists read it as Jesus' contemporaries, fulfilled in AD 70; futurists commonly read it as the generation alive when the signs appear, or as the Jewish 'race'.",
+    "origin": "Greek genea, 'generation, family, kind'.",
+    "related": [
+      "olivet-discourse",
+      "ad-70",
+      "preterism",
+      "futurism"
+    ]
+  },
+  {
+    "id": "olivet-discourse",
+    "term": "Olivet Discourse",
+    "aliases": [
+      "Mount Olivet Discourse",
+      "Little Apocalypse"
+    ],
+    "definition": "Jesus' teaching on the Mount of Olives about the destruction of the temple and his coming (Matthew 24–25; Mark 13; Luke 21). Interpreters disagree whether it concerns AD 70, the end of the age, or both, and where (if anywhere) it transitions between them.",
+    "origin": "Named after the Mount of Olives east of Jerusalem.",
+    "related": [
+      "genea",
+      "abomination-of-desolation",
+      "great-tribulation",
+      "ad-70"
+    ]
+  },
+  {
+    "id": "tribulation",
+    "term": "Tribulation",
+    "aliases": [
+      "the tribulation",
+      "seven-year tribulation",
+      "thlipsis"
+    ],
+    "definition": "Affliction or distress, which the New Testament says believers experience throughout this age (John 16:33; Acts 14:22). In futurist schemes 'the Tribulation' names a specific future seven-year period corresponding to Daniel's seventieth week.",
+    "origin": "Latin tribulatio, from tribulum ('threshing sledge'); Greek thlipsis ('pressure').",
+    "related": [
+      "great-tribulation",
+      "seventy-weeks",
+      "rapture",
+      "pretribulationism"
+    ]
+  },
+  {
+    "id": "great-tribulation",
+    "term": "Great Tribulation",
+    "aliases": [
+      "the great tribulation",
+      "thlipsis megale"
+    ],
+    "definition": "The unparalleled distress Jesus foretold in Matthew 24:21 (compare Revelation 7:14). Preterists identify it with the Jewish War of AD 66-70; futurists with the second half of a future seven-year tribulation; some combine both.",
+    "origin": "Greek thlipsis megalē, 'great affliction'.",
+    "related": [
+      "tribulation",
+      "olivet-discourse",
+      "ad-70",
+      "abomination-of-desolation"
+    ]
+  },
+  {
+    "id": "rapture",
+    "term": "Rapture",
+    "aliases": [
+      "the rapture",
+      "rapture of the church",
+      "caught up"
+    ],
+    "definition": "The 'catching up' of living believers to meet the Lord in the air at his coming (1 Thessalonians 4:17). All Christians affirm it; they disagree whether it is a separate event before or within the tribulation (pre-, mid-trib, prewrath) or simply an aspect of the one visible Second Coming (post-trib, and the usual amillennial and postmillennial view).",
+    "origin": "Latin rapiemur (Vulgate of 1 Thessalonians 4:17), from rapio, 'to seize'; Greek harpazō.",
+    "related": [
+      "harpazo",
+      "pretribulationism",
+      "midtribulationism",
+      "prewrath",
+      "posttribulationism",
+      "parousia"
+    ]
+  },
+  {
+    "id": "harpazo",
+    "term": "Harpazō",
+    "aliases": [
+      "harpazo",
+      "harpagēsometha"
+    ],
+    "definition": "The Greek verb 'to snatch, seize, catch up', used in 1 Thessalonians 4:17 for believers being caught up to meet the Lord; the source of the term 'rapture'.",
+    "origin": "Greek harpazō.",
+    "related": [
+      "rapture"
+    ]
+  },
+  {
+    "id": "pretribulationism",
+    "term": "Pretribulationism",
+    "aliases": [
+      "pre-trib",
+      "pretrib",
+      "pre-tribulation rapture",
+      "pretribulational"
+    ],
+    "definition": "The view that Christ will rapture the church before a future seven-year tribulation, then return visibly with his saints afterward. It is characteristic of dispensational premillennialism and stresses imminence and the church's exemption from wrath (1 Thessalonians 1:10; 5:9).",
+    "origin": "Latin prae ('before') + tribulation.",
+    "related": [
+      "rapture",
+      "tribulation",
+      "dispensationalism",
+      "midtribulationism",
+      "prewrath",
+      "posttribulationism"
+    ]
+  },
+  {
+    "id": "midtribulationism",
+    "term": "Midtribulationism",
+    "aliases": [
+      "mid-trib",
+      "midtrib",
+      "mid-tribulation rapture"
+    ],
+    "definition": "The view that the rapture occurs at the midpoint of the seven-year tribulation, before the more severe 'great tribulation' of its last three and a half years. Gleason Archer defended it in 1984.",
+    "origin": "Latin medius ('middle') + tribulation.",
+    "related": [
+      "rapture",
+      "pretribulationism",
+      "prewrath",
+      "posttribulationism"
+    ]
+  },
+  {
+    "id": "prewrath",
+    "term": "Prewrath rapture",
+    "aliases": [
+      "pre-wrath",
+      "prewrath",
+      "pre-wrath rapture"
+    ],
+    "definition": "The view that the church will endure the Antichrist's persecution during the great tribulation but will be raptured before the Day of the Lord's wrath, which begins sometime in the second half of Daniel's seventieth week (often linked to the sixth seal). Popularized by Marvin Rosenthal and Robert Van Kampen.",
+    "origin": "English 'pre-' + 'wrath', from the distinction between persecution and divine wrath.",
+    "related": [
+      "rapture",
+      "midtribulationism",
+      "pretribulationism",
+      "posttribulationism",
+      "day-of-the-lord"
+    ]
+  },
+  {
+    "id": "posttribulationism",
+    "term": "Posttribulationism",
+    "aliases": [
+      "post-trib",
+      "posttrib",
+      "post-tribulation rapture",
+      "posttribulational"
+    ],
+    "definition": "The view that the rapture occurs at Christ's single, visible return after the tribulation (Matthew 24:29-31), with believers caught up to meet him and accompany him to earth. Held by historic premillennialists such as Ladd, Gundry and Moo; amillennialists and postmillennialists also see one coming.",
+    "origin": "Latin post ('after') + tribulation.",
+    "related": [
+      "rapture",
+      "pretribulationism",
+      "prewrath",
+      "premillennialism"
+    ]
+  },
+  {
+    "id": "day-of-the-lord",
+    "term": "Day of the Lord",
+    "aliases": [
+      "day of the Lord",
+      "day of Yahweh",
+      "day of Christ"
+    ],
+    "definition": "The prophetic term for God's decisive intervention in judgment and salvation (Joel 2; Amos 5:18-20; 1 Thessalonians 5:2; 2 Peter 3:10). Debate about its timing and scope is central to the rapture debate and to preterist readings of 2 Peter 3.",
+    "origin": "Hebrew yom YHWH.",
+    "related": [
+      "prewrath",
+      "last-judgment",
+      "parousia"
+    ]
+  },
+  {
+    "id": "seventy-weeks",
+    "term": "Seventy weeks",
+    "aliases": [
+      "70 weeks",
+      "seventy sevens",
+      "Daniel's seventy weeks",
+      "seventieth week"
+    ],
+    "definition": "The prophecy of Daniel 9:24-27 of 'seventy sevens' (usually taken as 490 years) leading to the Messiah and the destruction of the city and sanctuary. Dispensationalists see a gap before a future seventieth week (the tribulation); most others see it fulfilled in Christ's ministry, death and the events up to AD 70, or read it symbolically.",
+    "origin": "Hebrew shavuim shivim, 'seventy sevens'.",
+    "related": [
+      "abomination-of-desolation",
+      "tribulation",
+      "gap-theory",
+      "futurism"
+    ]
+  },
+  {
+    "id": "gap-theory",
+    "term": "Prophetic gap (parenthesis)",
+    "aliases": [
+      "gap",
+      "parenthesis",
+      "church age parenthesis",
+      "prophetic postponement"
+    ],
+    "definition": "The dispensational teaching that the prophetic clock stopped after Daniel's sixty-ninth week, leaving an undetermined gap (the church age) before the seventieth week resumes. Critics argue the text implies continuous sequence; proponents point to other prophetic texts that skip over intervening periods (e.g. Isaiah 61:1-2 in Luke 4).",
+    "origin": "English.",
+    "related": [
+      "seventy-weeks",
+      "dispensationalism"
+    ]
+  },
+  {
+    "id": "abomination-of-desolation",
+    "term": "Abomination of desolation",
+    "aliases": [
+      "abomination that causes desolation",
+      "desolating sacrilege",
+      "bdelugma tes eremoseos"
+    ],
+    "definition": "A phrase from Daniel (9:27; 11:31; 12:11) used by Jesus in Matthew 24:15 for the sign that would precede the flight from Judea. It is applied variously to Antiochus IV's desecration (167 BC), the Roman armies or Zealot defilement before AD 70 (compare Luke 21:20), or a future Antichrist's desecration of a rebuilt temple.",
+    "origin": "Greek bdelygma tēs erēmōseōs, translating Hebrew shiqquts meshomem.",
+    "related": [
+      "seventy-weeks",
+      "olivet-discourse",
+      "great-tribulation",
+      "antichrist"
+    ]
+  },
+  {
+    "id": "man-of-lawlessness",
+    "term": "Man of lawlessness",
+    "aliases": [
+      "man of sin",
+      "son of perdition",
+      "son of destruction",
+      "lawless one"
+    ],
+    "definition": "The figure of 2 Thessalonians 2:3-10 who will exalt himself in God's temple before the Day of the Lord and be destroyed at Christ's coming. Identified variously as a future personal Antichrist, the papacy (historicism), or a first-century figure such as a Jewish Zealot leader or Roman emperor (preterism).",
+    "origin": "Greek ho anthrōpos tēs anomias.",
+    "related": [
+      "antichrist",
+      "restrainer",
+      "apostasia",
+      "beast"
+    ]
+  },
+  {
+    "id": "restrainer",
+    "term": "Restrainer (katechōn)",
+    "aliases": [
+      "katechon",
+      "katechōn",
+      "the restrainer",
+      "what restrains",
+      "he who restrains"
+    ],
+    "definition": "The force (neuter) and person (masculine) of 2 Thessalonians 2:6-7 that holds back the man of lawlessness until it is removed. Suggestions include the Roman state or emperor (the dominant patristic view), the Holy Spirit (or the Spirit in the church, common in pretribulationism), the preaching of the gospel, or an angel such as Michael.",
+    "origin": "Greek katechō, 'to hold back, restrain'.",
+    "related": [
+      "man-of-lawlessness",
+      "antichrist"
+    ]
+  },
+  {
+    "id": "apostasia",
+    "term": "Apostasia ('the rebellion')",
+    "aliases": [
+      "apostasy",
+      "the falling away",
+      "the rebellion",
+      "great apostasy"
+    ],
+    "definition": "The 'rebellion' or 'falling away' that Paul says must come before the Day of the Lord (2 Thessalonians 2:3). Usually understood as religious apostasy or political revolt; a minority of pretribulationists have argued it means 'departure' (the rapture).",
+    "origin": "Greek apostasia, 'defection, revolt'.",
+    "related": [
+      "man-of-lawlessness",
+      "restrainer"
+    ]
+  },
+  {
+    "id": "antichrist",
+    "term": "Antichrist",
+    "aliases": [
+      "the Antichrist",
+      "antichrists",
+      "antichristos"
+    ],
+    "definition": "A term used only in John's letters (1 John 2:18, 22; 4:3; 2 John 7) for those who deny Christ, with an expected 'antichrist' to come. Christian tradition has linked it with the man of lawlessness and the Beast, identifying it as a future world ruler (futurism), the papacy (historicism), Nero or a first-century figure (preterism), or a recurring principle (idealism).",
+    "origin": "Greek anti ('against, in place of') + Christos.",
+    "related": [
+      "man-of-lawlessness",
+      "beast",
+      "666",
+      "nero-redivivus"
+    ]
+  },
+  {
+    "id": "beast",
+    "term": "The Beast",
+    "aliases": [
+      "beast from the sea",
+      "beast from the earth",
+      "the beast",
+      "false prophet",
+      "therion"
+    ],
+    "definition": "The monstrous figures of Revelation 13 (the beast from the sea and the beast from the earth, the latter later called the false prophet), drawing on the beasts of Daniel 7. Read as Rome and Nero with the imperial cult (preterism), the papacy (historicism), a future world ruler (futurism), or persecuting state power in every age (idealism).",
+    "origin": "Greek thērion, 'wild animal'.",
+    "related": [
+      "antichrist",
+      "666",
+      "nero-redivivus",
+      "domitian"
+    ]
+  },
+  {
+    "id": "666",
+    "term": "666 (number of the beast)",
+    "aliases": [
+      "six hundred sixty-six",
+      "616",
+      "mark of the beast",
+      "number of the beast"
+    ],
+    "definition": "The 'number of a man' of Revelation 13:18. A common scholarly proposal is the Hebrew-letter value of 'Neron Kaisar' (Nero Caesar), supported by the variant reading 616 matching the Latin spelling; others read it symbolically as falling short of seven (perfection) or apply it to a future figure.",
+    "origin": "Greek chi-xi-stigma (χξϛ); see gematria.",
+    "related": [
+      "gematria",
+      "beast",
+      "nero"
+    ]
+  },
+  {
+    "id": "gematria",
+    "term": "Gematria",
+    "aliases": [
+      "isopsephy"
+    ],
+    "definition": "The ancient practice of assigning numerical values to letters (as in Hebrew and Greek, which used letters as numerals) and computing the value of names. It underlies most attempts to decode 666 in Revelation 13:18.",
+    "origin": "Hebrew gematria, probably from Greek geometria.",
+    "related": [
+      "666",
+      "nero"
+    ]
+  },
+  {
+    "id": "nero-redivivus",
+    "term": "Nero redivivus",
+    "aliases": [
+      "Nero revived",
+      "Nero redux",
+      "Nero legend"
+    ],
+    "definition": "A first-century legend that Nero, who died in AD 68, had not really died or would return from the East to reclaim power. Many scholars see an allusion in the beast's 'mortal wound that was healed' (Revelation 13:3; 17:8-11); preterists alternatively relate the healed wound to the Roman empire's recovery after the civil wars of AD 68-69.",
+    "origin": "Latin redivivus, 'come back to life'.",
+    "related": [
+      "nero",
+      "beast",
+      "666"
+    ]
+  },
+  {
+    "id": "nero",
+    "term": "Nero",
+    "aliases": [
+      "Nero Caesar",
+      "Emperor Nero"
+    ],
+    "definition": "Roman emperor (AD 54–68) who persecuted Christians in Rome after the fire of 64, traditionally including the martyrdoms of Peter and Paul. Preterists identify him as the Beast of Revelation 13 and the sixth king of Revelation 17:10, which supports a pre-70 date for the book.",
+    "origin": "Nero Claudius Caesar Augustus Germanicus.",
+    "related": [
+      "666",
+      "nero-redivivus",
+      "domitian",
+      "revelation-dating"
+    ]
+  },
+  {
+    "id": "domitian",
+    "term": "Domitian",
+    "aliases": [
+      "Emperor Domitian"
+    ],
+    "definition": "Roman emperor (AD 81–96). Irenaeus says John's vision was seen near the end of his reign, the main external evidence for the late date (c. AD 95) of Revelation. Historians debate how widespread his persecution of Christians was.",
+    "origin": "Titus Flavius Domitianus.",
+    "related": [
+      "revelation-dating",
+      "nero",
+      "beast"
+    ]
+  },
+  {
+    "id": "revelation-dating",
+    "term": "Date of Revelation",
+    "aliases": [
+      "early date",
+      "late date",
+      "Neronic date",
+      "Domitianic date"
+    ],
+    "definition": "The disputed question of when Revelation was written: an early date (c. AD 65–69, under Nero or soon after) or a late date (c. AD 95, under Domitian). The majority of modern scholars favour the late date on external evidence; preterists argue for the early date from internal evidence such as the temple in Revelation 11.",
+    "origin": "English.",
+    "related": [
+      "domitian",
+      "nero",
+      "preterism"
+    ]
+  },
+  {
+    "id": "binding-of-satan",
+    "term": "Binding of Satan",
+    "aliases": [
+      "Satan bound",
+      "binding of the strong man",
+      "Satan's binding"
+    ],
+    "definition": "The binding of Satan for a thousand years 'so that he might not deceive the nations' (Revelation 20:2-3). Amillennialists and postmillennialists relate it to Christ's binding of the strong man (Matthew 12:29) and the gospel's spread to the nations; premillennialists argue it describes a total removal of Satan's activity that awaits Christ's return.",
+    "origin": "Greek deō, 'to bind'.",
+    "related": [
+      "millennium",
+      "amillennialism",
+      "gog-and-magog"
+    ]
+  },
+  {
+    "id": "first-resurrection",
+    "term": "First resurrection",
+    "aliases": [
+      "the first resurrection",
+      "second death"
+    ],
+    "definition": "The resurrection of those who 'came to life and reigned with Christ a thousand years' (Revelation 20:4-6). Premillennialists read it as a bodily resurrection before the millennium; amillennialists and many postmillennialists read it as the soul's entrance into heavenly life at death or as regeneration.",
+    "origin": "Greek hē anastasis hē prōtē.",
+    "related": [
+      "ezesan",
+      "millennium",
+      "general-resurrection"
+    ]
+  },
+  {
+    "id": "ezesan",
+    "term": "Ezēsan ('they came to life')",
+    "aliases": [
+      "ezesan",
+      "they came to life",
+      "they lived"
+    ],
+    "definition": "The verb in Revelation 20:4-5 used of both the martyrs who reign and 'the rest of the dead'. Premillennialists argue the same word must mean bodily resurrection in both places; amillennialists reply that the context distinguishes a spiritual life from the bodily resurrection.",
+    "origin": "Greek aorist of zaō, 'to live'.",
+    "related": [
+      "first-resurrection",
+      "millennium"
+    ]
+  },
+  {
+    "id": "gog-and-magog",
+    "term": "Gog and Magog",
+    "aliases": [
+      "Gog",
+      "Magog",
+      "battle of Gog and Magog"
+    ],
+    "definition": "Names from Ezekiel 38–39 (Gog, of the land of Magog) reused in Revelation 20:8 for the nations Satan gathers after his release. Readings range from a literal future invasion of Israel (often distinguished from Revelation 20) to a symbolic picture of the final assault on the church.",
+    "origin": "Hebrew Gog, Magog.",
+    "related": [
+      "binding-of-satan",
+      "millennium"
+    ]
+  },
+  {
+    "id": "recapitulation",
+    "term": "Recapitulation",
+    "aliases": [
+      "recapitulationist"
+    ],
+    "definition": "The interpretive view that sections of Revelation (and especially chapter 20) do not follow chronologically from what precedes but go back over the same period from another angle. It is key to the amillennial and many postmillennial readings of Revelation 19–20.",
+    "origin": "Latin recapitulatio, 'summing up again'.",
+    "related": [
+      "progressive-parallelism",
+      "amillennialism",
+      "idealism"
+    ]
+  },
+  {
+    "id": "progressive-parallelism",
+    "term": "Progressive parallelism",
+    "aliases": [
+      "parallelism"
+    ],
+    "definition": "William Hendriksen's form of recapitulation, which divides Revelation into seven parallel sections, each spanning the age from Christ's first coming to his second, with increasing focus on the end. Revelation 20 is the seventh section.",
+    "origin": "English.",
+    "related": [
+      "recapitulation",
+      "amillennialism",
+      "idealism"
+    ]
+  },
+  {
+    "id": "already-not-yet",
+    "term": "Already/not yet",
+    "aliases": [
+      "already and not yet",
+      "already-not yet"
+    ],
+    "definition": "The tension in New Testament eschatology between what God has already accomplished in Christ (the kingdom inaugurated, the Spirit given) and what awaits consummation at his return (resurrection, new creation). The framework is widely shared across millennial views.",
+    "origin": "Associated with Oscar Cullmann, Geerhardus Vos and George Ladd.",
+    "related": [
+      "inaugurated-eschatology",
+      "kingdom-of-god",
+      "realized-eschatology"
+    ]
+  },
+  {
+    "id": "inaugurated-eschatology",
+    "term": "Inaugurated eschatology",
+    "aliases": [
+      "inaugurated",
+      "two-age"
+    ],
+    "definition": "The view that the end-time age to come has already begun with Christ's resurrection and the outpouring of the Spirit, though it is not yet consummated. It is distinguished from both fully future ('consistent') and fully present ('realized') eschatology.",
+    "origin": "English; popularized by Vos, Ladd and Hoekema.",
+    "related": [
+      "already-not-yet",
+      "realized-eschatology",
+      "kingdom-of-god"
+    ]
+  },
+  {
+    "id": "realized-eschatology",
+    "term": "Realized eschatology",
+    "aliases": [
+      "realised eschatology"
+    ],
+    "definition": "C. H. Dodd's view that Jesus taught the kingdom as fully present in his own ministry, so that end-time hopes were essentially fulfilled in his coming. It is distinct from preterism (which is about AD 70) and from inaugurated eschatology (which keeps a future consummation).",
+    "origin": "English; coined by C. H. Dodd (1935).",
+    "related": [
+      "inaugurated-eschatology",
+      "already-not-yet"
+    ]
+  },
+  {
+    "id": "kingdom-of-god",
+    "term": "Kingdom of God",
+    "aliases": [
+      "kingdom of heaven",
+      "basileia",
+      "kingdom"
+    ],
+    "definition": "God's royal reign, the central theme of Jesus' preaching (Mark 1:15). Views differ on whether it is primarily present and spiritual, future and earthly, or inaugurated now and consummated later, and on its relation to the millennium and to Israel.",
+    "origin": "Greek basileia tou theou, 'reign/kingdom of God'.",
+    "related": [
+      "already-not-yet",
+      "davidic-covenant",
+      "millennium"
+    ]
+  },
+  {
+    "id": "covenant-theology",
+    "term": "Covenant theology",
+    "aliases": [
+      "covenantal",
+      "federal theology",
+      "covenant of grace",
+      "covenant of works"
+    ],
+    "definition": "The Reformed framework that organizes Scripture around the covenants of redemption, works and grace, seeing one people of God across both testaments and the church as the fulfilment of Israel. It is compatible with amillennialism, postmillennialism and historic premillennialism.",
+    "origin": "Latin foedus ('covenant'), hence 'federal theology'.",
+    "related": [
+      "dispensationalism",
+      "progressive-covenantalism",
+      "westminster-confession",
+      "supersessionism"
+    ]
+  },
+  {
+    "id": "dispensation",
+    "term": "Dispensation",
+    "aliases": [
+      "dispensations",
+      "oikonomia"
+    ],
+    "definition": "A distinguishable administration or stewardship in the outworking of God's purpose (Ephesians 1:10; 3:2). Dispensationalists typically identify seven, such as innocence, conscience, human government, promise, law, grace (the church age) and the kingdom.",
+    "origin": "Greek oikonomia, 'household management'; Latin dispensatio.",
+    "related": [
+      "dispensationalism",
+      "scofield-reference-bible"
+    ]
+  },
+  {
+    "id": "dispensationalism",
+    "term": "Dispensationalism",
+    "aliases": [
+      "dispensational",
+      "dispensationalist",
+      "classical dispensationalism",
+      "revised dispensationalism"
+    ],
+    "definition": "A theological system originating with J. N. Darby that consistently distinguishes God's programmes for Israel and the church, interprets prophecy literally, and expects a pretribulational rapture, a future seven-year tribulation and an earthly millennium centred on national Israel. Ryrie's 'sine qua non' summarizes it.",
+    "origin": "From 'dispensation'.",
+    "related": [
+      "dispensation",
+      "darby",
+      "scofield-reference-bible",
+      "progressive-dispensationalism",
+      "pretribulationism",
+      "covenant-theology"
+    ]
+  },
+  {
+    "id": "progressive-dispensationalism",
+    "term": "Progressive dispensationalism",
+    "aliases": [
+      "progressive dispensational",
+      "PD"
+    ],
+    "definition": "A revision of dispensationalism (Blaising, Bock, Saucy) holding that the dispensations progress toward one holistic redemption, that Christ's Davidic reign has already been inaugurated, and that the church is not a parenthesis, while retaining a future for national Israel in the millennium.",
+    "origin": "Term adopted c. 1991.",
+    "related": [
+      "dispensationalism",
+      "davidic-covenant",
+      "progressive-covenantalism"
+    ]
+  },
+  {
+    "id": "progressive-covenantalism",
+    "term": "Progressive covenantalism",
+    "aliases": [
+      "kingdom through covenant",
+      "new covenant theology"
+    ],
+    "definition": "A framework (Gentry and Wellum) that traces the biblical covenants as progressively revealing God's one plan, fulfilled typologically in Christ and the new covenant. It sits between covenant theology and dispensationalism; it is related to but distinct from 'New Covenant Theology'.",
+    "origin": "Term popularized by Kingdom through Covenant (2012).",
+    "related": [
+      "covenant-theology",
+      "dispensationalism",
+      "new-covenant",
+      "progressive-dispensationalism"
+    ]
+  },
+  {
+    "id": "supersessionism",
+    "term": "Supersessionism",
+    "aliases": [
+      "replacement theology",
+      "fulfillment theology",
+      "fulfilment theology",
+      "supersessionist"
+    ],
+    "definition": "Broadly, the view that the church fulfils or replaces Israel as the people of God. Critics use 'replacement theology'; most covenant theologians prefer 'fulfilment' or 'expansion', stressing that Israel's promises are fulfilled in Christ, the true Israel, and that many still expect a future mass conversion of Jews (Romans 11).",
+    "origin": "Latin supersedere, 'to sit above, displace'.",
+    "related": [
+      "covenant-theology",
+      "dispensationalism",
+      "abrahamic-covenant"
+    ]
+  },
+  {
+    "id": "theonomy",
+    "term": "Theonomy",
+    "aliases": [
+      "theonomist",
+      "theonomic"
+    ],
+    "definition": "The view, associated with Rushdoony and Bahnsen, that the moral and civil laws of the Old Testament remain binding, including for civil government, unless the New Testament modifies them. It is often paired with postmillennialism but many postmillennialists reject it.",
+    "origin": "Greek theos ('God') + nomos ('law').",
+    "related": [
+      "christian-reconstruction",
+      "postmillennialism"
+    ]
+  },
+  {
+    "id": "christian-reconstruction",
+    "term": "Christian Reconstruction",
+    "aliases": [
+      "Reconstructionism",
+      "Reconstructionist",
+      "dominion theology"
+    ],
+    "definition": "A movement founded by R. J. Rushdoony, combining presuppositional apologetics, theonomy and postmillennialism, that seeks to reconstruct every sphere of society according to biblical law through the gospel. Critics have labelled it 'dominion theology'; proponents stress regeneration rather than coercion.",
+    "origin": "English.",
+    "related": [
+      "theonomy",
+      "postmillennialism",
+      "great-commission"
+    ]
+  },
+  {
+    "id": "great-commission",
+    "term": "Great Commission",
+    "aliases": [
+      "the Great Commission"
+    ],
+    "definition": "Christ's command to disciple all nations (Matthew 28:18-20). Postmillennialists read it as a promise of success grounded in his universal authority; other views see it as a mandate to witness whose global results are more limited before the end.",
+    "origin": "English.",
+    "related": [
+      "postmillennialism",
+      "golden-age"
+    ]
+  },
+  {
+    "id": "golden-age",
+    "term": "Golden age (postmillennial)",
+    "aliases": [
+      "latter-day glory",
+      "millennial glory",
+      "golden age"
+    ],
+    "definition": "The expected future era, in many postmillennial writers, when the gospel will have spread through the world, most people will be converted, and righteousness and peace will prevail for a long period before Christ returns. Postmillennialists differ on whether it arrives gradually or through dramatic revival.",
+    "origin": "Classical image adopted in Puritan and later writing.",
+    "related": [
+      "postmillennialism",
+      "great-commission",
+      "millennium"
+    ]
+  },
+  {
+    "id": "new-heavens-new-earth",
+    "term": "New heavens and new earth",
+    "aliases": [
+      "new creation",
+      "new heaven and new earth",
+      "new earth"
+    ],
+    "definition": "The renewed creation promised in Isaiah 65:17; 66:22; 2 Peter 3:13 and Revelation 21:1, where God dwells with his people. Most views see it as the final state after the last judgment; full preterists and some partial preterists also apply the language in part to the new covenant order.",
+    "origin": "Greek kainos ouranos kai gē kainē.",
+    "related": [
+      "consummation",
+      "last-judgment"
+    ]
+  },
+  {
+    "id": "intermediate-state",
+    "term": "Intermediate state",
+    "aliases": [
+      "intermediate state of the soul"
+    ],
+    "definition": "The condition of persons between death and the bodily resurrection. Most Christian traditions teach that believers are consciously with Christ (Philippians 1:23; 2 Corinthians 5:8) awaiting resurrection. Amillennialists often see Revelation 20:4 as describing the intermediate reign of the saints.",
+    "origin": "English.",
+    "related": [
+      "general-resurrection",
+      "first-resurrection"
+    ]
+  },
+  {
+    "id": "general-resurrection",
+    "term": "General resurrection",
+    "aliases": [
+      "resurrection of the dead",
+      "bodily resurrection",
+      "resurrection of the body"
+    ],
+    "definition": "The raising of all the dead, righteous and wicked, at the end (John 5:28-29; Acts 24:15). Amillennialists and postmillennialists see it as one event; premillennialists distinguish a resurrection of the righteous before the millennium and of the rest after it. Full preterists understand it as fulfilled in AD 70, which critics say denies the creedal bodily resurrection.",
+    "origin": "English; Greek anastasis nekrōn.",
+    "related": [
+      "first-resurrection",
+      "last-judgment",
+      "full-preterism",
+      "apostles-creed"
+    ]
+  },
+  {
+    "id": "last-judgment",
+    "term": "Last judgment",
+    "aliases": [
+      "final judgment",
+      "great white throne",
+      "judgment day"
+    ],
+    "definition": "God's final judgment of all humanity through Christ (Matthew 25:31-46; Revelation 20:11-15). Views differ on whether there is one general judgment or several distinct judgments (as in classical dispensationalism).",
+    "origin": "English.",
+    "related": [
+      "general-resurrection",
+      "day-of-the-lord",
+      "consummation"
+    ]
+  },
+  {
+    "id": "consummation",
+    "term": "Consummation",
+    "aliases": [
+      "the consummation",
+      "the end"
+    ],
+    "definition": "The final completion of God's purposes at the end of history: Christ's return, the resurrection, judgment and the new creation, when God will be 'all in all' (1 Corinthians 15:28).",
+    "origin": "Latin consummare, 'to bring to completion'.",
+    "related": [
+      "eschaton",
+      "telos",
+      "new-heavens-new-earth"
+    ]
+  },
+  {
+    "id": "telos",
+    "term": "Telos",
+    "aliases": [
+      "the end (telos)"
+    ],
+    "definition": "Greek for 'end, goal, completion'. In eschatology it denotes the goal toward which history moves (e.g. 'then comes the end', 1 Corinthians 15:24; Matthew 24:14).",
+    "origin": "Greek telos.",
+    "related": [
+      "consummation",
+      "eschaton"
+    ]
+  },
+  {
+    "id": "abrahamic-covenant",
+    "term": "Abrahamic covenant",
+    "aliases": [
+      "covenant with Abraham"
+    ],
+    "definition": "God's covenant with Abraham promising offspring, land, and blessing to all nations (Genesis 12; 15; 17). Dispensationalists stress its unconditional land promises to national Israel; covenant theologians and progressive covenantalists stress its fulfilment in Christ, the seed (Galatians 3:16), and the worldwide inheritance (Romans 4:13).",
+    "origin": "English.",
+    "related": [
+      "davidic-covenant",
+      "new-covenant",
+      "supersessionism"
+    ]
+  },
+  {
+    "id": "davidic-covenant",
+    "term": "Davidic covenant",
+    "aliases": [
+      "covenant with David"
+    ],
+    "definition": "God's promise of an everlasting throne and kingdom to David's line (2 Samuel 7; Psalm 89). Debate centres on whether Christ now reigns on David's throne from heaven (Acts 2:30-36) or will do so on earth in the millennium, or both.",
+    "origin": "English.",
+    "related": [
+      "abrahamic-covenant",
+      "kingdom-of-god",
+      "progressive-dispensationalism"
+    ]
+  },
+  {
+    "id": "new-covenant",
+    "term": "New Covenant",
+    "aliases": [
+      "new covenant"
+    ],
+    "definition": "The covenant promised in Jeremiah 31:31-34 and inaugurated by Christ's blood (Luke 22:20; Hebrews 8). Views differ on whether it is fulfilled in the church, will also be fulfilled in national Israel, or both.",
+    "origin": "Greek kainē diathēkē.",
+    "related": [
+      "abrahamic-covenant",
+      "davidic-covenant",
+      "progressive-covenantalism"
+    ]
+  },
+  {
+    "id": "second-temple",
+    "term": "Second Temple",
+    "aliases": [
+      "Second Temple period",
+      "Herod's temple",
+      "temple"
+    ],
+    "definition": "The Jerusalem temple rebuilt after the exile (completed c. 516 BC) and greatly expanded by Herod, destroyed by Rome in AD 70. 'Second Temple Judaism' also names the Jewish world of c. 516 BC–AD 70 that forms the background of the New Testament.",
+    "origin": "English.",
+    "related": [
+      "ad-70",
+      "olivet-discourse"
+    ]
+  },
+  {
+    "id": "ad-70",
+    "term": "AD 70",
+    "aliases": [
+      "fall of Jerusalem",
+      "destruction of Jerusalem",
+      "destruction of the temple",
+      "Jewish War",
+      "70 AD"
+    ],
+    "definition": "The year Roman forces under Titus destroyed Jerusalem and the temple, ending the Jewish War (AD 66–70/73). Preterists see it as the fulfilment of many prophecies (the 'coming' in judgment, the great tribulation); all views agree Jesus predicted the temple's fall.",
+    "origin": "Anno Domini 70.",
+    "related": [
+      "second-temple",
+      "preterism",
+      "great-tribulation",
+      "olivet-discourse"
+    ]
+  },
+  {
+    "id": "papias",
+    "term": "Papias",
+    "aliases": [
+      "Papias of Hierapolis"
+    ],
+    "definition": "Early second-century bishop of Hierapolis whose fragments, preserved by Irenaeus and Eusebius, contain the earliest attested Christian chiliasm (a fruitful earthly kingdom after the resurrection).",
+    "origin": "Greek personal name.",
+    "related": [
+      "chiliasm",
+      "premillennialism"
+    ]
+  },
+  {
+    "id": "montanism",
+    "term": "Montanism",
+    "aliases": [
+      "Montanist",
+      "New Prophecy"
+    ],
+    "definition": "A second-century prophetic movement in Phrygia that claimed new revelations and expected the New Jerusalem to descend nearby. Its intense apocalypticism contributed to suspicion of chiliasm in later centuries.",
+    "origin": "Named after its founder Montanus.",
+    "related": [
+      "chiliasm"
+    ]
+  },
+  {
+    "id": "joachim-of-fiore",
+    "term": "Joachim of Fiore",
+    "aliases": [
+      "Joachimism",
+      "Joachimite"
+    ],
+    "definition": "Twelfth-century Calabrian abbot (c. 1135–1202) who divided history into ages of the Father, Son and Spirit and expected a coming 'age of the Spirit' within history. His ideas influenced later historicist and optimistic readings of prophecy.",
+    "origin": "Italian Gioacchino da Fiore.",
+    "related": [
+      "historicism",
+      "golden-age"
+    ]
+  },
+  {
+    "id": "darby",
+    "term": "John Nelson Darby",
+    "aliases": [
+      "Darby",
+      "Darbyism"
+    ],
+    "definition": "Plymouth Brethren leader (1800–1882) regarded as the founder of dispensationalism and of the systematized pretribulational rapture.",
+    "origin": "Personal name.",
+    "related": [
+      "dispensationalism",
+      "pretribulationism",
+      "scofield-reference-bible"
+    ]
+  },
+  {
+    "id": "scofield-reference-bible",
+    "term": "Scofield Reference Bible",
+    "aliases": [
+      "Scofield Bible",
+      "Scofield"
+    ],
+    "definition": "A study Bible edited by C. I. Scofield (1909; revised 1917) whose notes popularized dispensationalism, the seven dispensations and the pretribulational rapture throughout English-speaking evangelicalism.",
+    "origin": "Named after its editor, C. I. Scofield.",
+    "related": [
+      "dispensationalism",
+      "darby",
+      "dispensation"
+    ]
+  },
+  {
+    "id": "westminster-confession",
+    "term": "Westminster Confession of Faith",
+    "aliases": [
+      "Westminster Confession",
+      "WCF"
+    ],
+    "definition": "The Reformed confession of 1646 whose final chapters (32–33) teach the intermediate state, one general resurrection and one last judgment. It does not define a millennial position; its Larger Catechism (Q. 191) prays for the spread of the gospel and the conversion of the Jews, a text postmillennialists cite.",
+    "origin": "Composed by the Westminster Assembly, London.",
+    "related": [
+      "covenant-theology",
+      "general-resurrection",
+      "last-judgment"
+    ]
+  },
+  {
+    "id": "apostles-creed",
+    "term": "Apostles' Creed",
+    "aliases": [
+      "Apostles Creed"
+    ],
+    "definition": "An early Western baptismal creed affirming that Christ 'will come to judge the living and the dead' and belief in 'the resurrection of the body'. It is a common measure of eschatological orthodoxy, cited against full preterism.",
+    "origin": "Developed from the Old Roman Creed (2nd–4th centuries).",
+    "related": [
+      "nicene-creed",
+      "general-resurrection",
+      "full-preterism"
+    ]
+  },
+  {
+    "id": "nicene-creed",
+    "term": "Nicene Creed",
+    "aliases": [
+      "Nicene-Constantinopolitan Creed",
+      "Niceno-Constantinopolitan Creed"
+    ],
+    "definition": "The creed of Nicaea (325) as expanded at Constantinople (381), confessing that Christ 'will come again in glory to judge the living and the dead; his kingdom will have no end', and looking for 'the resurrection of the dead and the life of the world to come'. The phrase about the endless kingdom was added partly against views that limited Christ's reign.",
+    "origin": "Councils of Nicaea (325) and Constantinople (381).",
+    "related": [
+      "apostles-creed",
+      "general-resurrection",
+      "full-preterism"
+    ]
+  },
+  {
+    "id": "imminence",
+    "term": "Imminence",
+    "aliases": [
+      "imminent",
+      "any-moment return"
+    ],
+    "definition": "The belief that Christ's return could occur at any moment. Pretribulationists hold that no prophesied events must precede the rapture; other views affirm readiness and nearness while holding that certain events (such as the man of lawlessness or the gospel's spread) come first.",
+    "origin": "Latin imminere, 'to overhang, be near'.",
+    "related": [
+      "pretribulationism",
+      "rapture"
+    ]
+  },
+  {
+    "id": "day-year-principle",
+    "term": "Day-year principle",
+    "aliases": [
+      "year-day principle",
+      "day for a year"
+    ],
+    "definition": "The historicist rule that a prophetic 'day' symbolizes a year (appealing to Numbers 14:34; Ezekiel 4:6), so that the 1,260 days of Revelation 11–12 signify 1,260 years. Most non-historicists reject it outside Daniel 9.",
+    "origin": "English.",
+    "related": [
+      "historicism",
+      "seventy-weeks"
+    ]
+  },
+  {
+    "id": "olivet-coming",
+    "term": "Coming on the clouds",
+    "aliases": [
+      "Son of Man coming on the clouds",
+      "coming in the clouds",
+      "cloud-coming"
+    ],
+    "definition": "The imagery of Daniel 7:13 used by Jesus (Matthew 24:30; 26:64). Futurists see a visible future return; preterists and N. T. Wright read it, in Daniel's sense, as the Son of Man's vindication and enthronement, manifested in the judgment of AD 70.",
+    "origin": "Greek erchomenon epi tōn nephelōn.",
+    "related": [
+      "parousia",
+      "olivet-discourse",
+      "ad-70"
+    ]
+  },
+  {
+    "id": "israel-future-conversion",
+    "term": "Future conversion of Israel",
+    "aliases": [
+      "all Israel will be saved",
+      "conversion of the Jews",
+      "national conversion"
+    ],
+    "definition": "The expectation, based on Romans 11:25-27, of a future large-scale turning of ethnic Jews to Christ. It is held by dispensationalists, historic premillennialists, many postmillennialists (the Puritan Hope) and some amillennialists; others read 'all Israel' as the full elect remnant through history or the whole church.",
+    "origin": "English.",
+    "related": [
+      "supersessionism",
+      "abrahamic-covenant",
+      "golden-age"
+    ]
+  },
+  {
+    "id": "babylon-the-great",
+    "term": "Babylon the Great",
+    "aliases": [
+      "Babylon",
+      "great harlot",
+      "the harlot",
+      "whore of Babylon"
+    ],
+    "definition": "The harlot city of Revelation 17–18. Identified as Rome (the dominant scholarly view), apostate Jerusalem (many preterists), the papacy (historicists), a future world system or rebuilt city (futurists), or the world's seductive system in every age (idealists).",
+    "origin": "From the ancient city of Babylon, the archetypal oppressor of God's people.",
+    "related": [
+      "beast",
+      "preterism",
+      "historicism"
+    ]
+  },
+  {
+    "id": "one-hundred-forty-four-thousand",
+    "term": "144,000",
+    "aliases": [
+      "144000",
+      "the sealed",
+      "twelve tribes sealed"
+    ],
+    "definition": "The sealed servants 'from every tribe of the sons of Israel' (Revelation 7:4-8; 14:1-5). Read as Jewish believers in the future tribulation (futurism), first-century Jewish Christians who escaped Jerusalem (preterism), or the whole people of God symbolically numbered (idealism and many amillennialists).",
+    "origin": "12 x 12 x 1,000.",
+    "related": [
+      "futurism",
+      "preterism",
+      "idealism"
+    ]
+  },
+  {
+    "id": "two-witnesses",
+    "term": "Two witnesses",
+    "aliases": [
+      "the two witnesses"
+    ],
+    "definition": "The prophetic figures of Revelation 11:3-13 who testify for 1,260 days, are killed and raised. Identified as future individuals (often Moses and Elijah figures), first-century witnesses in Jerusalem, or the witnessing church in every age.",
+    "origin": "English.",
+    "related": [
+      "futurism",
+      "idealism"
+    ]
+  },
+  {
+    "id": "new-jerusalem",
+    "term": "New Jerusalem",
+    "aliases": [
+      "holy city",
+      "heavenly Jerusalem"
+    ],
+    "definition": "The holy city descending from heaven as the bride of the Lamb (Revelation 21–22; compare Galatians 4:26; Hebrews 12:22). Seen as the final eternal state, the glorified church, or both, already present in principle and fully revealed at the end.",
+    "origin": "Greek Ierousalēm kainē.",
+    "related": [
+      "new-heavens-new-earth",
+      "consummation"
+    ]
+  },
+  {
+    "id": "shekinah",
+    "term": "Shekinah",
+    "aliases": [
+      "Shekinah glory",
+      "shekhinah"
+    ],
+    "definition": "A post-biblical rabbinic term for God's dwelling or manifest presence, especially the glory-cloud in the tabernacle and temple. Eschatologically it connects with the promise that God will dwell with his people in the new creation (Revelation 21:3), and with debates over whether a rebuilt temple has a future role.",
+    "origin": "Hebrew shakan, 'to dwell'; compare Greek skēnoō (John 1:14; Revelation 21:3).",
+    "related": [
+      "new-jerusalem",
+      "second-temple"
+    ]
+  }
+]

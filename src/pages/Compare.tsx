@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { PageHeader } from '../components/PageHeader'
+import { Mark } from '../components/Mark'
 import { Gloss } from '../components/Gloss'
 import { Refs } from '../components/Refs'
 import { Sources } from '../components/Sources'
@@ -8,12 +9,6 @@ import { agreement, cell, content, positionsById, stanceLabel, views, type Agree
 import { useApp } from '../lib/store'
 import { usePositionColors } from '../lib/theme'
 
-const STYLE: Record<Agreement, { mark: string; label: string; cls: string }> = {
-  agree: { mark: '●', label: 'Agrees with the reference view', cls: 'text-[color:var(--agree)]' },
-  partial: { mark: '◐', label: 'Partly agrees with the reference view', cls: 'text-gold' },
-  disagree: { mark: '○', label: 'Differs from the reference view', cls: 'text-rubric' },
-  unknown: { mark: '·', label: 'No data', cls: 'text-ink-soft' },
-}
 
 export default function Compare() {
   const [params, setParams] = useSearchParams()
@@ -102,8 +97,8 @@ export default function Compare() {
           </label>
           <span className="flex gap-3 text-ink-soft" aria-hidden>
             {(['agree', 'partial', 'disagree'] as const).map((a) => (
-              <span key={a}>
-                <span className={STYLE[a].cls}>{STYLE[a].mark}</span> {a === 'agree' ? 'agrees' : a === 'partial' ? 'partly' : 'differs'}
+              <span key={a} className="flex items-center gap-1">
+                <Mark kind={a} label={false} /> {a === 'agree' ? 'agrees' : a === 'partial' ? 'partly agrees' : 'differs'}
               </span>
             ))}
           </span>
@@ -164,12 +159,11 @@ export default function Compare() {
 
 function CellView({ topic, c, mark }: { topic: string; c: NonNullable<ReturnType<typeof cell>>; mark: Agreement }) {
   const [open, setOpen] = useState(false)
-  const s = STYLE[mark]
   return (
     <div className="min-w-[13rem] max-w-[24rem]">
       <p className="ui flex items-start gap-1.5 text-[0.95rem] font-medium">
-        <span className={s.cls} role="img" aria-label={s.label}>
-          {s.mark}
+        <span className="mt-1">
+          <Mark kind={mark} />
         </span>
         {stanceLabel(topic, c.stance)}
       </p>

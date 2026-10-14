@@ -1,0 +1,1004 @@
+[
+  {
+    "id": "wheat-tares-postmil-progress",
+    "title": "Matthew 13: kingdom growth or wheat and tares until the end?",
+    "question": "Do the kingdom parables of Matthew 13 forecast the gospel's progressive worldwide dominance, or a mixed growth of good and evil until the harvest?",
+    "topic": "optimism",
+    "summary": "Postmillennialists read the mustard seed and leaven as pictures of the kingdom's eventual pervasive triumph in history. Amillennialists stress the wheat and tares growing together until the end of the age; some dispensationalists read the parables as describing a mixed or even corrupted professing church.",
+    "positions": [
+      "postmil",
+      "amil",
+      "disppremil"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "postmil",
+      "text": "Postmillennialists read the kingdom parables of Matthew 13 as forecasting the gospel's progressive, worldwide growth before Christ returns. The mustard seed grows from the smallest of seeds into a tree in which the birds nest (13:31-32), echoing Daniel 4 and Ezekiel 17's image of a great kingdom sheltering the nations, and the leaven works until 'all' the dough is leavened (13:33). Read with Daniel's stone that becomes a mountain filling the whole earth (Daniel 2:35, 44), Boettner, Mathison and Gentry see a pattern of gradual, pervasive kingdom triumph within history.",
+      "passages": [
+        "Matthew 13:31-33",
+        "Daniel 2:35",
+        "Daniel 2:44",
+        "Ezekiel 17:22-24"
+      ],
+      "sources": [
+        "boettner-millennium",
+        "mathison-postmillennialism",
+        "gentry-he-shall-have-dominion"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "amil",
+          "text": "Amillennialists point to the parable of the wheat and the tares in the same chapter: good and evil grow together 'until the harvest', which is 'the end of the age' (13:30, 13:39-40), and the dragnet likewise gathers good and bad until the end (13:47-50). Riddlebarger and Hoekema argue this describes parallel development of good and evil throughout the age, and that the mustard seed and leaven teach the kingdom's unexpected reach and hidden power rather than a Christianised world.",
+          "passages": [
+            "Matthew 13:24-30",
+            "Matthew 13:36-43",
+            "Matthew 13:47-50"
+          ],
+          "sources": [
+            "riddlebarger-case-amil",
+            "hoekema-bible-future"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "postmil",
+              "text": "Postmillennialists reply that the tares parable teaches coexistence, not proportion. The field is the world, and the point is that the servants must not uproot the tares by force but leave separation to the final judgment; nothing says the tares stay as numerous as the wheat. Boettner and Gentry argue that evil persisting until the end is fully compatible with the gospel becoming dominant, as weeds can remain in a field that yields an overwhelming wheat harvest.",
+              "passages": [
+                "Matthew 13:38-39"
+              ],
+              "sources": [
+                "boettner-millennium",
+                "gentry-he-shall-have-dominion"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "amil",
+                  "text": "Amillennialists respond that the parable's emphasis on both growing to the harvest, combined with warnings of increasing lawlessness and a final apostasy (Matthew 24:12, 2 Thessalonians 2:3), makes a closing golden age hard to see. Hoekema proposes a 'realistic optimism': Christ reigns and his kingdom grows now, but conflict and suffering continue until the consummation.",
+                  "passages": [
+                    "Matthew 24:12",
+                    "2 Thessalonians 2:3"
+                  ],
+                  "sources": [
+                    "hoekema-bible-future",
+                    "storms-kingdom-come"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "disppremil",
+          "text": "Many classic dispensationalists read Matthew 13 as the 'mysteries of the kingdom' in the interadvent age, which Pentecost characterised as a mixed sphere of Christian profession. Leaven is elsewhere almost always a symbol of corruption (Matthew 16:6, 1 Corinthians 5:6-8), so it may depict false teaching spreading in Christendom, and the birds lodging in the mustard tree may recall the birds that snatch the seed (13:4, 13:19). On this reading the parables forecast a corrupted professing church, not global conversion.",
+          "passages": [
+            "Matthew 13:4",
+            "Matthew 13:19",
+            "Matthew 16:6",
+            "1 Corinthians 5:6-8"
+          ],
+          "sources": [
+            "pentecost-things-to-come",
+            "walvoord-millennial-kingdom"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "postmil",
+              "text": "Postmillennialists, with most commentators, respond that the parable says 'the kingdom of heaven is like leaven', so the leaven is the kingdom itself and cannot here symbolise evil. Leavened loaves were offered to God at the feast of firstfruits (Leviticus 23:17), and a tree sheltering birds is a recognised image of a great kingdom over the nations (Daniel 4:12, Ezekiel 31:6).",
+              "passages": [
+                "Leviticus 23:17",
+                "Daniel 4:12",
+                "Ezekiel 31:6"
+              ],
+              "sources": [
+                "mathison-postmillennialism",
+                "gentry-he-shall-have-dominion"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "disppremil",
+                  "text": "Many dispensationalists, especially progressive ones, accept the positive reading of the leaven but argue the parables describe the extent of the kingdom's present form, not worldwide righteousness, and that the kingdom in its full Davidic sense awaits the King's return (Luke 19:11-15, Acts 1:6-7). The core disagreement is therefore about when the kingdom is consummated, not these images alone.",
+                  "passages": [
+                    "Luke 19:11-15",
+                    "Acts 1:6-7"
+                  ],
+                  "sources": [
+                    "pentecost-things-to-come",
+                    "blaising-bock-progressive"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "perilous-times-2-timothy-3",
+    "title": "'Perilous times' (2 Timothy 3) and postmillennial hope",
+    "question": "Does Paul's warning about 'difficult times in the last days' describe the whole church age, ruling out a future Christianised world?",
+    "topic": "optimism",
+    "summary": "Amillennialists and premillennialists often cite 2 Timothy 3 as a portrait of the entire last days. Postmillennialists, notably Gentry in reply to James White, read it as an occasional warning about specific false teachers whose progress Paul says will be checked; partial preterists add that the 'last days' are often the closing decades of the old covenant era.",
+    "positions": [
+      "amil",
+      "postmil",
+      "partial-preterism"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "amil",
+      "text": "Paul warns that 'in the last days difficult (chalepoi) times will come', listing people who are lovers of self, money and pleasure, holding a form of godliness while denying its power (2 Timothy 3:1-5). He adds that all who desire to live godly lives will be persecuted and that evil people and impostors 'will go on from bad to worse' (3:12-13). Since the last days span the whole age from Christ's first coming (Hebrews 1:2), amillennialists (and premillennialists) argue this characterises the entire church age, which sits uneasily with an expected Christianised world; James White has pressed this point in debate with postmillennialists.",
+      "passages": [
+        "2 Timothy 3:1-5",
+        "2 Timothy 3:12-13",
+        "Hebrews 1:2"
+      ],
+      "sources": [
+        "gentry-james-white-2tim3",
+        "riddlebarger-case-amil",
+        "hoekema-bible-future"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "postmil",
+          "text": "Gentry answers that 2 Timothy is an occasional letter addressing Timothy's own situation: Paul tells Timothy to 'avoid such people' (3:5), describes those who are already creeping into households (3:6) and compares them to Jannes and Jambres. Crucially, Paul says such men 'will not get very far, for their folly will be plain to all' (3:9). Iain Murray likewise read the passage as warning about the contagion of contemporary false teachers, not forecasting inevitable decline across the age.",
+          "passages": [
+            "2 Timothy 3:5-9"
+          ],
+          "sources": [
+            "gentry-james-white-2tim3",
+            "murray-puritan-hope"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "amil",
+              "text": "Amillennialists reply that a letter can be occasional and still describe recurring features of the last days; the present-tense commands show those days had begun, not that they would end. Paul's statement that 'all who desire to live a godly life will be persecuted' (3:12) reads as a principle for the whole age, consistent with Jesus' warnings (John 15:18-20) and Paul's own teaching that we enter the kingdom through many tribulations (Acts 14:22).",
+              "passages": [
+                "2 Timothy 3:12",
+                "John 15:18-20",
+                "Acts 14:22"
+              ],
+              "sources": [
+                "riddlebarger-case-amil",
+                "storms-kingdom-come"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "postmil",
+                  "text": "Postmillennialists agree persecution recurs but distinguish recurring periods of moral decline from a uniform downward trajectory. The 'bad to worse' of 3:13 describes the impostors' own spiral, which Paul has just said will be checked (3:9). Since the last days span the whole age, even amillennialists must allow that they include seasons of revival and reformation, which shows the text is not a forecast of the age's overall direction.",
+                  "passages": [
+                    "2 Timothy 3:13",
+                    "2 Timothy 3:9"
+                  ],
+                  "sources": [
+                    "gentry-james-white-2tim3",
+                    "gentry-he-shall-have-dominion"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "partial-preterism",
+          "text": "Partial preterists such as DeMar add that New Testament 'last days' language often refers to the final days of the old covenant order before AD 70 (compare 1 Corinthians 10:11, 1 Peter 4:7). The vices of 2 Timothy 3 and the apostasy described in Jude and 2 Peter fit the turbulent decades before Jerusalem's fall, so the passage describes a period already past rather than the church's permanent condition.",
+          "passages": [
+            "1 Corinthians 10:11",
+            "1 Peter 4:7",
+            "Jude 1:17-19"
+          ],
+          "sources": [
+            "demar-last-days-madness",
+            "gentry-he-shall-have-dominion"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "amil",
+              "text": "Amillennialists respond that the New Testament's last days are the age between the comings, not just the decades before AD 70; Acts 2:17 and Hebrews 9:26 present them as the eschatological era Christ inaugurated, which runs to his return. Confining 2 Timothy 3 to the pre-70 decades would also limit its function as instruction for later churches in a way the letter itself does not suggest (3:16-17).",
+              "passages": [
+                "Acts 2:17",
+                "Hebrews 9:26",
+                "2 Timothy 3:16-17"
+              ],
+              "sources": [
+                "hoekema-bible-future",
+                "riddlebarger-case-amil"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "partial-preterism",
+                  "text": "Preterists answer that they do not deny the passage's application to later believers, only its use as a prophecy of the age's long-term trajectory. They read 'the end of the ages' (Hebrews 9:26) and 'on whom the end of the ages has come' (1 Corinthians 10:11) as transitional texts focused on the passing of the old covenant order.",
+                  "passages": [
+                    "Hebrews 9:26",
+                    "1 Corinthians 10:11"
+                  ],
+                  "sources": [
+                    "demar-last-days-madness",
+                    "gentry-he-shall-have-dominion"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "church-israel-distinction",
+    "title": "The church and Israel: distinct peoples or one?",
+    "question": "Is the church a distinct people alongside a national Israel with its own future promises, or the one people of God in which Israel's promises are fulfilled?",
+    "topic": "israel",
+    "summary": "Dispensationalists maintain a distinction between Israel and the church; covenant theologians see one people of God across the covenants; progressive covenantalists see Christ as the true Israel and the church as the new covenant people in him. Many in all camps, including Puritan postmillennialists, expect a future large-scale conversion of Jewish people from Romans 11.",
+    "positions": [
+      "disppremil",
+      "dispensationalism",
+      "covenant-theology",
+      "progressive-covenantalism"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "disppremil",
+      "text": "Dispensationalists hold that the church and Israel are distinct peoples within God's single redemptive purpose. Paul says Israel according to the flesh still has the covenants and promises (Romans 9:4-5), distinguishes 'Jews, Greeks and the church of God' (1 Corinthians 10:32), and foresees the salvation of 'all Israel' after the fullness of the Gentiles, because God's gifts and calling are irrevocable (Romans 11:25-29). Vlach argues the church is a new entity begun at Pentecost (Matthew 16:18, Ephesians 3:5-6) and that unconditional national and land promises (Genesis 12:1-3, Jeremiah 31:35-37) remain for ethnic Israel.",
+      "passages": [
+        "Romans 9:4-5",
+        "1 Corinthians 10:32",
+        "Romans 11:25-29",
+        "Jeremiah 31:35-37"
+      ],
+      "sources": [
+        "ryrie-dispensationalism",
+        "vlach-church-replaced-israel",
+        "pentecost-things-to-come"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "covenant-theology",
+          "text": "Covenant theologians argue for one people of God across the covenants. Gentiles are grafted into the one olive tree (Romans 11:17-24), the dividing wall is broken down to make 'one new man' (Ephesians 2:14-16), those in Christ are Abraham's seed and heirs according to promise (Galatians 3:29), and Paul can bless 'the Israel of God' (Galatians 6:16), which many take as the whole church. The church is therefore the continuation and fulfilment of Israel, centred on the Messiah as the true Israel.",
+          "passages": [
+            "Romans 11:17-24",
+            "Ephesians 2:14-16",
+            "Galatians 3:29",
+            "Galatians 6:16"
+          ],
+          "sources": [
+            "hoekema-bible-future",
+            "riddlebarger-case-amil",
+            "poythress-understanding-dispensationalists"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "disppremil",
+              "text": "Dispensationalists respond that the olive tree represents covenant blessing rather than Israel's identity, and in Romans 11 the natural branches are explicitly ethnic Israel, whose regrafting is future. 'One new man' unites Jew and Gentile in salvation without erasing ethnic distinctions, just as male and female remain in Galatians 3:28. They read Galatians 6:16 ('and upon the Israel of God') as referring to believing Jews, a reading defended by scholars such as S. Lewis Johnson.",
+              "passages": [
+                "Romans 11:23-24",
+                "Galatians 3:28",
+                "Galatians 6:16"
+              ],
+              "sources": [
+                "vlach-church-replaced-israel",
+                "blaising-bock-progressive"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "covenant-theology",
+                  "text": "Covenant theologians note that many of them also expect a future mass conversion of ethnic Jews from Romans 11, a hallmark of Puritan postmillennialism traced by Iain Murray. The dispute, then, is not Israel's future salvation but whether it comes as a separate programme with distinct land and temple promises; they argue the New Testament instead extends the inheritance to the whole world (Romans 4:13).",
+                  "passages": [
+                    "Romans 4:13",
+                    "Romans 11:26"
+                  ],
+                  "sources": [
+                    "murray-puritan-hope",
+                    "hoekema-bible-future"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "progressive-covenantalism",
+          "text": "Progressive covenantalists (Peter Gentry and Stephen Wellum) reject both 'replacement' and a permanent Israel-church distinction: Christ is the true Israel, and the church is the new covenant people in union with him. The new covenant was promised to the house of Israel (Jeremiah 31:31-34) yet is inaugurated for the church (Luke 22:20, Hebrews 8:8-13), showing that Israel's promises are fulfilled in Christ and shared by all who are in him.",
+          "passages": [
+            "Jeremiah 31:31-34",
+            "Luke 22:20",
+            "Hebrews 8:8-13"
+          ],
+          "sources": [
+            "gentry-wellum-kingdom-covenant"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "dispensationalism",
+              "text": "Progressive dispensationalists such as Blaising and Bock agree that the church shares in the new covenant now, but call this an initial, partial fulfilment; its national dimensions, a regathered and restored Israel (Ezekiel 36:24-28), await Christ's return. Gentile inclusion in new covenant blessings, they argue, does not require Israel's distinct promises to lapse.",
+              "passages": [
+                "Ezekiel 36:24-28"
+              ],
+              "sources": [
+                "blaising-bock-progressive",
+                "vlach-church-replaced-israel"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "progressive-covenantalism",
+                  "text": "Wellum responds that typological fulfilment in Christ is not a 'partial' fulfilment awaiting a second national stage: the land is itself a type of the new creation, and Hebrews says the patriarchs sought a better, heavenly country (Hebrews 11:16). The burden, he argues, lies on those who posit a restored national programme to show it from New Testament texts.",
+                  "passages": [
+                    "Hebrews 11:16"
+                  ],
+                  "sources": [
+                    "gentry-wellum-kingdom-covenant"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rapture-timing",
+    "title": "The timing of the rapture",
+    "question": "Will the church be caught up before the tribulation, during it (before God's wrath), or at Christ's single return after it?",
+    "topic": "rapture",
+    "summary": "Within futurist premillennialism, pretribulationists place the rapture before Daniel's seventieth week, prewrath advocates place it within the second half before the day of the Lord's wrath, and posttribulationists identify it with the visible return after the tribulation. Amillennialists and postmillennialists generally read 1 Thessalonians 4 as describing Christ's single return, close to the posttribulational reading.",
+    "positions": [
+      "disppremil",
+      "histpremil",
+      "futurism"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "disppremil",
+      "text": "Pretribulationists hold that Christ will take the church to himself (John 14:1-3, 1 Thessalonians 4:13-18) before the seven-year tribulation of Daniel's seventieth week. Believers are 'not destined for wrath' (1 Thessalonians 5:9) and are promised to be kept 'from the hour of trial' coming on the whole world (Revelation 3:10). The rapture is imminent and preceded by no signs (Titus 2:13), whereas the coming to earth follows clear signs, implying two stages; and Walvoord and Ryrie note that the church (ekklesia) is not mentioned on earth in Revelation 4-18.",
+      "passages": [
+        "1 Thessalonians 4:13-18",
+        "1 Thessalonians 5:9",
+        "Revelation 3:10",
+        "Titus 2:13"
+      ],
+      "sources": [
+        "walvoord-millennial-kingdom",
+        "ryrie-dispensationalism",
+        "pentecost-things-to-come",
+        "hultberg-three-views-rapture"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "histpremil",
+          "text": "Posttribulationists (Gundry, Ladd, Moo) argue Scripture describes one return. The elect are gathered 'immediately after the tribulation' (Matthew 24:29-31) at the last trumpet (1 Corinthians 15:52), and Paul tells the Thessalonians the day of the Lord will not come until the apostasy and the man of lawlessness appear (2 Thessalonians 2:1-4). The 'meeting' (apantesis) of 1 Thessalonians 4:17 normally describes going out to welcome a visiting dignitary and escorting him back. Gundry notes that no text places the rapture before the tribulation, while several place Christ's coming and the resurrection after it.",
+          "passages": [
+            "Matthew 24:29-31",
+            "1 Corinthians 15:52",
+            "2 Thessalonians 2:1-4",
+            "1 Thessalonians 4:17"
+          ],
+          "sources": [
+            "gundry-church-tribulation",
+            "ladd-blessed-hope",
+            "hultberg-three-views-rapture"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "disppremil",
+              "text": "Pretribulationists answer that the Olivet discourse addresses Israel, so its 'elect' are tribulation saints; the 'last trumpet' of 1 Corinthians 15 is not the seventh trumpet judgment of Revelation; and 2 Thessalonians 2 reassures believers that they are not in the day of the Lord, which would be a strange comfort if they expected to endure it. Ryrie, reviewing Gundry, argued that the imminence passages are hard to reconcile with a return preceded by identifiable tribulation events.",
+              "passages": [
+                "2 Thessalonians 2:1-3",
+                "1 Corinthians 15:52"
+              ],
+              "sources": [
+                "ryrie-review-gundry",
+                "walvoord-millennial-kingdom"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "histpremil",
+                  "text": "Posttribulationists respond that the Olivet discourse addresses the disciples, the church's founders, whom Jesus also commissions with his presence 'to the end of the age' (Matthew 28:20). New Testament imminence, they argue, means expectancy and readiness, not that no prophesied event can precede the return; Paul himself names events that must come first (2 Thessalonians 2:3).",
+                  "passages": [
+                    "Matthew 28:20",
+                    "2 Thessalonians 2:3"
+                  ],
+                  "sources": [
+                    "gundry-church-tribulation",
+                    "ladd-blessed-hope"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "futurism",
+          "text": "Prewrath advocates (Rosenthal, Kurschner) agree that the church is delivered before God's wrath but deny that the whole seventieth week is wrath. They distinguish the 'great tribulation', the Antichrist's persecution of the saints (Matthew 24:21-22, Revelation 13:7), from the day of the Lord's wrath, which is announced only after the cosmic signs of the sixth seal ('the great day of their wrath has come', Revelation 6:16-17). The rapture therefore occurs in the second half of the week, after the Antichrist is revealed but before the trumpet and bowl judgments.",
+          "passages": [
+            "Matthew 24:21-22",
+            "Revelation 6:12-17",
+            "Revelation 13:7"
+          ],
+          "sources": [
+            "rosenthal-prewrath",
+            "kurschner-antichrist-before-dol",
+            "hultberg-three-views-rapture"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "disppremil",
+              "text": "Pretribulationists reply that the Lamb himself opens every seal (Revelation 6:1), so the judgments from the first seal onward are divine, and 'the wrath of the Lamb' in 6:16 can describe wrath already under way. They also argue that Daniel's seventieth week is a unit directed at Daniel's people and city (Daniel 9:24), so the church's removal belongs before it begins.",
+              "passages": [
+                "Revelation 6:1",
+                "Revelation 6:16",
+                "Daniel 9:24"
+              ],
+              "sources": [
+                "walvoord-millennial-kingdom",
+                "pentecost-things-to-come",
+                "hultberg-three-views-rapture"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "futurism",
+                  "text": "Prewrath writers answer that the aorist 'has come' (elthen) in 6:17 announces wrath arriving at that point, and that the Lamb's opening of the seals no more makes them wrath than God's sovereignty makes all suffering wrath. They also note that Jesus' own order (tribulation cut short, cosmic signs, gathering of the elect; Matthew 24:22, 29-31) matches Revelation 6-7, where a great multitude 'coming out of the great tribulation' appears in heaven right after the sixth seal (7:9-14).",
+                  "passages": [
+                    "Revelation 6:17",
+                    "Revelation 7:9-14",
+                    "Matthew 24:22"
+                  ],
+                  "sources": [
+                    "kurschner-antichrist-before-dol",
+                    "rosenthal-prewrath"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "fathers-chiliasm-augustine",
+    "title": "The early Fathers, chiliasm and Augustine",
+    "question": "Was premillennialism (chiliasm) the consensus of the earliest church, displaced only later by Augustine?",
+    "topic": "church-history",
+    "summary": "Chiliasm is clearly attested in Papias, Justin Martyr, Irenaeus and Tertullian. Premillennialists see it as the earliest view; Charles Hill and other amillennialists argue a non-chiliast stream was equally early; Augustine's City of God XX shaped Western exegesis for a millennium. All sides agree Scripture, not the Fathers, is decisive.",
+    "positions": [
+      "histpremil",
+      "amil",
+      "postmil"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "histpremil",
+      "text": "Historic premillennialists point out that chiliasm, belief in an earthly thousand-year kingdom after Christ's return, is the earliest clearly attested millennial view. Papias (reported by Irenaeus and Eusebius), Justin Martyr (Dialogue with Trypho 80-81), Irenaeus (Against Heresies 5.32-36) and Tertullian taught it, and Irenaeus traced it to elders who had known John. Opposition came later, chiefly from Alexandrian allegorists such as Origen, and was consolidated by Augustine's City of God XX, so premillennialists see their view as a recovery of the early church's hope.",
+      "passages": [
+        "Revelation 20:4-6"
+      ],
+      "sources": [
+        "justin-dialogue-trypho",
+        "irenaeus-against-heresies",
+        "deere-premil-rev20",
+        "collins-were-fathers-amil"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "amil",
+          "text": "Charles Hill's Regnum Caelorum argues that a non-chiliast stream was early and widespread, visible in writers such as Clement of Rome, Polycarp, Ignatius and the Epistle to Diognetus. Justin himself concedes that many Christians 'of pure and godly' mind did not share his view (Dialogue 80). Hill links chiliasm to the belief that souls wait in an underworld until the resurrection; those who expected to be with Christ in heaven at death (Philippians 1:23, 2 Corinthians 5:8) had no need of an earthly interim kingdom, so there were two coherent early patterns, not one consensus.",
+          "passages": [
+            "Philippians 1:23",
+            "2 Corinthians 5:8"
+          ],
+          "sources": [
+            "hill-regnum-caelorum",
+            "justin-dialogue-trypho",
+            "riddlebarger-case-amil"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "histpremil",
+              "text": "Brian Collins, evaluating Hill in Bibliotheca Sacra, argues that the claimed link between chiliasm and an underworld intermediate state fails: Irenaeus taught a millennium while also allowing a heavenly intermediate state. Many of Hill's non-chiliast witnesses are arguments from silence, whereas the chiliast witnesses are explicit. Some premillennialists also read Justin's concession as less sweeping than Hill does, since he immediately condemns those who deny the resurrection of the flesh.",
+              "passages": [],
+              "sources": [
+                "collins-were-fathers-amil",
+                "justin-dialogue-trypho"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "amil",
+                  "text": "Defenders of Hill reply that Dialogue 80 distinguishes godly Christians who disagree from the heretics Justin then condemns, and that silence across several early writers who do discuss the end is significant. They add that later amillennialism did not need Augustine to invent it: Augustine had himself once held a chiliast view and changed his mind on exegetical grounds that he sets out in City of God XX.",
+                  "passages": [],
+                  "sources": [
+                    "hill-regnum-caelorum",
+                    "augustine-city-of-god"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "postmil",
+          "text": "Postmillennialists (and others) argue that early prevalence is not decisive. Second-century chiliasm was often bound up with material expectations, such as Papias' description of fantastically fruitful vines, that modern premillennialists do not adopt, and doctrine rests on Scripture rather than early consensus. Augustine's reading of Revelation 20 as Christ's present reign shaped Western exegesis for a millennium, and, as Iain Murray shows, the Puritan hope of gospel advance grew from that Augustinian framework.",
+          "passages": [
+            "Revelation 20:1-6"
+          ],
+          "sources": [
+            "augustine-city-of-god",
+            "murray-puritan-hope",
+            "gentry-he-shall-have-dominion"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "histpremil",
+              "text": "Premillennialists agree Scripture is decisive, but argue that the earliest interpreters, nearest to John's language and world, read Revelation 20 sequentially, which counts against claims that a premillennial reading is a modern novelty. They also distinguish historic premillennialism from both crude chiliasm and modern dispensationalism, so criticisms of second-century excesses do not touch Ladd's version.",
+              "passages": [],
+              "sources": [
+                "ladd-blessed-hope",
+                "blomberg-chung-historic-premil",
+                "irenaeus-against-heresies"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "postmil",
+                  "text": "Postmillennialists respond that proximity cuts both ways: the same early writers also held views, such as a fixed six-thousand-year world-week, that few modern premillennialists follow, and Eusebius already judged Papias limited in understanding on these matters. They suggest the historical claim be stated modestly: chiliasm was prominent in the second century but not unanimous.",
+                  "passages": [],
+                  "sources": [
+                    "gentry-he-shall-have-dominion",
+                    "augustine-city-of-god"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "twentieth-century-postmil",
+    "title": "Did the twentieth century refute postmillennialism?",
+    "question": "Do the world wars and secularisation of the twentieth century, and postmillennialism's decline, count against it, and what does its later revival show?",
+    "topic": "church-history",
+    "summary": "Postmillennialism dominated much nineteenth-century American Protestantism, faded after the First World War, and revived from the 1970s among Reformed writers. Premillennialists often read the century as confirming biblical warnings of decline; postmillennialists distinguish their view from the liberal idea of progress; amillennialists warn against reading eschatology off the news.",
+    "positions": [
+      "postmil",
+      "disppremil",
+      "amil"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "postmil",
+      "text": "Postmillennialists argue that their view's decline in the twentieth century reflected cultural mood and theological liberalism rather than exegetical refutation. Historian James Moorhead shows that among mainline Protestants after 1865 postmillennialism eroded into a general faith in progress and the Social Gospel, losing its supernatural content. Historic Reformed postmillennialism (Edwards, Hodge, Warfield) rested on texts such as the Great Commission and Psalm 110:1, and its revival through Rushdoony, Bahnsen, Gentry and Mathison, together with rapid church growth in Africa, Asia and Latin America, shows it remains a live exegetical option.",
+      "passages": [
+        "Matthew 28:18-20",
+        "Psalm 110:1",
+        "Psalm 22:27"
+      ],
+      "sources": [
+        "moorhead-erosion-postmil",
+        "gentry-he-shall-have-dominion",
+        "mathison-postmillennialism",
+        "murray-puritan-hope"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "disppremil",
+          "text": "Premillennial critics argue that the world wars, the Holocaust, totalitarian regimes and the secularisation of the historically Christian West were widely and reasonably taken as counting against postmillennial optimism. They see this as more than a change of mood: Scripture warns of worsening conditions, apostasy and a final tribulation (Matthew 24:21, 2 Thessalonians 2:3). Walvoord regarded postmillennialism as largely abandoned by mid-century, while premillennialism grew through Bible institutes and prophecy conferences, as historian Timothy Weber documents.",
+          "passages": [
+            "Matthew 24:21",
+            "2 Thessalonians 2:3"
+          ],
+          "sources": [
+            "walvoord-millennial-kingdom",
+            "weber-shadow-second-coming",
+            "pentecost-things-to-come"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "postmil",
+              "text": "Postmillennialists answer that their eschatology is a claim about the long-term outcome of history, not any single century; Boettner and Gentry note that its timescale may be measured in millennia. They point to the growth of Christianity in sub-Saharan Africa and elsewhere from a small minority in 1900 to hundreds of millions today, and argue that attempts to match current events to prophecy have themselves produced many failed predictions.",
+              "passages": [
+                "Daniel 2:35",
+                "Isaiah 9:7"
+              ],
+              "sources": [
+                "boettner-millennium",
+                "gentry-he-shall-have-dominion"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "disppremil",
+                  "text": "Critics reply that if any setback can be absorbed by lengthening the timescale, the view becomes hard to test, and that Christianity's growth in the Global South has coincided with steep decline in former Christendom, which fits an expectation of mixed conditions better than progressive Christianisation. Many premillennialists also reject date-setting and 'newspaper exegesis' as abuses of their own view.",
+                  "passages": [],
+                  "sources": [
+                    "weber-shadow-second-coming",
+                    "pentecost-things-to-come"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "amil",
+          "text": "Amillennialists such as Hoekema and Riddlebarger argue that both postmillennial optimism and premillennial pessimism err when they treat history as a scorecard. The New Testament promises both gospel advance to all nations and tribulation throughout the age (Matthew 24:14, Acts 14:22), so neither world wars nor revivals measure the truth of an eschatology. The decline and revival of postmillennialism are sociological facts that settle nothing exegetically.",
+          "passages": [
+            "Matthew 24:14",
+            "Acts 14:22"
+          ],
+          "sources": [
+            "hoekema-bible-future",
+            "riddlebarger-case-amil"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "postmil",
+              "text": "Postmillennialists agree that history is not the test of exegesis, which is their own point against the premillennial critique, but argue that amillennialism underweights texts promising that the nations will serve Christ before the end (Psalm 72:8-11, Isaiah 2:2-4, 1 Corinthians 15:25). These describe outcomes in history while sin and death still exist, which they say cannot be relocated to the new creation.",
+              "passages": [
+                "Psalm 72:8-11",
+                "Isaiah 2:2-4",
+                "1 Corinthians 15:25"
+              ],
+              "sources": [
+                "gentry-he-shall-have-dominion",
+                "bahnsen-victory-in-jesus"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "amil",
+                  "text": "Amillennialists answer that these promises are fulfilled as the nations are gathered into the church now and are consummated when the kings of the earth bring their glory into the new Jerusalem (Revelation 21:24-26). In their view the New Testament's use of these texts does not envision a golden age before the consummation.",
+                  "passages": [
+                    "Revelation 21:24-26"
+                  ],
+                  "sources": [
+                    "riddlebarger-case-amil",
+                    "storms-kingdom-come"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "full-preterism-resurrection",
+    "title": "Full preterism and the future resurrection",
+    "question": "Were the Second Coming, resurrection and final judgment all fulfilled by AD 70, or does the creedal hope of a future bodily resurrection stand?",
+    "topic": "final-judgment",
+    "summary": "Full (consistent) preterism, or covenant eschatology, holds that all prophecy, including the parousia and resurrection, was fulfilled by AD 70. Partial preterists, amillennialists, postmillennialists and premillennialists reject this, and it stands outside historic creedal orthodoxy because the ecumenical creeds confess a future return and resurrection of the body; proponents reply that the creeds must be tested by Scripture.",
+    "positions": [
+      "full-preterism",
+      "partial-preterism",
+      "amil",
+      "postmil"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "full-preterism",
+      "text": "Full preterists (covenant eschatology; Max King, Don Preston) argue that if the time texts are taken at face value, every prophesied end-time event, including the parousia, resurrection and judgment, must have occurred by AD 70. They read the resurrection of Daniel 12:2 and 1 Corinthians 15 as the corporate, covenantal raising of God's people from the death of the old covenant into new covenant life, completed when the temple fell; Daniel 12:7 ties these events to the shattering of 'the power of the holy people'. They see their view as consistent preterism, applying to all prophecy what partial preterists apply to some.",
+      "passages": [
+        "Daniel 12:1-7",
+        "1 Corinthians 15:51-52",
+        "Matthew 16:27-28"
+      ],
+      "sources": [
+        "king-spirit-of-prophecy",
+        "preston-resurrection-daniel-12"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "partial-preterism",
+          "text": "Partial preterists such as Mathison and Gentry argue the New Testament distinguishes AD 70 from a future, visible, bodily return: Jesus will come 'in the same way' as he was seen going (Acts 1:11); the body sown perishable is raised imperishable (1 Corinthians 15:42-44); and our mortal bodies will be given life and redeemed (Romans 8:11, 8:23). Paul condemned Hymenaeus and Philetus for saying 'the resurrection has already happened' (2 Timothy 2:17-18). Mathison's edited volume argues these texts cannot be reduced to a covenantal transition.",
+          "passages": [
+            "Acts 1:11",
+            "1 Corinthians 15:42-44",
+            "Romans 8:23",
+            "2 Timothy 2:17-18"
+          ],
+          "sources": [
+            "mathison-when-shall",
+            "gentry-he-shall-have-dominion"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "full-preterism",
+              "text": "Full preterists respond that 'in the same way' in Acts 1:11 refers to the manner (in a cloud, then hidden from sight) rather than physical visibility to all, and that the 'body' (soma) of 1 Corinthians 15 is corporate, as in 'the body of Christ' (1 Corinthians 12:27). They read Hymenaeus' error as claiming the resurrection was already complete before its appointed time, which Paul could reject while still expecting it within that generation.",
+              "passages": [
+                "Acts 1:11",
+                "1 Corinthians 12:27"
+              ],
+              "sources": [
+                "king-spirit-of-prophecy",
+                "preston-resurrection-daniel-12"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "partial-preterism",
+                  "text": "Critics answer that 1 Corinthians 15 is about individual bodies: the resurrection of 'the dead' is patterned on Christ's own bodily resurrection as firstfruits (15:20-23), and what is sown is the individual mortal body that must 'put on' immortality (15:42-44, 53). If the firstfruits was bodily, the harvest must be of the same kind. They also note that Paul gives no hint that Hymenaeus' error was merely premature.",
+                  "passages": [
+                    "1 Corinthians 15:20-23",
+                    "1 Corinthians 15:53"
+                  ],
+                  "sources": [
+                    "mathison-when-shall",
+                    "sproul-last-days"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "amil",
+          "text": "Critics across the millennial positions note that the ecumenical creeds confess that Christ 'will come again' to judge the living and the dead, together with the resurrection of the body (Nicene Creed; Westminster Confession 32-33). Full preterism therefore stands outside historic creedal orthodoxy; Mathison and others regard it as a serious departure, since the church has never understood these articles as fulfilled in AD 70. They add that texts such as 1 Thessalonians 4:16 and John 5:28-29 describe a public event in which the dead leave their tombs.",
+          "passages": [
+            "1 Thessalonians 4:16",
+            "John 5:28-29"
+          ],
+          "sources": [
+            "nicene-creed",
+            "westminster-confession",
+            "mathison-when-shall"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "full-preterism",
+              "text": "Proponents respond that the creeds are subordinate standards to be tested by Scripture, a principle the Westminster Confession itself states (1.10), and that the Reformation also overturned long-standing consensus. They argue that creedal language of a future coming was formulated by largely Gentile churches that had lost sight of the Jewish covenantal context of AD 70, and ask to be answered exegetically rather than by appeal to tradition.",
+              "passages": [],
+              "sources": [
+                "king-spirit-of-prophecy",
+                "preston-resurrection-daniel-12"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "amil",
+                  "text": "Critics reply that the Reformers revised doctrines they judged unbiblical but explicitly reaffirmed the ancient creeds' articles on Christ's return and the resurrection. They add that early post-apostolic writers, some writing after AD 70 (for example 1 Clement and the Didache), still expected a future coming and resurrection, which counts against the claim that the first audience understood these events as already fulfilled.",
+                  "passages": [],
+                  "sources": [
+                    "mathison-when-shall",
+                    "nicene-creed"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "daniel-70th-week-gap",
+    "title": "Daniel's seventieth week: a gap or continuous?",
+    "question": "Is there a gap between the sixty-ninth and seventieth weeks of Daniel 9, placing the seventieth week in the future?",
+    "topic": "seventy-weeks",
+    "summary": "Dispensationalists see a gap of the church age between the sixty-ninth and seventieth weeks, with the seventieth week a future seven-year tribulation under the Antichrist. Partial preterists and postmillennialists read the weeks as continuous, fulfilled in Christ and the AD 70 judgment; many amillennialists, following Kline, read the seventy weeks symbolically, reaching to the consummation.",
+    "positions": [
+      "disppremil",
+      "partial-preterism",
+      "postmil",
+      "amil"
+    ],
+    "root": {
+      "id": "claim",
+      "kind": "claim",
+      "position": "disppremil",
+      "text": "Dispensationalists (Walvoord, Pentecost, Hoehner) see a gap between the sixty-ninth and seventieth weeks of Daniel 9:24-27. The sixty-nine weeks (483 years) run from Artaxerxes' decree to the Messiah; Hoehner calculated 444 BC to AD 33 using 360-day prophetic years. Verse 26 places two events 'after' the sixty-two weeks (the Messiah cut off, and the city destroyed by 'the people of the prince who is to come') without placing them in the seventieth week. The 'he' who makes a firm covenant for one week (9:27) is that coming prince, the Antichrist, whose mid-week sacrilege matches the abomination of desolation Jesus placed in the future (Matthew 24:15, 2 Thessalonians 2:4).",
+      "passages": [
+        "Daniel 9:24-27",
+        "Matthew 24:15",
+        "2 Thessalonians 2:4"
+      ],
+      "sources": [
+        "hoehner-chronological-aspects",
+        "walvoord-millennial-kingdom",
+        "pentecost-things-to-come"
+      ],
+      "children": [
+        {
+          "id": "obj-1",
+          "kind": "objection",
+          "position": "partial-preterism",
+          "text": "Gentry and other preterists argue that the seventy weeks are a continuous 490-year unit: nothing in the text signals a gap, and inserting two thousand years into a number designed to measure time defeats the measurement. The 'he' of 9:27 most naturally refers to the Messiah, the main figure of 9:26, who confirms the covenant (compare 'the blood of the covenant', Matthew 26:28) and by his death in the middle of the week brings sacrifice to an end (Hebrews 10:8-18). The desolation of Jerusalem in AD 70 is the decreed consequence announced in 9:26-27.",
+          "passages": [
+            "Daniel 9:26-27",
+            "Matthew 26:28",
+            "Hebrews 10:8-18"
+          ],
+          "sources": [
+            "gentry-structure-70-weeks",
+            "gentry-he-shall-have-dominion",
+            "demar-last-days-madness"
+          ],
+          "children": [
+            {
+              "id": "reb-1",
+              "kind": "rebuttal",
+              "position": "disppremil",
+              "text": "Dispensationalists reply that the nearest antecedent of 'he' in 9:27 is 'the prince who is to come' (9:26), and that the verb (higbir) means to 'make strong' or enforce a covenant, suggesting a treaty rather than the new covenant. The six goals of 9:24, including 'to bring in everlasting righteousness' and 'to anoint a most holy place', have not been realised for Daniel's people and city, so the seventieth week must be future. Prophetic gaps occur elsewhere, as in Isaiah 61:1-2 read in Luke 4:18-21.",
+              "passages": [
+                "Daniel 9:24",
+                "Isaiah 61:1-2",
+                "Luke 4:18-21"
+              ],
+              "sources": [
+                "hoehner-chronological-aspects",
+                "walvoord-millennial-kingdom",
+                "pentecost-things-to-come"
+              ],
+              "children": [
+                {
+                  "id": "cr-1",
+                  "kind": "counter-rebuttal",
+                  "position": "postmil",
+                  "text": "Postmillennial preterists answer that 'prince' in 9:26 stands in a dependent phrase ('the people of the prince'), so the subject of that clause is the people, and the Messiah remains the passage's central figure. They read the six goals of 9:24 (finishing transgression, atoning for iniquity, bringing everlasting righteousness) as accomplished in Christ's cross and the new covenant (Hebrews 9:26, Romans 3:21-26).",
+                  "passages": [
+                    "Hebrews 9:26",
+                    "Romans 3:21-26"
+                  ],
+                  "sources": [
+                    "gentry-structure-70-weeks",
+                    "gentry-he-shall-have-dominion"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obj-2",
+          "kind": "objection",
+          "position": "amil",
+          "text": "Kline and many amillennialists read the seventy weeks as a symbolic sabbatical period (seventy sevens, echoing the jubilee pattern of Leviticus 25 and the sabbath-years of 2 Chronicles 36:21) rather than a precise count of 490 years. The seventieth week begins with the Messiah's covenant-confirming work and extends symbolically through the church age to the consummation, with the desolator representing hostile powers until the decreed end. Riddlebarger argues this avoids both an arbitrary gap and the need to compress all fulfilment into the first century.",
+          "passages": [
+            "Leviticus 25:8-10",
+            "2 Chronicles 36:21",
+            "Daniel 9:2"
+          ],
+          "sources": [
+            "kline-covenant-seventieth-week",
+            "riddlebarger-seventieth-week",
+            "riddlebarger-case-amil"
+          ],
+          "children": [
+            {
+              "id": "reb-2",
+              "kind": "rebuttal",
+              "position": "disppremil",
+              "text": "Dispensationalists reply that Daniel's prayer concerns Jeremiah's literal seventy years (Daniel 9:2, Jeremiah 25:11-12), so the answer of seventy 'sevens' naturally continues a literal reckoning. Hoehner's calculation landing on Jesus' final entry into Jerusalem suggests the sixty-nine weeks were exact, so the seventieth will be too. A symbolic week stretching across two thousand years, they argue, is a larger gap than the dispensational one.",
+              "passages": [
+                "Daniel 9:2",
+                "Jeremiah 25:11-12"
+              ],
+              "sources": [
+                "hoehner-chronological-aspects",
+                "walvoord-millennial-kingdom"
+              ],
+              "children": [
+                {
+                  "id": "cr-2",
+                  "kind": "counter-rebuttal",
+                  "position": "amil",
+                  "text": "Amillennialists answer that conservative calculations of the sixty-nine weeks vary widely depending on which decree and calendar are chosen, and that Hoehner's scheme relies on a 360-day year the text does not specify. Kline argues that Daniel 9, saturated with the vocabulary of the Mosaic covenant, points to theological rather than arithmetical precision.",
+                  "passages": [
+                    "Daniel 9:4-19"
+                  ],
+                  "sources": [
+                    "kline-covenant-seventieth-week",
+                    "riddlebarger-seventieth-week"
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

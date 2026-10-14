@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom'
+import { Mark } from './Mark'
 import { agreement, cell, positionName, stanceLabel, topicsById } from '../lib/content'
 import { useApp } from '../lib/store'
 import { TOPIC_IDS } from '../content/validate'
 import type { Position } from '../content/schema'
 
-const MARK = { agree: '●', partial: '◐', disagree: '○', unknown: '·' } as const
-export const AGREE_LABEL = { agree: 'Agrees', partial: 'Partly agrees', disagree: 'Differs', unknown: 'No data' } as const
 
 /** "Where this view agrees and differs from My View" — compares against the lens position on the same axis. */
 export function LensCompare({ position }: { position: Position }) {
@@ -37,9 +36,7 @@ export function LensCompare({ position }: { position: Position }) {
       <ul className="ui mt-3 space-y-2 text-sm">
         {differ.map(({ t, a, b, ag }) => (
           <li key={t}>
-            <span className={ag === 'partial' ? 'text-gold' : 'text-rubric'} aria-label={AGREE_LABEL[ag]}>
-              {MARK[ag]}
-            </span>{' '}
+            <Mark kind={ag} />{' '}
             <span className="font-medium">{topicsById.get(t)?.name}</span>
             <span className="block text-ink-soft">This view: {stanceLabel(t, a!.stance)}</span>
             <span className="block text-ink-soft">My view: {stanceLabel(t, b!.stance)}</span>

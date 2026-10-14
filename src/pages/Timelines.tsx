@@ -27,26 +27,38 @@ const MILESTONE_LABEL: Record<string, string> = {
   apostasy: 'Apostasy', parousia: 'Second Coming', resurrection: 'Resurrection', judgment: 'Final judgment', 'new-creation': 'New creation', other: 'Other',
 }
 
-type Placed = { e: TimelineEvent; lane: number }
+type Placed = { e: TimelineEvent; lane: number; lx: number; anchor: 'start' | 'end' }
 
+const labelW = (t: string, size = 12.5) => t.length * size * 0.5 + 8
+
+/** Greedy lane packing that accounts for label widths, so nothing overlaps. */
 function place(events: TimelineEvent[]) {
   const spans = events.filter((e) => e.end != null).sort((a, b) => a.at - b.at)
   const points = events.filter((e) => e.end == null).sort((a, b) => a.at - b.at)
   const laneEnd: number[] = []
   const sp: Placed[] = spans.map((e) => {
-    let lane = laneEnd.findIndex((end) => x(e.at) > end + 4)
+    const x0 = x(e.at)
+    const x1 = x(e.end!)
+    const inside = x1 - x0 > labelW(e.label, 12) + 8
+    const right = inside ? x1 : x1 + labelW(e.label, 12) + 4
+    const fitsRight = right < W
+    const lx = inside ? x0 + 8 : fitsRight ? x1 + 5 : x0 - 5
+    const left = inside || fitsRight ? x0 : x0 - labelW(e.label, 12) - 6
+    let lane = laneEnd.findIndex((end) => left > end + 6)
     if (lane === -1) lane = laneEnd.length
-    laneEnd[lane] = x(e.end!)
-    return { e, lane }
+    laneEnd[lane] = inside || !fitsRight ? x1 : right
+    return { e, lane, lx, anchor: inside || fitsRight ? 'start' : 'end' }
   })
   const labelEnd: number[] = []
   const pt: Placed[] = points.map((e) => {
     const px = x(e.at)
-    const w = Math.min(150, e.label.length * 6.6 + 10)
-    let lane = labelEnd.findIndex((end) => px - 4 > end)
+    const w = labelW(e.label)
+    const anchor = px + w > W - 4 ? 'end' : 'start'
+    const [l, r] = anchor === 'start' ? [px, px + w] : [px - w, px]
+    let lane = labelEnd.findIndex((end) => l - 4 > end)
     if (lane === -1) lane = labelEnd.length
-    labelEnd[lane] = px + w
-    return { e, lane }
+    labelEnd[lane] = r
+    return { e, lane, lx: anchor === 'start' ? px + 5 : px - 5, anchor }
   })
   return { sp, pt, spanLanes: laneEnd.length, pointLanes: labelEnd.length }
 }
@@ -62,7 +74,7 @@ function Track({
   const pointY = (lane: number) => dir * (22 + spanLanes * 22 + 14 + lane * 30)
   return (
     <g>
-      {sp.map(({ e, lane }, i) => {
+      {sp.map(({ e, lane, lx, anchor }, i) => {
         const y = spanY(lane)
         const sel = picked === e.id
         return (
@@ -79,14 +91,14 @@ function Track({
             transition={{ duration: 0.7, delay: delay + 0.5 + i * 0.12 }}
             style={{ transformOrigin: `${x(e.at)}px ${y}px` }}
           >
-            <rect x={x(e.at)} y={y - 8} width={Math.max(6, x(e.end!) - x(e.at))} height={16} rx={8} fill={color.soft} stroke={sel || mark.has(e.milestone) ? 'var(--ink)' : color.base} strokeWidth={sel ? 2.5 : mark.has(e.milestone) ? 1.8 : 1.2} strokeDasharray={mark.has(e.milestone) && !sel ? '4 3' : undefined} />
-            <text x={x(e.at) + 8} y={y + 4} fontSize={12} fontFamily="Alegreya Sans, sans-serif" fill="var(--ink)">
+            <rect x={x(e.at)} y={y - 8} width={Math.max(6, x(e.end!) - x(e.at))} height={16} rx={8} fill={color.soft} stroke={sel || mark.has(e.milestone) ? 'var(--ink)' : color.base} strokeWidth={sel ? 2.5 : mark.has(e.milestone) ? 1.8 : 1.2} />
+            <text x={lx} y={y + 4} textAnchor={anchor} fontSize={12} fontWeight={mark.has(e.milestone) ? 700 : 400} fontFamily="Alegreya Sans, sans-serif" fill="var(--ink)">
               {e.label}
             </text>
           </motion.g>
         )
       })}
-      {pt.map(({ e, lane }, i) => {
+      {pt.map(({ e, lane, lx, anchor }, i) => {
         const px = x(e.at)
         const y = pointY(lane)
         const sel = picked === e.id
@@ -105,7 +117,7 @@ function Track({
           >
             <line x1={px} x2={px} y1={0} y2={y} stroke={color.base} strokeWidth={1} strokeDasharray="2 3" />
             <rect x={px - 6} y={-6} width={12} height={12} transform={`rotate(45 ${px} 0)`} fill={sel ? 'var(--ink)' : color.base} stroke="var(--gold-bright)" strokeWidth={1.5} />
-            <text x={px + 5} y={y + (flip ? 12 : -2)} fontSize={12.5} fontFamily="Alegreya Sans, sans-serif" fontWeight={sel || mark.has(e.milestone) ? 700 : 500} fill={sel ? 'var(--accent)' : 'var(--ink)'}>
+            <text x={lx} y={y + (flip ? 12 : -2)} textAnchor={anchor} fontSize={12.5} fontFamily="Alegreya Sans, sans-serif" fontWeight={sel || mark.has(e.milestone) ? 700 : 500} fill={sel ? 'var(--accent)' : 'var(--ink)'}>
               {e.label}
             </text>
           </motion.g>
