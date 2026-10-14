@@ -35,7 +35,7 @@ export default function Glossary() {
           return (
             <div key={g.id}>
               {first && (
-                <p id={`letter-${g.term[0].toUpperCase()}`} aria-hidden className="mt-8 font-[UnifrakturMaguntia] text-4xl text-rubric">
+                <p id={`letter-${g.term[0].toUpperCase()}`} aria-hidden className="mt-8 font-serif text-4xl text-rubric">
                   {g.term[0].toUpperCase()}
                 </p>
               )}

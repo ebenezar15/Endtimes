@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 import { Illum } from '../components/Badge'
+import { CompareToggle } from '../components/CompareToggle'
 import { PageHeader } from '../components/PageHeader'
 import { frameworkViews, hermeneuticViews, millennialViews } from '../lib/content'
 import { useApp } from '../lib/store'
@@ -12,22 +14,31 @@ function Group({ title, intro, items }: { title: string; intro: string; items: P
       <h2 className="text-3xl">{title}</h2>
       <p className="mt-1 max-w-[65ch] text-ink-soft">{intro}</p>
       <ul className="mt-5 grid gap-4 md:grid-cols-2">
-        {items.map((p) => {
+        {items.map((p, i) => {
           const mine = lensOn && (lens.millennial === p.id || lens.hermeneutic === p.id)
           return (
-            <li key={p.id}>
-              <Link to={`/positions/${p.id}`} className="leaf flex h-full gap-4 p-4 text-ink no-underline transition-colors hover:border-accent">
+            <motion.li key={p.id} className="relative" initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: (i % 2) * 0.06, type: 'spring', stiffness: 200, damping: 22 }}>
+              {p.axis !== 'framework' && <CompareToggle id={p.id} className="absolute bottom-3 right-3 z-10" />}
+              <Link
+                to={`/positions/${p.id}`}
+                onPointerMove={(e) => {
+                  const r = e.currentTarget.getBoundingClientRect()
+                  e.currentTarget.style.setProperty('--mx', `${e.clientX - r.left}px`)
+                  e.currentTarget.style.setProperty('--my', `${e.clientY - r.top}px`)
+                }}
+                className="leaf glow-card flex h-full gap-4 p-4 pb-12 text-ink no-underline transition-[transform,border-color] duration-200 hover:-translate-y-1 hover:border-accent"
+              >
                 <Illum id={p.id} size={52} />
                 <span className="min-w-0">
                   <span className="flex flex-wrap items-baseline gap-x-2">
-                    <span className="text-2xl">{p.name}</span>
+                    <span className="text-xl font-bold">{p.name}</span>
                     {mine && <span className="ui text-sm text-gold">✦ my view</span>}
                   </span>
                   <span className="mt-0.5 block italic text-ink-soft">{p.tagline}</span>
-                  <span className="mt-2 line-clamp-3 block text-[0.97rem]">{p.summary}</span>
+                  <span className="mt-2 line-clamp-3 text-[0.97rem]">{p.summary}</span>
                 </span>
               </Link>
-            </li>
+            </motion.li>
           )
         })}
       </ul>

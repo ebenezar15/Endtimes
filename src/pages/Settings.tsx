@@ -2,16 +2,9 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { PageHeader } from '../components/PageHeader'
 import { hermeneuticViews, millennialViews, positionsSorted } from '../lib/content'
-import { DEFAULT_SETTINGS, useApp, type ThemeName, type Translation } from '../lib/store'
+import { DEFAULT_SETTINGS, useApp, type Translation } from '../lib/store'
 import { useActiveTheme } from '../lib/theme'
-
-const THEMES: { id: ThemeName | 'auto'; label: string; hint: string; swatch: [string, string, string] }[] = [
-  { id: 'auto', label: 'Match my device', hint: 'Vellum by day, Night office in dark mode', swatch: ['#f2efe6', '#121726', '#c9a23a'] },
-  { id: 'vellum', label: 'Vellum', hint: 'Light, cool-toned page', swatch: ['#f2efe6', '#221c16', '#2f4fa0'] },
-  { id: 'parchment', label: 'Parchment', hint: 'Warm sepia', swatch: ['#e8d9bc', '#2b1e12', '#8e2a1e'] },
-  { id: 'night', label: 'Night office', hint: 'Dark lapis', swatch: ['#121726', '#ece6d8', '#d9b65a'] },
-  { id: 'contrast', label: 'High contrast', hint: 'Maximum legibility', swatch: ['#000000', '#ffffff', '#ffe14d'] },
-]
+import { AppearanceControls } from '../components/Appearance'
 
 function Section({ id, title, children }: { id?: string; title: string; children: React.ReactNode }) {
   return (
@@ -29,34 +22,14 @@ export default function Settings() {
   useEffect(() => {
     if (hash) document.getElementById(hash.slice(1))?.scrollIntoView()
   }, [hash])
-  const themeValue = s.themeAuto ? 'auto' : s.theme
 
   return (
     <div className="mx-auto max-w-3xl">
       <PageHeader title="Settings" lede="Appearance, your My View lens, and colours. Settings are saved on this device." />
 
-      <Section title="Theme">
-        <div role="radiogroup" aria-label="Theme" className="grid gap-2 sm:grid-cols-2">
-          {THEMES.map((t) => (
-            <label key={t.id} className={`leaf flex cursor-pointer items-center gap-3 p-3 ${themeValue === t.id ? 'border-accent ring-2 ring-accent' : ''}`}>
-              <input
-                type="radio"
-                name="theme"
-                className="sr-only"
-                checked={themeValue === t.id}
-                onChange={() => (t.id === 'auto' ? s.set({ themeAuto: true }) : s.set({ themeAuto: false, theme: t.id }))}
-              />
-              <span aria-hidden className="flex overflow-hidden rounded-md border border-rule">
-                {t.swatch.map((c) => (
-                  <span key={c} className="block h-8 w-4" style={{ background: c }} />
-                ))}
-              </span>
-              <span>
-                <span className="block font-medium">{t.label}</span>
-                <span className="block text-sm text-ink-soft">{t.hint}</span>
-              </span>
-            </label>
-          ))}
+      <Section title="Appearance">
+        <div className="max-w-md">
+          <AppearanceControls />
         </div>
         <div className="flex flex-wrap items-center gap-3">
           <label className="flex items-center gap-2">
@@ -68,17 +41,14 @@ export default function Settings() {
               Use the theme’s accent
             </button>
           )}
-          {active === 'contrast' && <span className="text-sm text-ink-soft">High contrast uses its own accent.</span>}
+          {active.contrast && <span className="text-sm text-ink-soft">High contrast uses its own accent.</span>}
         </div>
         <p className="text-sm text-ink-soft">Custom accents are lightened or darkened automatically if needed to stay readable (WCAG AA).</p>
         <label className="block">
           Text size: {Math.round(s.fontScale * 100)}%
           <input type="range" min={0.85} max={1.4} step={0.05} value={s.fontScale} onChange={(e) => s.set({ fontScale: +e.target.value })} className="mt-1 block w-full max-w-sm accent-[var(--accent)]" />
         </label>
-        <label className="flex items-center gap-2">
-          <input type="checkbox" checked={s.reduceMotion} onChange={(e) => s.set({ reduceMotion: e.target.checked })} />
-          Reduce motion (your device’s setting is always respected)
-        </label>
+        <p className="text-sm text-ink-soft">Your device’s reduced-motion setting is always respected.</p>
       </Section>
 
       <Section id="lens" title="My View lens">

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { motion } from 'framer-motion'
 import { Link, useParams } from 'react-router-dom'
 import { Illum } from '../components/Badge'
 import { Gloss, Prose } from '../components/Gloss'
@@ -130,10 +131,17 @@ export default function PassagePage() {
           </div>
 
           <div className="mt-5 space-y-5">
-            {readings.map((r) => {
+            {readings.map((r, i) => {
               const c = color(r.position)
               return (
-                <section key={r.position} className="leaf p-5" style={{ borderLeft: `5px solid ${c.base}` }}>
+                <motion.section
+                  key={`${tab}-${r.position}`}
+                  initial={{ opacity: 0, y: 18 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: Math.min(i, 6) * 0.06, type: 'spring', stiffness: 220, damping: 24 }}
+                  className="leaf p-5"
+                  style={{ borderLeft: `5px solid ${c.base}` }}
+                >
                   <div className="flex items-center gap-3">
                     <Illum id={r.position} size={34} />
                     <h3 className="text-2xl">
@@ -163,7 +171,7 @@ export default function PassagePage() {
                     </div>
                     <Sources ids={r.sources} />
                   </div>
-                </section>
+                </motion.section>
               )
             })}
           </div>

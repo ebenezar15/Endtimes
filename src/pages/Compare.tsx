@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { motion } from 'framer-motion'
 import { Link, useSearchParams } from 'react-router-dom'
 import { PageHeader } from '../components/PageHeader'
 import { Mark } from '../components/Mark'
@@ -65,9 +66,11 @@ export default function Compare() {
             const on = picked.includes(v.id)
             const c = color(v.id)
             return (
-              <button
+              <motion.button
                 key={v.id}
                 type="button"
+                whileTap={{ scale: 0.92 }}
+                layout
                 aria-pressed={on}
                 onClick={() => toggle(v.id)}
                 disabled={!on && picked.length >= 4}
@@ -75,7 +78,7 @@ export default function Compare() {
                 style={on ? { background: c.base, color: c.ink, borderColor: c.base } : undefined}
               >
                 {v.shortName}
-              </button>
+              </motion.button>
             )
           })}
         </div>
@@ -131,7 +134,7 @@ export default function Compare() {
           </thead>
           <tbody>
             {shown.map(({ t, cells, marks }) => (
-              <tr key={t.id} id={`row-${t.id}`} className={`align-top ${focusTopic === t.id ? 'bg-surface-2/60' : ''}`}>
+              <motion.tr layout key={t.id} id={`row-${t.id}`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }} className={`align-top ${focusTopic === t.id ? 'bg-surface-2/60' : ''}`}>
                 <th scope="row" className="sticky left-0 z-10 w-48 border-b border-rule bg-surface p-3 font-normal">
                   <span className="block text-lg leading-tight">{t.name}</span>
                   <span className="ui mt-1 block text-xs text-ink-soft">{t.question}</span>
@@ -147,7 +150,7 @@ export default function Compare() {
                     </td>
                   ),
                 )}
-              </tr>
+              </motion.tr>
             ))}
           </tbody>
         </table>

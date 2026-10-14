@@ -2,14 +2,28 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Rota } from '../components/Rota'
+import { RoadHero } from '../components/RoadHero'
+import { CountUp, GlowCard } from '../components/ui'
+import { Icon, type IconName } from '../components/Icon'
 import { Illum } from '../components/Badge'
-import { core as content, frameworkViews, positionName, positionsById } from '../lib/core'
+import { core, core as content, frameworkViews, positionName, positionsById } from '../lib/core'
 import { useApp } from '../lib/store'
 import { useReducedMotion } from '../lib/theme'
 
 /** The 60-second guided intro (content/tour.json): ~7.5 s per caption, each lighting part of the map. */
 const TOUR = content.tour
 const STEP_MS = 7500
+
+const FEATURES: { to: string; title: string; text: string; icon: IconName }[] = [
+  { to: '/positions', title: 'Positions', text: 'Each view in depth, in its own terms, with critiques and the replies to them.', icon: 'crown' },
+  { to: '/compare', title: 'Compare views', text: 'Two to four views side by side across fifteen topics, agreement marked at a glance.', icon: 'layers' },
+  { to: '/timelines', title: 'Timelines', text: 'Overlay any two views from the Cross to the new creation and see where they part.', icon: 'timeline' },
+  { to: '/fit', title: 'Which view fits me?', text: 'A branching set of questions that explains the texts behind every fork.', icon: 'fork' },
+  { to: '/passages', title: 'Passage Lab', text: 'Thirty-five key texts, read by every position, with support and objections.', icon: 'scroll' },
+  { to: '/arena', title: 'Argument Arena', text: 'Claim, objection, rebuttal and counter-rebuttal, as a tree or a live graph.', icon: 'scales' },
+  { to: '/library', title: 'Debates & Library', text: 'Multi-view books, public debates and the scholars behind each camp.', icon: 'library' },
+  { to: '/study', title: 'Study', text: 'Quizzes, spaced flashcards, notes and progress, saved on your device.', icon: 'cap' },
+]
 
 export default function Home() {
   const [selected, setSelected] = useState<string | null>(null)
@@ -38,14 +52,34 @@ export default function Home() {
   const sel = selected ? positionsById.get(selected) : null
   const combos = selected ? content.combinations.filter((c) => c.millennial === selected || c.hermeneutic === selected) : []
 
+  const stats = [
+    { n: core.counts.positions, l: 'positions' },
+    { n: core.counts.topics, l: 'topics compared' },
+    { n: core.counts.passages, l: 'key passages' },
+    { n: core.counts.arguments, l: 'debates mapped' },
+    { n: core.counts.scholars, l: 'scholars' },
+    { n: core.counts.sources, l: 'sources cited' },
+  ]
+
   return (
-    <div className="mx-auto max-w-6xl">
+    <div>
+      <RoadHero />
+    <div id="after-road" className="mx-auto max-w-6xl scroll-mt-16 px-4 py-16 sm:px-6 lg:px-10">
+      <div className="mb-16 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+        {stats.map((s, i) => (
+          <motion.div key={s.l} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.06 }} className="leaf p-4 text-center">
+            <CountUp to={s.n} className="block text-3xl font-bold tabular-nums text-accent" />
+            <span className="text-xs font-semibold uppercase tracking-widest text-ink-soft">{s.l}</span>
+          </motion.div>
+        ))}
+      </div>
+
       <section className="grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)]">
         <div className="max-w-[34rem]">
-          <h1 className="text-[2.6rem] leading-[1.05] md:text-6xl">
-            <span className="block">Four views of the thousand years.</span>
-            <span className="block text-ink-soft">Six ways to read the Apocalypse.</span>
-          </h1>
+          <p className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-accent">The map of the debate</p>
+          <h2 className="text-3xl sm:text-4xl">
+            Four views of the thousand years. <span className="text-gradient">Six ways to read the Apocalypse.</span>
+          </h2>
           <p className="mt-5 text-lg">
             A study companion for the Christian debates about the end: what each view holds, which texts it leans on, how its critics answer, and how
             its defenders reply. Every view is stated as its own scholars would state it.
@@ -154,39 +188,44 @@ export default function Home() {
         </table>
       </details>
 
-      <section className="mt-14">
+      <h2 className="mb-6 mt-16 text-3xl">Ways in</h2>
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {FEATURES.map((f, i) => (
+          <motion.div key={f.to} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-40px' }} transition={{ delay: (i % 4) * 0.07, type: 'spring', stiffness: 200, damping: 22 }}>
+            <GlowCard to={f.to}>
+              <motion.span whileHover={{ rotate: -10, scale: 1.1 }} className="mb-3 inline-flex size-11 items-center justify-center rounded-xl bg-surface-2 text-accent ring-1 ring-rule">
+                <Icon name={f.icon} size={22} />
+              </motion.span>
+              <span className="mb-1 block text-lg font-bold">{f.title}</span>
+              <span className="block text-sm leading-relaxed text-ink-soft">{f.text}</span>
+            </GlowCard>
+          </motion.div>
+        ))}
+      </div>
+
+      <section className="mt-16">
         <h2 className="text-3xl">The frameworks underneath</h2>
         <p className="mt-2 max-w-[65ch] text-ink-soft">
           Beneath both rings sit larger ways of reading the whole Bible. They shape what each side expects of Israel, the church and the kingdom.
         </p>
         <ul className="mt-5 grid gap-4 md:grid-cols-3">
-          {frameworkViews.map((f) => (
-            <li key={f.id}>
-              <Link to={`/positions/${f.id}`} className="leaf flex h-full gap-3 p-4 text-ink no-underline hover:border-accent">
-                <Illum id={f.id} size={38} />
-                <span>
-                  <span className="block text-xl">{f.name}</span>
-                  <span className="mt-1 block text-[0.95rem] text-ink-soft">{f.tagline}</span>
+          {frameworkViews.map((f, i) => (
+            <motion.li key={f.id} initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }}>
+              <GlowCard to={`/positions/${f.id}`}>
+                <span className="flex gap-3">
+                  <Illum id={f.id} size={40} />
+                  <span>
+                    <span className="block text-lg font-bold">{f.name}</span>
+                    <span className="mt-1 block text-[0.95rem] text-ink-soft">{f.tagline}</span>
+                  </span>
                 </span>
-              </Link>
-            </li>
+              </GlowCard>
+            </motion.li>
           ))}
         </ul>
       </section>
+    </div>
 
-      <section className="mt-14 grid gap-x-10 gap-y-6 border-t border-rule pt-8 md:grid-cols-2">
-        {[
-          ['/compare', 'Compare views', 'Put two to four views side by side across fifteen topics. Agreement is colour-coded, and you can show only the differences.'],
-          ['/timelines', 'Watch the timelines diverge', 'Animated timelines from the Cross to the new creation. Overlay two and see exactly where they part ways.'],
-          ['/passages', 'Passage Lab', 'The texts the debate turns on, in public-domain translations, read from every position with support and objections.'],
-          ['/arena', 'Argument Arena', 'Claim, objection, rebuttal, counter-rebuttal, for the debates that matter, as a tree or as a graph.'],
-        ].map(([to, title, text]) => (
-          <Link key={to} to={to} className="group block text-ink no-underline">
-            <span className="block text-2xl group-hover:text-accent">{title}</span>
-            <span className="mt-1 block text-ink-soft">{text}</span>
-          </Link>
-        ))}
-      </section>
     </div>
   )
 }

@@ -48,7 +48,7 @@ export default function ArgGraph({ root, focus }: { root: ArgNode; focus: string
         data: {
           label: (
             <div style={{ textAlign: 'left' }}>
-              <div style={{ fontFamily: 'Alegreya Sans, sans-serif', fontSize: 11, fontWeight: 700, color: c.text }}>
+              <div style={{ fontSize: 11, fontWeight: 700, color: c.text }}>
                 {KIND[n.kind]}: {positionName(n.position, true)}
               </div>
               <div style={{ fontSize: 12.5, lineHeight: 1.3, display: '-webkit-box', WebkitLineClamp: 4, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{n.text}</div>
@@ -57,7 +57,7 @@ export default function ArgGraph({ root, focus }: { root: ArgNode; focus: string
         },
         style: {
           width: NODE_W,
-          fontFamily: 'Alegreya, serif',
+          
           background: 'var(--surface)',
           color: 'var(--ink)',
           borderRadius: 8,

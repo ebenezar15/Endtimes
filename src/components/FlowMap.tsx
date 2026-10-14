@@ -16,7 +16,7 @@ export default function FlowMap({ flow, trail }: { flow: Flowchart; trail: strin
         data: { label: n.question },
         style: {
           width: 240,
-          fontFamily: 'Alegreya, serif',
+          
           fontSize: 14,
           borderRadius: 8,
           borderWidth: trail.includes(n.id) ? 2.5 : 1,
@@ -31,7 +31,7 @@ export default function FlowMap({ flow, trail }: { flow: Flowchart; trail: strin
         data: { label: r.title },
         style: {
           width: 220,
-          fontFamily: 'Alegreya Sans, sans-serif',
+          
           fontWeight: 500,
           fontSize: 13,
           borderRadius: 999,
@@ -47,7 +47,7 @@ export default function FlowMap({ flow, trail }: { flow: Flowchart; trail: strin
         source: n.id,
         target: (o.next ?? o.result)!,
         label: o.label.length > 34 ? o.label.slice(0, 32) + '…' : o.label,
-        labelStyle: { fontFamily: 'Alegreya Sans, sans-serif', fontSize: 11, fill: 'var(--ink)' },
+        labelStyle: { fontSize: 11, fill: 'var(--ink)' },
         labelBgStyle: { fill: 'var(--bg)' },
         markerEnd: { type: MarkerType.ArrowClosed, color: 'var(--ink-soft)' },
         style: { stroke: 'var(--ink-soft)' },

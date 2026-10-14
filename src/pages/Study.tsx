@@ -115,10 +115,12 @@ function QuizRun({ set, onExit }: { set: QuizSet; onExit: () => void }) {
           const state = !answered ? '' : correct ? 'border-[color:var(--agree)] bg-[color:var(--agree)]/10' : k === choice ? 'border-rubric bg-rubric/10' : 'opacity-60'
           return (
             <li key={k}>
-              <button
+              <motion.button
                 type="button"
                 disabled={answered}
-                className={`btn w-full justify-start py-3 text-left text-base ${state}`}
+                animate={answered && correct ? { scale: [1, 1.03, 1] } : answered && k === choice ? { x: [0, -6, 6, -3, 0] } : {}}
+                transition={{ duration: 0.4 }}
+                className={`btn w-full justify-start py-3 text-left text-base disabled:opacity-100 ${state}`}
                 onClick={() => {
                   setChoice(k)
                   if (correct) setScore(score + 1)
@@ -127,7 +129,7 @@ function QuizRun({ set, onExit }: { set: QuizSet; onExit: () => void }) {
                 {answered && correct && <span aria-label="correct">✓</span>}
                 {answered && k === choice && !correct && <span aria-label="your answer, incorrect">✗</span>}
                 {o}
-              </button>
+              </motion.button>
             </li>
           )
         })}

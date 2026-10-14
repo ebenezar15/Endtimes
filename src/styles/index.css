@@ -1,82 +1,127 @@
 @import 'tailwindcss';
 
-@import '@fontsource/alegreya/400.css';
-@import '@fontsource/alegreya/500.css';
-@import '@fontsource/alegreya/700.css';
-@import '@fontsource/alegreya/400-italic.css';
-@import '@fontsource/alegreya-sans/400.css';
-@import '@fontsource/alegreya-sans/500.css';
-@import '@fontsource/alegreya-sans/700.css';
-@import '@fontsource/unifrakturmaguntia/400.css';
+@import '@fontsource/nunito-sans/latin-400.css';
+@import '@fontsource/nunito-sans/latin-600.css';
+@import '@fontsource/nunito-sans/latin-700.css';
+@import '@fontsource/nunito-sans/latin-800.css';
+@import '@fontsource/cormorant-garamond/latin-500-italic.css';
+@import '@fontsource/cormorant-garamond/latin-600.css';
 
-/* ---------- Theme tokens ---------------------------------------------------------- */
+/*
+ * Avenir Next is the house typeface (shared with Ecclesia Atlas). It ships with macOS and iOS but is
+ * a licensed font, so it cannot be bundled; everywhere else the app falls back to Nunito Sans, the
+ * closest open match. To self-host a licensed Avenir Next webfont, add @font-face rules for
+ * "Avenir Next" pointing at files in /public/fonts.
+ */
+
+/* ---------- Colour schemes: each has a light and a dark variant ----------------------
+ * Names come from the imagery of Revelation. Tokens:
+ *   bg/bg-2 page, surface/surface-2 cards, ink/ink-soft text, rule lines,
+ *   accent (+accent-ink on it), rubric (second accent), gold/gold-bright (gilding),
+ *   agree (matrix "agrees"), glow (r g b, for shadows and highlights).            */
 :root,
-[data-theme='vellum'] {
-  --agree: #2e6b4f;
-  --bg: #f2efe6;
-  --surface: #fbf9f3;
-  --surface-2: #e9e4d6;
-  --ink: #221c16;
-  --ink-soft: #594f42;
-  --rule: #cfc6b2;
-  --accent-base: #2f4fa0;
-  --gold: #785908;
-  --gold-bright: #c9a23a;
-  --rubric: #9b2c22;
-  --shadow: 32 24 10;
-  --grain-opacity: 0.35;
+[data-scheme='sea'] {
+  --bg: #edf4f5; --bg-2: #e1edef; --surface: #fbfefe; --surface-2: #e9f2f3;
+  --ink: #0f2328; --ink-soft: #46595e; --rule: #c6d9dc;
+  --accent-base: #0e6673; --rubric: #9c3d1b; --gold: #7a5c0c; --gold-bright: #c9a23a;
+  --agree: #2b6a3a; --glow: 14 102 115; --shadow: 10 40 48;
   color-scheme: light;
 }
-[data-theme='parchment'] {
-  --agree: #285e43;
-  --bg: #e8d9bc;
-  --surface: #f1e5cc;
-  --surface-2: #dccba8;
-  --ink: #2b1e12;
-  --ink-soft: #5a4430;
-  --rule: #bfa77e;
-  --accent-base: #2b4690;
-  --gold: #5f4506;
-  --gold-bright: #b8902a;
-  --rubric: #8e2a1e;
-  --shadow: 60 40 10;
-  --grain-opacity: 0.55;
+[data-scheme='sea'][data-theme='dark'] {
+  --bg: #061317; --bg-2: #0a1c21; --surface: #0e242a; --surface-2: #142f37;
+  --ink: #e3f1f2; --ink-soft: #a4bec2; --rule: #21434c;
+  --accent-base: #5cc8d4; --rubric: #f08a5d; --gold: #e3c065; --gold-bright: #e9c96f;
+  --agree: #86d3a8; --glow: 92 200 212; --shadow: 0 0 0;
+  color-scheme: dark;
+}
+
+[data-scheme='throne'] {
+  --bg: #f2f0f9; --bg-2: #e8e4f4; --surface: #fdfcff; --surface-2: #efebf8;
+  --ink: #1d1636; --ink-soft: #4f4870; --rule: #d7d0ea;
+  --accent-base: #4a2ea0; --rubric: #0d6e4c; --gold: #7d5f10; --gold-bright: #c9a23a;
+  --agree: #2b6a3a; --glow: 74 46 160; --shadow: 30 20 70;
   color-scheme: light;
 }
-[data-theme='night'] {
-  --agree: #86cfa8;
-  --bg: #121726;
-  --surface: #1a2033;
-  --surface-2: #242b42;
-  --ink: #ece6d8;
-  --ink-soft: #b9b1a0;
-  --rule: #353e58;
-  --accent-base: #9db4f0;
-  --gold: #d9b65a;
-  --gold-bright: #e7c868;
-  --rubric: #ea8a73;
-  --shadow: 0 0 0;
-  --grain-opacity: 0.12;
+[data-scheme='throne'][data-theme='dark'] {
+  --bg: #0c0a1b; --bg-2: #120f26; --surface: #181432; --surface-2: #211b42;
+  --ink: #eeeaff; --ink-soft: #b7afd8; --rule: #322a5c;
+  --accent-base: #b9a6ff; --rubric: #5fd3a3; --gold: #e6c262; --gold-bright: #ecca6c;
+  --agree: #86d3a8; --glow: 185 166 255; --shadow: 0 0 0;
   color-scheme: dark;
 }
-[data-theme='contrast'] {
-  --agree: #7cffb2;
-  --bg: #000000;
-  --surface: #000000;
-  --surface-2: #1c1c1c;
-  --ink: #ffffff;
-  --ink-soft: #f2f2f2;
-  --rule: #ffffff;
-  --accent-base: #ffe14d;
-  --gold: #ffe14d;
-  --gold-bright: #ffe14d;
-  --rubric: #ff9a8f;
-  --shadow: 0 0 0;
-  --grain-opacity: 0;
+
+[data-scheme='dawn'] {
+  --bg: #fbf1ec; --bg-2: #f6e4dc; --surface: #fffaf7; --surface-2: #f8eae3;
+  --ink: #2e1712; --ink-soft: #6a4a40; --rule: #ebd2c7;
+  --accent-base: #a83a24; --rubric: #34489a; --gold: #7f5a0c; --gold-bright: #cf9d34;
+  --agree: #2b6a3a; --glow: 168 58 36; --shadow: 70 30 20;
+  color-scheme: light;
+}
+[data-scheme='dawn'][data-theme='dark'] {
+  --bg: #130b13; --bg-2: #1b101b; --surface: #231523; --surface-2: #2e1c2d;
+  --ink: #fbeaf0; --ink-soft: #d0b0bc; --rule: #48283f;
+  --accent-base: #ff9b7a; --rubric: #a6b4ff; --gold: #f0c060; --gold-bright: #f4c86a;
+  --agree: #86d3a8; --glow: 255 155 122; --shadow: 0 0 0;
   color-scheme: dark;
 }
+
+[data-scheme='tree'] {
+  --bg: #eef3ea; --bg-2: #e3ebdd; --surface: #fbfdf8; --surface-2: #ebf2e6;
+  --ink: #142519; --ink-soft: #485c4c; --rule: #ccdac6;
+  --accent-base: #2b6638; --rubric: #8c2f55; --gold: #725a12; --gold-bright: #c4a03c;
+  --agree: #2b6a3a; --glow: 43 102 56; --shadow: 20 45 25;
+  color-scheme: light;
+}
+[data-scheme='tree'][data-theme='dark'] {
+  --bg: #08130c; --bg-2: #0d1b12; --surface: #11241a; --surface-2: #183022;
+  --ink: #e6f2e7; --ink-soft: #a9c3ad; --rule: #264532;
+  --accent-base: #7fd394; --rubric: #f08cb6; --gold: #dcbc5e; --gold-bright: #e3c468;
+  --agree: #86d3a8; --glow: 127 211 148; --shadow: 0 0 0;
+  color-scheme: dark;
+}
+
+/* Sepia / parchment: the sealed scroll. */
+[data-scheme='scroll'] {
+  --bg: #efe4cc; --bg-2: #e6d7b6; --surface: #f8efda; --surface-2: #ecdfc1;
+  --ink: #2a1d10; --ink-soft: #594430; --rule: #ccb68b;
+  --accent-base: #7a2c18; --rubric: #2a4868; --gold: #644a07; --gold-bright: #b8902a;
+  --agree: #285e3a; --glow: 122 44 24; --shadow: 60 40 10;
+  color-scheme: light;
+}
+[data-scheme='scroll'][data-theme='dark'] {
+  --bg: #16100a; --bg-2: #1e160d; --surface: #261c11; --surface-2: #312417;
+  --ink: #f4e8d2; --ink-soft: #ccb895; --rule: #4a3824;
+  --accent-base: #eba274; --rubric: #94b8de; --gold: #e0bb66; --gold-bright: #e6c26e;
+  --agree: #86d3a8; --glow: 235 162 116; --shadow: 0 0 0;
+  color-scheme: dark;
+}
+
+/* Brass on stone: the seven golden lampstands. */
+[data-scheme='lampstand'] {
+  --bg: #f3f1ec; --bg-2: #e9e6de; --surface: #fdfcf9; --surface-2: #efece4;
+  --ink: #1d1b16; --ink-soft: #545047; --rule: #d6d1c4;
+  --accent-base: #7c5100; --rubric: #1f4e78; --gold: #6f5100; --gold-bright: #c99a2e;
+  --agree: #2b6a3a; --glow: 124 81 0; --shadow: 40 35 20;
+  color-scheme: light;
+}
+[data-scheme='lampstand'][data-theme='dark'] {
+  --bg: #0d0c0a; --bg-2: #141310; --surface: #1b1915; --surface-2: #24221c;
+  --ink: #f1ece0; --ink-soft: #bdb5a2; --rule: #39352b;
+  --accent-base: #f2b84b; --rubric: #84b8ea; --gold: #f2c45a; --gold-bright: #f4ca64;
+  --agree: #86d3a8; --glow: 242 184 75; --shadow: 0 0 0;
+  color-scheme: dark;
+}
+
+/* High contrast overrides any scheme (extra attribute selectors outrank the scheme rules). */
+[data-contrast='high'][data-scheme][data-theme] {
+  --bg: #000000; --bg-2: #000000; --surface: #000000; --surface-2: #1a1a1a;
+  --ink: #ffffff; --ink-soft: #f2f2f2; --rule: #ffffff;
+  --accent-base: #ffe14d; --rubric: #ff9a8f; --gold: #ffe14d; --gold-bright: #ffe14d;
+  --agree: #7cffb2; --glow: 255 225 77; --shadow: 0 0 0;
+  color-scheme: dark;
+}
+
 :root {
-  /* --accent is set at runtime from the user's accent (contrast-checked); falls back to theme. */
   --accent: var(--accent-user, var(--accent-base));
   --accent-ink: var(--accent-ink-user, #ffffff);
   --font-scale: 1;
@@ -84,6 +129,7 @@
 
 @theme inline {
   --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
   --color-ink: var(--ink);
@@ -94,11 +140,11 @@
   --color-gold: var(--gold);
   --color-gold-bright: var(--gold-bright);
   --color-rubric: var(--rubric);
-  --font-serif: 'Alegreya', 'Iowan Old Style', Georgia, serif;
-  --font-sans: 'Alegreya Sans', 'Gill Sans', system-ui, sans-serif;
-  --font-initial: 'UnifrakturMaguntia', 'Alegreya', serif;
+  --font-sans: 'Avenir Next', 'AvenirNext', 'Avenir Next LT Pro', 'Avenir', 'Nunito Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
 }
 
+@layer base {
 /* ---------- Base ------------------------------------------------------------------- */
 html {
   font-size: calc(100% * var(--font-scale));
@@ -107,37 +153,31 @@ html {
 body {
   margin: 0;
   background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse at 15% -10%, rgb(var(--glow) / 0.12), transparent 55%),
+    radial-gradient(ellipse at 95% 110%, rgb(var(--glow) / 0.1), transparent 50%);
+  background-attachment: fixed;
   color: var(--ink);
-  font-family: var(--font-serif);
-  font-size: 1.0625rem;
-  line-height: 1.62;
-  font-feature-settings: 'kern', 'liga', 'onum';
-  text-rendering: optimizeLegibility;
-}
-/* Vellum grain: an inline SVG noise, very faint. */
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  opacity: var(--grain-opacity);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .36 0 0 0 0 .2 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.65;
+  font-feature-settings: 'kern', 'liga';
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 #root {
   position: relative;
-  z-index: 1;
 }
 ::selection {
-  background: color-mix(in srgb, var(--gold-bright) 45%, transparent);
+  background: rgb(var(--glow) / 0.28);
 }
 #main:focus-visible {
   outline: none;
 }
 :focus-visible {
-  outline: 3px solid var(--accent);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
-  border-radius: 3px;
+  border-radius: 6px;
 }
 a {
   color: var(--accent);
@@ -148,118 +188,123 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: var(--font-serif);
-  font-weight: 500;
-  line-height: 1.15;
-  letter-spacing: -0.005em;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
   text-wrap: balance;
 }
 p {
   text-wrap: pretty;
 }
 
-/* ---------- Manuscript devices ------------------------------------------------------ */
+}
 
-/* Illuminated initial: a blackletter capital on a gilded, ruled square. */
+@layer components {
+/* ---------- Devices ------------------------------------------------------------------ */
+
+/* Illuminated badge: a position's initial in Cormorant on its colour. */
 .illum {
   display: inline-grid;
   place-items: center;
-  font-family: var(--font-initial);
-  color: var(--surface);
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: #fff;
   background:
-    radial-gradient(circle at 30% 25%, color-mix(in srgb, white 30%, transparent), transparent 55%),
-    var(--illum-color, var(--rubric));
-  border: 2px solid var(--gold-bright);
+    radial-gradient(circle at 30% 20%, rgb(255 255 255 / 0.28), transparent 60%),
+    var(--illum-color, var(--accent));
+  border-radius: 28%;
   box-shadow:
-    inset 0 0 0 2px var(--illum-color, var(--rubric)),
-    inset 0 0 0 3px color-mix(in srgb, var(--gold-bright) 70%, transparent);
-  border-radius: 4px;
+    inset 0 0 0 1.5px rgb(255 255 255 / 0.25),
+    0 6px 16px -8px var(--illum-color, var(--accent));
   line-height: 1;
   user-select: none;
 }
-[data-theme='contrast'] .illum {
+[data-contrast='high'] .illum {
   color: #000 !important;
   background: var(--gold);
   box-shadow: none;
 }
 
-/* Drop cap on the first paragraph of long prose. */
 .dropcap::first-letter {
-  font-family: var(--font-initial);
+  font-family: var(--font-serif);
   float: left;
-  font-size: 3.6em;
+  font-size: 3.4em;
   line-height: 0.85;
-  padding: 0.06em 0.12em 0 0;
-  color: var(--rubric);
+  padding: 0.08em 0.12em 0 0;
+  color: var(--accent);
+  font-weight: 600;
 }
 
-/* Rubricated rule: double hairline with a gilt lozenge at center. */
 .rubric-rule {
-  position: relative;
-  height: 7px;
-  border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
+  height: 1px;
+  border: 0;
+  background: linear-gradient(90deg, transparent, var(--gold-bright), transparent);
 }
-.rubric-rule::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 9px;
-  height: 9px;
-  background: var(--gold-bright);
-  transform: translate(-50%, -50%) rotate(45deg);
+
+.text-gradient {
+  background: linear-gradient(100deg, var(--accent), var(--gold-bright) 45%, var(--rubric));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+[data-contrast='high'] .text-gradient {
+  background: none;
+  color: var(--accent);
 }
 
 .prose-measure {
   max-width: 70ch;
 }
 
-/* Card surface: a leaf of vellum with a faint deckle. */
 .leaf {
   background: var(--surface);
   border: 1px solid var(--rule);
-  border-radius: 6px;
-  box-shadow: 0 1px 0 rgb(var(--shadow) / 0.06), 0 8px 24px -16px rgb(var(--shadow) / 0.35);
+  border-radius: 1rem;
+  box-shadow: 0 1px 0 rgb(var(--shadow) / 0.04), 0 10px 30px -22px rgb(var(--shadow) / 0.45);
 }
 
 .chip {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  font-family: var(--font-sans);
-  font-size: 0.8125rem;
+  font-size: 0.78rem;
+  font-weight: 600;
   line-height: 1.2;
-  padding: 0.25rem 0.6rem;
+  padding: 0.25rem 0.65rem;
   border-radius: 999px;
   border: 1px solid var(--rule);
-  background: var(--surface);
+  background: var(--surface-2);
   color: var(--ink);
+  white-space: nowrap;
 }
 
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.4rem;
-  font-family: var(--font-sans);
-  font-weight: 500;
-  font-size: 0.9375rem;
+  gap: 0.45rem;
+  font-weight: 600;
+  font-size: 0.9rem;
   min-height: 2.5rem;
   padding: 0.45rem 1rem;
-  border-radius: 6px;
+  border-radius: 0.75rem;
   border: 1px solid var(--rule);
   background: var(--surface);
   color: var(--ink);
   cursor: pointer;
-  transition: background-color 0.15s, border-color 0.15s;
+  transition: transform 0.15s ease, background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
 }
 .btn:hover {
   border-color: var(--accent);
+  box-shadow: 0 4px 18px -8px rgb(var(--glow) / 0.6);
+}
+.btn:active {
+  transform: translateY(1px) scale(0.98);
 }
 .btn-primary {
   background: var(--accent);
-  border-color: var(--accent);
+  border-color: transparent;
   color: var(--accent-ink);
 }
 .btn-primary:hover {
@@ -271,15 +316,18 @@ p {
   border-color: var(--accent);
   color: var(--accent-ink);
 }
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
 
 .ui {
   font-family: var(--font-sans);
 }
 
-/* Glossary term inline trigger */
 .gloss {
   text-decoration: underline dotted;
-  text-decoration-color: var(--gold);
+  text-decoration-color: var(--gold-bright);
   text-underline-offset: 0.2em;
   text-decoration-thickness: 1.5px;
   cursor: help;
@@ -293,13 +341,56 @@ p {
 .scroll-x {
   overflow-x: auto;
   scrollbar-width: thin;
+  scrollbar-color: var(--rule) transparent;
+}
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule) transparent;
+}
+
+/* Glow card: a radial highlight follows the pointer (set by GlowCard). */
+.glow-card {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.glow-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s;
+  background: radial-gradient(360px circle at var(--mx, 50%) var(--my, 50%), rgb(var(--glow) / 0.16), transparent 60%);
+}
+.glow-card:hover::before {
+  opacity: 1;
+}
+
+}
+
+@keyframes shimmer {
+  from {
+    background-position: -200% 0;
+  }
+  to {
+    background-position: 200% 0;
+  }
+}
+.shimmer {
+  background: linear-gradient(90deg, transparent, rgb(var(--glow) / 0.25), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2.4s linear infinite;
 }
 
 /* Rota (home map) animations, in CSS so they stay off the main thread. */
 .rota-seg {
   transform-origin: 300px 300px;
-  transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease, transform 0.25s ease;
   animation: rota-in 0.6s ease-out both;
+}
+.rota-seg:hover {
+  transform: scale(1.025);
 }
 @keyframes rota-in {
   from {
@@ -319,7 +410,6 @@ p {
     stroke-dashoffset: 0;
   }
 }
-/* Dashed cords (occasional / rare pairings) fade in and keep their pattern. */
 .rota-thread-dashed {
   animation: rota-fade 0.6s ease-out both;
   stroke-dasharray: var(--dash);
@@ -329,15 +419,25 @@ p {
     opacity: 0;
   }
 }
+.rota-spin {
+  transform-origin: 300px 300px;
+  animation: rota-spin 120s linear infinite;
+}
+@keyframes rota-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* The in-app "Reduce motion" setting, mirroring the OS preference below. */
 [data-motion='reduce'] *,
 [data-motion='reduce'] *::before,
 [data-motion='reduce'] *::after {
   animation-duration: 0.001ms !important;
   animation-delay: 0s !important;
+  animation-iteration-count: 1 !important;
   transition-duration: 0.001ms !important;
 }
-
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -347,6 +447,13 @@ p {
     transition-duration: 0.001ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* View-transition theme swap: circular reveal from the click point */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
 }
 
 .sr-only {
@@ -373,6 +480,9 @@ p {
   --xy-controls-button-border-color: var(--rule);
   --xy-minimap-background-color: var(--surface-2);
   --xy-attribution-background-color: transparent;
+}
+.react-flow__controls {
+  box-shadow: none !important;
 }
 .react-flow__controls-button svg {
   fill: var(--ink);

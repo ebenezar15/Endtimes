@@ -4,6 +4,7 @@ import { Illum, PositionChip } from '../components/Badge'
 import { Prose, Gloss } from '../components/Gloss'
 import { LensCompare } from '../components/LensCompare'
 import { BookmarkButton, NoteBox } from '../components/Notes'
+import { CompareToggle } from '../components/CompareToggle'
 import { Refs } from '../components/Refs'
 import { Sources } from '../components/Sources'
 import { cell, content, positionsById, scholarIndex, stanceLabel, topicsById } from '../lib/content'
@@ -43,7 +44,10 @@ export default function PositionPage() {
           <h1 className="text-4xl md:text-5xl">{p.name}</h1>
           <p className="mt-1 text-xl italic text-ink-soft">{p.tagline}</p>
         </div>
-        <BookmarkButton k={k} label={p.name} />
+        <div className="flex gap-2">
+          {p.axis !== 'framework' && <CompareToggle id={p.id} className="min-h-10 text-sm" />}
+          <BookmarkButton k={k} label={p.name} />
+        </div>
       </header>
       <div className="mt-2 h-1.5 max-w-md rounded-full" style={{ background: c.base }} aria-hidden />
 

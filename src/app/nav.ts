@@ -1,13 +1,15 @@
-export const NAV = [
-  { to: '/', label: 'Overview', hint: 'The map of every view' },
-  { to: '/positions', label: 'Positions', hint: 'Each view in depth' },
-  { to: '/fit', label: 'Which view fits me?', hint: 'A guided decision tree' },
-  { to: '/compare', label: 'Compare', hint: 'Side-by-side matrix' },
-  { to: '/timelines', label: 'Timelines', hint: 'From the Cross to the new creation' },
-  { to: '/passages', label: 'Passage Lab', hint: 'Key texts, read every way' },
-  { to: '/arena', label: 'Argument Arena', hint: 'Claims, objections, rebuttals' },
-  { to: '/library', label: 'Debates & Library', hint: 'Books, debates, scholars' },
-  { to: '/glossary', label: 'Glossary', hint: 'Every technical term' },
-  { to: '/study', label: 'Study', hint: 'Quizzes, flashcards, notes' },
-  { to: '/settings', label: 'Settings', hint: 'Theme, My View lens, colours' },
-] as const
+import type { IconName } from '../components/Icon'
+
+export const NAV: { to: string; label: string; icon: IconName; group: string }[] = [
+  { to: '/', label: 'The Road to the End', icon: 'omega', group: 'Explore' },
+  { to: '/positions', label: 'Positions', icon: 'crown', group: 'Explore' },
+  { to: '/timelines', label: 'Timelines', icon: 'timeline', group: 'Explore' },
+  { to: '/fit', label: 'Which view fits me?', icon: 'fork', group: 'Explore' },
+  { to: '/compare', label: 'Compare', icon: 'layers', group: 'Think' },
+  { to: '/arena', label: 'Argument Arena', icon: 'scales', group: 'Think' },
+  { to: '/passages', label: 'Passage Lab', icon: 'scroll', group: 'Read' },
+  { to: '/library', label: 'Debates & Library', icon: 'library', group: 'Read' },
+  { to: '/glossary', label: 'Glossary', icon: 'book', group: 'Read' },
+  { to: '/study', label: 'Study', icon: 'cap', group: 'Learn' },
+  { to: '/settings', label: 'Settings', icon: 'settings', group: 'Learn' },
+]

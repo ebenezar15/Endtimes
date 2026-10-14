@@ -1,7 +1,7 @@
 import { lazy, Suspense, useEffect } from 'react'
 import { HashRouter, Route, Routes, useLocation } from 'react-router-dom'
 import { MotionConfig } from 'framer-motion'
-import { Shell } from './Shell'
+import { PageLoader, Shell } from './Shell'
 import { useReducedMotion, useThemeEffect } from '../lib/theme'
 import Home from '../pages/Home'
 
@@ -37,7 +37,7 @@ export function App() {
       <HashRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <ScrollToTop />
         <Shell>
-          <Suspense fallback={<p className="ui p-8 text-ink-soft">Opening…</p>}>
+          <Suspense fallback={<PageLoader />}>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/positions" element={<Positions />} />

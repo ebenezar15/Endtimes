@@ -1,4 +1,5 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
+import { AnimatePresence, motion } from 'framer-motion'
 import { Link, useParams } from 'react-router-dom'
 import { PositionChip } from '../components/Badge'
 import { Gloss } from '../components/Gloss'
@@ -48,13 +49,15 @@ function NodeView({ n, depth, focus }: { n: ArgNode; depth: number; focus: strin
           </button>
         )}
       </div>
-      {open && n.children.length > 0 && (
-        <ul className="mt-3 space-y-3">
-          {n.children.map((c) => (
-            <NodeView key={c.id} n={c} depth={depth + 1} focus={focus} />
-          ))}
-        </ul>
-      )}
+      <AnimatePresence initial={false}>
+        {open && n.children.length > 0 && (
+          <motion.ul className="mt-3 space-y-3 overflow-hidden" initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.3, ease: [0.4, 0, 0.2, 1] }}>
+            {n.children.map((c) => (
+              <NodeView key={c.id} n={c} depth={depth + 1} focus={focus} />
+            ))}
+          </motion.ul>
+        )}
+      </AnimatePresence>
     </li>
   )
 }

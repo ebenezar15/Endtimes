@@ -32,7 +32,7 @@ function preloadFonts(): Plugin {
     transformIndexHtml: {
       order: 'post',
       handler(_html, ctx) {
-        const files = Object.keys(ctx.bundle ?? {}).filter((f) => /alegreya(-sans)?-latin-(400|500)-normal.*\.woff2$/.test(f))
+        const files = Object.keys(ctx.bundle ?? {}).filter((f) => /(nunito-sans-latin-(400|700)-normal|cormorant-garamond-latin-600-normal).*\.woff2$/.test(f))
         const tags: { tag: string; injectTo: 'head'; attrs?: Record<string, string>; children?: string }[] = files.map((f) => ({
           tag: 'link',
           injectTo: 'head',
@@ -66,8 +66,8 @@ export default defineConfig({
         name: 'Last Things — A Study of Christian Eschatology',
         short_name: 'Last Things',
         description: 'Compare the major Christian views of the end times: positions, passages, arguments and timelines.',
-        theme_color: '#1f2d5c',
-        background_color: '#f2efe6',
+        theme_color: '#0e6673',
+        background_color: '#edf4f5',
         display: 'standalone',
         start_url: '.',
         icons: [

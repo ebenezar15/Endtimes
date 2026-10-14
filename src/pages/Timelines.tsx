@@ -93,7 +93,7 @@ function Track({
             style={{ transformOrigin: `${x(e.at)}px ${y}px` }}
           >
             <rect x={x(e.at)} y={y - 8} width={Math.max(6, x(e.end!) - x(e.at))} height={16} rx={8} fill={color.soft} stroke={sel || mark.has(e.milestone) ? 'var(--ink)' : color.base} strokeWidth={sel ? 2.5 : mark.has(e.milestone) ? 1.8 : 1.2} />
-            <text x={lx} y={y + 4} textAnchor={anchor} fontSize={12} fontWeight={mark.has(e.milestone) ? 700 : 400} fontFamily="Alegreya Sans, sans-serif" fill="var(--ink)">
+            <text x={lx} y={y + 4} textAnchor={anchor} fontSize={12} fontWeight={mark.has(e.milestone) ? 700 : 400} fill="var(--ink)">
               {e.label}
             </text>
           </motion.g>
@@ -118,7 +118,7 @@ function Track({
           >
             <line x1={px} x2={px} y1={0} y2={y} stroke={color.base} strokeWidth={1} strokeDasharray="2 3" />
             <rect x={px - 6} y={-6} width={12} height={12} transform={`rotate(45 ${px} 0)`} fill={sel ? 'var(--ink)' : color.base} stroke="var(--gold-bright)" strokeWidth={1.5} />
-            <text x={lx} y={y + (flip ? 12 : -2)} textAnchor={anchor} fontSize={12.5} fontFamily="Alegreya Sans, sans-serif" fontWeight={sel || mark.has(e.milestone) ? 700 : 500} fill={sel ? 'var(--accent)' : 'var(--ink)'}>
+            <text x={lx} y={y + (flip ? 12 : -2)} textAnchor={anchor} fontSize={12.5} fontWeight={sel || mark.has(e.milestone) ? 700 : 500} fill={sel ? 'var(--accent)' : 'var(--ink)'}>
               {e.label}
             </text>
           </motion.g>
@@ -220,7 +220,7 @@ export default function Timelines() {
               <g key={t.at}>
                 <line x1={x(t.at)} x2={x(t.at)} y1={-5} y2={5} stroke="var(--ink-soft)" />
                 {!tb && (
-                  <text x={x(t.at)} y={24} textAnchor={t.at === 0 ? 'start' : t.at === 100 ? 'end' : 'middle'} fontSize={12} fontFamily="Alegreya Sans, sans-serif" fill="var(--ink-soft)">
+                  <text x={x(t.at)} y={24} textAnchor={t.at === 0 ? 'start' : t.at === 100 ? 'end' : 'middle'} fontSize={12} fill="var(--ink-soft)">
                     {t.label}
                   </text>
                 )}
@@ -230,7 +230,7 @@ export default function Timelines() {
               <g transform="translate(0 46)">
                 <line x1={x(0)} x2={x(100)} y1={0} y2={0} stroke="var(--rule)" strokeWidth={1} />
                 {ERA_TICKS.map((t) => (
-                  <text key={t.at} x={x(t.at)} y={-28} textAnchor={t.at === 0 ? 'start' : t.at === 100 ? 'end' : 'middle'} fontSize={11.5} fontFamily="Alegreya Sans, sans-serif" fill="var(--ink-soft)">
+                  <text key={t.at} x={x(t.at)} y={-28} textAnchor={t.at === 0 ? 'start' : t.at === 100 ? 'end' : 'middle'} fontSize={11.5} fill="var(--ink-soft)">
                     {t.label}
                   </text>
                 ))}

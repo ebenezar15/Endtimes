@@ -64,6 +64,11 @@ export function generateContent(opts: { partial?: boolean } = {}) {
     positions: b.positions.map(({ id, name, shortName, axis, color, initial, tagline, summary }) => ({ id, name, shortName, axis, color, initial, tagline, summary })),
     combinations: b.combinations,
     tour: b.tour,
+    timelines: b.timelines.map((t) => ({ position: t.position, events: t.events.map(({ id, milestone, label, at, end }) => ({ id, milestone, label, at, end })) })),
+    counts: {
+      positions: b.positions.length, topics: b.topics.length, passages: b.passages.length, arguments: b.arguments.length,
+      scholars: b.scholars.length, glossary: b.glossary.length, sources: b.sources.length, library: b.library.length,
+    },
   })
   return { bundle, errors }
 }

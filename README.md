@@ -4,10 +4,15 @@ An interactive, even-handed study app for the major Christian views of the end t
 It covers what each view believes, how the views differ and agree, the Scriptures each relies on,
 the arguments and counter-arguments, and the debates and scholars behind them.
 
-The design follows an illuminated manuscript: vellum and parchment themes, blackletter initials,
-gilt rules. The home page is a medieval-style *rota* (wheel diagram). Its inner ring holds the
-four millennial views, its outer ring the six ways of reading Revelation, and gilded cords
-between them mark the common pairings.
+The design shares a family resemblance with its sister project, **Ecclesia Atlas** (church history).
+It uses Avenir Next type, switchable colour schemes with light and dark modes, an icon sidebar, and a
+scroll-driven opening scene.
+
+- **The Road to the End** (home): scroll to move a playhead from the Cross to the new creation. Ten
+  lanes, one per view, draw themselves and light up their events as you pass, so you watch the
+  views diverge.
+- **The map of the debate**: a medieval-style *rota* (wheel). Its inner ring holds the four millennial
+  views, its outer ring the six ways of reading Revelation, and gold cords mark the common pairings.
 
 ## Features
 
@@ -23,7 +28,8 @@ between them mark the common pairings.
 | **Debates & Library** | Multi-view books, public debates and key works; 74 scholar profiles; the full sources registry. |
 | **Glossary** | 90 terms. Every term in the app's prose has a hover, focus or tap definition. |
 | **Study** | Quizzes (14 sets), spaced-repetition flashcards (14 decks), progress tracking, bookmarks, pinned notes, a Markdown export of notes, and fuzzy search (Ctrl K or /). |
-| **Themes** | Vellum (light), Parchment (sepia), Night office (dark) and High contrast. Also a custom accent (auto-corrected to WCAG AA), text size, reduced motion, and configurable position colours. |
+| **Themes** | Six colour schemes named from Revelation's imagery: Sea of Glass, Throne Room, Morning Star, Tree of Life, Sealed Scroll (sepia) and Lampstands. Each has a light and a dark mode (or follows the system), and the switch animates as a circular reveal. There is also a High contrast mode, a custom accent (auto-corrected to WCAG AA), text size, reduced motion and configurable position colours. Type: Avenir Next where installed (macOS, iOS), with Nunito Sans as the open fallback. |
+| **Compare tray** | Add positions to a floating tray from any position card or page, then compare them in one tap. |
 | **My View lens** | Defaults to Postmillennial + Partial Preterist and can be set to any pair. It highlights your view and changes no content. |
 
 The app is an installable, offline-capable PWA. All settings, notes and progress stay on the device
