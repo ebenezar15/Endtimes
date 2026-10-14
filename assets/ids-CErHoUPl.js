@@ -1,0 +1,1 @@
+const a=["millennium","satan-binding","first-resurrection","second-coming","rapture","great-tribulation","antichrist","olivet-generation","seventy-weeks","revelation-date","israel","optimism","kingdom","final-judgment","church-history"];function r(i,t,e){t(i,e),i.children.forEach(n=>r(n,t,i))}export{a as T,r as w};
