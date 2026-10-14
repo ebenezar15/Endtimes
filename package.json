@@ -2,7 +2,7 @@
   "name": "last-things",
   "private": true,
   "version": "1.0.0",
-  "description": "Last Things \u2014 an interactive study of Christian eschatology",
+  "description": "Last Things — an interactive study of Christian eschatology",
   "type": "module",
   "scripts": {
     "bible": "node scripts/build-bible.mjs",
@@ -19,6 +19,8 @@
     "@fontsource/alegreya": "^5.3.0",
     "@fontsource/alegreya-sans": "^5.3.0",
     "@fontsource/unifrakturmaguntia": "^5.3.0",
+    "@neon/config": "^1.9.1",
+    "@neon/env": "^1.6.2",
     "@xyflow/react": "^12.12.0",
     "d3-scale": "^4.0.2",
     "d3-shape": "^3.2.0",
