@@ -1,0 +1,422 @@
+[
+  {
+    "id": "gentry-he-shall-have-dominion",
+    "title": "He Shall Have Dominion: A Postmillennial Eschatology",
+    "author": "Kenneth L. Gentry Jr.",
+    "camp": "postmil",
+    "type": "book",
+    "year": "1992",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "gentry-before-jerusalem-fell",
+    "title": "Before Jerusalem Fell: Dating the Book of Revelation",
+    "author": "Kenneth L. Gentry Jr.",
+    "camp": "partial-preterism",
+    "type": "book",
+    "year": "1989",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "boettner-millennium",
+    "title": "The Millennium",
+    "author": "Loraine Boettner",
+    "camp": "postmil",
+    "type": "book",
+    "year": "1957",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "murray-puritan-hope",
+    "title": "The Puritan Hope: Revival and the Interpretation of Prophecy",
+    "author": "Iain H. Murray",
+    "camp": "postmil",
+    "type": "book",
+    "year": "1971",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "mathison-postmillennialism",
+    "title": "Postmillennialism: An Eschatology of Hope",
+    "author": "Keith A. Mathison",
+    "camp": "postmil",
+    "type": "book",
+    "year": "1999",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "mathison-when-shall",
+    "title": "When Shall These Things Be? A Reformed Response to Hyper-Preterism",
+    "author": "Keith A. Mathison (ed.)",
+    "camp": "critic",
+    "type": "book",
+    "year": "2004",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "bahnsen-victory-in-jesus",
+    "title": "Victory in Jesus: The Bright Hope of Postmillennialism",
+    "author": "Greg L. Bahnsen",
+    "camp": "postmil",
+    "type": "book",
+    "year": "1999",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "warfield-millennium-apocalypse",
+    "title": "The Millennium and the Apocalypse (essay, Princeton Theological Review)",
+    "author": "B. B. Warfield",
+    "camp": "postmil",
+    "type": "article",
+    "year": "1904",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "edwards-history-redemption",
+    "title": "A History of the Work of Redemption",
+    "author": "Jonathan Edwards",
+    "camp": "postmil",
+    "type": "primary",
+    "year": "1774",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "sproul-last-days",
+    "title": "The Last Days According to Jesus",
+    "author": "R. C. Sproul",
+    "camp": "partial-preterism",
+    "type": "book",
+    "year": "1998",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "demar-last-days-madness",
+    "title": "Last Days Madness",
+    "author": "Gary DeMar",
+    "camp": "partial-preterism",
+    "type": "book",
+    "year": "1991",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "wright-jesus-victory",
+    "title": "Jesus and the Victory of God",
+    "author": "N. T. Wright",
+    "camp": "partial-preterism",
+    "type": "book",
+    "year": "1996",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "hoekema-bible-future",
+    "title": "The Bible and the Future",
+    "author": "Anthony A. Hoekema",
+    "camp": "amil",
+    "type": "book",
+    "year": "1979",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "riddlebarger-case-amil",
+    "title": "A Case for Amillennialism: Understanding the End Times",
+    "author": "Kim Riddlebarger",
+    "camp": "amil",
+    "type": "book",
+    "year": "2003",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "storms-kingdom-come",
+    "title": "Kingdom Come: The Amillennial Alternative",
+    "author": "Sam Storms",
+    "camp": "amil",
+    "type": "book",
+    "year": "2013",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "beale-revelation-nigtc",
+    "title": "The Book of Revelation (NIGTC)",
+    "author": "G. K. Beale",
+    "camp": "eclectic",
+    "type": "book",
+    "year": "1999",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "vos-pauline-eschatology",
+    "title": "The Pauline Eschatology",
+    "author": "Geerhardus Vos",
+    "camp": "amil",
+    "type": "book",
+    "year": "1930",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "augustine-city-of-god",
+    "title": "The City of God, Book XX",
+    "author": "Augustine of Hippo",
+    "camp": "amil",
+    "type": "primary",
+    "year": "426",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "hendriksen-more-than-conquerors",
+    "title": "More Than Conquerors: An Interpretation of the Book of Revelation",
+    "author": "William Hendriksen",
+    "camp": "idealism",
+    "type": "book",
+    "year": "1940",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "ladd-blessed-hope",
+    "title": "The Blessed Hope",
+    "author": "George Eldon Ladd",
+    "camp": "histpremil",
+    "type": "book",
+    "year": "1956",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "ladd-commentary-revelation",
+    "title": "A Commentary on the Revelation of John",
+    "author": "George Eldon Ladd",
+    "camp": "histpremil",
+    "type": "book",
+    "year": "1972",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "clouse-meaning-millennium",
+    "title": "The Meaning of the Millennium: Four Views",
+    "author": "Robert G. Clouse (ed.)",
+    "camp": "multi",
+    "type": "book",
+    "year": "1977",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "bock-three-views",
+    "title": "Three Views on the Millennium and Beyond",
+    "author": "Darrell L. Bock (ed.)",
+    "camp": "multi",
+    "type": "book",
+    "year": "1999",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "gregg-revelation-four-views",
+    "title": "Revelation: Four Views (revised and updated)",
+    "author": "Steve Gregg",
+    "camp": "multi",
+    "type": "book",
+    "year": "2013",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "pate-four-views-revelation",
+    "title": "Four Views on the Book of Revelation",
+    "author": "C. Marvin Pate (ed.)",
+    "camp": "multi",
+    "type": "book",
+    "year": "1998",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "gentry-ice-great-tribulation",
+    "title": "The Great Tribulation: Past or Future? Two Evangelicals Debate the Question",
+    "author": "Thomas Ice and Kenneth L. Gentry Jr.",
+    "camp": "multi",
+    "type": "book",
+    "year": "1999",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "hultberg-three-views-rapture",
+    "title": "Three Views on the Rapture: Pretribulation, Prewrath, or Posttribulation",
+    "author": "Alan Hultberg (ed.)",
+    "camp": "multi",
+    "type": "book",
+    "year": "2010",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "ryrie-dispensationalism",
+    "title": "Dispensationalism (revised and expanded)",
+    "author": "Charles C. Ryrie",
+    "camp": "dispensationalism",
+    "type": "book",
+    "year": "1995",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "walvoord-millennial-kingdom",
+    "title": "The Millennial Kingdom",
+    "author": "John F. Walvoord",
+    "camp": "disppremil",
+    "type": "book",
+    "year": "1959",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "pentecost-things-to-come",
+    "title": "Things to Come: A Study in Biblical Eschatology",
+    "author": "J. Dwight Pentecost",
+    "camp": "disppremil",
+    "type": "book",
+    "year": "1958",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "blaising-bock-progressive",
+    "title": "Progressive Dispensationalism",
+    "author": "Craig A. Blaising and Darrell L. Bock",
+    "camp": "dispensationalism",
+    "type": "book",
+    "year": "1993",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "elliott-horae",
+    "title": "Horae Apocalypticae",
+    "author": "E. B. Elliott",
+    "camp": "historicism",
+    "type": "book",
+    "year": "1844",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "barnes-notes-revelation",
+    "title": "Notes on the Book of Revelation",
+    "author": "Albert Barnes",
+    "camp": "historicism",
+    "type": "book",
+    "year": "1852",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "king-spirit-of-prophecy",
+    "title": "The Spirit of Prophecy",
+    "author": "Max R. King",
+    "camp": "full-preterism",
+    "type": "book",
+    "year": "1971",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "gentry-wellum-kingdom-covenant",
+    "title": "Kingdom through Covenant",
+    "author": "Peter J. Gentry and Stephen J. Wellum",
+    "camp": "progressive-covenantalism",
+    "type": "book",
+    "year": "2012",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "irenaeus-against-heresies",
+    "title": "Against Heresies, Book V",
+    "author": "Irenaeus of Lyons",
+    "camp": "histpremil",
+    "type": "primary",
+    "year": "c. 180",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "justin-dialogue-trypho",
+    "title": "Dialogue with Trypho, chs. 80–81",
+    "author": "Justin Martyr",
+    "camp": "histpremil",
+    "type": "primary",
+    "year": "c. 160",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "westminster-confession",
+    "title": "Westminster Confession of Faith, chs. 32–33",
+    "author": "Westminster Assembly",
+    "camp": "reference",
+    "type": "creed",
+    "year": "1646",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "nicene-creed",
+    "title": "Nicene-Constantinopolitan Creed",
+    "author": "Council of Constantinople",
+    "camp": "reference",
+    "type": "creed",
+    "year": "381",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "rosenthal-prewrath",
+    "title": "The Pre-Wrath Rapture of the Church",
+    "author": "Marvin Rosenthal",
+    "camp": "disppremil",
+    "type": "book",
+    "year": "1990",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "grudem-systematic",
+    "title": "Systematic Theology (chs. 54–55)",
+    "author": "Wayne Grudem",
+    "camp": "histpremil",
+    "type": "book",
+    "year": "1994",
+    "accessed": "2026-10-14",
+    "verified": false
+  },
+  {
+    "id": "blomberg-chung-historic-premil",
+    "title": "A Case for Historic Premillennialism",
+    "author": "Craig L. Blomberg and Sung Wook Chung (eds.)",
+    "camp": "histpremil",
+    "type": "book",
+    "year": "2009",
+    "accessed": "2026-10-14",
+    "verified": false
+  }
+]
