@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useSyncExternalStore } from 'react'
 import { ensureContrast, inkOn } from './color'
 import { useApp, type ThemeName } from './store'
-import { positionsById } from './content'
+import { positionsById } from './core'
 
 const BG: Record<ThemeName, string> = { vellum: '#f2efe6', parchment: '#e8d9bc', night: '#121726', contrast: '#000000' }
 const SURFACE: Record<ThemeName, string> = { vellum: '#fbf9f3', parchment: '#f1e5cc', night: '#1a2033', contrast: '#000000' }
@@ -35,6 +35,10 @@ export function useReducedMotion() {
 export function useThemeEffect() {
   const theme = useActiveTheme()
   const { accent, fontScale } = useApp()
+  const reduce = useReducedMotion()
+  useEffect(() => {
+    document.documentElement.dataset.motion = reduce ? 'reduce' : 'full'
+  }, [reduce])
   useEffect(() => {
     const root = document.documentElement
     root.dataset.theme = theme

@@ -3,7 +3,7 @@ import { Illum } from '../components/Badge'
 import { PageHeader } from '../components/PageHeader'
 import { frameworkViews, hermeneuticViews, millennialViews } from '../lib/content'
 import { useApp } from '../lib/store'
-import type { Position } from '../content/schema'
+import type { CorePosition as Position } from '../lib/core'
 
 function Group({ title, intro, items }: { title: string; intro: string; items: Position[] }) {
   const { lensOn, lens } = useApp()

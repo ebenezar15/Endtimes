@@ -2,13 +2,48 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
+import type { Plugin } from 'vite'
+import { generateContent } from './scripts/content-files'
+
+/** Regenerates src/generated/*.json whenever a file in /content changes during `npm run dev`. */
+function contentPlugin(): Plugin {
+  const run = () => {
+    const { errors } = generateContent({ partial: true })
+    if (errors.length) console.warn(`[content] ${errors.length} problem(s):\n  - ` + errors.slice(0, 20).join('\n  - '))
+  }
+  return {
+    name: 'last-things-content',
+    buildStart: run,
+    configureServer(server) {
+      server.watcher.add('content')
+      server.watcher.on('change', (f) => /[\\/]content[\\/].*\.json$/.test(f) && !f.endsWith('bible.json') ? run() : undefined)
+    },
+  }
+}
 
 // BASE is set by the GitHub Pages workflow (e.g. "/Endtimes/"); "/" locally.
 const base = process.env.BASE ?? '/'
 
+/** Preload the body and UI fonts so text doesn't reflow when they arrive. */
+function preloadFonts(): Plugin {
+  return {
+    name: 'last-things-preload-fonts',
+    apply: 'build',
+    transformIndexHtml: {
+      order: 'post',
+      handler(_html, ctx) {
+        const files = Object.keys(ctx.bundle ?? {}).filter((f) => /alegreya(-sans)?-latin-(400|500)-normal.*\.woff2$/.test(f))
+        return files.map((f) => ({ tag: 'link', injectTo: 'head', attrs: { rel: 'preload', as: 'font', type: 'font/woff2', crossorigin: '', href: `${base}${f}` } }))
+      },
+    },
+  }
+}
+
 export default defineConfig({
   base,
   plugins: [
+    contentPlugin(),
+    preloadFonts(),
     react(),
     tailwindcss(),
     VitePWA({

@@ -1,37 +1,38 @@
-import { checkBundle, parseFiles, type ContentBundle, type RawFiles } from '../content/validate'
-import type { Position } from '../content/schema'
+import type {
+  Bible, Combination, GlossaryEntry, MatrixCell, Passage, Position, Source, Topic, TourStep, ArgumentTree,
+} from '../content/schema'
+// Generated and validated from /content by `npm run validate` (and live by the dev server).
+import data from '../generated/content.json'
 
-const modules = import.meta.glob('../../content/**/*.json', { eager: true, import: 'default' })
-const files: RawFiles = {}
-for (const [path, data] of Object.entries(modules)) files[path.replace(/^.*\/content\//, '')] = data
+export type PassageIndex = Pick<Passage, 'id' | 'ref' | 'title' | 'ranges' | 'category' | 'keyIssue' | 'timeText' | 'topics'> & { readers: string[] }
+export type ArgumentIndex = Pick<ArgumentTree, 'id' | 'title' | 'question' | 'topic' | 'positions'>
 
-const parsed = parseFiles(files)
-export const contentErrors = [...parsed.errors, ...checkBundle(parsed.bundle, { partial: true })]
-if (contentErrors.length && import.meta.env.DEV) console.warn('Content problems:', contentErrors)
+export const content = data as unknown as {
+  positions: Position[]
+  combinations: Combination[]
+  topics: Topic[]
+  matrix: MatrixCell[]
+  glossary: GlossaryEntry[]
+  sources: Source[]
+  tour: TourStep[]
+  /** Slim indexes of the per-feature files (see src/lib/data/). */
+  index: { passages: PassageIndex[]; arguments: ArgumentIndex[]; scholars: { id: string; name: string; dates: string }[]; quizzes: number }
+}
 
-export const content: ContentBundle = parsed.bundle
+/** Bible text is large and only needed in the Passage Lab, so it loads on demand. */
+let biblePromise: Promise<Bible> | null = null
+export const loadBible = () => (biblePromise ??= import('../generated/bible.json').then((m) => m.default as unknown as Bible))
 
 const byId = <T extends { id: string }>(xs: T[]) => new Map(xs.map((x) => [x.id, x]))
 export const positionsById = byId(content.positions)
 export const topicsById = byId(content.topics)
-export const passagesById = byId(content.passages)
-export const scholarsById = byId(content.scholars)
 export const sourcesById = byId(content.sources)
 export const glossaryById = byId(content.glossary)
-export const argumentsById = byId(content.arguments)
+export const passageIndex = byId(content.index.passages)
+export const argumentIndex = byId(content.index.arguments)
+export const scholarIndex = byId(content.index.scholars)
 
-const ORDER = [
-  'postmil', 'amil', 'histpremil', 'disppremil',
-  'partial-preterism', 'full-preterism', 'historicism', 'futurism', 'idealism', 'eclectic',
-  'covenant-theology', 'dispensationalism', 'progressive-covenantalism',
-]
-const rank = (id: string) => (ORDER.indexOf(id) + 1 || 99)
-export const positionsSorted = [...content.positions].sort((a, b) => rank(a.id) - rank(b.id))
-export const millennialViews = positionsSorted.filter((p) => p.axis === 'millennial')
-export const hermeneuticViews = positionsSorted.filter((p) => p.axis === 'hermeneutic')
-export const frameworkViews = positionsSorted.filter((p) => p.axis === 'framework')
-/** Positions compared in the matrix and timelines. */
-export const views = positionsSorted.filter((p) => p.axis !== 'framework')
+export { positionsSorted, millennialViews, hermeneuticViews, frameworkViews, views, positionName } from './core'
 
 export function cell(position: string, topic: string) {
   return content.matrix.find((c) => c.position === position && c.topic === topic)
@@ -48,9 +49,4 @@ export function agreement(topicId: string, a?: string, b?: string): Agreement {
 }
 export function stanceLabel(topicId: string, code?: string) {
   return topicsById.get(topicId)?.stances.find((s) => s.code === code)?.label ?? code ?? '—'
-}
-
-export function positionName(id: string, short = false): string {
-  const p: Position | undefined = positionsById.get(id)
-  return p ? (short ? p.shortName : p.name) : id
 }

@@ -2,7 +2,8 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { PageHeader } from '../components/PageHeader'
-import { content, passagesById, positionsById, argumentsById } from '../lib/content'
+import { argumentIndex, content, passageIndex, positionsById } from '../lib/content'
+import { flashcards, quizzes } from '../lib/data/study'
 import { useApp } from '../lib/store'
 import type { FlashDeck, QuizSet } from '../content/schema'
 
@@ -58,7 +59,7 @@ function Quizzes() {
   const [set, setSet] = useState<QuizSet | null>(null)
   const best = useApp((s) => s.quizBest)
   if (!set)
-    return <SetPicker sets={content.quizzes} onPick={setSet} extra={(s) => `${s.questions.length} questions${best[s.set] != null ? `, best ${best[s.set]}%` : ''}`} />
+    return <SetPicker sets={quizzes} onPick={setSet} extra={(s) => `${s.questions.length} questions${best[s.set] != null ? `, best ${best[s.set]}%` : ''}`} />
   return <QuizRun key={set.set} set={set} onExit={() => setSet(null)} />
 }
 
@@ -159,7 +160,7 @@ function Cards() {
   if (!deck)
     return (
       <SetPicker
-        sets={content.flashcards}
+        sets={flashcards}
         onPick={setDeck}
         extra={(d) => `${d.cards.length} cards, ${d.cards.filter((c) => (box[`${d.set}/${c.id}`] ?? 0) >= 3).length} learned`}
       />
@@ -248,14 +249,14 @@ function Bar({ label, n, of, to }: { label: string; n: number; of: number; to?: 
 
 function Progress() {
   const { visited, quizBest, cardBox, resetStudy } = useApp()
-  const cardsTotal = content.flashcards.reduce((n, d) => n + d.cards.length, 0)
+  const cardsTotal = flashcards.reduce((n, d) => n + d.cards.length, 0)
   const learned = Object.values(cardBox).filter((b) => b >= 3).length
   return (
     <div className="max-w-2xl space-y-5">
       <Bar label="Positions read" n={visited.filter((v) => v.startsWith('position/')).length} of={content.positions.length} to="/positions" />
-      <Bar label="Passages studied" n={visited.filter((v) => v.startsWith('passage/')).length} of={content.passages.length} to="/passages" />
-      <Bar label="Debates explored" n={visited.filter((v) => v.startsWith('argument/')).length} of={content.arguments.length} to="/arena" />
-      <Bar label="Quizzes taken" n={Object.keys(quizBest).length} of={content.quizzes.length} />
+      <Bar label="Passages studied" n={visited.filter((v) => v.startsWith('passage/')).length} of={content.index.passages.length} to="/passages" />
+      <Bar label="Debates explored" n={visited.filter((v) => v.startsWith('argument/')).length} of={content.index.arguments.length} to="/arena" />
+      <Bar label="Quizzes taken" n={Object.keys(quizBest).length} of={quizzes.length} />
       <Bar label="Flashcards learned" n={learned} of={cardsTotal} />
       {Object.keys(quizBest).length > 0 && (
         <table className="ui mt-4 w-full text-left text-sm">
@@ -284,8 +285,8 @@ function Progress() {
 function labelFor(key: string): { label: string; to: string } {
   const [kind, id] = key.split('/')
   if (kind === 'position') return { label: positionsById.get(id)?.name ?? id, to: `/positions/${id}` }
-  if (kind === 'passage') return { label: passagesById.get(id)?.ref ?? id, to: `/passages/${id}` }
-  if (kind === 'argument') return { label: argumentsById.get(id)?.title ?? id, to: `/arena/${id}` }
+  if (kind === 'passage') return { label: passageIndex.get(id)?.ref ?? id, to: `/passages/${id}` }
+  if (kind === 'argument') return { label: argumentIndex.get(id)?.title ?? id, to: `/arena/${id}` }
   return { label: key, to: '/' }
 }
 

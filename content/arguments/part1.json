@@ -260,67 +260,66 @@
     "topic": "revelation-date",
     "summary": "The date is disputed. Most modern commentators favour c. AD 95 on the strength of Irenaeus and other early witnesses; partial preterists argue for a date in the mid-60s from internal evidence. The question matters most for preterism, since a post-70 date makes a prophecy of Jerusalem's fall unlikely; many amillennial, idealist and eclectic readings do not depend on it.",
     "positions": [
-      "futurism",
+      "partial-preterism",
       "eclectic",
-      "partial-preterism"
+      "futurism"
     ],
     "root": {
       "id": "claim",
       "kind": "claim",
-      "position": "futurism",
-      "text": "Most modern scholars date Revelation to about AD 95, near the end of Domitian's reign; the question is disputed. The earliest explicit witness is Irenaeus (Against Heresies 5.30.3, c. AD 180), who knew Polycarp, a disciple of John, and says the apocalyptic vision was seen toward the end of Domitian's reign; Clement of Alexandria, Victorinus and Eusebius agree. Internally, the spiritual decline of Ephesus and the complacent wealth of Laodicea (Revelation 2:4, 3:17) suit a later date. If so, Revelation cannot be primarily a prophecy of the AD 70 destruction, which favours futurist (and other non-preterist) readings.",
+      "position": "partial-preterism",
+      "text": "Partial preterists such as Gentry argue that Revelation was written in the mid-60s, before AD 70; the question is disputed, and most modern scholars favour c. AD 95. John is told to measure the temple and altar while the outer court is trampled for forty-two months (Revelation 11:1-2), implying the temple still stands. The seven kings of 17:10, of whom 'five have fallen, one is', fit the Julio-Claudian line with Nero as the sixth, and 666 (13:18) matches a Hebrew spelling of 'Nero Caesar'. Gentry also stresses the silence about Jerusalem's destruction, the most momentous event imaginable for a Jewish-Christian prophet had it already happened. On an early date, the book's 'soon' prophecies can refer to the Jewish War.",
       "passages": [
-        "Revelation 2:4",
-        "Revelation 3:17",
-        "Revelation 1:9"
+        "Revelation 11:1-2",
+        "Revelation 17:10",
+        "Revelation 13:18"
       ],
       "sources": [
-        "irenaeus-against-heresies",
-        "beale-revelation-nigtc",
-        "gentry-ice-great-tribulation"
+        "gentry-before-jerusalem-fell",
+        "gregg-revelation-four-views"
       ],
       "children": [
         {
           "id": "obj-1",
           "kind": "objection",
-          "position": "partial-preterism",
-          "text": "Gentry argues the internal evidence points to the 60s. John is told to measure the temple and altar while the outer court is trampled for forty-two months (Revelation 11:1-2), implying the temple still stands. The seven kings of 17:10, of whom 'five have fallen, one is', fit the Julio-Claudian line with Nero as the sixth, and 666 (13:18) matches a Hebrew spelling of 'Nero Caesar'. He also stresses the silence about Jerusalem's destruction, the most momentous event imaginable for a Jewish-Christian prophet had it already happened.",
+          "position": "eclectic",
+          "text": "Late-date scholars such as Beale reply that the temple of 11:1-2 is symbolic of God's people, as temple language is elsewhere (1 Corinthians 3:16, Revelation 3:12), so it says nothing about a standing building. The count of kings in 17:10 depends on where one starts and whether the three brief emperors of 68-69 are included, and many read the seven as a symbolic totality. The 666 identification needs a particular Hebrew spelling, and silence about AD 70 is weak evidence in a book written in symbols.",
           "passages": [
-            "Revelation 11:1-2",
-            "Revelation 17:10",
-            "Revelation 13:18"
+            "Revelation 3:12",
+            "1 Corinthians 3:16"
           ],
           "sources": [
-            "gentry-before-jerusalem-fell",
-            "gregg-revelation-four-views"
+            "beale-revelation-nigtc",
+            "pate-four-views-revelation"
           ],
           "children": [
             {
               "id": "reb-1",
               "kind": "rebuttal",
-              "position": "eclectic",
-              "text": "Late-date scholars such as Beale reply that the temple of 11:1-2 is symbolic of God's people, as temple language is elsewhere (1 Corinthians 3:16, Revelation 3:12), so it says nothing about a standing building. The count of kings in 17:10 depends on where one starts and whether the three brief emperors of 68-69 are included, and many read the seven as a symbolic totality. The 666 identification needs a particular Hebrew spelling, and silence about AD 70 is weak evidence in a book written in symbols.",
+              "position": "partial-preterism",
+              "text": "Early-date advocates answer that a purely symbolic temple does not explain why the outer court is handed to the nations for a specific forty-two months, roughly the length of Rome's campaign (AD 67-70). They also note that the variant reading 616 in some manuscripts matches the Latin form of Nero's name, suggesting early scribes understood a Nero reference. In their view, coherent internal evidence should outweigh one ambiguous patristic statement.",
               "passages": [
-                "Revelation 3:12",
-                "1 Corinthians 3:16"
+                "Revelation 11:2",
+                "Revelation 13:18"
               ],
               "sources": [
-                "beale-revelation-nigtc",
-                "pate-four-views-revelation"
+                "gentry-before-jerusalem-fell",
+                "gregg-revelation-four-views"
               ],
               "children": [
                 {
                   "id": "cr-1",
                   "kind": "counter-rebuttal",
-                  "position": "partial-preterism",
-                  "text": "Early-date advocates answer that a purely symbolic temple does not explain why the outer court is handed to the nations for a specific forty-two months, roughly the length of Rome's campaign (AD 67-70). They also note that the variant reading 616 in some manuscripts matches the Latin form of Nero's name, suggesting early scribes understood a Nero reference. In their view, coherent internal evidence should outweigh one ambiguous patristic statement.",
+                  "position": "eclectic",
+                  "text": "Late-date scholars reply that forty-two months is Daniel's stock period for the persecution of God's people (Daniel 7:25, 12:7), which Revelation uses repeatedly (11:2-3, 12:6, 12:14, 13:5) as a symbol rather than as the length of a military campaign. A Nero reference behind 666 or 616 would not by itself fix an early date: Beale and Bauckham read the beast's healed mortal wound (13:3; 17:8-11) against the legend of Nero's return that circulated after his death, which if anything suits a later setting.",
                   "passages": [
-                    "Revelation 11:2",
-                    "Revelation 13:18"
+                    "Daniel 7:25",
+                    "Revelation 12:6",
+                    "Revelation 13:3"
                   ],
                   "sources": [
-                    "gentry-before-jerusalem-fell",
-                    "gregg-revelation-four-views"
+                    "beale-revelation-nigtc",
+                    "bauckham-theology-revelation"
                   ],
                   "children": []
                 }
@@ -331,36 +330,41 @@
         {
           "id": "obj-2",
           "kind": "objection",
-          "position": "partial-preterism",
-          "text": "Gentry contends that Irenaeus' testimony is ambiguous: the verb heorathe ('it/he was seen') may refer to John himself being seen in Domitian's time rather than to the vision. Irenaeus made other demonstrable chronological errors (for example, that Jesus lived to nearly fifty), and some later traditions (the title of the Syriac version, a statement in Epiphanius) place John's exile under Claudius or Nero.",
+          "position": "futurism",
+          "text": "Futurists, with most modern commentators, date Revelation to about AD 95, near the end of Domitian's reign. The earliest explicit witness is Irenaeus (Against Heresies 5.30.3, c. AD 180), who knew Polycarp, a disciple of John, and says the apocalyptic vision was seen toward the end of Domitian's reign; Clement of Alexandria, Victorinus and Eusebius agree. Internally, the spiritual decline of Ephesus and the complacent wealth of Laodicea (Revelation 2:4, 3:17) suit a later date. If so, Revelation cannot be primarily a prophecy of the AD 70 destruction.",
           "passages": [
+            "Revelation 2:4",
+            "Revelation 3:17",
             "Revelation 1:9"
           ],
           "sources": [
-            "gentry-before-jerusalem-fell",
-            "gregg-revelation-four-views"
+            "irenaeus-against-heresies",
+            "beale-revelation-nigtc",
+            "gentry-ice-great-tribulation"
           ],
           "children": [
             {
               "id": "reb-2",
               "kind": "rebuttal",
-              "position": "eclectic",
-              "text": "Most patristic scholars and commentators judge 'the apocalyptic vision' to be the natural subject of the verb, since Irenaeus' point is how recently the Revelation was given, and the old Latin translation reads it that way. The alternative traditions are late or confused, whereas the Domitianic date is attested by several writers. Beale judges the late date more probable while stressing that his own interpretation does not hinge on it.",
-              "passages": [],
+              "position": "partial-preterism",
+              "text": "Gentry contends that Irenaeus' testimony is ambiguous: the verb heorathe ('it/he was seen') may refer to John himself being seen in Domitian's time rather than to the vision. Irenaeus made other demonstrable chronological errors (for example, that Jesus lived to nearly fifty), some later traditions (the title of the Syriac version, a statement in Epiphanius) place John's exile under Claudius or Nero, and later fathers largely depend on Irenaeus, so the multiple attestation is less independent than it appears. Scholarly majorities have also shifted before: in the nineteenth century Westcott, Hort, Lightfoot and Farrar favoured a Neronic date.",
+              "passages": [
+                "Revelation 1:9"
+              ],
               "sources": [
-                "beale-revelation-nigtc",
-                "irenaeus-against-heresies"
+                "gentry-before-jerusalem-fell",
+                "gregg-revelation-four-views"
               ],
               "children": [
                 {
                   "id": "cr-2",
                   "kind": "counter-rebuttal",
-                  "position": "partial-preterism",
-                  "text": "Early-date advocates respond that later fathers largely depend on Irenaeus, so the multiple attestation is less independent than it appears. They also note that scholarly majorities on the question have shifted before: in the nineteenth century Westcott, Hort, Lightfoot and Farrar favoured a Neronic date. They present the date as an open question in which internal evidence deserves decisive weight.",
+                  "position": "futurism",
+                  "text": "Late-date scholars, futurist and non-futurist alike (Beale among them), reply that most patristic scholars and commentators judge 'the apocalyptic vision' to be the natural subject of the verb, since Irenaeus' point is how recently the Revelation was given, and the old Latin translation reads it that way. The alternative traditions are late or confused, whereas the Domitianic date is attested by several writers. They add that the internal arguments are themselves contested, so they cannot simply override the earliest external testimony.",
                   "passages": [],
                   "sources": [
-                    "gentry-before-jerusalem-fell",
-                    "gregg-revelation-four-views"
+                    "beale-revelation-nigtc",
+                    "irenaeus-against-heresies"
                   ],
                   "children": []
                 }

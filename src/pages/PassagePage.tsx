@@ -4,7 +4,9 @@ import { Illum } from '../components/Badge'
 import { Gloss, Prose } from '../components/Gloss'
 import { BookmarkButton, NoteBox } from '../components/Notes'
 import { Sources } from '../components/Sources'
-import { content, passagesById, positionsById, topicsById } from '../lib/content'
+import { loadBible, positionsById, topicsById } from '../lib/content'
+import { passages, passagesById } from '../lib/data/passages'
+import type { Bible } from '../content/schema'
 import { nivUrl } from '../lib/refs'
 import { useApp, type Translation } from '../lib/store'
 import { usePositionColors } from '../lib/theme'
@@ -17,16 +19,20 @@ export default function PassagePage() {
   const color = usePositionColors()
   const mine = lensOn ? [lens.millennial, lens.hermeneutic] : []
   const [tab, setTab] = useState<string>('all')
+  const [bible, setBible] = useState<Bible | null>(null)
+  useEffect(() => {
+    loadBible().then(setBible)
+  }, [])
   useEffect(() => {
     if (p) visit(`passage/${p.id}`)
     setTab('all')
   }, [p, visit])
   if (!p) return <NotFound />
-  const verses = content.bible?.passages[p.id]?.[translation] ?? []
-  const tr = content.bible?.translations[translation]
+  const verses = bible?.passages[p.id]?.[translation] ?? []
+  const tr = bible?.translations[translation]
   const readings = tab === 'all' ? p.readings : p.readings.filter((r) => r.position === tab)
-  const idx = content.passages.indexOf(p)
-  const next = content.passages[idx + 1]
+  const idx = passages.indexOf(p)
+  const next = passages[idx + 1]
 
   let lastChapter = ''
   return (
@@ -58,7 +64,9 @@ export default function PassagePage() {
             )}
           </div>
           <div className="leaf mt-3 p-5">
-            {verses.length === 0 ? (
+            {!bible ? (
+              <p className="ui text-sm text-ink-soft">Loading the text…</p>
+            ) : verses.length === 0 ? (
               <p className="ui text-sm text-ink-soft">Bible text has not been generated. Run “npm run bible”.</p>
             ) : (
               <p className="text-[1.05rem] leading-[1.75]">

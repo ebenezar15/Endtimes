@@ -6,10 +6,10 @@ import { LensCompare } from '../components/LensCompare'
 import { BookmarkButton, NoteBox } from '../components/Notes'
 import { Refs } from '../components/Refs'
 import { Sources } from '../components/Sources'
-import { cell, content, positionsById, scholarsById, stanceLabel, topicsById } from '../lib/content'
+import { cell, content, positionsById, scholarIndex, stanceLabel, topicsById } from '../lib/content'
 import { useApp } from '../lib/store'
 import { usePositionColors } from '../lib/theme'
-import { TOPIC_IDS } from '../content/validate'
+import { TOPIC_IDS } from '../content/ids'
 import NotFound from './NotFound'
 
 function H2({ children }: { children: string }) {
@@ -28,8 +28,8 @@ export default function PositionPage() {
   const c = color(p.id)
   const combos = content.combinations.filter((x) => x.millennial === p.id || x.hermeneutic === p.id)
   const cells = TOPIC_IDS.map((t) => cell(p.id, t)).filter(Boolean)
-  const args = content.arguments.filter((a) => a.positions.includes(p.id))
-  const passages = content.passages.filter((x) => x.readings.some((r) => r.position === p.id))
+  const args = content.index.arguments.filter((a) => a.positions.includes(p.id))
+  const passages = content.index.passages.filter((x) => x.readers.includes(p.id))
   const k = `position/${p.id}`
 
   return (
@@ -171,7 +171,7 @@ export default function PositionPage() {
               <h2 className="text-xl">Key scholars</h2>
               <ul className="ui mt-2 space-y-1 text-[0.95rem]">
                 {p.scholars.map((s) => {
-                  const sc = scholarsById.get(s)
+                  const sc = scholarIndex.get(s)
                   return (
                     <li key={s}>
                       <Link to={`/library?tab=scholars#${s}`}>{sc?.name ?? s}</Link>

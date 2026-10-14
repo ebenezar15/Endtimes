@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { Mark } from './Mark'
 import { agreement, cell, positionName, stanceLabel, topicsById } from '../lib/content'
 import { useApp } from '../lib/store'
-import { TOPIC_IDS } from '../content/validate'
+import { TOPIC_IDS } from '../content/ids'
 import type { Position } from '../content/schema'
 
 

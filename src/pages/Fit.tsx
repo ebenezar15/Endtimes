@@ -5,14 +5,15 @@ import { PageHeader } from '../components/PageHeader'
 import { PositionChip } from '../components/Badge'
 import { Prose } from '../components/Gloss'
 import { Refs } from '../components/Refs'
-import { content, positionsById } from '../lib/content'
+import { positionsById } from '../lib/content'
+import { flowchart } from '../lib/data/timelines'
 import { walk } from '../lib/flow'
 import { useApp } from '../lib/store'
 
 const FlowMap = lazy(() => import('../components/FlowMap'))
 
 export default function Fit() {
-  const flow = content.flowchart
+  const flow = flowchart
   const [answers, setAnswers] = useState<number[]>([])
   const [tab, setTab] = useState<'guided' | 'map'>('guided')
   const { set, lens } = useApp()

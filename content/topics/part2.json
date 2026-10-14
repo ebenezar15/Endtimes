@@ -110,12 +110,12 @@
       {
         "code": "decline-before-return",
         "label": "Decline: apostasy and tribulation precede the return, and Christ himself restores the world in the millennium",
-        "family": "pessimistic"
+        "family": "crisis-before-return"
       },
       {
         "code": "apostasy-and-rapture",
         "label": "Decline and rescue: the church age ends in apostasy, the church is raptured and the world enters tribulation",
-        "family": "pessimistic"
+        "family": "crisis-before-return"
       }
     ]
   },

@@ -14,7 +14,7 @@ export function passageForRef(ref: string) {
   const r = parse(ref)
   if (!r) return undefined
   const key = (c: number, v: number) => c * 1000 + v
-  return content.passages.find((p) =>
+  return content.index.passages.find((p) =>
     p.ranges.some((range) => {
       const q = parse(range)
       if (!q || q.book !== r.book) return false

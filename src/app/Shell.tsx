@@ -1,9 +1,9 @@
-import { useEffect, useState, type ReactNode } from 'react'
+import { lazy, Suspense, useEffect, useState, type ReactNode } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { NAV } from './nav'
-import { SearchDialog } from '../components/SearchDialog'
+const SearchDialog = lazy(() => import('../components/SearchDialog'))
 import { useApp } from '../lib/store'
-import { positionName } from '../lib/content'
+import { positionName } from '../lib/core'
 
 function Brand() {
   return (
@@ -32,7 +32,12 @@ function LensChip() {
 
 export function Shell({ children }: { children: ReactNode }) {
   const [menu, setMenu] = useState(false)
-  const [search, setSearch] = useState(false)
+  const [search, setSearchRaw] = useState(false)
+  const [searchUsed, setSearchUsed] = useState(false)
+  const setSearch = (v: boolean) => {
+    if (v) setSearchUsed(true)
+    setSearchRaw(v)
+  }
   const loc = useLocation()
   useEffect(() => setMenu(false), [loc.pathname])
   useEffect(() => {
@@ -118,7 +123,11 @@ export function Shell({ children }: { children: ReactNode }) {
           {children}
         </main>
       </div>
-      <SearchDialog open={search} onClose={() => setSearch(false)} />
+      {searchUsed && (
+        <Suspense fallback={null}>
+          <SearchDialog open={search} onClose={() => setSearch(false)} />
+        </Suspense>
+      )}
     </div>
   )
 }

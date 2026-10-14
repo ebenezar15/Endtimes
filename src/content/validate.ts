@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import * as S from './schema'
+import { POSITION_IDS, TOPIC_IDS, VIEW_IDS, walkArg } from './ids'
 
 /** Raw JSON keyed by path relative to /content, e.g. "positions/millennial.json". */
 export type RawFiles = Record<string, unknown>
@@ -42,18 +43,7 @@ const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema:
   { match: (p) => p === 'tour.json', key: 'tour', schema: S.TourStep },
 ]
 
-export const POSITION_IDS = [
-  'postmil', 'amil', 'histpremil', 'disppremil',
-  'partial-preterism', 'full-preterism', 'historicism', 'futurism', 'idealism', 'eclectic',
-  'covenant-theology', 'dispensationalism', 'progressive-covenantalism',
-] as const
-/** Positions covered by the comparison matrix and timelines. */
-export const VIEW_IDS = POSITION_IDS.slice(0, 10)
-export const TOPIC_IDS = [
-  'millennium', 'satan-binding', 'first-resurrection', 'second-coming', 'rapture',
-  'great-tribulation', 'antichrist', 'olivet-generation', 'seventy-weeks', 'revelation-date',
-  'israel', 'optimism', 'kingdom', 'final-judgment', 'church-history',
-] as const
+export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
 
 export function emptyBundle(): ContentBundle {
   return {
@@ -95,11 +85,6 @@ export function parseFiles(files: RawFiles): { bundle: ContentBundle; errors: st
 
 function fmt(label: string, err: z.ZodError): string[] {
   return err.issues.slice(0, 6).map((i) => `${label} ${i.path.join('.')}: ${i.message}`)
-}
-
-export function walkArg(node: S.ArgNode, fn: (n: S.ArgNode, parent?: S.ArgNode) => void, parent?: S.ArgNode) {
-  fn(node, parent)
-  node.children.forEach((c) => walkArg(c, fn, node))
 }
 
 /** Cross-reference and completeness checks. `partial` skips completeness rules. */

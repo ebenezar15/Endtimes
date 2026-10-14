@@ -1,6 +1,5 @@
-import { motion } from 'framer-motion'
 import { useMemo } from 'react'
-import { content, hermeneuticViews, millennialViews } from '../lib/content'
+import { core as content, hermeneuticViews, millennialViews } from '../lib/core'
 import { usePositionColors } from '../lib/theme'
 import { useApp } from '../lib/store'
 
@@ -84,19 +83,16 @@ export function Rota({ selected, highlight, onSelect }: RotaProps) {
         const dim = focus.length > 0 && !focus.includes(s.p.id) && !(selected && links.some((c) => lit(c) && (c.millennial === s.p.id || c.hermeneutic === s.p.id)))
         const isMine = mine.includes(s.p.id)
         return (
-          <motion.g
+          <g
             key={s.p.id}
             role="button"
             tabIndex={0}
-            aria-label={`${s.p.name}${isMine ? ' (my view)' : ''}`}
+            aria-label={`${s.p.shortName}: ${s.p.name}${isMine ? ', my view' : ''}`}
             aria-pressed={selected === s.p.id}
             onClick={() => onSelect(s.p.id)}
             onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), onSelect(s.p.id))}
-            className="cursor-pointer outline-none [&:focus-visible>path:first-child]:stroke-[var(--accent)] [&:focus-visible>path:first-child]:[stroke-width:4]"
-            initial={{ opacity: 0, scale: 0.94 }}
-            animate={{ opacity: dim ? 0.35 : 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.05 * i }}
-            style={{ transformOrigin: '300px 300px' }}
+            className="rota-seg cursor-pointer outline-none [&:focus-visible>path:first-child]:stroke-[var(--accent)] [&:focus-visible>path:first-child]:[stroke-width:4]"
+            style={{ opacity: dim ? 0.35 : 1, animationDelay: `${0.05 * i}s` }}
           >
             <path d={arc(r1, r2, s.a0, s.a1)} fill={col.base} stroke={selected === s.p.id ? 'var(--ink)' : 'var(--gold-bright)'} strokeWidth={selected === s.p.id ? 3 : 1.2} />
             <text fontFamily="Alegreya Sans, sans-serif" fontSize={s.ring === 'm' ? 15 : 13.5} fontWeight={500} fill={col.ink} letterSpacing="0.02em">
@@ -108,7 +104,7 @@ export function Rota({ selected, highlight, onSelect }: RotaProps) {
               const [x, y] = polar(r2 - 9, (s.a0 + s.a1) / 2 + (s.a1 - s.a0) * 0.36)
               return <text x={x} y={y + 4} textAnchor="middle" fontSize={13} fill={col.ink} aria-hidden>✦</text>
             })()}
-          </motion.g>
+          </g>
         )
       })}
 
@@ -130,16 +126,15 @@ export function Rota({ selected, highlight, onSelect }: RotaProps) {
           const w = c.frequency === 'common' ? 2.6 : c.frequency === 'occasional' ? 1.8 : 1.3
           return (
             <g key={c.millennial + c.hermeneutic}>
-              <motion.path
+              <path
+                className={c.frequency === 'common' ? 'rota-thread' : 'rota-thread rota-thread-dashed'}
+                pathLength={1}
+                style={{ animationDelay: `${0.3 + lane * 0.05}s`, ['--dash' as string]: c.frequency === 'rare' ? '0.006 0.016' : '0.022 0.012' }}
                 d={path}
                 stroke={c.frequency === 'common' ? 'var(--gold-bright)' : 'var(--ink-soft)'}
                 strokeWidth={w}
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                strokeDasharray={c.frequency === 'rare' ? '1.5 4' : c.frequency === 'occasional' ? '6 3' : undefined}
-                initial={{ pathLength: 0, opacity: 0 }}
-                animate={{ pathLength: 1, opacity: 1 }}
-                transition={{ duration: 1, delay: 0.3 + lane * 0.05 }}
               />
               <circle cx={x0} cy={y0} r={3} fill="var(--gold-bright)" />
               <circle cx={x1} cy={y1} r={3} fill="var(--gold-bright)" />

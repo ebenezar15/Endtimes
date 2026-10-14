@@ -6,7 +6,8 @@ import { PageHeader } from '../components/PageHeader'
 import { Gloss } from '../components/Gloss'
 import { Refs } from '../components/Refs'
 import { Sources } from '../components/Sources'
-import { content, positionsById, views } from '../lib/content'
+import { positionsById, views } from '../lib/content'
+import { timelines } from '../lib/data/timelines'
 import { usePositionColors, type PositionPalette } from '../lib/theme'
 import type { Timeline, TimelineEvent } from '../content/schema'
 
@@ -152,12 +153,12 @@ function divergences(a: Timeline, b: Timeline) {
 export default function Timelines() {
   const [params, setParams] = useSearchParams()
   const color = usePositionColors()
-  const ids = views.map((v) => v.id).filter((id) => content.timelines.some((t) => t.position === id))
+  const ids = views.map((v) => v.id).filter((id) => timelines.some((t) => t.position === id))
   const a = params.get('a') && ids.includes(params.get('a')!) ? params.get('a')! : ids[0]
   const b = params.get('b') && ids.includes(params.get('b')!) ? params.get('b')! : ''
   const [picked, setPicked] = useState<{ e: TimelineEvent; pos: string } | null>(null)
-  const ta = content.timelines.find((t) => t.position === a)
-  const tb = b ? content.timelines.find((t) => t.position === b) : undefined
+  const ta = timelines.find((t) => t.position === a)
+  const tb = b ? timelines.find((t) => t.position === b) : undefined
   const div = ta && tb ? divergences(ta, tb) : []
   const moved = new Set(div.filter((d) => d.kind !== 'same').map((d) => d.m))
   const setSel = (k: 'a' | 'b', v: string) =>

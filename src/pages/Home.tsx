@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Rota } from '../components/Rota'
 import { Illum } from '../components/Badge'
-import { content, frameworkViews, positionName, positionsById } from '../lib/content'
+import { core as content, frameworkViews, positionName, positionsById } from '../lib/core'
 import { useApp } from '../lib/store'
 import { useReducedMotion } from '../lib/theme'
 

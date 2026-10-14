@@ -5,6 +5,7 @@ import { PositionChip } from '../components/Badge'
 import { Gloss } from '../components/Gloss'
 import { Sources } from '../components/Sources'
 import { content, positionName } from '../lib/content'
+import { library, scholars } from '../lib/data/library'
 
 const TABS = [
   { id: 'debates', label: 'Debates & books' },
@@ -48,7 +49,7 @@ export default function Library() {
 
       {tab === 'debates' && (
         <ul className="mt-8 space-y-5">
-          {content.library
+          {library
             .filter((e) => !camp || e.positions.includes(camp))
             .sort((a, b) => a.year.localeCompare(b.year))
             .map((e) => (
@@ -84,7 +85,7 @@ export default function Library() {
 
       {tab === 'scholars' && (
         <ul className="mt-8 grid gap-4 md:grid-cols-2">
-          {content.scholars
+          {scholars
             .filter((s) => !camp || s.positions.includes(camp))
             .sort((a, b) => a.name.split(' ').at(-1)!.localeCompare(b.name.split(' ').at(-1)!))
             .map((s) => (

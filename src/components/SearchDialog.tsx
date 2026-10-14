@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { searchIndex } from '../lib/search'
 
-export function SearchDialog({ open, onClose }: { open: boolean; onClose: () => void }) {
+export default function SearchDialog({ open, onClose }: { open: boolean; onClose: () => void }) {
   const [q, setQ] = useState('')
   const [active, setActive] = useState(0)
   const nav = useNavigate()

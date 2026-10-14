@@ -1,4 +1,4 @@
-import { positionsById } from '../lib/content'
+import { positionsById } from '../lib/core'
 import { usePositionColors } from '../lib/theme'
 
 /** An illuminated initial in the position's colour. */

@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom'
 import { PageHeader } from '../components/PageHeader'
 import { PositionChip } from '../components/Badge'
 import { content, topicsById, views } from '../lib/content'
-import { walkArg } from '../content/validate'
+import { argumentTrees } from '../lib/data/arguments'
+import { walkArg } from '../content/ids'
 
 export default function Arena() {
   const [pos, setPos] = useState('')
   const [topic, setTopic] = useState('')
-  const list = content.arguments.filter((a) => (!pos || a.positions.includes(pos)) && (!topic || a.topic === topic))
+  const list = argumentTrees.filter((a) => (!pos || a.positions.includes(pos)) && (!topic || a.topic === topic))
   const count = (a: (typeof list)[number]) => {
     let n = 0
     walkArg(a.root, () => n++)

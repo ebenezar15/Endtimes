@@ -19,7 +19,7 @@ export default function Passages() {
   const [topic, setTopic] = useState('')
   const [timeOnly, setTimeOnly] = useState(false)
   const visited = useApp((s) => s.visited)
-  const list = content.passages.filter((p) => (!topic || p.topics.includes(topic)) && (!timeOnly || p.timeText))
+  const list = content.index.passages.filter((p) => (!topic || p.topics.includes(topic)) && (!timeOnly || p.timeText))
   return (
     <div className="mx-auto max-w-5xl">
       <PageHeader
