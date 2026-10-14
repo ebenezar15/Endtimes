@@ -63,7 +63,7 @@ export default function PassagePage() {
               </a>
             )}
           </div>
-          <div className="leaf mt-3 p-5">
+          <div className={`leaf mt-3 p-5 ${bible ? '' : 'min-h-[60vh]'}`}>
             {!bible ? (
               <p className="ui text-sm text-ink-soft">Loading the text…</p>
             ) : verses.length === 0 ? (
@@ -118,11 +118,11 @@ export default function PassagePage() {
           </aside>
 
           <div className="ui mt-8 flex flex-wrap gap-1.5" role="tablist" aria-label="Choose a position's reading">
-            <button type="button" role="tab" aria-selected={tab === 'all'} aria-pressed={tab === 'all'} className="btn min-h-8 px-3 py-1 text-sm" onClick={() => setTab('all')}>
+            <button type="button" role="tab" aria-selected={tab === 'all'} className="btn min-h-8 px-3 py-1 text-sm" onClick={() => setTab('all')}>
               All readings
             </button>
             {p.readings.map((r) => (
-              <button key={r.position} type="button" role="tab" aria-selected={tab === r.position} aria-pressed={tab === r.position} className="btn min-h-8 px-3 py-1 text-sm" onClick={() => setTab(r.position)}>
+              <button key={r.position} type="button" role="tab" aria-selected={tab === r.position} className="btn min-h-8 px-3 py-1 text-sm" onClick={() => setTab(r.position)}>
                 {mine.includes(r.position) && <span className="text-gold" aria-label="my view">✦</span>}
                 {positionsById.get(r.position)?.shortName ?? r.position}
               </button>

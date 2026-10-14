@@ -6,7 +6,7 @@ export function BookmarkButton({ k, label }: { k: string; label: string }) {
   const on = useApp((s) => s.bookmarks.includes(k))
   const toggle = useApp((s) => s.toggleBookmark)
   return (
-    <button type="button" className="btn min-h-8 px-2.5 py-1 text-sm" aria-pressed={on} onClick={() => toggle(k)} aria-label={`${on ? 'Remove bookmark' : 'Bookmark'}: ${label}`}>
+    <button type="button" className="btn min-h-8 px-2.5 py-1 text-sm" aria-pressed={on} onClick={() => toggle(k)} aria-label={`${on ? 'Saved' : 'Save'}: ${label}`}>
       <svg aria-hidden width="14" height="14" viewBox="0 0 24 24" fill={on ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2">
         <path d="M6 3h12v18l-6-4-6 4z" />
       </svg>

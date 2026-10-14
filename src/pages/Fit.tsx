@@ -32,7 +32,7 @@ export default function Fit() {
       />
       <div className="ui mb-6 flex gap-1.5" role="tablist" aria-label="Mode">
         {(['guided', 'map'] as const).map((t) => (
-          <button key={t} role="tab" type="button" aria-selected={tab === t} aria-pressed={tab === t} className="btn" onClick={() => setTab(t)}>
+          <button key={t} role="tab" type="button" aria-selected={tab === t} className="btn" onClick={() => setTab(t)}>
             {t === 'guided' ? 'Guided questions' : 'Master flowchart'}
           </button>
         ))}

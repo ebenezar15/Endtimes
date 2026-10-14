@@ -30,7 +30,7 @@ export default function Library() {
       <PageHeader title="Debates & Library" lede="Published debates, multi-view books and the major works on each side, with the scholars behind them and every source cited in the app." />
       <div className="ui flex flex-wrap items-center gap-1.5" role="tablist" aria-label="Library sections">
         {TABS.map((t) => (
-          <button key={t.id} type="button" role="tab" aria-selected={tab === t.id} aria-pressed={tab === t.id} className="btn" onClick={() => setTab(t.id)}>
+          <button key={t.id} type="button" role="tab" aria-selected={tab === t.id} className="btn" onClick={() => setTab(t.id)}>
             {t.label}
           </button>
         ))}

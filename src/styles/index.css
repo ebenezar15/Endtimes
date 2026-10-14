@@ -20,7 +20,7 @@
   --ink-soft: #594f42;
   --rule: #cfc6b2;
   --accent-base: #2f4fa0;
-  --gold: #9c7316;
+  --gold: #785908;
   --gold-bright: #c9a23a;
   --rubric: #9b2c22;
   --shadow: 32 24 10;
@@ -36,7 +36,7 @@
   --ink-soft: #5a4430;
   --rule: #bfa77e;
   --accent-base: #2b4690;
-  --gold: #85600d;
+  --gold: #5f4506;
   --gold-bright: #b8902a;
   --rubric: #8e2a1e;
   --shadow: 60 40 10;
@@ -178,7 +178,7 @@ p {
   user-select: none;
 }
 [data-theme='contrast'] .illum {
-  color: #000;
+  color: #000 !important;
   background: var(--gold);
   box-shadow: none;
 }
@@ -265,7 +265,8 @@ p {
 .btn-primary:hover {
   filter: brightness(1.08);
 }
-.btn[aria-pressed='true'] {
+.btn[aria-pressed='true'],
+.btn[aria-selected='true'] {
   background: var(--accent);
   border-color: var(--accent);
   color: var(--accent-ink);

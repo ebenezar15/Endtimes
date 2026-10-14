@@ -23,7 +23,7 @@ export default function Study() {
       <PageHeader title="Study" lede="Test yourself, review with spaced flashcards, and keep your notes in one place. Everything is stored on this device only." />
       <div className="ui flex flex-wrap gap-1.5" role="tablist" aria-label="Study tools">
         {TABS.map((t) => (
-          <button key={t.id} type="button" role="tab" aria-selected={tab === t.id} aria-pressed={tab === t.id} className="btn" onClick={() => setParams({ tab: t.id })}>
+          <button key={t.id} type="button" role="tab" aria-selected={tab === t.id} className="btn" onClick={() => setParams({ tab: t.id })}>
             {t.label}
           </button>
         ))}

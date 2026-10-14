@@ -59,7 +59,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="mt-6 min-h-[11rem]" aria-live="polite">
+          <div className="mt-6 lg:min-h-[11rem]" aria-live="polite">
             <AnimatePresence mode="wait">
               {step !== null ? (
                 <motion.div key={`s${step}`} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }} transition={{ duration: 0.35 }} className="leaf p-4">

@@ -33,7 +33,20 @@ function preloadFonts(): Plugin {
       order: 'post',
       handler(_html, ctx) {
         const files = Object.keys(ctx.bundle ?? {}).filter((f) => /alegreya(-sans)?-latin-(400|500)-normal.*\.woff2$/.test(f))
-        return files.map((f) => ({ tag: 'link', injectTo: 'head', attrs: { rel: 'preload', as: 'font', type: 'font/woff2', crossorigin: '', href: `${base}${f}` } }))
+        const tags: { tag: string; injectTo: 'head'; attrs?: Record<string, string>; children?: string }[] = files.map((f) => ({
+          tag: 'link',
+          injectTo: 'head',
+          attrs: { rel: 'preload', as: 'font', type: 'font/woff2', crossorigin: '', href: `${base}${f}` },
+        }))
+        // Deep links (anything but the home page) need the shared content chunk at once: start fetching it early.
+        const contentChunk = Object.keys(ctx.bundle ?? {}).find((f) => /assets\/content-[\w-]+\.js$/.test(f))
+        if (contentChunk)
+          tags.push({
+            tag: 'script',
+            injectTo: 'head',
+            children: `if(location.hash.length>2){var l=document.createElement('link');l.rel='modulepreload';l.href='${base}${contentChunk}';document.head.appendChild(l)}`,
+          })
+        return tags
       },
     },
   }
