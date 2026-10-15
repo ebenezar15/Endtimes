@@ -96,7 +96,7 @@
     {
       "id": "q-revelation-structure-amil",
       "question": "How does Revelation's sequence of visions relate to history?",
-      "explanation": "Idealist and eclectic amillennialists (William Hendriksen, G. K. Beale, Dennis Johnson) see 'progressive parallelism': seals, trumpets and bowls each retell the whole age from a different angle, ending at the final judgment. That is why Revelation 20 can return to the first advent. Many Reformation-era Protestants (Luther, and the Reformers who followed Augustine's present millennium) read Revelation historically, as a chart that names the papacy as Antichrist. Other amillennialists (for example Anthony Hoekema and Kim Riddlebarger) emphasize that the 'signs of the times' run throughout the age but culminate in a personal Antichrist and a final tribulation, reading much of the book's climax as still future.",
+      "explanation": "Idealist and eclectic amillennialists (William Hendriksen, G. K. Beale, Dennis Johnson) see 'progressive parallelism': seals, trumpets and bowls each retell the whole age from a different angle, ending at the final judgment. That is why Revelation 20 can return to the first advent. Many Reformation-era Protestants (Luther, and the Reformers who followed Augustine's present millennium) read Revelation historically, as a chart that names the papacy as Antichrist. Other amillennialists (for example Anthony Hoekema and Kim Riddlebarger) emphasize that the 'signs of the times' run throughout the age but culminate in a personal Antichrist and a final tribulation, reading much of the book's climax as still future. A Christ-centred 'spiritual understanding' reads the visions chiefly as an unveiling of Christ's finished work and of present spiritual realities (union with Christ, the renewed mind, the two cities).",
       "texts": ["Revelation 6:12-17", "Revelation 11:15-18", "Revelation 16:17-21", "Revelation 20:1-3", "2 Thessalonians 2:3-8"],
       "options": [
         { "label": "Parallel cycles: each retells the whole church age in symbols", "result": "r-amil-idealist-eclectic" },
@@ -182,11 +182,7 @@
     {
       "id": "r-spiritual",
       "title": "Spiritual understanding (Christ-centred)",
-      "positions": [
-        "spiritual",
-        "idealism",
-        "amil"
-      ],
+      "positions": ["spiritual", "idealism", "amil"],
       "summary": "You read Revelation as 'the revelation of Jesus Christ': the slain Lamb is the key, the cross is the decisive victory, and the symbols describe present spiritual realities such as union with Christ, the renewed mind, the seal of the Father's name, and the old order of law and self-effort giving way to grace and the new creation. The thousand years are Christ's reign now and the first resurrection is the new birth. You read from victory rather than toward fear, and most who hold this view expect Christ's appearing to consummate what the cross finished. It draws on the spiritual exegesis of Origen, Tyconius and Augustine, and overlaps with idealist, preterist-leaning, amillennial and postmillennial readings. Critics warn that it can allegorise the symbols and underplay the future hope."
     },
     {
