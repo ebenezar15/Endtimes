@@ -164,7 +164,12 @@ html #root {
     radial-gradient(ellipse at 95% 110%, rgb(var(--glow) / 0.1), transparent 50%);
   background-attachment: fixed;
 }
-/* Tamil script needs more line height and less tracking than Latin. */
+/* Tamil script needs more line height and no letter-spacing: tracking splits its syllables apart. */
+html[lang='ta'] [class*='tracking-'],
+html[lang='ta'] .uppercase {
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
 html[lang='ta'] body {
   line-height: 1.8;
 }

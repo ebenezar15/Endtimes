@@ -42,7 +42,7 @@ function SceneCard({ s, i, onActive, active }: { s: Scene; i: number; onActive: 
             <motion.blockquote key={k} initial={{ opacity: 0, x: -12 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.15 + k * 0.1 }} className="relative rounded-xl bg-surface-2 p-4 pl-10">
               <span aria-hidden className="absolute left-3 top-1 font-serif text-5xl leading-none text-gold">“</span>
               <p className="font-serif text-lg italic leading-snug">{q.text}</p>
-              <footer className="mt-1 text-xs font-bold text-ink-soft">— {t('Josephus')}, {q.cite}</footer>
+              <footer className="mt-1 text-xs font-bold text-ink-soft">— {q.cite.includes(t('Josephus')) ? q.cite : `${t('Josephus')}, ${q.cite}`}</footer>
             </motion.blockquote>
           ))}
         </div>

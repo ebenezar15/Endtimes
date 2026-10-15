@@ -1,3 +1,4 @@
+import { LANG } from '../lib/lang'
 import { AnimatePresence, motion, useMotionValueEvent, useScroll, useSpring, useTransform } from 'framer-motion'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -9,7 +10,8 @@ import { t } from '../lib/i18n'
 
 const W = 1200
 const LANE = 38
-const GUTTER = 150
+// Tamil view names run longer, so the label gutter widens.
+const GUTTER = LANG === 'ta' ? 230 : 150
 
 /**
  * "The Road to the End": scroll drives a playhead from the Cross to the new creation.
@@ -115,7 +117,7 @@ export function RoadHero() {
             {/* lane labels */}
             {lanes.map((l) => (
               <Link key={l.v.id} to={`/positions/${l.v.id}`} aria-label={t('Open {name}', { name: l.v.name })}>
-                <text x={-12} y={l.y + 4} textAnchor="end" fontSize={13} fontWeight={700} fill={color(l.v.id).text}>
+                <text x={-12} y={l.y + 4} textAnchor="end" fontSize={LANG === 'ta' ? 11.5 : 13} fontWeight={700} fill={color(l.v.id).text}>
                   {l.v.shortName}
                 </text>
               </Link>
