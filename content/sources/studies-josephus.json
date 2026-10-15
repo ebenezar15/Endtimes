@@ -1,0 +1,47 @@
+[
+  {
+    "id": "perseus-whiston-jewish-war",
+    "title": "The Wars of the Jews (tr. William Whiston, 1737), Perseus Digital Library edition",
+    "author": "Flavius Josephus",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0148",
+    "camp": "reference",
+    "type": "primary",
+    "year": "c. 75-79 (tr. 1737; Perseus text from the 1895 Auburn and Buffalo edition)",
+    "accessed": "2026-10-15",
+    "summary": "Whiston's public-domain translation of the Jewish War divided by his book, chapter and section numbers; the quotations in the Josephus study were checked against this text.",
+    "verified": true
+  },
+  {
+    "id": "mason-josephus-nt",
+    "title": "Josephus and the New Testament",
+    "author": "Steve Mason",
+    "camp": "reference",
+    "type": "book",
+    "year": "1992 (2nd ed. 2003)",
+    "accessed": "2026-10-15",
+    "summary": "An introduction to Josephus' life, aims and writings for New Testament readers, arguing that he must be read as a skilled author with his own agenda rather than as a neutral quarry of facts.",
+    "verified": true
+  },
+  {
+    "id": "rajak-josephus-historian",
+    "title": "Josephus: The Historian and His Society",
+    "author": "Tessa Rajak",
+    "camp": "reference",
+    "type": "book",
+    "year": "1983 (2nd ed. 2002)",
+    "accessed": "2026-10-15",
+    "summary": "A study of Josephus as a member of the Jerusalem priestly aristocracy, reading the Jewish War in light of his social position, his Greek education and his life in Flavian Rome.",
+    "verified": true
+  },
+  {
+    "id": "avigad-discovering-jerusalem",
+    "title": "Discovering Jerusalem",
+    "author": "Nahman Avigad",
+    "camp": "reference",
+    "type": "book",
+    "year": "1983",
+    "accessed": "2026-10-15",
+    "summary": "The excavator's account of digging in the Jewish Quarter after 1969, including the Herodian mansions and the Burnt House destroyed by fire when the Romans took the upper city in AD 70.",
+    "verified": true
+  }
+]

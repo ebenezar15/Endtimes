@@ -8,9 +8,9 @@ export function LanguageSwitch({ className = '' }: { className?: string }) {
       {LANGS.map((l) => {
         const on = l.id === LANG
         return (
-          <button key={l.id} type="button" role="radio" aria-checked={on} lang={l.id} title={l.label} onClick={() => setLang(l.id)} className={`relative rounded-lg px-2.5 py-1 ${on ? 'text-[var(--accent-ink)]' : 'text-ink hover:text-accent'}`}>
+          <button key={l.id} type="button" role="radio" aria-checked={on} lang={l.id} title={l.label} onClick={() => setLang(l.id)} className={`relative rounded-lg px-1.5 py-1 sm:px-2.5 ${on ? 'text-[var(--accent-ink)]' : 'text-ink hover:text-accent'}`}>
             {on && <motion.span layoutId="lang-pill" className="absolute inset-0 rounded-lg bg-accent" transition={{ type: 'spring', stiffness: 400, damping: 30 }} />}
-            <span className="relative">{l.id === 'ta' ? 'தமிழ்' : 'EN'}</span>
+            <span className="relative">{l.id === 'ta' ? (<><span className="sm:hidden">த</span><span className="hidden sm:inline">தமிழ்</span></>) : 'EN'}</span>
           </button>
         )
       })}

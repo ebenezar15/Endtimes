@@ -1,0 +1,1088 @@
+{
+  "intro": "In AD 66 Judea rose against Rome, and four years later Jerusalem and its temple lay in ruins. Almost everything we know about those years comes from one man, Flavius Josephus, who fought on the Jewish side, changed sides, and watched the end from the Roman lines. This retelling follows his Jewish War scene by scene, with his own words in William Whiston's 1737 translation and a map of the city that changes as the siege tightens. Along the way it notes where Christian readers have seen Jesus' warnings about Jerusalem fulfilled, and where historians urge caution about Josephus himself.",
+  "about": "Joseph son of Matthias was born in Jerusalem in AD 37 or 38 into a priestly family, and as a young man went to Rome on an embassy to Nero's court. When the revolt broke out in 66, the provisional government in Jerusalem made him commander in Galilee, where he fortified towns and quarrelled bitterly with rivals such as John of Gischala. In 67 Vespasian besieged him in the hill town of Jotapata for forty-seven days; when it fell, Josephus hid in a cave with forty others, survived a suicide pact, and surrendered. Brought before Vespasian, he announced that the general and his son Titus would become emperors, and when Vespasian was proclaimed in 69 he freed his prisoner, who took the family name Flavius. Josephus spent the siege of Jerusalem at Titus' side as an interpreter, calling on the defenders to surrender while his own parents were inside the walls. Afterwards he lived in Rome on an imperial pension, in a house once owned by Vespasian, and wrote the Jewish War in Greek around AD 75 to 79, having first composed a version in Aramaic for readers in the East. He later wrote the Antiquities of the Jews, an autobiography (the Life) and a defence of Judaism (Against Apion), and died around the end of the first century.",
+  "caveats": [
+    {
+      "title": "Written under Flavian patronage",
+      "text": "Josephus wrote in Rome as a client of Vespasian and Titus, and says he presented the work to them for approval. He consistently portrays Titus as merciful and insists the temple burned against his wishes, yet the later Christian writer Sulpicius Severus, possibly drawing on a lost section of Tacitus, says Titus' council decided to destroy it. Most historians think Josephus' picture of a reluctant Titus is at least partly apologetic."
+    },
+    {
+      "title": "Speeches and set pieces",
+      "text": "Like other Greek and Roman historians, Josephus composed the speeches he puts in his characters' mouths, including his own appeals at the walls and Eleazar's long address at Masada, where no surviving witness could have recorded it. They tell us what Josephus thought fitting to say, not a transcript. Scenes such as Mary's cannibalism also echo the curses of Deuteronomy 28 and the siege stories of the Bible, so literary shaping is likely even where the core event is real."
+    },
+    {
+      "title": "Ancient numbers",
+      "text": "Figures such as 1,100,000 dead or 2,700,200 Passover pilgrims are almost certainly too high for a city whose population most scholars estimate in the tens of thousands, swollen by refugees and pilgrims to perhaps a few hundred thousand. Tacitus gives a lower figure of 600,000 besieged. The numbers convey the scale of the catastrophe as Josephus saw it rather than a census."
+    },
+    {
+      "title": "A survivor justifying himself",
+      "text": "Josephus had to explain why a Jewish general was alive and comfortable in Rome. He blames the war on a small band of 'robbers' and 'tyrants', on bad Roman governors and on God's judgment, while presenting the priestly aristocracy he belonged to as reluctant moderates. His own conduct at Jotapata is told in a way that makes his surrender look like obedience to God, and his autobiography contradicts the War on several details of his Galilean command."
+    },
+    {
+      "title": "Reliable where he can be checked",
+      "text": "For all this, Josephus was an eyewitness with access to Roman commentaries, and where archaeology can test him he often holds up. The Burnt House in the Jewish Quarter, excavated by Nahman Avigad, preserved a home of the priestly Kathros family destroyed by fire in 70, with a spear and the arm bones of a young woman. Along the western wall of the Temple Mount, huge Herodian stones thrown down by the Romans still lie where they crashed onto the paved street below. His descriptions of Jerusalem's walls, Masada's ramp and palaces also broadly match what excavators have found."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "florus-treasury",
+      "at": 66.38,
+      "date": "Spring AD 66 (Artemisius)",
+      "title": "Florus raids the temple treasury",
+      "place": "The temple and the upper market, Jerusalem",
+      "narrative": "Judea had been simmering for years under a run of greedy Roman procurators, and Gessius Florus was the worst of them in Josephus' telling. In the spring of 66, with trouble already flaring in Caesarea, Florus sent men to take seventeen talents from the sacred treasury, claiming the emperor needed it. Crowds poured into the temple courts shouting for Caesar to free them from Florus, and some wits carried a basket round begging small change for the 'poor' governor. Florus answered with soldiers. He marched on Jerusalem, demanded the mockers be handed over, and when the leading men could not produce them he let his troops loose on the upper market. Josephus says about 3,600 people died that day, including Jews of equestrian rank who were scourged and crucified. Queen Berenice, who was in the city, pleaded barefoot before Florus' tribunal and was ignored.",
+      "quotes": [
+        {
+          "text": "…but Florus acted herein as if he had been hired, and blew up the war into a flame, and sent some to take seventeen talents out of the sacred treasure, and pretended that Caesar wanted them. At this the people were in confusion immediately, and ran together to the temple, with prodigious clamors, and called upon Caesar by name, and besought him to free them from the tyranny of Florus.",
+          "cite": "Jewish War 2.14.6"
+        }
+      ],
+      "map": {
+        "focus": [
+          "temple",
+          "upper-city"
+        ],
+        "romans": [
+          "herods-palace"
+        ],
+        "fire": [],
+        "breached": [],
+        "siegeWall": false
+      },
+      "prophecy": [],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war",
+        "goodman-rome-jerusalem"
+      ]
+    },
+    {
+      "id": "sacrifice-for-caesar",
+      "at": 66.5,
+      "date": "Summer AD 66",
+      "title": "The sacrifice for Caesar is stopped",
+      "place": "The temple, Jerusalem",
+      "narrative": "For decades the priests had offered a daily sacrifice on behalf of the emperor and the Roman people, a token of loyalty that let Judea keep its own worship. In the summer of 66 Eleazar son of Ananias, the young captain of the temple and son of a former high priest, persuaded the officiating priests to accept no more gifts or sacrifices from foreigners. Senior priests and leading Pharisees argued against it, warning that it amounted to a declaration of war, but they were overruled. Josephus calls this the true beginning of the war. Fighting broke out between the peace party in the upper city and the rebels holding the temple; the rebels burned the public archives with their records of debts, took the fortress of Antonia, and besieged the Roman garrison in Herod's palace. The garrison surrendered on a promise of safe conduct and was massacred once it had laid down its arms. About the same time rebels seized the desert fortress of Masada.",
+      "quotes": [
+        {
+          "text": "At the same time Eleazar, the son of Ananias the high priest, a very bold youth, who was at that time governor of the temple, persuaded those that officiated in the Divine service to receive no gift or sacrifice for any foreigner. And this was the true beginning of our war with the Romans; for they rejected the sacrifice of Caesar on this account…",
+          "cite": "Jewish War 2.17.2"
+        }
+      ],
+      "map": {
+        "focus": [
+          "temple",
+          "antonia",
+          "herods-palace"
+        ],
+        "romans": [
+          "herods-palace"
+        ],
+        "fire": [],
+        "breached": [],
+        "siegeWall": false
+      },
+      "prophecy": [],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war",
+        "goodman-rome-jerusalem"
+      ]
+    },
+    {
+      "id": "cestius-withdraws",
+      "at": 66.8,
+      "date": "Autumn AD 66 (Hyperberetaeus)",
+      "title": "Cestius Gallus besieges, then withdraws",
+      "place": "Mount Scopus, Bezetha and the Beth-horon pass",
+      "narrative": "Cestius Gallus, the governor of Syria, marched south with the Twelfth Legion and thousands of auxiliaries and allied troops. He camped on Mount Scopus, burned the new northern suburb of Bezetha, and pressed his attack to the north wall of the temple itself, his men locking shields over their heads to undermine it. Josephus believed the city was on the point of falling, and that some leading citizens were ready to open the gates. Then, for reasons Josephus could not explain, Cestius called off the assault and began to retreat. The rebels harried his column all the way down the pass of Beth-horon, and the Romans lost thousands of men, their siege engines and their baggage. The victory convinced many waverers that God was with the revolt. Christian tradition, recorded by Eusebius in the fourth century and not by Josephus, adds that the Jerusalem church left the city before the war, warned by an oracle, and settled at Pella beyond the Jordan; many Christian readers have connected that flight with Jesus' instruction to flee when they saw Jerusalem surrounded by armies.",
+      "quotes": [
+        {
+          "text": "…and so he recalled his soldiers from the place, and by despairing of any expectation of taking it, without having received any disgrace, he retired from the city, without any reason in the world. But when the robbers perceived this unexpected retreat of his, they resumed their courage, and ran after the hinder parts of his army…",
+          "cite": "Jewish War 2.19.7"
+        }
+      ],
+      "map": {
+        "focus": [
+          "bezetha",
+          "mount-scopus",
+          "temple"
+        ],
+        "romans": [
+          "mount-scopus",
+          "bezetha"
+        ],
+        "fire": [
+          "bezetha"
+        ],
+        "breached": [],
+        "siegeWall": false
+      },
+      "prophecy": [
+        {
+          "ref": "Luke 21:20-21",
+          "text": "When you see Jerusalem surrounded by armies, know that its desolation is near; then those in Judea should flee to the mountains."
+        },
+        {
+          "ref": "Matthew 24:15-16",
+          "text": "When you see the abomination of desolation standing in the holy place, let those in Judea flee to the mountains."
+        }
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war",
+        "eusebius-church-history"
+      ]
+    },
+    {
+      "id": "jotapata",
+      "at": 67.55,
+      "date": "Summer AD 67 (Panemus)",
+      "title": "Jotapata falls; Josephus surrenders and prophesies",
+      "place": "Jotapata, Galilee",
+      "narrative": "Nero sent the veteran general Vespasian, with his son Titus, to crush the revolt, and in the spring of 67 three legions advanced into Galilee. Josephus, commanding there for the rebels, shut himself into the hill town of Jotapata, which held out for forty-seven days against ramps, rams and archers. When the town fell, Josephus hid in a cistern-cave with forty others who preferred death to surrender. By his own account he persuaded them to draw lots so that each would be killed by another, and he was left alive with one companion, whom he talked into surrendering with him. He frames his decision as obedience to God, recalling dreams that had shown him the fate of the Jews and of the Roman emperors. Brought before Vespasian, who meant to send him to Nero, he asked for a private word and announced that the general and his son would become emperors, adding that he had foretold Jotapata's fall on the forty-seventh day. Suetonius and Cassius Dio also mention the prediction of a captive called Josephus, so the episode is not his invention, though readers have long noticed how convenient his version is for its author.",
+      "quotes": [
+        {
+          "text": "\"Since it pleaseth thee, who hast created the Jewish nation, to depress the same, and since all their good fortune is gone over to the Romans, and since thou hast made choice of this soul of mine to foretell what is to come to pass hereafter, I willingly give them my hands, and am content to live. And I protest openly that I do not go over to the Romans as a deserter of the Jews, but as a minister from thee.\"",
+          "cite": "Jewish War 3.8.3"
+        },
+        {
+          "text": "\"Thou, O Vespasian, thinkest no more than that thou hast taken Josephus himself captive; but I come to thee as a messenger of greater tidings… Dost thou send me to Nero? For why? Are Nero's successors till they come to thee still alive? Thou, O Vespasian, art Caesar and emperor, thou, and this thy son.\"",
+          "cite": "Jewish War 3.8.9"
+        }
+      ],
+      "map": {
+        "focus": [],
+        "romans": [],
+        "fire": [],
+        "breached": [],
+        "siegeWall": false
+      },
+      "prophecy": [],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war",
+        "rajak-josephus-historian",
+        "mason-josephus-nt"
+      ]
+    },
+    {
+      "id": "zealots-idumeans",
+      "at": 68.0,
+      "date": "Winter AD 67-68",
+      "title": "Zealots and Idumeans seize Jerusalem",
+      "place": "The temple and the city, Jerusalem",
+      "narrative": "As Galilee fell, its fighters streamed into Jerusalem, among them John of Gischala, Josephus' old rival. A radical faction calling themselves Zealots occupied the inner temple, appointed a high priest by lot from an obscure family, and arrested and killed men of the old aristocracy. The former high priest Ananus son of Ananus rallied the citizens and penned the Zealots inside the sanctuary. The Zealots secretly called in thousands of Idumeans from the south, who broke into the city during a violent night storm. Together they slaughtered the guards, then hunted down the chief priests, killing Ananus and his colleague Jesus son of Gamala and leaving their bodies unburied. Josephus, who admired Ananus as a realist who knew Rome could not be beaten, saw that night as the moment the city's fate was sealed.",
+      "quotes": [
+        {
+          "text": "I should not mistake if I said that the death of Ananus was the beginning of the destruction of the city, and that from this very day may be dated the overthrow of her wall, and the ruin of her affairs, whereon they saw their high priest, and the procurer of their preservation, slain in the midst of their city.",
+          "cite": "Jewish War 4.5.2"
+        },
+        {
+          "text": "…and I cannot but think that it was because God had doomed this city to destruction, as a polluted city, and was resolved to purge his sanctuary by fire, that he cut off these their great defenders and well-wishers…",
+          "cite": "Jewish War 4.5.2"
+        }
+      ],
+      "map": {
+        "focus": [
+          "temple",
+          "lower-city",
+          "upper-city"
+        ],
+        "romans": [],
+        "fire": [],
+        "breached": [],
+        "siegeWall": false
+      },
+      "prophecy": [],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war",
+        "goodman-rome-jerusalem"
+      ]
+    },
+    {
+      "id": "four-emperors",
+      "at": 69.5,
+      "date": "June 68 to December 69",
+      "title": "The year of the four emperors",
+      "place": "Rome, Alexandria and Caesarea",
+      "narrative": "Vespasian methodically reduced Judea and Perea through 68, isolating Jerusalem. Then Nero, deserted by the Senate and the army, killed himself in June 68, and the Roman world plunged into civil war. Galba, Otho and Vitellius each claimed the throne in quick succession, and Vespasian paused his campaign to watch. On 1 July 69 the legions in Egypt, under the prefect Tiberius Julius Alexander, swore allegiance to Vespasian, and his own troops in Judea soon followed. Josephus' prediction had come true, and Vespasian released him from his chains. Meanwhile in Jerusalem the people, desperate to be rid of John of Gischala, invited in a second warlord, Simon bar Giora, in the spring of 69. By the end of the year Vespasian's forces held Rome, and he left his son Titus to finish the war.",
+      "quotes": [
+        {
+          "text": "These were the discourses the soldiers had in their several companies; after which they got together in a great body, and, encouraging one another, they declared Vespasian emperor, and exhorted him to save the government, which was now in danger.",
+          "cite": "Jewish War 4.10.4"
+        }
+      ],
+      "map": {
+        "focus": [],
+        "romans": [],
+        "fire": [],
+        "breached": [],
+        "siegeWall": false
+      },
+      "prophecy": [
+        {
+          "ref": "Matthew 24:6-7",
+          "text": "You will hear of wars and rumours of wars; nation will rise against nation, but the end is not yet."
+        }
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war",
+        "tacitus-histories"
+      ]
+    },
+    {
+      "id": "civil-war-grain",
+      "at": 70.15,
+      "date": "Late AD 69 to early AD 70",
+      "title": "Three factions burn the city's grain",
+      "place": "Around the temple, Jerusalem",
+      "narrative": "By the winter of 69-70 Jerusalem was divided between three armed factions. Eleazar son of Simon and his Zealots held the inner temple; John of Gischala held the outer temple courts and fought upward at Eleazar and outward at Simon; Simon bar Giora held most of the upper and lower city. The fighting was vicious and continuous, and stones and darts from John's engines fell among worshippers and sacrifices. In the course of it the factions set fire to the storehouses round the temple, destroying grain that Josephus says could have fed the city through a siege of many years. The ground about the temple became a burnt no-man's-land. When the Romans arrived, the city they faced was already starving itself.",
+      "quotes": [
+        {
+          "text": "Accordingly, it so came to pass, that all the places that were about the temple were burnt down, and were become an intermediate desert space, ready for fighting on both sides of it; and that almost all that corn was burnt, which would have been sufficient for a siege of many years.",
+          "cite": "Jewish War 5.1.4"
+        }
+      ],
+      "map": {
+        "focus": [
+          "temple",
+          "upper-city",
+          "lower-city"
+        ],
+        "romans": [],
+        "fire": [
+          "lower-city"
+        ],
+        "breached": [],
+        "siegeWall": false
+      },
+      "prophecy": [
+        {
+          "ref": "Mark 3:24-25",
+          "text": "If a kingdom or a house is divided against itself, it cannot stand."
+        }
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war",
+        "goodman-rome-jerusalem"
+      ]
+    },
+    {
+      "id": "titus-arrives",
+      "at": 70.3,
+      "date": "Passover, spring AD 70 (Xanthicus)",
+      "title": "Titus arrives at Passover",
+      "place": "Mount Scopus and the Mount of Olives",
+      "narrative": "Titus marched on Jerusalem with four legions, the Fifth, Tenth, Twelfth and Fifteenth, together with allied kings and auxiliaries, arriving just as pilgrims gathered for Passover. Riding out to reconnoitre with a small escort, he was cut off near the walls and fought his way back, by Josephus' account without helmet or breastplate. He fortified camps on Mount Scopus to the north, from where the whole temple could be seen, and the Tenth Legion dug in on the Mount of Olives across the Kidron valley. At the feast Eleazar's party opened the temple gates to worshippers, and John's men slipped in with hidden weapons and took the inner court, so that the three factions became two. The pilgrims who had come for the festival were now trapped inside with the city's own people. Christian readers have often noted that the Mount of Olives, where Jesus sat when he foretold the temple's ruin, now held a Roman legion.",
+      "quotes": [
+        {
+          "text": "These legions had orders to encamp at the distance of six furlongs from Jerusalem, at the mount called the Mount of Olives which lies over against the city on the east side, and is parted from it by a deep valley, interposed between them, which is named Cedron.",
+          "cite": "Jewish War 5.2.3"
+        }
+      ],
+      "map": {
+        "focus": [
+          "mount-scopus",
+          "mount-of-olives"
+        ],
+        "romans": [
+          "mount-scopus",
+          "mount-of-olives"
+        ],
+        "fire": [],
+        "breached": [],
+        "siegeWall": false
+      },
+      "prophecy": [
+        {
+          "ref": "Luke 21:20",
+          "text": "When you see Jerusalem surrounded by armies, then know that its desolation has come near."
+        },
+        {
+          "ref": "Matthew 24:3",
+          "text": "As Jesus sat on the Mount of Olives, the disciples asked him when the temple's destruction would happen."
+        }
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war"
+      ]
+    },
+    {
+      "id": "third-wall",
+      "at": 70.38,
+      "date": "7 Artemisius (May) AD 70",
+      "title": "The outer wall falls",
+      "place": "The third wall, Bezetha",
+      "narrative": "Jerusalem was protected on the north by three walls, and the Romans had to take them one by one. Titus raised earthworks and brought up siege towers sheathed in iron and three great rams against the outermost, the so-called third wall begun by Agrippa I around the new quarter of Bezetha. The defenders fought hard with sallies and fire, and John and Simon briefly co-operated against the common enemy. But the largest ram, which the Jews themselves nicknamed Nico, 'the conqueror', battered a breach, and weary defenders fell back to the next wall. On the fifteenth day of the siege the Romans poured in and demolished much of the northern suburb. Josephus, counting from the outside, calls it the 'first wall'.",
+      "quotes": [
+        {
+          "text": "…so that the wall already gave way to the Nico, for by that name did the Jews themselves call the greatest of their engines, because it conquered all things.",
+          "cite": "Jewish War 5.7.2"
+        },
+        {
+          "text": "And thus did the Romans get possession of this first wall, on the fifteenth day of the siege, which was the seventh day of the month Artemisius, [Jyar,] when they demolished a great part of it…",
+          "cite": "Jewish War 5.7.2"
+        }
+      ],
+      "map": {
+        "focus": [
+          "third-wall",
+          "bezetha"
+        ],
+        "romans": [
+          "mount-scopus",
+          "mount-of-olives",
+          "bezetha"
+        ],
+        "fire": [],
+        "breached": [
+          "third-wall"
+        ],
+        "siegeWall": false
+      },
+      "prophecy": [],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war"
+      ]
+    },
+    {
+      "id": "second-wall",
+      "at": 70.4,
+      "date": "Late May AD 70",
+      "title": "The second wall, lost and retaken",
+      "place": "The second wall and the market quarter",
+      "narrative": "Five days later a ram broke through the second wall, which enclosed the crowded market district north of the temple and upper city. Titus entered with a thousand picked men through the streets of the wool merchants, braziers and cloth sellers, and forbade his men to kill or burn, hoping the people would come over to him. The rebels, who knew every alley, saw his restraint as weakness. They threatened anyone who spoke of surrender, then counter-attacked from rooftops and side streets. Because the breach was narrow, the Romans were nearly trapped and only escaped under covering fire from Titus' archers. For three days the defenders held the gap, but on the fourth the Romans broke in again, and this time Titus levelled the northern part of the wall. Josephus' account here doubles as praise of Titus' clemency.",
+      "quotes": [
+        {
+          "text": "NOW Caesar took this wall there on the fifth day after he had taken the first; and when the Jews had fled from him, he entered into it with a thousand armed men, and those of his choice troops, and this at a place where were the merchants of wool, the braziers, and the market for cloth, and where the narrow streets led obliquely to the wall.",
+          "cite": "Jewish War 5.8.1"
+        },
+        {
+          "text": "…for he was very desirous to preserve the city for his own sake, and the temple for the sake of the city.",
+          "cite": "Jewish War 5.8.1"
+        }
+      ],
+      "map": {
+        "focus": [
+          "second-wall",
+          "lower-city"
+        ],
+        "romans": [
+          "mount-scopus",
+          "mount-of-olives",
+          "bezetha"
+        ],
+        "fire": [],
+        "breached": [
+          "third-wall",
+          "second-wall"
+        ],
+        "siegeWall": false
+      },
+      "prophecy": [],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war"
+      ]
+    },
+    {
+      "id": "crucifixions",
+      "at": 70.45,
+      "date": "June AD 70",
+      "title": "Crucifixions before the walls",
+      "place": "Outside the walls, Jerusalem",
+      "narrative": "Titus built new earthworks against the Antonia fortress and the upper city, and Josephus was sent to the walls to plead in his native tongue for surrender, to jeers and missiles. Hunger was now driving the poor to slip out at night into the ravines to forage. Roman cavalry ambushed them, and those who resisted were scourged, tortured and crucified in full view of the defenders, as many as five hundred a day. Josephus says Titus pitied them but allowed it in the hope that terror would bring surrender. The soldiers nailed the captives up in different postures for sport, until there was no room for the crosses and no crosses for the bodies. Some deserters who reached the Roman lines were cut open by Arab and Syrian auxiliaries searching for swallowed gold coins.",
+      "quotes": [
+        {
+          "text": "…so they were first whipped, and then tormented with all sorts of tortures, before they died, and were then crucified before the wall of the city. This miserable procedure made Titus greatly to pity them, while they caught every day five hundred Jews; nay, some days they caught more…",
+          "cite": "Jewish War 5.11.1"
+        },
+        {
+          "text": "So the soldiers, out of the wrath and hatred they bore the Jews, nailed those they caught, one after one way, and another after another, to the crosses, by way of jest, when their multitude was so great, that room was wanting for the crosses, and crosses wanting for the bodies.",
+          "cite": "Jewish War 5.11.1"
+        }
+      ],
+      "map": {
+        "focus": [
+          "antonia",
+          "upper-city"
+        ],
+        "romans": [
+          "mount-scopus",
+          "mount-of-olives",
+          "bezetha"
+        ],
+        "fire": [],
+        "breached": [
+          "third-wall",
+          "second-wall"
+        ],
+        "siegeWall": false
+      },
+      "prophecy": [],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war"
+      ]
+    },
+    {
+      "id": "siege-wall",
+      "at": 70.5,
+      "date": "June AD 70",
+      "title": "A wall around the city in three days",
+      "place": "Around the whole city, from Scopus to Siloam",
+      "narrative": "John of Gischala undermined one set of Roman earthworks and Simon's men burned another, wiping out seventeen days of labour. Titus' council debated storming the city or waiting, and he chose a third course: to seal Jerusalem completely so that no one could get out and no food could get in. The legions competed against each other, and the whole army set to work with what Josephus calls a divine fury. The wall ran from the Assyrian camp down through the Kidron valley, over the Mount of Olives, round past Siloam and the valley of Hinnom, and back to the north, with thirteen garrison forts. Josephus measures it at thirty-nine furlongs, about seven kilometres, and says it was finished in three days. Inside the ring the famine took whole households, and soon bodies were being thrown from the walls into the valleys, where Titus, seeing them, is said to have groaned and called God to witness that it was not his doing. Christian readers have long set this beside Jesus' lament that Jerusalem's enemies would throw up an embankment, surround her and hem her in on every side.",
+      "quotes": [
+        {
+          "text": "Now the length of this wall was forty furlongs, one only abated. Now at this wall without were erected thirteen places to keep garrison in, whose circumferences, put together, amounted to ten furlongs; the whole was completed in three days; so that what would naturally have required some months was done in so short an interval as is incredible.",
+          "cite": "Jewish War 5.12.2"
+        },
+        {
+          "text": "So all hope of escaping was now cut off from the Jews, together with their liberty of going out of the city. Then did the famine widen its progress, and devoured the people by whole houses and families; the upper rooms were full of women and children that were dying by famine, and the lanes of the city were full of the dead bodies of the aged…",
+          "cite": "Jewish War 5.12.3"
+        },
+        {
+          "text": "A deep silence also, and a kind of deadly night, had seized upon the city… Now every one of these died with their eyes fixed upon the temple, and left the seditious alive behind them.",
+          "cite": "Jewish War 5.12.3"
+        }
+      ],
+      "map": {
+        "focus": [
+          "siege-wall",
+          "mount-of-olives",
+          "siloam"
+        ],
+        "romans": [
+          "mount-scopus",
+          "mount-of-olives",
+          "bezetha",
+          "siege-wall"
+        ],
+        "fire": [],
+        "breached": [
+          "third-wall",
+          "second-wall"
+        ],
+        "siegeWall": true
+      },
+      "prophecy": [
+        {
+          "ref": "Luke 19:43-44",
+          "text": "Days will come when your enemies will set up a barricade around you, surround you and hem you in on every side, and leave not one stone upon another."
+        },
+        {
+          "ref": "Luke 21:23",
+          "text": "There will be great distress on the land and wrath against this people."
+        }
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war"
+      ]
+    },
+    {
+      "id": "antonia",
+      "at": 70.55,
+      "date": "Panemus (July) AD 70",
+      "title": "The Antonia fortress is taken",
+      "place": "The tower of Antonia, north-west corner of the temple",
+      "narrative": "The Antonia, Herod's fortress overlooking the temple courts, was the key to the sanctuary. New earthworks were raised with timber hauled from miles away, since the country round the city had been stripped bare. After a section of wall collapsed into one of John's mines, the defenders had already built a second wall behind it. Then, in the dead of night, a small party of soldiers crept through the ruins, cut the throats of the sleeping sentries and sounded a trumpet from the top. The panicked guards fled, Titus led his troops up, and a desperate hand-to-hand battle raged at the entrance to the temple courts from the ninth hour of the night to the seventh hour of the day. The Romans were driven back from the temple but kept the Antonia, which Titus ordered razed to make a broad road for his army.",
+      "quotes": [
+        {
+          "text": "Now two days afterward twelve of those men that were on the forefront, and kept watch upon the banks, got together, and called to them the standard-bearer of the fifth legion, and two others of a troop of horsemen, and one trumpeter; these went without noise, about the ninth hour of the night, through the ruins, to the tower of Antonia…",
+          "cite": "Jewish War 6.1.7"
+        },
+        {
+          "text": "So a terrible battle was fought at the entrance of the temple, while the Romans were forcing their way, in order to get possession of that temple, and the Jews were driving them back to the tower of Antonia…",
+          "cite": "Jewish War 6.1.7"
+        }
+      ],
+      "map": {
+        "focus": [
+          "antonia",
+          "temple"
+        ],
+        "romans": [
+          "mount-scopus",
+          "mount-of-olives",
+          "bezetha",
+          "siege-wall",
+          "antonia"
+        ],
+        "fire": [],
+        "breached": [
+          "third-wall",
+          "second-wall",
+          "antonia"
+        ],
+        "siegeWall": true
+      },
+      "prophecy": [],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war"
+      ]
+    },
+    {
+      "id": "daily-sacrifice-ceases",
+      "at": 70.56,
+      "date": "17 Panemus (July) AD 70",
+      "title": "The daily sacrifice ceases",
+      "place": "The temple, Jerusalem",
+      "narrative": "On the seventeenth of Panemus Titus learned that the daily sacrifice, the morning and evening offering made without a break for generations, had failed for lack of men to offer it, and that the people were grieving. He sent Josephus to call on John to come out and fight elsewhere if he wished, so that the temple would be spared, and offered to let the sacrifices resume. Josephus spoke from the ruins in Hebrew, reminding John that King Jeconiah had once surrendered to Babylon to save the sanctuary. John answered with curses and said he never feared the city's capture, since it was God's own city. Josephus replied that God himself was bringing the fire to purge the city by means of the Romans. Later Jewish tradition remembers the seventeenth of Tammuz as a day of mourning, and Christian readers have sometimes linked the end of the sacrifice with Daniel's prophecy of the sacrifice taken away, which Jesus cites in the Olivet discourse.",
+      "quotes": [
+        {
+          "text": "…for he had been informed that on that very day, which was the seventeenth day of Panemus, [Tamuz,] the sacrifice called \"the Daily Sacrifice\" had failed, and had not been offered to God, for want of men to offer it, and that the people were grievously troubled at it…",
+          "cite": "Jewish War 6.2.1"
+        },
+        {
+          "text": "It is God, therefore, it is God himself who is bringing on this fire, to purge that city and temple by means of the Romans, and is going to pluck up this city, which is full of your pollutions.",
+          "cite": "Jewish War 6.2.1"
+        }
+      ],
+      "map": {
+        "focus": [
+          "temple"
+        ],
+        "romans": [
+          "mount-scopus",
+          "mount-of-olives",
+          "bezetha",
+          "siege-wall",
+          "antonia"
+        ],
+        "fire": [],
+        "breached": [
+          "third-wall",
+          "second-wall",
+          "antonia"
+        ],
+        "siegeWall": true
+      },
+      "prophecy": [
+        {
+          "ref": "Matthew 24:15",
+          "text": "When you see the abomination of desolation spoken of by the prophet Daniel standing in the holy place, let the reader understand."
+        }
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war"
+      ]
+    },
+    {
+      "id": "mary-of-bethezob",
+      "at": 70.6,
+      "date": "Lous (August) AD 70",
+      "title": "Mary, daughter of Eleazar",
+      "place": "A house in Jerusalem",
+      "narrative": "As fighting moved into the temple porticoes, which both sides began to burn, Josephus pauses for the story that horrified the city. Mary, daughter of Eleazar, was a woman of good family from the village of Bethezob east of the Jordan who had fled to Jerusalem as a refugee. Raiders had taken her property and every scrap of food she found. Maddened by hunger and anger, she killed her infant son, roasted him, ate half and hid the rest. When armed men smelled cooking and broke in, she uncovered what was left and invited them to eat; they left trembling. Josephus says Titus, on hearing of it, swore to bury the deed under the ruins of the city. The story deliberately echoes the siege curses of Deuteronomy 28 and the famine of Samaria in 2 Kings 6, and Christian readers have linked it with Jesus' words to the women of Jerusalem on the road to the cross.",
+      "quotes": [
+        {
+          "text": "There was a certain woman that dwelt beyond Jordan, her name was Mary; her father was Eleazar, of the village Bethezob, which signifies the house of Hyssop.",
+          "cite": "Jewish War 6.3.4"
+        },
+        {
+          "text": "\"O thou miserable infant! for whom shall I preserve thee in this war, this famine, and this sedition? As to the war with the Romans, if they preserve our lives, we must be slaves. This famine also will destroy us, even before that slavery comes upon us.\"",
+          "cite": "Jewish War 6.3.4"
+        }
+      ],
+      "map": {
+        "focus": [
+          "upper-city",
+          "lower-city"
+        ],
+        "romans": [
+          "mount-scopus",
+          "mount-of-olives",
+          "bezetha",
+          "siege-wall",
+          "antonia"
+        ],
+        "fire": [],
+        "breached": [
+          "third-wall",
+          "second-wall",
+          "antonia"
+        ],
+        "siegeWall": true
+      },
+      "prophecy": [
+        {
+          "ref": "Luke 23:28-29",
+          "text": "Daughters of Jerusalem, weep for yourselves and your children; the days are coming when they will say, Blessed are the barren and the wombs that never bore."
+        },
+        {
+          "ref": "Luke 21:23",
+          "text": "Alas for those who are pregnant and those who are nursing in those days."
+        }
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war"
+      ]
+    },
+    {
+      "id": "temple-burned",
+      "at": 70.65,
+      "date": "10 Lous (Av), late August AD 70",
+      "title": "The temple burns",
+      "place": "The temple, Jerusalem",
+      "narrative": "After the outer porticoes had been burned, Titus held a council about the sanctuary itself; Josephus says he argued for sparing it. The next day, the tenth of Lous, the defenders sallied again and were driven back into the inner court. A soldier, acting without orders, was lifted up by a comrade and flung a burning brand through a golden window into the chambers on the north side of the sanctuary. Titus, roused from his tent, ran to the scene and ordered the fire put out, but in the noise and frenzy no one obeyed, and the hope of gold drove the soldiers on. Josephus notes that it was the same day of the year on which the Babylonians had burned Solomon's temple. Some historians, pointing to Sulpicius Severus, suspect Titus in fact approved the burning, and that Josephus is shielding his patron. Christians have read the fire as the fulfilment of Jesus' saying that not one stone of the temple would be left upon another.",
+      "quotes": [
+        {
+          "text": "But as for that house, God had, for certain, long ago doomed it to the fire; and now that fatal day was come, according to the revolution of ages; it was the tenth day of the month Lous, [Ab,] upon which it was formerly burnt by the king of Babylon…",
+          "cite": "Jewish War 6.4.5"
+        },
+        {
+          "text": "At which time one of the soldiers, without staying for any orders, and without any concern or dread upon him at so great an undertaking, and being hurried on by a certain divine fury, snatched somewhat out of the materials that were on fire, and being lifted up by another soldier, he set fire to a golden window…",
+          "cite": "Jewish War 6.4.5"
+        },
+        {
+          "text": "And thus was the holy house burnt down, without Caesar's approbation.",
+          "cite": "Jewish War 6.4.7"
+        }
+      ],
+      "map": {
+        "focus": [
+          "temple"
+        ],
+        "romans": [
+          "mount-scopus",
+          "mount-of-olives",
+          "bezetha",
+          "siege-wall",
+          "antonia",
+          "temple"
+        ],
+        "fire": [
+          "temple"
+        ],
+        "breached": [
+          "third-wall",
+          "second-wall",
+          "antonia"
+        ],
+        "siegeWall": true
+      },
+      "prophecy": [
+        {
+          "ref": "Matthew 24:2",
+          "text": "Do you see all these things? Truly, not one stone here will be left upon another that will not be thrown down."
+        },
+        {
+          "ref": "Luke 21:6",
+          "text": "The days will come when there will not be left one stone upon another."
+        },
+        {
+          "ref": "Luke 13:35",
+          "text": "Behold, your house is left to you desolate."
+        }
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war",
+        "tacitus-histories",
+        "goodman-rome-jerusalem"
+      ]
+    },
+    {
+      "id": "upper-city-falls",
+      "at": 70.72,
+      "date": "8 Gorpieus (September) AD 70",
+      "title": "The upper city falls",
+      "place": "The upper city and Herod's palace",
+      "narrative": "The temple burned while priests and civilians were cut down around the altar, and soon the lower city too was set alight. The surviving rebels retreated to the upper city on the western hill, where Herod's palace and its three great towers stood. Titus parleyed with John and Simon across the bridge over the Tyropoeon valley; they asked to leave with their families for the desert, and he refused. After eighteen days of building earthworks the Romans breached the last wall on the eighth of Gorpieus and found the defenders' nerve already broken. They swept through the streets killing, and found houses full of people dead from famine. John was found starving in an underground passage and Simon surrendered after trying to tunnel out; both were kept for the triumph. Josephus totals the dead of the siege at 1,100,000 and the captives of the whole war at 97,000, most of them sent to the mines or the arenas or sold as slaves.",
+      "quotes": [
+        {
+          "text": "Now the number of those that were carried captive during this whole war was collected to be ninety-seven thousand; as was the number of those that perished during the whole siege eleven hundred thousand, the greater part of whom were indeed of the same nation [with the citizens of Jerusalem], but not belonging to the city itself; for they were come up from all the country to the feast of unleavened bread, and were on a sudden shut up by an army…",
+          "cite": "Jewish War 6.9.3"
+        }
+      ],
+      "map": {
+        "focus": [
+          "upper-city",
+          "herods-palace"
+        ],
+        "romans": [
+          "mount-scopus",
+          "mount-of-olives",
+          "bezetha",
+          "siege-wall",
+          "antonia",
+          "temple",
+          "lower-city",
+          "upper-city",
+          "herods-palace"
+        ],
+        "fire": [
+          "temple",
+          "lower-city",
+          "upper-city"
+        ],
+        "breached": [
+          "third-wall",
+          "second-wall",
+          "antonia",
+          "first-wall"
+        ],
+        "siegeWall": true
+      },
+      "prophecy": [
+        {
+          "ref": "Luke 21:24",
+          "text": "They will fall by the edge of the sword and be led captive among all nations, and Jerusalem will be trampled by the Gentiles until the times of the Gentiles are fulfilled."
+        },
+        {
+          "ref": "Matthew 24:21",
+          "text": "For then there will be great tribulation, such as has not been from the beginning of the world until now."
+        }
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war"
+      ]
+    },
+    {
+      "id": "city-razed",
+      "at": 70.8,
+      "date": "Autumn AD 70",
+      "title": "The city is levelled",
+      "place": "Jerusalem",
+      "narrative": "With no one left to fight, Titus ordered the whole city and temple demolished. Only the towers Phasael, Hippicus and Mariamne and part of the western wall were left standing, as a camp for the Tenth Legion and as a monument to the strength Rome had overcome. Everything else was dug up to its foundations. Josephus writes that a visitor would not have believed the place had ever been inhabited, though excavations show this is rhetorical: houses, streets and some walls survived as buried ruins. Along the south-western corner of the Temple Mount, Herodian blocks thrown down from the platform still lie on the paved street where they fell, and in the Jewish Quarter the Burnt House preserves a priestly home destroyed in the flames. Titus then held victory games in Caesarea and Berytus where thousands of captives died fighting beasts and each other.",
+      "quotes": [
+        {
+          "text": "…Caesar gave orders that they should now demolish the entire city and temple, but should leave as many of the towers standing as were of the greatest eminency; that is, Phasaelus, and Hippicus, and Mariamne; and so much of the wall as enclosed the city on the west side.",
+          "cite": "Jewish War 7.1.1"
+        },
+        {
+          "text": "…but for all the rest of the wall, it was so thoroughly laid even with the ground by those that dug it up to the foundation, that there was left nothing to make those that came thither believe it had ever been inhabited. This was the end which Jerusalem came to by the madness of those that were for innovations; a city otherwise of great magnificence, and of mighty fame among all mankind.",
+          "cite": "Jewish War 7.1.1"
+        }
+      ],
+      "map": {
+        "focus": [
+          "temple",
+          "upper-city",
+          "lower-city",
+          "herods-palace"
+        ],
+        "romans": [
+          "temple",
+          "antonia",
+          "upper-city",
+          "lower-city",
+          "bezetha",
+          "herods-palace"
+        ],
+        "fire": [
+          "temple",
+          "lower-city",
+          "upper-city"
+        ],
+        "breached": [
+          "third-wall",
+          "second-wall",
+          "first-wall",
+          "antonia"
+        ],
+        "siegeWall": true
+      },
+      "prophecy": [
+        {
+          "ref": "Luke 19:44",
+          "text": "They will dash you to the ground, you and your children within you, and will not leave one stone upon another, because you did not know the time of your visitation."
+        },
+        {
+          "ref": "Mark 13:2",
+          "text": "There will not be left here one stone upon another that will not be thrown down."
+        }
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war",
+        "avigad-discovering-jerusalem"
+      ]
+    },
+    {
+      "id": "triumph",
+      "at": 71.45,
+      "date": "June AD 71",
+      "title": "The triumph in Rome",
+      "place": "Rome",
+      "narrative": "Vespasian and Titus celebrated a joint triumph through the streets of Rome, with Titus' younger brother Domitian riding alongside. Josephus, who watched it, describes rivers of gold, silver and ivory, and moving stages several storeys high that showed the war in scenes: walls battered down, temples set on fire, a land laid waste. The spoils of the temple came last and drew the most attention: the golden table, the seven-branched lampstand and a copy of the Jewish Law. At the climax Simon bar Giora was dragged to the Forum and executed. The lampstand and table were later placed in Vespasian's new Temple of Peace, and the Arch of Titus, completed after his death in 81, still shows soldiers carrying the menorah. A tax once paid to the temple in Jerusalem was now redirected to the temple of Jupiter on the Capitol.",
+      "quotes": [
+        {
+          "text": "But for those that were taken in the temple of Jerusalem, they made the greatest figure of them all; that is, the golden table, of the weight of many talents; the candlestick also, that was made of gold, though its construction were now changed from that which we made use of…",
+          "cite": "Jewish War 7.5.5"
+        },
+        {
+          "text": "These lamps were in number seven, and represented the dignity of the number seven among the Jews; and the last of all the spoils, was carried the Law of the Jews.",
+          "cite": "Jewish War 7.5.5"
+        }
+      ],
+      "map": {
+        "focus": [],
+        "romans": [],
+        "fire": [],
+        "breached": [],
+        "siegeWall": false
+      },
+      "prophecy": [],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war",
+        "goodman-rome-jerusalem"
+      ]
+    },
+    {
+      "id": "masada",
+      "at": 73.3,
+      "date": "Spring AD 73 or 74 (15 Xanthicus)",
+      "title": "The last stand at Masada",
+      "place": "Masada, by the Dead Sea",
+      "narrative": "The last rebel stronghold was Herod's palace-fortress of Masada, held since 66 by the Sicarii under Eleazar ben Yair. The governor Flavius Silva ringed the rock with camps and a siege wall and built a huge ramp up its western side, still visible today. When the Romans breached the wall, Josephus says Eleazar persuaded his followers to kill their families and then themselves rather than be enslaved, and that the Romans entered to find 960 dead and only two women and five children alive. Josephus was not there, and Eleazar's two long speeches are his own composition. Excavations by Yigael Yadin in the 1960s confirmed the ramp, camps and palaces, but found far fewer human remains than 960, and whether the inscribed potsherds he found were the 'lots' remains disputed. Many historians accept a mass death at Masada while doubting the details, and some suspect Josephus shaped the story to give the war a noble end.",
+      "quotes": [
+        {
+          "text": "So these people died with this intention, that they would not leave so much as one soul among them all alive to be subject to the Romans.",
+          "cite": "Jewish War 7.9.1"
+        },
+        {
+          "text": "Those others were nine hundred and sixty in number, the women and children being withal included in that computation. This calamitous slaughter was made on the fifteenth day of the month Xanthicus [Nisan].",
+          "cite": "Jewish War 7.9.1"
+        }
+      ],
+      "map": {
+        "focus": [],
+        "romans": [],
+        "fire": [],
+        "breached": [],
+        "siegeWall": false
+      },
+      "prophecy": [],
+      "sources": [
+        "josephus-jewish-war",
+        "perseus-whiston-jewish-war",
+        "goodman-rome-jerusalem"
+      ]
+    }
+  ],
+  "portents": [
+    {
+      "id": "sword-star",
+      "icon": "star",
+      "title": "A star like a sword",
+      "quote": "Thus there was a star resembling a sword, which stood over the city…",
+      "cite": "Jewish War 6.5.3",
+      "note": "Josephus gives no date. Some have suggested Halley's comet, visible in AD 66, but his wording does not allow certainty, and Whiston himself was unsure whether the star and the comet were the same object."
+    },
+    {
+      "id": "comet",
+      "icon": "comet",
+      "title": "A comet for a whole year",
+      "quote": "…and a comet, that continued a whole year.",
+      "cite": "Jewish War 6.5.3",
+      "note": "Comets were widely read in the ancient world as omens of the fall of rulers. A comet visible for a full year is an exaggeration by modern standards, though comets were observed in the mid-60s."
+    },
+    {
+      "id": "light-altar",
+      "icon": "light",
+      "title": "Light around the altar at night",
+      "quote": "…at the ninth hour of the night, so great a light shone round the altar and the holy house, that it appeared to be bright day time; which lasted for half an hour.",
+      "cite": "Jewish War 6.5.3",
+      "note": "Josephus dates this to the feast of unleavened bread before the war. Tacitus (Histories 5.13) likewise reports that the temple was lit up by a sudden fire from the clouds. Josephus contrasts the 'unskillful', who took it as a good sign, with the sacred scribes who read it as a warning."
+    },
+    {
+      "id": "heifer-lamb",
+      "icon": "heifer",
+      "title": "The heifer that bore a lamb",
+      "quote": "At the same festival also, a heifer, as she was led by the high priest to be sacrificed, brought forth a lamb in the midst of the temple.",
+      "cite": "Jewish War 6.5.3",
+      "note": "A monstrous birth was a classic Roman prodigy. Some Christian readers have seen a symbol of sacrifice being ended by the Lamb of God, but Josephus himself draws no such meaning."
+    },
+    {
+      "id": "eastern-gate",
+      "icon": "gate",
+      "title": "The eastern gate opens by itself",
+      "quote": "Moreover, the eastern gate of the inner [court of the] temple, which was of brass, and vastly heavy, and had been with difficulty shut by twenty men… was seen to be opened of its own accord about the sixth hour of the night.",
+      "cite": "Jewish War 6.5.3",
+      "note": "Tacitus (Histories 5.13) also says the doors of the shrine suddenly opened. Josephus records two readings: ordinary people thought God was opening the gate of happiness, while the learned saw that the temple's security was dissolving."
+    },
+    {
+      "id": "chariots-clouds",
+      "icon": "chariots",
+      "title": "Armies in the clouds",
+      "quote": "…for, before sun-setting, chariots and troops of soldiers in their armor were seen running about among the clouds, and surrounding of cities.",
+      "cite": "Jewish War 6.5.3",
+      "note": "Josephus admits this would sound like a fable without eyewitnesses. Tacitus (Histories 5.13) likewise reports armies seen clashing in the sky, so the story was evidently current in Roman sources too."
+    },
+    {
+      "id": "voice-pentecost",
+      "icon": "voice",
+      "title": "'Let us remove hence'",
+      "quote": "Moreover, at that feast which we call Pentecost, as the priests were going by night into the inner [court of the temple,] as their custom was, to perform their sacred ministrations, they said that, in the first place, they felt a quaking, and heard a great noise, and after that they heard a sound as of a great multitude, saying, \"Let us remove hence.\"",
+      "cite": "Jewish War 6.5.3",
+      "note": "Tacitus (Histories 5.13) reports a superhuman voice crying that the gods were departing. Readers have connected it with Ezekiel's vision of the divine glory leaving the temple (Ezekiel 10-11), and Christians with Jesus' words 'your house is left to you desolate'."
+    },
+    {
+      "id": "jesus-ananus",
+      "icon": "woe",
+      "title": "Jesus son of Ananus: 'Woe, woe to Jerusalem!'",
+      "quote": "…began on a sudden to cry aloud, \"A voice from the east, a voice from the west, a voice from the four winds, a voice against Jerusalem and the holy house, a voice against the bridegrooms and the brides, and a voice against this whole people!\"",
+      "cite": "Jewish War 6.5.3",
+      "note": "A peasant who began crying woe four years before the war and kept it up for seven years and five months, until a stone from a Roman engine killed him during the siege. Scholars often note the parallels with Jesus of Nazareth: a prophet against the temple, arrested by the Jewish leaders, handed to the Roman governor, flogged and silent before him. His cry echoes Jeremiah 7:34."
+    }
+  ],
+  "figures": [
+    {
+      "id": "josephus",
+      "name": "Flavius Josephus",
+      "role": "Rebel general, Roman captive, historian",
+      "side": "jewish",
+      "text": "A priest and aristocrat who commanded the rebels in Galilee, surrendered at Jotapata in 67, predicted Vespasian's rise, and watched the siege from Titus' staff. His Jewish War is our main source, written in Rome under Flavian patronage, and every page reflects both his eyewitness knowledge and his need to justify himself."
+    },
+    {
+      "id": "vespasian",
+      "name": "Vespasian",
+      "role": "Roman general, then emperor 69-79",
+      "side": "roman",
+      "text": "A veteran commander from a modest family whom Nero sent to crush the revolt in 67. He subdued Galilee and much of Judea, was proclaimed emperor by the eastern legions in July 69, and founded the Flavian dynasty. The victory over Judea became a central piece of his regime's propaganda."
+    },
+    {
+      "id": "titus",
+      "name": "Titus",
+      "role": "Roman commander at the siege, emperor 79-81",
+      "side": "roman",
+      "text": "Vespasian's elder son, who took command in 70 and captured Jerusalem after about five months, with the former prefect of Egypt Tiberius Julius Alexander as his chief of staff. Josephus portrays him as brave and merciful and insists he wanted to save the temple; other ancient evidence and many modern historians are more sceptical. His arch still stands in the Roman Forum."
+    },
+    {
+      "id": "cestius-gallus",
+      "name": "Cestius Gallus",
+      "role": "Roman governor of Syria",
+      "side": "roman",
+      "text": "Marched on Jerusalem in autumn 66 to put down the revolt, burned Bezetha and attacked the temple's north wall, then withdrew unexpectedly and was routed in the Beth-horon pass. The defeat emboldened the rebels and made a full Roman war inevitable. He died soon after, perhaps in 67."
+    },
+    {
+      "id": "gessius-florus",
+      "name": "Gessius Florus",
+      "role": "Roman procurator of Judea, 64-66",
+      "side": "roman",
+      "text": "Josephus paints him as a greedy and provocative governor who all but wanted a revolt to cover his crimes. His seizure of temple funds and the massacre that followed in 66 lit the fuse of the war. Even Tacitus says Jewish patience lasted until Florus."
+    },
+    {
+      "id": "john-of-gischala",
+      "name": "John of Gischala",
+      "role": "Rebel leader holding the temple",
+      "side": "jewish",
+      "text": "A Galilean leader and Josephus' bitter rival, who escaped to Jerusalem in 67, allied with the Zealots and eventually controlled the temple area. Josephus calls him a tyrant and blames him for sacrilege. Captured starving in the tunnels under the city, he was sentenced to life imprisonment."
+    },
+    {
+      "id": "simon-bar-giora",
+      "name": "Simon bar Giora",
+      "role": "Rebel leader holding the upper and lower city",
+      "side": "jewish",
+      "text": "A charismatic commander who freed slaves and gathered a large army in the countryside, and was invited into Jerusalem in 69 to counter John. He held most of the city during the siege. He surrendered after the fall, was paraded in the triumph in Rome, and executed in the Forum as the enemy general."
+    },
+    {
+      "id": "eleazar-son-of-simon",
+      "name": "Eleazar son of Simon",
+      "role": "Zealot leader in the inner temple",
+      "side": "jewish",
+      "text": "A priest who led the Zealots and broke from John to hold the inner courts of the temple, living on the sacred stores. At Passover 70 John's men infiltrated the temple and absorbed his faction, leaving two parties in the city instead of three."
+    },
+    {
+      "id": "agrippa-berenice",
+      "name": "Agrippa II and Berenice",
+      "role": "Jewish king and his sister, allies of Rome",
+      "side": "other",
+      "text": "The last of the Herodian royal family. In 66 they urged the people not to go to war, and Agrippa's speech in Josephus is a long plea that Rome could not be beaten. They then sided with Rome, and Berenice became Titus' lover, though Roman opinion prevented their marriage."
+    },
+    {
+      "id": "jesus-son-of-ananus",
+      "name": "Jesus son of Ananus",
+      "role": "Peasant prophet of doom",
+      "side": "jewish",
+      "text": "A countryman who, from the Feast of Tabernacles in 62, cried 'Woe to Jerusalem' through the streets for over seven years. Flogged by the Jewish leaders and the Roman governor Albinus, he never defended himself, and he was killed by a Roman stone during the siege. His story is often compared with the trial of Jesus of Nazareth."
+    },
+    {
+      "id": "ananus",
+      "name": "Ananus son of Ananus",
+      "role": "Former high priest and moderate leader",
+      "side": "jewish",
+      "text": "The high priest who had James, the brother of Jesus, executed in 62 according to Josephus' Antiquities, and who later led the provisional government in Jerusalem. Josephus admired him as a realist who hoped to make terms with Rome. He was killed by the Zealots and Idumeans in the winter of 67-68."
+    },
+    {
+      "id": "eleazar-ben-yair",
+      "name": "Eleazar ben Yair",
+      "role": "Leader of the Sicarii at Masada",
+      "side": "jewish",
+      "text": "A relative of the earlier rebel Judas the Galilean, he led the Sicarii, the 'dagger men', who held Masada from 66. In Josephus' account he persuaded the defenders to die rather than be enslaved. The speeches Josephus gives him are literary compositions."
+    }
+  ],
+  "numbers": [
+    {
+      "id": "dead",
+      "label": "Dead in the siege",
+      "value": 1100000,
+      "display": "1,100,000",
+      "cite": "Jewish War 6.9.3",
+      "note": "Almost certainly inflated. Josephus explains the total by the Passover crowds trapped in the city, but modern estimates of Jerusalem's population, even swollen by refugees, run from tens of thousands to a few hundred thousand. Tacitus gives 600,000 besieged."
+    },
+    {
+      "id": "captives",
+      "label": "Captives in the whole war",
+      "value": 97000,
+      "display": "97,000",
+      "cite": "Jewish War 6.9.3",
+      "note": "A more plausible order of magnitude, possibly drawn from Roman records. Captives were sent to the Egyptian mines, the arenas of the provinces, or sold as slaves."
+    },
+    {
+      "id": "passover-crowd",
+      "label": "Passover crowd counted under Cestius",
+      "value": 2700200,
+      "display": "2,700,200",
+      "cite": "Jewish War 6.9.3",
+      "note": "Josephus says the priests counted 256,500 Passover lambs and multiplied by ten diners each. The figure is far beyond what Jerusalem and its surroundings could hold and is not taken literally by historians, though it shows how large the pilgrim festivals were."
+    },
+    {
+      "id": "siege-wall-length",
+      "label": "Length of Titus' siege wall",
+      "value": 39,
+      "display": "39 furlongs (about 7 km)",
+      "cite": "Jewish War 5.12.2",
+      "note": "A plausible length for a circuit around the city's hills, though building it in three days, even with the whole army, is remarkable. Little or nothing of it has been securely identified on the ground."
+    },
+    {
+      "id": "siege-length",
+      "label": "Length of the siege",
+      "value": 5,
+      "display": "About five months",
+      "cite": "Jewish War 5.3.1; 6.8.5; 6.10.1 (dates)",
+      "note": "From Titus' arrival around Passover (Xanthicus, about April) to the fall of the upper city on 8 Gorpieus (about September) AD 70. The exact Roman equivalents of Josephus' Macedonian month names are debated."
+    },
+    {
+      "id": "masada-dead",
+      "label": "Defenders who died at Masada",
+      "value": 960,
+      "display": "960",
+      "cite": "Jewish War 7.9.1",
+      "note": "Josephus includes women and children in this total. Excavations found only a few dozen skeletons, which may reflect later disturbance, Roman disposal of bodies or exaggeration; the figure cannot be confirmed."
+    }
+  ],
+  "sources": [
+    "josephus-jewish-war",
+    "perseus-whiston-jewish-war",
+    "eusebius-church-history",
+    "tacitus-histories",
+    "goodman-rome-jerusalem",
+    "mason-josephus-nt",
+    "rajak-josephus-historian",
+    "avigad-discovering-jerusalem"
+  ]
+}

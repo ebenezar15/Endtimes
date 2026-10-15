@@ -82,10 +82,10 @@ function Story({ scenes }: { scenes: Scene[] }) {
           <SceneCard key={x.id} s={x} i={k} onActive={setI} active={k === i} />
         ))}
       </div>
-      <div className="order-1 lg:order-2">
-        <div className="sticky top-16 z-10 space-y-2 lg:top-20">
+      <div className="sticky top-14 z-10 order-1 self-start bg-bg/90 pb-2 backdrop-blur lg:top-20 lg:order-2 lg:bg-transparent lg:pb-0 lg:backdrop-blur-none">
+        <div className="space-y-2">
           {/* year scrubber */}
-          <div className="leaf p-3">
+          <div className="leaf hidden p-3 sm:block">
             <div className="relative h-8">
               <div className="absolute left-2 right-2 top-1/2 h-1 -translate-y-1/2 rounded-full bg-rule" />
               <motion.div className="absolute left-2 top-1/2 h-1 -translate-y-1/2 rounded-full bg-rubric" animate={{ width: `calc(${((s.at - y0) / (y1 - y0)) * 100}% - 1rem)` }} />
@@ -105,7 +105,7 @@ function Story({ scenes }: { scenes: Scene[] }) {
               <span>{t('AD {y}', { y: y1 })}</span>
             </div>
           </div>
-          <div className="max-h-[48vh] lg:max-h-none">
+          <div className="mx-auto w-full max-w-[min(100%,40vh)] lg:max-w-none">
             <JerusalemMap state={s.map} caption={s.title} />
           </div>
           <div className="hidden gap-2 lg:flex">
