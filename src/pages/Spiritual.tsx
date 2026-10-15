@@ -13,6 +13,7 @@ import { MethodPath } from '../components/spiritual/MethodPath'
 import { OvercomerBridge } from '../components/spiritual/OvercomerBridge'
 import { PatternKeys, LinesTicker } from '../components/spiritual/PatternKeys'
 import { ChapterDepth } from '../components/spiritual/ChapterDepth'
+import { TabernacleMap } from '../components/spiritual/TabernacleMap'
 import { spiritual } from '../lib/data/revelation'
 
 function Section({ id, title, lede, children }: { id: string; title: string; lede?: string; children: React.ReactNode }) {
@@ -82,6 +83,7 @@ export default function Spiritual() {
               ['flow', 'Reading an image'],
               ['cities', 'Old and new'],
               ['patterns', 'Old Testament keys'],
+              ['tabernacle', 'The tabernacle map'],
               ['journey', 'The journey'],
               ['overcomer', 'The overcomer'],
               ['chapters', 'All 22 chapters'],
@@ -143,6 +145,10 @@ export default function Spiritual() {
           <PatternKeys patterns={s.patterns} />
         </Section>
       )}
+
+      <Section id="tabernacle" title="The tabernacle map" lede="This view reads the believer's journey as a walk through the tabernacle: from the altar in the outer court to the presence behind the torn veil. Every piece of furniture reappears in Revelation. Select one.">
+        <TabernacleMap />
+      </Section>
 
       <Section id="journey" title="The journey through the book" lede="Read as one movement, from the unveiling of Christ to the tree of life. Scroll to follow the light.">
         <JourneyMap journey={s.journey} />
