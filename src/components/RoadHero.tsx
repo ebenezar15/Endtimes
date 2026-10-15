@@ -5,6 +5,7 @@ import { core, positionsById, views } from '../lib/core'
 import { stageLabel, timeScale, yearLabel } from '../lib/timescale'
 import { usePositionColors } from '../lib/theme'
 import { Icon } from './Icon'
+import { t } from '../lib/i18n'
 
 const W = 1200
 const LANE = 38
@@ -58,23 +59,23 @@ export function RoadHero() {
   const stage = stageLabel(at)
 
   return (
-    <section ref={ref} className="relative" style={{ height: '420vh' }} aria-label="The road to the end: scroll to travel from the Cross to the new creation and watch the views diverge">
+    <section ref={ref} className="relative" style={{ height: '420vh' }} aria-label={t('The road to the end: scroll to travel from the Cross to the new creation and watch the views diverge')}>
       <div className="sticky top-14 flex h-[calc(100dvh-3.5rem)] flex-col overflow-hidden">
         <div className="relative z-10 px-5 pt-5 sm:px-10 lg:pt-8">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
-            <p className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-accent">A study of Christian views of the end</p>
+            <p className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-accent">{t('A study of Christian views of the end')}</p>
             <h1 className="max-w-4xl text-3xl font-bold leading-[1.05] sm:text-5xl lg:text-6xl">
-              One hope. <span className="text-gradient">Ten readings.</span> A thousand years.
+              {t('One hope.')} <span className="text-gradient">{t('Ten readings.')}</span> {t('A thousand years.')}
             </h1>
           </motion.div>
           <div className="mt-3 flex flex-wrap items-end gap-x-8 gap-y-2">
             <div>
-              <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-ink-soft">When</p>
+              <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-ink-soft">{t('When')}</p>
               <p className="text-3xl font-bold tabular-nums text-accent sm:text-5xl">{yearLabel(at)}</p>
             </div>
             <AnimatePresence mode="wait">
               <motion.div key={stage} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="pb-1">
-                <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-ink-soft">Stage</p>
+                <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-ink-soft">{t('Stage')}</p>
                 <p className="text-lg font-bold text-rubric">{stage}</p>
               </motion.div>
             </AnimatePresence>
@@ -82,7 +83,7 @@ export function RoadHero() {
         </div>
 
         <div ref={box} className="relative min-h-0 flex-1 px-2 sm:px-6">
-          <svg viewBox={`${vbX} -38 ${vbW} ${vbH}`} className="h-full w-full" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Ten lanes, one per view, from the Cross to the new creation. The Timelines page has a text version.">
+          <svg viewBox={`${vbX} -38 ${vbW} ${vbH}`} className="h-full w-full" preserveAspectRatio="xMidYMid meet" role="img" aria-label={t('Ten lanes, one per view, from the Cross to the new creation. The Timelines page has a text version.')}>
             <defs>
               <clipPath id="road-clip">
                 <motion.rect x={-GUTTER} y={-50} height={H + 100} style={{ width: clipW }} />
@@ -96,12 +97,12 @@ export function RoadHero() {
             <rect x={x(0)} y={-14} width={x(10) - x(0)} height={H + 18} rx={8} fill="var(--surface-2)" opacity={0.6} />
             <rect x={x(60)} y={-14} width={x(100) - x(60)} height={H + 18} rx={8} fill="var(--surface-2)" opacity={0.35} />
             {[
-              [0, 'Cross'],
-              [10, 'AD 70'],
-              [35, 'Church age'],
-              [60, 'Today'],
-              [80, 'Future'],
-              [100, 'New creation'],
+              [0, t('Cross')],
+              [10, t('AD 70')],
+              [35, t('Church age')],
+              [60, t('Today')],
+              [80, t('Future')],
+              [100, t('New creation')],
             ].map(([a, l]) => (
               <g key={l as string}>
                 <line x1={x(a as number)} x2={x(a as number)} y1={-14} y2={H + 4} stroke="var(--rule)" strokeDasharray="2 6" />
@@ -113,7 +114,7 @@ export function RoadHero() {
 
             {/* lane labels */}
             {lanes.map((l) => (
-              <Link key={l.v.id} to={`/positions/${l.v.id}`} aria-label={`Open ${l.v.name}`}>
+              <Link key={l.v.id} to={`/positions/${l.v.id}`} aria-label={t('Open {name}', { name: l.v.name })}>
                 <text x={-12} y={l.y + 4} textAnchor="end" fontSize={13} fontWeight={700} fill={color(l.v.id).text}>
                   {l.v.shortName}
                 </text>
@@ -193,9 +194,9 @@ export function RoadHero() {
         </div>
 
         <motion.div className="flex items-center justify-center gap-4 pb-4 text-xs font-semibold uppercase tracking-[0.25em] text-ink-soft" animate={{ y: [0, 6, 0] }} transition={{ repeat: Infinity, duration: 2 }}>
-          <span>{at < 99 ? 'Scroll to travel through time ↓' : 'Explore below ↓'}</span>
+          <span>{at < 99 ? t('Scroll to travel through time ↓') : t('Explore below ↓')}</span>
           <a href="#after-road" className="normal-case tracking-normal" onClick={(ev) => (ev.preventDefault(), document.getElementById('after-road')?.scrollIntoView({ behavior: 'smooth' }))}>
-            Skip <Icon name="arrow" size={12} className="inline rotate-90" />
+            {t('Skip')} <Icon name="arrow" size={12} className="inline rotate-90" />
           </a>
         </motion.div>
       </div>

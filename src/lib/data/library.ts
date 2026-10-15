@@ -1,3 +1,4 @@
 import type { Exchange, Scholar } from '../../content/schema'
-import data from '../../generated/library.json'
+import { LANG } from '../lang'
+const data = (LANG === 'ta' ? await import('../../generated/ta/library.json') : await import('../../generated/library.json')).default
 export const { scholars, library } = data as unknown as { scholars: Scholar[]; library: Exchange[] }

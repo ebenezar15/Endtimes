@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react'
 import type { SpiritualStudy } from '../../content/schema'
 import { Gloss } from '../Gloss'
 import { Icon } from '../Icon'
+import { t } from '../../lib/i18n'
 
 /**
  * The way of seeing: a stepped path from reading outward signs to Christ revealed within.
@@ -48,7 +49,7 @@ export function MethodPath({ steps }: { steps: SpiritualStudy['method'] }) {
       </ol>
       <motion.div key={cur.id} initial={{ opacity: 0, y: 12, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.35 }} className="leaf glow-card self-start p-5 lg:sticky lg:top-24">
         <p className="text-xs font-bold uppercase tracking-widest text-accent">
-          Step {open + 1} of {steps.length}
+          {t('Step {n} of {total}', { n: open + 1, total: steps.length })}
         </p>
         <h3 className="mt-1 text-xl font-bold">{cur.step}</h3>
         <p className="mt-2 leading-relaxed">
@@ -57,10 +58,10 @@ export function MethodPath({ steps }: { steps: SpiritualStudy['method'] }) {
         {cur.texts.length > 0 && <p className="mt-3 text-sm text-ink-soft">{cur.texts.join('; ')}</p>}
         <div className="mt-4 flex gap-2">
           <button type="button" className="btn text-sm" disabled={open === 0} onClick={() => setOpen((n) => Math.max(0, n - 1))}>
-            Back
+            {t('Back')}
           </button>
           <button type="button" className="btn btn-primary text-sm" disabled={open === steps.length - 1} onClick={() => setOpen((n) => Math.min(steps.length - 1, n + 1))}>
-            Next <Icon name="arrow" size={14} />
+            {t('Next')} <Icon name="arrow" size={14} />
           </button>
         </div>
       </motion.div>

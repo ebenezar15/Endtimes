@@ -2,6 +2,7 @@ import { Fragment, useId, useMemo, useRef, useState, type ReactNode } from 'reac
 import { Link } from 'react-router-dom'
 import { content } from '../lib/content'
 import type { GlossaryEntry } from '../content/schema'
+import { t } from '../lib/i18n'
 
 type Matcher = { re: RegExp | null; lookup: Map<string, GlossaryEntry> }
 
@@ -80,7 +81,7 @@ export function Term({ entry, label }: { entry: GlossaryEntry; label: string }) 
           {entry.origin && <span className="block italic text-ink-soft">{entry.origin}</span>}
           <span className="mt-1 block">{entry.definition}</span>
           <Link className="mt-1 block text-xs" to={`/glossary#${entry.id}`}>
-            Open in glossary
+            {t('Open in glossary')}
           </Link>
         </span>
       )}

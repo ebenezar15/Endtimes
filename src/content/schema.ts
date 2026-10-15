@@ -557,3 +557,151 @@ export const Atlas = z.object({
   sources: z.array(Id).min(1),
 })
 export type Atlas = z.infer<typeof Atlas>
+
+/* ---------- Investigations: Olivet Discourse, fulfilment claims, dating ------------------ */
+
+
+export const OlivetUnit = z.object({
+  id: Id,
+  /** e.g. "Matthew 24:1-2". */
+  ref: Ref,
+  parallels: z.array(Ref).default([]),
+  title: Text,
+  summary: Text,
+  /** First-century Jewish and Roman setting of these verses. */
+  context: Text,
+  readings: z.array(ViewReading).min(4),
+  /** Historical evidence offered for and against an AD 70 fulfilment. */
+  evidence: z.array(z.object({ side: z.enum(['ad70', 'future', 'both']), title: Text, text: Text, source: Text })).default([]),
+  keyIssue: Text,
+  sources: z.array(Id).default([]),
+})
+
+export const OlivetStudy = z.object({
+  intro: Text,
+  /** Setting: temple, audience, Rome, Zealots, Josephus as witness... */
+  context: z.array(z.object({ id: Id, title: Text, text: Text, refs: z.array(Ref).default([]), sources: z.array(Id).default([]) })).min(4),
+  /** The disciples' questions and how each view maps the discourse onto them. */
+  questions: z.object({ text: Text, items: z.array(z.object({ q: Text, ref: Ref })).min(2), mappings: z.array(ViewReading).min(4) }),
+  units: z.array(OlivetUnit).min(8),
+  /** Other Gospel passages with a time element. */
+  related: z.array(z.object({ id: Id, ref: Ref, title: Text, text: Text, readings: z.array(ViewReading).min(3), sources: z.array(Id).default([]) })).min(5),
+  /** "This generation" and other time indicators. */
+  generation: z.object({ text: Text, uses: z.array(z.object({ ref: Ref, text: Text })).min(5), readings: z.array(ViewReading).min(3) }),
+  /** Prophecy-to-history pairs, chiefly from Josephus and Tacitus. */
+  fulfilments: z.array(z.object({ prophecy: Ref, prophecyText: Text, event: Text, year: Text, source: Text, note: Text })).min(8),
+  /** Events from AD 30 to AD 73. */
+  timeline: z.array(z.object({ year: z.number(), label: Text, text: Text, source: Text })).min(10),
+  sources: z.array(Id).min(1),
+})
+export type OlivetStudy = z.infer<typeof OlivetStudy>
+
+export const SignsStudy = z.object({
+  intro: Text,
+  /** Claims through church history that the end was near. */
+  history: z.array(
+    z.object({
+      id: Id,
+      year: z.number(),
+      yearLabel: Text,
+      who: Text,
+      kind: z.enum(['date-setting', 'identification', 'movement', 'sign']),
+      claim: Text,
+      basis: Text,
+      outcome: Text,
+      lesson: Text,
+      sources: z.array(Id).default([]),
+    }),
+  ).min(20),
+  /** Modern events read as fulfilment by dispensational and other premillennial writers. */
+  modern: z.array(
+    z.object({
+      id: Id,
+      title: Text,
+      period: Text,
+      claim: Text,
+      proponents: Text,
+      argument: Text,
+      criticism: Text,
+      /** How dispensationalists or premillennialists themselves answer or qualify the claim. */
+      response: Text,
+      verdict: Text,
+      refs: z.array(Ref).default([]),
+      sources: z.array(Id).default([]),
+    }),
+  ).min(10),
+  /** Why the pattern recurs. */
+  cycle: z.array(z.object({ id: Id, title: Text, text: Text })).min(4),
+  principles: z.array(z.object({ id: Id, title: Text, text: Text, refs: z.array(Ref).default([]) })).min(5),
+  /** The best case for watching the signs, in its proponents' words. */
+  steelman: Text,
+  sources: z.array(Id).min(1),
+})
+export type SignsStudy = z.infer<typeof SignsStudy>
+
+export const DatingStudy = z.object({
+  intro: Text,
+  sides: z.array(z.object({ id: z.enum(['early', 'late']), label: Text, date: Text, summary: Text, scholars: z.array(Text).min(3) })).length(2),
+  evidence: z.array(
+    z.object({
+      id: Id,
+      kind: z.enum(['external', 'internal']),
+      side: z.enum(['early', 'late']),
+      title: Text,
+      claim: Text,
+      /** Primary source or passage. */
+      source: Text,
+      /** 1 = suggestive, 2 = significant, 3 = strong, as its advocates rate it. */
+      weight: z.number().int().min(1).max(3),
+      counter: Text,
+      sources: z.array(Id).default([]),
+    }),
+  ).min(16),
+  /** What hangs on the date for each view. */
+  implications: z.array(ViewReading).min(4),
+  verdict: Text,
+  sources: z.array(Id).min(1),
+})
+export type DatingStudy = z.infer<typeof DatingStudy>
+
+/* ---------- Josephus and the fall of Jerusalem ---------------------------------------- */
+
+/** Areas drawn on the Jerusalem siege map. */
+export const JERUSALEM_AREAS = ['temple', 'antonia', 'upper-city', 'lower-city', 'bezetha', 'third-wall', 'second-wall', 'first-wall', 'mount-of-olives', 'mount-scopus', 'siege-wall', 'herods-palace', 'siloam'] as const
+const Area = z.enum(JERUSALEM_AREAS)
+
+export const JosephusStory = z.object({
+  intro: Text,
+  /** Who Josephus was, and how far to trust him. */
+  about: Text,
+  caveats: z.array(z.object({ title: Text, text: Text })).min(3),
+  scenes: z.array(
+    z.object({
+      id: Id,
+      /** For ordering and the time scrubber, e.g. 66.4 for spring AD 66. */
+      at: z.number(),
+      date: Text,
+      title: Text,
+      /** Where it happens, for the caption. */
+      place: Text,
+      narrative: Text,
+      quotes: z.array(z.object({ text: Text, cite: Text })).min(1),
+      /** Map state for this scene. */
+      map: z.object({
+        focus: z.array(Area).default([]),
+        romans: z.array(Area).default([]),
+        fire: z.array(Area).default([]),
+        breached: z.array(Area).default([]),
+        siegeWall: z.boolean().default(false),
+      }),
+      /** Gospel sayings that readers connect to this event. */
+      prophecy: z.array(z.object({ ref: Ref, text: Text })).default([]),
+      sources: z.array(Id).default([]),
+    }),
+  ).min(12),
+  portents: z.array(z.object({ id: Id, icon: z.enum(['star', 'comet', 'light', 'gate', 'chariots', 'voice', 'heifer', 'woe']), title: Text, quote: Text, cite: Text, note: Text })).min(6),
+  figures: z.array(z.object({ id: Id, name: Text, role: Text, text: Text, side: z.enum(['roman', 'jewish', 'christian', 'other']) })).min(8),
+  numbers: z.array(z.object({ id: Id, label: Text, value: z.number(), display: Text, cite: Text, note: Text })).min(4),
+  sources: z.array(Id).min(1),
+})
+export type JosephusStory = z.infer<typeof JosephusStory>

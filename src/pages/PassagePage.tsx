@@ -12,6 +12,7 @@ import { nivUrl } from '../lib/refs'
 import { useApp, type Translation } from '../lib/store'
 import { usePositionColors } from '../lib/theme'
 import NotFound from './NotFound'
+import { t } from '../lib/i18n'
 
 export default function PassagePage() {
   const { id = '' } = useParams()
@@ -41,7 +42,7 @@ export default function PassagePage() {
       <header className="flex flex-wrap items-start justify-between gap-3 pt-2">
         <div>
           <p className="ui text-sm text-ink-soft">
-            <Link to="/passages">Passage Lab</Link>
+            <Link to="/passages">{t('Passage Lab')}</Link>
           </p>
           <h1 className="text-4xl md:text-5xl">{p.ref}</h1>
           <p className="mt-1 text-xl italic text-ink-soft">{p.title}</p>
@@ -51,24 +52,24 @@ export default function PassagePage() {
 
       <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,26rem)_minmax(0,1fr)]">
         {/* Text column */}
-        <section aria-label="Bible text" className="lg:sticky lg:top-4 lg:max-h-[calc(100dvh-2rem)] lg:self-start lg:overflow-y-auto">
-          <div className="ui flex flex-wrap items-center gap-1.5" role="group" aria-label="Translation">
-            {(['BSB', 'KJV', 'WEB'] as Translation[]).map((t) => (
-              <button key={t} type="button" className="btn min-h-8 px-3 py-1 text-sm" aria-pressed={translation === t} onClick={() => set({ translation: t })}>
-                {t}
+        <section aria-label={t('Bible text')} className="lg:sticky lg:top-4 lg:max-h-[calc(100dvh-2rem)] lg:self-start lg:overflow-y-auto">
+          <div className="ui flex flex-wrap items-center gap-1.5" role="group" aria-label={t('Translation')}>
+            {(['BSB', 'KJV', 'WEB'] as Translation[]).map((code) => (
+              <button key={code} type="button" className="btn min-h-8 px-3 py-1 text-sm" aria-pressed={translation === code} onClick={() => set({ translation: code })}>
+                {code}
               </button>
             ))}
             {nivLink && (
               <a className="btn min-h-8 px-3 py-1 text-sm no-underline" href={nivUrl(p.ranges.join('; '))} target="_blank" rel="noreferrer">
-                Read in NIV
+                {t('Read in NIV')}
               </a>
             )}
           </div>
           <div className={`leaf mt-3 p-5 ${bible ? '' : 'min-h-[60vh]'}`}>
             {!bible ? (
-              <p className="ui text-sm text-ink-soft">Loading the text…</p>
+              <p className="ui text-sm text-ink-soft">{t('Loading the text…')}</p>
             ) : verses.length === 0 ? (
-              <p className="ui text-sm text-ink-soft">Bible text has not been generated. Run “npm run bible”.</p>
+              <p className="ui text-sm text-ink-soft">{t('Bible text has not been generated. Run “npm run bible”.')}</p>
             ) : (
               <p className="text-[1.05rem] leading-[1.75]">
                 {verses.map((v) => {
@@ -98,33 +99,33 @@ export default function PassagePage() {
         </section>
 
         {/* Readings column */}
-        <section aria-label="Readings" className="min-w-0">
+        <section aria-label={t('Readings')} className="min-w-0">
           <Prose text={p.summary} />
           <aside className="leaf prose-measure mt-5 border-gold p-4">
-            <h2 className="text-lg">The crux</h2>
+            <h2 className="text-lg">{t('The crux')}</h2>
             <p className="mt-1">
               <Gloss>{p.keyIssue}</Gloss>
             </p>
             {p.topics.length > 0 && (
               <p className="ui mt-2 text-sm text-ink-soft">
-                Topics:{' '}
-                {p.topics.map((t, i) => (
-                  <span key={t}>
+                {t('Topics:')}{' '}
+                {p.topics.map((tp, i) => (
+                  <span key={tp}>
                     {i > 0 && ', '}
-                    <Link to={`/compare?topic=${t}`}>{topicsById.get(t)?.name ?? t}</Link>
+                    <Link to={`/compare?topic=${tp}`}>{topicsById.get(tp)?.name ?? tp}</Link>
                   </span>
                 ))}
               </p>
             )}
           </aside>
 
-          <div className="ui mt-8 flex flex-wrap gap-1.5" role="tablist" aria-label="Choose a position's reading">
+          <div className="ui mt-8 flex flex-wrap gap-1.5" role="tablist" aria-label={t('Choose a position\'s reading')}>
             <button type="button" role="tab" aria-selected={tab === 'all'} className="btn min-h-8 px-3 py-1 text-sm" onClick={() => setTab('all')}>
-              All readings
+              {t('All readings')}
             </button>
             {p.readings.map((r) => (
               <button key={r.position} type="button" role="tab" aria-selected={tab === r.position} className="btn min-h-8 px-3 py-1 text-sm" onClick={() => setTab(r.position)}>
-                {mine.includes(r.position) && <span className="text-gold" aria-label="my view">✦</span>}
+                {mine.includes(r.position) && <span className="text-gold" aria-label={t('my view')}>✦</span>}
                 {positionsById.get(r.position)?.shortName ?? r.position}
               </button>
             ))}
@@ -149,7 +150,7 @@ export default function PassagePage() {
                         {positionsById.get(r.position)?.name ?? r.position}
                       </Link>
                     </h3>
-                    {mine.includes(r.position) && <span className="ui text-sm text-gold">✦ my view</span>}
+                    {mine.includes(r.position) && <span className="ui text-sm text-gold">✦ {t('my view')}</span>}
                   </div>
                   <div className="prose-measure mt-3 space-y-4">
                     <p>
@@ -157,14 +158,14 @@ export default function PassagePage() {
                     </p>
                     <div>
                       <h4 className="ui text-sm font-medium" style={{ color: c.text }}>
-                        Strongest support
+                        {t('Strongest support')}
                       </h4>
                       <p>
                         <Gloss>{r.support}</Gloss>
                       </p>
                     </div>
                     <div>
-                      <h4 className="ui text-sm font-medium text-rubric">Main objection</h4>
+                      <h4 className="ui text-sm font-medium text-rubric">{t('Main objection')}</h4>
                       <p>
                         <Gloss>{r.objection}</Gloss>
                       </p>
@@ -177,12 +178,12 @@ export default function PassagePage() {
           </div>
 
           <div className="prose-measure mt-8 space-y-3 border-t border-rule pt-4">
-            <Sources ids={p.sources} label="Passage sources" />
+            <Sources ids={p.sources} label={t('Passage sources')} />
             <NoteBox k={`passage/${p.id}`} label={p.ref} />
           </div>
           {next && (
             <Link to={`/passages/${next.id}`} className="btn ui mt-8 no-underline">
-              Next passage: {next.ref}
+              {t('Next passage: {ref}', { ref: next.ref })}
             </Link>
           )}
         </section>

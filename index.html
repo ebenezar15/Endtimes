@@ -15,6 +15,7 @@
         var dark = st.highContrast || st.mode === 'dark' || ((!st.mode || st.mode === 'system') && matchMedia('(prefers-color-scheme: dark)').matches)
         document.documentElement.dataset.scheme = st.scheme || 'sea'
         document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+        if (localStorage.getItem('last-things-lang') === 'ta') document.documentElement.lang = 'ta'
       } catch (e) {}
     </script>
   </head>

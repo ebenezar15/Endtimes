@@ -2,18 +2,19 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Gloss } from '../Gloss'
+import { t } from '../../lib/i18n'
 
 /**
  * The tabernacle as a map of the journey inward: outer court → holy place → most holy place.
  * Each piece of furniture reappears in Revelation; selecting one lights its echo in the book.
  */
 const ITEMS = [
-  { id: 'altar', name: 'Bronze altar', court: 'Outer court', x: 120, y: 150, rev: 'Souls under the altar; the first resurrection', refs: 'Revelation 6:9; 20:4', ch: 6, text: 'Where the sacrifice was made. This view reads it as the cross, where the old life is laid down. The souls under the altar and the souls "beheaded" in chapter 20 are those who have lost their old head at the cross and now live and reign with Christ.' },
-  { id: 'laver', name: 'Bronze laver', court: 'Outer court', x: 215, y: 150, rev: 'The sea of glass before the throne', refs: 'Revelation 4:6; 15:2', ch: 15, text: 'The basin where priests washed. In Revelation it has become a sea of glass, still and clear, and the overcomers stand on it. On this reading the washing by the word is complete, and the believer stands in it rather than striving for it.' },
-  { id: 'lampstand', name: 'Lampstand', court: 'Holy place', x: 315, y: 124, rev: 'Christ among the seven golden lampstands', refs: 'Revelation 1:12-13, 20', ch: 1, text: 'The only light in the holy place. The lampstands are the churches, and Christ walks among them as priest, trimming the lamps. The light of the sanctuary is Christ shining through his people.' },
-  { id: 'table', name: 'Table of bread', court: 'Holy place', x: 315, y: 182, rev: 'The hidden manna', refs: 'Revelation 2:17', ch: 2, text: 'Bread kept before God’s face. The overcomer is promised hidden manna: Christ the bread from heaven, fed on inwardly, not earned.' },
-  { id: 'incense', name: 'Altar of incense', court: 'Holy place', x: 385, y: 150, rev: 'Golden censer and the prayers of the saints', refs: 'Revelation 8:3-4', ch: 8, text: 'Incense rose before the veil. In chapter 8 the prayers of the saints rise with incense, and fire from the altar is thrown to the earth: prayer that is answered with the trumpets’ wake-up calls.' },
-  { id: 'ark', name: 'Ark of the covenant', court: 'Most holy place', x: 470, y: 150, rev: 'The ark seen in the opened temple', refs: 'Revelation 11:19; 21:22', ch: 11, text: 'Behind the veil, the mercy seat. At the seventh trumpet the temple opens and the ark is seen; by chapter 21 there is no temple, because God and the Lamb are its temple. The veil is gone and the whole city is the most holy place.' },
+  { id: 'altar', name: t('Bronze altar'), court: t('Outer court'), x: 120, y: 150, rev: t('Souls under the altar; the first resurrection'), refs: 'Revelation 6:9; 20:4', ch: 6, text: t('Where the sacrifice was made. This view reads it as the cross, where the old life is laid down. The souls under the altar and the souls "beheaded" in chapter 20 are those who have lost their old head at the cross and now live and reign with Christ.') },
+  { id: 'laver', name: t('Bronze laver'), court: t('Outer court'), x: 215, y: 150, rev: t('The sea of glass before the throne'), refs: 'Revelation 4:6; 15:2', ch: 15, text: t('The basin where priests washed. In Revelation it has become a sea of glass, still and clear, and the overcomers stand on it. On this reading the washing by the word is complete, and the believer stands in it rather than striving for it.') },
+  { id: 'lampstand', name: t('Lampstand'), court: t('Holy place'), x: 315, y: 124, rev: t('Christ among the seven golden lampstands'), refs: 'Revelation 1:12-13, 20', ch: 1, text: t('The only light in the holy place. The lampstands are the churches, and Christ walks among them as priest, trimming the lamps. The light of the sanctuary is Christ shining through his people.') },
+  { id: 'table', name: t('Table of bread'), court: t('Holy place'), x: 315, y: 182, rev: t('The hidden manna'), refs: 'Revelation 2:17', ch: 2, text: t('Bread kept before God’s face. The overcomer is promised hidden manna: Christ the bread from heaven, fed on inwardly, not earned.') },
+  { id: 'incense', name: t('Altar of incense'), court: t('Holy place'), x: 385, y: 150, rev: t('Golden censer and the prayers of the saints'), refs: 'Revelation 8:3-4', ch: 8, text: t('Incense rose before the veil. In chapter 8 the prayers of the saints rise with incense, and fire from the altar is thrown to the earth: prayer that is answered with the trumpets’ wake-up calls.') },
+  { id: 'ark', name: t('Ark of the covenant'), court: t('Most holy place'), x: 470, y: 150, rev: t('The ark seen in the opened temple'), refs: 'Revelation 11:19; 21:22', ch: 11, text: t('Behind the veil, the mercy seat. At the seventh trumpet the temple opens and the ark is seen; by chapter 21 there is no temple, because God and the Lamb are its temple. The veil is gone and the whole city is the most holy place.') },
 ] as const
 
 export function TabernacleMap() {
@@ -22,7 +23,7 @@ export function TabernacleMap() {
   return (
     <div className="grid gap-5 lg:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)]">
       <div className="leaf p-3">
-        <svg viewBox="0 0 560 300" className="h-auto w-full" role="group" aria-label="Floor plan of the tabernacle">
+        <svg viewBox="0 0 560 300" className="h-auto w-full" role="group" aria-label={t('Floor plan of the tabernacle')}>
           {/* courts */}
           <rect x={20} y={40} width={520} height={220} rx={10} fill="var(--surface-2)" stroke="var(--rule)" strokeWidth={2} />
           <rect x={270} y={75} width={250} height={150} rx={6} fill="color-mix(in srgb, var(--accent) 8%, var(--surface))" stroke="var(--rule)" strokeWidth={2} />
@@ -35,12 +36,12 @@ export function TabernacleMap() {
           </defs>
           {/* the veil, torn */}
           <path d="M425,75 L425,138 M425,162 L425,225" stroke="var(--rubric)" strokeWidth={5} />
-          <text x={140} y={62} textAnchor="middle" fontSize={13} fontWeight={700} fill="var(--ink-soft)">OUTER COURT</text>
-          <text x={347} y={93} textAnchor="middle" fontSize={12} fontWeight={700} fill="var(--ink-soft)">HOLY PLACE</text>
-          <text x={472} y={93} textAnchor="middle" fontSize={11} fontWeight={700} fill="var(--ink-soft)">MOST HOLY</text>
+          <text x={140} y={62} textAnchor="middle" fontSize={13} fontWeight={700} fill="var(--ink-soft)">{t('OUTER COURT')}</text>
+          <text x={347} y={93} textAnchor="middle" fontSize={12} fontWeight={700} fill="var(--ink-soft)">{t('HOLY PLACE')}</text>
+          <text x={472} y={93} textAnchor="middle" fontSize={11} fontWeight={700} fill="var(--ink-soft)">{t('MOST HOLY')}</text>
           {/* gate */}
           <path d="M20,125 V175" stroke="var(--accent)" strokeWidth={6} strokeLinecap="round" />
-          <text x={36} y={278} fontSize={12} fill="var(--ink-soft)">gate (east)</text>
+          <text x={36} y={278} fontSize={12} fill="var(--ink-soft)">{t('gate (east)')}</text>
           {/* the way in */}
           <motion.path d="M24,150 H500" stroke="var(--gold-bright)" strokeWidth={2} strokeDasharray="6 8" fill="none" animate={{ strokeDashoffset: [0, -28] }} transition={{ duration: 1.4, repeat: Infinity, ease: 'linear' }} />
           {ITEMS.map((it, i) => {
@@ -71,14 +72,14 @@ export function TabernacleMap() {
           <p className="text-xs font-bold uppercase tracking-widest text-accent">{cur.court}</p>
           <h3 className="text-xl font-bold">{cur.name}</h3>
           <p className="mt-3 rounded-xl bg-surface-2 p-3 text-sm">
-            <span className="font-bold">In Revelation: </span>
+            <span className="font-bold">{t('In Revelation:')} </span>
             {cur.rev} <span className="text-ink-soft">({cur.refs})</span>
           </p>
           <p className="mt-3 leading-relaxed">
             <Gloss>{cur.text}</Gloss>
           </p>
           <Link to={`/revelation/${cur.ch}`} className="mt-3 inline-block text-sm">
-            Open Revelation {cur.ch}
+            {t('Open Revelation {n}', { n: cur.ch })}
           </Link>
         </motion.div>
       </AnimatePresence>

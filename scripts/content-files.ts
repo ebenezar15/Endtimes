@@ -1,6 +1,7 @@
-import { mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs'
 import { join, relative } from 'node:path'
-import { checkBundle, parseFiles, type RawFiles } from '../src/content/validate'
+import { checkBundle, parseFiles, type ContentBundle, type RawFiles } from '../src/content/validate'
+import { loadDictionary, mapStrings } from './i18n-core'
 
 const root = join(import.meta.dirname, '..')
 export const contentDir = join(root, 'content')
@@ -38,8 +39,16 @@ export function generateContent(opts: { partial?: boolean } = {}) {
   const { bundle, errors } = parseFiles(files)
   errors.unshift(...jsonErrors)
   errors.push(...checkBundle(bundle, opts))
-  const b = bundle
-  const out = join(root, 'src', 'generated')
+  emit(bundle, join(root, 'src', 'generated'))
+  // Tamil: the same bundle with every readable string looked up in i18n/ta (English where missing).
+  const ta = loadDictionary(join(root, 'i18n', 'ta'))
+  emit(mapStrings(bundle, (x) => ta[x] ?? x) as ContentBundle, join(root, 'src', 'generated', 'ta'), { bible: false })
+  writeUiStrings(ta)
+  return { bundle, errors }
+}
+
+function emit(b: ContentBundle, out: string, opts: { bible?: boolean } = {}) {
+  mkdirSync(out, { recursive: true })
   mkdirSync(out, { recursive: true })
   const write = (name: string, data: unknown) => writeFileSync(join(out, `${name}.json`), JSON.stringify(data))
   // Shared by most pages, plus slim indexes for cross-links into the per-feature files below.
@@ -63,7 +72,7 @@ export function generateContent(opts: { partial?: boolean } = {}) {
   write('library', { scholars: b.scholars, library: b.library })
   write('study', { quizzes: b.quizzes, flashcards: b.flashcards })
   write('timelines', { timelines: b.timelines, flowchart: b.flowchart })
-  write('bible', b.bible ?? { translations: {}, passages: {} })
+  if (opts.bible !== false) write('bible', b.bible ?? { translations: {}, passages: {} })
   // Fold the Spiritual Understanding into each chapter's readings and symbol readings, so it appears beside the other views.
   const spiritual = b.spiritual
   const chapters = [...b.revChapters]
@@ -82,6 +91,7 @@ export function generateContent(opts: { partial?: boolean } = {}) {
     })
   write('revelation', { intro: b.revIntro, chapters, spiritual })
   write('connections', { threads: b.revThreads, books: b.revBooks, structure: b.revStructure, atlas: b.atlas })
+  write('studies', { olivet: b.olivet, signs: b.signs, dating: b.dating, josephus: b.josephus })
   // A slim slice for the first screen (home page + app shell).
   write('core', {
     positions: b.positions.map(({ id, name, shortName, axis, color, initial, tagline, summary }) => ({ id, name, shortName, axis, color, initial, tagline, summary })),
@@ -93,5 +103,13 @@ export function generateContent(opts: { partial?: boolean } = {}) {
       scholars: b.scholars.length, glossary: b.glossary.length, sources: b.sources.length, library: b.library.length,
     },
   })
-  return { bundle, errors }
+}
+
+/** The interface dictionary: only the strings used through t() in src (see scripts/i18n-extract.ts). */
+function writeUiStrings(ta: Record<string, string>) {
+  const keysFile = join(root, 'i18n', 'ui-keys.json')
+  const keys: string[] = existsSync(keysFile) ? JSON.parse(readFileSync(keysFile, 'utf8')) : []
+  const ui: Record<string, string> = {}
+  for (const k of keys) if (ta[k]) ui[k] = ta[k]
+  writeFileSync(join(root, 'src', 'generated', 'ta', 'strings.json'), JSON.stringify(ui))
 }

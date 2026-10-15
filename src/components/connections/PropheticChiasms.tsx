@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 import type { RevStructure } from '../../content/schema'
 import { Gloss } from '../Gloss'
+import { t } from '../../lib/i18n'
 
 const base = (l: string) => l.replace(/[′']/g, '')
 const TINTS = ['var(--accent)', 'var(--gold-bright)', 'var(--rubric)', 'var(--agree)']
@@ -36,7 +37,7 @@ export function PropheticChiasms({ items }: { items: RevStructure['prophetic'] }
               })}
             </ol>
             <button type="button" aria-expanded={isOpen} onClick={() => setOpen(isOpen ? null : c.id)} className="mt-3 self-start text-sm font-semibold text-accent">
-              {isOpen ? 'Hide' : 'Why it matters for Revelation'}
+              {isOpen ? t('Hide') : t('Why it matters for Revelation')}
             </button>
             {isOpen && (
               <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} className="overflow-hidden text-[0.95rem]">

@@ -15,6 +15,7 @@ import { PatternKeys, LinesTicker } from '../components/spiritual/PatternKeys'
 import { ChapterDepth } from '../components/spiritual/ChapterDepth'
 import { TabernacleMap } from '../components/spiritual/TabernacleMap'
 import { spiritual } from '../lib/data/revelation'
+import { t } from '../lib/i18n'
 
 function Section({ id, title, lede, children }: { id: string; title: string; lede?: string; children: React.ReactNode }) {
   return (
@@ -37,7 +38,7 @@ function ChapterFlip({ c }: { c: NonNullable<typeof spiritual>['chapters'][numbe
         type="button"
         onClick={() => setFlipped(!flipped)}
         aria-pressed={flipped}
-        aria-label={`Revelation ${c.chapter}: ${c.theme}. ${flipped ? 'Showing how Christ is revealed.' : 'Turn over to see how Christ is revealed.'}`}
+        aria-label={`${t('Revelation {n}: {theme}.', { n: c.chapter, theme: c.theme })} ${flipped ? t('Showing how Christ is revealed.') : t('Turn over to see how Christ is revealed.')}`}
         animate={{ rotateY: flipped ? 180 : 0 }}
         transition={{ duration: 0.5 }}
         className="relative block h-48 w-full text-left [transform-style:preserve-3d]"
@@ -45,13 +46,13 @@ function ChapterFlip({ c }: { c: NonNullable<typeof spiritual>['chapters'][numbe
         <span className="leaf absolute inset-0 flex flex-col p-4 [backface-visibility:hidden]">
           <span className="text-3xl font-bold tabular-nums text-accent">{c.chapter}</span>
           <span className="mt-1 font-bold leading-snug">{c.theme}</span>
-          <span className="mt-auto text-xs text-ink-soft">Turn over</span>
+          <span className="mt-auto text-xs text-ink-soft">{t('Turn over')}</span>
         </span>
         <span className="leaf absolute inset-0 flex flex-col overflow-hidden border-gold p-4 [backface-visibility:hidden] [transform:rotateY(180deg)]">
-          <span className="text-xs font-bold uppercase tracking-widest text-accent">Christ revealed</span>
+          <span className="text-xs font-bold uppercase tracking-widest text-accent">{t('Christ revealed')}</span>
           <span className="mt-1 line-clamp-5 text-sm">{c.christRevealed}</span>
           <Link to={`/revelation/${c.chapter}`} className="mt-auto text-sm" onClick={(e) => e.stopPropagation()}>
-            Study chapter {c.chapter}
+            {t('Study chapter {n}', { n: c.chapter })}
           </Link>
         </span>
       </motion.button>
@@ -60,7 +61,7 @@ function ChapterFlip({ c }: { c: NonNullable<typeof spiritual>['chapters'][numbe
 }
 
 export default function Spiritual() {
-  if (!spiritual) return <p className="text-ink-soft">The Spiritual Understanding study is being written.</p>
+  if (!spiritual) return <p className="text-ink-soft">{t('The Spiritual Understanding study is being written.')}</p>
   const s = spiritual
   const chapters = [...s.chapters].sort((a, b) => a.chapter - b.chapter)
   return (
@@ -68,27 +69,27 @@ export default function Spiritual() {
       <section className="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)]">
         <div>
           <motion.p className="text-xs font-bold uppercase tracking-[0.3em] text-accent" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-            A Christ-centred reading of Revelation
+            {t('A Christ-centred reading of Revelation')}
           </motion.p>
           <motion.h1 className="mt-2 text-4xl font-bold leading-[1.05] sm:text-5xl" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }}>
-            Spiritual <span className="text-gradient">Understanding</span>
+            {t('Spiritual')} <span className="text-gradient">{t('Understanding')}</span>
           </motion.h1>
           <Prose text={s.overview} className="mt-4 text-[1.05rem]" />
           <LinesTicker lines={s.lines} />
-          <nav aria-label="On this page" className="mt-5 flex flex-wrap gap-2 text-sm">
+          <nav aria-label={t('On this page')} className="mt-5 flex flex-wrap gap-2 text-sm">
             {[
-              ['principles', 'Principles'],
-              ['method', 'The way of seeing'],
-              ['lens', 'The lens'],
-              ['flow', 'Reading an image'],
-              ['cities', 'Old and new'],
-              ['patterns', 'Old Testament keys'],
-              ['tabernacle', 'The tabernacle map'],
-              ['journey', 'The journey'],
-              ['overcomer', 'The overcomer'],
-              ['chapters', 'All 22 chapters'],
-              ['depth', 'Chapter studies'],
-              ['critiques', 'Critiques'],
+              ['principles', t('Principles')],
+              ['method', t('The way of seeing')],
+              ['lens', t('The lens')],
+              ['flow', t('Reading an image')],
+              ['cities', t('Old and new')],
+              ['patterns', t('Old Testament keys')],
+              ['tabernacle', t('The tabernacle map')],
+              ['journey', t('The journey')],
+              ['overcomer', t('The overcomer')],
+              ['chapters', t('All 22 chapters')],
+              ['depth', t('Chapter studies')],
+              ['critiques', t('Critiques')],
             ]
               .filter(([id]) => (id === 'method' ? s.method.length : id === 'lens' ? s.contrasts.length : id === 'patterns' ? s.patterns.length : id === 'overcomer' ? s.overcomer.length : id === 'depth' ? s.chapters.some((c) => c.depth.length) : true))
               .map(([id, l]) => (
@@ -103,7 +104,7 @@ export default function Spiritual() {
         </div>
       </section>
 
-      <Section id="principles" title="How this view reads the book" lede="The reading principles that shape every chapter.">
+      <Section id="principles" title={t('How this view reads the book')} lede={t('The reading principles that shape every chapter.')}>
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {s.principles.map((p, i) => (
             <motion.li key={p.id} initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: (i % 3) * 0.08, type: 'spring', stiffness: 200, damping: 22 }} className="leaf glow-card p-5">
@@ -119,48 +120,48 @@ export default function Spiritual() {
       </Section>
 
       {s.method.length > 0 && (
-        <Section id="method" title="The way of seeing" lede="How this view says Revelation should be read: not by decoding the news, but by letting Scripture and the Spirit show Christ. Watch the path light up, then step through it.">
+        <Section id="method" title={t('The way of seeing')} lede={t('How this view says Revelation should be read: not by decoding the news, but by letting Scripture and the Spirit show Christ. Watch the path light up, then step through it.')}>
           <MethodPath steps={s.method} />
         </Section>
       )}
 
       {s.contrasts.length > 0 && (
-        <Section id="lens" title="Through the lens" lede="The popular end-times reading on one side, this view on the other. Drag the slider or press the button to sweep the lens down the list.">
+        <Section id="lens" title={t('Through the lens')} lede={t('The popular end-times reading on one side, this view on the other. Drag the slider or press the button to sweep the lens down the list.')}>
           <ViewContrast rows={s.contrasts} />
         </Section>
       )}
 
-      <Section id="flow" title="From image to reality" lede="Pick an image. The flow shows how this view moves from its surface reading, to what it reveals of Christ, to what it means now.">
+      <Section id="flow" title={t('From image to reality')} lede={t('Pick an image. The flow shows how this view moves from its surface reading, to what it reveals of Christ, to what it means now.')}>
         <div className="leaf p-5">
           <SymbolFlow keys={s.keys} />
         </div>
       </Section>
 
-      <Section id="cities" title="The old order and the new creation" lede="Revelation sets images against each other: two cities, two women, two marks, two trees. Select a pair to compare them.">
+      <Section id="cities" title={t('The old order and the new creation')} lede={t('Revelation sets images against each other: two cities, two women, two marks, two trees. Select a pair to compare them.')}>
         <TwoCities keys={s.keys} />
       </Section>
 
       {s.patterns.length > 0 && (
-        <Section id="patterns" title="Old Testament keys" lede="This view lets Scripture interpret Scripture. These are the patterns it uses to unlock the images. Pick a key to see how each one maps onto Revelation.">
+        <Section id="patterns" title={t('Old Testament keys')} lede={t('This view lets Scripture interpret Scripture. These are the patterns it uses to unlock the images. Pick a key to see how each one maps onto Revelation.')}>
           <PatternKeys patterns={s.patterns} />
         </Section>
       )}
 
-      <Section id="tabernacle" title="The tabernacle map" lede="This view reads the believer's journey as a walk through the tabernacle: from the altar in the outer court to the presence behind the torn veil. Every piece of furniture reappears in Revelation. Select one.">
+      <Section id="tabernacle" title={t('The tabernacle map')} lede={t('This view reads the believer\'s journey as a walk through the tabernacle: from the altar in the outer court to the presence behind the torn veil. Every piece of furniture reappears in Revelation. Select one.')}>
         <TabernacleMap />
       </Section>
 
-      <Section id="journey" title="The journey through the book" lede="Read as one movement, from the unveiling of Christ to the tree of life. Scroll to follow the light.">
+      <Section id="journey" title={t('The journey through the book')} lede={t('Read as one movement, from the unveiling of Christ to the tree of life. Scroll to follow the light.')}>
         <JourneyMap journey={s.journey} />
       </Section>
 
       {s.overcomer.length > 0 && (
-        <Section id="overcomer" title="To the one who overcomes" lede="Every letter in chapters 2 and 3 ends with a promise to the overcomer, and every promise comes back in the closing vision. Select a promise to see how this view reads it.">
+        <Section id="overcomer" title={t('To the one who overcomes')} lede={t('Every letter in chapters 2 and 3 ends with a promise to the overcomer, and every promise comes back in the closing vision. Select a promise to see how this view reads it.')}>
           <OvercomerBridge items={s.overcomer} />
         </Section>
       )}
 
-      <Section id="chapters" title="Christ in every chapter" lede="Turn a card over to see how this view finds Christ in that chapter. Each chapter page shows this reading beside the other views.">
+      <Section id="chapters" title={t('Christ in every chapter')} lede={t('Turn a card over to see how this view finds Christ in that chapter. Each chapter page shows this reading beside the other views.')}>
         <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
           {chapters.map((c) => (
             <ChapterFlip key={c.chapter} c={c} />
@@ -169,23 +170,23 @@ export default function Spiritual() {
       </Section>
 
       {s.chapters.some((c) => c.depth.length) && (
-        <Section id="depth" title="Chapter studies in depth" lede="Verse-by-verse notes on the chapters this view teaches most fully.">
+        <Section id="depth" title={t('Chapter studies in depth')} lede={t('Verse-by-verse notes on the chapters this view teaches most fully.')}>
           <ChapterDepth chapters={chapters.filter((c) => c.depth.length)} />
         </Section>
       )}
 
-      <Section id="critiques" title="Critiques and responses" lede="As with every view in this app, the strongest objections come with the answers its proponents give.">
+      <Section id="critiques" title={t('Critiques and responses')} lede={t('As with every view in this app, the strongest objections come with the answers its proponents give.')}>
         <ol className="space-y-4">
           {s.critiques.map((c, i) => (
             <li key={i} className="leaf prose-measure grid gap-3 p-4">
               <div>
-                <p className="text-sm font-bold text-rubric">Critique</p>
+                <p className="text-sm font-bold text-rubric">{t('Critique')}</p>
                 <p>
                   <Gloss>{c.critique}</Gloss>
                 </p>
               </div>
               <div className="border-t border-rule pt-3">
-                <p className="text-sm font-bold text-accent">Response</p>
+                <p className="text-sm font-bold text-accent">{t('Response')}</p>
                 <p>
                   <Gloss>{c.response}</Gloss>
                 </p>
@@ -195,10 +196,10 @@ export default function Spiritual() {
         </ol>
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <Link to="/positions/spiritual" className="btn btn-primary no-underline">
-            <Icon name="crown" /> The full position page
+            <Icon name="crown" /> {t('The full position page')}
           </Link>
           <Link to="/compare?p=spiritual,idealism,futurism,partial-preterism" className="btn no-underline">
-            <Icon name="layers" /> Compare with other views
+            <Icon name="layers" /> {t('Compare with other views')}
           </Link>
           <Sources ids={s.sources} />
         </div>

@@ -29,6 +29,10 @@ export type ContentBundle = {
   revBooks: S.SourceBook[]
   revStructure: S.RevStructure | null
   atlas: S.Atlas | null
+  olivet: S.OlivetStudy | null
+  signs: S.SignsStudy | null
+  dating: S.DatingStudy | null
+  josephus: S.JosephusStory | null
 }
 
 const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema: z.ZodTypeAny; single?: boolean }[] = [
@@ -55,6 +59,10 @@ const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema:
   { match: (p) => p === 'revelation/books.json', key: 'revBooks', schema: S.SourceBook },
   { match: (p) => p === 'revelation/structure.json', key: 'revStructure', schema: S.RevStructure, single: true },
   { match: (p) => p === 'revelation/atlas.json', key: 'atlas', schema: S.Atlas, single: true },
+  { match: (p) => p === 'studies/olivet.json', key: 'olivet', schema: S.OlivetStudy, single: true },
+  { match: (p) => p === 'studies/signs.json', key: 'signs', schema: S.SignsStudy, single: true },
+  { match: (p) => p === 'studies/dating.json', key: 'dating', schema: S.DatingStudy, single: true },
+  { match: (p) => p === 'studies/josephus.json', key: 'josephus', schema: S.JosephusStory, single: true },
 ]
 
 export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
@@ -62,7 +70,7 @@ export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
 export function emptyBundle(): ContentBundle {
   return {
     positions: [], combinations: [], topics: [], matrix: [], passages: [], arguments: [], timelines: [],
-    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [], spiritual: null, revThreads: [], revBooks: [], revStructure: null, atlas: null,
+    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [], spiritual: null, revThreads: [], revBooks: [], revStructure: null, atlas: null, olivet: null, signs: null, dating: null, josephus: null,
   }
 }
 
@@ -253,6 +261,30 @@ export function checkBundle(b: ContentBundle, opts: { partial?: boolean } = {}):
       if (!eras.has(j.era)) errors.push(`atlas journey ${j.id}: unknown era "${j.era}"`)
       j.stops.forEach((s) => !places.has(s) && errors.push(`atlas journey ${j.id}: unknown place "${s}"`))
     }
+  }
+  const posOk = (where: string, xs: { position: string }[]) => xs.forEach((r) => needPos(where, r.position))
+  if (b.olivet) {
+    const o = b.olivet
+    needSrc('olivet', o.sources)
+    o.context.forEach((c) => needSrc(`olivet context ${c.id}`, c.sources))
+    posOk('olivet questions', o.questions.mappings)
+    o.units.forEach((u) => (needSrc(`olivet ${u.id}`, u.sources), posOk(`olivet ${u.id}`, u.readings)))
+    o.related.forEach((u) => (needSrc(`olivet related ${u.id}`, u.sources), posOk(`olivet related ${u.id}`, u.readings)))
+    posOk('olivet generation', o.generation.readings)
+  }
+  if (b.signs) {
+    needSrc('signs', b.signs.sources)
+    b.signs.history.forEach((h) => needSrc(`signs ${h.id}`, h.sources))
+    b.signs.modern.forEach((h) => needSrc(`signs ${h.id}`, h.sources))
+  }
+  if (b.josephus) {
+    needSrc('josephus', b.josephus.sources)
+    b.josephus.scenes.forEach((x) => needSrc(`josephus ${x.id}`, x.sources))
+  }
+  if (b.dating) {
+    needSrc('dating', b.dating.sources)
+    b.dating.evidence.forEach((e) => needSrc(`dating ${e.id}`, e.sources))
+    posOk('dating', b.dating.implications)
   }
   if (!opts.partial && b.revChapters.length)
     for (let n = 1; n <= 22; n++) if (!chapters.has(n)) errors.push(`missing Revelation chapter ${n}`)

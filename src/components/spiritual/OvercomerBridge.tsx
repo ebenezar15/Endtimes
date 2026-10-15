@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useState } from 'react'
 import type { SpiritualStudy } from '../../content/schema'
 import { Gloss } from '../Gloss'
+import { t } from '../../lib/i18n'
 
 /**
  * "To the one who overcomes": each promise in the letters (chapters 2–3) arcs across the book
@@ -13,9 +14,9 @@ export function OvercomerBridge({ items }: { items: SpiritualStudy['overcomer'] 
   return (
     <div>
       <div className="mb-3 hidden grid-cols-[1fr_5rem_1fr] text-center text-xs font-bold uppercase tracking-widest md:grid">
-        <span className="text-rubric">Promised to the churches (2–3)</span>
+        <span className="text-rubric">{t('Promised to the churches (2–3)')}</span>
         <span />
-        <span className="text-accent">Fulfilled in the new creation</span>
+        <span className="text-accent">{t('Fulfilled in the new creation')}</span>
       </div>
       <ol className="space-y-3">
         {items.map((o, i) => {

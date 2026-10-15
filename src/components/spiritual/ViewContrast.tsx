@@ -3,6 +3,7 @@ import { useState } from 'react'
 import type { SpiritualStudy } from '../../content/schema'
 import { Gloss } from '../Gloss'
 import { Icon } from '../Icon'
+import { t } from '../../lib/i18n'
 
 type Row = SpiritualStudy['contrasts'][number]
 
@@ -20,12 +21,12 @@ export function ViewContrast({ rows }: { rows: Row[] }) {
     <div>
       <div className="mb-4 flex flex-wrap items-center gap-3">
         <button type="button" className="btn btn-primary text-sm" onClick={play}>
-          <Icon name={pct > 50 ? 'eye' : 'sparkles'} size={15} /> {pct > 50 ? 'Back to the popular reading' : 'Look through the lens'}
+          <Icon name={pct > 50 ? 'eye' : 'sparkles'} size={15} /> {pct > 50 ? t('Back to the popular reading') : t('Look through the lens')}
         </button>
         <label className="flex min-w-[14rem] flex-1 items-center gap-3 text-sm text-ink-soft">
-          <span className="shrink-0">Popular</span>
-          <input type="range" min={0} max={100} value={pct} onChange={(e) => v.set(Number(e.target.value))} className="w-full accent-[var(--accent)]" aria-label="Slide the lens across the readings" />
-          <span className="shrink-0">Spiritual</span>
+          <span className="shrink-0">{t('Popular')}</span>
+          <input type="range" min={0} max={100} value={pct} onChange={(e) => v.set(Number(e.target.value))} className="w-full accent-[var(--accent)]" aria-label={t('Slide the lens across the readings')} />
+          <span className="shrink-0">{t('Spiritual')}</span>
         </label>
       </div>
       <ul className="space-y-2.5">
@@ -48,11 +49,11 @@ function LensRow({ r, i, n, v }: { r: Row; i: number; n: number; v: MotionValue<
       <p className="px-4 pt-3 text-xs font-bold uppercase tracking-widest text-ink-soft">{r.topic}</p>
       <div className="relative grid">
         <p className="col-start-1 row-start-1 px-4 pb-3 pt-1 text-[0.95rem] text-ink-soft">
-          <span className="mr-2 inline-block rounded-md bg-surface-2 px-1.5 text-[0.7rem] font-bold uppercase tracking-wider text-rubric">Popular</span>
+          <span className="mr-2 inline-block rounded-md bg-surface-2 px-1.5 text-[0.7rem] font-bold uppercase tracking-wider text-rubric">{t('Popular')}</span>
           {r.popular}
         </p>
-        <motion.p style={{ clipPath: clip }} className="col-start-1 row-start-1 bg-surface px-4 pb-3 pt-1 text-[0.95rem] font-semibold" aria-label={`Spiritual Understanding: ${r.spiritual}`}>
-          <span className="mr-2 inline-block rounded-md bg-accent px-1.5 text-[0.7rem] font-bold uppercase tracking-wider text-[var(--accent-ink)]">Spiritual</span>
+        <motion.p style={{ clipPath: clip }} className="col-start-1 row-start-1 bg-surface px-4 pb-3 pt-1 text-[0.95rem] font-semibold" aria-label={t('Spiritual Understanding: {text}', { text: r.spiritual })}>
+          <span className="mr-2 inline-block rounded-md bg-accent px-1.5 text-[0.7rem] font-bold uppercase tracking-wider text-[var(--accent-ink)]">{t('Spiritual')}</span>
           <Gloss>{r.spiritual}</Gloss>
         </motion.p>
         <motion.span aria-hidden style={{ left: edge, opacity: edgeOpacity }} className="pointer-events-none absolute inset-y-0 w-1 -translate-x-1/2 bg-gold-bright shadow-[0_0_18px_4px_rgb(var(--glow)/0.6)]" />

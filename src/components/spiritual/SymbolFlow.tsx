@@ -4,12 +4,13 @@ import { Link } from 'react-router-dom'
 import type { SpiritualKey } from '../../content/schema'
 import { Gloss } from '../Gloss'
 import { Icon } from '../Icon'
+import { t } from '../../lib/i18n'
 
 const STEPS = [
-  { key: 'symbol', label: 'The image', icon: 'eye' },
-  { key: 'surface', label: 'Read on the surface', icon: 'hourglass' },
-  { key: 'christ', label: 'What it reveals of Christ', icon: 'sparkles' },
-  { key: 'spiritual', label: 'The reality now', icon: 'star' },
+  { key: 'symbol', label: t('The image'), icon: 'eye' },
+  { key: 'surface', label: t('Read on the surface'), icon: 'hourglass' },
+  { key: 'christ', label: t('What it reveals of Christ'), icon: 'sparkles' },
+  { key: 'spiritual', label: t('The reality now'), icon: 'star' },
 ] as const
 
 /** An animated flowchart: how this view carries an image from its surface reading to Christ and to present experience. */
@@ -25,11 +26,11 @@ export function SymbolFlow({ keys }: { keys: SpiritualKey[] }) {
     return () => clearTimeout(t)
   }, [playing, step])
   if (!k) return null
-  const text = (s: (typeof STEPS)[number]['key']) => (s === 'symbol' ? `${k.symbol} (Revelation ${k.chapter})` : k[s])
+  const text = (s: (typeof STEPS)[number]['key']) => (s === 'symbol' ? t('{symbol} (Revelation {n})', { symbol: k.symbol, n: k.chapter }) : k[s])
 
   return (
     <div>
-      <div className="scroll-x -mx-1 flex gap-1.5 px-1 pb-2" role="radiogroup" aria-label="Choose an image">
+      <div className="scroll-x -mx-1 flex gap-1.5 px-1 pb-2" role="radiogroup" aria-label={t('Choose an image')}>
         {keys.map((x) => (
           <button key={x.id} type="button" role="radio" aria-checked={x.id === k.id} className={`chip shrink-0 cursor-pointer ${x.id === k.id ? 'border-accent' : ''}`} style={x.id === k.id ? { background: 'var(--accent)', color: 'var(--accent-ink)' } : undefined} onClick={() => (setId(x.id), setPlaying(true))}>
             {x.symbol}
@@ -74,12 +75,12 @@ export function SymbolFlow({ keys }: { keys: SpiritualKey[] }) {
       </ol>
       <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
         <button type="button" className="btn text-sm" onClick={() => (setStep(0), setPlaying(true))}>
-          <Icon name="play" size={14} /> Replay
+          <Icon name="play" size={14} /> {t('Replay')}
         </button>
         <Link to={`/revelation/${k.chapter}`} className="btn text-sm no-underline">
-          Open Revelation {k.chapter}
+          {t('Open Revelation {n}', { n: k.chapter })}
         </Link>
-        {k.texts.length > 0 && <span className="text-ink-soft">See {k.texts.join('; ')}</span>}
+        {k.texts.length > 0 && <span className="text-ink-soft">{t('See {refs}', { refs: k.texts.join('; ') })}</span>}
       </div>
     </div>
   )

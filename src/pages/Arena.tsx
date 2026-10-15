@@ -5,6 +5,7 @@ import { PositionChip } from '../components/Badge'
 import { content, topicsById, views } from '../lib/content'
 import { argumentTrees } from '../lib/data/arguments'
 import { walkArg } from '../content/ids'
+import { t } from '../lib/i18n'
 
 export default function Arena() {
   const [pos, setPos] = useState('')
@@ -18,14 +19,14 @@ export default function Arena() {
   return (
     <div className="mx-auto max-w-5xl">
       <PageHeader
-        title="Argument Arena"
-        lede="The debates that divide the views, mapped as claim, objection, rebuttal and counter-rebuttal. Each node names the camp that argues it, the texts it relies on and its sources."
+        title={t('Argument Arena')}
+        lede={t('The debates that divide the views, mapped as claim, objection, rebuttal and counter-rebuttal. Each node names the camp that argues it, the texts it relies on and its sources.')}
       />
       <div className="ui flex flex-wrap gap-4 text-sm">
         <label className="flex items-center gap-2">
-          Position
+          {t('Position')}
           <select className="rounded-md border border-rule bg-surface px-2 py-1.5" value={pos} onChange={(e) => setPos(e.target.value)}>
-            <option value="">Any</option>
+            <option value="">{t('Any')}</option>
             {views.map((v) => (
               <option key={v.id} value={v.id}>
                 {v.name}
@@ -34,12 +35,12 @@ export default function Arena() {
           </select>
         </label>
         <label className="flex items-center gap-2">
-          Topic
+          {t('Topic')}
           <select className="rounded-md border border-rule bg-surface px-2 py-1.5" value={topic} onChange={(e) => setTopic(e.target.value)}>
-            <option value="">Any</option>
-            {content.topics.map((t) => (
-              <option key={t.id} value={t.id}>
-                {t.name}
+            <option value="">{t('Any')}</option>
+            {content.topics.map((tp) => (
+              <option key={tp.id} value={tp.id}>
+                {tp.name}
               </option>
             ))}
           </select>
@@ -57,12 +58,12 @@ export default function Arena() {
                   <PositionChip key={p} id={p} />
                 ))}
               </span>
-              <span className="ui mt-2 block text-xs text-ink-soft">{count(a)} moves in the exchange</span>
+              <span className="ui mt-2 block text-xs text-ink-soft">{t('{n} moves in the exchange', { n: count(a) })}</span>
             </Link>
           </li>
         ))}
       </ul>
-      {list.length === 0 && <p className="ui mt-6 text-ink-soft">No debates match. Clear a filter to see more.</p>}
+      {list.length === 0 && <p className="ui mt-6 text-ink-soft">{t('No debates match. Clear a filter to see more.')}</p>}
     </div>
   )
 }

@@ -3,6 +3,7 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { CanonThread, SourceBook } from '../../content/schema'
 import { revChapterOf } from './ProphetsWeb'
+import { t } from '../../lib/i18n'
 
 type Echo = { from: string; ref: string; rev: string; label: string }
 
@@ -46,7 +47,7 @@ export function EchoHeatmap({ books, threads }: { books: SourceBook[]; threads: 
         <table className="w-full min-w-[640px] border-separate border-spacing-[3px] text-xs">
           <thead>
             <tr>
-              <th className="w-24 text-left font-semibold text-ink-soft">Book \ ch.</th>
+              <th className="w-24 text-left font-semibold text-ink-soft">{t('Book \\ ch.')}</th>
               {Array.from({ length: 22 }, (_, i) => (
                 <th key={i} scope="col" className="font-semibold text-ink-soft">
                   <Link to={`/revelation/${i + 1}`} className="text-ink-soft no-underline">
@@ -70,7 +71,7 @@ export function EchoHeatmap({ books, threads }: { books: SourceBook[]; threads: 
                       <motion.button
                         type="button"
                         disabled={!c.length}
-                        aria-label={`${r.book} in Revelation ${ci + 1}: ${c.length} echoes`}
+                        aria-label={t('{book} in Revelation {n}: {count} echoes', { book: r.book, n: ci + 1, count: c.length })}
                         onClick={() => setSel(on ? null : { book: r.book, ch: ci + 1 })}
                         initial={{ opacity: 0, scale: 0.4 }}
                         whileInView={{ opacity: 1, scale: 1 }}
@@ -86,13 +87,13 @@ export function EchoHeatmap({ books, threads }: { books: SourceBook[]; threads: 
             ))}
           </tbody>
         </table>
-        <p className="mt-2 text-xs text-ink-soft">Darker cells mean more echoes in this study's data. Select a cell to list them.</p>
+        <p className="mt-2 text-xs text-ink-soft">{t('Darker cells mean more echoes in this study\'s data. Select a cell to list them.')}</p>
       </div>
       <AnimatePresence>
         {sel && uniq.length > 0 && (
           <motion.div key={sel.book + sel.ch} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="mt-3 rounded-xl bg-surface-2 p-4">
             <p className="font-bold">
-              {sel.book} in Revelation {sel.ch}
+              {t('{book} in Revelation {n}', { book: sel.book, n: sel.ch })}
             </p>
             <ul className="mt-2 grid gap-1.5 text-sm sm:grid-cols-2">
               {uniq.map((e) => (

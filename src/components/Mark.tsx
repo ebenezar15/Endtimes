@@ -1,10 +1,11 @@
 import type { Agreement } from '../lib/content'
+import { t } from '../lib/i18n'
 
 export const AGREE_TEXT: Record<Agreement, string> = {
-  agree: 'Agrees with the reference view',
-  partial: 'Partly agrees with the reference view',
-  disagree: 'Differs from the reference view',
-  unknown: 'No data',
+  agree: t('Agrees with the reference view'),
+  partial: t('Partly agrees with the reference view'),
+  disagree: t('Differs from the reference view'),
+  unknown: t('No data'),
 }
 const COLOR: Record<Agreement, string> = { agree: 'var(--agree)', partial: 'var(--gold)', disagree: 'var(--rubric)', unknown: 'var(--ink-soft)' }
 

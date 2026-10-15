@@ -9,22 +9,23 @@ import { Illum } from '../components/Badge'
 import { core, core as content, frameworkViews, positionName, positionsById } from '../lib/core'
 import { useApp } from '../lib/store'
 import { useReducedMotion } from '../lib/theme'
+import { t } from '../lib/i18n'
 
 /** The 60-second guided intro (content/tour.json): ~7.5 s per caption, each lighting part of the map. */
 const TOUR = content.tour
 const STEP_MS = 7500
 
 const FEATURES: { to: string; title: string; text: string; icon: IconName }[] = [
-  { to: '/positions', title: 'Positions', text: 'Each view in depth, in its own terms, with critiques and the replies to them.', icon: 'crown' },
-  { to: '/compare', title: 'Compare views', text: 'Two to four views side by side across fifteen topics, agreement marked at a glance.', icon: 'layers' },
-  { to: '/timelines', title: 'Timelines', text: 'Overlay any two views from the Cross to the new creation and see where they part.', icon: 'timeline' },
-  { to: '/fit', title: 'Which view fits me?', text: 'A branching set of questions that explains the texts behind every fork.', icon: 'fork' },
-  { to: '/revelation', title: 'Revelation Study', text: 'All 22 chapters: every image traced to its Jewish and Roman setting, then read by each view.', icon: 'seal' },
-  { to: '/spiritual', title: 'Spiritual Understanding', text: 'Revelation as the unveiling of Christ: images, the old and the new, and the journey through the book.', icon: 'sparkles' },
-  { to: '/passages', title: 'Passage Lab', text: 'Thirty-five key texts, read by every position, with support and objections.', icon: 'scroll' },
-  { to: '/arena', title: 'Argument Arena', text: 'Claim, objection, rebuttal and counter-rebuttal, as a tree or a live graph.', icon: 'scales' },
-  { to: '/library', title: 'Debates & Library', text: 'Multi-view books, public debates and the scholars behind each camp.', icon: 'library' },
-  { to: '/study', title: 'Study', text: 'Quizzes, spaced flashcards, notes and progress, saved on your device.', icon: 'cap' },
+  { to: '/positions', title: t('Positions'), text: t('Each view in depth, in its own terms, with critiques and the replies to them.'), icon: 'crown' },
+  { to: '/compare', title: t('Compare views'), text: t('Two to four views side by side across fifteen topics, agreement marked at a glance.'), icon: 'layers' },
+  { to: '/timelines', title: t('Timelines'), text: t('Overlay any two views from the Cross to the new creation and see where they part.'), icon: 'timeline' },
+  { to: '/fit', title: t('Which view fits me?'), text: t('A branching set of questions that explains the texts behind every fork.'), icon: 'fork' },
+  { to: '/revelation', title: t('Revelation Study'), text: t('All 22 chapters: every image traced to its Jewish and Roman setting, then read by each view.'), icon: 'seal' },
+  { to: '/spiritual', title: t('Spiritual Understanding'), text: t('Revelation as the unveiling of Christ: images, the old and the new, and the journey through the book.'), icon: 'sparkles' },
+  { to: '/passages', title: t('Passage Lab'), text: t('Thirty-five key texts, read by every position, with support and objections.'), icon: 'scroll' },
+  { to: '/arena', title: t('Argument Arena'), text: t('Claim, objection, rebuttal and counter-rebuttal, as a tree or a live graph.'), icon: 'scales' },
+  { to: '/library', title: t('Debates & Library'), text: t('Multi-view books, public debates and the scholars behind each camp.'), icon: 'library' },
+  { to: '/study', title: t('Study'), text: t('Quizzes, spaced flashcards, notes and progress, saved on your device.'), icon: 'cap' },
 ]
 
 export default function Home() {
@@ -36,14 +37,14 @@ export default function Home() {
 
   useEffect(() => {
     if (step === null || !playing) return
-    const t = setTimeout(() => {
+    const timer = setTimeout(() => {
       if (step < TOUR.length - 1) setStep(step + 1)
       else {
         setPlaying(false)
         set({ introSeen: true })
       }
     }, STEP_MS)
-    return () => clearTimeout(t)
+    return () => clearTimeout(timer)
   }, [step, playing, set])
 
   const startTour = () => {
@@ -55,12 +56,12 @@ export default function Home() {
   const combos = selected ? content.combinations.filter((c) => c.millennial === selected || c.hermeneutic === selected) : []
 
   const stats = [
-    { n: core.counts.positions, l: 'positions' },
-    { n: core.counts.topics, l: 'topics compared' },
-    { n: core.counts.passages, l: 'key passages' },
-    { n: core.counts.arguments, l: 'debates mapped' },
-    { n: core.counts.scholars, l: 'scholars' },
-    { n: core.counts.sources, l: 'sources cited' },
+    { n: core.counts.positions, l: t('positions') },
+    { n: core.counts.topics, l: t('topics compared') },
+    { n: core.counts.passages, l: t('key passages') },
+    { n: core.counts.arguments, l: t('debates mapped') },
+    { n: core.counts.scholars, l: t('scholars') },
+    { n: core.counts.sources, l: t('sources cited') },
   ]
 
   return (
@@ -78,20 +79,19 @@ export default function Home() {
 
       <section className="grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)]">
         <div className="max-w-[34rem]">
-          <p className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-accent">The map of the debate</p>
+          <p className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-accent">{t('The map of the debate')}</p>
           <h2 className="text-3xl sm:text-4xl">
-            Four views of the thousand years. <span className="text-gradient">Six ways to read the Apocalypse.</span>
+            {t('Four views of the thousand years.')} <span className="text-gradient">{t('Six ways to read the Apocalypse.')}</span>
           </h2>
           <p className="mt-5 text-lg">
-            A study companion for the Christian debates about the end: what each view holds, which texts it leans on, how its critics answer, and how
-            its defenders reply. Every view is stated as its own scholars would state it.
+            {t('A study companion for the Christian debates about the end: what each view holds, which texts it leans on, how its critics answer, and how its defenders reply. Every view is stated as its own scholars would state it.')}
           </p>
           <div className="ui mt-6 flex flex-wrap gap-2">
             <button type="button" className="btn btn-primary" onClick={startTour}>
-              {introSeen ? 'Replay the 60-second tour' : 'Take the 60-second tour'}
+              {introSeen ? t('Replay the 60-second tour') : t('Take the 60-second tour')}
             </button>
             <Link to="/fit" className="btn no-underline">
-              Which view fits me?
+              {t('Which view fits me?')}
             </Link>
           </div>
 
@@ -101,24 +101,24 @@ export default function Home() {
                 <motion.div key={`s${step}`} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }} transition={{ duration: 0.35 }} className="leaf p-4">
                   <div className="ui flex items-center justify-between text-sm text-ink-soft">
                     <span>
-                      Tour {step + 1} of {TOUR.length}
+                      {t('Tour {n} of {total}', { n: step + 1, total: TOUR.length })}
                     </span>
                     <span className="flex gap-1">
-                      <button type="button" className="btn min-h-8 px-2 py-0.5" disabled={step === 0} onClick={() => setStep(step - 1)} aria-label="Previous step">
+                      <button type="button" className="btn min-h-8 px-2 py-0.5" disabled={step === 0} onClick={() => setStep(step - 1)} aria-label={t('Previous step')}>
                         ‹
                       </button>
-                      <button type="button" className="btn min-h-8 px-2 py-0.5" onClick={() => setPlaying(!playing)} aria-label={playing ? 'Pause tour' : 'Play tour'}>
+                      <button type="button" className="btn min-h-8 px-2 py-0.5" onClick={() => setPlaying(!playing)} aria-label={playing ? t('Pause tour') : t('Play tour')}>
                         {playing ? '❚❚' : '▶'}
                       </button>
                       <button
                         type="button"
                         className="btn min-h-8 px-2 py-0.5"
                         onClick={() => (step < TOUR.length - 1 ? setStep(step + 1) : (setStep(null), set({ introSeen: true })))}
-                        aria-label={step < TOUR.length - 1 ? 'Next step' : 'Finish tour'}
+                        aria-label={step < TOUR.length - 1 ? t('Next step') : t('Finish tour')}
                       >
                         {step < TOUR.length - 1 ? '›' : '✓'}
                       </button>
-                      <button type="button" className="btn min-h-8 px-2 py-0.5" onClick={() => (setStep(null), setPlaying(false))} aria-label="Close tour">
+                      <button type="button" className="btn min-h-8 px-2 py-0.5" onClick={() => (setStep(null), setPlaying(false))} aria-label={t('Close tour')}>
                         ✕
                       </button>
                     </span>
@@ -141,21 +141,20 @@ export default function Home() {
                   <p className="mt-2">{sel.summary.split(/(?<=\.)\s/).slice(0, 2).join(' ')}</p>
                   {combos.length > 0 && (
                     <p className="ui mt-2 text-sm text-ink-soft">
-                      Commonly paired with:{' '}
+                      {t('Commonly paired with:')}{' '}
                       {combos
                         .filter((c) => c.frequency === 'common')
                         .map((c) => positionName(c.millennial === sel.id ? c.hermeneutic : c.millennial, true))
-                        .join(', ') || 'no single pairing dominates'}
+                        .join(', ') || t('no single pairing dominates')}
                     </p>
                   )}
                   <Link to={`/positions/${sel.id}`} className="btn btn-primary ui mt-3 no-underline">
-                    Open {sel.shortName}
+                    {t('Open {name}', { name: sel.shortName })}
                   </Link>
                 </motion.div>
               ) : (
                 <motion.p key="hint" className="ui text-sm text-ink-soft" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-                  Choose a segment of the wheel to see a summary. Inner ring: when is the millennium? Outer ring: how do we read Revelation? Gold threads mark the
-                  common pairings.
+                  {t('Choose a segment of the wheel to see a summary. Inner ring: when is the millennium? Outer ring: how do we read Revelation? Gold threads mark the common pairings.')}
                 </motion.p>
               )}
             </AnimatePresence>
@@ -168,14 +167,14 @@ export default function Home() {
       </section>
 
       <details className="ui mt-6 max-w-3xl text-sm">
-        <summary className="cursor-pointer text-ink-soft">Read the map as a table</summary>
+        <summary className="cursor-pointer text-ink-soft">{t('Read the map as a table')}</summary>
         <table className="mt-2 w-full border-collapse text-left">
-          <caption className="sr-only">How often each millennial view pairs with each way of reading Revelation</caption>
+          <caption className="sr-only">{t('How often each millennial view pairs with each way of reading Revelation')}</caption>
           <thead>
             <tr>
-              <th className="border-b border-rule py-1 pr-2">Millennial view</th>
-              <th className="border-b border-rule py-1 pr-2">Reading of Revelation</th>
-              <th className="border-b border-rule py-1">How common</th>
+              <th className="border-b border-rule py-1 pr-2">{t('Millennial view')}</th>
+              <th className="border-b border-rule py-1 pr-2">{t('Reading of Revelation')}</th>
+              <th className="border-b border-rule py-1">{t('How common')}</th>
             </tr>
           </thead>
           <tbody>
@@ -190,7 +189,7 @@ export default function Home() {
         </table>
       </details>
 
-      <h2 className="mb-6 mt-16 text-3xl">Ways in</h2>
+      <h2 className="mb-6 mt-16 text-3xl">{t('Ways in')}</h2>
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
         {FEATURES.map((f, i) => (
           <motion.div key={f.to} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-40px' }} transition={{ delay: (i % 4) * 0.07, type: 'spring', stiffness: 200, damping: 22 }}>
@@ -206,9 +205,9 @@ export default function Home() {
       </div>
 
       <section className="mt-16">
-        <h2 className="text-3xl">The frameworks underneath</h2>
+        <h2 className="text-3xl">{t('The frameworks underneath')}</h2>
         <p className="mt-2 max-w-[65ch] text-ink-soft">
-          Beneath both rings sit larger ways of reading the whole Bible. They shape what each side expects of Israel, the church and the kingdom.
+          {t('Beneath both rings sit larger ways of reading the whole Bible. They shape what each side expects of Israel, the church and the kingdom.')}
         </p>
         <ul className="mt-5 grid gap-4 md:grid-cols-3">
           {frameworkViews.map((f, i) => (

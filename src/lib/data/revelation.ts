@@ -1,5 +1,6 @@
 import type { Bible, RevChapter, RevIntroSection, SpiritualStudy } from '../../content/schema'
-import data from '../../generated/revelation.json'
+import { LANG } from '../lang'
+const data = (LANG === 'ta' ? await import('../../generated/ta/revelation.json') : await import('../../generated/revelation.json')).default
 
 export const { intro, chapters, spiritual } = data as unknown as { intro: RevIntroSection[]; chapters: RevChapter[]; spiritual: SpiritualStudy | null }
 export const chapterByNumber = new Map(chapters.map((c) => [c.chapter, c]))

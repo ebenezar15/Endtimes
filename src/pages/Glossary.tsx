@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import Fuse from 'fuse.js'
 import { PageHeader } from '../components/PageHeader'
 import { content, glossaryById } from '../lib/content'
+import { t } from '../lib/i18n'
 
 export default function Glossary() {
   const [q, setQ] = useState('')
@@ -15,13 +16,13 @@ export default function Glossary() {
   const letters = [...new Set(list.map((g) => g.term[0].toUpperCase()))]
   return (
     <div className="mx-auto max-w-4xl">
-      <PageHeader title="Glossary" lede="Every technical term in the app. Throughout the app, terms with a dotted gold underline show their definition on hover, focus or tap." />
+      <PageHeader title={t('Glossary')} lede={t('Every technical term in the app. Throughout the app, terms with a dotted gold underline show their definition on hover, focus or tap.')} />
       <label className="ui block max-w-md text-sm text-ink-soft">
-        Filter terms
-        <input value={q} onChange={(e) => setQ(e.target.value)} className="mt-1 block w-full rounded-md border border-rule bg-surface px-3 py-2 text-base text-ink" placeholder="parousia, genea, chiliasm…" />
+        {t('Filter terms')}
+        <input value={q} onChange={(e) => setQ(e.target.value)} className="mt-1 block w-full rounded-md border border-rule bg-surface px-3 py-2 text-base text-ink" placeholder={t('parousia, genea, chiliasm…')} />
       </label>
       {!q && (
-        <nav aria-label="Jump to letter" className="ui mt-5 flex flex-wrap gap-1 text-sm">
+        <nav aria-label={t('Jump to letter')} className="ui mt-5 flex flex-wrap gap-1 text-sm">
           {letters.map((l) => (
             <a key={l} href={`#letter-${l}`} onClick={(e) => (e.preventDefault(), document.getElementById(`letter-${l}`)?.scrollIntoView())} className="chip px-2.5 no-underline">
               {l}
@@ -42,13 +43,13 @@ export default function Glossary() {
               <div id={g.id} className={`scroll-mt-24 border-b border-rule py-4 ${hash === `#${g.id}` ? 'bg-surface-2/60' : ''}`}>
                 <dt className="text-xl font-medium">
                   {g.term}
-                  {g.aliases.length > 0 && <span className="ui ml-2 text-sm font-normal text-ink-soft">also {g.aliases.join(', ')}</span>}
+                  {g.aliases.length > 0 && <span className="ui ml-2 text-sm font-normal text-ink-soft">{t('also {aliases}', { aliases: g.aliases.join(', ') })}</span>}
                 </dt>
                 {g.origin && <dd className="italic text-ink-soft">{g.origin}</dd>}
                 <dd className="prose-measure mt-1">{g.definition}</dd>
                 {g.related.length > 0 && (
                   <dd className="ui mt-1 text-sm text-ink-soft">
-                    See also:{' '}
+                    {t('See also:')}{' '}
                     {g.related.map((r, j) => (
                       <span key={r}>
                         {j > 0 && ', '}

@@ -3,16 +3,17 @@ import { Link } from 'react-router-dom'
 import { PageHeader } from '../components/PageHeader'
 import { content, topicsById } from '../lib/content'
 import { useApp } from '../lib/store'
+import { t } from '../lib/i18n'
 
 const CATS: { id: string; label: string }[] = [
-  { id: 'revelation', label: 'Revelation' },
-  { id: 'olivet', label: 'The Olivet Discourse' },
-  { id: 'gospels', label: 'Gospels' },
-  { id: 'acts', label: 'Acts' },
-  { id: 'epistles', label: 'Epistles' },
-  { id: 'daniel', label: 'Daniel' },
-  { id: 'prophets', label: 'The Prophets' },
-  { id: 'psalms', label: 'Psalms' },
+  { id: 'revelation', label: t('Revelation') },
+  { id: 'olivet', label: t('The Olivet Discourse') },
+  { id: 'gospels', label: t('Gospels') },
+  { id: 'acts', label: t('Acts') },
+  { id: 'epistles', label: t('Epistles') },
+  { id: 'daniel', label: t('Daniel') },
+  { id: 'prophets', label: t('The Prophets') },
+  { id: 'psalms', label: t('Psalms') },
 ]
 
 export default function Passages() {
@@ -23,24 +24,24 @@ export default function Passages() {
   return (
     <div className="mx-auto max-w-5xl">
       <PageHeader
-        title="Passage Lab"
-        lede="The texts the debate turns on. Read each one in a public-domain translation, then see how every position reads it, what supports that reading, and the main objection to it."
+        title={t('Passage Lab')}
+        lede={t('The texts the debate turns on. Read each one in a public-domain translation, then see how every position reads it, what supports that reading, and the main objection to it.')}
       />
       <div className="ui flex flex-wrap items-center gap-4 text-sm">
         <label className="flex items-center gap-2">
-          Topic
+          {t('Topic')}
           <select className="rounded-md border border-rule bg-surface px-2 py-1.5" value={topic} onChange={(e) => setTopic(e.target.value)}>
-            <option value="">All topics</option>
-            {content.topics.map((t) => (
-              <option key={t.id} value={t.id}>
-                {t.name}
+            <option value="">{t('All topics')}</option>
+            {content.topics.map((tp) => (
+              <option key={tp.id} value={tp.id}>
+                {tp.name}
               </option>
             ))}
           </select>
         </label>
         <label className="flex items-center gap-2">
           <input type="checkbox" checked={timeOnly} onChange={(e) => setTimeOnly(e.target.checked)} />
-          Only “time texts” (near, soon, this generation)
+          {t('Only “time texts” (near, soon, this generation)')}
         </label>
       </div>
       {CATS.map((c) => {
@@ -56,11 +57,11 @@ export default function Passages() {
                     <span className="font-medium text-accent">{p.ref}</span>
                     <span>
                       <span className="text-lg group-hover:text-accent">{p.title}</span>
-                      {p.timeText && <span className="chip ml-2 py-0 text-xs">time text</span>}
-                      {visited.includes(`passage/${p.id}`) && <span className="ui ml-2 text-xs text-ink-soft">read</span>}
+                      {p.timeText && <span className="chip ml-2 py-0 text-xs">{t('time text')}</span>}
+                      {visited.includes(`passage/${p.id}`) && <span className="ui ml-2 text-xs text-ink-soft">{t('read')}</span>}
                       <span className="block text-[0.95rem] text-ink-soft">{p.keyIssue}</span>
                       {topic === '' && p.topics.length > 0 && (
-                        <span className="ui mt-1 block text-xs text-ink-soft">{p.topics.map((t) => topicsById.get(t)?.name ?? t).join(', ')}</span>
+                        <span className="ui mt-1 block text-xs text-ink-soft">{p.topics.map((tp) => topicsById.get(tp)?.name ?? tp).join(', ')}</span>
                       )}
                     </span>
                   </Link>
@@ -70,7 +71,7 @@ export default function Passages() {
           </section>
         )
       })}
-      {list.length === 0 && <p className="ui mt-8 text-ink-soft">No passages match. Clear the filters to see them all.</p>}
+      {list.length === 0 && <p className="ui mt-8 text-ink-soft">{t('No passages match. Clear the filters to see them all.')}</p>}
     </div>
   )
 }

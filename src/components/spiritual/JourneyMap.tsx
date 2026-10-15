@@ -3,6 +3,7 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react
 import { Link } from 'react-router-dom'
 import type { SpiritualStudy } from '../../content/schema'
 import { Gloss } from '../Gloss'
+import { t } from '../../lib/i18n'
 
 /** A winding road through the book; a light travels along it as you scroll, lighting each stage. */
 export function JourneyMap({ journey }: { journey: SpiritualStudy['journey'] }) {
@@ -79,13 +80,13 @@ export function JourneyMap({ journey }: { journey: SpiritualStudy['journey'] }) 
               style={left ? { marginLeft: '30%' } : { marginLeft: 'auto', marginRight: '30%' }}
             >
               <motion.div initial={false} animate={{ opacity: lit ? 1 : 0.5, scale: lit ? 1 : 0.97 }} transition={{ duration: 0.4 }} className={`leaf p-3 sm:p-4 ${lit ? 'border-gold' : ''}`}>
-                <p className="text-xs font-bold uppercase tracking-widest text-accent">Chapters {s.chapters}</p>
+                <p className="text-xs font-bold uppercase tracking-widest text-accent">{t('Chapters {n}', { n: s.chapters })}</p>
                 <p className="font-bold leading-snug">{s.stage}</p>
                 <p className="mt-1 text-sm text-ink-soft">
                   <Gloss>{s.text}</Gloss>
                 </p>
                 <Link to={`/revelation/${ch}`} className="mt-1 inline-block text-sm">
-                  Read chapter {ch}
+                  {t('Read chapter {n}', { n: ch })}
                 </Link>
               </motion.div>
             </li>

@@ -2,7 +2,8 @@ import type {
   Bible, Combination, GlossaryEntry, MatrixCell, Passage, Position, Source, Topic, TourStep, ArgumentTree,
 } from '../content/schema'
 // Generated and validated from /content by `npm run validate` (and live by the dev server).
-import data from '../generated/content.json'
+import { LANG } from './lang'
+const data = (LANG === 'ta' ? await import('../generated/ta/content.json') : await import('../generated/content.json')).default
 
 export type PassageIndex = Pick<Passage, 'id' | 'ref' | 'title' | 'ranges' | 'category' | 'keyIssue' | 'timeText' | 'topics'> & { readers: string[] }
 export type ArgumentIndex = Pick<ArgumentTree, 'id' | 'title' | 'question' | 'topic' | 'positions'>

@@ -9,6 +9,7 @@ import { ChurchesMap } from '../components/ChurchesMap'
 import { Icon } from '../components/Icon'
 import { SealedScroll } from '../components/SealedScroll'
 import { chapters, intro } from '../lib/data/revelation'
+import { t } from '../lib/i18n'
 
 /** Colours for the movements of the book, assigned in order of first appearance. */
 const SECTION_TINTS = ['var(--accent)', 'var(--gold-bright)', 'var(--rubric)', 'var(--accent)', 'var(--gold-bright)', 'var(--rubric)', 'var(--accent)', 'var(--gold-bright)']
@@ -21,21 +22,21 @@ export default function Revelation() {
     <div className="mx-auto max-w-6xl">
       <div className="grid items-center gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]">
         <PageHeader
-          title="The Book of Revelation"
-          lede="A chapter-by-chapter study of the Apocalypse. Each phrase and image is traced to its Old Testament and Jewish roots and its setting in Roman Asia, then read through every major view."
+          title={t('The Book of Revelation')}
+          lede={t('A chapter-by-chapter study of the Apocalypse. Each phrase and image is traced to its Old Testament and Jewish roots and its setting in Roman Asia, then read through every major view.')}
         >
           <div className="mt-5 flex flex-wrap gap-2">
             <Link to="/revelation/1" className="btn btn-primary no-underline">
-              <Icon name="scroll" /> Begin at chapter 1
+              <Icon name="scroll" /> {t('Begin at chapter 1')}
             </Link>
             <Link to="/revelation/connections" className="btn no-underline">
-              <Icon name="layers" /> Revelation and the whole Bible
+              <Icon name="layers" /> {t('Revelation and the whole Bible')}
             </Link>
             <Link to="/spiritual" className="btn no-underline">
-              <Icon name="sparkles" /> Spiritual understanding
+              <Icon name="sparkles" /> {t('Spiritual understanding')}
             </Link>
             <Link to="/revelation/symbols" className="btn no-underline">
-              <Icon name="search" /> Index of {symbolCount || 'all'} phrases and images
+              <Icon name="search" /> {t('Index of {n} phrases and images', { n: symbolCount || t('all') })}
             </Link>
           </div>
         </PageHeader>
@@ -49,19 +50,19 @@ export default function Revelation() {
           <Icon name="layers" size={26} />
         </motion.span>
         <span className="min-w-0 flex-1">
-          <span className="block text-xs font-bold uppercase tracking-widest text-accent">New</span>
-          <span className="block text-xl font-bold">Revelation and the whole Bible</span>
-          <span className="block text-ink-soft">An atlas of places from Ur to Patmos, golden threads from Genesis to Revelation, the books behind the book, shared sequences and the book's mirror structure.</span>
+          <span className="block text-xs font-bold uppercase tracking-widest text-accent">{t('New')}</span>
+          <span className="block text-xl font-bold">{t('Revelation and the whole Bible')}</span>
+          <span className="block text-ink-soft">{t('An atlas of places from Ur to Patmos, golden threads from Genesis to Revelation, the books behind the book, shared sequences and the book\'s mirror structure.')}</span>
         </span>
         <Icon name="arrow" className="transition-transform group-hover:translate-x-1" />
       </Link>
 
       <section aria-labelledby="map-h">
         <h2 id="map-h" className="text-2xl font-bold">
-          The book at a glance
+          {t('The book at a glance')}
         </h2>
         {chapters.length === 0 ? (
-          <p className="mt-3 text-ink-soft">The chapter studies are being written. Run “npm run validate” once they are in place.</p>
+          <p className="mt-3 text-ink-soft">{t('The chapter studies are being written. Run “npm run validate” once they are in place.')}</p>
         ) : (
           <div className="mt-5 space-y-6">
             {sections.map((sec, si) => (
@@ -86,7 +87,7 @@ export default function Revelation() {
                         >
                           <span className="block text-3xl font-bold tabular-nums text-accent">{c.chapter}</span>
                           <span className="mt-1 block font-bold leading-snug">{c.title}</span>
-                          <span className="mt-1 block text-xs text-ink-soft">{c.symbols.length} phrases and images</span>
+                          <span className="mt-1 block text-xs text-ink-soft">{t('{n} phrases and images', { n: c.symbols.length })}</span>
                         </Link>
                       </motion.li>
                     ))}
@@ -99,9 +100,9 @@ export default function Revelation() {
 
       <section className="mt-16" aria-labelledby="sevens-h">
         <h2 id="sevens-h" className="text-2xl font-bold">
-          Seals, trumpets and bowls
+          {t('Seals, trumpets and bowls')}
         </h2>
-        <p className="mt-1 max-w-[70ch] text-ink-soft">How the three sevens fit together shapes how a reader handles everything else. Switch between the two main readings.</p>
+        <p className="mt-1 max-w-[70ch] text-ink-soft">{t('How the three sevens fit together shapes how a reader handles everything else. Switch between the two main readings.')}</p>
         <div className="leaf mt-5 p-5">
           <SevensDiagram />
         </div>
@@ -109,9 +110,9 @@ export default function Revelation() {
 
       <section className="mt-16" aria-labelledby="churches-h">
         <h2 id="churches-h" className="text-2xl font-bold">
-          The seven churches
+          {t('The seven churches')}
         </h2>
-        <p className="mt-1 max-w-[70ch] text-ink-soft">Revelation was first a letter to real congregations in the Roman province of Asia. Select a city.</p>
+        <p className="mt-1 max-w-[70ch] text-ink-soft">{t('Revelation was first a letter to real congregations in the Roman province of Asia. Select a city.')}</p>
         <div className="leaf mt-5 p-5">
           <ChurchesMap />
         </div>
@@ -120,7 +121,7 @@ export default function Revelation() {
       {intro.length > 0 && (
         <section className="mt-16" aria-labelledby="intro-h">
           <h2 id="intro-h" className="text-2xl font-bold">
-            Before you read
+            {t('Before you read')}
           </h2>
           <div className="mt-5 divide-y divide-rule border-y border-rule">
             {intro.map((s) => {

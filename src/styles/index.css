@@ -6,6 +6,10 @@
 @import '@fontsource/nunito-sans/latin-800.css';
 @import '@fontsource/cormorant-garamond/latin-500-italic.css';
 @import '@fontsource/cormorant-garamond/latin-600.css';
+/* Tamil: the fonts carry a Tamil unicode-range, so they download only when Tamil text is shown. */
+@import '@fontsource/noto-sans-tamil/tamil-400.css';
+@import '@fontsource/noto-sans-tamil/tamil-700.css';
+@import '@fontsource/noto-serif-tamil/tamil-600.css';
 
 /*
  * Avenir Next is the house typeface (shared with Ecclesia Atlas). It ships with macOS and iOS but is
@@ -140,8 +144,8 @@
   --color-gold: var(--gold);
   --color-gold-bright: var(--gold-bright);
   --color-rubric: var(--rubric);
-  --font-sans: 'Avenir Next', 'AvenirNext', 'Avenir Next LT Pro', 'Avenir', 'Nunito Sans', ui-sans-serif, system-ui, sans-serif;
-  --font-serif: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
+  --font-sans: 'Avenir Next', 'AvenirNext', 'Avenir Next LT Pro', 'Avenir', 'Nunito Sans', 'Noto Sans Tamil', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Cormorant Garamond', 'EB Garamond', 'Noto Serif Tamil', Georgia, serif;
 }
 
 /* ---------- Page background ------------------------------------------------------------
@@ -159,6 +163,16 @@ html #root {
     radial-gradient(ellipse at 15% -10%, rgb(var(--glow) / 0.12), transparent 55%),
     radial-gradient(ellipse at 95% 110%, rgb(var(--glow) / 0.1), transparent 50%);
   background-attachment: fixed;
+}
+/* Tamil script needs more line height and less tracking than Latin. */
+html[lang='ta'] body {
+  line-height: 1.8;
+}
+html[lang='ta'] h1,
+html[lang='ta'] h2,
+html[lang='ta'] h3 {
+  line-height: 1.35;
+  letter-spacing: 0;
 }
 html #root {
   min-height: 100vh;

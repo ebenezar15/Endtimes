@@ -4,6 +4,7 @@ import { useMemo } from 'react'
 import type { Flowchart } from '../content/schema'
 import { layout } from '../lib/flow'
 import { positionName } from '../lib/content'
+import { t } from '../lib/i18n'
 
 /** Static, zoomable master flowchart of every fork, with a text outline for screen readers. */
 export default function FlowMap({ flow, trail }: { flow: Flowchart; trail: string[] }) {
@@ -65,7 +66,7 @@ export default function FlowMap({ flow, trail }: { flow: Flowchart; trail: strin
         </ReactFlow>
       </div>
       <details className="ui mt-4 text-sm">
-        <summary className="cursor-pointer text-ink-soft">Read the flowchart as an outline</summary>
+        <summary className="cursor-pointer text-ink-soft">{t('Read the flowchart as an outline')}</summary>
         <Outline flow={flow} id={flow.start} depth={0} />
       </details>
     </div>

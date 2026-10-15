@@ -1,0 +1,433 @@
+{
+  "intro": "When was Revelation written: in the 60s, while Nero ruled and the Jerusalem temple still stood, or around 95, near the end of Domitian's reign, a generation after the temple fell? The question sounds technical, but it shapes how the whole book can be read. If John wrote before AD 70, the judgments on 'the great city' and the trampling of the holy city could be prophecies of the Jewish War and the fall of Jerusalem, as partial and full preterists hold. If he wrote after 70, those events were already past, and the book's warnings must point to Rome, to the course of history, or to the end of the age. Both sides appeal to ancient testimony (what the early church remembered) and to internal evidence (what the book itself seems to presuppose), and both have serious scholars behind them. This study sets out each side's strongest evidence, with the best reply to each, so you can weigh it for yourself.",
+  "sides": [
+    {
+      "id": "early",
+      "label": "Before AD 70",
+      "date": "c. AD 64-69, under Nero (54-68) or during the brief reign of Galba (68-69)",
+      "summary": "On this view John received his visions during or just after Nero's persecution of Christians in Rome (from AD 64) and before the Romans destroyed Jerusalem and its temple in August 70. Its advocates rest mainly on internal evidence: the temple and altar are measured as though still standing (11:1-2), the sixth of seven kings 'is' now reigning (17:10), the number 666 spells Nero Caesar in Hebrew letters, and the book insists its events are near. They argue that the external testimony for Domitian rests largely on one ambiguous sentence of Irenaeus, and they point to scattered ancient traditions placing John's exile under Nero. They also find it hard to believe that a book so full of temple imagery and judgment would never mention the greatest judgment of the age if it had already happened.",
+      "scholars": [
+        "Moses Stuart (A Commentary on the Apocalypse, 1845)",
+        "B. F. Westcott (in his Gospel according to St John, 1880, placing the Apocalypse before the Gospel)",
+        "J. B. Lightfoot (Essays on Supernatural Religion)",
+        "F. J. A. Hort (The Apocalypse of St John I-III, 1908)",
+        "Philip Schaff (History of the Christian Church, vol. 1; he had earlier favoured the Domitianic date)",
+        "Milton S. Terry (Biblical Apocalyptics, 1898)",
+        "C. C. Torrey (The Apocalypse of John, 1958)",
+        "John A. T. Robinson (Redating the New Testament, 1976)",
+        "Albert A. Bell Jr. (New Testament Studies 25, 1978) and J. Christian Wilson (New Testament Studies 39, 1993)",
+        "Kenneth L. Gentry Jr. (Before Jerusalem Fell, 1989), with David Chilton and R. C. Sproul, who leans to the early date"
+      ]
+    },
+    {
+      "id": "late",
+      "label": "Under Domitian",
+      "date": "c. AD 95-96, near the end of Domitian's reign (81-96)",
+      "summary": "On this view John was banished to Patmos under Domitian and wrote around 95, about twenty-five years after Jerusalem fell. Its advocates rest first on external evidence: Irenaeus, who knew Polycarp, a disciple of John, says the vision was seen 'towards the end of Domitian's reign', and Victorinus, Eusebius and Jerome agree. They add internal evidence: the seven churches seem to have a history of decline, Laodicea boasts of a wealth that suits its recovery after the earthquake of 60, Rome is called 'Babylon' as Jewish writers did only after 70, and the imperial cult and a myth of Nero's return fit the Flavian period. They answer the early-date texts by reading the temple of chapter 11 as a visionary symbol and the seven kings and 666 as open to several counts.",
+      "scholars": [
+        "Irenaeus of Lyons (Against Heresies 5.30.3, c. 180)",
+        "Victorinus of Pettau, Eusebius of Caesarea and Jerome (third and fourth centuries)",
+        "Leon Morris (Revelation, Tyndale, 1969)",
+        "Robert H. Mounce (The Book of Revelation, NICNT)",
+        "Adela Yarbro Collins (Crisis and Catharsis, 1984)",
+        "Colin J. Hemer (The Letters to the Seven Churches of Asia, 1986)",
+        "Leonard L. Thompson (The Book of Revelation: Apocalypse and Empire, 1990), who holds the late date while doubting a Domitianic persecution",
+        "David E. Aune (Revelation, WBC, 1997), who proposes composition in stages, with a first edition perhaps in the 60s or 70s and the final edition near the end of Domitian's reign or early in Trajan's",
+        "G. K. Beale (The Book of Revelation, NIGTC, 1999) and Grant R. Osborne (Revelation, BECNT, 2002)",
+        "Craig R. Koester (Revelation, Anchor Yale, 2014), who favours roughly 80-100, most likely the 90s"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "irenaeus-end-of-domitian",
+      "kind": "external",
+      "side": "late",
+      "title": "Irenaeus: the vision was seen towards the end of Domitian's reign",
+      "claim": "Irenaeus of Lyons, writing about 180, declines to name the Antichrist from the number 666, reasoning that if the name were needed it would have been announced by the one who saw the apocalypse, 'for it was seen not very long ago, but almost in our own generation, towards the end of Domitian's reign.' Irenaeus grew up in Asia and heard Polycarp of Smyrna, who had known John, so this is the earliest explicit date and comes through a short chain of Asian memory. Eusebius quotes the Greek twice and plainly took it to date the vision. Late-date advocates regard it as the single strongest piece of evidence: early, specific and from a writer with direct links to the region.",
+      "source": "Irenaeus, Against Heresies 5.30.3 (Greek preserved in Eusebius, Church History 3.18.3 and 5.8.6)",
+      "weight": 3,
+      "counter": "The verb heōrathē ('was seen') has no expressed subject, and the nearest personal antecedent is John, 'the one who saw the apocalypse', so early-date advocates argue it may mean that John himself was seen, that is, was still alive and accessible, under Domitian; Irenaeus elsewhere stresses that John lived on into Trajan's reign (2.22.5; 3.3.4). They also note Irenaeus' chronological slips, such as his claim that Jesus' ministry continued until he was over forty (2.22.5-6). On this view one ambiguous sentence from a writer a century later should not outweigh the book's own internal signals.",
+      "sources": ["irenaeus-against-heresies", "schaff-irenaeus-eusebius-ccel", "gentry-before-jerusalem-fell", "beale-revelation-nigtc"]
+    },
+    {
+      "id": "victorinus-mines-patmos",
+      "kind": "external",
+      "side": "late",
+      "title": "Victorinus: condemned to the mines of Patmos by Domitian",
+      "claim": "Victorinus of Pettau (died c. 304), author of the oldest surviving Latin commentary on Revelation, says that when John saw the visions he was on Patmos, condemned to labour in the mines by Caesar Domitian, and that after Domitian's death, when his decrees were annulled, John was released and afterwards published the Apocalypse. On 17:10 he identifies the king who 'is' with Domitian. Late-date advocates value this as a western witness that adds concrete detail, penal labour, rather than merely repeating Irenaeus' words.",
+      "source": "Victorinus of Pettau, Commentary on the Apocalypse, on 10:11 and 17:10",
+      "weight": 2,
+      "counter": "Victorinus may simply depend on Irenaeus, and his commentary contains other historical confusions. To make Domitian the king who 'is' in 17:10 he has to begin counting after Nero, from Galba, so that Nero can return as the eighth king, a count early-date advocates regard as arbitrary. No other early source mentions mines on Patmos, so the detail may be an embellishment of the general tradition of exile.",
+      "sources": ["victorinus-commentary-apocalypse", "gentry-before-jerusalem-fell", "aune-revelation-wbc"]
+    },
+    {
+      "id": "clement-after-tyrant",
+      "kind": "external",
+      "side": "late",
+      "title": "Clement of Alexandria: John returned 'after the tyrant's death'",
+      "claim": "Clement of Alexandria, about 200, says that 'after the tyrant's death' John returned from the island of Patmos to Ephesus, where he travelled about the region appointing bishops, and then tells the story of the aged apostle reclaiming a young man who had become a robber chief. Eusebius quotes the whole passage in his account of Domitian's reign and its aftermath, taking the tyrant to be Domitian. Late-date advocates note that Clement calls John an old man and that 'tyrant' matches how Christian writers remembered Domitian, so Clement fits the same picture as Irenaeus.",
+      "source": "Clement of Alexandria, Who Is the Rich Man That Shall Be Saved? 42 (quoted in Eusebius, Church History 3.23.5-19)",
+      "weight": 2,
+      "counter": "Clement does not name the tyrant, and in Christian memory Nero was the tyrant par excellence, the first emperor to persecute the church; the identification with Domitian is Eusebius'. Early-date advocates add that the story has John mounting a horse and riding hard after the robber, which suits a man of about sixty in the late 60s better than one near ninety after 96. Gentry also notes that Clement elsewhere says the teaching of the apostles ended with Paul's ministry under Nero (Miscellanies 7.17).",
+      "sources": ["clement-alex-rich-man", "eusebius-church-history", "gentry-before-jerusalem-fell"]
+    },
+    {
+      "id": "origen-king-of-romans",
+      "kind": "external",
+      "side": "late",
+      "title": "Origen: 'the king of the Romans, as tradition teaches'",
+      "claim": "Origen, commenting on Jesus' word that James and John would drink his cup, writes that 'the king of the Romans, as tradition teaches, condemned John, who bore witness on account of the word of truth, to the island of Patmos', and that John himself tells of this in the Apocalypse without naming who condemned him. Late-date advocates read 'tradition' as the same Domitianic tradition already known from Irenaeus and Clement, so Origen adds a third-century Alexandrian voice to a consistent picture of exile by imperial sentence.",
+      "source": "Origen, Commentary on Matthew 16.6 (on Matthew 20:22-23)",
+      "weight": 1,
+      "counter": "Origen pointedly leaves the emperor unnamed, and his wording fits Nero just as well as Domitian, so neither side can claim him with confidence. His remark that Revelation itself does not name the king shows only that the book is silent on the point. A witness that leaves the key detail blank adds little to the case beyond confirming that John was exiled by a Roman ruler.",
+      "sources": ["origen-commentary-matthew", "gentry-before-jerusalem-fell", "koester-revelation-ayb"]
+    },
+    {
+      "id": "eusebius-domitian-nerva",
+      "kind": "external",
+      "side": "late",
+      "title": "Eusebius: banished under Domitian, released under Nerva, alive under Trajan",
+      "claim": "Eusebius places John's banishment to Patmos in Domitian's persecution and quotes Irenaeus in support (Church History 3.18.1-3). He says that after Domitian's death the senate annulled his decrees and the exiles came home, so that 'the ancient tradition of the Christians' records John's return from Patmos to Ephesus (3.20.8-9). He adds that John lived on in Asia into Trajan's reign, citing Irenaeus and Clement (3.23.1-4). Eusebius worked with the large library at Caesarea, including sources now lost, and late-date advocates see his account as the settled memory of the early church.",
+      "source": "Eusebius, Church History 3.18, 3.20, 3.23 (c. 325)",
+      "weight": 2,
+      "counter": "Eusebius explicitly builds on Irenaeus and Clement, so he multiplies citations rather than independent witnesses: if Irenaeus was misread, Eusebius inherits the misreading. Early-date writers also point out that in his Demonstration of the Gospel (3.5) Eusebius mentions John's banishment in the same breath as the deaths of Peter and Paul under Nero, which some read as reflecting a Neronian setting. Eusebius was also openly uncertain about Revelation's authorship and standing (3.25; 7.25), so his chronology of it may not have been closely examined.",
+      "sources": ["eusebius-church-history", "schaff-irenaeus-eusebius-ccel", "gentry-before-jerusalem-fell"]
+    },
+    {
+      "id": "jerome-fourteenth-year",
+      "kind": "external",
+      "side": "late",
+      "title": "Jerome: banished in Domitian's fourteenth year",
+      "claim": "Jerome says that in the fourteenth year of Domitian (about 94-95) John was banished to the island of Patmos and wrote the Apocalypse there, and that after Domitian's death, when the senate annulled his acts, John returned to Ephesus under Nerva. Jerome was the most learned Latin scholar of his age, had travelled widely in the East, and gives the most precise date in the tradition. Late-date advocates see his testimony as confirming that by the late fourth century the Domitianic date was the standard view in both East and West.",
+      "source": "Jerome, On Illustrious Men 9 (c. 392)",
+      "weight": 2,
+      "counter": "Jerome wrote three centuries after the event and is visibly dependent on Eusebius, so he adds precision rather than independent evidence. In another work he reports Tertullian's story of John being cast into boiling oil at Rome and says that it was Nero who did it (Against Jovinian 1.26), which suggests the traditions about John's sufferings were less fixed than On Illustrious Men implies. Early-date advocates argue that late, derivative witnesses cannot strengthen a tradition beyond its first source.",
+      "sources": ["jerome-illustrious-men", "jerome-against-jovinian", "gentry-before-jerusalem-fell"]
+    },
+    {
+      "id": "ephesus-first-love",
+      "kind": "internal",
+      "side": "late",
+      "title": "Ephesus has left its first love, and Paul is not mentioned",
+      "claim": "The letter to Ephesus describes a church that has long endured, has tested and rejected false apostles, and yet 'has abandoned the love you had at first' (2:2-4). Paul founded this church around 52, spent nearly three years there and wrote to it (or to its region) around 60-62, praising its love for all the saints (Ephesians 1:15). Late-date advocates argue that a decline from that first love, in a church now addressed without any mention of Paul or Timothy, fits a second generation after Paul's death better than a few years after his letter. Mark Wilson argues that the history of the Ephesian church, with John as its later leading figure, points to the 90s.",
+      "source": "Revelation 2:1-7; Ephesians 1:15; Acts 19:1-10; 20:17-31",
+      "weight": 1,
+      "counter": "Churches can decline quickly: Paul marvelled that the Galatians were 'so quickly deserting' the gospel within a few years (Galatians 1:6). He warned the Ephesian elders around 57 that fierce wolves would come and that men would arise among them speaking twisted things (Acts 20:29-30), and the letters to Timothy, traditionally dated to the mid-60s, already show false teachers and defections at Ephesus (1 Timothy 1:3-7; 2 Timothy 1:15). By 65 the church was more than a decade old, enough time for a first love to cool.",
+      "sources": ["wilson-ephesus-date-revelation", "hemer-letters-seven-churches", "gentry-before-jerusalem-fell"]
+    },
+    {
+      "id": "condition-of-churches",
+      "kind": "internal",
+      "side": "late",
+      "title": "The seven churches seem to have a history",
+      "claim": "Several of the churches look settled and past their beginnings. Sardis has 'a reputation of being alive, but you are dead' (3:1); Laodicea has become lukewarm (3:15-16); 'Jezebel' at Thyatira has been given 'time to repent' and her followers have learned 'the deep things of Satan' (2:20-24); and Antipas at Pergamum was killed some time before (2:13). Late-date advocates argue that this picture of established congregations, internal factions and spiritual decline suits churches a generation or more after their founding in the 50s, and that the letters show no awareness of Paul's recent ministry in the province.",
+      "source": "Revelation 2:13, 2:20-24, 3:1-3, 3:15-17",
+      "weight": 2,
+      "counter": "Paul's own letters show similar problems arising within a few years of a church's founding: factions, immorality and food offered to idols at Corinth (1 Corinthians 1:11-12; 5:1; 8-10) and dangerous teaching at nearby Colossae around 60 (Colossians 2:8-23). Colossians even warns Archippus, apparently connected with the Lycus valley churches including Laodicea, to fulfil his ministry (Colossians 4:16-17). The churches of Asia had existed for roughly fifteen years by 65, long enough for reputations to rise and fall.",
+      "sources": ["hemer-letters-seven-churches", "beale-revelation-nigtc", "gentry-before-jerusalem-fell"]
+    },
+    {
+      "id": "laodicea-wealth",
+      "kind": "internal",
+      "side": "late",
+      "title": "Laodicea's boast of wealth after the earthquake of AD 60",
+      "claim": "Tacitus records that in AD 60 Laodicea, one of the famous cities of Asia, was laid in ruins by an earthquake and 'recovered by its own resources, without help from us' (Annals 14.27). The church echoes the city's pride: 'I am rich, I have prospered, and I need nothing' (3:17). Late-date advocates, following Colin Hemer, argue that rebuilding a major city took decades, with major public buildings still being completed and dedicated in the following decades, so a boast of flourishing wealth suits the 90s better than a few years after the disaster.",
+      "source": "Revelation 3:14-22; Tacitus, Annals 14.27",
+      "weight": 2,
+      "counter": "Tacitus' point is precisely that Laodicea was rich enough in 60 to refuse imperial help, so its proud self-sufficiency predates the earthquake and would be an apt target in the mid-60s. The boast in 3:17 is the church's spiritual complacency, not a description of a completed building programme, and Christ answers it with spiritual remedies (gold refined by fire, white garments, eye salve). A city that could rebuild without aid was by definition already wealthy.",
+      "sources": ["tacitus-annals", "hemer-letters-seven-churches", "ramsay-letters-seven-churches", "gentry-before-jerusalem-fell"]
+    },
+    {
+      "id": "smyrna-polycarp",
+      "kind": "internal",
+      "side": "late",
+      "title": "Did a church at Smyrna exist in the 60s?",
+      "claim": "Revelation addresses an established church at Smyrna that has known tribulation, poverty and slander (2:8-11). Polycarp, bishop of Smyrna, tells the Philippians that Paul boasted of them 'in all the churches which alone then knew the Lord, for we had not yet known him' (11.3). Late-date advocates read this to mean that the church at Smyrna did not yet exist while Paul was writing, so an established Smyrnaean church with a history of suffering points well after the 60s.",
+      "source": "Revelation 2:8-11; Polycarp, Letter to the Philippians 11.3",
+      "weight": 1,
+      "counter": "Polycarp's 'then' most naturally refers to the time when the Philippians first believed and Paul first praised them (around 50), not to the 60s. Acts says that during Paul's Ephesian ministry (about 52-55) 'all the residents of Asia heard the word of the Lord' (Acts 19:10), which makes a church at Smyrna by the mid-50s likely. The passage survives only in a Latin translation, and its 'we' may refer to Polycarp's own generation rather than the Smyrnaean church as such.",
+      "sources": ["polycarp-philippians", "hemer-letters-seven-churches", "gentry-before-jerusalem-fell"]
+    },
+    {
+      "id": "babylon-name-after-70",
+      "kind": "internal",
+      "side": "late",
+      "title": "'Babylon' as a name for Rome appears in Jewish writings after 70",
+      "claim": "Revelation calls the great city 'Babylon the great' (14:8; 17:5; 18:2). In Jewish literature this code name for Rome appears in works written after 70, when Rome, like Babylon in 587 BC, had destroyed Jerusalem and its temple: 4 Ezra opens 'in the thirtieth year after the destruction of the city' with the seer 'in Babylon' (3:1-2), and 2 Baruch and the fifth Sibylline Oracle use the name the same way. Late-date advocates argue that the name presupposes the second temple's destruction and so requires a date after 70.",
+      "source": "Revelation 14:8; 17:5; 18:2; 4 Ezra 3:1-2, 28-31; 2 Baruch 11:1; 67:7; Sibylline Oracles 5.143, 159",
+      "weight": 2,
+      "counter": "1 Peter already calls Rome 'Babylon' (5:13), and early-date advocates hold that 1 Peter was written before Peter's death under Nero, though many critical scholars date it later. Babylon was a natural symbol of proud pagan power and of God's people in exile without any reference to the temple's fall (Isaiah 13-14; 47; Jeremiah 50-51). Many partial preterists in any case identify Babylon in Revelation with apostate Jerusalem, 'the great city where their Lord was crucified' (11:8), which removes the argument entirely.",
+      "sources": ["charlesworth-otp", "beale-revelation-nigtc", "gentry-before-jerusalem-fell", "chilton-days-of-vengeance"]
+    },
+    {
+      "id": "nero-redivivus",
+      "kind": "internal",
+      "side": "late",
+      "title": "The legend of Nero's return needed time to grow",
+      "claim": "The beast has a mortal wound that is healed (13:3, 12, 14); it 'was, and is not, and is about to rise from the abyss', and is 'an eighth, but belongs to the seven' (17:8, 11). Many scholars see behind this the legend that Nero had not really died or would return from the east. Pretenders appeared in 69 (Tacitus, Histories 2.8), under Titus (Dio 66.19) and about twenty years after Nero's death (Suetonius, Nero 57), and the returning Nero is developed in Sibylline Oracles 4.119-39 (about 80) and book 5. Late-date advocates argue that a myth that had to grow and then be reimagined as a return from the abyss points to the Flavian period, most naturally Domitian, whom the satirist Juvenal called a 'bald Nero' (Satires 4.38).",
+      "source": "Revelation 13:3, 12, 14; 17:8-11; Tacitus, Histories 2.8; Suetonius, Nero 57; Dio 66.19; Sibylline Oracles 4.119-39; 5",
+      "weight": 2,
+      "counter": "Tacitus shows the rumour active in Achaia and Asia in 69, within a year of Nero's death, and Suetonius says some at once refused to believe he was dead, so the legend does not require a late date to be known. Early-date advocates such as Gentry further deny that Revelation uses the legend at all: they read the healed wound as the Roman empire's near-collapse in the civil wars of 68-69 and its recovery under Vespasian, and the beast that 'was, is not, and is to come' as a parody of God's name in 1:4. If John is turning a rumour inside out, he could do so whenever it circulated.",
+      "sources": ["tacitus-annals", "suetonius-lives-caesars", "dio-roman-history", "charlesworth-otp", "bauckham-climax-prophecy", "gentry-beast-of-revelation"]
+    },
+    {
+      "id": "imperial-cult-domitian",
+      "kind": "internal",
+      "side": "late",
+      "title": "Emperor worship under Domitian: 'our lord and god' and the Ephesian temple",
+      "claim": "Revelation 13 depicts a second beast that compels worship of the first beast and its image and controls buying and selling (13:11-17). Under Domitian the imperial cult in Asia reached a new pitch: a provincial temple of the Sebastoi (the Flavian emperors), with a colossal statue, was dedicated at Ephesus around 89-90, and Suetonius says Domitian had official letters begin 'Our Lord and God commands', so that the title became customary (Domitian 13). Late-date advocates see this as the most fitting setting for a book about refusing to worship the beast and its image.",
+      "source": "Revelation 13:4-17; 14:9-11; Suetonius, Domitian 13; the temple of the Sebastoi at Ephesus",
+      "weight": 2,
+      "counter": "Emperor worship was established in Asia long before Domitian, with provincial temples to Augustus and Roma at Pergamum (29 BC) and to Tiberius at Smyrna (AD 26); Caligula ordered his statue set up in the Jerusalem temple (AD 40), and Nero was honoured in divine terms, with a proposal in the senate to build him a temple as a god (Tacitus, Annals 15.74). Leonard Thompson and Steven Friesen argue that the hostile 'lord and god' portrait comes from writers after Domitian's death who wished to blacken him, and that the imperial cult was civic and pervasive throughout the century rather than a Domitianic novelty. So the cult fits either date.",
+      "sources": ["suetonius-lives-caesars", "friesen-imperial-cults", "thompson-apocalypse-empire", "tacitus-annals", "gentry-before-jerusalem-fell"]
+    },
+    {
+      "id": "domitianic-persecution",
+      "kind": "external",
+      "side": "late",
+      "title": "Persecution and banishment under Domitian",
+      "claim": "Christian writers from Melito of Sardis (about 170, quoted by Eusebius 4.26.9) onward name Domitian, alongside Nero, as a persecutor. Dio Cassius records that in 95 Domitian executed his cousin, the consul Flavius Clemens, and banished his wife Flavia Domitilla on a charge of 'atheism', for which many others 'who drifted into Jewish ways' were condemned (67.14); Eusebius says a Domitilla was banished for her testimony to Christ (3.18.4). 1 Clement, usually dated about 95-96, apologises for delay due to 'sudden and repeated misfortunes' at Rome (1.1). Late-date advocates find here the pressure behind Revelation's martyrs (2:13; 6:9-11) and John's own exile 'on account of the word of God' (1:9).",
+      "source": "Dio Cassius, Roman History 67.14; 1 Clement 1.1; Eusebius, Church History 3.17-18; 4.26.9; Revelation 1:9",
+      "weight": 1,
+      "counter": "Leonard Thompson, J. Christian Wilson and many historians argue there is no reliable evidence of a general Domitianic persecution: Dio does not mention Christians, the Christian identification comes later, 1 Clement's phrase is vague and its date is debated (Robinson argued for about 70), and Revelation names only one martyr, Antipas (2:13). By contrast Nero's massacre of Christians at Rome after the fire of 64 is firmly attested (Tacitus, Annals 15.44), so if the book reflects a power drunk with 'the blood of the saints' (17:6), the Neronian setting is the one clearly documented. Thompson himself still dates the book under Domitian on other grounds, which shows that this point alone does not settle the date.",
+      "sources": ["dio-roman-history", "first-clement", "eusebius-church-history", "thompson-apocalypse-empire", "wilson-domitianic-date-problem", "robinson-redating-nt", "tacitus-annals"]
+    },
+    {
+      "id": "nicolaitans",
+      "kind": "internal",
+      "side": "late",
+      "title": "The Nicolaitans as an established sect",
+      "claim": "The Nicolaitans appear at Ephesus and Pergamum as a recognised party with a known teaching (2:6, 15), associated with eating food sacrificed to idols and sexual immorality (2:14-15, 20). Irenaeus links them to Nicolas of Antioch, one of the seven chosen in Acts 6:5 (Against Heresies 1.26.3). Late-date advocates argue that a named sect with a settled doctrine implies time to develop, and that its absence from Paul's letters to Ephesus and Colossae suggests it arose after Paul.",
+      "source": "Revelation 2:6, 14-15, 20; Irenaeus, Against Heresies 1.26.3",
+      "weight": 1,
+      "counter": "The issues are exactly those Paul faced at Corinth in the mid-50s (1 Corinthians 6:12-20; 8-10), so the teaching need not be late. If Irenaeus is right that the group traces back to Nicolas, its founder was active from the 30s, giving it ample time to spread by the 60s. Paul's letters do not catalogue every faction, and the Ephesian elders had already been warned of false teachers arising among them (Acts 20:29-30).",
+      "sources": ["irenaeus-against-heresies", "hemer-letters-seven-churches", "gentry-before-jerusalem-fell"]
+    },
+    {
+      "id": "irenaeus-ambiguity",
+      "kind": "external",
+      "side": "early",
+      "title": "Irenaeus reconsidered: was it John, not the vision, who was 'seen'?",
+      "claim": "Early-date advocates argue that Irenaeus' testimony is weaker than it looks. The Greek verb heōrathē ('was seen') has no stated subject; the nearest antecedent is 'him who saw the apocalypse', so Irenaeus' point may be that John himself was seen, alive and accessible, almost in Irenaeus' own generation, and could have told the Antichrist's name had it been needed. Irenaeus elsewhere says John remained with the elders of Asia until Trajan's time (2.22.5; 3.3.4), which fits that sense. He also makes chronological errors elsewhere, and in the same chapter he admits that copies with 616 were circulating, showing that he did not have complete information about the book's early history.",
+      "source": "Irenaeus, Against Heresies 5.30.3 (Greek in Eusebius, Church History 5.8.6); 2.22.5; 3.3.4; 5.30.1",
+      "weight": 2,
+      "counter": "Most commentators judge the vision to be the natural subject: Irenaeus is arguing about when the apocalypse was seen, the old Latin translation renders 'it was seen' (visum est), and the phrase 'not long ago, almost in our own generation' suits dating an event rather than describing a long life. Eusebius, who read Irenaeus in full, understood him to date the vision, and no ancient writer took the sentence the other way. An error elsewhere in Irenaeus does not show an error here, on a matter of recent Asian church memory transmitted through Polycarp.",
+      "sources": ["irenaeus-against-heresies", "schaff-irenaeus-eusebius-ccel", "gentry-before-jerusalem-fell", "beale-revelation-nigtc", "osborne-revelation-becnt"]
+    },
+    {
+      "id": "tertullian-boiling-oil",
+      "kind": "external",
+      "side": "early",
+      "title": "Tertullian: John plunged into boiling oil at Rome, then exiled",
+      "claim": "Tertullian, praising the church at Rome, says it was there that 'Peter endured a passion like his Lord's, where Paul was crowned with a death like John's [the Baptist], where the apostle John was first plunged, unhurt, into boiling oil, and thence sent to his island exile.' The grouping with Peter and Paul, both martyred under Nero, suggests a Neronian setting for John's ordeal and exile. Jerome, reporting Tertullian, says it was Nero who had John thrown into the oil (Against Jovinian 1.26). If the island exile followed directly, it too falls under Nero.",
+      "source": "Tertullian, Prescription against Heretics 36 (c. 200); Jerome, Against Jovinian 1.26",
+      "weight": 2,
+      "counter": "Tertullian names no emperor, and the sentence lists Rome's apostolic glories rather than giving a chronology. Elsewhere he calls Domitian 'a portion of Nero in cruelty' who began a persecution but soon stopped and recalled those he had banished (Apology 5), which fits a Domitianic exile. Jerome, who attributes the oil to Nero, himself dates the Patmos exile and the writing of Revelation to Domitian's fourteenth year (On Illustrious Men 9), so he evidently did not treat the two events as simultaneous.",
+      "sources": ["tertullian-prescription-heretics", "jerome-against-jovinian", "tertullian-apology", "jerome-illustrious-men", "gentry-before-jerusalem-fell"]
+    },
+    {
+      "id": "muratorian-fragment",
+      "kind": "external",
+      "side": "early",
+      "title": "Muratorian fragment: Paul followed John's example in writing to seven churches",
+      "claim": "The Muratorian fragment, a list of New Testament books traditionally dated to the late second century, says that 'the blessed apostle Paul himself, following the order of his predecessor John, writes by name to only seven churches', and later that John too, 'though he writes to seven churches in the Apocalypse, nevertheless speaks to all.' Early-date advocates argue that if Paul followed John's pattern, John's letters to the seven churches came before Paul's letters were complete, which places Revelation before Paul's death in the mid-60s, at least in the fragment author's understanding.",
+      "source": "Muratorian fragment, lines c. 47-59",
+      "weight": 1,
+      "counter": "Read literally, the fragment would put Revelation before all Paul's letters, around 50 or earlier, which no one accepts; it is better read as a theological comparison in which John is Paul's 'predecessor' in apostolic standing and the number seven signifies the whole church. The fragment's Latin is notoriously corrupt, and its date is itself disputed, with some scholars placing it in the fourth century. It shows no awareness of when or under whom Revelation was written.",
+      "sources": ["muratorian-fragment", "gentry-before-jerusalem-fell", "carson-moo-intro-nt"]
+    },
+    {
+      "id": "epiphanius-claudius",
+      "kind": "external",
+      "side": "early",
+      "title": "Epiphanius: John prophesied in the time of Claudius",
+      "claim": "Epiphanius of Salamis, about 375, twice says that John prophesied on the island of Patmos in the time of Claudius Caesar (Panarion 51.12; 51.33). Claudius died in 54, which is too early even for most early-date advocates, but they note that Nero's official name was Nero Claudius Caesar, so Epiphanius may preserve a tradition placing the exile under Nero. At the least, his statement shows that the Domitianic date was not universal in the fourth century.",
+      "source": "Epiphanius, Panarion 51.12 and 51.33",
+      "weight": 1,
+      "counter": "Epiphanius is late and notoriously careless with chronology, and a date under Claudius conflicts with every other datum, including the early-date case itself. Reading 'Claudius' as a reference to Nero is a conjecture made to rescue the statement. A single idiosyncratic remark three centuries after the event cannot outweigh Irenaeus.",
+      "sources": ["epiphanius-panarion", "gentry-before-jerusalem-fell", "aune-revelation-wbc"]
+    },
+    {
+      "id": "syriac-superscription",
+      "kind": "external",
+      "side": "early",
+      "title": "The Syriac heading: 'banished by Nero Caesar'",
+      "claim": "In the Syriac translation of Revelation made in the sixth century, the book carries a heading describing it as the revelation given to John the evangelist on the island of Patmos, 'into which he was thrown by Nero Caesar.' Early-date advocates cite this as evidence that at least one stream of eastern tradition remembered the exile as Neronian, independent of Irenaeus and Eusebius.",
+      "source": "Superscription to Revelation in the sixth-century Syriac version (Revelation was not in the original Peshitta canon)",
+      "weight": 1,
+      "counter": "The heading is a scribal title from the sixth century or later, roughly five centuries after the event, and Revelation was not part of the original Syriac canon, so it cannot carry an early Syrian tradition about the book. It may reflect the identification of the beast with Nero or simple confusion among persecuting emperors. Manuscript titles are widely recognised as secondary and are rarely given weight in dating.",
+      "sources": ["gentry-before-jerusalem-fell", "robinson-redating-nt", "aune-revelation-wbc"]
+    },
+    {
+      "id": "arethas",
+      "kind": "external",
+      "side": "early",
+      "title": "Arethas: Jerusalem's destruction 'not yet' inflicted",
+      "claim": "Arethas of Caesarea in Cappadocia, writing in the early tenth century, applies parts of the sixth seal and the sealing of the 144,000 (6:12-17; 7:1-8) to the Jewish War, and remarks that when John received these oracles the destruction of the Jews by the Romans had not yet happened. Early-date advocates cite this as evidence that a pre-70 reading of Revelation survived within the Greek commentary tradition.",
+      "source": "Arethas of Caesarea, Commentary on the Apocalypse, on 6:12 and 7:1-8",
+      "weight": 1,
+      "counter": "Arethas wrote some eight centuries after the event, and his remark is an inference from his own interpretation of the seals rather than an independent historical report. He worked within a Greek commentary tradition, building on Andrew of Caesarea, that also knew Eusebius' Domitianic account. An exegetical opinion about what certain visions refer to is not evidence of when the book was written.",
+      "sources": ["arethas-commentary-apocalypse", "gentry-before-jerusalem-fell"]
+    },
+    {
+      "id": "temple-measured",
+      "kind": "internal",
+      "side": "early",
+      "title": "The temple and altar measured: the temple still stands (11:1-2)",
+      "claim": "John is told to 'measure the temple of God and the altar and those who worship there, but do not measure the court outside the temple... for it is given over to the nations, and they will trample the holy city for forty-two months' (11:1-2). Early-date advocates read this as the Jerusalem temple still standing, and the forty-two months as roughly the Roman campaign from spring 67 to August 70, echoing Jesus' word that Jerusalem would be 'trampled by the Gentiles' (Luke 21:24). The same chapter places 'the great city' where 'their Lord was crucified' (11:8). Had the temple lain in ruins for twenty-five years, a command to measure it and a prophecy of the city's trampling would be strange.",
+      "source": "Revelation 11:1-2, 8; Luke 21:20-24",
+      "weight": 3,
+      "counter": "The scene is visionary and modelled on Ezekiel 40-48 and Zechariah 2:1-5, where a temple and city are measured that did not then physically exist (Ezekiel wrote after the first temple was destroyed), so measuring no more requires a standing building now than it did then. Most late-date commentators (Beale, Bauckham, Koester) read the temple as the worshipping people of God, protected inwardly while exposed outwardly, an image the New Testament uses elsewhere (1 Corinthians 3:16; 1 Peter 2:5). And if 11:1-2 were a literal forecast written before 70, it would promise the sanctuary's preservation while only the outer court was trampled, whereas in fact the sanctuary itself was burned.",
+      "sources": ["gentry-before-jerusalem-fell", "gentry-pmw-temple-revelation-date", "robinson-redating-nt", "beale-revelation-nigtc", "bauckham-climax-prophecy", "koester-revelation-ayb"]
+    },
+    {
+      "id": "seven-kings",
+      "kind": "internal",
+      "side": "early",
+      "title": "The seven kings: 'five have fallen, one is' (17:9-11)",
+      "claim": "The seven heads are seven hills and seven kings: 'five have fallen, one is, the other has not yet come, and when he comes he must remain only a little while' (17:9-10). Roman and Jewish writers often counted the Caesars from Julius (Suetonius' Lives of the Caesars; 4 Ezra 12:14-15 makes Augustus the second), so the five fallen are Julius, Augustus, Tiberius, Gaius and Claudius, the one who 'is' is Nero, and the short-lived seventh is Galba (June 68 to January 69). Counting from Augustus makes Galba the one who 'is', still before 70. The classicist Albert Bell argued that no natural count makes Domitian the sixth, and that late-date attempts 'make nonsense of the seer's list'.",
+      "source": "Revelation 17:9-11; Suetonius, Lives of the Caesars; 4 Ezra 12:14-15",
+      "weight": 3,
+      "counter": "There are many possible starting points (Julius, Augustus, Caligula as first persecutor, or Nero) and many possible rules (whether to include Galba, Otho and Vitellius, who reigned only months in the civil war, or only emperors deified by the senate), and some counts reach Vespasian or Domitian. Many late-date commentators (Beale, Bauckham) take seven as a symbol of the whole succession of Roman power, with 'one is' marking the present late in that sequence and the 'eighth who belongs to the seven' a Nero-like return; Aune suggests the list may come from an earlier stage of composition under Vespasian, kept in the final edition. The passage itself says 'this calls for a mind with wisdom' (17:9), a hint that a simple head count may not be intended.",
+      "sources": ["bell-date-johns-apocalypse", "suetonius-lives-caesars", "charlesworth-otp", "gentry-before-jerusalem-fell", "aune-revelation-wbc", "beale-revelation-nigtc", "bauckham-climax-prophecy"]
+    },
+    {
+      "id": "nero-666-616",
+      "kind": "internal",
+      "side": "early",
+      "title": "666 and 616: the number of Nero Caesar",
+      "claim": "'Let the one who has understanding calculate the number of the beast, for it is the number of a man, and his number is 666' (13:18). The Greek Neron Kaisar written in Hebrew letters (nrwn qsr) adds up to 666 (50+200+6+50+100+60+200), and this spelling is attested in an Aramaic document from Wadi Murabba'at dated by 'Nero Caesar' (Hillers 1963). Strikingly, some early copies, including those Irenaeus knew and the papyrus P115 (Oxyrhynchus 4499), read 616, exactly the value of the Latin form Nero Caesar (nrw qsr) without the final n, as if scribes knew the Nero solution. If the beast is the reigning emperor who persecuted Christians, the book fits naturally under Nero.",
+      "source": "Revelation 13:18; Irenaeus, Against Heresies 5.30.1 (the 616 reading); Papyrus Oxyrhynchus 4499 (P115); the Murabba'at text published by Hillers",
+      "weight": 3,
+      "counter": "Many late-date scholars also accept the Nero gematria (Bauckham, Aune, Koester) but read it within the expectation of a returning Nero, so a reference to Nero does not by itself date the book to his reign. Irenaeus, who discussed the number at length within a century, did not think of Nero, and the solution requires spelling a Greek name in Hebrew letters for Greek-speaking readers. Others read 666 symbolically, as humanity falling persistently short of seven, or note that it is a triangular number, so the identification, though attractive, is not certain.",
+      "sources": ["hillers-murabbaat", "williams-p115-number-beast", "irenaeus-against-heresies", "bauckham-climax-prophecy", "gentry-beast-of-revelation", "britannica-number-of-the-beast"]
+    },
+    {
+      "id": "time-is-near",
+      "kind": "internal",
+      "side": "early",
+      "title": "'What must soon take place' and 'the time is near'",
+      "claim": "The book opens and closes with time indicators: it shows 'the things that must soon take place' (1:1; 22:6), declares 'the time is near' (1:3; 22:10), and John is told not to seal up the prophecy (22:10), reversing Daniel's command to seal his book 'until the time of the end' (Daniel 12:4). Early-date advocates argue that these expressions point to events within the first readers' lifetimes, and that the greatest such events within reach were the Neronian persecution, the Jewish War and the fall of Jerusalem (66-70).",
+      "source": "Revelation 1:1, 3; 22:6, 10; Daniel 12:4",
+      "weight": 2,
+      "counter": "Even if the language means near in time, it does not fix the date: a book written under Domitian could equally promise imminent trial for the churches (2:10; 3:10) and imminent judgment on Rome. Many interpreters read 'soon' within the New Testament conviction that the last days have already begun (Hebrews 1:2; 1 John 2:18), or as stressing certainty and suddenness, God's timing not being ours (2 Peter 3:8). Whatever 'soon' means, it cannot by itself decide between 65 and 95.",
+      "sources": ["gentry-before-jerusalem-fell", "chilton-days-of-vengeance", "beale-revelation-nigtc", "osborne-revelation-becnt"]
+    },
+    {
+      "id": "those-who-pierced",
+      "kind": "internal",
+      "side": "early",
+      "title": "'Those who pierced him' and the tribes of the land (1:7)",
+      "claim": "'Behold, he is coming with the clouds, and every eye will see him, even those who pierced him, and all tribes of the earth (or land) will wail on account of him' (1:7). The verse draws on Zechariah 12:10-14, where the mourning tribes are the clans of Israel, and early-date advocates argue that 'those who pierced him' were the first-century generation. The book's theme verse would then announce a coming in judgment on the land of Israel within that generation, as in Jesus' words about the Son of Man coming on the clouds before 'this generation' passed (Matthew 24:30, 34), which requires a date before 70.",
+      "source": "Revelation 1:7; Zechariah 12:10-14; Daniel 7:13; Matthew 24:30, 34",
+      "weight": 2,
+      "counter": "The verse combines Daniel 7:13 with Zechariah 12:10 and widens Zechariah's mourning clans into 'all the tribes of the earth', echoing the promise to bless 'all the families of the earth' (Genesis 12:3; 28:14), while 'every eye will see him' is universal. Most commentators therefore see Christ's final coming, with 'those who pierced him' representing all who reject him (compare John 19:37). Even if it is read as judgment on Israel, the verse announces a theme; it does not date the writing.",
+      "sources": ["gentry-before-jerusalem-fell", "chilton-days-of-vengeance", "beale-revelation-nigtc", "mounce-revelation-nicnt"]
+    },
+    {
+      "id": "silence-on-jerusalem",
+      "kind": "internal",
+      "side": "early",
+      "title": "No mention of Jerusalem's destruction",
+      "claim": "J. A. T. Robinson's central argument for redating the New Testament was that no book refers to the fall of Jerusalem and its temple in 70 as a past event, though it was the most traumatic event of the century for Judaism and for Jewish Christianity. Revelation is full of temple imagery, judgment on 'the great city' and reflection on Israel (7:4-8; 11:1-13; 21:12), yet it never says that the temple has fallen. For a book so concerned with God's judgments, early-date advocates argue, silence about the greatest judgment of the era is best explained if it had not yet happened.",
+      "source": "Revelation 7:4-8; 11:1-13; 21:12, 22; Robinson, Redating the New Testament, ch. 8",
+      "weight": 2,
+      "counter": "Arguments from silence are weak, especially for a book written to mainly Gentile churches in Asia whose pressing issues were Rome, local synagogues and civic idolatry. Revelation narrates no past historical events in detail at all, and other writings commonly dated after 70, such as the Gospel of John, do not mention the destruction explicitly either (though Robinson dated those early too). Late-date commentators also see a destroyed temple presupposed in the visionary temple of chapter 11 and in the new Jerusalem that has no temple (21:22).",
+      "sources": ["robinson-redating-nt", "gentry-before-jerusalem-fell", "carson-moo-intro-nt", "koester-revelation-ayb"]
+    },
+    {
+      "id": "sealing-of-israel",
+      "kind": "internal",
+      "side": "early",
+      "title": "The sealing of Israel's tribes before the winds of judgment (7:1-8)",
+      "claim": "Before the four winds of judgment are released on 'the land', 144,000 servants of God from the twelve tribes of Israel are sealed for protection (7:1-8). Early-date advocates read this as the preservation of Jewish Christians before Jerusalem's fall, comparing the tradition that the Jerusalem church fled to Pella before the siege after an oracle (Eusebius, Church History 3.5.3) and Jesus' command to flee to the mountains (Luke 21:20-21). Such a protective sealing makes most sense, they argue, while that judgment still lay ahead.",
+      "source": "Revelation 7:1-8; Luke 21:20-21; Eusebius, Church History 3.5.3",
+      "weight": 1,
+      "counter": "Most commentators see the 144,000 as a symbolic portrait of the whole people of God, organised as an army of Israel, since John immediately 'looks' and sees a countless multitude from every nation (7:9), the same pattern by which he 'hears' of a Lion and sees a Lamb (5:5-6). The tribal list is irregular (Dan is omitted, Judah comes first), suggesting a theological rather than ethnic census. The Pella tradition is itself debated by historians, and in any case a symbol of protection through tribulation fits any date.",
+      "sources": ["eusebius-church-history", "chilton-days-of-vengeance", "beale-revelation-nigtc", "bauckham-climax-prophecy"]
+    },
+    {
+      "id": "greek-style",
+      "kind": "internal",
+      "side": "early",
+      "title": "Rough Greek: written before John's Gospel",
+      "claim": "Revelation's Greek is rough, full of Semitic constructions and grammatical irregularities, while John's Gospel is written in simple but correct Greek; Dionysius of Alexandria already noticed the difference in the third century (Eusebius, Church History 7.25). B. F. Westcott and F. J. A. Hort, assuming the same author, argued that the Apocalypse must be the earlier work, written before John had lived long in a Greek-speaking setting, with the Gospel following a generation later. On that reasoning a book in John's less polished Greek belongs in the 60s.",
+      "source": "Eusebius, Church History 7.25 (Dionysius of Alexandria); comparison of Revelation and the Gospel of John",
+      "weight": 1,
+      "counter": "Most scholars now think the irregularities are deliberate, an elevated style imitating Hebrew prophecy, since John elsewhere uses correctly the very constructions he breaks (Charles, Beale). Many doubt that the same author wrote both books (Dionysius himself concluded they were different authors), or allow for a secretary in the Gospel, and the Gospel's own date is uncertain. Style cannot place a book within a particular decade.",
+      "sources": ["eusebius-church-history", "hort-apocalypse-st-john", "charles-revelation-icc", "beale-revelation-nigtc"]
+    }
+  ],
+  "implications": [
+    {
+      "position": "partial-preterism",
+      "reading": "Most partial preterists need the early date. Their reading takes much of chapters 4-19 as prophecy of the Jewish War, the fall of Jerusalem and the temple, and the Neronian persecution, which cannot be prophecy if the book was written in 95. This is why Kenneth Gentry and others have devoted whole books to the date. A minority of preterist-leaning interpreters accept a late date and apply the book's judgments to pagan Rome instead, with its fall in the fifth century or its earlier humbling, but that is a different reading from the Jerusalem-centred preterism usually meant."
+    },
+    {
+      "position": "full-preterism",
+      "reading": "Full preterism requires the early date. It holds that every prophecy in Revelation, including Christ's coming, the resurrection and the new heavens and earth, was fulfilled by AD 70; if Revelation was written in 95 it would be prophesying events already past. Writers such as J. Stuart Russell and Max King therefore defend the early date as essential."
+    },
+    {
+      "position": "historicism",
+      "reading": "Historicism does not depend on the date in the same way, because it reads Revelation as a sweep of church history from John's day to the end. Classic historicists generally accepted the Domitianic date and began the sequence of seals in the late first or second century (E. B. Elliott began the first seal around the death of Domitian), but an earlier date would only move the starting point back a generation."
+    },
+    {
+      "position": "futurism",
+      "reading": "Futurism is compatible with either date, since it places the main events of chapters 4-22 at the end of the age. Most futurists (John Walvoord, Robert Thomas) hold the late date, and many see it as ruling out the preterist alternative; but a futurist could accept an early date and still read the seals, trumpets and bowls as future."
+    },
+    {
+      "position": "idealism",
+      "reading": "Idealism is largely indifferent to the date, because it reads the book as portraying timeless conflict between Christ and evil rather than forecasting particular events. Most idealist and modified idealist commentators (William Hendriksen, G. K. Beale) assume the late date and set the book against Domitian's Asia, but the method works equally well with Nero's Rome as the first expression of the pattern."
+    },
+    {
+      "position": "amil",
+      "reading": "Amillennialism rests on its reading of Revelation 20 and the structure of recapitulation, not on the date. Most amillennial commentators hold the late date (Hendriksen, Beale, Kim Riddlebarger), but some, such as Jay Adams in The Time Is at Hand, combined amillennialism with an early date and a largely preterist reading of the earlier chapters."
+    },
+    {
+      "position": "postmil",
+      "reading": "Many contemporary postmillennialists (Kenneth Gentry, David Chilton, Keith Mathison, Gary DeMar) combine their view with partial preterism and so need the early date for their reading of Revelation's judgments as fulfilled in AD 70. Postmillennialism as such rests on broader biblical themes of the gospel's worldwide success, and older postmillennialists did not tie it to an early Revelation."
+    },
+    {
+      "position": "spiritual",
+      "reading": "The spiritual understanding reads Revelation as the unveiling of Jesus Christ and his finished work, a present reality rather than a calendar, so for most of its teachers the date matters little. Some within this stream, who describe the passing of the old covenant order as completed in AD 70, find the early date congenial, but the core reading of the Lamb at the centre of the throne does not depend on it."
+    }
+  ],
+  "verdict": "Most modern scholars, across critical and evangelical lines, favour a date under Domitian, around 95, chiefly because of Irenaeus' early and specific testimony, supported by Victorinus, Eusebius and Jerome, and because several internal features (the condition of the churches, 'Babylon' for Rome, the Nero legend, the imperial cult in Asia) fit the Flavian period comfortably. A significant and learned minority, from Westcott, Hort and Lightfoot to Robinson and Gentry, holds that the internal evidence of the standing temple, the sixth king and the number of Nero's name points to the late 60s, and that the external tradition largely depends on one ambiguous sentence. Neither side's arguments are decisive: the strongest late-date evidence is external and the strongest early-date evidence is internal, and each has a credible reply. Some scholars, notably Aune, propose a book that grew over time, which would let both sets of evidence be partly right. Readers should hold their conclusion with humility, and should note that only some views (especially partial and full preterism) depend on the answer, while futurism, idealism, historicism and the millennial positions can stand with either date.",
+  "sources": [
+    "irenaeus-against-heresies",
+    "eusebius-church-history",
+    "schaff-irenaeus-eusebius-ccel",
+    "victorinus-commentary-apocalypse",
+    "clement-alex-rich-man",
+    "jerome-illustrious-men",
+    "gentry-before-jerusalem-fell",
+    "robinson-redating-nt",
+    "bell-date-johns-apocalypse",
+    "wilson-domitianic-date-problem",
+    "beale-revelation-nigtc",
+    "aune-revelation-wbc",
+    "mounce-revelation-nicnt",
+    "koester-revelation-ayb",
+    "osborne-revelation-becnt",
+    "hemer-letters-seven-churches",
+    "thompson-apocalypse-empire",
+    "friesen-imperial-cults",
+    "wilson-ephesus-date-revelation",
+    "yarbro-collins-crisis-catharsis",
+    "morris-revelation-tntc",
+    "stuart-commentary-apocalypse",
+    "hort-apocalypse-st-john",
+    "terry-biblical-apocalyptics",
+    "torrey-apocalypse-john",
+    "russell-parousia",
+    "king-spirit-of-prophecy",
+    "elliott-horae",
+    "walvoord-revelation-jesus-christ",
+    "thomas-revelation-1-7",
+    "hendriksen-more-than-conquerors",
+    "adams-time-is-at-hand",
+    "chilton-days-of-vengeance",
+    "christ-centred-revelation-teaching"
+  ]
+}

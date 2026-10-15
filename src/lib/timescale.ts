@@ -1,4 +1,5 @@
 import { scaleLinear } from 'd3-scale'
+import { t } from './i18n'
 
 /**
  * The shared timeline scale used by every timeline (see content schema):
@@ -16,19 +17,19 @@ const NOW = new Date().getFullYear()
 
 /** A readable date for a point on the scale. */
 export function yearLabel(at: number) {
-  if (at <= 10) return `AD ${Math.round(30 + at * 4)}`
-  if (at < 58) return `AD ${Math.round(70 + ((at - 10) / 50) * (NOW - 70))}`
-  if (at <= 62) return `Today`
-  if (at < 99) return 'Still to come'
-  return 'The new creation'
+  if (at <= 10) return t('AD {year}', { year: Math.round(30 + at * 4) })
+  if (at < 58) return t('AD {year}', { year: Math.round(70 + ((at - 10) / 50) * (NOW - 70)) })
+  if (at <= 62) return t('Today')
+  if (at < 99) return t('Still to come')
+  return t('The new creation')
 }
 
 export function stageLabel(at: number) {
-  if (at < 1.5) return 'The Cross and the empty tomb'
-  if (at < 9.5) return 'The apostolic generation'
-  if (at <= 11) return 'The fall of Jerusalem'
-  if (at < 57) return 'The age of the church'
-  if (at <= 62) return 'Today'
-  if (at < 97) return 'What is still to come'
-  return 'All things made new'
+  if (at < 1.5) return t('The Cross and the empty tomb')
+  if (at < 9.5) return t('The apostolic generation')
+  if (at <= 11) return t('The fall of Jerusalem')
+  if (at < 57) return t('The age of the church')
+  if (at <= 62) return t('Today')
+  if (at < 97) return t('What is still to come')
+  return t('All things made new')
 }

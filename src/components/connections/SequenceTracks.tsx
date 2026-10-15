@@ -3,6 +3,7 @@ import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import type { RevStructure } from '../../content/schema'
 import { Gloss } from '../Gloss'
 import { Icon } from '../Icon'
+import { t } from '../../lib/i18n'
 
 type Seq = RevStructure['sequences'][number]
 
@@ -48,7 +49,7 @@ export function SequenceTracks({ sequences }: { sequences: Seq[] }) {
   return (
     <div>
       <div className="flex flex-wrap items-center gap-2">
-        <div className="scroll-x flex gap-1.5" role="tablist" aria-label="Sequence">
+        <div className="scroll-x flex gap-1.5" role="tablist" aria-label={t('Sequence')}>
           {sequences.map((x, i) => (
             <button key={x.id} type="button" role="tab" aria-selected={i === si} onClick={() => setSi(i)} className={`chip shrink-0 cursor-pointer ${i === si ? 'border-accent' : ''}`} style={i === si ? { background: 'var(--accent)', color: 'var(--accent-ink)' } : undefined}>
               {x.title}
@@ -56,7 +57,7 @@ export function SequenceTracks({ sequences }: { sequences: Seq[] }) {
           ))}
         </div>
         <button type="button" className="btn btn-primary ml-auto text-sm" onClick={() => (step >= s.pairs.length - 1 && setStep(0), setPlaying((v) => !v))}>
-          <Icon name={playing ? 'pause' : 'play'} size={14} /> {playing ? 'Pause' : 'Play the sequence'}
+          <Icon name={playing ? 'pause' : 'play'} size={14} /> {playing ? t('Pause') : t('Play the sequence')}
         </button>
       </div>
       <p className="mt-2 max-w-[75ch] text-ink-soft">
@@ -96,7 +97,7 @@ export function SequenceTracks({ sequences }: { sequences: Seq[] }) {
           </ol>
         </div>
         <div>
-          <p className="mb-2 text-center text-xs font-bold uppercase tracking-widest text-accent">Revelation</p>
+          <p className="mb-2 text-center text-xs font-bold uppercase tracking-widest text-accent">{t('Revelation')}</p>
           <ol className="space-y-2">
             {s.pairs.map((x, i) => (
               <li key={x.rev + i} ref={(el) => void (right.current[i] = el)}>
@@ -112,7 +113,7 @@ export function SequenceTracks({ sequences }: { sequences: Seq[] }) {
       <AnimatePresence mode="wait">
         <motion.div key={s.id + step} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="mt-4 rounded-xl bg-surface-2 p-4">
           <p className="text-xs font-bold uppercase tracking-widest text-ink-soft">
-            Step {step + 1} of {s.pairs.length}: {p.ot} → {p.rev}
+            {t('Step {n} of {total}', { n: step + 1, total: s.pairs.length })}: {p.ot} → {p.rev}
           </p>
           <p className="mt-1">
             <Gloss>{p.note}</Gloss>

@@ -1,15 +1,16 @@
 import { motion } from 'framer-motion'
 import type { RevStructure } from '../../content/schema'
 import { Gloss } from '../Gloss'
+import { t } from '../../lib/i18n'
 
 /** Chapter 1 and chapter 22 facing each other like the two covers of a book, with each echo joined across the spine. */
 export function Bookends({ pairs }: { pairs: RevStructure['bookends'] }) {
   return (
     <div className="relative">
       <div className="mb-2 grid grid-cols-[1fr_2.5rem_1fr] text-center text-xs font-bold uppercase tracking-widest">
-        <span className="text-rubric">The opening</span>
+        <span className="text-rubric">{t('The opening')}</span>
         <span />
-        <span className="text-accent">The close</span>
+        <span className="text-accent">{t('The close')}</span>
       </div>
       <span aria-hidden className="absolute bottom-0 left-1/2 top-6 w-px -translate-x-1/2 bg-gradient-to-b from-transparent via-[var(--gold-bright)] to-transparent" />
       <ol className="space-y-3">

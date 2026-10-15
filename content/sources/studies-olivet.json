@@ -1,0 +1,91 @@
+[
+  {
+    "id": "tacitus-histories",
+    "title": "Histories (esp. 1.2 on the year of the four emperors; 5.1–13 on the Jews and the siege of Jerusalem)",
+    "author": "Tacitus",
+    "camp": "reference",
+    "type": "primary",
+    "year": "c. 100–110",
+    "accessed": "2026-10-15",
+    "summary": "Roman historian's account of the civil wars of AD 69 and the opening of Titus' siege of Jerusalem, including the portents seen before the temple fell and an estimate of the besieged.",
+    "verified": true
+  },
+  {
+    "id": "newton-dissertations-prophecies",
+    "title": "Dissertations on the Prophecies, Which Have Remarkably Been Fulfilled, and at This Time Are Fulfilling in the World",
+    "author": "Thomas Newton",
+    "camp": "historicism",
+    "type": "book",
+    "year": "1754–1758",
+    "accessed": "2026-10-15",
+    "summary": "Classic Anglican historicist work; its long dissertation on Matthew 24 sets Jesus' prophecy beside Josephus to argue it was fulfilled in the destruction of Jerusalem, while treating Daniel and Revelation as continuous history.",
+    "verified": true
+  },
+  {
+    "id": "france-jesus-ot",
+    "title": "Jesus and the Old Testament: His Application of Old Testament Passages to Himself and His Mission",
+    "author": "R. T. France",
+    "camp": "reference",
+    "type": "book",
+    "year": "1971",
+    "accessed": "2026-10-15",
+    "summary": "Study of Jesus' use of the Old Testament, arguing that his use of Daniel 7:13 in Mark 13:26 and 14:62 refers to his vindication and authority, displayed in the judgment of AD 70.",
+    "verified": true
+  },
+  {
+    "id": "blomberg-matthew-nac",
+    "title": "Matthew (New American Commentary 22)",
+    "author": "Craig L. Blomberg",
+    "camp": "histpremil",
+    "type": "book",
+    "year": "1992",
+    "accessed": "2026-10-15",
+    "summary": "Evangelical commentary that reads the Olivet Discourse as answering both the temple question and the end of the age, with “all these things” in 24:34 referring to the preliminary signs.",
+    "verified": true
+  },
+  {
+    "id": "walvoord-matthew-kingdom",
+    "title": "Matthew: Thy Kingdom Come",
+    "author": "John F. Walvoord",
+    "camp": "disppremil",
+    "type": "book",
+    "year": "1974",
+    "accessed": "2026-10-15",
+    "summary": "Dispensational commentary on Matthew that reads most of the Olivet Discourse as describing the future tribulation and the Second Coming.",
+    "verified": true
+  },
+  {
+    "id": "goodman-rome-jerusalem",
+    "title": "Rome and Jerusalem: The Clash of Ancient Civilizations",
+    "author": "Martin Goodman",
+    "camp": "reference",
+    "type": "book",
+    "year": "2007",
+    "accessed": "2026-10-15",
+    "summary": "Historian's account of Roman and Jewish societies and the causes, course and consequences of the war of AD 66–70, with careful evaluation of Josephus.",
+    "verified": true
+  },
+  {
+    "id": "hengel-zealots",
+    "title": "The Zealots: Investigations into the Jewish Freedom Movement in the Period from Herod I until 70 A.D.",
+    "author": "Martin Hengel",
+    "camp": "reference",
+    "type": "book",
+    "year": "1961 (English translation 1989)",
+    "accessed": "2026-10-15",
+    "summary": "Standard study of Jewish resistance movements, the sicarii and the Zealots in the century before the destruction of the temple.",
+    "verified": true
+  },
+  {
+    "id": "koester-flight-pella",
+    "title": "The Origin and Significance of the Flight to Pella Tradition (Catholic Biblical Quarterly 51)",
+    "author": "Craig R. Koester",
+    "camp": "reference",
+    "type": "article",
+    "year": "1989",
+    "accessed": "2026-10-15",
+    "url": "https://digitalcommons.luthersem.edu/faculty_articles/18/",
+    "summary": "Examines Eusebius' and Epiphanius' reports that Jerusalem's Christians fled to Pella before the war and argues that the tradition has a credible historical basis.",
+    "verified": true
+  }
+]

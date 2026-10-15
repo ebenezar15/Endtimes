@@ -1,0 +1,1955 @@
+{
+  "intro": "On the Tuesday of Passion Week, sitting on the Mount of Olives opposite the temple, Jesus told four of his disciples that the building they admired would be torn down stone by stone, and then answered their questions about when and how. The Olivet Discourse (Matthew 24–25; Mark 13; Luke 21:5–36) is the longest prophecy Jesus gave, and almost every view of the end times is shaped by how it is read. This study sets the discourse in its first-century world: Herod's temple, Roman rule, Zealot unrest, the early church's mission, and the Jewish War of AD 66–73 as Josephus, Tacitus and others recorded it. It walks through Matthew 24 unit by unit, showing how partial preterists, full preterists, dispensationalists, historic premillennialists, amillennialists, historicists, idealists and spiritual readers each understand the verses, at their strongest. Alongside each unit it sets out the historical evidence offered for an AD 70 fulfilment and the textual evidence offered for a still-future one, and it flags where scholars dispute the matches. The aim is not to decide the question for you but to let you weigh the strongest case each side can make.",
+  "context": [
+    {
+      "id": "herods-temple",
+      "title": "Herod's temple and its stones",
+      "text": "The temple the disciples pointed to was the Second Temple as rebuilt and vastly enlarged by Herod the Great, a project begun around 20/19 BC and still under way in Jesus' day (John 2:20 speaks of forty-six years of building). Josephus describes white stones of enormous size, some about 25 cubits long, 8 high and 12 wide in one account, and 45 cubits long in another, along with gold-plated facades that dazzled anyone approaching the city. The platform was doubled in size by massive retaining walls, parts of which, including the Western Wall, still stand. The work on the wider complex was only finished under the procurator Albinus around AD 63–64, when Josephus says some eighteen thousand workmen were laid off, just six years before the whole was destroyed. For a first-century Jew the temple was the dwelling of God's name, the centre of sacrifice and pilgrimage, and the symbol of Israel's identity, so a prediction of its total ruin was shocking. Earlier prophets had warned of the first temple's destruction (Jeremiah 7:12–14; 26:18; Micah 3:12), and Jesus' words echo that prophetic pattern of judgment on a faithless house. Because the temple platform's lower courses survived, readers debate whether “not one stone upon another” refers to the sanctuary buildings themselves, which were completely dismantled, or is proverbial language for total ruin.",
+      "refs": [
+        "Matthew 24:1-2",
+        "Mark 13:1-2",
+        "Luke 21:5-6",
+        "John 2:20",
+        "Jeremiah 26:18"
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "josephus-antiquities",
+        "france-matthew-nicnt",
+        "carson-matthew-ebc"
+      ]
+    },
+    {
+      "id": "judea-under-rome",
+      "title": "Judea under Rome and the procurators",
+      "text": "Judea came under direct Roman rule in AD 6, when Archelaus was deposed and a census under Quirinius provoked the revolt of Judas the Galilean (Acts 5:37). From then on, apart from the brief reign of Agrippa I (AD 41–44), the region was governed by equestrian prefects and procurators such as Pontius Pilate (26–36), Felix (c. 52–60), Festus (c. 60–62), Albinus (62–64) and Gessius Florus (64–66). Josephus portrays most of them as corrupt or provocative: Pilate brought standards bearing the emperor's image into Jerusalem, Cumanus' soldier exposed himself in the temple court at Passover, and Florus seized seventeen talents from the temple treasury and let troops loose on the city. In AD 40 the emperor Gaius (Caligula) ordered his statue set up in the temple, a crisis averted only by delay and his assassination, which many think kept the fear of a new “abomination” alive in Jewish and Christian minds. Taxation, land pressure, banditry and conflicts between Jews and Gentiles in mixed cities such as Caesarea all raised tension through the 50s and 60s. Tacitus, a Roman with no sympathy for the Jews, still admits that their patience lasted until Florus. This is the world in which Jesus' warnings about wars, rumours of wars, betrayal and flight would first have been heard and remembered.",
+      "refs": [
+        "Acts 5:37",
+        "Acts 23:24",
+        "Acts 24:27",
+        "Luke 13:1",
+        "Luke 23:1-25"
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "josephus-antiquities",
+        "tacitus-histories",
+        "goodman-rome-jerusalem"
+      ]
+    },
+    {
+      "id": "zealots-pretenders",
+      "title": "Zealots, sicarii and messianic pretenders",
+      "text": "Josephus describes a “fourth philosophy” founded by Judas the Galilean that refused to acknowledge any master but God, and from the 50s onward the sicarii, “dagger-men”, assassinated opponents in festival crowds, beginning with the high priest Jonathan. He also records a string of figures who promised signs of deliverance: Theudas, who under the procurator Fadus (c. AD 44–46) led a crowd to the Jordan promising to part it; impostors who led people into the wilderness under Felix; and “the Egyptian”, who gathered followers on the Mount of Olives to watch Jerusalem's walls fall. Acts mentions both Theudas (5:36) and the Egyptian with his four thousand men of the sicarii (21:38); Josephus gives a larger figure of thirty thousand, and Acts places its Theudas before Judas the Galilean, a chronological puzzle scholars resolve in different ways. During the war itself, leaders such as Menahem, John of Gischala and Simon bar Giora acted as rival kings or deliverers, and Josephus says a false prophet promised “signs of deliverance” in the temple on the day it burned. Preterists argue that this cluster of deceivers fits Jesus' warnings about false christs and false prophets with signs and wonders (Matthew 24:5, 11, 23–26) remarkably well. Futurists reply that false messiahs have appeared in every age and that the discourse points to a climactic deceiver still to come. Either way, the term “Zealot” as a defined party is best attested for the war years (from about AD 66–68), so care is needed not to read it back into Jesus' own day.",
+      "refs": [
+        "Acts 5:36-37",
+        "Acts 21:38",
+        "Matthew 24:5",
+        "Matthew 24:11",
+        "Matthew 24:23-26"
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "josephus-antiquities",
+        "hengel-zealots",
+        "wright-jesus-victory"
+      ]
+    },
+    {
+      "id": "church-before-70",
+      "title": "The early church's mission and persecution before AD 70",
+      "text": "Between Pentecost and the war, the church spread from Jerusalem through Judea, Samaria, Syria, Asia Minor, Greece and Rome, exactly the arc that Acts traces and that Paul's letters assume. Paul could write in the late 50s and early 60s that the Romans' faith was proclaimed “in all the world” (Romans 1:8), that the message had gone out to the ends of the oikoumenē (Romans 10:18, quoting Psalm 19:4), and that the gospel had been proclaimed “in all creation under heaven” (Colossians 1:23). Persecution came in waves: the arrest of the apostles (Acts 4–5), Stephen's death and the scattering (Acts 7–8), the execution of James son of Zebedee by Agrippa I around AD 44 (Acts 12:2), the stoning of James the Lord's brother in AD 62 (Antiquities 20.9.1), and Nero's savage punishment of Christians after the fire of Rome in AD 64 (Tacitus, Annals 15.44). Believers were handed over to councils, beaten in synagogues and brought before governors and kings (Acts 22–26), as Jesus had said in Mark 13:9 and Matthew 10:17–18. Internal troubles also surface: apostasy, false teachers and love growing cold are recurring themes in the letters (2 Timothy 4:10; 2 Peter 2:1; Revelation 2:4). Preterists see in this a point-by-point fulfilment of Matthew 24:9–14 within a generation. Futurists and amillennialists agree these things happened but hold that they began a pattern which continues and climaxes before Christ's return.",
+      "refs": [
+        "Romans 1:8",
+        "Romans 10:18",
+        "Colossians 1:6",
+        "Colossians 1:23",
+        "Acts 12:2",
+        "Mark 13:9-10"
+      ],
+      "sources": [
+        "tacitus-annals",
+        "josephus-antiquities",
+        "demar-last-days-madness",
+        "carson-matthew-ebc"
+      ]
+    },
+    {
+      "id": "josephus-witness",
+      "title": "Josephus as witness, and his biases",
+      "text": "Flavius Josephus, a priest and aristocrat, commanded Jewish forces in Galilee in 67, surrendered at Jotapata, predicted that Vespasian would become emperor, and spent the rest of the war in the Roman camp, watching the siege of Jerusalem from outside its walls. He wrote the Jewish War in the 70s under Flavian patronage, and the Antiquities around AD 93–94, so he is an eyewitness of much of what he describes, which is why every reading of the Olivet Discourse quotes him. He also had clear agendas: he blames the disaster on a small band of “tyrants” and brigands rather than the nation, presents Titus as merciful and eager to save the temple, and portrays the Romans as instruments of God's judgment. Later Christian writer Sulpicius Severus, probably drawing on a lost part of Tacitus, says Titus actually wanted the temple destroyed, which suggests Josephus softened his patron's role. His numbers, such as 1,100,000 dead in the siege, are widely judged to be inflated, though the scale of the catastrophe is not in doubt. Josephus was not a Christian and had no motive to make events match Jesus' words, which preterists see as making the correspondences more striking; critics note that some parallels depend on selecting and arranging his material. Readers should therefore use him as an invaluable but partisan source, checking him against Tacitus, Suetonius, Dio Cassius, archaeology and coins where possible.",
+      "refs": [
+        "Matthew 24:1-34",
+        "Luke 19:41-44",
+        "Luke 21:20-24"
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "josephus-antiquities",
+        "goodman-rome-jerusalem",
+        "tacitus-histories"
+      ]
+    },
+    {
+      "id": "jewish-war",
+      "title": "The Jewish War of AD 66–73 and the fall of Jerusalem",
+      "text": "The war broke out in AD 66 after Florus' plunder of the temple treasury and the massacre that followed; the captain of the temple, Eleazar son of Ananias, stopped the daily sacrifices offered for the emperor, which Josephus calls the true start of the war. Cestius Gallus, governor of Syria, marched on Jerusalem in the autumn of 66, broke into the suburbs, then withdrew unexpectedly and was routed at Beth-horon; Josephus says many leading citizens left the city at that point. Vespasian subdued Galilee in 67 and much of Judea in 68, but Nero's suicide in June 68 and the civil wars of 69 (the “year of the four emperors”) paused operations while factions inside Jerusalem fought each other and burned the grain stores. Titus began the siege at Passover in AD 70, surrounded the city with a wall of circumvallation, and starved it into weakness; the temple was burned in the month Ab (late August), the upper city fell in September, and the walls and buildings were then razed. Tacitus says six hundred thousand were besieged; Josephus' totals are higher and disputed, but tens of thousands certainly died and many were enslaved. Titus' triumph in Rome in 71 displayed the temple's menorah and table, still visible on the Arch of Titus, and the last stronghold, Masada, fell in 73 or 74. For Jews it meant the end of sacrifice and priesthood; for Christians it became, for many, the clearest vindication of Jesus' words about the temple.",
+      "refs": [
+        "Luke 19:41-44",
+        "Luke 21:20-24",
+        "Luke 23:28-31",
+        "Matthew 23:37-39"
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "tacitus-histories",
+        "suetonius-lives-caesars",
+        "goodman-rome-jerusalem"
+      ]
+    },
+    {
+      "id": "cosmic-language",
+      "title": "Apocalyptic “cosmic” language in the prophets",
+      "text": "Matthew 24:29 draws its words about the sun darkened, the moon not giving its light and the stars falling almost directly from Isaiah 13:10 and 34:4. In their original settings those oracles announce the fall of Babylon (Isaiah 13) and of Edom and the nations (Isaiah 34); similar language is used for Egypt (Ezekiel 32:7–8), for a locust invasion and the day of the Lord on Judah (Joel 2:10, 31), and for Israel's own judgment (Amos 8:9; Jeremiah 4:23–28). Many interpreters, from Calvin and Thomas Newton to R. T. France and N. T. Wright, conclude that ancient readers heard such words as the poetry of political and covenantal upheaval, the “heavens” of a nation's rulers being shaken, rather than as astronomical forecasts. Peter's use of Joel 2 at Pentecost, applying sun-and-moon signs to events then taking place (Acts 2:16–21), is cited as a New Testament example. Futurists answer that the prophets' day-of-the-Lord oracles also look past local judgments to a final, universal one (Isaiah 13:9–11 speaks of punishing “the world”), that Jesus places these signs “in the heavens” and links them to a visible coming, and that Revelation 6:12–14 and 2 Peter 3:10–12 continue the same imagery for the end. Many moderate readers hold that the language can be both symbolic of historical judgment and a pointer to the final cosmic renewal. How one hears this language is probably the single biggest factor in how one reads 24:29–31.",
+      "refs": [
+        "Isaiah 13:10",
+        "Isaiah 34:4",
+        "Ezekiel 32:7-8",
+        "Joel 2:10",
+        "Joel 2:28-32",
+        "Acts 2:16-21",
+        "Amos 8:9"
+      ],
+      "sources": [
+        "france-jesus-ot",
+        "wright-jesus-victory",
+        "newton-dissertations-prophecies",
+        "gentry-ice-great-tribulation"
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "The audience: “you” and the date of Matthew",
+      "text": "Jesus speaks privately to Peter, James, John and Andrew (Mark 13:3) and repeatedly uses the second person: “see that no one leads you astray”, “they will deliver you up”, “when you see”, “pray that your flight may not be in winter”. Preterists argue that a natural reading of these pronouns makes the disciples themselves the people who would see the signs, and that the local details (Judea, housetops, the Sabbath, fleeing to the mountains) suit first-century Palestine. Futurists reply that Jesus often addresses the disciples as representatives of later believers (Matthew 28:20, “to the end of the age”), so the second person need not limit the horizon to their lifetime. Matthew's Gospel was written for largely Jewish-Christian readers concerned with the Law, the temple and the relationship of the church to Israel, but its date is disputed. Early tradition (Papias in Eusebius, Church History 3.39.16; Irenaeus, Against Heresies 3.1.1) puts Matthew first and early, and scholars such as J. A. T. Robinson, R. H. Gundry and D. A. Carson argue for a date before AD 70; the majority of critical scholars prefer AD 80–90, partly because they read the discourse and the wedding-feast parable (22:7, “burned their city”) as written after the event. If Matthew wrote before 70, the discourse was a warning his readers still had to heed; if after, he wrote to show that Jesus' prediction had come true, and that Jesus' final coming was still to be awaited. Either way, the parenthesis “let the reader understand” (24:15) shows the evangelist pressing the warning on his own readers.",
+      "refs": [
+        "Mark 13:3",
+        "Matthew 24:15",
+        "Matthew 22:7",
+        "Matthew 28:20"
+      ],
+      "sources": [
+        "robinson-redating-nt",
+        "carson-moo-intro-nt",
+        "eusebius-church-history",
+        "france-matthew-nicnt"
+      ]
+    }
+  ],
+  "questions": {
+    "text": "Jesus' prediction that not one stone would be left on another prompted the disciples' question, and how one reads their question governs how one reads the answer. In Matthew it has two or three parts: when will “these things” be, and what will be the sign of “your coming” (parousia) and “the end of the age” (synteleia tou aiōnos)? Mark and Luke record only the question about the temple and its sign. Some argue the disciples assumed the temple's fall, Christ's coming and the end of the age were one event, and that Jesus' answer either confirms that (full preterism), separates them (futurism, dispensationalism, many partial preterists after 24:36), or merges near and far (amillennial and historic premillennial double reference). Others note that in Jewish usage “the age” could mean the present era of history before the age to come, or, as preterists propose, the old covenant age that ended with the temple.",
+    "items": [
+      {
+        "q": "Tell us, when will these things be, and what will be the sign of your coming and of the end of the age?",
+        "ref": "Matthew 24:3"
+      },
+      {
+        "q": "Tell us, when will these things be, and what will be the sign when all these things are about to be accomplished?",
+        "ref": "Mark 13:4"
+      },
+      {
+        "q": "Teacher, when will these things be, and what will be the sign when these things are about to take place?",
+        "ref": "Luke 21:7"
+      }
+    ],
+    "mappings": [
+      {
+        "position": "partial-preterism",
+        "reading": "The question arises from the temple prophecy, so “these things” and the sign point first to AD 70. Matthew 24:4–34 answers it: every sign, the abomination, the tribulation and even the Son of Man's coming on the clouds (Daniel 7:13 language for vindication and judgment) fall within “this generation”. Most partial preterists (France, Gentry, Sproul, DeMar) see a transition at 24:36, “But concerning that day and hour”, to the final bodily coming and judgment, which has no signs and no time limit; Kik placed it at 24:35/36, and a few put it at 25:31. The “end of the age” is then the close of the old covenant era marked by the temple's fall."
+      },
+      {
+        "position": "full-preterism",
+        "reading": "There is one question with linked parts and one answer. The coming, the end of the age and the temple's fall are the same event, and the whole discourse through 25:46 was fulfilled in AD 66–70, including the parousia, the resurrection-gathering and the judgment. Full preterists say any division at 24:36 is inconsistent, since the parousia appears on both sides (24:27, 37, 39). This view lies outside the historic creeds, which confess a future bodily return, a point its critics press."
+      },
+      {
+        "position": "dispensationalism",
+        "reading": "The disciples asked about two different things, and Luke 21:12–24 answers the first (the AD 70 destruction), while Matthew 24:4–31 chiefly answers the second, describing the future seventieth week of Daniel 9:27. Verses 4–14 are the first half of the tribulation (or general signs), 24:15 its midpoint when the Antichrist desecrates a rebuilt temple, 24:21–28 the great tribulation, and 24:29–31 the visible Second Coming to rescue believing Israel and set up the kingdom. The church, raptured beforehand, is not directly addressed; the disciples stand for the Jewish remnant of that future time."
+      },
+      {
+        "position": "futurism",
+        "reading": "Broadly futurist readers, not all dispensational, hold that whatever partial fulfilment AD 70 provides, the signs, the great tribulation, the cosmic signs and the coming in 24:4–31 culminate in a future crisis just before Christ's return. They stress that the parousia elsewhere in the New Testament is the bodily, visible return (1 Thessalonians 4:15; 2 Thessalonians 2:1–8) and that the disciples' question about the “end of the age” is answered with “the end” (24:6, 14), which Jesus distinguishes from the temple's fall."
+      },
+      {
+        "position": "histpremil",
+        "reading": "Jesus answers both questions with one prophetic perspective in which the near judgment on Jerusalem and the final crisis are seen together, like mountain peaks seen from a distance. Luke 21 especially shows the fall of Jerusalem followed by the “times of the Gentiles” and then the coming. Historic premillennialists such as Ladd and Blomberg take 24:29–31 as the single posttribulational return, at which the church is gathered, so the discourse is addressed to the church as well as to Israel."
+      },
+      {
+        "position": "amil",
+        "reading": "The discourse deliberately interweaves the two horizons, AD 70 and the end, because the first is a type and foretaste of the second. Many signs (deception, wars, persecution, gospel preaching) characterise the whole age between the comings, intensifying before the end; the abomination and flight fit AD 70; the coming of 24:30–31 and all of 24:36–25:46 refer to the final return. Some amillennialists (Riddlebarger) accept a preterist reading of more of 24:4–34, while others (Hoekema) emphasise the double reference."
+      },
+      {
+        "position": "historicism",
+        "reading": "Classical historicists such as Thomas Newton and Albert Barnes read 24:4–28 largely as AD 70, often with detailed appeals to Josephus, and then saw the long era after it as a continuous history running to the end. Luke's “times of the Gentiles” is that long era, and Adventist historicists place the great tribulation in the papal persecutions (1260 years, usually 538–1798) and the signs of 24:29 in events such as the Lisbon earthquake (1755), the Dark Day (1780) and the meteor shower of 1833, before a future visible advent."
+      },
+      {
+        "position": "idealism",
+        "reading": "The disciples' question is answered with a portrait of how the church lives between the two comings: deception, conflict, suffering, witness and the need for watchfulness are permanent features of the age. AD 70 is one striking embodiment of God's judgment on unfaithfulness, but the pattern repeats until Christ returns. The point of the answer is not a calendar but readiness."
+      },
+      {
+        "position": "spiritual",
+        "reading": "The spiritual reading takes the disciples' admiration of stones as the starting point: Jesus is moving them from a religion centred on a building to himself as the true temple (John 2:19–21). The end of the age is the end of the old order of law and sacrifice, fulfilled at the cross and made visible in AD 70, and the “coming” is also understood as Christ's coming in power to his people and his presence within them. The discourse then becomes a call to discern false christs and remain anchored in the finished work of Christ."
+      }
+    ]
+  },
+  "units": [
+    {
+      "id": "stones",
+      "ref": "Matthew 24:1-2",
+      "parallels": [
+        "Mark 13:1-2",
+        "Luke 21:5-6"
+      ],
+      "title": "Not one stone upon another",
+      "summary": "As Jesus leaves the temple, his disciples point out its buildings. He answers that every stone will be thrown down. The saying follows immediately after his lament over Jerusalem, “your house is left to you desolate” (23:38).",
+      "context": "Herod's temple was among the wonders of the Roman east; the rabbis later said that whoever had not seen it had never seen a beautiful building. The disciples' remark is the natural pride of Galilean pilgrims. Jesus' prediction stands in the line of Micah 3:12 and Jeremiah 26:18, which foretold the ruin of the first temple, and in Matthew it is the climax of chapters 21–23, where he enters the temple, curses a fig tree, tells parables of rejected sons and tenants, and pronounces seven woes on the scribes and Pharisees.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "The prophecy was literally fulfilled in AD 70, when Titus ordered the city and temple razed so that, in Josephus' words, nothing was left to make visitors believe it had ever been inhabited. The link with 23:36–38 is decisive: judgment on “this generation” and the desolation of “your house” set the subject of the whole discourse."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "Full preterists agree that the temple's destruction is the subject, and add that, as the disciples' question shows, it is inseparable from the coming and the end of the age. The fall of the temple is therefore the visible sign that the old covenant age, and with it the whole eschatological drama, was brought to completion."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "Dispensationalists accept that 24:2 was fulfilled in AD 70. They argue, however, that Jesus' answer to the further questions about his coming and the end of the age reaches beyond that event, and that a future temple will be rebuilt and desecrated (Daniel 9:27; 2 Thessalonians 2:4; Revelation 11:1–2)."
+        },
+        {
+          "position": "histpremil",
+          "reading": "Historic premillennialists read 24:1–2 as a firm prediction of AD 70 that serves as the springboard for the discourse. The near judgment on the temple is a pledge of the far judgment at Christ's return, and Jesus' answer moves between the two."
+        },
+        {
+          "position": "amil",
+          "reading": "The temple's destruction marks the end of the shadow and the arrival of the reality: Christ and his people are now the temple (John 2:19–21; Ephesians 2:19–22). Amillennialists therefore see no future role for a rebuilt temple, while also seeing AD 70 as a preview of final judgment."
+        },
+        {
+          "position": "historicism",
+          "reading": "Classic historicists such as Thomas Newton opened their treatment of Matthew 24 by showing from Josephus how exactly the temple prophecy was fulfilled, treating it as one of the clearest proofs of Christ's prophetic authority, before tracing later prophecies through church history."
+        },
+        {
+          "position": "spiritual",
+          "reading": "Jesus turns the disciples' eyes from stones to himself. A religion built around a physical sanctuary, however beautiful, was about to give way to the living temple of Christ's body and the Spirit's dwelling in believers, and the destruction makes that transfer unmistakable."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "ad70",
+          "title": "Titus orders the city razed",
+          "text": "Josephus says Titus ordered the whole city and temple demolished except three towers and part of the western wall, kept to show the strength of what Rome had conquered, and that the rest was levelled so thoroughly that visitors would hardly believe it had been inhabited.",
+          "source": "Josephus, Jewish War 7.1.1"
+        },
+        {
+          "side": "ad70",
+          "title": "The sanctuary burned",
+          "text": "Josephus describes a soldier throwing a firebrand into the sanctuary, the fire spreading despite (he says) Titus' orders, and the holy house burning on the same day of the year as Solomon's temple was burned by the Babylonians.",
+          "source": "Josephus, Jewish War 6.4.5–8"
+        },
+        {
+          "side": "both",
+          "title": "Some stones remained",
+          "text": "The retaining walls of the temple platform, including the Western Wall, still stand, so critics ask whether “not one stone” was fulfilled literally. Most interpreters answer that Jesus spoke of the temple buildings the disciples were admiring, which were entirely destroyed, and that the saying is proverbial for complete ruin.",
+          "source": "Josephus, Jewish War 7.1.1; archaeology of the Temple Mount"
+        }
+      ],
+      "keyIssue": "Whether the temple's destruction is the controlling subject of the whole discourse, or only the opening occasion for a prophecy that then reaches to the end of history.",
+      "sources": [
+        "josephus-jewish-war",
+        "france-matthew-nicnt",
+        "carson-matthew-ebc",
+        "newton-dissertations-prophecies"
+      ]
+    },
+    {
+      "id": "questions",
+      "ref": "Matthew 24:3",
+      "parallels": [
+        "Mark 13:3-4",
+        "Luke 21:7"
+      ],
+      "title": "The disciples' questions",
+      "summary": "On the Mount of Olives the disciples ask privately when “these things” will be, and what will be the sign of Jesus' coming (parousia) and of the end of the age. Mark and Luke ask only about “these things” and their sign.",
+      "context": "The Mount of Olives faces the temple across the Kidron valley and was associated with the day of the Lord in Zechariah 14:4, where the Lord's feet stand on it. Parousia was used of a royal visit or official arrival as well as of a person's presence; synteleia tou aiōnos (end of the age) is a phrase almost unique to Matthew (13:39, 40, 49; 24:3; 28:20). Jewish writers commonly divided history into “this age” and “the age to come”.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "Because Mark and Luke record only a question about the temple, Matthew's wording shows how the disciples understood that event: the temple's fall would be the coming of the Messiah in judgment and the end of the old covenant age. The answer up to 24:34 addresses this, and Jesus then speaks of the final day in 24:36 onward."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "Matthew presents one question with three linked parts, and the answer treats them as a unity. If the temple fell in AD 70, then the parousia and the end of the age happened then too; to separate them is to impose a later theology on the text."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "The disciples asked about two or three distinct events, and Jesus' answer distinguishes them. Luke gives the answer about the temple, while Matthew focuses on the sign of the coming and the end of the age, which belong to the future tribulation and return. The disciples' assumption that all would happen together was mistaken, as Jesus' warning “the end is not yet” (24:6) begins to show."
+        },
+        {
+          "position": "histpremil",
+          "reading": "The disciples assumed one event; Jesus did not correct them directly but gave an answer in which near and far are both present. Parousia in 1 Thessalonians 4:15 and 1 Corinthians 15:23 is the future bodily return, and Matthew's use should be read in harmony with that."
+        },
+        {
+          "position": "amil",
+          "reading": "The disciples' fused question is answered with a fused answer. Since the temple's fall and the end of the world are theologically linked as judgment and its type, Jesus describes them together, and the reader must discern which features belong to which horizon."
+        },
+        {
+          "position": "spiritual",
+          "reading": "The disciples ask about signs and timing; Jesus answers by warning them against deception and calling them to endurance and watchfulness. The real question beneath theirs is what replaces the temple, and the answer is the Son of Man himself, enthroned and present with his people."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "ad70",
+          "title": "Mark and Luke ask only about the temple",
+          "text": "Mark 13:4 and Luke 21:7 frame the question solely around “these things”, the temple's destruction, suggesting that Matthew's added phrases interpret that same event.",
+          "source": "Mark 13:4; Luke 21:7"
+        },
+        {
+          "side": "future",
+          "title": "Parousia elsewhere means the bodily return",
+          "text": "Every other New Testament use of parousia for Christ (1 Corinthians 15:23; 1 Thessalonians 2:19; 3:13; 4:15; 5:23; 2 Thessalonians 2:1, 8; James 5:7–8; 2 Peter 3:4; 1 John 2:28) is commonly read of his personal return, which futurists argue sets the meaning in Matthew 24.",
+          "source": "1 Thessalonians 4:15; 2 Thessalonians 2:1–8"
+        },
+        {
+          "side": "both",
+          "title": "“End of the age” in Matthew",
+          "text": "Matthew's other uses (13:39–49, the harvest and separation of the righteous and wicked; 28:20, Christ's presence with the church) tie the phrase to final judgment, which futurists stress; preterists reply that the judgment of 13:40–42 is a harvest of the covenant people and fits the close of the old age.",
+          "source": "Matthew 13:39–49; 28:20"
+        }
+      ],
+      "keyIssue": "Whether the disciples asked one question or several, and whether Jesus' answer keeps their parts together or separates them.",
+      "sources": [
+        "france-matthew-nicnt",
+        "carson-matthew-ebc",
+        "gentry-key-fob-olivet",
+        "ice-matthew-24-this-generation"
+      ]
+    },
+    {
+      "id": "birth-pains",
+      "ref": "Matthew 24:4-8",
+      "parallels": [
+        "Mark 13:5-8",
+        "Luke 21:8-11"
+      ],
+      "title": "Deceivers, wars, famines and earthquakes",
+      "summary": "Jesus warns that many will come in his name saying “I am the Christ” and deceive many. There will be wars and rumours of wars, nation against nation, famines and earthquakes in various places, but “the end is not yet”; these are “the beginning of birth pains”.",
+      "context": "“Birth pains” (ōdines) was a stock image in the prophets and later Jewish writings for the suffering before God's deliverance (Isaiah 13:8; 26:17–19; Jeremiah 22:23; Micah 4:9–10); later rabbis spoke of “the birth pangs of the Messiah”. The years between Jesus' ministry and AD 70 saw Roman wars in Britain, Armenia and Parthia, unrest in Judea and Alexandria, famine under Claudius, and earthquakes in Asia Minor and Italy.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "These were all fulfilled before AD 70 and are what Jesus' first hearers would experience: Josephus' impostors, the Claudian famine (Acts 11:28), the earthquakes at Laodicea and Pompeii, and the wars culminating in the civil wars of AD 69. Jesus' point is that such events are not themselves the end, so the disciples must not panic or follow false messiahs."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "Full preterists read this section the same way as partial preterists, as signs fulfilled in AD 30–70 before the climactic judgment, and use it to underline that every sign Jesus gave was experienced by his own generation."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "Many dispensationalists see these as the general characteristics of the age that will intensify into the first half of the seven-year tribulation, matching the first four seals of Revelation 6. Others treat them as signs of the whole age leading to the tribulation. Either way, Jesus' words describe the period just before his return rather than the 60s."
+        },
+        {
+          "position": "histpremil",
+          "reading": "Such troubles mark the whole interval between the advents and do not by themselves signal the end. Historic premillennialists see them as recurring signs that grow towards a final crisis, and stress that the church must endure them."
+        },
+        {
+          "position": "amil",
+          "reading": "These signs characterise the entire age between Christ's comings; they are reminders that the end is coming rather than calendar markers. The first century experienced them, as has every century since."
+        },
+        {
+          "position": "historicism",
+          "reading": "Historicists accept the first-century fulfilment and add that the pattern continued in the wars and calamities that followed the fall of Rome, which many correlated with the seals and trumpets of Revelation."
+        },
+        {
+          "position": "idealism",
+          "reading": "The birth-pain image shows that history's convulsions are not meaningless: they are labour leading to new creation (Romans 8:22). The signs are permanent features of a fallen world under God's rule, calling believers to discernment rather than date-setting."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "ad70",
+          "title": "Famine under Claudius",
+          "text": "Acts 11:28 says Agabus predicted a great famine over the whole oikoumenē, which took place under Claudius; Josephus describes a severe famine in Judea about AD 46–48, relieved by Queen Helena of Adiabene, and Suetonius mentions repeated crop failures in Claudius' reign.",
+          "source": "Acts 11:28; Josephus, Antiquities 20.2.5; 20.5.2; Suetonius, Claudius 18"
+        },
+        {
+          "side": "ad70",
+          "title": "Earthquakes in various places",
+          "text": "Tacitus records that Laodicea was destroyed by an earthquake in AD 60 and rebuilt without Roman aid, and that Pompeii was largely overthrown by an earthquake in AD 62 (Seneca dates it to 63). Josephus describes a terrifying storm with earthquake over Jerusalem in 68.",
+          "source": "Tacitus, Annals 14.27; 15.22; Seneca, Natural Questions 6.1; Josephus, Jewish War 4.4.5"
+        },
+        {
+          "side": "ad70",
+          "title": "Wars and rumours of wars",
+          "text": "Tacitus opens his Histories describing the period from 69 as rich in disasters, frightful in battles and torn by civil strife, with four emperors killed by the sword.",
+          "source": "Tacitus, Histories 1.2"
+        },
+        {
+          "side": "future",
+          "title": "Not unique to the first century",
+          "text": "Futurists and amillennialists point out that wars, famines and earthquakes have occurred in every century, so their presence before 70 does not show that the discourse was exhausted then; Jesus himself says they are only “the beginning”.",
+          "source": "Matthew 24:6–8"
+        }
+      ],
+      "keyIssue": "Whether these general signs were meant to be fulfilled within the disciples' lifetime, or to characterise the whole age, or to intensify in a final period.",
+      "sources": [
+        "josephus-antiquities",
+        "tacitus-annals",
+        "tacitus-histories",
+        "demar-last-days-madness",
+        "hoekema-bible-future",
+        "walvoord-matthew-kingdom"
+      ]
+    },
+    {
+      "id": "persecution-gospel",
+      "ref": "Matthew 24:9-14",
+      "parallels": [
+        "Mark 13:9-13",
+        "Luke 21:12-19"
+      ],
+      "title": "Persecution, apostasy and the gospel to the whole world",
+      "summary": "The disciples will be handed over, killed and hated by all nations. Many will fall away and betray one another; false prophets will arise; love will grow cold. The one who endures to the end will be saved. “This gospel of the kingdom will be proclaimed throughout the whole world (oikoumenē) as a testimony to all nations, and then the end will come.”",
+      "context": "Oikoumenē means “the inhabited world”, usually as Greek and Roman writers knew it; Luke uses it of the Roman empire's census (Luke 2:1) and of the famine under Claudius (Acts 11:28). Mark has “to all nations” (13:10). Luke's parallel says the persecution will come “before all this” (21:12), that is, before the signs of 21:10–11. The disciples' experience in Acts and Paul's letters matches the list closely: councils, synagogues, governors, kings, betrayal and martyrdom.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "Every item was fulfilled before AD 70: the apostles were handed over to councils and governors, James and Stephen were killed, Nero made Christians the objects of hatred, false teachers and apostasy plagued the churches, and by the 60s Paul could say the gospel had reached the whole oikoumenē (Romans 10:18; Colossians 1:6, 23). “The end” is then the end of the age the disciples asked about, the temple's fall."
+        },
+        {
+          "position": "postmil",
+          "reading": "Postmillennialists, mostly preterist on this section, stress that 24:14 was fulfilled in principle by the apostolic mission to the known world before 70, and that the Great Commission then continues to bring the nations to Christ through history. The end of the old order is the beginning of the gospel's worldwide growth, not the end of its progress."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "The worldwide preaching describes the testimony during the future tribulation, which some connect with the 144,000 and the two witnesses or the angel proclaiming the eternal gospel (Revelation 7; 11; 14:6). “The end” is the end of the tribulation and the return of Christ. Paul's hyperbolic statements about the gospel's spread do not exhaust a promise that it will reach “all nations”."
+        },
+        {
+          "position": "histpremil",
+          "reading": "Historic premillennialists such as Ladd see 24:14 as the church's mission throughout the age: the gospel must go to every people before Christ returns. The verse makes missions part of the eschatological programme, and the church will endure persecution until the end."
+        },
+        {
+          "position": "amil",
+          "reading": "Many amillennialists hold a double reference: the apostolic mission fulfilled the verse in a first sense before 70, but the larger fulfilment is the gospel reaching all nations before the final end (Matthew 28:19–20; Revelation 7:9). Persecution and apostasy likewise characterise the whole age."
+        },
+        {
+          "position": "historicism",
+          "reading": "Historicists accepted the apostolic fulfilment and saw the continuing spread of the gospel, including the Reformation and modern missions, as part of the prophesied history leading to the end."
+        },
+        {
+          "position": "idealism",
+          "reading": "The section describes the church's permanent situation: hated by the world, tested by false teaching and cold love, yet bearing witness to all nations. Endurance, not escape, is the mark of true discipleship in every age."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "ad70",
+          "title": "Paul's universal language before 70",
+          "text": "Paul writes that the Romans' faith is proclaimed in all the world (Romans 1:8), that the message has gone out to the ends of the oikoumenē (Romans 10:18), that the gospel is bearing fruit in the whole world (Colossians 1:6) and has been proclaimed in all creation under heaven (Colossians 1:23; compare Romans 16:26).",
+          "source": "Romans 1:8; 10:18; 16:26; Colossians 1:6, 23"
+        },
+        {
+          "side": "ad70",
+          "title": "Christians hated and killed",
+          "text": "Tacitus says Nero blamed the fire of Rome on Christians, a class “hated for their abominations”, and had them torn by dogs, crucified and burned as torches. Josephus records the stoning of James the Lord's brother in AD 62.",
+          "source": "Tacitus, Annals 15.44; Josephus, Antiquities 20.9.1"
+        },
+        {
+          "side": "future",
+          "title": "“All nations” and “the end”",
+          "text": "Futurists note that Mark has “all nations” (panta ta ethnē), the phrase of the Great Commission (Matthew 28:19), and that Jesus ties this preaching to “the end” (to telos) rather than to the temple's fall. Many peoples remained unreached in AD 70, and Revelation 14:6 pictures a final universal proclamation.",
+          "source": "Mark 13:10; Matthew 28:19; Revelation 14:6"
+        },
+        {
+          "side": "both",
+          "title": "The meaning of oikoumenē",
+          "text": "Oikoumenē often meant the Roman world (Luke 2:1; Acts 11:28; 17:6; 24:5), which supports a first-century fulfilment; but it can also mean the whole inhabited earth (Acts 17:31; Hebrews 2:5), so the word alone does not settle the question.",
+          "source": "Luke 2:1; Acts 11:28; Acts 17:31"
+        }
+      ],
+      "keyIssue": "Whether “the whole world” and “all nations” in 24:14 were reached by the apostolic mission before AD 70, or still await fulfilment before the final end.",
+      "sources": [
+        "demar-last-days-madness",
+        "gentry-he-shall-have-dominion",
+        "tacitus-annals",
+        "ladd-presence-future",
+        "ice-matthew-24-this-generation",
+        "carson-matthew-ebc"
+      ]
+    },
+    {
+      "id": "abomination",
+      "ref": "Matthew 24:15-20",
+      "parallels": [
+        "Mark 13:14-18",
+        "Luke 21:20-23"
+      ],
+      "title": "The abomination of desolation and the flight from Judea",
+      "summary": "“When you see the abomination of desolation spoken of by the prophet Daniel standing in the holy place (let the reader understand), then let those in Judea flee to the mountains.” No one should go back for belongings; it will be hard for pregnant and nursing women; they should pray their flight is not in winter or on a Sabbath. Luke's parallel reads: “when you see Jerusalem surrounded by armies, then know that its desolation has come near.”",
+      "context": "Daniel speaks of an abomination that makes desolate in 9:27, 11:31 and 12:11. Jews of Jesus' day knew a fulfilment in 167 BC, when Antiochus IV Epiphanes set up a pagan altar on the altar of burnt offering (1 Maccabees 1:54) and stopped the sacrifices. Roman standards bearing images had already provoked crises under Pilate, and Caligula's attempt to place his statue in the temple in AD 40 was within living memory when the Gospels were written. Mark's grammatically masculine “standing where he ought not” suggests a person or personified power.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "Luke 21:20 is the inspired commentary on the parallel: the abomination that brings desolation is the Roman armies surrounding Jerusalem, which entered the holy precincts and, according to Josephus, set up their standards in the temple court and sacrificed to them. Many add the Zealots' profanation of the temple, which Josephus described as a pollution that fulfilled an ancient oracle. The command to flee was obeyed, as Eusebius records, when Jerusalem's Christians escaped to Pella."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "Full preterists hold the same view of the abomination as partial preterists and treat it as the decisive sign within the one AD 70 scenario that also includes the coming and the end of the age."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "Daniel 9:27 places the abomination in the middle of the seventieth week, after the Messiah is cut off, and Daniel 12:11 links it to the time of the end and the resurrection (12:1–2). Since Paul (2 Thessalonians 2:3–4) and John (Revelation 13:14–15) also describe a future desecration by a personal Antichrist, Matthew 24:15 must refer to a future rebuilt temple. Luke 21:20–24 describes AD 70, which was a related but distinct event."
+        },
+        {
+          "position": "histpremil",
+          "reading": "Historic premillennialists such as Ladd see AD 70 as a real fulfilment that also foreshadows a final Antichrist figure. The prophecy has a near and a far horizon, and the Jerusalem setting of the near fulfilment does not exhaust it."
+        },
+        {
+          "position": "amil",
+          "reading": "The Roman desecration in AD 70 fulfilled the prophecy, and Luke makes this plain. Some amillennialists also see it as a type of the final apostasy and man of lawlessness (2 Thessalonians 2), which will arise within the professing church rather than in a rebuilt temple."
+        },
+        {
+          "position": "historicism",
+          "reading": "Classic historicists generally saw AD 70 as the fulfilment of 24:15, often citing the Roman standards; the later desecration of the church by the papacy, sitting in the temple of God (2 Thessalonians 2:4), was a separate prophecy fulfilled through the centuries."
+        },
+        {
+          "position": "spiritual",
+          "reading": "The abomination is anything set up in the holy place in place of God, from the idolatry of a temple religion that rejected its Messiah to any substitute for Christ in the heart. The call to flee is a call to leave a system doomed to destruction and find refuge in him."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "ad70",
+          "title": "Luke: Jerusalem surrounded by armies",
+          "text": "Luke, in the same position in the discourse and with the same command to flee to the mountains, explains the sign as Jerusalem surrounded by armies and its desolation drawing near.",
+          "source": "Luke 21:20–21"
+        },
+        {
+          "side": "ad70",
+          "title": "Standards in the temple court",
+          "text": "After the temple was burned, the Romans brought their standards into the temple court, set them opposite the eastern gate, offered sacrifices to them and acclaimed Titus as imperator.",
+          "source": "Josephus, Jewish War 6.6.1"
+        },
+        {
+          "side": "ad70",
+          "title": "The flight to Pella",
+          "text": "Eusebius says the Jerusalem church, commanded by an oracle given to approved men before the war, left the city and lived in Pella in Perea. Epiphanius repeats the tradition. Some scholars (for example S. G. F. Brandon) doubted it, but others (Craig Koester) defend its essential historicity.",
+          "source": "Eusebius, Church History 3.5.3; Epiphanius, Panarion 29.7.7–8"
+        },
+        {
+          "side": "future",
+          "title": "Daniel's sequence and Paul's man of lawlessness",
+          "text": "Daniel 12:11 ties the abomination to the time of the end and the resurrection that follows (12:1–2), and 2 Thessalonians 2:3–8 speaks of a lawless one taking his seat in the temple of God and being destroyed by Christ's coming. Futurists argue that no AD 70 figure matches this person or event.",
+          "source": "Daniel 12:1–11; 2 Thessalonians 2:3–8; Revelation 13:14–15"
+        }
+      ],
+      "keyIssue": "Whether Luke 21:20 interprets Matthew 24:15 and Mark 13:14 (a single AD 70 event), or Luke describes AD 70 while Matthew and Mark describe a future Antichrist in a rebuilt temple.",
+      "sources": [
+        "josephus-jewish-war",
+        "eusebius-church-history",
+        "koester-flight-pella",
+        "gentry-ice-great-tribulation",
+        "walvoord-matthew-kingdom",
+        "ladd-presence-future"
+      ]
+    },
+    {
+      "id": "great-tribulation",
+      "ref": "Matthew 24:21-22",
+      "parallels": [
+        "Mark 13:19-20",
+        "Luke 21:22-24"
+      ],
+      "title": "Great tribulation, unequalled",
+      "summary": "“There will be great tribulation, such as has not been from the beginning of the world until now, no, and never will be.” If those days had not been cut short, no flesh would be saved, but for the sake of the elect they will be shortened. Luke speaks of great distress on the land and wrath against this people, who will fall by the sword and be led captive among all nations, and Jerusalem trampled by the Gentiles until the times of the Gentiles are fulfilled.",
+      "context": "The wording echoes Daniel 12:1 (“a time of trouble such as never has been”) and similar hyperbolic formulas in Exodus 11:6, Joel 2:2 and Ezekiel 5:9. During the siege Jerusalem was crowded with Passover pilgrims, three factions fought one another, and famine killed vast numbers. The siege lasted about five months, from Passover to late summer of AD 70.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "The siege of Jerusalem was the great tribulation. Josephus, who had no Christian motive, says the miseries of all peoples since the world began were small compared to those of the Jews. The formula “such as never has been” is covenantal hyperbole used in Exodus 11:6 and Ezekiel 5:9 of events that were later surpassed in scale; what made AD 70 unique was its covenantal significance as the climax of judgment on the old covenant people (Matthew 23:35–36). The days were shortened because Titus pressed the siege quickly."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "As with partial preterism, the tribulation is AD 66–70; full preterists add that the “elect” for whose sake the days were shortened are the first-century church, whose deliverance was its redemption at the parousia."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "The language is absolute: never before and never again. AD 70, however terrible, was surpassed in scale by later catastrophes, including the Holocaust, and Luke 21:24 shows that Jerusalem's suffering continued afterward. This must be the future great tribulation, the second half of Daniel's seventieth week (Daniel 12:1; Revelation 7:14), which ends with Christ's return “immediately after” (24:29) and threatens all flesh."
+        },
+        {
+          "position": "futurism",
+          "reading": "Futurists in general argue that “no flesh would be saved” describes a threat to all humanity, matching Revelation's worldwide judgments, which a regional siege does not fully meet. The appeal to Daniel 12:1, which is followed by the resurrection, also points to the end."
+        },
+        {
+          "position": "histpremil",
+          "reading": "The tribulation began with AD 70 but the final great tribulation lies ahead, and the church will pass through it before Christ's return. The elect for whose sake the days are shortened are believers, the church, not a separate Jewish group."
+        },
+        {
+          "position": "amil",
+          "reading": "The great tribulation is the suffering of God's people through the whole age, of which AD 70 was an intense early expression, with a final intensification before Christ returns (Revelation 7:14 speaks of those coming out of the great tribulation)."
+        },
+        {
+          "position": "historicism",
+          "reading": "Adventist historicists apply the great tribulation of 24:21 to the long persecution of faithful Christians by papal Rome during the 1260 years, which they date AD 538–1798, and see the shortening of those days in the decline of persecution before the end of that period."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "ad70",
+          "title": "Josephus: the greatest of all calamities",
+          "text": "In the preface to his history Josephus says the misfortunes of all men from the beginning of the world were not so considerable as those of the Jews, and later that no other city ever suffered such miseries.",
+          "source": "Josephus, Jewish War 1, preface 4 (1.12); 5.10.5"
+        },
+        {
+          "side": "ad70",
+          "title": "Numbers killed and captured",
+          "text": "Josephus gives 1,100,000 dead and 97,000 captives; Tacitus says 600,000 were besieged. Modern historians think Josephus' figures are inflated but agree the death toll was enormous.",
+          "source": "Josephus, Jewish War 6.9.3; Tacitus, Histories 5.13"
+        },
+        {
+          "side": "future",
+          "title": "“Never will be” and the Holocaust",
+          "text": "Futurists argue that later events, such as the Holocaust, in which about six million Jews were killed, exceeded AD 70 in scale, so the absolute language of 24:21 points to a still-future time. Preterists reply that the uniqueness lies in covenant significance, not body count.",
+          "source": "Daniel 12:1; Matthew 24:21"
+        },
+        {
+          "side": "future",
+          "title": "Luke 21:24 extends past AD 70",
+          "text": "Luke says the people will be led captive among the nations and Jerusalem trampled until the times of the Gentiles are fulfilled, an open-ended period after the siege. Futurists argue that this places Jesus' coming in Luke 21:25–28 after a long interval.",
+          "source": "Luke 21:24"
+        }
+      ],
+      "keyIssue": "Whether the superlative language of 24:21 is prophetic hyperbole fulfilled in AD 70, or describes a still-future tribulation that will exceed anything in history.",
+      "sources": [
+        "josephus-jewish-war",
+        "tacitus-histories",
+        "gentry-ice-great-tribulation",
+        "pentecost-things-to-come",
+        "hoekema-bible-future",
+        "wikipedia-adventist-eschatology"
+      ]
+    },
+    {
+      "id": "false-christs-lightning",
+      "ref": "Matthew 24:23-28",
+      "parallels": [
+        "Mark 13:21-23",
+        "Luke 17:23-24",
+        "Luke 17:37"
+      ],
+      "title": "False christs, lightning and the eagles",
+      "summary": "If anyone says “Here is the Christ” or “There he is”, do not believe it: false christs and false prophets will perform great signs to lead astray, if possible, even the elect. If they say he is in the wilderness or in the inner rooms, do not go. The coming of the Son of Man will be like lightning from east to west. “Wherever the corpse is, there the eagles (or vultures) will gather.”",
+      "context": "Josephus' impostors led crowds into the wilderness promising signs of deliverance, and during the siege a prophet summoned people into the temple to receive such signs. The Greek aetos means eagle and was used loosely for large carrion birds; the aquila, the eagle standard of each Roman legion, was the army's sacred emblem. Lightning from the east to the west recalls the visibility of God's appearing in judgment (Zechariah 9:14).",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "The false prophets with signs in the wilderness are the impostors Josephus describes in the years before and during the war. The lightning image says Christ's coming in judgment would not be a secret local appearance but would sweep across the land from east to west, as the Roman armies did when they swept through Galilee and Judea to Jerusalem. The eagles gathering over the corpse are the Roman legions, with their eagle standards, gathering around the dead body of apostate Jerusalem."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "The coming like lightning is the AD 70 parousia, a manifestation of Christ in judgment that was public and unmistakable to those who had eyes to see, rather than a physical appearance on the earth."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "During the future tribulation many will claim to be the Messiah, and the false prophet of Revelation 13:13–14 will work great signs. Christ's actual return will be sudden, visible and universal like lightning across the sky, so no one needs to be told where he is. The carcass and birds point to the battle of Armageddon and the birds feasting on the slain (Revelation 19:17–21)."
+        },
+        {
+          "position": "histpremil",
+          "reading": "The warning against secret comings shows that Christ's return will be public and visible to all, which historic premillennialists contrast with a secret pretribulational rapture. The bird image proverbially means that judgment falls wherever corruption is found."
+        },
+        {
+          "position": "amil",
+          "reading": "The verses distinguish the visible, unmistakable final coming from all false claims to messianic presence in this age. The proverb of the corpse and the vultures means judgment will come wherever spiritual death is found, whether in AD 70 or at the end."
+        },
+        {
+          "position": "idealism",
+          "reading": "False christs appear in every age, offering hidden or spectacular salvation. The true Christ needs no advertising: his coming will be as obvious as lightning. The proverb teaches that judgment always finds what is dead."
+        },
+        {
+          "position": "spiritual",
+          "reading": "The church must not look for Christ in the wilderness of religious striving or in hidden inner rooms of special knowledge. He is revealed openly, like light filling the sky, and the dead carcass of a religion without him attracts only scavengers."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "ad70",
+          "title": "Impostors leading crowds to the wilderness",
+          "text": "Josephus describes deceivers who, under pretence of divine inspiration, led people into the wilderness promising signs of freedom, and the Egyptian who led a crowd to the Mount of Olives.",
+          "source": "Josephus, Jewish War 2.13.4–5; Antiquities 20.8.6; Acts 21:38"
+        },
+        {
+          "side": "ad70",
+          "title": "A false prophet in the temple",
+          "text": "On the day the temple burned, about six thousand people had gone up to a portico because a false prophet had proclaimed that God commanded them to go there to receive the signs of their deliverance; all perished.",
+          "source": "Josephus, Jewish War 6.5.2"
+        },
+        {
+          "side": "both",
+          "title": "Eagles or vultures?",
+          "text": "Preterists connect aetoi with the Roman eagle standards; many commentators reply that the saying is a proverb about carrion birds (Job 39:27–30; Luke 17:37), so the Roman link is possible but not certain.",
+          "source": "Matthew 24:28; Job 39:30; Luke 17:37"
+        },
+        {
+          "side": "future",
+          "title": "A universal, visible coming",
+          "text": "Futurists argue that lightning “from east to west” describes a coming visible across the sky to all, matching Revelation 1:7 (“every eye will see him”) and Acts 1:11, not a military campaign.",
+          "source": "Revelation 1:7; Acts 1:11"
+        }
+      ],
+      "keyIssue": "Whether the lightning-like coming is a visible bodily return or the sudden sweep of Christ's judgment through Rome's armies, and whether the eagles are the legions or a proverb.",
+      "sources": [
+        "josephus-jewish-war",
+        "josephus-antiquities",
+        "demar-last-days-madness",
+        "france-matthew-nicnt",
+        "walvoord-matthew-kingdom",
+        "ladd-presence-future"
+      ]
+    },
+    {
+      "id": "sun-darkened",
+      "ref": "Matthew 24:29",
+      "parallels": [
+        "Mark 13:24-25",
+        "Luke 21:25-26"
+      ],
+      "title": "Immediately after: sun, moon and stars",
+      "summary": "“Immediately after the tribulation of those days the sun will be darkened, and the moon will not give its light, and the stars will fall from heaven, and the powers of the heavens will be shaken.” Luke adds distress of nations, perplexity at the roaring of the sea, and people fainting with fear.",
+      "context": "The verse weaves together Isaiah 13:10 (the fall of Babylon) and Isaiah 34:4 (judgment on Edom and the nations), with echoes of Ezekiel 32:7 (Egypt) and Joel 2:10, 31. In the ancient world the heavenly bodies were associated with rulers and gods, and the falling of stars could symbolise the fall of powers. Josephus and Tacitus both report portents in the sky before and during the war.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "Jesus uses the prophets' standard language for the fall of a nation. As Isaiah described Babylon's fall as the darkening of sun and stars, so Jesus describes the collapse of Jerusalem's world, its rulers and its temple-centred order, “immediately after” the tribulation of the siege. Ancient Jewish hearers would have recognised the idiom and not expected an astronomical event."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "The cosmic language describes the passing of the old covenant “heavens and earth”, the whole Mosaic order, which ended in AD 70. Full preterists link this with Hebrews 12:26–28 and 2 Peter 3, which they also apply to that event."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "These are real signs in the heavens at the end of the future tribulation, preceding Christ's visible return, and they match Revelation 6:12–14 and Joel 2:30–31. The word “immediately” (eutheōs) means the coming follows the tribulation directly, which is impossible if the tribulation was in AD 70 and the coming still future; therefore the tribulation itself must be future."
+        },
+        {
+          "position": "futurism",
+          "reading": "Futurists argue that the prophets' cosmic language, while used of local judgments, ultimately points to the final day of the Lord on the whole world (Isaiah 13:9–11; Isaiah 24; Joel 3:15–16), which Jesus now places at his return. Luke's “distress of nations” and the roaring sea suggest a universal crisis."
+        },
+        {
+          "position": "histpremil",
+          "reading": "Ladd and others take the cosmic signs as real disturbances at the end of the age, though expressed in traditional prophetic language. They stress that 24:29 places the coming after the tribulation, which supports a posttribulational return."
+        },
+        {
+          "position": "amil",
+          "reading": "The language may be both symbolic and anticipatory: symbolic of God's shaking of earthly powers, as in AD 70, and pointing to the final cosmic renewal at Christ's return (2 Peter 3:10–13). Many amillennialists read 24:29–31 as the final coming, with “immediately” expressing prophetic perspective rather than chronological sequence."
+        },
+        {
+          "position": "historicism",
+          "reading": "Adventist historicists traditionally applied the darkening of the sun and moon to the Dark Day in New England (19 May 1780) and the falling stars to the great Leonid meteor shower of 13 November 1833, coming after the papal persecution was “shortened”, with the Lisbon earthquake of 1755 as a preceding sign (Revelation 6:12–13)."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "ad70",
+          "title": "Cosmic language for the fall of nations",
+          "text": "Isaiah uses darkened sun, moon and stars for Babylon's fall (13:10) and dissolving heavens and falling stars for Edom's (34:4); Ezekiel uses it for Pharaoh (32:7–8). These were historical judgments carried out by armies.",
+          "source": "Isaiah 13:10, 17–19; 34:4–5; Ezekiel 32:7–11"
+        },
+        {
+          "side": "ad70",
+          "title": "Portents in the sky",
+          "text": "Josephus reports a star like a sword and a comet that remained for a year, and chariots and armed troops seen running through the clouds around the cities; Tacitus says armies were seen clashing in the sky and the temple lit by fire from the clouds.",
+          "source": "Josephus, Jewish War 6.5.3; Tacitus, Histories 5.13"
+        },
+        {
+          "side": "future",
+          "title": "“Immediately after”",
+          "text": "Futurists argue that eutheōs ties the cosmic signs and the coming tightly to the tribulation. If the coming in 24:30–31 is future, the tribulation must be too; if the tribulation was AD 70, the coming must have been AD 70, a conclusion most Christians reject.",
+          "source": "Matthew 24:29"
+        },
+        {
+          "side": "future",
+          "title": "The final cosmic renewal",
+          "text": "The New Testament elsewhere uses similar imagery for the end of the present creation (2 Peter 3:10–13; Revelation 6:12–17; 20:11), suggesting that Jesus' words also look to the end of the world.",
+          "source": "2 Peter 3:10–13; Revelation 6:12–17"
+        }
+      ],
+      "keyIssue": "Whether the cosmic signs are prophetic metaphor for political and covenantal collapse in AD 70, or literal events at the end of history, and what “immediately after” requires.",
+      "sources": [
+        "france-jesus-ot",
+        "wright-jesus-victory",
+        "gentry-ice-great-tribulation",
+        "ice-matthew-24-this-generation",
+        "ladd-presence-future",
+        "wikipedia-adventist-eschatology"
+      ]
+    },
+    {
+      "id": "son-of-man-clouds",
+      "ref": "Matthew 24:30",
+      "parallels": [
+        "Mark 13:26",
+        "Luke 21:27"
+      ],
+      "title": "The sign of the Son of Man and the coming on the clouds",
+      "summary": "“Then will appear in heaven the sign of the Son of Man, and then all the tribes of the earth (or land) will mourn, and they will see the Son of Man coming on the clouds of heaven with power and great glory.”",
+      "context": "The words combine Daniel 7:13–14, where “one like a son of man” comes with the clouds to the Ancient of Days and receives dominion, and Zechariah 12:10–14, where the tribes of the land mourn for the one they pierced. In the Old Testament God “rides on a swift cloud” to judge Egypt (Isaiah 19:1; compare Psalm 18:9–12; 104:3; Nahum 1:3) without being physically seen. The Greek gē can mean earth or land, and phylai (tribes) usually refers to the tribes of Israel.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "In Daniel 7:13 the Son of Man comes up to the Ancient of Days to receive his kingdom, not down to earth. Jesus uses the image for his vindication and enthronement, made visible when the temple that rejected him was destroyed: the “sign” is that the Son of Man is in heaven, reigning. The tribes of the land, Israel, mourn as Zechariah foretold, and the high priest would “see” this (26:64). France, Wright and Gentry take this view; earlier writers such as Thomas Newton and J. Stuart Russell also applied the passage to AD 70."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "This coming in the clouds was the parousia, fulfilled in AD 70 as a coming in judgment, as in Isaiah 19:1. Since Jesus' contemporaries were told they would see it (26:64), there is no future coming in the clouds left to await."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "This is the visible, bodily Second Coming at the end of the tribulation, when Christ descends to the Mount of Olives (Zechariah 14:4; Acts 1:11) and all the nations see him. Revelation 1:7 combines Daniel 7:13 and Zechariah 12:10 the same way and applies them to a universal event (“every eye will see him”)."
+        },
+        {
+          "position": "histpremil",
+          "reading": "Historic premillennialists read this as the one visible, posttribulational return of Christ, the event Paul describes in 1 Thessalonians 4:16–17 and 2 Thessalonians 1:7–10, when the church will meet the Lord."
+        },
+        {
+          "position": "amil",
+          "reading": "Most amillennialists read 24:30 as the final return of Christ in glory, following AD 70 and the age-long tribulation; some allow that the Daniel 7 imagery is fulfilled first in the enthronement and judgment of AD 70 and finally at the Second Coming."
+        },
+        {
+          "position": "idealism",
+          "reading": "The Son of Man's coming on the clouds is first his enthronement at the right hand of God, displayed throughout history whenever his judgments fall, and finally his visible return. The church lives under the reign already established."
+        },
+        {
+          "position": "spiritual",
+          "reading": "The sign of the Son of Man in heaven is the revelation of the risen Christ seated in glory, and those who mourn are those who come to see the one they pierced. His coming is the unveiling of who he is, which every believer is called to see by faith."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "ad70",
+          "title": "Daniel 7:13 is an ascent to God",
+          "text": "In Daniel the Son of Man comes to the Ancient of Days and is given dominion (7:13–14). R. T. France argues that Jesus applies this to his vindication and authority after his rejection, which he says the high priest and his contemporaries will witness “from now on” (26:64).",
+          "source": "Daniel 7:13–14; Matthew 26:64; R. T. France, Jesus and the Old Testament"
+        },
+        {
+          "side": "ad70",
+          "title": "God's cloud-comings in judgment",
+          "text": "The Old Testament speaks of the Lord riding on a swift cloud and coming to Egypt in judgment (Isaiah 19:1), and of his coming on clouds against nations (Psalm 18:9–12; Nahum 1:3), events carried out through human armies.",
+          "source": "Isaiah 19:1; Psalm 18:9–12; Nahum 1:3"
+        },
+        {
+          "side": "future",
+          "title": "Acts 1:11 and Revelation 1:7",
+          "text": "The angels promise that Jesus will come in the same way he was seen going into heaven, in a cloud; Revelation 1:7 says every eye will see him. Futurists argue that this personal, visible coming is the natural meaning of Matthew 24:30.",
+          "source": "Acts 1:9–11; Revelation 1:7; 1 Thessalonians 4:16–17"
+        },
+        {
+          "side": "both",
+          "title": "Earth or land?",
+          "text": "“All the tribes of the earth” (pasai hai phylai tēs gēs) can be translated “all the tribes of the land”, echoing Zechariah 12:12–14, which favours Israel; but the same phrase in Genesis 12:3 and 28:14 (LXX) refers to all the families of the earth.",
+          "source": "Zechariah 12:10–14; Genesis 12:3"
+        }
+      ],
+      "keyIssue": "Whether the coming on the clouds is a heavenly enthronement and judgment seen in AD 70, or the visible, bodily return of Christ to earth.",
+      "sources": [
+        "france-jesus-ot",
+        "france-matthew-nicnt",
+        "wright-jesus-victory",
+        "gentry-ice-great-tribulation",
+        "ladd-blessed-hope",
+        "walvoord-matthew-kingdom"
+      ]
+    },
+    {
+      "id": "gathering-elect",
+      "ref": "Matthew 24:31",
+      "parallels": [
+        "Mark 13:27",
+        "Luke 21:28"
+      ],
+      "title": "Angels gather the elect",
+      "summary": "“He will send out his angels with a loud trumpet call, and they will gather his elect from the four winds, from one end of heaven to the other.” Luke instead tells the disciples to lift up their heads, because their redemption is drawing near.",
+      "context": "The verse echoes Deuteronomy 30:4 (God gathering exiled Israel from the ends of heaven), Zechariah 2:6 (the four winds), and Isaiah 27:13 (a great trumpet gathering exiles to worship in Jerusalem). The Greek angelos means messenger and is used of human messengers (Matthew 11:10; Luke 7:24; James 2:25). The trumpet also recalls the Jubilee trumpet proclaiming release (Leviticus 25:9).",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "With the old temple gone, the Son of Man sends his messengers, the gospel preachers (angeloi), to gather his elect people from every nation into the new temple, the church. The great trumpet is the gospel jubilee (Isaiah 27:13; Leviticus 25:9), and Deuteronomy 30:4 is fulfilled as people from the ends of heaven are gathered in. Some partial preterists instead apply the verse to the final resurrection."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "The gathering is the eschatological ingathering, resurrection and redemption of the saints at the AD 70 parousia, understood in a spiritual or covenantal rather than physical sense."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "At the Second Coming, angels gather the elect, chiefly the scattered believing Jews of the tribulation and other tribulation saints, from all over the earth to enter the millennial kingdom, fulfilling Deuteronomy 30:4. This is distinct from the earlier rapture of the church."
+        },
+        {
+          "position": "histpremil",
+          "reading": "This is the gathering of the church at Christ's posttribulational coming, with the same trumpet and angels as 1 Thessalonians 4:16 and 1 Corinthians 15:52. It shows that the elect are still on earth after the tribulation."
+        },
+        {
+          "position": "amil",
+          "reading": "This is the gathering of all God's people at the final return, the resurrection and transformation of believers at the last trumpet, followed by the judgment (25:31–46)."
+        },
+        {
+          "position": "idealism",
+          "reading": "Throughout the age Christ gathers his people from every nation; the final gathering at the end completes what the mission has been doing all along."
+        },
+        {
+          "position": "spiritual",
+          "reading": "The trumpet is the proclamation of the finished work, the good news of release, and the gathering is the drawing of people from every direction into union with Christ. Luke's “your redemption is drawing near” speaks to the believer's freedom from the old order."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "ad70",
+          "title": "Angeloi as human messengers",
+          "text": "Angelos is used of John the Baptist (Matthew 11:10), John's disciples (Luke 7:24) and Joshua's spies (James 2:25), so preterists argue “his messengers” can be gospel preachers.",
+          "source": "Matthew 11:10; Luke 7:24; James 2:25"
+        },
+        {
+          "side": "ad70",
+          "title": "A trumpet and an ingathering in the prophets",
+          "text": "Isaiah 27:13 speaks of a great trumpet calling exiles to worship the Lord in Jerusalem; preterists apply this to the gospel's worldwide call once the old temple was removed.",
+          "source": "Isaiah 27:12–13; Deuteronomy 30:4"
+        },
+        {
+          "side": "future",
+          "title": "The trumpet and gathering in Paul",
+          "text": "Paul speaks of the trumpet of God, the descent of the Lord and the gathering of believers (1 Thessalonians 4:16–17; 2 Thessalonians 2:1), and of the last trumpet at the resurrection (1 Corinthians 15:52). Futurists and amillennialists argue Matthew 24:31 is the same event.",
+          "source": "1 Thessalonians 4:16–17; 1 Corinthians 15:52; 2 Thessalonians 2:1"
+        }
+      ],
+      "keyIssue": "Whether the angels are heavenly beings gathering believers at the final return, or gospel messengers gathering the nations into the church after AD 70.",
+      "sources": [
+        "gentry-ice-great-tribulation",
+        "demar-last-days-madness",
+        "france-matthew-nicnt",
+        "ladd-blessed-hope",
+        "pentecost-things-to-come",
+        "hoekema-bible-future"
+      ]
+    },
+    {
+      "id": "fig-tree-generation",
+      "ref": "Matthew 24:32-35",
+      "parallels": [
+        "Mark 13:28-31",
+        "Luke 21:29-33"
+      ],
+      "title": "The fig tree and “this generation”",
+      "summary": "When the fig tree's branch becomes tender and puts out leaves, summer is near; so when you see all these things, you know he is near, at the very gates. “Truly I say to you, this generation will not pass away until all these things take place. Heaven and earth will pass away, but my words will not pass away.”",
+      "context": "Fig trees in Judea lose their leaves in winter and put them out in spring, so new leaves signal approaching summer. Luke adds “and all the trees” (21:29), which suggests a general nature lesson. Earlier, in Matthew 21:18–20, Jesus cursed a fig tree for having leaves but no fruit, an acted parable of judgment often linked with the temple. On the meaning of genea, see the separate “This generation” section.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "“This generation” means Jesus' contemporaries, as in every other use in Matthew (especially 23:36, where judgment falls on “this generation”), and “all these things” covers everything in 24:4–31, which therefore happened by AD 70, about forty years later. The disciples (“you”) would see the signs and know the end of the old order was at the gates. Verse 35 solemnly guarantees the time statement."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "Full preterists read the verse in the same way and argue that it controls the entire discourse, so that the parousia and the end of the age are included in “all these things”."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "Thomas Ice and others argue that “this generation” is the generation that sees the signs just described, so that those who witness the beginning of the tribulation will see its end. Scofield took genea as “race”, meaning the Jewish nation will be preserved. Some popular writers linked the fig tree with Israel's rebirth in 1948, but many dispensational scholars reject that because the text gives no such symbolism."
+        },
+        {
+          "position": "histpremil",
+          "reading": "Blomberg and others suggest that “all these things” refers to the signs of 24:4–28, all of which occurred or began within a generation, so the end could have come at any time thereafter; the coming itself in 24:30 is not part of “these things” but is what they signal as “near”."
+        },
+        {
+          "position": "amil",
+          "reading": "Amillennialists usually take “this generation” as Jesus' contemporaries, who saw the signs of AD 70 that anticipate the end. Some, following earlier commentators, take genea as “this kind of people”, the faithless in every age, or understand “all these things” as the preliminary signs rather than the final coming."
+        },
+        {
+          "position": "historicism",
+          "reading": "Classic historicists such as Thomas Newton and Albert Barnes took “this generation” to mean those then living and held that the destruction of Jerusalem fulfilled the prophecy within about forty years, which they counted among the strongest proofs of Christianity."
+        },
+        {
+          "position": "idealism",
+          "reading": "The fig tree lesson teaches readiness to read God's hand in history in every age. Whatever its first fulfilment, Jesus' words outlast heaven and earth and keep calling each generation to watchfulness."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "ad70",
+          "title": "Matthew's consistent use of “this generation”",
+          "text": "Every other occurrence of “this generation” in Matthew (11:16; 12:41, 42, 45; 23:36) refers to Jesus' contemporaries; 23:36 directly links judgment on “this generation” to the temple's desolation.",
+          "source": "Matthew 23:36–38"
+        },
+        {
+          "side": "ad70",
+          "title": "Forty years",
+          "text": "The destruction came about forty years after Jesus spoke, a generation in biblical reckoning (Numbers 32:13; Psalm 95:10), the same length as Israel's wilderness generation.",
+          "source": "Psalm 95:10; Hebrews 3:9–10"
+        },
+        {
+          "side": "future",
+          "title": "“When you see all these things”",
+          "text": "Ice argues that the demonstrative “this” points back to the generation that sees “all these things” in 24:33, so the generation is defined by the signs, not by Jesus' audience.",
+          "source": "Matthew 24:33–34; Thomas Ice, Matthew 24 and “This Generation”"
+        },
+        {
+          "side": "future",
+          "title": "The coming is part of “all these things”",
+          "text": "Futurists press the other side of the preterist argument: if 24:30 is part of “all these things” and the coming has clearly not happened visibly, then the generation must be a future one, or the whole sequence must still be future.",
+          "source": "Matthew 24:30–34"
+        }
+      ],
+      "keyIssue": "Whether genea means Jesus' contemporaries, the future generation that sees the signs, or the Jewish race, and whether “all these things” includes the coming in 24:30.",
+      "sources": [
+        "ice-matthew-24-this-generation",
+        "gentry-key-fob-olivet",
+        "france-matthew-nicnt",
+        "blomberg-matthew-nac",
+        "newton-dissertations-prophecies",
+        "carson-matthew-ebc"
+      ]
+    },
+    {
+      "id": "that-day-and-hour",
+      "ref": "Matthew 24:36",
+      "parallels": [
+        "Mark 13:32"
+      ],
+      "title": "That day and hour: the transition debate",
+      "summary": "“But concerning that day and hour no one knows, not even the angels of heaven, nor the Son, but the Father only.”",
+      "context": "The verse opens with peri de, “but concerning”, a phrase used in early Christian writing to introduce a new topic (compare 1 Corinthians 7:1, 25; 8:1; 12:1; 1 Thessalonians 4:9; 5:1). “That day” (singular) echoes the prophetic “day of the Lord”, whereas the preceding section spoke of “those days” (plural, 24:19, 22, 29). The confession that the Son does not know the day reflects the limitation Jesus accepted in his incarnate state.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "Here the discourse turns from “these things”, which had signs and a time limit (“this generation”), to “that day”, the final coming and judgment, which has no signs and no knowable date. The shift from plural “days” to singular “day”, the new-topic marker peri de, and the change from warnings about flight to warnings about unpreparedness all signal a change of subject. France and Gentry argue for this transition, and Kik placed it at 24:35/36."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "There is no transition: “that day” is the day of the parousia already described, and the parousia appears on both sides of the verse (24:27, 37, 39). Full preterists see the partial-preterist division as an arbitrary concession to creedal tradition; the timing of the day was unknown, but the generation was fixed."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "There is no shift from AD 70 to the future, because the whole discourse already concerns the future. “That day” is the day of Christ's return at the end of the tribulation, whose exact time is unknown even though the signs will show it is near; some dispensationalists apply 24:36–44 to the rapture."
+        },
+        {
+          "position": "histpremil",
+          "reading": "The verse balances the signs of 24:4–35: the signs show the coming is near, but no one can calculate the date. It is a warning against date-setting while the church watches through the tribulation."
+        },
+        {
+          "position": "amil",
+          "reading": "The verse confirms that Christ's return is incalculable. Some amillennialists accept a transition here from the AD 70 material to the final coming; others see the whole discourse as interweaving the two and read 24:36 as the climax of the same answer."
+        },
+        {
+          "position": "idealism",
+          "reading": "The unknown hour is a permanent call to readiness: because no one knows when the end will come, every generation must live as though it might be theirs."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "ad70",
+          "title": "Peri de as a topic marker",
+          "text": "Peri de introduces new subjects in Paul's letters (1 Corinthians 7:1; 8:1; 12:1; 1 Thessalonians 5:1), and France argues it does the same here, marking the move from the temple's fall to the final day.",
+          "source": "R. T. France, The Gospel of Matthew (NICNT)"
+        },
+        {
+          "side": "ad70",
+          "title": "Signs versus no signs",
+          "text": "Before 24:36 the events come with clear signs and a time limit; afterwards people are going about life with no warning (24:37–39), the master returns unexpectedly (24:44, 50) and even the Son does not know the time. Preterists argue that this contrast fits two different events.",
+          "source": "Matthew 24:33–34, 36–44"
+        },
+        {
+          "side": "future",
+          "title": "Parousia on both sides",
+          "text": "Parousia occurs in 24:27 (before the supposed transition) and 24:37, 39 (after it), which full preterists and futurists both use to argue that the discourse speaks of one coming throughout.",
+          "source": "Matthew 24:27, 37, 39"
+        }
+      ],
+      "keyIssue": "Whether 24:36 marks a change of subject from AD 70 to the final coming, and if so, why the same word parousia appears on both sides.",
+      "sources": [
+        "france-matthew-nicnt",
+        "kik-eschatology-of-victory",
+        "mathison-when-shall",
+        "russell-parousia",
+        "ice-matthew-24-this-generation",
+        "gentry-ice-great-tribulation"
+      ]
+    },
+    {
+      "id": "noah-one-taken",
+      "ref": "Matthew 24:37-44",
+      "parallels": [
+        "Luke 17:26-36",
+        "Mark 13:33-37"
+      ],
+      "title": "The days of Noah: one taken, one left",
+      "summary": "The coming of the Son of Man will be like the days of Noah: people were eating, drinking and marrying until the flood came and swept them all away. Two men will be in the field, one taken and one left; two women grinding at the mill, one taken and one left. Stay awake, for you do not know the day; the Son of Man comes at an hour you do not expect, like a thief.",
+      "context": "Grinding at the mill was women's daily work, done in pairs with a hand-mill. The flood story was the classic Jewish example of sudden universal judgment (Genesis 6–7; 1 Enoch; 2 Peter 2:5; 3:6). In 24:39 the flood “took away” (ēren) the wicked; in 24:40–41 the verb for “taken” is paralambanetai, which can mean taken along or received (as in John 14:3), but also taken away for judgment.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "Most partial preterists apply this section to the final coming, which unlike AD 70 comes without warning in the middle of ordinary life. The one taken is taken away in judgment like those swept away by the flood, and the one left remains, like Noah. Some partial preterists (and earlier commentators) apply the passage to AD 70, noting that Luke 17:31–37 combines similar sayings with flight from Judea."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "The days of Noah describe the generation before AD 70, carrying on as usual until judgment fell. Those taken were removed in the Roman judgment or, for some full preterists, gathered to Christ at the parousia."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "Many pretribulationists apply the one-taken-one-left sayings to the rapture: believers taken to meet Christ while unbelievers are left. Others, including many dispensational scholars, apply them to the Second Coming after the tribulation, where those taken are removed in judgment (as in the flood, and Luke 17:37) and the righteous are left to enter the kingdom."
+        },
+        {
+          "position": "histpremil",
+          "reading": "The passage describes the one posttribulational coming. Many posttribulationists argue that the one taken is taken in judgment, as the flood took the wicked away, while the one left remains to share in the kingdom; it is not a secret rapture."
+        },
+        {
+          "position": "amil",
+          "reading": "The coming will be sudden and will divide people who look alike, working side by side, according to their readiness. The whole section calls the church in every age to watch, since the end will come unannounced."
+        },
+        {
+          "position": "idealism",
+          "reading": "Ordinary life lived without reference to God is the real danger. The coming of Christ, in each crisis and finally at the end, sorts the ready from the unready, so discipleship means constant watchfulness."
+        },
+        {
+          "position": "spiritual",
+          "reading": "The days of Noah picture people absorbed in the outward round of life, unaware of what God is doing. One is “taken” into the reality of Christ's kingdom while another remains in the old way, and the call is to be awake to his presence now."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "both",
+          "title": "Taken in judgment or taken to safety?",
+          "text": "In the flood those “taken away” were the wicked; Luke's parallel ends with the vultures gathering over the corpse (17:37), which suggests judgment. But paralambanō usually means to take someone along with oneself (Matthew 1:20; 17:1; John 14:3), which supports a gathering of believers.",
+          "source": "Matthew 24:39–41; Luke 17:34–37; John 14:3"
+        },
+        {
+          "side": "future",
+          "title": "No signs, ordinary life",
+          "text": "The picture of people eating, drinking and marrying, unaware, fits a coming that is unannounced, which futurists and partial preterists alike use to distinguish this section from the sign-heralded events of 24:15–28.",
+          "source": "Matthew 24:37–39, 44"
+        }
+      ],
+      "keyIssue": "Whether the one taken is removed for judgment or gathered to Christ, and whether the section describes AD 70 or the final coming.",
+      "sources": [
+        "france-matthew-nicnt",
+        "ladd-blessed-hope",
+        "walvoord-matthew-kingdom",
+        "gentry-ice-great-tribulation",
+        "carson-matthew-ebc"
+      ]
+    },
+    {
+      "id": "faithful-servant",
+      "ref": "Matthew 24:45-51",
+      "parallels": [
+        "Luke 12:42-46"
+      ],
+      "title": "The faithful and the wicked servant",
+      "summary": "A faithful and wise servant, put in charge of his master's household, gives food at the proper time and is blessed when the master returns. But a wicked servant who says “My master is delayed” and beats his fellow servants and drinks with drunkards will be surprised by the master's return, cut in pieces and assigned a place with the hypocrites, where there will be weeping and gnashing of teeth.",
+      "context": "Household stewards (oikonomoi), often slaves, managed large estates for absent owners, a familiar arrangement in Roman Palestine. “Hypocrites” is Matthew's word for the scribes and Pharisees in chapter 23. The theme of delay (chronizei) recurs in 25:5 and 25:19.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "Most partial preterists read 24:45–51 as part of the teaching on the final coming after the transition at 24:36. Some note that the wicked servant who abuses fellow servants resembles the leaders condemned in Matthew 23, so the parable first warned Israel's stewards, and then the church's leaders, to be faithful."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "The master returned within the lifetime of the servants addressed, in AD 70, and the judgment on the wicked servant fell on the unfaithful leaders of that generation."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "The parable applies the coming to the conduct of those who profess to serve the Lord, especially during the tribulation, and more broadly to believers' faithfulness before Christ returns."
+        },
+        {
+          "position": "histpremil",
+          "reading": "The parable shows that Jesus expected a possibly long interval before his return (“my master is delayed”), during which church leaders must feed the household faithfully."
+        },
+        {
+          "position": "amil",
+          "reading": "The parable describes Christian leaders in the whole period between the comings. The servant's assumption of delay is not wrong in itself; his error is to treat delay as licence."
+        },
+        {
+          "position": "idealism",
+          "reading": "Every age has faithful and unfaithful stewards in the church; the master's return, whenever it comes, will reveal which each one is."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "future",
+          "title": "The motif of delay",
+          "text": "The wicked servant's “my master is delayed” (24:48), the bridegroom's delay (25:5) and the master's return “after a long time” (25:19) suggest Jesus envisaged an extended interval before his coming.",
+          "source": "Matthew 24:48; 25:5, 19"
+        },
+        {
+          "side": "ad70",
+          "title": "Hypocrites and abusive stewards",
+          "text": "The judgment “with the hypocrites” echoes the woes of Matthew 23, which end in judgment on “this generation” (23:36), so some preterists see a first-century application to Israel's leaders.",
+          "source": "Matthew 23:13–36; 24:51"
+        }
+      ],
+      "keyIssue": "Whether the parable's emphasis on delay points to a long interval before the final coming, and to whom the servants refer.",
+      "sources": [
+        "france-matthew-nicnt",
+        "carson-matthew-ebc",
+        "blomberg-matthew-nac",
+        "ladd-presence-future"
+      ]
+    },
+    {
+      "id": "virgins-talents",
+      "ref": "Matthew 25:1-30",
+      "parallels": [
+        "Luke 19:11-27",
+        "Luke 12:35-40"
+      ],
+      "title": "The ten virgins and the talents",
+      "summary": "Ten bridesmaids wait for a delayed bridegroom; five wise ones bring extra oil and go in to the wedding feast, while five foolish ones are shut out: “Watch, for you know neither the day nor the hour.” Then a master entrusts talents to three servants and, “after a long time”, settles accounts, rewarding the two who traded and casting out the one who buried his talent.",
+      "context": "Wedding processions often took place at night, with the bridegroom fetching his bride and friends lighting the way with torches or lamps. A talent was a very large sum, roughly the wages of a labourer for many years. Luke's parable of the minas is told because people “supposed the kingdom of God was to appear immediately” (Luke 19:11), and it includes a nobleman who goes to a far country to receive a kingdom.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "These parables follow the transition at 24:36 and concern readiness for the final coming and judgment after an indefinite delay. A minority apply them first to Israel's readiness for the crisis of the 60s, but most partial preterists, like most interpreters, see them as teaching for the church until the end."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "The bridegroom came and the master settled accounts in AD 70: the faithful entered the kingdom while unfaithful Israel was shut out. The delay was real but within a generation."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "The virgins illustrate the readiness required of Israel during the tribulation before Christ's return to establish the kingdom (the wedding feast); the talents describe the judgment of the living at the beginning of the millennial kingdom. Many dispensationalists also apply both parables to Christians more generally."
+        },
+        {
+          "position": "histpremil",
+          "reading": "Both parables assume a long interval (“after a long time”) and call the church to prepared, productive faithfulness until the visible return, when rewards and exclusion follow."
+        },
+        {
+          "position": "amil",
+          "reading": "The parables describe the church in the present age, a mixed body of wise and foolish, faithful and unfaithful, whose true state will be revealed at the final coming."
+        },
+        {
+          "position": "idealism",
+          "reading": "Readiness is not a matter of calculating dates but of spiritual reality (oil) and faithful use of gifts (talents). The parables address every generation."
+        },
+        {
+          "position": "spiritual",
+          "reading": "The oil is the life of the Spirit that cannot be borrowed, and the talent is the grace entrusted to each believer. The one who buried his talent feared a hard master; the faithful knew his generosity and lived from it."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "future",
+          "title": "“After a long time”",
+          "text": "The master returns after a long time (25:19), and Luke's parable corrects those who expected the kingdom to appear immediately (Luke 19:11), which many argue shows Jesus anticipated a substantial interval before his coming.",
+          "source": "Matthew 25:19; Luke 19:11"
+        },
+        {
+          "side": "both",
+          "title": "Delay but within limits?",
+          "text": "Preterists reply that a generation of about forty years was itself a long time for disciples expecting an immediate kingdom, so the delay motif does not necessarily point beyond the first century.",
+          "source": "Matthew 24:34, 48; 25:5"
+        }
+      ],
+      "keyIssue": "Whether the parables of delay point to a long interval before the final coming, or to a delay within the first generation.",
+      "sources": [
+        "france-matthew-nicnt",
+        "carson-matthew-ebc",
+        "ladd-presence-future",
+        "russell-parousia",
+        "pentecost-things-to-come"
+      ]
+    },
+    {
+      "id": "sheep-goats",
+      "ref": "Matthew 25:31-46",
+      "parallels": [],
+      "title": "The sheep and the goats",
+      "summary": "When the Son of Man comes in his glory with all his angels, he will sit on his glorious throne and gather all the nations, separating people as a shepherd separates sheep from goats. Those who cared for “the least of these my brothers” inherit the kingdom; the others go away into eternal punishment, and the righteous into eternal life.",
+      "context": "Palestinian shepherds commonly grazed sheep and goats together by day and separated them at night. The scene draws on Daniel 7:9–14 (the throne and the Son of Man), Zechariah 14:5 (“all the holy ones with him”) and Joel 3:2, 12 (God gathering the nations for judgment). The phrase “eternal life” and “eternal punishment” (25:46) echo Daniel 12:2, the resurrection of the righteous and the wicked.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "This is the final judgment at Christ's bodily return, which partial preterists distinguish clearly from AD 70; some see 25:31 as the point where the discourse definitively moves from the first-century crisis to the end of history. The parallel with Daniel 12:2 and the universal scope (“all the nations”) mark it as the last judgment."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "The judgment of the nations took place in the spiritual realm at the AD 70 parousia, when Christ began to reign over all nations and the righteous entered the kingdom. Critics note that this requires reading “eternal life” and “eternal punishment” in a non-final way that the creeds reject."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "This is the judgment of the living Gentile nations at Christ's return after the tribulation, to determine who enters the millennial kingdom; “my brothers” are Jesus' Jewish brothers, the believing remnant, whose treatment reveals the nations' hearts. It is distinct from the great white throne judgment of Revelation 20:11–15."
+        },
+        {
+          "position": "histpremil",
+          "reading": "Historic premillennialists usually see this as a picture of judgment at Christ's return, though some place the final judgment of all the dead after the millennium (Revelation 20:11–15) and treat this as a judgment of the living."
+        },
+        {
+          "position": "amil",
+          "reading": "This is the one general judgment of all people at the single return of Christ, followed immediately by the eternal state. There is no room for an intervening millennium, since the righteous go straight into eternal life and the wicked into eternal punishment."
+        },
+        {
+          "position": "idealism",
+          "reading": "The scene reveals that how people treat Christ's needy brothers and sisters is how they treat Christ, a truth that shapes life in every age and will be made public at the end."
+        },
+        {
+          "position": "spiritual",
+          "reading": "The Son of Man on his throne is Christ revealed in glory, and the separation exposes whether people have received the life of Christ that shows itself in love for the least. Union with him, not performance, is what the sheep did not even notice they possessed."
+        }
+      ],
+      "evidence": [
+        {
+          "side": "future",
+          "title": "Universal judgment and eternal destinies",
+          "text": "The judgment of “all the nations” issuing in eternal life and eternal punishment (25:46) mirrors Daniel 12:2 and John 5:28–29, which most interpreters, including partial preterists, read as the final resurrection and judgment.",
+          "source": "Matthew 25:31–46; Daniel 12:2; John 5:28–29"
+        },
+        {
+          "side": "both",
+          "title": "Who are “the least of these”?",
+          "text": "Some read “my brothers” as Christ's disciples or missionaries (compare 10:40–42; 12:48–50), others as any needy person; dispensationalists add the Jewish remnant. The identification affects whether the passage is about mission, compassion or Israel.",
+          "source": "Matthew 10:40–42; 12:48–50; 25:40"
+        }
+      ],
+      "keyIssue": "Whether this is the general final judgment, a judgment of the living nations before a millennium, or a covenantal judgment in AD 70.",
+      "sources": [
+        "france-matthew-nicnt",
+        "hoekema-bible-future",
+        "pentecost-things-to-come",
+        "mathison-when-shall",
+        "carson-matthew-ebc"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "id": "matthew-10-23",
+      "ref": "Matthew 10:23",
+      "title": "Before the Son of Man comes: the towns of Israel",
+      "text": "Sending out the Twelve, Jesus warns that they will be persecuted and says: “When they persecute you in one town, flee to the next, for truly I say to you, you will not have gone through all the towns of Israel before the Son of Man comes.” The saying sits in a mission discourse that also predicts councils, floggings and governors (10:17–18), language that reappears in the Olivet Discourse. Albert Schweitzer famously thought it showed Jesus expected the end during that first mission and was mistaken, which makes the verse a test case for every view.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "The disciples' mission to Israel would not be complete before the Son of Man came in judgment on Jerusalem in AD 70. The persecutions of 10:17–23 match those of Matthew 24:9–13, and the coming is the same Daniel 7 coming in judgment and vindication."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "The verse sets a firm limit on the parousia within the lifetime of the Twelve, and full preterists use it to argue that the one and only Second Coming happened in AD 70."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "Many dispensationalists see the latter part of Matthew 10 as reaching beyond the first mission to the witness of Jewish believers in the future tribulation, which will not be finished before Christ returns; the mission to Israel was interrupted by the church age."
+        },
+        {
+          "position": "amil",
+          "reading": "Interpretations include the resurrection, Pentecost, AD 70 or the final coming; many amillennialists take it as AD 70 or as a statement that the mission to Israel will continue until the end."
+        },
+        {
+          "position": "histpremil",
+          "reading": "Some historic premillennialists read the verse as a prophetic telescoping of the near mission and the ongoing mission to Israel, which will remain unfinished until Christ's return."
+        }
+      ],
+      "sources": [
+        "meyer-matthew-10-23",
+        "france-matthew-nicnt",
+        "carson-matthew-ebc",
+        "gentry-ice-great-tribulation"
+      ]
+    },
+    {
+      "id": "matthew-16-28",
+      "ref": "Matthew 16:27-28",
+      "title": "Some standing here will not taste death",
+      "text": "Jesus says the Son of Man will come with his angels in his Father's glory and repay each person according to what he has done, and that some standing there will not taste death until they see the Son of Man coming in his kingdom. Mark 9:1 has “until they see the kingdom of God after it has come with power”, and Luke 9:27 simply “until they see the kingdom of God”. In all three Gospels the next scene is the transfiguration, six or eight days later.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "Some of Jesus' hearers would live to see his coming in kingdom power, which partial preterists identify with the AD 70 judgment, about forty years later, when most but not all of the apostles had died. Verse 27 may describe the final judgment while verse 28 describes the near coming, or both may refer to AD 70."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "The two verses describe one coming, with judgment and reward, within the lifetime of some present; therefore the final coming and judgment happened in AD 70."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "The promise was fulfilled a week later in the transfiguration, when Peter, James and John saw a preview of Christ's kingdom glory, as 2 Peter 1:16–18 explains."
+        },
+        {
+          "position": "amil",
+          "reading": "Many amillennialists see the fulfilment in the resurrection, ascension and Pentecost, when the kingdom came with power, or in the transfiguration as a foretaste."
+        },
+        {
+          "position": "histpremil",
+          "reading": "Ladd and others see the kingdom coming in power in the resurrection and the outpouring of the Spirit, the present dimension of the kingdom that anticipates its future consummation."
+        }
+      ],
+      "sources": [
+        "mathison-some-standing-here",
+        "ladd-presence-future",
+        "carson-matthew-ebc",
+        "france-matthew-nicnt"
+      ]
+    },
+    {
+      "id": "matthew-23-36",
+      "ref": "Matthew 23:29-39",
+      "title": "All this will come upon this generation; your house is left desolate",
+      "text": "Jesus pronounces the last of his woes on the scribes and Pharisees, saying they will fill up the measure of their fathers and that all the righteous blood shed from Abel to Zechariah will come upon “this generation” (23:35–36). He then laments over Jerusalem, “your house is left to you desolate”, and says they will not see him again until they say “Blessed is he who comes in the name of the Lord” (23:37–39). The passage leads directly into the Olivet Discourse.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "This is the key that unlocks the discourse. Judgment on “this generation” and the desolation of the “house” (the temple) are exactly what the disciples ask about in 24:1–3, and what was fulfilled in AD 70. Since “this generation” in 23:36 plainly means Jesus' contemporaries, it should mean the same in 24:34."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "The judgment of 23:36, the desolation of 23:38 and the coming of 24:30 are one AD 70 event; full preterists see this as confirming that the parousia belongs to that generation."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "Dispensationalists agree that 23:36 refers to the judgment of AD 70 but argue that 23:39 (“until you say, Blessed is he”) anticipates Israel's future repentance and welcome of the Messiah at the Second Coming (Zechariah 12:10; Romans 11:26)."
+        },
+        {
+          "position": "amil",
+          "reading": "The passage announces the end of the temple order in the judgment of AD 70; the “until” of 23:39 may point to a future turning of Jews to Christ or simply to their acknowledgment of him at the judgment."
+        },
+        {
+          "position": "postmil",
+          "reading": "Postmillennialists stress both the AD 70 judgment and the hope in 23:39, which many link with Romans 11 and expect to be fulfilled in a large-scale conversion of the Jewish people before the end."
+        }
+      ],
+      "sources": [
+        "gentry-key-fob-olivet",
+        "demar-last-days-madness",
+        "france-matthew-nicnt",
+        "murray-puritan-hope",
+        "pentecost-things-to-come"
+      ]
+    },
+    {
+      "id": "matthew-26-64",
+      "ref": "Matthew 26:64",
+      "title": "You will see the Son of Man",
+      "text": "At his trial, put under oath by the high priest Caiaphas, Jesus says: “From now on you will see the Son of Man seated at the right hand of Power and coming on the clouds of heaven.” He combines Psalm 110:1 and Daniel 7:13 and addresses the high priest and council in the plural. Mark 14:62 lacks “from now on”; Luke 22:69 says “from now on the Son of Man shall be seated at the right hand of the power of God”.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "“From now on” shows that the enthronement and coming begin with Jesus' death and resurrection and are publicly displayed in his judgment on the temple. The very leaders who condemned him would “see”, that is, recognise, his vindication within their lifetime. This strongly supports reading 24:30 as AD 70."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "The high priest and council would see the coming, so it must have happened within their lifetime; full preterists treat this as one of their strongest texts."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "Jesus warns his judges that they will one day see him as glorified judge, at his return or at the final resurrection when all stand before him; “seeing” may be in the future resurrection state, not within their earthly lifetime."
+        },
+        {
+          "position": "amil",
+          "reading": "Many amillennialists see a progressive fulfilment: from the resurrection onward Christ reigns at God's right hand, and his judges will see him coming at the final judgment."
+        },
+        {
+          "position": "histpremil",
+          "reading": "The exaltation began at once, but the coming on the clouds is the future return, at which the council members, raised for judgment, will see him."
+        }
+      ],
+      "sources": [
+        "france-jesus-ot",
+        "wright-jesus-victory",
+        "gentry-ice-great-tribulation",
+        "carson-matthew-ebc"
+      ]
+    },
+    {
+      "id": "luke-17",
+      "ref": "Luke 17:20-37",
+      "title": "The kingdom in your midst and the day of the Son of Man",
+      "text": "Asked by Pharisees when the kingdom would come, Jesus says it does not come with signs to be observed, “for the kingdom of God is in your midst” (or “within you”). To the disciples he then speaks of “the day of the Son of Man”, like lightning, like the days of Noah and Lot, when one will be taken and another left, and anyone on the housetop must not go down for his goods. Asked “Where, Lord?”, he answers, “Where the corpse is, there the vultures (or eagles) will gather.”",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "Luke places sayings Matthew uses in 24:17–18, 27–28 and 37–41 together in one context with flight from the housetop and remembering Lot's wife, which suggests that a single historical crisis, the Roman judgment, is in view. Some partial preterists therefore apply Matthew 24:37–41 to AD 70 as well; others see Luke as combining two horizons."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "Luke 17 describes the Second Coming at the end of the tribulation, when the judgment falls suddenly; those taken are removed in judgment (17:37), and those left enter the kingdom."
+        },
+        {
+          "position": "amil",
+          "reading": "The present kingdom (17:21) and the future day (17:24) stand side by side: the kingdom is already here in Jesus, but its public manifestation awaits his return."
+        },
+        {
+          "position": "histpremil",
+          "reading": "Ladd built much of his theology on texts like this one: the kingdom is present in Jesus' person and works, yet its consummation comes on a future day of the Son of Man."
+        },
+        {
+          "position": "spiritual",
+          "reading": "The kingdom is not found by watching outward signs but is present where Christ is; the day of the Son of Man reveals what was within all along, and Lot's wife warns against clinging to the old life."
+        }
+      ],
+      "sources": [
+        "ladd-presence-future",
+        "france-matthew-nicnt",
+        "demar-last-days-madness",
+        "hoekema-bible-future"
+      ]
+    },
+    {
+      "id": "luke-19-41",
+      "ref": "Luke 19:41-44",
+      "title": "Jesus weeps over Jerusalem",
+      "text": "As he approached the city on Palm Sunday, Jesus wept over it, saying that its enemies would set up a barricade (charax) around it, surround it, hem it in on every side, and dash it and its children to the ground, leaving not one stone upon another, “because you did not know the time of your visitation”. The prediction is concrete and local, describing the methods of a Roman siege.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "This is an unmistakable prophecy of AD 70, fulfilled in detail when Titus built a siege wall around Jerusalem in three days and then destroyed the city. It shows that Jesus did speak specifically about the Roman siege and frames the Olivet Discourse as primarily about that event."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "Dispensationalists agree this predicts AD 70 and see it as the consequence of Israel's rejection of the Messiah, which led to the postponement of the kingdom until the future."
+        },
+        {
+          "position": "amil",
+          "reading": "The prediction shows the judgment of AD 70 as the covenant consequence of Israel's failure to recognise its visitation in Jesus, and it is widely agreed among amillennialists that it was fulfilled then."
+        },
+        {
+          "position": "histpremil",
+          "reading": "The siege prophecy was fulfilled in AD 70, but historic premillennialists see it as the near judgment that, like Old Testament judgments, anticipates the far one."
+        },
+        {
+          "position": "spiritual",
+          "reading": "Jesus weeps over a people who missed the day of their visitation because they looked for a different messiah. The warning applies whenever people cling to outward religion and miss Christ himself."
+        }
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "wright-jesus-victory",
+        "pentecost-things-to-come",
+        "ladd-presence-future"
+      ]
+    },
+    {
+      "id": "luke-21-24",
+      "ref": "Luke 21:20-24",
+      "title": "Jerusalem surrounded by armies; the times of the Gentiles",
+      "text": "In Luke's version of the discourse, Jesus says: “When you see Jerusalem surrounded by armies, then know that its desolation has come near.” Those in Judea are to flee, because these are days of vengeance to fulfil all that is written. People will fall by the sword and be led captive among all nations, “and Jerusalem will be trampled underfoot by the Gentiles, until the times of the Gentiles are fulfilled.”",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "Luke's plain wording interprets the abomination of Matthew and Mark as the Roman armies around Jerusalem, a sign the disciples saw when Cestius Gallus advanced in AD 66. The “days of vengeance” are covenant judgment; partial preterists differ on whether the times of the Gentiles end in AD 70 or extend through history."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "Luke 21:20–24 refers to AD 70, but the times of the Gentiles, which began with Nebuchadnezzar, continue until Christ returns to restore Jerusalem. That “until” shows Jerusalem's future, and it places the coming of 21:25–28 after a long interval."
+        },
+        {
+          "position": "histpremil",
+          "reading": "The verse shows a long Gentile period between the fall of Jerusalem and the return of Christ, which historic premillennialists take as clear evidence that the discourse spans both events."
+        },
+        {
+          "position": "amil",
+          "reading": "Luke separates AD 70 from the end by the times of the Gentiles, the present church age; Christ returns at its close."
+        },
+        {
+          "position": "historicism",
+          "reading": "Historicists have long linked the times of the Gentiles with the prophetic periods of Daniel and Revelation (the 1260 days or 42 months of Revelation 11:2), calculating them on the year-day principle."
+        },
+        {
+          "position": "postmil",
+          "reading": "The times of the Gentiles are the age of the gospel among the nations, which, following Romans 11:25–26, many postmillennialists expect to be followed by a large ingathering of Israel."
+        }
+      ],
+      "sources": [
+        "gentry-ice-great-tribulation",
+        "walvoord-millennial-kingdom",
+        "hoekema-bible-future",
+        "murray-puritan-hope",
+        "elliott-horae"
+      ]
+    },
+    {
+      "id": "luke-23-28",
+      "ref": "Luke 23:28-31",
+      "title": "Daughters of Jerusalem, weep for yourselves",
+      "text": "On the road to the cross Jesus turns to the women mourning for him: “Daughters of Jerusalem, do not weep for me, but weep for yourselves and for your children.” Days are coming when people will say “Blessed are the barren and the wombs that never bore”, and will call on the mountains to fall on them and the hills to cover them (Hosea 10:8). “If they do these things when the wood is green, what will happen when it is dry?”",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "The prophecy was fulfilled within the lifetime of those women's children, in the siege of AD 70, when famine was so severe that a mother ate her own child, as Josephus records. The call to the mountains to cover them is echoed in Revelation 6:16, which partial preterists also apply to that judgment."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "The words primarily anticipate AD 70, but the use of Hosea 10:8 in Revelation 6:16 shows they also foreshadow the final terror of the tribulation."
+        },
+        {
+          "position": "amil",
+          "reading": "The saying applies to AD 70 and, by extension, to all who reject Christ and face judgment, as Revelation 6:16 shows in its picture of the final day."
+        },
+        {
+          "position": "histpremil",
+          "reading": "The near fulfilment in AD 70 is clear; the wider principle of green and dry wood points to the greater judgment to come."
+        }
+      ],
+      "sources": [
+        "josephus-jewish-war",
+        "gentry-ice-great-tribulation",
+        "france-matthew-nicnt",
+        "pentecost-things-to-come"
+      ]
+    },
+    {
+      "id": "john-21-22",
+      "ref": "John 21:22-23",
+      "title": "If I want him to remain until I come",
+      "text": "When Peter asks what will happen to the beloved disciple, Jesus answers, “If it is my will that he remain until I come, what is that to you?” The narrator then corrects a rumour that this disciple would not die, pointing out that Jesus did not say so, only “if it is my will”. Many date John's Gospel after AD 70, so the comment may reflect the disciple's old age or death.",
+      "readings": [
+        {
+          "position": "partial-preterism",
+          "reading": "Jesus hints that John might live until his coming in judgment in AD 70, which tradition says he did, living into the reign of Trajan. The narrator's correction warns against turning a conditional statement into a promise that John would see the final coming."
+        },
+        {
+          "position": "full-preterism",
+          "reading": "The verse shows that the apostles expected the coming within John's lifetime, and full preterists argue it was fulfilled in AD 70."
+        },
+        {
+          "position": "dispensationalism",
+          "reading": "The saying is hypothetical: Jesus told Peter to follow him and not to speculate. The narrator's correction shows that the early church did not take it as a promise of an early return."
+        },
+        {
+          "position": "amil",
+          "reading": "The point is about discipleship, not chronology: each disciple has his own calling, and the timing of Christ's return belongs to his will."
+        }
+      ],
+      "sources": [
+        "carson-john-pntc",
+        "gentry-ice-great-tribulation",
+        "russell-parousia",
+        "carson-matthew-ebc"
+      ]
+    }
+  ],
+  "generation": {
+    "text": "The Greek word genea (Matthew 24:34; Mark 13:30; Luke 21:32) comes from a root meaning to be born. In the Greek Old Testament and the New Testament its main sense is the people living at one time, the contemporaries of someone, and by extension the span of a generation (around thirty to forty years); it can also mean descent or lineage (Matthew 1:17, where it means the generations in a family line), and in some contexts a kind or class of people sharing a character, as in Psalm 12:7 (LXX 11:8) or “a crooked and twisted generation” (Deuteronomy 32:5; Philippians 2:15). Standard lexicons such as BDAG give “those born at the same time, contemporaries” as a primary sense, and most commentators place Matthew 24:34 under it, though other proposals have long been made. In Matthew the phrase “this generation” (hē genea hautē) appears in 11:16, 12:41, 12:42, 12:45, 23:36 and 24:34, and related expressions (“evil and adulterous generation”, “faithless and twisted generation”) in 12:39, 16:4 and 17:17. In each case outside chapter 24 the reference is to the people of Jesus' own day, usually with a moral charge of unbelief. Three alternatives have been proposed for 24:34. First, “race” or “nation” (genos), meaning the Jewish people would survive until the end (Scofield, some earlier commentators); critics reply that genea and genos are different words and that this reading drains the saying of any time element. Second, “kind” or “type”, meaning faithless people would persist until the end (some patristic writers, and some amillennialists), which draws on the moral overtones of the word. Third, “the generation that sees these signs”, a future generation (Walvoord, Ice), arguing that the demonstrative “this” refers to the generation just described as seeing “all these things” (24:33). Preterists respond that “this” (hautē) in the Gospels normally points to what is near at hand, that Jesus uses “that” (ekeinē) when speaking of a future day (24:36), and that Matthew 23:36 sets the pattern. Others again accept “contemporaries” but limit “all these things” to the signs preceding the end rather than the coming itself (Blomberg, some amillennialists). The question is central, because if genea means Jesus' contemporaries and “all these things” includes 24:30, the coming of the Son of Man described there belongs to the first century.",
+    "uses": [
+      {
+        "ref": "Matthew 11:16",
+        "text": "“To what shall I compare this generation?” Jesus compares his contemporaries to sulking children who rejected both John and himself; plainly the people of that time."
+      },
+      {
+        "ref": "Matthew 12:39-45",
+        "text": "An “evil and adulterous generation” seeks a sign; the men of Nineveh and the queen of the South will rise up at the judgment with “this generation” and condemn it; the unclean spirit returns, “so also will it be with this evil generation”. All refer to Jesus' hearers."
+      },
+      {
+        "ref": "Matthew 16:4",
+        "text": "“An evil and adulterous generation seeks for a sign, but no sign will be given to it except the sign of Jonah.” Spoken to Pharisees and Sadducees present."
+      },
+      {
+        "ref": "Matthew 17:17",
+        "text": "“O faithless and twisted generation, how long am I to be with you?” Addressed to the crowd and disciples who failed to heal the boy; uses moral description of contemporaries."
+      },
+      {
+        "ref": "Matthew 23:36",
+        "text": "“Truly I say to you, all these things will come upon this generation.” The same formula as 24:34 (“truly I say to you”, “all these things”, “this generation”), applied to the judgment on Jerusalem and the temple announced in 23:38."
+      },
+      {
+        "ref": "Matthew 24:34",
+        "text": "“Truly I say to you, this generation will not pass away until all these things take place.” The disputed verse; the parallels are Mark 13:30 and Luke 21:32."
+      },
+      {
+        "ref": "Matthew 1:17",
+        "text": "“So all the generations from Abraham to David were fourteen generations.” Here genea means the successive links in a family line, showing the word's range."
+      },
+      {
+        "ref": "Acts 2:40",
+        "text": "Peter urges his hearers to “save yourselves from this crooked generation”, using the word of his contemporaries in Jerusalem, about AD 30–33."
+      }
+    ],
+    "readings": [
+      {
+        "position": "partial-preterism",
+        "reading": "Genea means Jesus' contemporaries, as everywhere else in Matthew, and especially 23:36, which uses the identical formula for AD 70. All the signs and the coming of 24:4–34 were fulfilled within forty years. The final coming of 24:36–25:46 is not covered by the time statement."
+      },
+      {
+        "position": "full-preterism",
+        "reading": "Genea means contemporaries, and since the whole discourse, including the parousia and the end of the age, is included in “all these things”, everything was fulfilled by AD 70."
+      },
+      {
+        "position": "dispensationalism",
+        "reading": "The generation is the one that sees the signs of the future tribulation (24:33): those who see its beginning will see its end. An older dispensational alternative takes genea as the Jewish race, preserved until the end. Both readings protect the visible future coming of 24:30."
+      },
+      {
+        "position": "histpremil",
+        "reading": "Genea means contemporaries, but “all these things” refers to the preliminary signs of 24:4–28, which were fulfilled within that generation, so the coming of 24:30 was “near” from then on and could not be dated."
+      },
+      {
+        "position": "amil",
+        "reading": "Most amillennialists take genea as Jesus' contemporaries and see AD 70 as the fulfilment of the signs that also typify the end. Some take genea as a kind of people, unbelieving humanity, which will persist until Christ returns."
+      },
+      {
+        "position": "historicism",
+        "reading": "Classical historicists generally took genea as contemporaries and the prophecy as fulfilled in AD 70, then looked to Daniel and Revelation for the history that followed."
+      }
+    ]
+  },
+  "fulfilments": [
+    {
+      "prophecy": "Matthew 24:2",
+      "prophecyText": "Not one stone will be left here upon another that will not be thrown down.",
+      "event": "Titus ordered the whole city and temple demolished, leaving only three towers and part of the western wall.",
+      "year": "AD 70",
+      "source": "Josephus, Jewish War 7.1.1",
+      "note": "The temple platform's retaining walls survived; most scholars take Jesus' words as referring to the temple buildings, which were completely destroyed."
+    },
+    {
+      "prophecy": "Luke 19:43-44",
+      "prophecyText": "Your enemies will set up a barricade around you and surround you and hem you in on every side.",
+      "event": "Titus' army built a wall of circumvallation about 39 furlongs long with thirteen garrison forts around Jerusalem in three days, cutting off escape and supplies.",
+      "year": "AD 70",
+      "source": "Josephus, Jewish War 5.12.2",
+      "note": "Some critical scholars argue that Luke wrote after 70 and shaped the wording to fit; others note that the language echoes Old Testament siege descriptions (Isaiah 29:3; Ezekiel 4:2) and was predictable for any siege."
+    },
+    {
+      "prophecy": "Luke 21:20",
+      "prophecyText": "When you see Jerusalem surrounded by armies, then know that its desolation has come near.",
+      "event": "Cestius Gallus, governor of Syria, besieged Jerusalem, then withdrew without apparent reason and was routed at Beth-horon; many leading citizens left the city afterwards.",
+      "year": "AD 66",
+      "source": "Josephus, Jewish War 2.19.4–9; 2.20.1",
+      "note": "Preterists see Cestius' withdrawal as the window for Christians to flee; others think Titus' siege in 70 is the event in view, when flight was no longer possible."
+    },
+    {
+      "prophecy": "Matthew 24:16",
+      "prophecyText": "Then let those who are in Judea flee to the mountains.",
+      "event": "The Jerusalem church, warned by an oracle, left the city before the war and settled in Pella in Perea, east of the Jordan.",
+      "year": "c. AD 66–68",
+      "source": "Eusebius, Church History 3.5.3; Epiphanius, Panarion 29.7.7–8",
+      "note": "The historicity of the Pella flight is disputed (S. G. F. Brandon and Gerd Lüdemann doubted it; Craig Koester and others defend it), and Pella lies in lowland, not in the mountains."
+    },
+    {
+      "prophecy": "Matthew 24:15",
+      "prophecyText": "When you see the abomination of desolation standing in the holy place.",
+      "event": "After the temple was burned, Roman soldiers brought their standards into the temple court, set them up opposite the eastern gate and sacrificed to them. Earlier the Zealots had occupied the temple and installed a high priest by lot.",
+      "year": "AD 68–70",
+      "source": "Josephus, Jewish War 6.6.1; 4.3.6–8",
+      "note": "Futurists argue that Daniel 9:27 and 2 Thessalonians 2:4 require a future personal Antichrist, and that the standards were set up after the temple was already burning, too late to serve as a signal to flee."
+    },
+    {
+      "prophecy": "Matthew 24:5, 24",
+      "prophecyText": "Many will come in my name... false christs and false prophets will arise and perform great signs.",
+      "event": "Theudas, the Egyptian and others led crowds to the Jordan, the wilderness and the Mount of Olives promising miraculous signs of deliverance.",
+      "year": "c. AD 44–60",
+      "source": "Josephus, Antiquities 20.5.1; 20.8.6; Jewish War 2.13.4–5; Acts 5:36; 21:38",
+      "note": "These figures are prophets promising deliverance rather than explicit claimants to be the Christ, so some scholars think the match is approximate; Acts' dating of Theudas is also disputed."
+    },
+    {
+      "prophecy": "Matthew 24:7",
+      "prophecyText": "There will be famines and earthquakes in various places.",
+      "event": "A severe famine struck Judea under Claudius; earthquakes destroyed Laodicea and damaged Pompeii.",
+      "year": "c. AD 46–48; 60; 62",
+      "source": "Acts 11:28; Josephus, Antiquities 20.5.2; Tacitus, Annals 14.27; 15.22",
+      "note": "Such events occur in every period, so futurists and amillennialists regard them as typical of the age rather than unique markers."
+    },
+    {
+      "prophecy": "Matthew 24:9",
+      "prophecyText": "They will deliver you up to tribulation and put you to death, and you will be hated by all nations for my name's sake.",
+      "event": "Nero blamed Christians for the fire of Rome and executed many in horrific ways; James the Lord's brother was stoned in Jerusalem.",
+      "year": "AD 62; 64",
+      "source": "Tacitus, Annals 15.44; Josephus, Antiquities 20.9.1",
+      "note": "Persecution has recurred throughout church history; the match shows fulfilment within the generation but not necessarily exhaustive fulfilment."
+    },
+    {
+      "prophecy": "Matthew 24:14",
+      "prophecyText": "This gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations.",
+      "event": "Paul writes that the gospel has gone to the ends of the oikoumenē and been proclaimed in all creation under heaven.",
+      "year": "c. AD 57–62",
+      "source": "Romans 1:8; 10:18; Colossians 1:6, 23",
+      "note": "Disputed: futurists argue that Paul's language is hyperbolic or representative and that “all nations” (Mark 13:10) remains to be fulfilled."
+    },
+    {
+      "prophecy": "Matthew 24:21",
+      "prophecyText": "Then there will be great tribulation, such as has not been from the beginning of the world until now.",
+      "event": "Josephus says the miseries of all men from the beginning of the world fall short of those of the Jews in this war.",
+      "year": "AD 70",
+      "source": "Josephus, Jewish War 1, preface 4 (1.12)",
+      "note": "Futurists argue that later events such as the Holocaust exceeded AD 70 in scale; preterists reply that the uniqueness is covenantal."
+    },
+    {
+      "prophecy": "Luke 21:16; Matthew 24:10",
+      "prophecyText": "You will be delivered up even by parents and brothers and relatives and friends... many will betray one another and hate one another.",
+      "event": "During the siege the factions of John of Gischala, Simon bar Giora and Eleazar fought each other inside the city, burned the grain stores and killed fellow citizens suspected of wanting to desert.",
+      "year": "AD 68–70",
+      "source": "Josephus, Jewish War 5.1.1–5; 5.10.2–3",
+      "note": "Luke's verse concerns persecution of disciples rather than Jewish civil strife, so the match is thematic rather than exact."
+    },
+    {
+      "prophecy": "Luke 23:29; Luke 21:23",
+      "prophecyText": "Blessed are the barren... Alas for women who are pregnant and for those who are nursing in those days.",
+      "event": "In the famine a woman named Mary, daughter of Eleazar, killed and ate her infant son, an act Josephus says horrified even the rebels.",
+      "year": "AD 70",
+      "source": "Josephus, Jewish War 6.3.4",
+      "note": "The account recalls the covenant curse of Deuteronomy 28:53–57; some suspect Josephus heightened it for literary effect."
+    },
+    {
+      "prophecy": "Luke 21:24",
+      "prophecyText": "They will fall by the edge of the sword and be led captive among all nations.",
+      "event": "Josephus gives 1,100,000 dead and 97,000 taken captive; captives were sent to Egyptian mines, to provincial arenas and to be sold.",
+      "year": "AD 70",
+      "source": "Josephus, Jewish War 6.9.2–3; Tacitus, Histories 5.13",
+      "note": "Modern historians consider Josephus' totals inflated; Tacitus gives 600,000 besieged. The scale is not in doubt."
+    },
+    {
+      "prophecy": "Matthew 24:29-30",
+      "prophecyText": "The powers of the heavens will be shaken. Then will appear in heaven the sign of the Son of Man.",
+      "event": "Portents before the war: a sword-shaped star and a comet, a light around the altar at night, the eastern gate opening by itself, chariots and armies seen in the clouds, and a voice in the temple saying “Let us depart from here”.",
+      "year": "c. AD 62–70",
+      "source": "Josephus, Jewish War 6.5.3; Tacitus, Histories 5.13",
+      "note": "Strongly disputed: most preterists do not rest their case on these portents but on the prophetic idiom of cosmic language; futurists argue that neither portents nor metaphor match a visible coming of Christ."
+    },
+    {
+      "prophecy": "Matthew 23:38; 24:2",
+      "prophecyText": "Your house is left to you desolate.",
+      "event": "The temple was burned on the tenth of the month Lous (Ab), the same day of the year on which Solomon's temple had been burned by the Babylonians.",
+      "year": "AD 70",
+      "source": "Josephus, Jewish War 6.4.5–8",
+      "note": "Jewish tradition commemorates both destructions on the ninth of Ab (Tisha B'Av); Josephus' date is the tenth."
+    },
+    {
+      "prophecy": "Luke 19:44",
+      "prophecyText": "They will tear you down to the ground, you and your children within you.",
+      "event": "Woe-cries of Jesus son of Ananus, who from AD 62 cried “a voice against Jerusalem and the holy house” until killed by a Roman stone during the siege.",
+      "year": "AD 62–70",
+      "source": "Josephus, Jewish War 6.5.3",
+      "note": "This is not a fulfilment of a specific prophecy but a striking parallel: another Jesus, also beaten and brought before the procurator, foretold the city's fall in Jeremiah's words."
+    }
+  ],
+  "timeline": [
+    {
+      "year": 30,
+      "label": "Olivet Discourse",
+      "text": "Jesus predicts the temple's destruction and gives the discourse in Passion Week, shortly before the crucifixion (dated AD 30 or 33).",
+      "source": "Matthew 24; Mark 13; Luke 21"
+    },
+    {
+      "year": 34,
+      "label": "Stephen martyred; church scattered",
+      "text": "Stephen's death is followed by persecution that scatters believers through Judea and Samaria (date approximate, c. 33–35).",
+      "source": "Acts 7–8"
+    },
+    {
+      "year": 40,
+      "label": "Caligula's statue crisis",
+      "text": "The emperor Gaius orders his statue set up in the temple; the governor Petronius delays, and Gaius is assassinated in January 41 before it is done.",
+      "source": "Josephus, Antiquities 18.8.2–9; Philo, Embassy to Gaius; Tacitus, Histories 5.9"
+    },
+    {
+      "year": 44,
+      "label": "James son of Zebedee killed",
+      "text": "Herod Agrippa I executes James and imprisons Peter, then dies at Caesarea; Judea returns to procurators.",
+      "source": "Acts 12; Josephus, Antiquities 19.8.2"
+    },
+    {
+      "year": 45,
+      "label": "Theudas",
+      "text": "Under the procurator Fadus, Theudas leads a crowd to the Jordan promising to part it; he is beheaded (c. 44–46).",
+      "source": "Josephus, Antiquities 20.5.1; Acts 5:36"
+    },
+    {
+      "year": 47,
+      "label": "Famine in Judea",
+      "text": "A severe famine under Claudius strikes Judea; Antioch's Christians send relief by Barnabas and Saul (c. 46–48).",
+      "source": "Acts 11:27–30; Josephus, Antiquities 20.5.2"
+    },
+    {
+      "year": 49,
+      "label": "Jews expelled from Rome",
+      "text": "Claudius expels Jews from Rome after disturbances “at the instigation of Chrestus”, often taken as a reference to disputes over Christ.",
+      "source": "Suetonius, Claudius 25.4; Acts 18:2"
+    },
+    {
+      "year": 56,
+      "label": "The Egyptian on the Mount of Olives",
+      "text": "Under Felix, an Egyptian prophet gathers followers on the Mount of Olives, promising that Jerusalem's walls will fall; Felix's troops scatter them (c. 54–58).",
+      "source": "Josephus, Jewish War 2.13.5; Antiquities 20.8.6; Acts 21:38"
+    },
+    {
+      "year": 60,
+      "label": "Laodicea earthquake",
+      "text": "An earthquake destroys Laodicea in Asia, which rebuilds from its own resources.",
+      "source": "Tacitus, Annals 14.27"
+    },
+    {
+      "year": 62,
+      "label": "James the Just stoned; Jesus son of Ananus",
+      "text": "Between procurators, the high priest Ananus has James the Lord's brother stoned. At Tabernacles a peasant, Jesus son of Ananus, begins crying woe on Jerusalem and continues for seven years. An earthquake damages Pompeii (62 or 63).",
+      "source": "Josephus, Antiquities 20.9.1; Jewish War 6.5.3; Tacitus, Annals 15.22"
+    },
+    {
+      "year": 64,
+      "label": "Fire of Rome; Nero's persecution; temple complex finished",
+      "text": "Nero blames Christians for the great fire and executes many. Around this time the work on the temple complex is completed under Albinus.",
+      "source": "Tacitus, Annals 15.38–44; Josephus, Antiquities 20.9.7"
+    },
+    {
+      "year": 66,
+      "label": "War begins; Cestius Gallus withdraws",
+      "text": "Florus plunders the temple treasury; sacrifices for the emperor stop; Cestius Gallus besieges Jerusalem in the autumn, then withdraws and is defeated at Beth-horon.",
+      "source": "Josephus, Jewish War 2.14.6; 2.17.2; 2.19.1–9"
+    },
+    {
+      "year": 67,
+      "label": "Vespasian in Galilee",
+      "text": "Vespasian and Titus reconquer Galilee; Jotapata falls and Josephus surrenders and predicts Vespasian's rise.",
+      "source": "Josephus, Jewish War 3.7–8"
+    },
+    {
+      "year": 68,
+      "label": "Zealots seize the temple; Nero dies",
+      "text": "Zealots occupy the temple, appoint a high priest by lot and, with Idumean allies, kill the former high priests; Nero commits suicide in June.",
+      "source": "Josephus, Jewish War 4.3.6–8; 4.5.2; Suetonius, Nero 49"
+    },
+    {
+      "year": 69,
+      "label": "Year of the four emperors",
+      "text": "Galba, Otho and Vitellius rise and fall in civil war; Vespasian is proclaimed emperor in July and secures Rome by December.",
+      "source": "Tacitus, Histories 1.2; 2.79–81; Suetonius, Vespasian 6"
+    },
+    {
+      "year": 70,
+      "label": "Siege and fall of Jerusalem",
+      "text": "Titus begins the siege at Passover, builds a wall around the city, burns the temple in late August, and takes the upper city in September.",
+      "source": "Josephus, Jewish War 5–6; Tacitus, Histories 5.1–13"
+    },
+    {
+      "year": 71,
+      "label": "Triumph in Rome",
+      "text": "Vespasian and Titus celebrate a triumph displaying the temple's menorah and table, later carved on the Arch of Titus; the temple tax is redirected to Jupiter Capitolinus.",
+      "source": "Josephus, Jewish War 7.5.3–7; 7.6.6"
+    },
+    {
+      "year": 73,
+      "label": "Fall of Masada",
+      "text": "The last rebel stronghold falls after its defenders' mass suicide; the date is debated between 73 and 74.",
+      "source": "Josephus, Jewish War 7.8–9"
+    }
+  ],
+  "sources": [
+    "josephus-jewish-war",
+    "josephus-antiquities",
+    "tacitus-histories",
+    "eusebius-church-history",
+    "france-matthew-nicnt",
+    "france-jesus-ot",
+    "carson-matthew-ebc",
+    "blomberg-matthew-nac",
+    "wright-jesus-victory",
+    "gentry-ice-great-tribulation",
+    "gentry-key-fob-olivet",
+    "ice-matthew-24-this-generation",
+    "demar-last-days-madness",
+    "mathison-when-shall",
+    "walvoord-matthew-kingdom",
+    "ladd-presence-future",
+    "hoekema-bible-future",
+    "newton-dissertations-prophecies",
+    "goodman-rome-jerusalem",
+    "koester-flight-pella"
+  ]
+}

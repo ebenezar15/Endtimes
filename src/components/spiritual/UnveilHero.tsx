@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { t } from '../../lib/i18n'
 
 /**
  * "The revelation (apokalypsis, unveiling) of Jesus Christ": a veil tears from top to bottom
@@ -10,7 +11,7 @@ export function UnveilHero() {
     return { x: 300 + Math.cos(a) * 118, y: 190 + Math.sin(a) * 118 }
   })
   return (
-    <svg viewBox="0 0 600 420" className="h-auto w-full" role="img" aria-label="A veil tears from top to bottom and draws back to reveal the cross in light among seven lampstands">
+    <svg viewBox="0 0 600 420" className="h-auto w-full" role="img" aria-label={t('A veil tears from top to bottom and draws back to reveal the cross in light among seven lampstands')}>
       <defs>
         <radialGradient id="unveil-glow" cx="50%" cy="50%" r="50%">
           <stop offset="0%" stopColor="var(--gold-bright)" stopOpacity="0.85" />
@@ -57,7 +58,7 @@ export function UnveilHero() {
         ἀποκάλυψις Ἰησοῦ Χριστοῦ
       </motion.text>
       <motion.text x={300} y={384} textAnchor="middle" fontSize={13} fontWeight={600} fill="var(--ink-soft)" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.9 }}>
-        “The revelation of Jesus Christ” (Revelation 1:1)
+        {t('“The revelation of Jesus Christ” (Revelation 1:1)')}
       </motion.text>
 
       {/* the veil: torn from top to bottom, then drawn back */}

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
+import { t } from '../lib/i18n'
 
 /**
  * Revelation 5: a scroll "written within and on the back, sealed with seven seals".
@@ -20,7 +21,7 @@ export function SealedScroll() {
   }, [run])
   const open = broken >= 7
   return (
-    <button type="button" onClick={() => setRun((r) => r + 1)} className="block w-full" aria-label="Replay: the seven seals break and the scroll opens">
+    <button type="button" onClick={() => setRun((r) => r + 1)} className="block w-full" aria-label={t('Replay: the seven seals break and the scroll opens')}>
       <svg viewBox="0 0 420 260" className="h-auto w-full" role="img" aria-hidden>
         <defs>
           <linearGradient id="parch" x1="0" x2="0" y1="0" y2="1">
@@ -58,10 +59,10 @@ export function SealedScroll() {
           )
         })}
         <motion.text x={210} y={232} textAnchor="middle" fontFamily="var(--font-serif)" fontSize={18} fontStyle="italic" fill="var(--ink)" animate={{ opacity: open ? 1 : 0.5 }}>
-          {open ? '“Worthy is the Lamb who was slain”' : `Seal ${Math.min(7, broken + 1)} of 7`}
+          {open ? t('“Worthy is the Lamb who was slain”') : t('Seal {n} of 7', { n: Math.min(7, broken + 1) })}
         </motion.text>
         <text x={210} y={252} textAnchor="middle" fontSize={11} fill="var(--ink-soft)">
-          Revelation 5:1–12 · tap to replay
+          {t('Revelation 5:1–12 · tap to replay')}
         </text>
       </svg>
     </button>

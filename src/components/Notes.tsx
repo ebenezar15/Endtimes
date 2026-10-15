@@ -1,16 +1,17 @@
 import { useEffect, useState } from 'react'
 import { useApp } from '../lib/store'
+import { t } from '../lib/i18n'
 
 /** Bookmark toggle for any card key. */
 export function BookmarkButton({ k, label }: { k: string; label: string }) {
   const on = useApp((s) => s.bookmarks.includes(k))
   const toggle = useApp((s) => s.toggleBookmark)
   return (
-    <button type="button" className="btn min-h-8 px-2.5 py-1 text-sm" aria-pressed={on} onClick={() => toggle(k)} aria-label={`${on ? 'Saved' : 'Save'}: ${label}`}>
+    <button type="button" className="btn min-h-8 px-2.5 py-1 text-sm" aria-pressed={on} onClick={() => toggle(k)} aria-label={`${on ? t('Saved') : t('Save')}: ${label}`}>
       <svg aria-hidden width="14" height="14" viewBox="0 0 24 24" fill={on ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2">
         <path d="M6 3h12v18l-6-4-6 4z" />
       </svg>
-      {on ? 'Saved' : 'Save'}
+      {on ? t('Saved') : t('Save')}
     </button>
   )
 }
@@ -31,13 +32,13 @@ export function NoteBox({ k, label }: { k: string; label: string }) {
   if (!open)
     return (
       <button type="button" className="ui text-sm text-ink-soft underline decoration-dotted underline-offset-4 hover:text-ink" onClick={() => setOpen(true)}>
-        Add a note
+        {t('Add a note')}
       </button>
     )
   return (
     <div className="ui space-y-1.5">
       <label className="block text-sm text-ink-soft">
-        My note on {label}
+        {t('My note on {label}', { label })}
         <textarea
           className="mt-1 block w-full rounded-md border border-rule bg-bg p-2 font-serif text-base text-ink"
           rows={3}
@@ -48,7 +49,7 @@ export function NoteBox({ k, label }: { k: string; label: string }) {
       </label>
       <label className="flex items-center gap-2 text-sm">
         <input type="checkbox" checked={pinned} onChange={() => togglePin(k)} />
-        Pin this note to my Study page
+        {t('Pin this note to my Study page')}
       </label>
     </div>
   )

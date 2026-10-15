@@ -12,14 +12,15 @@ import { useApp } from '../lib/store'
 import { usePositionColors } from '../lib/theme'
 import type { ArgNode } from '../content/schema'
 import NotFound from './NotFound'
+import { t } from '../lib/i18n'
 
 const ArgGraph = lazy(() => import('../components/ArgGraph'))
 
 export const KIND_LABEL: Record<ArgNode['kind'], string> = {
-  claim: 'Claim',
-  objection: 'Objection',
-  rebuttal: 'Rebuttal',
-  'counter-rebuttal': 'Counter-rebuttal',
+  claim: t('Claim'),
+  objection: t('Objection'),
+  rebuttal: t('Rebuttal'),
+  'counter-rebuttal': t('Counter-rebuttal'),
 }
 
 function NodeView({ n, depth, focus }: { n: ArgNode; depth: number; focus: string }) {
@@ -45,7 +46,7 @@ function NodeView({ n, depth, focus }: { n: ArgNode; depth: number; focus: strin
         </div>
         {n.children.length > 0 && (
           <button type="button" className="ui mt-2 text-sm text-accent underline underline-offset-2" aria-expanded={open} onClick={() => setOpen(!open)}>
-            {open ? 'Hide replies' : `Show ${n.children.length} ${n.children.length === 1 ? 'reply' : 'replies'}`}
+            {open ? t('Hide replies') : n.children.length === 1 ? t('Show {n} reply', { n: n.children.length }) : t('Show {n} replies', { n: n.children.length })}
           </button>
         )}
       </div>
@@ -77,7 +78,7 @@ export default function ArenaPage() {
       <header className="flex flex-wrap items-start justify-between gap-3 pt-2">
         <div className="max-w-[60ch]">
           <p className="ui text-sm text-ink-soft">
-            <Link to="/arena">Argument Arena</Link>, {topicsById.get(a.topic)?.name}
+            <Link to="/arena">{t('Argument Arena')}</Link>, {topicsById.get(a.topic)?.name}
           </p>
           <h1 className="text-4xl md:text-5xl">{a.title}</h1>
           <p className="mt-1 text-xl italic text-ink-soft">{a.question}</p>
@@ -89,18 +90,18 @@ export default function ArenaPage() {
       </p>
 
       <div className="ui mt-6 flex flex-wrap items-center gap-4 text-sm">
-        <div className="flex gap-1.5" role="group" aria-label="View">
+        <div className="flex gap-1.5" role="group" aria-label={t('View')}>
           <button type="button" className="btn min-h-8 px-3 py-1" aria-pressed={view === 'tree'} onClick={() => setView('tree')}>
-            Tree
+            {t('Tree')}
           </button>
           <button type="button" className="btn min-h-8 px-3 py-1" aria-pressed={view === 'graph'} onClick={() => setView('graph')}>
-            Graph
+            {t('Graph')}
           </button>
         </div>
         <label className="flex items-center gap-2">
-          Highlight
+          {t('Highlight')}
           <select className="rounded-md border border-rule bg-surface px-2 py-1" value={focus} onChange={(e) => setFocus(e.target.value)}>
-            <option value="">Every camp</option>
+            <option value="">{t('Every camp')}</option>
             {a.positions.map((p) => (
               <option key={p} value={p}>
                 {positionsById.get(p)?.name}
@@ -116,9 +117,9 @@ export default function ArenaPage() {
             <NodeView n={a.root} depth={0} focus={focus} />
           </ul>
         ) : (
-          <Suspense fallback={<p className="ui text-ink-soft">Drawing the graph…</p>}>
+          <Suspense fallback={<p className="ui text-ink-soft">{t('Drawing the graph…')}</p>}>
             <ArgGraph root={a.root} focus={focus} />
-            <p className="ui mt-2 text-sm text-ink-soft">The tree view holds the same exchange as readable text.</p>
+            <p className="ui mt-2 text-sm text-ink-soft">{t('The tree view holds the same exchange as readable text.')}</p>
           </Suspense>
         )}
       </div>

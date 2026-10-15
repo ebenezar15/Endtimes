@@ -5,6 +5,7 @@ import { hermeneuticViews, millennialViews, positionsSorted } from '../lib/conte
 import { DEFAULT_SETTINGS, useApp, type Translation } from '../lib/store'
 import { useActiveTheme } from '../lib/theme'
 import { AppearanceControls } from '../components/Appearance'
+import { t } from '../lib/i18n'
 
 function Section({ id, title, children }: { id?: string; title: string; children: React.ReactNode }) {
   return (
@@ -25,44 +26,43 @@ export default function Settings() {
 
   return (
     <div className="mx-auto max-w-3xl">
-      <PageHeader title="Settings" lede="Appearance, your My View lens, and colours. Settings are saved on this device." />
+      <PageHeader title={t('Settings')} lede={t('Appearance, your My View lens, and colours. Settings are saved on this device.')} />
 
-      <Section title="Appearance">
+      <Section title={t('Appearance')}>
         <div className="max-w-md">
           <AppearanceControls />
         </div>
         <div className="flex flex-wrap items-center gap-3">
           <label className="flex items-center gap-2">
-            Accent colour
+            {t('Accent colour')}
             <input type="color" value={s.accent ?? '#2f4fa0'} onChange={(e) => s.set({ accent: e.target.value })} className="h-9 w-14 cursor-pointer rounded border border-rule bg-surface" />
           </label>
           {s.accent && (
             <button type="button" className="btn min-h-8 py-1 text-sm" onClick={() => s.set({ accent: null })}>
-              Use the theme’s accent
+              {t('Use the theme’s accent')}
             </button>
           )}
-          {active.contrast && <span className="text-sm text-ink-soft">High contrast uses its own accent.</span>}
+          {active.contrast && <span className="text-sm text-ink-soft">{t('High contrast uses its own accent.')}</span>}
         </div>
-        <p className="text-sm text-ink-soft">Custom accents are lightened or darkened automatically if needed to stay readable (WCAG AA).</p>
+        <p className="text-sm text-ink-soft">{t('Custom accents are lightened or darkened automatically if needed to stay readable (WCAG AA).')}</p>
         <label className="block">
-          Text size: {Math.round(s.fontScale * 100)}%
+          {t('Text size: {n}%', { n: Math.round(s.fontScale * 100) })}
           <input type="range" min={0.85} max={1.4} step={0.05} value={s.fontScale} onChange={(e) => s.set({ fontScale: +e.target.value })} className="mt-1 block w-full max-w-sm accent-[var(--accent)]" />
         </label>
-        <p className="text-sm text-ink-soft">Your device’s reduced-motion setting is always respected.</p>
+        <p className="text-sm text-ink-soft">{t('Your device’s reduced-motion setting is always respected.')}</p>
       </Section>
 
-      <Section id="lens" title="My View lens">
+      <Section id="lens" title={t('My View lens')}>
         <p className="text-ink-soft">
-          The lens marks your position with a ✦, makes it the reference column on Compare, and adds a “Compared with my view” panel to each position page. It never
-          changes any content.
+          {t('The lens marks your position with a ✦, makes it the reference column on Compare, and adds a “Compared with my view” panel to each position page. It never changes any content.')}
         </p>
         <label className="flex items-center gap-2">
           <input type="checkbox" checked={s.lensOn} onChange={(e) => s.set({ lensOn: e.target.checked })} />
-          Use the My View lens
+          {t('Use the My View lens')}
         </label>
         <div className="flex flex-wrap gap-4">
           <label className="text-sm">
-            <span className="block text-ink-soft">Millennial view</span>
+            <span className="block text-ink-soft">{t('Millennial view')}</span>
             <select className="mt-1 rounded-md border border-rule bg-surface px-3 py-2" value={s.lens.millennial} disabled={!s.lensOn} onChange={(e) => s.set({ lens: { ...s.lens, millennial: e.target.value } })}>
               {millennialViews.map((p) => (
                 <option key={p.id} value={p.id}>
@@ -72,7 +72,7 @@ export default function Settings() {
             </select>
           </label>
           <label className="text-sm">
-            <span className="block text-ink-soft">Reading of Revelation</span>
+            <span className="block text-ink-soft">{t('Reading of Revelation')}</span>
             <select className="mt-1 rounded-md border border-rule bg-surface px-3 py-2" value={s.lens.hermeneutic} disabled={!s.lensOn} onChange={(e) => s.set({ lens: { ...s.lens, hermeneutic: e.target.value } })}>
               {hermeneuticViews.map((p) => (
                 <option key={p.id} value={p.id}>
@@ -83,30 +83,30 @@ export default function Settings() {
           </label>
         </div>
         <button type="button" className="btn min-h-8 py-1 text-sm" onClick={() => s.set({ lens: DEFAULT_SETTINGS.lens })}>
-          Reset to Postmillennial + Partial preterist
+          {t('Reset to Postmillennial + Partial preterist')}
         </button>
       </Section>
 
-      <Section title="Bible text">
+      <Section title={t('Bible text')}>
         <label className="text-sm">
-          <span className="block text-ink-soft">Default translation in the Passage Lab</span>
+          <span className="block text-ink-soft">{t('Default translation in the Passage Lab')}</span>
           <select className="mt-1 rounded-md border border-rule bg-surface px-3 py-2" value={s.translation} onChange={(e) => s.set({ translation: e.target.value as Translation })}>
-            <option value="BSB">Berean Study Bible (BSB)</option>
-            <option value="KJV">King James Version (KJV)</option>
-            <option value="WEB">World English Bible (WEB)</option>
+            <option value="BSB">{t('Berean Study Bible (BSB)')}</option>
+            <option value="KJV">{t('King James Version (KJV)')}</option>
+            <option value="WEB">{t('World English Bible (WEB)')}</option>
           </select>
         </label>
         <label className="flex items-center gap-2">
           <input type="checkbox" checked={s.nivLink} onChange={(e) => s.set({ nivLink: e.target.checked })} />
-          Show “Read in NIV” links (opens BibleGateway)
+          {t('Show “Read in NIV” links (opens BibleGateway)')}
         </label>
         <p className="text-sm text-ink-soft">
-          The NIV is under copyright, so its text can’t be built into the app. The links open the same passage in the NIV on BibleGateway.
+          {t('The NIV is under copyright, so its text can’t be built into the app. The links open the same passage in the NIV on BibleGateway.')}
         </p>
       </Section>
 
-      <Section title="Position colours">
-        <p className="text-sm text-ink-soft">Each position keeps one colour in every chart. Change any of them here.</p>
+      <Section title={t('Position colours')}>
+        <p className="text-sm text-ink-soft">{t('Each position keeps one colour in every chart. Change any of them here.')}</p>
         <ul className="grid gap-2 sm:grid-cols-2">
           {positionsSorted.map((p) => (
             <li key={p.id}>
@@ -124,15 +124,14 @@ export default function Settings() {
         </ul>
         {Object.keys(s.colorOverrides).length > 0 && (
           <button type="button" className="btn min-h-8 py-1 text-sm" onClick={() => s.set({ colorOverrides: {} })}>
-            Restore default colours
+            {t('Restore default colours')}
           </button>
         )}
       </Section>
 
-      <Section title="About this app">
+      <Section title={t('About this app')}>
         <p>
-          Content lives in plain JSON files with a documented schema, so anyone can correct or extend it. Every position, passage reading and argument cites its
-          sources. Sources that couldn’t be verified online are marked. The app works offline once installed.
+          {t('Content lives in plain JSON files with a documented schema, so anyone can correct or extend it. Every position, passage reading and argument cites its sources. Sources that couldn’t be verified online are marked. The app works offline once installed.')}
         </p>
       </Section>
     </div>

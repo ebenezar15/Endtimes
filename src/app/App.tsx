@@ -23,6 +23,10 @@ const RevelationChapter = lazy(() => import('../pages/RevelationChapter'))
 const RevelationSymbols = lazy(() => import('../pages/RevelationSymbols'))
 const Spiritual = lazy(() => import('../pages/Spiritual'))
 const RevelationConnections = lazy(() => import('../pages/RevelationConnections'))
+const Olivet = lazy(() => import('../pages/Olivet'))
+const Signs = lazy(() => import('../pages/Signs'))
+const Dating = lazy(() => import('../pages/Dating'))
+const Josephus = lazy(() => import('../pages/Josephus'))
 const NotFound = lazy(() => import('../pages/NotFound'))
 
 function ScrollToTop() {
@@ -60,6 +64,10 @@ export function App() {
               <Route path="/settings" element={<Settings />} />
               <Route path="/revelation" element={<Revelation />} />
               <Route path="/spiritual" element={<Spiritual />} />
+              <Route path="/olivet" element={<Olivet />} />
+              <Route path="/signs" element={<Signs />} />
+              <Route path="/dating" element={<Dating />} />
+              <Route path="/josephus" element={<Josephus />} />
               <Route path="/revelation/symbols" element={<RevelationSymbols />} />
               <Route path="/revelation/connections" element={<RevelationConnections />} />
               <Route path="/revelation/:n" element={<RevelationChapter />} />

@@ -12,6 +12,7 @@ import { useApp } from '../lib/store'
 import { usePositionColors } from '../lib/theme'
 import { TOPIC_IDS } from '../content/ids'
 import NotFound from './NotFound'
+import { t } from '../lib/i18n'
 
 function H2({ children }: { children: string }) {
   return <h2 className="mt-10 border-b border-rule pb-1 text-2xl">{children}</h2>
@@ -28,7 +29,7 @@ export default function PositionPage() {
   if (!p) return <NotFound />
   const c = color(p.id)
   const combos = content.combinations.filter((x) => x.millennial === p.id || x.hermeneutic === p.id)
-  const cells = TOPIC_IDS.map((t) => cell(p.id, t)).filter(Boolean)
+  const cells = TOPIC_IDS.map((tp) => cell(p.id, tp)).filter(Boolean)
   const args = content.index.arguments.filter((a) => a.positions.includes(p.id))
   const passages = content.index.passages.filter((x) => x.readers.includes(p.id))
   const k = `position/${p.id}`
@@ -39,7 +40,7 @@ export default function PositionPage() {
         <Illum id={p.id} size={84} />
         <div className="min-w-0 flex-1">
           <p className="ui text-sm" style={{ color: c.text }}>
-            {p.axis === 'millennial' ? 'Millennial view' : p.axis === 'hermeneutic' ? 'Reading of Revelation' : 'Framework'}
+            {p.axis === 'millennial' ? t('Millennial view') : p.axis === 'hermeneutic' ? t('Reading of Revelation') : t('Framework')}
           </p>
           <h1 className="text-4xl md:text-5xl">{p.name}</h1>
           <p className="mt-1 text-xl italic text-ink-soft">{p.tagline}</p>
@@ -55,18 +56,18 @@ export default function PositionPage() {
         <div className="min-w-0">
           <blockquote className="prose-measure border-l-4 pl-4 text-lg italic" style={{ borderColor: c.base }}>
             <Gloss>{p.selfDescription}</Gloss>
-            <footer className="ui mt-1 text-sm not-italic text-ink-soft">In proponents’ own terms</footer>
+            <footer className="ui mt-1 text-sm not-italic text-ink-soft">{t('In proponents’ own terms')}</footer>
           </blockquote>
           <Prose text={p.summary} className="mt-6 text-[1.08rem]" dropcap />
 
           {p.orthodoxyNote && (
             <aside className="leaf prose-measure mt-6 border-rubric p-4" role="note">
-              <h2 className="text-lg text-rubric">Relationship to the historic creeds</h2>
+              <h2 className="text-lg text-rubric">{t('Relationship to the historic creeds')}</h2>
               <Prose text={p.orthodoxyNote} className="mt-1" />
             </aside>
           )}
 
-          <H2>Core beliefs</H2>
+          <H2>{t('Core beliefs')}</H2>
           <ul className="prose-measure mt-4 list-none space-y-2.5">
             {p.coreBeliefs.map((b) => (
               <li key={b} className="relative pl-6">
@@ -78,7 +79,7 @@ export default function PositionPage() {
 
           {p.subViews.length > 0 && (
             <>
-              <H2>Varieties within the view</H2>
+              <H2>{t('Varieties within the view')}</H2>
               <dl className="prose-measure mt-4 space-y-4">
                 {p.subViews.map((s) => (
                   <div key={s.id}>
@@ -92,7 +93,7 @@ export default function PositionPage() {
             </>
           )}
 
-          <H2>History</H2>
+          <H2>{t('History')}</H2>
           <ol className="prose-measure relative mt-5 space-y-5 border-l-2 pl-6" style={{ borderColor: c.base }}>
             {p.history.map((h) => (
               <li key={h.era} className="relative">
@@ -105,7 +106,7 @@ export default function PositionPage() {
             ))}
           </ol>
 
-          <H2>Strengths, as proponents see them</H2>
+          <H2>{t('Strengths, as proponents see them')}</H2>
           <ul className="prose-measure mt-4 list-disc space-y-2 pl-5 marker:text-gold">
             {p.strengths.map((s) => (
               <li key={s}>
@@ -114,19 +115,19 @@ export default function PositionPage() {
             ))}
           </ul>
 
-          <H2>Critiques and responses</H2>
+          <H2>{t('Critiques and responses')}</H2>
           <ol className="mt-4 space-y-4">
             {p.critiques.map((cr, i) => (
               <li key={i} className="leaf prose-measure grid gap-3 p-4">
                 <div>
-                  <p className="ui text-sm text-rubric">Critique</p>
+                  <p className="ui text-sm text-rubric">{t('Critique')}</p>
                   <p>
                     <Gloss>{cr.critique}</Gloss>
                   </p>
                 </div>
                 <div className="border-t border-rule pt-3">
                   <p className="ui text-sm" style={{ color: c.text }}>
-                    Response from proponents
+                    {t('Response from proponents')}
                   </p>
                   <p>
                     <Gloss>{cr.response}</Gloss>
@@ -138,7 +139,7 @@ export default function PositionPage() {
 
           {cells.length > 0 && (
             <>
-              <H2>Across the topics</H2>
+              <H2>{t('Across the topics')}</H2>
               <dl className="prose-measure mt-4 divide-y divide-rule">
                 {cells.map((x) => (
                   <div key={x!.topic} className="py-3">
@@ -167,12 +168,12 @@ export default function PositionPage() {
         <aside className="space-y-6 lg:sticky lg:top-4 lg:self-start">
           <LensCompare position={p} />
           <section>
-            <h2 className="text-xl">Key texts</h2>
+            <h2 className="text-xl">{t('Key texts')}</h2>
             <Refs refs={p.keyTexts} className="mt-2" />
           </section>
           {p.scholars.length > 0 && (
             <section>
-              <h2 className="text-xl">Key scholars</h2>
+              <h2 className="text-xl">{t('Key scholars')}</h2>
               <ul className="ui mt-2 space-y-1 text-[0.95rem]">
                 {p.scholars.map((s) => {
                   const sc = scholarIndex.get(s)
@@ -188,7 +189,7 @@ export default function PositionPage() {
           )}
           {combos.length > 0 && (
             <section>
-              <h2 className="text-xl">Common pairings</h2>
+              <h2 className="text-xl">{t('Common pairings')}</h2>
               <ul className="ui mt-2 space-y-2 text-sm">
                 {combos
                   .filter((x) => x.frequency !== 'incompatible')
@@ -203,7 +204,7 @@ export default function PositionPage() {
           )}
           {p.related.length > 0 && (
             <section>
-              <h2 className="text-xl">Related</h2>
+              <h2 className="text-xl">{t('Related')}</h2>
               <ul className="mt-2 flex flex-wrap gap-1.5">
                 {p.related.map((r) => (
                   <li key={r}>
@@ -217,23 +218,23 @@ export default function PositionPage() {
           )}
           {(args.length > 0 || passages.length > 0) && (
             <section>
-              <h2 className="text-xl">Go deeper</h2>
+              <h2 className="text-xl">{t('Go deeper')}</h2>
               <ul className="ui mt-2 space-y-1 text-sm">
                 {passages.slice(0, 6).map((x) => (
                   <li key={x.id}>
-                    <Link to={`/passages/${x.id}`}>Passage: {x.ref}</Link>
+                    <Link to={`/passages/${x.id}`}>{t('Passage: {ref}', { ref: x.ref })}</Link>
                   </li>
                 ))}
                 {args.slice(0, 6).map((a) => (
                   <li key={a.id}>
-                    <Link to={`/arena/${a.id}`}>Debate: {a.title}</Link>
+                    <Link to={`/arena/${a.id}`}>{t('Debate: {title}', { title: a.title })}</Link>
                   </li>
                 ))}
               </ul>
             </section>
           )}
           <Link to={`/timelines?a=${p.id}`} className="btn ui no-underline">
-            See this view’s timeline
+            {t('See this view’s timeline')}
           </Link>
         </aside>
       </div>

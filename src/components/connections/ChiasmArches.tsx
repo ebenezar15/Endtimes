@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useMemo, useState } from 'react'
 import type { ChiasmOutline } from '../../content/schema'
 import { Icon } from '../Icon'
+import { t } from '../../lib/i18n'
 
 const base = (l: string) => l.replace(/[′']/g, '')
 const TINTS = ['var(--accent)', 'var(--gold-bright)', 'var(--rubric)', 'var(--agree)', 'var(--accent)', 'var(--gold-bright)']
@@ -10,7 +11,7 @@ const TINTS = ['var(--accent)', 'var(--gold-bright)', 'var(--rubric)', 'var(--ag
  * A chiastic outline drawn two ways: as nested arches over the chapters of the book
  * (each pair joined, the centre glowing), or as a ladder that steps in to the centre and back out.
  */
-export function ChiasmArches({ outlines, chapters = 22, book = 'Revelation' }: { outlines: ChiasmOutline[]; chapters?: number; book?: string }) {
+export function ChiasmArches({ outlines, chapters = 22, book = t('Revelation') }: { outlines: ChiasmOutline[]; chapters?: number; book?: string }) {
   const [oi, setOi] = useState(0)
   const [mode, setMode] = useState<'arches' | 'ladder'>('arches')
   const [sel, setSel] = useState<string | null>(null)
@@ -34,7 +35,7 @@ export function ChiasmArches({ outlines, chapters = 22, book = 'Revelation' }: {
   return (
     <div>
       <div className="flex flex-wrap items-center gap-2">
-        <div className="scroll-x flex gap-1.5" role="tablist" aria-label="Proposed outline">
+        <div className="scroll-x flex gap-1.5" role="tablist" aria-label={t('Proposed outline')}>
           {outlines.map((x2, i) => (
             <button key={x2.id} type="button" role="tab" aria-selected={i === oi} onClick={() => (setOi(i), setSel(null))} className={`chip shrink-0 cursor-pointer ${i === oi ? 'border-accent' : ''}`} style={i === oi ? { background: 'var(--accent)', color: 'var(--accent-ink)' } : undefined}>
               {x2.name}
@@ -43,19 +44,19 @@ export function ChiasmArches({ outlines, chapters = 22, book = 'Revelation' }: {
         </div>
         <div className="ml-auto flex gap-1.5">
           <button type="button" className={`btn text-sm ${mode === 'arches' ? 'btn-primary' : ''}`} onClick={() => setMode('arches')}>
-            <Icon name="motion" size={14} /> Arches
+            <Icon name="motion" size={14} /> {t('Arches')}
           </button>
           <button type="button" className={`btn text-sm ${mode === 'ladder' ? 'btn-primary' : ''}`} onClick={() => setMode('ladder')}>
-            <Icon name="layers" size={14} /> Ladder
+            <Icon name="layers" size={14} /> {t('Ladder')}
           </button>
         </div>
       </div>
-      <p className="mt-2 text-sm text-ink-soft">Proposed by {o.proposer}. Select a pair to see how its two halves answer each other.</p>
+      <p className="mt-2 text-sm text-ink-soft">{t('Proposed by {name}. Select a pair to see how its two halves answer each other.', { name: o.proposer })}</p>
 
       <AnimatePresence mode="wait">
         {mode === 'arches' ? (
           <motion.div key={'a' + o.id} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="leaf mt-4 p-3">
-            <svg viewBox={`0 0 ${W} ${H}`} className="h-auto w-full" role="img" aria-label={`${o.name}: concentric outline of ${book}`}>
+            <svg viewBox={`0 0 ${W} ${H}`} className="h-auto w-full" role="img" aria-label={t('{name}: concentric outline of {book}', { name: o.name, book })}>
               {/* chapter ticks */}
               {Array.from({ length: chapters }, (_, i) => (
                 <g key={i}>
@@ -118,7 +119,7 @@ export function ChiasmArches({ outlines, chapters = 22, book = 'Revelation' }: {
                 )
               })}
               <text x={pad} y={18} fontSize={12} fontWeight={700} fill="var(--ink-soft)">
-                CHAPTERS OF {book.toUpperCase()}
+                {t('CHAPTERS OF {book}', { book: book.toUpperCase() })}
               </text>
             </svg>
           </motion.div>

@@ -10,22 +10,23 @@ import { positionsById, views } from '../lib/content'
 import { timelines } from '../lib/data/timelines'
 import { usePositionColors, type PositionPalette } from '../lib/theme'
 import type { Timeline, TimelineEvent } from '../content/schema'
+import { t } from '../lib/i18n'
 
 /** Piecewise scale: the first century and the future get room; church history is compressed. */
 const W = 1000
 const x = scaleLinear().domain([0, 10, 60, 100]).range([24, 210, 470, W - 24]).clamp(true)
 const ERA_TICKS = [
-  { at: 0, label: 'The Cross', sub: 'c. AD 30' },
-  { at: 10, label: 'AD 70', sub: 'Fall of Jerusalem' },
-  { at: 35, label: 'Church history', sub: '' },
-  { at: 60, label: 'Today', sub: '' },
-  { at: 80, label: 'Future', sub: '' },
-  { at: 100, label: 'New creation', sub: '' },
+  { at: 0, label: t('The Cross'), sub: t('c. AD 30') },
+  { at: 10, label: t('AD 70'), sub: t('Fall of Jerusalem') },
+  { at: 35, label: t('Church history'), sub: '' },
+  { at: 60, label: t('Today'), sub: '' },
+  { at: 80, label: t('Future'), sub: '' },
+  { at: 100, label: t('New creation'), sub: '' },
 ]
 const MILESTONE_LABEL: Record<string, string> = {
-  cross: 'The Cross', pentecost: 'Pentecost', ad70: 'AD 70', 'church-age': 'Church age', 'great-tribulation': 'Great Tribulation',
-  antichrist: 'Antichrist', rapture: 'Rapture', 'satan-bound': 'Satan bound', millennium: 'Millennium', 'israel-conversion': 'Israel’s conversion',
-  apostasy: 'Apostasy', parousia: 'Second Coming', resurrection: 'Resurrection', judgment: 'Final judgment', 'new-creation': 'New creation', other: 'Other',
+  cross: t('The Cross'), pentecost: t('Pentecost'), ad70: t('AD 70'), 'church-age': t('Church age'), 'great-tribulation': t('Great Tribulation'),
+  antichrist: t('Antichrist'), rapture: t('Rapture'), 'satan-bound': t('Satan bound'), millennium: t('Millennium'), 'israel-conversion': t('Israel’s conversion'),
+  apostasy: t('Apostasy'), parousia: t('Second Coming'), resurrection: t('Resurrection'), judgment: t('Final judgment'), 'new-creation': t('New creation'), other: t('Other'),
 }
 
 type Placed = { e: TimelineEvent; lane: number; lx: number; anchor: 'start' | 'end' }
@@ -168,7 +169,7 @@ export default function Timelines() {
       return p
     })
 
-  if (!ta) return <p className="ui">No timelines yet.</p>
+  if (!ta) return <p className="ui">{t('No timelines yet.')}</p>
   const hA = trackHeight(ta)
   const hB = trackHeight(tb)
   const axisY = hA + 30
@@ -177,12 +178,12 @@ export default function Timelines() {
   return (
     <div className="mx-auto max-w-6xl">
       <PageHeader
-        title="Timelines"
-        lede="From the Cross to the new creation, as each view sees it. Overlay a second view and the places where they part ways are outlined and listed underneath."
+        title={t('Timelines')}
+        lede={t('From the Cross to the new creation, as each view sees it. Overlay a second view and the places where they part ways are outlined and listed underneath.')}
       />
       <div className="ui flex flex-wrap items-end gap-4">
         <label className="text-sm">
-          <span className="block text-ink-soft">View</span>
+          <span className="block text-ink-soft">{t('View')}</span>
           <select className="mt-1 rounded-md border border-rule bg-surface px-3 py-2" value={a} onChange={(e) => (setSel('a', e.target.value), setPicked(null))}>
             {ids.map((id) => (
               <option key={id} value={id}>
@@ -192,9 +193,9 @@ export default function Timelines() {
           </select>
         </label>
         <label className="text-sm">
-          <span className="block text-ink-soft">Overlay with</span>
+          <span className="block text-ink-soft">{t('Overlay with')}</span>
           <select className="mt-1 rounded-md border border-rule bg-surface px-3 py-2" value={b} onChange={(e) => (setSel('b', e.target.value), setPicked(null))}>
-            <option value="">None</option>
+            <option value="">{t('None')}</option>
             {ids.filter((id) => id !== a).map((id) => (
               <option key={id} value={id}>
                 {positionsById.get(id)?.name}
@@ -204,11 +205,12 @@ export default function Timelines() {
         </label>
       </div>
 
-      <div className="scroll-x leaf mt-6 p-2" role="region" aria-label="Timeline chart" tabIndex={0}>
+      <div className="scroll-x leaf mt-6 p-2" role="region" aria-label={t('Timeline chart')} tabIndex={0}>
         <svg key={a + b} viewBox={`0 0 ${W} ${H}`} className="block h-auto w-full min-w-[46rem]" role="img" aria-labelledby="tl-title">
           <title id="tl-title">
-            Timeline of {positionsById.get(a)?.name}
-            {tb ? ` overlaid with ${positionsById.get(b)?.name}` : ''}. A text version follows the chart.
+            {tb
+              ? t('Timeline of {a} overlaid with {b}. A text version follows the chart.', { a: positionsById.get(a)?.name ?? '', b: positionsById.get(b)?.name ?? '' })
+              : t('Timeline of {a}. A text version follows the chart.', { a: positionsById.get(a)?.name ?? '' })}
           </title>
           {/* era bands */}
           <rect x={x(0)} y={0} width={x(10) - x(0)} height={H} fill="var(--surface-2)" opacity={0.55} />
@@ -245,14 +247,14 @@ export default function Timelines() {
       <div className="ui mt-3 flex flex-wrap gap-4 text-sm text-ink-soft">
         <span>
           <span className="inline-block h-1 w-6 align-middle" style={{ background: color(a).base }} /> {positionsById.get(a)?.shortName}
-          {tb && ' (above)'}
+          {tb && ` (${t('above')})`}
         </span>
         {tb && (
           <span>
-            <span className="inline-block h-1 w-6 align-middle" style={{ background: color(b).base }} /> {positionsById.get(b)?.shortName} (below)
+            <span className="inline-block h-1 w-6 align-middle" style={{ background: color(b).base }} /> {positionsById.get(b)?.shortName} ({t('below')})
           </span>
         )}
-        <span>Shaded: the first century, and the future. Select any event for details.</span>
+        <span>{t('Shaded: the first century, and the future. Select any event for details.')}</span>
       </div>
 
       <div className="mt-8 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
@@ -283,7 +285,7 @@ export default function Timelines() {
 
         {tb ? (
           <section>
-            <h2 className="text-2xl">Where they diverge</h2>
+            <h2 className="text-2xl">{t('Where they diverge')}</h2>
             <ul className="mt-3 divide-y divide-rule">
               {div
                 .filter((d) => d.kind !== 'same')
@@ -293,36 +295,47 @@ export default function Timelines() {
                     <p className="ui text-sm text-ink-soft">
                       {d.kind === 'moved' && (
                         <>
-                          {positionsById.get(a)?.shortName}: {d.a!.label}; {positionsById.get(b)?.shortName}: {d.b!.label} (placed {Math.abs(d.a!.at - d.b!.at) < 3 ? 'over a different span' : d.a!.at < d.b!.at ? `earlier by ${positionsById.get(a)?.shortName}` : `earlier by ${positionsById.get(b)?.shortName}`})
+                          {t('{a}: {la}; {b}: {lb} (placed {how})', {
+                            a: positionsById.get(a)?.shortName ?? '',
+                            la: d.a!.label,
+                            b: positionsById.get(b)?.shortName ?? '',
+                            lb: d.b!.label,
+                            how:
+                              Math.abs(d.a!.at - d.b!.at) < 3
+                                ? t('over a different span')
+                                : d.a!.at < d.b!.at
+                                  ? t('earlier by {name}', { name: positionsById.get(a)?.shortName ?? '' })
+                                  : t('earlier by {name}', { name: positionsById.get(b)?.shortName ?? '' }),
+                          })}
                         </>
                       )}
-                      {d.kind === 'only-a' && <>Only {positionsById.get(a)?.shortName} places this: {d.a!.label}</>}
-                      {d.kind === 'only-b' && <>Only {positionsById.get(b)?.shortName} places this: {d.b!.label}</>}
+                      {d.kind === 'only-a' && <>{t('Only {name} places this: {label}', { name: positionsById.get(a)?.shortName ?? '', label: d.a!.label })}</>}
+                      {d.kind === 'only-b' && <>{t('Only {name} places this: {label}', { name: positionsById.get(b)?.shortName ?? '', label: d.b!.label })}</>}
                     </p>
                   </li>
                 ))}
             </ul>
             {div.some((d) => d.kind === 'same') && (
               <p className="ui mt-3 text-sm text-ink-soft">
-                Shared: {div.filter((d) => d.kind === 'same').map((d) => MILESTONE_LABEL[d.m]).join(', ')}.
+                {t('Shared: {list}.', { list: div.filter((d) => d.kind === 'same').map((d) => MILESTONE_LABEL[d.m]).join(', ') })}
               </p>
             )}
           </section>
         ) : (
           <section>
-            <h2 className="text-2xl">The sequence</h2>
+            <h2 className="text-2xl">{t('The sequence')}</h2>
             <ol className="mt-3 space-y-1.5">
               {[...ta.events].sort((p, q) => p.at - q.at).map((e) => (
                 <li key={e.id}>
                   <button type="button" className="text-left hover:text-accent" onClick={() => setPicked({ e, pos: a })}>
                     <span className="font-medium">{e.label}</span>
-                    {e.end != null && <span className="ui text-sm text-ink-soft"> (a span)</span>}
+                    {e.end != null && <span className="ui text-sm text-ink-soft"> ({t('a span')})</span>}
                   </button>
                 </li>
               ))}
             </ol>
             <Link to={`/positions/${a}`} className="ui mt-4 inline-block text-sm">
-              Read about {positionsById.get(a)?.shortName}
+              {t('Read about {name}', { name: positionsById.get(a)?.shortName ?? '' })}
             </Link>
           </section>
         )}

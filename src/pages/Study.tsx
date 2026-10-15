@@ -6,12 +6,13 @@ import { argumentIndex, content, passageIndex, positionsById } from '../lib/cont
 import { flashcards, quizzes } from '../lib/data/study'
 import { useApp } from '../lib/store'
 import type { FlashDeck, QuizSet } from '../content/schema'
+import { t } from '../lib/i18n'
 
 const TABS = [
-  { id: 'quiz', label: 'Quizzes' },
-  { id: 'cards', label: 'Flashcards' },
-  { id: 'progress', label: 'Progress' },
-  { id: 'notes', label: 'Notes & saved' },
+  { id: 'quiz', label: t('Quizzes') },
+  { id: 'cards', label: t('Flashcards') },
+  { id: 'progress', label: t('Progress') },
+  { id: 'notes', label: t('Notes & saved') },
 ] as const
 type Tab = (typeof TABS)[number]['id']
 
@@ -20,8 +21,8 @@ export default function Study() {
   const tab = (params.get('tab') as Tab) || 'quiz'
   return (
     <div className="mx-auto max-w-5xl">
-      <PageHeader title="Study" lede="Test yourself, review with spaced flashcards, and keep your notes in one place. Everything is stored on this device only." />
-      <div className="ui flex flex-wrap gap-1.5" role="tablist" aria-label="Study tools">
+      <PageHeader title={t('Study')} lede={t('Test yourself, review with spaced flashcards, and keep your notes in one place. Everything is stored on this device only.')} />
+      <div className="ui flex flex-wrap gap-1.5" role="tablist" aria-label={t('Study tools')}>
         {TABS.map((t) => (
           <button key={t.id} type="button" role="tab" aria-selected={tab === t.id} className="btn" onClick={() => setParams({ tab: t.id })}>
             {t.label}
@@ -59,7 +60,7 @@ function Quizzes() {
   const [set, setSet] = useState<QuizSet | null>(null)
   const best = useApp((s) => s.quizBest)
   if (!set)
-    return <SetPicker sets={quizzes} onPick={setSet} extra={(s) => `${s.questions.length} questions${best[s.set] != null ? `, best ${best[s.set]}%` : ''}`} />
+    return <SetPicker sets={quizzes} onPick={setSet} extra={(s) => (best[s.set] != null ? t('{n} questions, best {pct}%', { n: s.questions.length, pct: best[s.set] }) : t('{n} questions', { n: s.questions.length }))} />
   return <QuizRun key={set.set} set={set} onExit={() => setSet(null)} />
 }
 
@@ -75,19 +76,19 @@ function QuizRun({ set, onExit }: { set: QuizSet; onExit: () => void }) {
     return (
       <div className="leaf max-w-2xl p-6">
         <h2 className="text-3xl">
-          {score} of {set.questions.length}
+          {t('{n} of {total}', { n: score, total: set.questions.length })}
         </h2>
-        <p className="mt-1 text-ink-soft">{pct >= 80 ? 'A strong grasp of this view.' : pct >= 50 ? 'A good start. The explanations point to the pages worth revisiting.' : 'Worth another pass through the position page first.'}</p>
+        <p className="mt-1 text-ink-soft">{pct >= 80 ? t('A strong grasp of this view.') : pct >= 50 ? t('A good start. The explanations point to the pages worth revisiting.') : t('Worth another pass through the position page first.')}</p>
         <div className="ui mt-5 flex gap-2">
           <button type="button" className="btn btn-primary" onClick={() => (setI(0), setScore(0), setChoice(null))}>
-            Try again
+            {t('Try again')}
           </button>
           <button type="button" className="btn" onClick={onExit}>
-            Choose another quiz
+            {t('Choose another quiz')}
           </button>
           {set.set !== 'general' && (
             <Link to={`/positions/${set.set}`} className="btn no-underline">
-              Read the position
+              {t('Read the position')}
             </Link>
           )}
         </div>
@@ -99,10 +100,10 @@ function QuizRun({ set, onExit }: { set: QuizSet; onExit: () => void }) {
     <div className="max-w-2xl">
       <div className="ui flex items-center justify-between text-sm text-ink-soft">
         <button type="button" className="underline underline-offset-2" onClick={onExit}>
-          All quizzes
+          {t('All quizzes')}
         </button>
         <span>
-          {setTitle(set)}: question {i + 1} of {set.questions.length}
+          {t('{title}: question {n} of {total}', { title: setTitle(set), n: i + 1, total: set.questions.length })}
         </span>
       </div>
       <div className="mt-2 h-1 rounded-full bg-surface-2" aria-hidden>
@@ -126,8 +127,8 @@ function QuizRun({ set, onExit }: { set: QuizSet; onExit: () => void }) {
                   if (correct) setScore(score + 1)
                 }}
               >
-                {answered && correct && <span aria-label="correct">✓</span>}
-                {answered && k === choice && !correct && <span aria-label="your answer, incorrect">✗</span>}
+                {answered && correct && <span aria-label={t('correct')}>✓</span>}
+                {answered && k === choice && !correct && <span aria-label={t('your answer, incorrect')}>✗</span>}
                 {o}
               </motion.button>
             </li>
@@ -136,7 +137,7 @@ function QuizRun({ set, onExit }: { set: QuizSet; onExit: () => void }) {
       </ul>
       {answered && (
         <div aria-live="polite" className="leaf mt-4 p-4">
-          <p className="ui font-medium">{choice === q.answer ? 'Correct.' : 'Not quite.'}</p>
+          <p className="ui font-medium">{choice === q.answer ? t('Correct.') : t('Not quite.')}</p>
           <p className="mt-1">{q.explanation}</p>
           <button
             type="button"
@@ -148,7 +149,7 @@ function QuizRun({ set, onExit }: { set: QuizSet; onExit: () => void }) {
               setChoice(null)
             }}
           >
-            {i + 1 < set.questions.length ? 'Next question' : 'See my score'}
+            {i + 1 < set.questions.length ? t('Next question') : t('See my score')}
           </button>
         </div>
       )}
@@ -164,7 +165,7 @@ function Cards() {
       <SetPicker
         sets={flashcards}
         onPick={setDeck}
-        extra={(d) => `${d.cards.length} cards, ${d.cards.filter((c) => (box[`${d.set}/${c.id}`] ?? 0) >= 3).length} learned`}
+        extra={(d) => t('{n} cards, {learned} learned', { n: d.cards.length, learned: d.cards.filter((c) => (box[`${d.set}/${c.id}`] ?? 0) >= 3).length })}
       />
     )
   return <CardRun key={deck.set} deck={deck} onExit={() => setDeck(null)} />
@@ -188,10 +189,10 @@ function CardRun({ deck, onExit }: { deck: FlashDeck; onExit: () => void }) {
     <div className="max-w-2xl">
       <div className="ui flex items-center justify-between text-sm text-ink-soft">
         <button type="button" className="underline underline-offset-2" onClick={onExit}>
-          All decks
+          {t('All decks')}
         </button>
         <span>
-          {setTitle(deck)}: card {(i % order.length) + 1} of {order.length}, box {box[key] ?? 0} of 4
+          {t('{title}: card {n} of {total}, box {box} of 4', { title: setTitle(deck), n: (i % order.length) + 1, total: order.length, box: box[key] ?? 0 })}
         </span>
       </div>
       <div className="mt-4 [perspective:1200px]">
@@ -205,9 +206,9 @@ function CardRun({ deck, onExit }: { deck: FlashDeck; onExit: () => void }) {
             exit={{ rotateY: flipped ? 90 : -90, opacity: 0 }}
             transition={{ duration: 0.22 }}
             className={`leaf flex min-h-[15rem] w-full flex-col items-center justify-center p-8 text-center ${flipped ? 'border-gold' : ''}`}
-            aria-label={flipped ? 'Answer. Select to show the question.' : 'Question. Select to show the answer.'}
+            aria-label={flipped ? t('Answer. Select to show the question.') : t('Question. Select to show the answer.')}
           >
-            <span className="ui text-sm text-ink-soft">{flipped ? 'Answer' : 'Question'}</span>
+            <span className="ui text-sm text-ink-soft">{flipped ? t('Answer') : t('Question')}</span>
             <span className={`mt-2 ${flipped ? 'text-lg' : 'text-2xl'}`}>{flipped ? card.back : card.front}</span>
           </motion.button>
         </AnimatePresence>
@@ -216,15 +217,15 @@ function CardRun({ deck, onExit }: { deck: FlashDeck; onExit: () => void }) {
         {flipped ? (
           <>
             <button type="button" className="btn" onClick={() => grade(false)}>
-              Again
+              {t('Again')}
             </button>
             <button type="button" className="btn btn-primary" onClick={() => grade(true)}>
-              I knew it
+              {t('I knew it')}
             </button>
           </>
         ) : (
           <button type="button" className="btn btn-primary" onClick={() => setFlipped(true)}>
-            Show answer
+            {t('Show answer')}
           </button>
         )}
       </div>
@@ -239,7 +240,7 @@ function Bar({ label, n, of, to }: { label: string; n: number; of: number; to?: 
       <div className="ui flex justify-between text-sm">
         {to ? <Link to={to}>{label}</Link> : <span>{label}</span>}
         <span className="text-ink-soft">
-          {n} of {of}
+          {t('{n} of {total}', { n, total: of })}
         </span>
       </div>
       <div className="mt-1 h-2 rounded-full bg-surface-2" role="progressbar" aria-label={label} aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100}>
@@ -255,19 +256,19 @@ function Progress() {
   const learned = Object.values(cardBox).filter((b) => b >= 3).length
   return (
     <div className="max-w-2xl space-y-5">
-      <Bar label="Positions read" n={visited.filter((v) => v.startsWith('position/')).length} of={content.positions.length} to="/positions" />
-      <Bar label="Passages studied" n={visited.filter((v) => v.startsWith('passage/')).length} of={content.index.passages.length} to="/passages" />
-      <Bar label="Debates explored" n={visited.filter((v) => v.startsWith('argument/')).length} of={content.index.arguments.length} to="/arena" />
-      <Bar label="Revelation chapters studied" n={visited.filter((v) => v.startsWith('revelation/')).length} of={22} to="/revelation" />
-      <Bar label="Quizzes taken" n={Object.keys(quizBest).length} of={quizzes.length} />
-      <Bar label="Flashcards learned" n={learned} of={cardsTotal} />
+      <Bar label={t('Positions read')} n={visited.filter((v) => v.startsWith('position/')).length} of={content.positions.length} to="/positions" />
+      <Bar label={t('Passages studied')} n={visited.filter((v) => v.startsWith('passage/')).length} of={content.index.passages.length} to="/passages" />
+      <Bar label={t('Debates explored')} n={visited.filter((v) => v.startsWith('argument/')).length} of={content.index.arguments.length} to="/arena" />
+      <Bar label={t('Revelation chapters studied')} n={visited.filter((v) => v.startsWith('revelation/')).length} of={22} to="/revelation" />
+      <Bar label={t('Quizzes taken')} n={Object.keys(quizBest).length} of={quizzes.length} />
+      <Bar label={t('Flashcards learned')} n={learned} of={cardsTotal} />
       {Object.keys(quizBest).length > 0 && (
         <table className="ui mt-4 w-full text-left text-sm">
-          <caption className="text-left font-serif text-lg">Best quiz scores</caption>
+          <caption className="text-left font-serif text-lg">{t('Best quiz scores')}</caption>
           <tbody>
             {Object.entries(quizBest).map(([k, v]) => (
               <tr key={k} className="border-b border-rule">
-                <td className="py-1.5">{k === 'general' ? 'General' : positionsById.get(k)?.name}</td>
+                <td className="py-1.5">{k === 'general' ? t('General') : positionsById.get(k)?.name}</td>
                 <td className="py-1.5 text-right">{v}%</td>
               </tr>
             ))}
@@ -283,21 +284,21 @@ function Progress() {
 function ClearButton({ onConfirm }: { onConfirm: () => void }) {
   const [asking, setAsking] = useState(false)
   const [done, setDone] = useState(false)
-  if (done) return <p className="ui text-sm text-ink-soft" role="status">Progress, notes and saved items cleared.</p>
+  if (done) return <p className="ui text-sm text-ink-soft" role="status">{t('Progress, notes and saved items cleared.')}</p>
   if (!asking)
     return (
       <button type="button" className="btn ui text-sm" onClick={() => setAsking(true)}>
-        Clear progress and notes
+        {t('Clear progress and notes')}
       </button>
     )
   return (
-    <div className="leaf flex flex-wrap items-center gap-3 p-3" role="alertdialog" aria-label="Confirm clearing">
-      <p className="text-sm">Clear all progress, notes and saved items on this device? This can’t be undone.</p>
+    <div className="leaf flex flex-wrap items-center gap-3 p-3" role="alertdialog" aria-label={t('Confirm clearing')}>
+      <p className="text-sm">{t('Clear all progress, notes and saved items on this device? This can’t be undone.')}</p>
       <button type="button" className="btn btn-primary text-sm" onClick={() => (onConfirm(), setAsking(false), setDone(true))}>
-        Yes, clear everything
+        {t('Yes, clear everything')}
       </button>
       <button type="button" className="btn text-sm" onClick={() => setAsking(false)}>
-        Keep them
+        {t('Keep them')}
       </button>
     </div>
   )
@@ -308,7 +309,7 @@ function labelFor(key: string): { label: string; to: string } {
   if (kind === 'position') return { label: positionsById.get(id)?.name ?? id, to: `/positions/${id}` }
   if (kind === 'passage') return { label: passageIndex.get(id)?.ref ?? id, to: `/passages/${id}` }
   if (kind === 'argument') return { label: argumentIndex.get(id)?.title ?? id, to: `/arena/${id}` }
-  if (kind === 'revelation') return { label: `Revelation ${id}`, to: `/revelation/${id}` }
+  if (kind === 'revelation') return { label: t('Revelation {n}', { n: id }), to: `/revelation/${id}` }
   return { label: key, to: '/' }
 }
 
@@ -316,7 +317,7 @@ function Notes() {
   const { notes, pins, bookmarks } = useApp()
   const entries = Object.entries(notes).sort(([a], [b]) => Number(pins.includes(b)) - Number(pins.includes(a)))
   const [copied, setCopied] = useState<'idle' | 'ok' | 'failed'>('idle')
-  const markdown = () => `# My notes from Last Things\n\n${entries.map(([k, v]) => `## ${labelFor(k).label}${pins.includes(k) ? ' (pinned)' : ''}\n\n${v}\n`).join('\n')}`
+  const markdown = () => `# ${t('My notes from Last Things')}\n\n${entries.map(([k, v]) => `## ${labelFor(k).label}${pins.includes(k) ? ` (${t('pinned')})` : ''}\n\n${v}\n`).join('\n')}`
   const copyMd = () =>
     navigator.clipboard
       .writeText(markdown())
@@ -334,26 +335,26 @@ function Notes() {
     <div className="grid gap-10 md:grid-cols-2">
       <section>
         <div className="flex items-baseline justify-between">
-          <h2 className="text-2xl">Notes</h2>
+          <h2 className="text-2xl">{t('Notes')}</h2>
           {entries.length > 0 && (
             <span className="flex gap-3 text-sm">
               <button type="button" className="underline underline-offset-2" onClick={copyMd}>
-                {copied === 'ok' ? 'Copied' : 'Copy all'}
+                {copied === 'ok' ? t('Copied') : t('Copy all')}
               </button>
               <button type="button" className="underline underline-offset-2" onClick={exportMd}>
-                Download
+                {t('Download')}
               </button>
             </span>
           )}
         </div>
         {copied === 'failed' && (
           <div className="mt-2">
-            <p className="text-sm text-ink-soft">Copying isn’t allowed here. Select the text below and copy it yourself.</p>
+            <p className="text-sm text-ink-soft">{t('Copying isn’t allowed here. Select the text below and copy it yourself.')}</p>
             <textarea readOnly className="mt-1 h-32 w-full rounded-lg border border-rule bg-bg p-2 text-sm" value={markdown()} onFocus={(e) => e.currentTarget.select()} />
           </div>
         )}
         {entries.length === 0 ? (
-          <p className="ui mt-2 text-sm text-ink-soft">No notes yet. Use “Add a note” at the foot of any position, passage or debate.</p>
+          <p className="ui mt-2 text-sm text-ink-soft">{t('No notes yet. Use “Add a note” at the foot of any position, passage or debate.')}</p>
         ) : (
           <ul className="mt-3 space-y-3">
             {entries.map(([k, v]) => {
@@ -361,7 +362,7 @@ function Notes() {
               return (
                 <li key={k} className="leaf p-4">
                   <Link to={l.to} className="ui text-sm">
-                    {pins.includes(k) && <span className="text-gold">✦ pinned, </span>}
+                    {pins.includes(k) && <span className="text-gold">✦ {t('pinned')}, </span>}
                     {l.label}
                   </Link>
                   <p className="mt-1 whitespace-pre-wrap">{v}</p>
@@ -372,9 +373,9 @@ function Notes() {
         )}
       </section>
       <section>
-        <h2 className="text-2xl">Saved</h2>
+        <h2 className="text-2xl">{t('Saved')}</h2>
         {bookmarks.length === 0 ? (
-          <p className="ui mt-2 text-sm text-ink-soft">Nothing saved yet. Use “Save” on any position, passage or debate.</p>
+          <p className="ui mt-2 text-sm text-ink-soft">{t('Nothing saved yet. Use “Save” on any position, passage or debate.')}</p>
         ) : (
           <ul className="ui mt-3 space-y-1.5">
             {bookmarks.map((b) => {

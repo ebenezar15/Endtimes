@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import type { SpiritualStudy } from '../../content/schema'
 import { Gloss } from '../Gloss'
+import { t } from '../../lib/i18n'
 
 /** A key that turns in its lock when a new pattern is chosen. */
 function KeyGlyph({ turn }: { turn: number }) {
@@ -24,7 +25,7 @@ export function PatternKeys({ patterns }: { patterns: SpiritualStudy['patterns']
   const p = patterns[i]
   return (
     <div className="leaf p-5">
-      <div className="scroll-x -mx-1 flex gap-1.5 px-1 pb-2" role="tablist" aria-label="Old Testament patterns">
+      <div className="scroll-x -mx-1 flex gap-1.5 px-1 pb-2" role="tablist" aria-label={t('Old Testament patterns')}>
         {patterns.map((x, j) => (
           <button key={x.id} type="button" role="tab" aria-selected={j === i} onClick={() => setI(j)} className={`chip shrink-0 cursor-pointer ${j === i ? 'border-accent' : ''}`} style={j === i ? { background: 'var(--accent)', color: 'var(--accent-ink)' } : undefined}>
             {x.pattern}
@@ -72,7 +73,7 @@ export function LinesTicker({ lines }: { lines: string[] }) {
   }, [i, lines.length])
   if (!lines.length) return null
   return (
-    <button type="button" onClick={() => setI((n) => (n + 1) % lines.length)} className="mt-5 block min-h-[4.5rem] w-full text-left" aria-label="Show the next line">
+    <button type="button" onClick={() => setI((n) => (n + 1) % lines.length)} className="mt-5 block min-h-[4.5rem] w-full text-left" aria-label={t('Show the next line')}>
       <AnimatePresence mode="wait">
         <motion.span key={i} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -8 }} transition={{ duration: 0.35 }} className="block border-l-4 border-gold-bright pl-4 font-serif text-xl italic leading-snug">
           {lines[i]}

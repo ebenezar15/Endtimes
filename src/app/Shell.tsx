@@ -1,18 +1,20 @@
 import { lazy, Suspense, useEffect, useState, type ReactNode } from 'react'
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import { AnimatePresence, motion, useScroll, useSpring } from 'framer-motion'
-import { NAV } from './nav'
+import { NAV, NAV_GROUP_LABEL } from './nav'
 import { Icon } from '../components/Icon'
 import { AppearanceButton } from '../components/Appearance'
+import { LanguageSwitch } from '../components/LanguageSwitch'
 import { useApp } from '../lib/store'
 import { positionName } from '../lib/core'
 import { usePositionColors } from '../lib/theme'
+import { t } from '../lib/i18n'
 
 const SearchDialog = lazy(() => import('../components/SearchDialog'))
 
 function Logo() {
   return (
-    <Link to="/" className="flex items-center gap-2.5 text-ink no-underline" aria-label="Last Things home">
+    <Link to="/" className="flex items-center gap-2.5 text-ink no-underline" aria-label={t('Last Things home')}>
       <motion.svg width="34" height="34" viewBox="0 0 64 64" initial={{ rotate: -90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} transition={{ type: 'spring', stiffness: 120, damping: 14 }} aria-hidden>
         <rect width="64" height="64" rx="16" fill="var(--accent)" />
         <motion.path
@@ -28,8 +30,8 @@ function Logo() {
         />
       </motion.svg>
       <span className="leading-none">
-        <span className="block text-[17px] font-bold tracking-tight">Last Things</span>
-        <span className="block text-[10px] font-semibold uppercase tracking-[0.25em] text-ink-soft">Views of the end</span>
+        <span className="block text-[17px] font-bold tracking-tight">{t('Last Things')}</span>
+        <span className="block text-[10px] font-semibold uppercase tracking-[0.25em] text-ink-soft">{t('Views of the end')}</span>
       </span>
     </Link>
   )
@@ -39,10 +41,10 @@ function NavList({ onNavigate }: { onNavigate?: () => void }) {
   const groups = [...new Set(NAV.map((n) => n.group))]
   const saved = useApp((s) => s.bookmarks.length)
   return (
-    <nav aria-label="Main" className="space-y-5">
+    <nav aria-label={t('Main')} className="space-y-5">
       {groups.map((g) => (
         <div key={g}>
-          <p className="mb-1.5 px-3 text-[11px] font-bold uppercase tracking-[0.2em] text-ink-soft">{g}</p>
+          <p className="mb-1.5 px-3 text-[11px] font-bold uppercase tracking-[0.2em] text-ink-soft">{NAV_GROUP_LABEL[g] ?? g}</p>
           <ul className="space-y-0.5">
             {NAV.filter((n) => n.group === g).map((n) => (
               <li key={n.to}>
@@ -82,7 +84,7 @@ function LensChip() {
   const { lensOn, lens } = useApp()
   if (!lensOn) return null
   return (
-    <Link to="/settings#lens" className="chip hidden no-underline hover:border-accent md:inline-flex" title="Change your My View lens">
+    <Link to="/settings#lens" className="chip hidden no-underline hover:border-accent md:inline-flex" title={t('Change your My View lens')}>
       <Icon name="star" size={13} className="text-gold" />
       {positionName(lens.millennial, true)} + {positionName(lens.hermeneutic, true)}
     </Link>
@@ -106,12 +108,12 @@ function CompareTray() {
           transition={{ type: 'spring', stiffness: 300, damping: 28 }}
           className="leaf fixed inset-x-3 bottom-3 z-40 mx-auto flex max-w-2xl flex-wrap items-center gap-2 p-3 shadow-2xl"
           role="region"
-          aria-label="Compare tray"
+          aria-label={t('Compare tray')}
         >
           <Icon name="layers" className="text-accent" />
           <AnimatePresence initial={false}>
             {compareTray.map((id) => (
-              <motion.button layout key={id} type="button" initial={{ scale: 0 }} animate={{ scale: 1 }} exit={{ scale: 0 }} className="chip" style={{ borderColor: color(id).base }} onClick={() => toggleCompare(id)} aria-label={`Remove ${positionName(id)} from comparison`}>
+              <motion.button layout key={id} type="button" initial={{ scale: 0 }} animate={{ scale: 1 }} exit={{ scale: 0 }} className="chip" style={{ borderColor: color(id).base }} onClick={() => toggleCompare(id)} aria-label={t('Remove {name} from comparison', { name: positionName(id) })}>
                 <span aria-hidden className="size-2 rounded-full" style={{ background: color(id).base }} />
                 {positionName(id, true)} <Icon name="close" size={11} />
               </motion.button>
@@ -119,10 +121,10 @@ function CompareTray() {
           </AnimatePresence>
           <div className="ml-auto flex gap-2">
             <button type="button" className="btn min-h-9 py-1 text-sm" onClick={clearCompare}>
-              Clear
+              {t('Clear')}
             </button>
             <button type="button" className="btn btn-primary min-h-9 py-1 text-sm" disabled={compareTray.length < 2} onClick={() => nav(`/compare?p=${compareTray.join(',')}`)}>
-              Compare {compareTray.length} <Icon name="arrow" size={15} />
+              {t('Compare {n}', { n: compareTray.length })} <Icon name="arrow" size={15} />
             </button>
           </div>
         </motion.div>
@@ -158,7 +160,7 @@ export function Shell({ children }: { children: ReactNode }) {
     <div className="min-h-dvh">
       <ScrollProgress />
       <a href="#main" className="btn sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-[80]">
-        Skip to content
+        {t('Skip to content')}
       </a>
 
       <aside className="scrollbar-thin fixed inset-y-0 left-0 z-30 hidden w-64 overflow-y-auto border-r border-rule bg-bg/80 px-3 py-5 backdrop-blur-xl lg:block">
@@ -167,25 +169,26 @@ export function Shell({ children }: { children: ReactNode }) {
         </div>
         <NavList />
         <p className="mt-8 px-3 text-[11px] leading-relaxed text-ink-soft">
-          Every view is written as its own proponents would state it. No view is declared correct; each speaks for itself first.
+          {t('Every view is written as its own proponents would state it. No view is declared correct; each speaks for itself first.')}
         </p>
       </aside>
 
       <header className="sticky top-0 z-30 border-b border-rule bg-bg/75 backdrop-blur-xl lg:ml-64">
         <div className="flex h-14 items-center gap-2 px-4">
-          <button type="button" className="btn px-2.5 lg:hidden" onClick={() => setMenu(true)} aria-label="Open menu" aria-expanded={menu}>
+          <button type="button" className="btn px-2.5 lg:hidden" onClick={() => setMenu(true)} aria-label={t('Open menu')} aria-expanded={menu}>
             <Icon name="menu" />
           </button>
           <div className="lg:hidden">
             <Logo />
           </div>
-          <button type="button" onClick={() => setSearch(true)} className="btn ml-auto justify-start whitespace-nowrap text-ink-soft sm:w-80 lg:ml-0" aria-label="Search (Ctrl+K)">
+          <button type="button" onClick={() => setSearch(true)} className="btn ml-auto justify-start whitespace-nowrap text-ink-soft sm:w-80 lg:ml-0" aria-label={t('Search (Ctrl+K)')}>
             <Icon name="search" />
-            <span className="hidden sm:inline">Search positions, texts, terms…</span>
+            <span className="hidden sm:inline">{t('Search positions, texts, terms…')}</span>
             <kbd className="chip ml-auto hidden py-0 sm:inline-flex">Ctrl K</kbd>
           </button>
           <div className="flex items-center gap-2 lg:ml-auto">
             <LensChip />
+            <LanguageSwitch />
             <AppearanceButton />
           </div>
         </div>
@@ -201,11 +204,11 @@ export function Shell({ children }: { children: ReactNode }) {
               animate={{ x: 0 }}
               exit={{ x: -300 }}
               transition={{ type: 'spring', stiffness: 320, damping: 32 }}
-              aria-label="Menu"
+              aria-label={t('Menu')}
             >
               <div className="mb-6 flex items-center justify-between px-2">
                 <Logo />
-                <button type="button" onClick={() => setMenu(false)} aria-label="Close menu">
+                <button type="button" onClick={() => setMenu(false)} aria-label={t('Close menu')}>
                   <Icon name="close" />
                 </button>
               </div>
@@ -228,14 +231,14 @@ export function Shell({ children }: { children: ReactNode }) {
             {children}
         </motion.div>
         <footer className="border-t border-rule px-6 py-8 text-center text-xs text-ink-soft">
-          Last Things. Every position, reading and argument cites its sources. Bible text: Berean Study Bible, KJV, World English Bible.
+          {t('Last Things. Every position, reading and argument cites its sources. Bible text: Berean Study Bible, KJV, World English Bible.')}
         </footer>
       </main>
 
       {loc.pathname !== '/fit' && tray === 0 && (
         <motion.div className="fixed bottom-4 right-4 z-30" initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: 'spring', delay: 0.6 }}>
-          <Link to="/fit" className="btn btn-primary rounded-full px-4 py-3 no-underline shadow-xl" aria-label="Which view fits me?">
-            <Icon name="fork" /> <span className="hidden sm:inline">Which view fits me?</span>
+          <Link to="/fit" className="btn btn-primary rounded-full px-4 py-3 no-underline shadow-xl" aria-label={t('Which view fits me?')}>
+            <Icon name="fork" /> <span className="hidden sm:inline">{t('Which view fits me?')}</span>
           </Link>
         </motion.div>
       )}
@@ -251,7 +254,7 @@ export function Shell({ children }: { children: ReactNode }) {
 
 export function PageLoader() {
   return (
-    <div className="flex min-h-[50vh] items-center justify-center" role="status" aria-label="Loading">
+    <div className="flex min-h-[50vh] items-center justify-center" role="status" aria-label={t('Loading')}>
       <motion.div className="text-accent" animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 2.4, ease: 'linear' }}>
         <Icon name="wheel" size={40} />
       </motion.div>

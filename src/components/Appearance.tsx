@@ -1,9 +1,10 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { useEffect, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { Icon, type IconName } from './Icon'
 import { SCHEMES, type Mode } from '../lib/schemes'
 import { useApp } from '../lib/store'
 import { withReveal } from '../lib/theme'
+import { t } from '../lib/i18n'
 
 /** Scheme swatches + light/dark/system + contrast + motion. Used in the header popover and on Settings. */
 export function AppearanceControls() {
@@ -11,8 +12,8 @@ export function AppearanceControls() {
   return (
     <div className="space-y-4">
       <div>
-        <p className="mb-1.5 text-xs font-bold uppercase tracking-widest text-ink-soft">Colour scheme</p>
-        <div className="grid gap-1.5" role="radiogroup" aria-label="Colour scheme">
+        <p className="mb-1.5 text-xs font-bold uppercase tracking-widest text-ink-soft">{t('Colour scheme')}</p>
+        <div className="grid gap-1.5" role="radiogroup" aria-label={t('Colour scheme')}>
           {SCHEMES.map((s, i) => (
             <motion.button
               key={s.id}
@@ -40,24 +41,24 @@ export function AppearanceControls() {
         </div>
       </div>
       <div>
-        <p className="mb-1.5 text-xs font-bold uppercase tracking-widest text-ink-soft">Mode</p>
+        <p className="mb-1.5 text-xs font-bold uppercase tracking-widest text-ink-soft">{t('Mode')}</p>
         <Segmented<Mode>
           id="mode"
           value={mode}
           options={[
-            { v: 'light', l: 'Light', i: 'sun' },
-            { v: 'dark', l: 'Dark', i: 'moon' },
-            { v: 'system', l: 'System', i: 'layers' },
+            { v: 'light', l: t('Light'), i: 'sun' },
+            { v: 'dark', l: t('Dark'), i: 'moon' },
+            { v: 'system', l: t('System'), i: 'layers' },
           ]}
           onPick={(v, e) => withReveal(e, () => set({ mode: v, highContrast: false }))}
         />
       </div>
       <div className="flex flex-wrap gap-2">
         <button type="button" className="btn flex-1 text-sm" aria-pressed={highContrast} onClick={(e) => withReveal(e, () => set({ highContrast: !highContrast }))}>
-          <Icon name="contrast" /> High contrast
+          <Icon name="contrast" /> {t('High contrast')}
         </button>
         <button type="button" className="btn flex-1 text-sm" aria-pressed={reduceMotion} onClick={() => set({ reduceMotion: !reduceMotion })}>
-          <Icon name="motion" /> Reduce motion
+          <Icon name="motion" /> {t('Reduce motion')}
         </button>
       </div>
     </div>
@@ -95,7 +96,7 @@ export function AppearanceButton() {
   }, [])
   return (
     <div className="relative">
-      <motion.button whileHover={{ rotate: 20 }} whileTap={{ scale: 0.9 }} type="button" className="btn px-2.5" aria-label="Colour scheme and display" aria-expanded={open} onClick={() => setOpen((o) => !o)}>
+      <motion.button whileHover={{ rotate: 20 }} whileTap={{ scale: 0.9 }} type="button" className="btn px-2.5" aria-label={t('Colour scheme and display')} aria-expanded={open} onClick={() => setOpen((o) => !o)}>
         <Icon name="palette" />
       </motion.button>
       <AnimatePresence>
@@ -104,7 +105,7 @@ export function AppearanceButton() {
             <div className="fixed inset-0 z-40" onClick={() => setOpen(false)} />
             <motion.div
               role="dialog"
-              aria-label="Appearance"
+              aria-label={t('Appearance')}
               initial={{ opacity: 0, y: -8, scale: 0.96 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: -8, scale: 0.96 }}
@@ -112,14 +113,16 @@ export function AppearanceButton() {
               className="leaf fixed right-3 top-16 z-50 max-h-[80vh] w-[min(92vw,380px)] origin-top-right overflow-y-auto p-4 shadow-2xl"
             >
               <div className="mb-3 flex items-center justify-between">
-                <h2 className="text-base font-bold">Appearance</h2>
-                <button type="button" className="text-ink-soft hover:text-ink" onClick={() => setOpen(false)} aria-label="Close">
+                <h2 className="text-base font-bold">{t('Appearance')}</h2>
+                <button type="button" className="text-ink-soft hover:text-ink" onClick={() => setOpen(false)} aria-label={t('Close')}>
                   <Icon name="close" />
                 </button>
               </div>
               <AppearanceControls />
               <p className="mt-4 text-xs leading-relaxed text-ink-soft">
-                Set in <b className="text-ink">Avenir Next</b> where installed (macOS, iOS), with Nunito Sans as the open fallback.
+                {t('Set in {font} where installed (macOS, iOS), with Nunito Sans as the open fallback.')
+                  .split('{font}')
+                  .map((part, i) => (i ? <Fragment key={i}><b className="text-ink">Avenir Next</b>{part}</Fragment> : part))}
               </p>
             </motion.div>
           </>

@@ -1,23 +1,24 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { t } from '../lib/i18n'
 
 /** The three sevens of Revelation, laid out either in sequence (telescoping) or in parallel (recapitulation). */
 const SERIES = [
   {
-    id: 'seals', name: 'Seals', ch: [6, 6, 6, 6, 6, 6, 8],
-    items: ['White horse: conquest', 'Red horse: war', 'Black horse: famine', 'Pale horse: death', 'Souls under the altar', 'Cosmic upheaval', 'Silence in heaven'],
-    interlude: { label: 'Interlude: the sealed 144,000 and the great multitude', ch: 7 },
+    id: 'seals', name: t('Seals'), ch: [6, 6, 6, 6, 6, 6, 8],
+    items: [t('White horse: conquest'), t('Red horse: war'), t('Black horse: famine'), t('Pale horse: death'), t('Souls under the altar'), t('Cosmic upheaval'), t('Silence in heaven')],
+    interlude: { label: t('Interlude: the sealed 144,000 and the great multitude'), ch: 7 },
   },
   {
-    id: 'trumpets', name: 'Trumpets', ch: [8, 8, 8, 8, 9, 9, 11],
-    items: ['Hail and fire on the land', 'Burning mountain in the sea', 'Wormwood falls on the rivers', 'Sun, moon and stars darkened', 'Locusts from the abyss', 'Cavalry from the Euphrates', 'The kingdom of the world becomes Christ’s'],
-    interlude: { label: 'Interlude: the little scroll and the two witnesses', ch: 10 },
+    id: 'trumpets', name: t('Trumpets'), ch: [8, 8, 8, 8, 9, 9, 11],
+    items: [t('Hail and fire on the land'), t('Burning mountain in the sea'), t('Wormwood falls on the rivers'), t('Sun, moon and stars darkened'), t('Locusts from the abyss'), t('Cavalry from the Euphrates'), t('The kingdom of the world becomes Christ’s')],
+    interlude: { label: t('Interlude: the little scroll and the two witnesses'), ch: 10 },
   },
   {
-    id: 'bowls', name: 'Bowls', ch: [16, 16, 16, 16, 16, 16, 16],
-    items: ['Sores on the beast’s worshippers', 'The sea becomes blood', 'Rivers become blood', 'The sun scorches', 'Darkness on the beast’s throne', 'Euphrates dried up: Armageddon', '“It is done”: the great earthquake'],
-    interlude: { label: 'Interlude: three frog-like spirits gather the kings', ch: 16 },
+    id: 'bowls', name: t('Bowls'), ch: [16, 16, 16, 16, 16, 16, 16],
+    items: [t('Sores on the beast’s worshippers'), t('The sea becomes blood'), t('Rivers become blood'), t('The sun scorches'), t('Darkness on the beast’s throne'), t('Euphrates dried up: Armageddon'), t('“It is done”: the great earthquake')],
+    interlude: { label: t('Interlude: three frog-like spirits gather the kings'), ch: 16 },
   },
 ] as const
 
@@ -36,25 +37,25 @@ export function SevensDiagram() {
   const tip = hover ? SERIES[hover.s] : null
   return (
     <div>
-      <div className="flex flex-wrap items-center gap-2" role="radiogroup" aria-label="Structure">
+      <div className="flex flex-wrap items-center gap-2" role="radiogroup" aria-label={t('Structure')}>
         <button type="button" role="radio" aria-checked={mode === 'recap'} className="btn text-sm" aria-pressed={mode === 'recap'} onClick={() => setMode('recap')}>
-          In parallel (recapitulation)
+          {t('In parallel (recapitulation)')}
         </button>
         <button type="button" role="radio" aria-checked={mode === 'sequence'} className="btn text-sm" aria-pressed={mode === 'sequence'} onClick={() => setMode('sequence')}>
-          In sequence (telescoping)
+          {t('In sequence (telescoping)')}
         </button>
       </div>
       <p className="mt-3 max-w-[70ch] text-sm text-ink-soft">
         {mode === 'recap'
-          ? 'Recapitulation, or progressive parallelism, reads the seals, trumpets and bowls as three views of the same period, each ending at the final judgment and each more intense than the last. Its roots are in Victorinus, Tyconius and Augustine. It is common among amillennial and idealist readers (Hendriksen, Beale), and many preterists and historic premillennialists hold a partial version.'
-          : 'The sequential (telescoping) reading takes the seventh seal as opening the trumpets and the seventh trumpet as opening the bowls, so the judgments follow one another in time. It is common among futurists (Walvoord, Thomas) and classic historicists (Elliott). Many sequential readers allow some overlap.'}
+          ? t('Recapitulation, or progressive parallelism, reads the seals, trumpets and bowls as three views of the same period, each ending at the final judgment and each more intense than the last. Its roots are in Victorinus, Tyconius and Augustine. It is common among amillennial and idealist readers (Hendriksen, Beale), and many preterists and historic premillennialists hold a partial version.')
+          : t('The sequential (telescoping) reading takes the seventh seal as opening the trumpets and the seventh trumpet as opening the bowls, so the judgments follow one another in time. It is common among futurists (Walvoord, Thomas) and classic historicists (Elliott). Many sequential readers allow some overlap.')}
       </p>
-      <div className="scroll-x mt-4" role="region" aria-label="The three sevens diagram" tabIndex={0}>
-        <svg viewBox={`0 0 ${W} ${H}`} className="h-auto w-full min-w-[40rem]" role="img" aria-label={`The seals, trumpets and bowls shown ${mode === 'recap' ? 'in parallel' : 'in sequence'}. Lists follow the diagram.`}>
+      <div className="scroll-x mt-4" role="region" aria-label={t('The three sevens diagram')} tabIndex={0}>
+        <svg viewBox={`0 0 ${W} ${H}`} className="h-auto w-full min-w-[40rem]" role="img" aria-label={mode === 'recap' ? t('The seals, trumpets and bowls shown in parallel. Lists follow the diagram.') : t('The seals, trumpets and bowls shown in sequence. Lists follow the diagram.')}>
           {mode === 'recap' && <line x1={W - 70} x2={W - 70} y1={20} y2={H - 10} stroke="var(--rubric)" strokeDasharray="4 4" />}
           {mode === 'recap' && (
             <text x={W - 70} y={14} textAnchor="middle" fontSize={11} fontWeight={700} fill="var(--rubric)">
-              The end
+              {t('The end')}
             </text>
           )}
           {SERIES.map((ser, s) =>
@@ -82,7 +83,7 @@ export function SevensDiagram() {
               const colour = ['var(--accent)', 'var(--gold-bright)', 'var(--rubric)'][s]
               const on = hover?.s === s && hover.i === i
               return (
-                <Link key={ser.id + item} to={`/revelation/${ser.ch[i]}`} aria-label={`${ser.name} ${i + 1}: ${item} (chapter ${ser.ch[i]})`}>
+                <Link key={ser.id + item} to={`/revelation/${ser.ch[i]}`} aria-label={t('{name} {n}: {item} (chapter {ch})', { name: ser.name, n: i + 1, item, ch: ser.ch[i] })}>
                   <motion.g initial={false} animate={{ x: p.x, y: p.y }} transition={{ type: 'spring', stiffness: 120, damping: 20, delay: (s * 7 + i) * 0.012 }} onMouseEnter={() => setHover({ s, i })} onMouseLeave={() => setHover(null)} onFocus={() => setHover({ s, i })} onBlur={() => setHover(null)}>
                     <circle r={on ? 17 : 14} fill={colour} stroke="var(--surface)" strokeWidth={3} style={{ transition: 'r .2s' }} />
                     <text y={4.5} textAnchor="middle" fontSize={12} fontWeight={800} fill="var(--surface)">
@@ -96,7 +97,7 @@ export function SevensDiagram() {
         </svg>
       </div>
       <p className="mt-2 min-h-[1.5rem] text-sm font-semibold" aria-live="polite">
-        {tip && hover ? `${tip.name} ${hover.i + 1}: ${tip.items[hover.i]} (Revelation ${tip.ch[hover.i]})` : 'Hover over or focus a circle to name it. Select it to open that chapter.'}
+        {tip && hover ? t('{name} {n}: {item} (Revelation {ch})', { name: tip.name, n: hover.i + 1, item: tip.items[hover.i], ch: tip.ch[hover.i] }) : t('Hover over or focus a circle to name it. Select it to open that chapter.')}
       </p>
       <div className="mt-4 grid gap-4 md:grid-cols-3">
         {SERIES.map((ser) => (

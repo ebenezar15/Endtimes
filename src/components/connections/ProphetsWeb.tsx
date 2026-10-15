@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { SourceBook } from '../../content/schema'
 import { Gloss } from '../Gloss'
+import { t } from '../../lib/i18n'
 
 export const revChapterOf = (ref: string) => {
   const m = /Revelation\s+(\d+)/.exec(ref)
@@ -26,7 +27,7 @@ export function ProphetsWeb({ books }: { books: SourceBook[] }) {
   return (
     <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
       <div className="leaf self-start p-2 lg:sticky lg:top-24">
-        <svg viewBox="0 0 520 520" className="h-auto w-full" role="group" aria-label="Books Revelation draws on">
+        <svg viewBox="0 0 520 520" className="h-auto w-full" role="group" aria-label={t('Books Revelation draws on')}>
           <defs>
             <radialGradient id="web-core">
               <stop offset="0%" stopColor="var(--gold-bright)" stopOpacity="0.9" />
@@ -46,13 +47,13 @@ export function ProphetsWeb({ books }: { books: SourceBook[] }) {
           })}
           <circle cx={C} cy={C} r={52} fill="var(--surface)" stroke="var(--gold-bright)" strokeWidth={3} />
           <text x={C} y={C + 6} textAnchor="middle" fontSize={17} fontWeight={800} fill="var(--ink)">
-            Revelation
+            {t('Revelation')}
           </text>
           {nodes.map((n) => {
             const on = n.id === sel
             const r = 20 + (n.links.length / max) * 10
             return (
-              <g key={n.id} role="button" tabIndex={0} aria-pressed={on} aria-label={`${n.book}: ${n.links.length} echoes`} className="cursor-pointer" onClick={() => setSel(n.id)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), setSel(n.id))}>
+              <g key={n.id} role="button" tabIndex={0} aria-pressed={on} aria-label={t('{book}: {count} echoes', { book: n.book, count: n.links.length })} className="cursor-pointer" onClick={() => setSel(n.id)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), setSel(n.id))}>
                 <motion.circle cx={n.x} cy={n.y} r={r} fill={on ? 'var(--accent)' : 'var(--surface)'} stroke="var(--accent)" strokeWidth={2} whileHover={{ scale: 1.08 }} style={{ transformOrigin: `${n.x}px ${n.y}px` }} />
                 <text x={n.x} y={n.y + 4} textAnchor="middle" fontSize={n.book.length > 9 ? 9.5 : 11} fontWeight={700} fill={on ? 'var(--accent-ink)' : 'var(--ink)'} pointerEvents="none">
                   {n.book.replace(' Thessalonians', ' Thess.')}

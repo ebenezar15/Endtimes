@@ -5,6 +5,7 @@ import type { Atlas, CanonThread } from '../../content/schema'
 import { Gloss } from '../Gloss'
 import { Icon } from '../Icon'
 import { ATLAS_BOX, ATLAS_H, ATLAS_K, ATLAS_W, LAND } from './atlasLand'
+import { t } from '../../lib/i18n'
 
 const COS = Math.cos((34 * Math.PI) / 180)
 const proj = (lat: number, lon: number) => [(lon - ATLAS_BOX.lon0) * ATLAS_K * COS, (ATLAS_BOX.lat1 - lat) * ATLAS_K] as const
@@ -12,27 +13,31 @@ const line = (pts: [number, number][]) => pts.map(([la, lo], i) => `${i ? 'L' : 
 
 /** Main rivers, drawn by hand from a few points along each course. */
 const RIVERS = [
-  { name: 'Euphrates', pts: [[39.6, 39.5], [38.7, 38.7], [36.83, 38.01], [36.0, 38.2], [34.55, 40.89], [33.63, 42.82], [32.54, 44.42], [31.3, 45.3], [30.96, 46.1], [31.0, 47.43], [30.0, 48.4]] as [number, number][] },
-  { name: 'Tigris', pts: [[38.3, 39.6], [37.91, 40.24], [37.2, 42.3], [36.36, 43.15], [35.46, 43.26], [34.2, 43.87], [33.3, 44.4], [32.5, 45.8], [31.6, 46.9], [31.0, 47.43]] as [number, number][] },
-  { name: 'Nile', pts: [[22.0, 31.4], [24.09, 32.9], [25.7, 32.64], [27.18, 31.18], [28.6, 30.8], [29.85, 31.25], [30.2, 31.2], [31.42, 31.81]] as [number, number][] },
-  { name: 'Nile (west branch)', pts: [[30.2, 31.2], [30.8, 30.8], [31.4, 30.4]] as [number, number][] },
-  { name: 'Jordan', pts: [[33.2, 35.6], [32.8, 35.6], [32.2, 35.57], [31.78, 35.55]] as [number, number][] },
+  { name: t('Euphrates'), pts: [[39.6, 39.5], [38.7, 38.7], [36.83, 38.01], [36.0, 38.2], [34.55, 40.89], [33.63, 42.82], [32.54, 44.42], [31.3, 45.3], [30.96, 46.1], [31.0, 47.43], [30.0, 48.4]] as [number, number][] },
+  { name: t('Tigris'), pts: [[38.3, 39.6], [37.91, 40.24], [37.2, 42.3], [36.36, 43.15], [35.46, 43.26], [34.2, 43.87], [33.3, 44.4], [32.5, 45.8], [31.6, 46.9], [31.0, 47.43]] as [number, number][] },
+  { name: t('Nile'), pts: [[22.0, 31.4], [24.09, 32.9], [25.7, 32.64], [27.18, 31.18], [28.6, 30.8], [29.85, 31.25], [30.2, 31.2], [31.42, 31.81]] as [number, number][] },
+  { name: t('Nile (west branch)'), pts: [[30.2, 31.2], [30.8, 30.8], [31.4, 30.4]] as [number, number][] },
+  { name: t('Jordan'), pts: [[33.2, 35.6], [32.8, 35.6], [32.2, 35.57], [31.78, 35.55]] as [number, number][] },
 ]
 const SEAS = [
-  { name: 'The Great Sea', lat: 34.2, lon: 20 },
-  { name: 'Aegean', lat: 38.8, lon: 25.0 },
-  { name: 'Red Sea', lat: 25.2, lon: 36.3 },
-  { name: 'Persian Gulf', lat: 27.6, lon: 51.0 },
-  { name: 'Black Sea', lat: 43.2, lon: 34.5 },
+  { name: t('The Great Sea'), lat: 34.2, lon: 20 },
+  { name: t('Aegean'), lat: 38.8, lon: 25.0 },
+  { name: t('Red Sea'), lat: 25.2, lon: 36.3 },
+  { name: t('Persian Gulf'), lat: 27.6, lon: 51.0 },
+  { name: t('Black Sea'), lat: 43.2, lon: 34.5 },
 ]
 const FULL = `0 0 ${ATLAS_W} ${ATLAS_H}`
 /** Places too close together to label at whole-map zoom; they share one label until zoomed. */
 const CLUSTER = new Set(['ephesus', 'smyrna', 'pergamum', 'thyatira', 'sardis', 'philadelphia', 'laodicea', 'hierapolis', 'colossae'])
 const ZOOMS: Record<string, { label: string; box: string }> = {
-  all: { label: 'Whole map', box: FULL },
-  asia: { label: 'Seven churches', box: (() => { const [x0, y0] = proj(40.2, 25.6); const [x1, y1] = proj(37.0, 29.8); return `${x0} ${y0} ${x1 - x0} ${y1 - y0}` })() },
-  levant: { label: 'Holy Land', box: (() => { const [x0, y0] = proj(33.8, 33.6); const [x1, y1] = proj(30.6, 36.8); return `${x0} ${y0} ${x1 - x0} ${y1 - y0}` })() },
-  mesopotamia: { label: 'Mesopotamia', box: (() => { const [x0, y0] = proj(38.0, 37.0); const [x1, y1] = proj(29.5, 49.5); return `${x0} ${y0} ${x1 - x0} ${y1 - y0}` })() },
+  all: { label: t('Whole map'), box: FULL },
+  asia: { label: t('Seven churches'), box: (() => { const [x0, y0] = proj(40.2, 25.6); const [x1, y1] = proj(37.0, 29.8); return `${x0} ${y0} ${x1 - x0} ${y1 - y0}` })() },
+  levant: { label: t('Holy Land'), box: (() => { const [x0, y0] = proj(33.8, 33.6); const [x1, y1] = proj(30.6, 36.8); return `${x0} ${y0} ${x1 - x0} ${y1 - y0}` })() },
+  mesopotamia: { label: t('Mesopotamia'), box: (() => { const [x0, y0] = proj(38.0, 37.0); const [x1, y1] = proj(29.5, 49.5); return `${x0} ${y0} ${x1 - x0} ${y1 - y0}` })() },
+}
+/** Display names for the place kinds. */
+const PLACE_KIND: Record<string, string> = {
+  city: t('city'), region: t('region'), mountain: t('mountain'), river: t('river'), island: t('island'), sea: t('sea'), valley: t('valley'),
 }
 
 /**
@@ -74,7 +79,7 @@ export function AtlasMap({ atlas, threads }: { atlas: Atlas; threads: CanonThrea
       <div className="leaf p-3">
         <div className="flex flex-wrap items-center gap-2">
           <button type="button" className="btn btn-primary text-sm" onClick={() => (eraIdx === atlas.eras.length - 1 && !playing && setEra(atlas.eras[0].id), setPlaying((v) => !v))}>
-            <Icon name={playing ? 'pause' : 'play'} size={14} /> {playing ? 'Pause' : 'Play through history'}
+            <Icon name={playing ? 'pause' : 'play'} size={14} /> {playing ? t('Pause') : t('Play through history')}
           </button>
           <div className="ml-auto flex flex-wrap gap-1.5">
             {Object.entries(ZOOMS).map(([k, z]) => (
@@ -84,7 +89,7 @@ export function AtlasMap({ atlas, threads }: { atlas: Atlas; threads: CanonThrea
             ))}
           </div>
         </div>
-        <ol className="relative mt-4 grid grid-cols-6 gap-1" aria-label="Eras">
+        <ol className="relative mt-4 grid grid-cols-6 gap-1" aria-label={t('Eras')}>
           <span aria-hidden className="absolute left-0 right-0 top-[11px] h-0.5 bg-rule" />
           <motion.span aria-hidden className="absolute left-0 top-[11px] h-0.5 origin-left bg-gold-bright" animate={{ width: `${((eraIdx + 0.5) / atlas.eras.length) * 100}%` }} transition={{ type: 'spring', stiffness: 120, damping: 20 }} />
           {atlas.eras.map((e, i) => {
@@ -109,7 +114,7 @@ export function AtlasMap({ atlas, threads }: { atlas: Atlas; threads: CanonThrea
 
       <div className="mt-4 grid gap-4 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]">
         <div className="leaf overflow-hidden p-0">
-          <motion.svg viewBox={FULL} animate={{ viewBox: ZOOMS[zoom].box }} transition={{ duration: 1.1, ease: [0.6, 0, 0.2, 1] }} className="block h-auto w-full touch-manipulation" role="group" aria-label={`Map of the biblical world, ${cur.label}`}>
+          <motion.svg viewBox={FULL} animate={{ viewBox: ZOOMS[zoom].box }} transition={{ duration: 1.1, ease: [0.6, 0, 0.2, 1] }} className="block h-auto w-full touch-manipulation" role="group" aria-label={t('Map of the biblical world, {era}', { era: cur.label })}>
             <defs>
               <radialGradient id="atlas-sea" cx="45%" cy="40%" r="75%">
                 <stop offset="0%" stopColor="color-mix(in srgb, var(--accent) 22%, var(--bg))" />
@@ -160,7 +165,7 @@ export function AtlasMap({ atlas, threads }: { atlas: Atlas; threads: CanonThrea
             {zoom === 'all' && atlas.places.some((pl) => CLUSTER.has(pl.id) && pl.eras.includes(era)) && (
               <g className="cursor-pointer" onClick={() => setZoom('asia')}>
                 <text x={proj(39.6, 28.2)[0]} y={proj(39.6, 28.2)[1]} fontSize={13} fontWeight={800} fill="var(--accent)" stroke="var(--surface)" strokeWidth={3.5} paintOrder="stroke">
-                  Seven churches ⊕
+                  {t('Seven churches')} ⊕
                 </text>
               </g>
             )}
@@ -186,7 +191,7 @@ export function AtlasMap({ atlas, threads }: { atlas: Atlas; threads: CanonThrea
           </motion.svg>
           {journeys.length > 0 && (
             <div className="flex flex-wrap items-center gap-1.5 border-t border-rule p-3 text-sm">
-              <span className="mr-1 text-xs font-bold uppercase tracking-widest text-rubric">Journeys</span>
+              <span className="mr-1 text-xs font-bold uppercase tracking-widest text-rubric">{t('Journeys')}</span>
               {journeys.map((j) => (
                 <button key={j.id} type="button" onClick={() => setJourney(journey === j.id ? null : j.id)} className={`chip cursor-pointer ${journey === j.id ? 'border-rubric text-rubric' : ''}`}>
                   {j.title}
@@ -207,11 +212,11 @@ export function AtlasMap({ atlas, threads }: { atlas: Atlas; threads: CanonThrea
           {p && (
             <motion.div key={p.id} initial={{ opacity: 0, x: 20, rotateY: -12 }} animate={{ opacity: 1, x: 0, rotateY: 0 }} exit={{ opacity: 0, x: -20 }} transition={{ duration: 0.35 }} className="leaf glow-card self-start p-5 lg:sticky lg:top-24">
               <p className="text-xs font-bold uppercase tracking-widest text-accent">
-                {p.kind} · {p.eras.map((e) => atlas.eras.find((x) => x.id === e)?.label).join(', ')}
+                {PLACE_KIND[p.kind] ?? p.kind} · {p.eras.map((e) => atlas.eras.find((x) => x.id === e)?.label).join(', ')}
               </p>
               <h3 className="text-2xl font-bold">{p.name}</h3>
               <div className="mt-3 flex flex-wrap gap-1.5" role="tablist">
-                {([['revelation', 'In Revelation'], ['story', 'In the story'], ['context', 'Setting']] as const).map(([k, l]) => (
+                {([['revelation', t('In Revelation')], ['story', t('In the story')], ['context', t('Setting')]] as const).map(([k, l]) => (
                   <button key={k} type="button" role="tab" aria-selected={tab === k} onClick={() => setTab(k)} className={`btn text-xs ${tab === k ? 'btn-primary' : ''}`}>
                     {l}
                   </button>

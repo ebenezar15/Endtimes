@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { core as content, hermeneuticViews, millennialViews } from '../lib/core'
 import { usePositionColors } from '../lib/theme'
 import { useApp } from '../lib/store'
+import { t } from '../lib/i18n'
 
 const C = 300
 const polar = (r: number, deg: number) => {
@@ -55,7 +56,7 @@ export function Rota({ selected, highlight, onSelect }: RotaProps) {
   const visible = links.filter((c) => (focus.length ? lit(c) : c.frequency === 'common'))
 
   return (
-    <svg viewBox="0 0 600 600" className="h-auto w-full max-w-[38rem] select-none" role="group" aria-label="Map of eschatological positions: inner ring, the four millennial views; outer ring, the six ways of reading Revelation. Threads show which pairings are common.">
+    <svg viewBox="0 0 600 600" className="h-auto w-full max-w-[38rem] select-none" role="group" aria-label={t('Map of eschatological positions: inner ring, the four millennial views; outer ring, the six ways of reading Revelation. Threads show which pairings are common.')}>
       <defs>
         {segs.map((s) => {
           const r = s.ring === 'm' ? (RING.m[0] + RING.m[1]) / 2 - 5 : (RING.h[0] + RING.h[1]) / 2 - 5
@@ -89,7 +90,7 @@ export function Rota({ selected, highlight, onSelect }: RotaProps) {
             key={s.p.id}
             role="button"
             tabIndex={0}
-            aria-label={`${s.p.shortName}: ${s.p.name}${isMine ? ', my view' : ''}`}
+            aria-label={`${s.p.shortName}: ${s.p.name}${isMine ? `, ${t('my view')}` : ''}`}
             aria-pressed={selected === s.p.id}
             onClick={() => onSelect(s.p.id)}
             onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), onSelect(s.p.id))}
@@ -152,10 +153,10 @@ export function Rota({ selected, highlight, onSelect }: RotaProps) {
         χίλια ἔτη
       </text>
       <text x={C} y={C + 13} textAnchor="middle" fontFamily="Cormorant Garamond, Georgia, serif" fontStyle="italic" fontSize={11.5} fill="var(--ink-soft)">
-        “a thousand years”
+        “{t('a thousand years')}”
       </text>
       <text x={C} y={C + 29} textAnchor="middle" fontSize={9.5} fill="var(--ink-soft)">
-        Revelation 20:1–10
+        {t('Revelation 20:1–10')}
       </text>
     </svg>
   )

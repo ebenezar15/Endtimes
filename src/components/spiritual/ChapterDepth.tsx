@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import type { SpiritualStudy } from '../../content/schema'
 import { Gloss } from '../Gloss'
 import { Icon } from '../Icon'
+import { t } from '../../lib/i18n'
 
 type Ch = SpiritualStudy['chapters'][number]
 
@@ -14,7 +15,7 @@ export function ChapterDepth({ chapters }: { chapters: Ch[] }) {
   if (!c) return null
   return (
     <div className="grid gap-5 md:grid-cols-[5.5rem_minmax(0,1fr)]">
-      <div className="scroll-x flex gap-2 md:flex-col md:overflow-visible" role="tablist" aria-label="Chapter">
+      <div className="scroll-x flex gap-2 md:flex-col md:overflow-visible" role="tablist" aria-label={t('Chapter')}>
         {chapters.map((x) => {
           const on = x.chapter === c.chapter
           return (
@@ -28,7 +29,7 @@ export function ChapterDepth({ chapters }: { chapters: Ch[] }) {
       </div>
       <AnimatePresence mode="wait">
         <motion.article key={c.chapter} initial={{ clipPath: 'inset(0 0 100% 0)', opacity: 0.4 }} animate={{ clipPath: 'inset(0 0 0% 0)', opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.55, ease: [0.4, 0, 0.2, 1] }} className="leaf p-5">
-          <p className="text-xs font-bold uppercase tracking-widest text-accent">Revelation {c.chapter}</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-accent">{t('Revelation {n}', { n: c.chapter })}</p>
           <h3 className="text-2xl font-bold">{c.theme}</h3>
           <ol className="mt-4 space-y-4">
             {c.depth.map((d, i) => (
@@ -45,7 +46,7 @@ export function ChapterDepth({ chapters }: { chapters: Ch[] }) {
             ))}
           </ol>
           <Link to={`/revelation/${c.chapter}`} className="btn mt-5 text-sm no-underline">
-            <Icon name="scroll" size={14} /> Read Revelation {c.chapter} with every view
+            <Icon name="scroll" size={14} /> {t('Read Revelation {n} with every view', { n: c.chapter })}
           </Link>
         </motion.article>
       </AnimatePresence>

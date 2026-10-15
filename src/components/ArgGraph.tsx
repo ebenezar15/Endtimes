@@ -6,8 +6,9 @@ import { positionName } from '../lib/content'
 import { usePositionColors } from '../lib/theme'
 import { Gloss } from './Gloss'
 import { Refs } from './Refs'
+import { t } from '../lib/i18n'
 
-const KIND = { claim: 'Claim', objection: 'Objection', rebuttal: 'Rebuttal', 'counter-rebuttal': 'Counter-rebuttal' } as const
+const KIND = { claim: t('Claim'), objection: t('Objection'), rebuttal: t('Rebuttal'), 'counter-rebuttal': t('Counter-rebuttal') }
 const NODE_W = 230
 const GAP_X = 30
 const GAP_Y = 150
@@ -102,7 +103,7 @@ export default function ArgGraph({ root, focus }: { root: ArgNode; focus: string
             <Refs refs={sel.passages} className="mt-3" />
           </>
         ) : (
-          <p className="ui text-sm text-ink-soft">Select a node to read it in full. Red arrows lead to objections and counter-rebuttals.</p>
+          <p className="ui text-sm text-ink-soft">{t('Select a node to read it in full. Red arrows lead to objections and counter-rebuttals.')}</p>
         )}
       </aside>
     </div>

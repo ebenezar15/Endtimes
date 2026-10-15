@@ -1,12 +1,13 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { Icon } from '../Icon'
+import { t } from '../../lib/i18n'
 
 const BEASTS = [
-  { id: 'lion', name: 'Lion with eagle’s wings', dan: 'Daniel 7:4', rev: 'mouth like a lion' },
-  { id: 'bear', name: 'Bear', dan: 'Daniel 7:5', rev: 'feet like a bear' },
-  { id: 'leopard', name: 'Leopard with four heads', dan: 'Daniel 7:6', rev: 'like a leopard' },
-  { id: 'fourth', name: 'Fourth beast, ten horns', dan: 'Daniel 7:7', rev: 'ten horns' },
+  { id: 'lion', name: t('Lion with eagle’s wings'), short: t('Lion'), dan: 'Daniel 7:4', rev: t('mouth like a lion') },
+  { id: 'bear', name: t('Bear'), short: t('Bear'), dan: 'Daniel 7:5', rev: t('feet like a bear') },
+  { id: 'leopard', name: t('Leopard with four heads'), short: t('Leopard'), dan: 'Daniel 7:6', rev: t('like a leopard') },
+  { id: 'fourth', name: t('Fourth beast, ten horns'), short: t('Ten horns'), dan: 'Daniel 7:7', rev: t('ten horns') },
 ]
 
 /**
@@ -26,13 +27,13 @@ export function CompositeBeast() {
     <div className="leaf p-4">
       <div className="flex flex-wrap items-center gap-3">
         <p className="text-sm text-ink-soft">
-          Daniel sees four beasts in a row. John sees one beast with the features of all four, and the total heads come to seven ({heads}).
+          {t('Daniel sees four beasts in a row. John sees one beast with the features of all four, and the total heads come to seven ({heads}).', { heads })}
         </p>
         <button type="button" className="btn btn-primary ml-auto text-sm" onClick={() => setMerged((m) => !m)}>
-          <Icon name={merged ? 'shuffle' : 'motion'} size={14} /> {merged ? 'Separate (Daniel 7)' : 'Merge (Revelation 13)'}
+          <Icon name={merged ? 'shuffle' : 'motion'} size={14} /> {merged ? t('Separate (Daniel 7)') : t('Merge (Revelation 13)')}
         </button>
       </div>
-      <svg viewBox="0 0 520 240" className="mx-auto mt-3 h-auto w-full max-w-2xl" role="img" aria-label={merged ? 'The four beasts merged into the one beast of Revelation 13' : 'The four beasts of Daniel 7'}>
+      <svg viewBox="0 0 520 240" className="mx-auto mt-3 h-auto w-full max-w-2xl" role="img" aria-label={merged ? t('The four beasts merged into the one beast of Revelation 13') : t('The four beasts of Daniel 7')}>
         <motion.circle cx={260} cy={120} r={merged ? 92 : 0} fill="color-mix(in srgb, var(--rubric) 18%, transparent)" stroke="var(--rubric)" strokeWidth={2} animate={{ r: merged ? 92 : 0 }} transition={{ type: 'spring', stiffness: 90, damping: 14 }} />
         {BEASTS.map((b, i) => {
           const p = pos(i)
@@ -40,7 +41,7 @@ export function CompositeBeast() {
             <motion.g key={b.id} initial={false} animate={{ x: p.x, y: p.y }} transition={{ type: 'spring', stiffness: 110, damping: 15, delay: merged ? (3 - i) * 0.08 : i * 0.08 }}>
               <motion.circle cx={0} cy={0} initial={false} animate={{ r: p.r }} fill="var(--surface)" stroke="var(--rubric)" strokeWidth={2.5} />
               <text textAnchor="middle" y={4} fontSize={merged ? 11 : 12} fontWeight={700} fill="var(--ink)">
-                {b.id === 'fourth' ? 'Ten horns' : b.name.split(' ')[0]}
+                {b.short}
               </text>
               {!merged && (
                 <text y={66} textAnchor="middle" fontSize={11} fill="var(--ink-soft)">
@@ -52,7 +53,7 @@ export function CompositeBeast() {
         })}
         {merged && (
           <motion.text x={260} y={232} textAnchor="middle" fontSize={13} fontWeight={700} fill="var(--rubric)" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
-            The beast from the sea, Revelation 13:1–2
+            {t('The beast from the sea, Revelation 13:1–2')}
           </motion.text>
         )}
       </svg>
