@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -73,7 +74,7 @@ export function TabernacleMap() {
           <h3 className="text-xl font-bold">{cur.name}</h3>
           <p className="mt-3 rounded-xl bg-surface-2 p-3 text-sm">
             <span className="font-bold">{t('In Revelation:')} </span>
-            {cur.rev} <span className="text-ink-soft">({cur.refs})</span>
+            {cur.rev} <span className="text-ink-soft">({refLabel(cur.refs)})</span>
           </p>
           <p className="mt-3 leading-relaxed">
             <Gloss>{cur.text}</Gloss>

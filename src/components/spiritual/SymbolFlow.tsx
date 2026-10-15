@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -80,7 +81,7 @@ export function SymbolFlow({ keys }: { keys: SpiritualKey[] }) {
         <Link to={`/revelation/${k.chapter}`} className="btn text-sm no-underline">
           {t('Open Revelation {n}', { n: k.chapter })}
         </Link>
-        {k.texts.length > 0 && <span className="text-ink-soft">{t('See {refs}', { refs: k.texts.join('; ') })}</span>}
+        {k.texts.length > 0 && <span className="text-ink-soft">{t('See {refs}', { refs: refLabel(k.texts.join('; ')) })}</span>}
       </div>
     </div>
   )

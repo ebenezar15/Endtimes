@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { Icon } from '../Icon'
@@ -60,7 +61,7 @@ export function CompositeBeast() {
       <ul className="mt-2 grid gap-1 text-sm sm:grid-cols-2">
         {BEASTS.map((b) => (
           <li key={b.id}>
-            <span className="font-semibold">{b.name}</span> <span className="text-ink-soft">({b.dan}) → “{b.rev}”</span>
+            <span className="font-semibold">{b.name}</span> <span className="text-ink-soft">({refLabel(b.dan)}) → “{b.rev}”</span>
           </li>
         ))}
       </ul>

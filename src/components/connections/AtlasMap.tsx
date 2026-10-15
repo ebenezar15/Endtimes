@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -227,7 +228,7 @@ export function AtlasMap({ atlas, threads }: { atlas: Atlas; threads: CanonThrea
                   <Gloss>{p[tab]}</Gloss>
                 </motion.p>
               </AnimatePresence>
-              <p className="mt-3 text-sm text-ink-soft">{p.refs.join('; ')}</p>
+              <p className="mt-3 text-sm text-ink-soft">{refLabel(p.refs.join('; '))}</p>
               {p.threads.length > 0 && (
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   {p.threads.map((t) => (

@@ -218,7 +218,7 @@ export function Shell({ children }: { children: ReactNode }) {
         )}
       </AnimatePresence>
 
-      <main id="main" tabIndex={-1} className="outline-none lg:ml-64">
+      <main id="main" tabIndex={-1} className="outline-none overflow-x-clip lg:ml-64">
         {/* Entry-only page transition: the outgoing route is replaced at once, so no stale content shows. */}
         <motion.div
             key={loc.pathname}

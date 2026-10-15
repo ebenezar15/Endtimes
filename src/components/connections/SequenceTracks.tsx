@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import type { RevStructure } from '../../content/schema'
@@ -90,7 +91,7 @@ export function SequenceTracks({ sequences }: { sequences: Seq[] }) {
               <li key={x.ot + i} ref={(el) => void (left.current[i] = el)}>
                 <button type="button" onClick={() => (setStep(i), setPlaying(false))} className={`leaf w-full p-2.5 text-left text-sm transition-shadow ${i === step ? 'ring-2 ring-[var(--gold-bright)]' : ''}`} style={{ borderLeft: '4px solid var(--rubric)' }}>
                   <span className="block font-bold leading-snug">{x.otTitle}</span>
-                  <span className="text-xs text-ink-soft">{x.ot}</span>
+                  <span className="text-xs text-ink-soft">{refLabel(x.ot)}</span>
                 </button>
               </li>
             ))}
@@ -103,7 +104,7 @@ export function SequenceTracks({ sequences }: { sequences: Seq[] }) {
               <li key={x.rev + i} ref={(el) => void (right.current[i] = el)}>
                 <button type="button" onClick={() => (setStep(i), setPlaying(false))} className={`leaf w-full p-2.5 text-left text-sm transition-shadow ${i === step ? 'ring-2 ring-[var(--gold-bright)]' : ''}`} style={{ borderLeft: '4px solid var(--accent)' }}>
                   <span className="block font-bold leading-snug">{x.revTitle}</span>
-                  <span className="text-xs text-ink-soft">{x.rev}</span>
+                  <span className="text-xs text-ink-soft">{refLabel(x.rev)}</span>
                 </button>
               </li>
             ))}
@@ -113,7 +114,7 @@ export function SequenceTracks({ sequences }: { sequences: Seq[] }) {
       <AnimatePresence mode="wait">
         <motion.div key={s.id + step} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="mt-4 rounded-xl bg-surface-2 p-4">
           <p className="text-xs font-bold uppercase tracking-widest text-ink-soft">
-            {t('Step {n} of {total}', { n: step + 1, total: s.pairs.length })}: {p.ot} → {p.rev}
+            {t('Step {n} of {total}', { n: step + 1, total: s.pairs.length })}: {refLabel(p.ot)} → {refLabel(p.rev)}
           </p>
           <p className="mt-1">
             <Gloss>{p.note}</Gloss>

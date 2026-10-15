@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -40,7 +41,7 @@ export function ChapterDepth({ chapters }: { chapters: Ch[] }) {
                   <p className="mt-0.5 leading-relaxed text-ink-soft">
                     <Gloss>{d.text}</Gloss>
                   </p>
-                  {d.texts.length > 0 && <p className="mt-1 text-xs text-ink-soft">{d.texts.join('; ')}</p>}
+                  {d.texts.length > 0 && <p className="mt-1 text-xs text-ink-soft">{refLabel(d.texts.join('; '))}</p>}
                 </div>
               </motion.li>
             ))}

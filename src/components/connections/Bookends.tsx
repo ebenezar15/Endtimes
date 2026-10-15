@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { motion } from 'framer-motion'
 import type { RevStructure } from '../../content/schema'
 import { Gloss } from '../Gloss'
@@ -17,14 +18,14 @@ export function Bookends({ pairs }: { pairs: RevStructure['bookends'] }) {
         {pairs.map((p, i) => (
           <li key={p.a + p.b} className="grid grid-cols-[1fr_2.5rem_1fr] items-stretch">
             <motion.div initial={{ opacity: 0, rotateY: 50, x: -20 }} whileInView={{ opacity: 1, rotateY: 0, x: 0 }} viewport={{ once: true, margin: '-30px' }} transition={{ delay: (i % 4) * 0.06, duration: 0.5 }} className="leaf p-3 text-sm" style={{ transformOrigin: 'right center', borderRight: '3px solid var(--rubric)' }}>
-              <p className="text-xs font-bold text-ink-soft">{p.a}</p>
+              <p className="text-xs font-bold text-ink-soft">{refLabel(p.a)}</p>
               <p>{p.aText}</p>
             </motion.div>
             <div className="relative flex items-center justify-center" aria-hidden>
               <motion.span className="size-3 rounded-full bg-gold-bright shadow-[0_0_14px_4px_rgb(var(--glow)/0.55)]" initial={{ scale: 0 }} whileInView={{ scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.4 + (i % 4) * 0.06, type: 'spring' }} />
             </div>
             <motion.div initial={{ opacity: 0, rotateY: -50, x: 20 }} whileInView={{ opacity: 1, rotateY: 0, x: 0 }} viewport={{ once: true, margin: '-30px' }} transition={{ delay: (i % 4) * 0.06, duration: 0.5 }} className="leaf p-3 text-sm" style={{ transformOrigin: 'left center', borderLeft: '3px solid var(--accent)' }}>
-              <p className="text-xs font-bold text-ink-soft">{p.b}</p>
+              <p className="text-xs font-bold text-ink-soft">{refLabel(p.b)}</p>
               <p>{p.bText}</p>
             </motion.div>
             <p className="col-span-3 mt-1 px-2 text-center text-xs text-ink-soft">

@@ -6,3 +6,4 @@ dev-dist
 content/bible.json
 src/generated
 tsconfig.tsbuildinfo
+dist-single

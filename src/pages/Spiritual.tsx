@@ -1,3 +1,4 @@
+import { refLabel } from '../lib/refLabel'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -113,7 +114,7 @@ export default function Spiritual() {
               <p className="mt-1 text-[0.95rem] text-ink-soft">
                 <Gloss>{p.text}</Gloss>
               </p>
-              {p.texts.length > 0 && <p className="mt-2 text-xs text-ink-soft">{p.texts.join('; ')}</p>}
+              {p.texts.length > 0 && <p className="mt-2 text-xs text-ink-soft">{refLabel(p.texts.join('; '))}</p>}
             </motion.li>
           ))}
         </ul>

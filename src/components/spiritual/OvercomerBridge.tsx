@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useState } from 'react'
 import type { SpiritualStudy } from '../../content/schema'
@@ -27,7 +28,7 @@ export function OvercomerBridge({ items }: { items: SpiritualStudy['overcomer'] 
                 <span className="leaf block p-3" style={{ borderLeft: '4px solid var(--rubric)' }}>
                   <span className="block text-xs font-bold uppercase tracking-widest text-ink-soft">{o.church}</span>
                   <span className="mt-0.5 block font-bold leading-snug">{o.promise}</span>
-                  <span className="text-xs text-ink-soft">{o.ref}</span>
+                  <span className="text-xs text-ink-soft">{refLabel(o.ref)}</span>
                 </span>
                 <span className="relative flex items-center justify-center" aria-hidden>
                   <svg viewBox="0 0 80 60" className="h-full w-full" preserveAspectRatio="none">
@@ -37,7 +38,7 @@ export function OvercomerBridge({ items }: { items: SpiritualStudy['overcomer'] 
                 </span>
                 <span className="leaf block p-3" style={{ borderLeft: '4px solid var(--accent)' }}>
                   <span className="block font-bold leading-snug">{o.fulfilled}</span>
-                  <span className="text-xs text-ink-soft">{o.fulfilledRef}</span>
+                  <span className="text-xs text-ink-soft">{refLabel(o.fulfilledRef)}</span>
                 </span>
               </button>
               <AnimatePresence initial={false}>

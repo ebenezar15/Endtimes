@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -88,14 +89,14 @@ export function ProphetsWeb({ books }: { books: SourceBook[] }) {
                   <motion.li key={l.ot + l.rev} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 + i * 0.05 }} className="rounded-xl bg-surface-2 p-3 text-sm">
                     <p className="font-bold">{l.image}</p>
                     <p className="mt-0.5 flex flex-wrap items-center gap-1.5 text-xs">
-                      <span className="rounded-md bg-surface px-1.5 py-0.5 ring-1 ring-rule">{l.ot}</span>
+                      <span className="rounded-md bg-surface px-1.5 py-0.5 ring-1 ring-rule">{refLabel(l.ot)}</span>
                       <span aria-hidden className="text-gold-bright">→</span>
                       {ch ? (
                         <Link to={`/revelation/${ch}`} className="rounded-md bg-surface px-1.5 py-0.5 no-underline ring-1 ring-accent">
-                          {l.rev}
+                          {refLabel(l.rev)}
                         </Link>
                       ) : (
-                        <span>{l.rev}</span>
+                        <span>{refLabel(l.rev)}</span>
                       )}
                     </p>
                     <p className="mt-1 text-ink-soft">

@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { motion, useInView } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
 import type { SpiritualStudy } from '../../content/schema'
@@ -55,7 +56,7 @@ export function MethodPath({ steps }: { steps: SpiritualStudy['method'] }) {
         <p className="mt-2 leading-relaxed">
           <Gloss>{cur.text}</Gloss>
         </p>
-        {cur.texts.length > 0 && <p className="mt-3 text-sm text-ink-soft">{cur.texts.join('; ')}</p>}
+        {cur.texts.length > 0 && <p className="mt-3 text-sm text-ink-soft">{refLabel(cur.texts.join('; '))}</p>}
         <div className="mt-4 flex gap-2">
           <button type="button" className="btn text-sm" disabled={open === 0} onClick={() => setOpen((n) => Math.max(0, n - 1))}>
             {t('Back')}

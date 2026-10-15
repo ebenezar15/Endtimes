@@ -1,3 +1,4 @@
+import { refLabel } from '../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -52,7 +53,7 @@ function SceneCard({ s, i, onActive, active }: { s: Scene; i: number; onActive: 
             <ul className="mt-1 space-y-1 text-sm">
               {s.prophecy.map((p) => (
                 <li key={p.ref}>
-                  <span className="font-bold">{p.ref}</span> — {p.text}
+                  <span className="font-bold">{refLabel(p.ref)}</span> — {p.text}
                 </li>
               ))}
             </ul>

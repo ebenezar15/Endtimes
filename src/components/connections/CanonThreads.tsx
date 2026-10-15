@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -126,7 +127,7 @@ export function CanonThreads({ threads, initial }: { threads: CanonThread[]; ini
             <motion.li key={th.id + s.ref} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 + i * 0.07 }} className="w-56 shrink-0">
               <button type="button" onClick={() => setStop(i)} className={`h-full w-full rounded-xl p-3 text-left text-sm ring-1 transition-colors ${stop === i ? 'bg-surface-2 ring-accent' : 'ring-rule hover:ring-accent'}`}>
                 <span className="block text-xs font-bold uppercase tracking-widest" style={{ color: sectionOf(CANON.indexOf(s.book)).tint }}>
-                  {i + 1}. {s.ref}
+                  {i + 1}. {refLabel(s.ref)}
                 </span>
                 <span className="mt-1 block">{s.note}</span>
               </button>

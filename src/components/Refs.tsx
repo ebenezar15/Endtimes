@@ -1,3 +1,5 @@
+import { LANG } from '../lib/lang'
+import { refLabel } from '../lib/refLabel'
 import { Link } from 'react-router-dom'
 import { nivUrl, passageForRef } from '../lib/refs'
 import { useApp } from '../lib/store'
@@ -15,14 +17,14 @@ export function Refs({ refs, className = '' }: { refs: string[]; className?: str
           <li key={r} className="chip gap-1 py-0.5">
             {p ? (
               <Link to={`/passages/${p.id}`} title={t('Open {title} in the Passage Lab', { title: p.title })}>
-                {r}
+                {refLabel(r)}
               </Link>
             ) : (
-              <span>{r}</span>
+              <span>{refLabel(r)}</span>
             )}
             {niv && (
               <a href={nivUrl(r)} target="_blank" rel="noreferrer" className="text-xs text-ink-soft" aria-label={t('Read {ref} in the NIV on BibleGateway', { ref: r })}>
-                NIV
+                {LANG === 'ta' ? 'BSI' : 'NIV'}
               </a>
             )}
           </li>

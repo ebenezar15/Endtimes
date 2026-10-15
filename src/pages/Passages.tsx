@@ -1,3 +1,4 @@
+import { refLabel } from '../lib/refLabel'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { PageHeader } from '../components/PageHeader'
@@ -54,7 +55,7 @@ export default function Passages() {
               {items.map((p) => (
                 <li key={p.id}>
                   <Link to={`/passages/${p.id}`} className="group grid gap-1 py-3 text-ink no-underline sm:grid-cols-[11rem_1fr]">
-                    <span className="font-medium text-accent">{p.ref}</span>
+                    <span className="font-medium text-accent">{refLabel(p.ref)}</span>
                     <span>
                       <span className="text-lg group-hover:text-accent">{p.title}</span>
                       {p.timeText && <span className="chip ml-2 py-0 text-xs">{t('time text')}</span>}

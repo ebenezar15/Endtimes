@@ -1,3 +1,4 @@
+import { refLabel } from '../lib/refLabel'
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link, useParams } from 'react-router-dom'
@@ -44,7 +45,7 @@ export default function PassagePage() {
           <p className="ui text-sm text-ink-soft">
             <Link to="/passages">{t('Passage Lab')}</Link>
           </p>
-          <h1 className="text-4xl md:text-5xl">{p.ref}</h1>
+          <h1 className="text-4xl md:text-5xl">{refLabel(p.ref)}</h1>
           <p className="mt-1 text-xl italic text-ink-soft">{p.title}</p>
         </div>
         <BookmarkButton k={`passage/${p.id}`} label={p.ref} />

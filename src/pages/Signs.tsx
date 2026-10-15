@@ -1,3 +1,4 @@
+import { refLabel } from '../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -173,7 +174,7 @@ function Debates({ items }: { items: SignsStudy['modern'] }) {
               <Gloss>{m[tab]}</Gloss>
             </motion.div>
           </AnimatePresence>
-          {m.refs.length > 0 && <p className="mt-3 text-sm text-ink-soft">{m.refs.join('; ')}</p>}
+          {m.refs.length > 0 && <p className="mt-3 text-sm text-ink-soft">{refLabel(m.refs.join('; '))}</p>}
           <div className="mt-2">
             <Sources ids={m.sources} />
           </div>
@@ -251,7 +252,7 @@ export default function Signs() {
               <p className="mt-1 text-[0.95rem] text-ink-soft">
                 <Gloss>{p.text}</Gloss>
               </p>
-              {p.refs.length > 0 && <p className="mt-2 text-xs text-ink-soft">{p.refs.join('; ')}</p>}
+              {p.refs.length > 0 && <p className="mt-2 text-xs text-ink-soft">{refLabel(p.refs.join('; '))}</p>}
             </motion.li>
           ))}
         </ul>

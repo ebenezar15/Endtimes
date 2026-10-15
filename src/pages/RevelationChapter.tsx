@@ -1,3 +1,4 @@
+import { refLabel } from '../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Link, useLocation, useParams } from 'react-router-dom'
@@ -85,7 +86,7 @@ function SymbolCard({ s, active, onToggle }: { s: RevSymbol; active: boolean; on
         <span className="mt-0.5 shrink-0 rounded-lg bg-surface-2 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wider text-ink-soft">{CATEGORY_LABEL[s.category] ?? s.category}</span>
         <span className="min-w-0 flex-1">
           <span className="block font-bold leading-snug">{s.phrase}</span>
-          <span className="block text-xs text-ink-soft">{s.ref}</span>
+          <span className="block text-xs text-ink-soft">{refLabel(s.ref)}</span>
         </span>
         <motion.span animate={{ rotate: active ? 45 : 0 }} className="shrink-0 text-accent">
           <Icon name="plus" />

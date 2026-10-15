@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { animate, motion, useMotionValue, useMotionValueEvent, useTransform, type MotionValue } from 'framer-motion'
 import { useState } from 'react'
 import type { SpiritualStudy } from '../../content/schema'
@@ -58,7 +59,7 @@ function LensRow({ r, i, n, v }: { r: Row; i: number; n: number; v: MotionValue<
         </motion.p>
         <motion.span aria-hidden style={{ left: edge, opacity: edgeOpacity }} className="pointer-events-none absolute inset-y-0 w-1 -translate-x-1/2 bg-gold-bright shadow-[0_0_18px_4px_rgb(var(--glow)/0.6)]" />
       </div>
-      {r.texts.length > 0 && <p className="px-4 pb-2 text-xs text-ink-soft">{r.texts.join('; ')}</p>}
+      {r.texts.length > 0 && <p className="px-4 pb-2 text-xs text-ink-soft">{refLabel(r.texts.join('; '))}</p>}
     </motion.li>
   )
 }

@@ -1,3 +1,4 @@
+import { refLabel } from '../../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import type { SpiritualStudy } from '../../content/schema'
@@ -56,7 +57,7 @@ export function PatternKeys({ patterns }: { patterns: SpiritualStudy['patterns']
               ))}
             </ul>
           )}
-          {p.texts.length > 0 && <p className="mt-3 text-sm text-ink-soft">{p.texts.join('; ')}</p>}
+          {p.texts.length > 0 && <p className="mt-3 text-sm text-ink-soft">{refLabel(p.texts.join('; '))}</p>}
         </motion.div>
       </AnimatePresence>
     </div>

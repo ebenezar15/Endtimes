@@ -1,3 +1,4 @@
+import { refLabel } from '../lib/refLabel'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -29,7 +30,7 @@ function DiscourseWalk() {
         {o.units.map((x, j) => (
           <li key={x.id} className="shrink-0">
             <button type="button" onClick={() => setI(j)} aria-current={j === i} className={`w-56 rounded-xl px-3 py-2 text-left text-sm transition-colors lg:w-full ${j === i ? 'bg-accent text-[var(--accent-ink)]' : 'hover:bg-surface-2'}`}>
-              <span className="block text-xs font-bold opacity-80">{x.ref}</span>
+              <span className="block text-xs font-bold opacity-80">{refLabel(x.ref)}</span>
               <span className="block font-semibold leading-snug">{x.title}</span>
             </button>
           </li>
@@ -42,8 +43,8 @@ function DiscourseWalk() {
         <AnimatePresence mode="wait">
           <motion.article key={u.id} initial={{ opacity: 0, x: 24 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -24 }} transition={{ duration: 0.3 }} className="leaf p-5">
             <p className="text-xs font-bold uppercase tracking-widest text-accent">
-              {u.ref}
-              {u.parallels.length > 0 && <span className="ml-2 font-semibold normal-case tracking-normal text-ink-soft">{t('Parallels: {refs}', { refs: u.parallels.join('; ') })}</span>}
+              {refLabel(u.ref)}
+              {u.parallels.length > 0 && <span className="ml-2 font-semibold normal-case tracking-normal text-ink-soft">{t('Parallels: {refs}', { refs: refLabel(u.parallels.join('; ')) })}</span>}
             </p>
             <h3 className="text-2xl font-bold">{u.title}</h3>
             <p className="mt-2 leading-relaxed">
@@ -207,7 +208,7 @@ export default function Olivet() {
                   {open && (
                     <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="overflow-hidden">
                       <Prose text={c.text} className="mt-2" />
-                      {c.refs.length > 0 && <p className="mt-2 text-sm text-ink-soft">{c.refs.join('; ')}</p>}
+                      {c.refs.length > 0 && <p className="mt-2 text-sm text-ink-soft">{refLabel(c.refs.join('; '))}</p>}
                       <div className="mt-2">
                         <Sources ids={c.sources} />
                       </div>
@@ -233,7 +234,7 @@ export default function Olivet() {
                   <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-accent font-bold text-[var(--accent-ink)]">{i + 1}</span>
                   <span>
                     <span className="block font-semibold">{q.q}</span>
-                    <span className="text-xs text-ink-soft">{q.ref}</span>
+                    <span className="text-xs text-ink-soft">{refLabel(q.ref)}</span>
                   </span>
                 </motion.li>
               ))}
@@ -258,7 +259,7 @@ export default function Olivet() {
           {o.fulfilments.map((f, i) => (
             <motion.li key={f.prophecy + i} initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-30px' }} transition={{ delay: (i % 3) * 0.06 }} className="grid items-stretch gap-2 md:grid-cols-[1fr_3.5rem_1fr]">
               <div className="leaf p-3" style={{ borderLeft: '4px solid var(--accent)' }}>
-                <p className="text-xs font-bold text-accent">{f.prophecy}</p>
+                <p className="text-xs font-bold text-accent">{refLabel(f.prophecy)}</p>
                 <p className="font-semibold">{f.prophecyText}</p>
               </div>
               <div className="hidden items-center justify-center md:flex" aria-hidden>
@@ -285,7 +286,7 @@ export default function Olivet() {
         <ul className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {o.generation.uses.map((u, i) => (
             <motion.li key={u.ref} initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: i * 0.05 }} className="rounded-xl bg-surface-2 p-3 text-sm">
-              <p className="font-bold text-accent">{u.ref}</p>
+              <p className="font-bold text-accent">{refLabel(u.ref)}</p>
               <p>{u.text}</p>
             </motion.li>
           ))}
@@ -303,7 +304,7 @@ export default function Olivet() {
               <div key={r.id}>
                 <button type="button" aria-expanded={open} onClick={() => setRel(open ? null : r.id)} className="flex w-full items-center justify-between gap-4 py-4 text-left">
                   <span>
-                    <span className="block text-xs font-bold text-accent">{r.ref}</span>
+                    <span className="block text-xs font-bold text-accent">{refLabel(r.ref)}</span>
                     <span className="text-lg font-bold">{r.title}</span>
                   </span>
                   <motion.span animate={{ rotate: open ? 45 : 0 }} className="text-accent">
