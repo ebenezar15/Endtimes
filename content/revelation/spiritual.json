@@ -1955,5 +1955,218 @@
     "milligan-revelation",
     "johnson-triumph-lamb",
     "origen-first-principles"
+  ],
+  "contrasts": [
+    {
+      "topic": "What the book is",
+      "popular": "A timeline of end-time events to be charted and decoded.",
+      "spiritual": "A present unveiling of Jesus Christ: a Person to behold, not a puzzle to solve.",
+      "texts": [
+        "Revelation 1:1"
+      ]
+    },
+    {
+      "topic": "The antichrist",
+      "popular": "A future world leader who will rule the globe.",
+      "spiritual": "A spirit that denies Christ come in the flesh, and denies Christ in you.",
+      "texts": [
+        "1 John 2:18-22",
+        "1 John 4:2-3"
+      ]
+    },
+    {
+      "topic": "The beast",
+      "popular": "A literal end-time dictator.",
+      "spiritual": "The carnal nature: the mind of the flesh that sets itself against the Spirit.",
+      "texts": [
+        "Romans 8:6-7",
+        "Revelation 13:18"
+      ]
+    },
+    {
+      "topic": "The mark of the beast",
+      "popular": "A physical mark, chip or implant that will be enforced.",
+      "spiritual": "Thinking (forehead) and doing (hand) shaped by the flesh, fear and earning, counterfeiting God's seal on the mind.",
+      "texts": [
+        "Revelation 13:16",
+        "Deuteronomy 6:8",
+        "Revelation 14:1"
+      ]
+    },
+    {
+      "topic": "Babylon",
+      "popular": "A future political or economic empire.",
+      "spiritual": "Confusion and mixture: religious systems built on human wisdom and performance. 'Come out of her' is a call to rest in Christ.",
+      "texts": [
+        "Revelation 18:4",
+        "Genesis 11:4-9"
+      ]
+    },
+    {
+      "topic": "God's judgments",
+      "popular": "Global disasters poured out on the world.",
+      "spiritual": "The removal of what blocks Christ in us: false systems, images and identities shaken so the unshakable kingdom remains.",
+      "texts": [
+        "Hebrews 12:26-28"
+      ]
+    },
+    {
+      "topic": "Seals and trumpets",
+      "popular": "Calamities released in sequence from heaven.",
+      "spiritual": "Seals are veils over our perception being broken one by one; trumpets are wake-up calls, invitations rather than destruction.",
+      "texts": [
+        "Revelation 5:5",
+        "2 Corinthians 3:16"
+      ]
+    },
+    {
+      "topic": "Tribulation and rapture",
+      "popular": "The church is caught away to escape the tribulation.",
+      "spiritual": "Overcoming happens in tribulation, not by escaping it. The call is to grow up, not get out.",
+      "texts": [
+        "John 16:33",
+        "Revelation 1:9"
+      ]
+    },
+    {
+      "topic": "The church's posture",
+      "popular": "Waiting for Jesus to return and fix things outwardly.",
+      "spiritual": "Christ is being revealed now in his people. He comes not to rescue a defeated people but to be revealed in victorious ones.",
+      "texts": [
+        "Colossians 1:27",
+        "2 Thessalonians 1:10"
+      ]
+    },
+    {
+      "topic": "The goal",
+      "popular": "Surviving the end of the world.",
+      "spiritual": "Maturing into Christ's image and reigning with him now, as kings and priests.",
+      "texts": [
+        "Revelation 1:6",
+        "Romans 8:29"
+      ]
+    }
+  ],
+  "method": [
+    {
+      "id": "outward",
+      "step": "Stop reading the newspaper into the book",
+      "text": "This view holds that the main reason Revelation is misunderstood is that its symbols are read through world events. Headlines, dates and leaders become the key, and the result is fear, speculation and a church waiting to escape.",
+      "texts": [
+        "Matthew 24:6"
+      ]
+    },
+    {
+      "id": "scripture",
+      "step": "Let Scripture interpret Scripture",
+      "text": "After the resurrection Jesus did not give the disciples a chart of events. He opened Moses and the Prophets and showed them himself. The images of Revelation are unlocked by the rest of the Bible: creation, the Exodus, the tabernacle and the life of Jesus.",
+      "texts": [
+        "Luke 24:27",
+        "Luke 24:44-45"
+      ]
+    },
+    {
+      "id": "spirit",
+      "step": "Read with the Spirit, not the natural mind",
+      "text": "The disciples misread the Scriptures while they expected an earthly kingdom. Revelation is 'spiritually discerned'. The Spirit does not only explain the words, he brings them into the reader's life: how the Lamb reigns, how we are sealed, how we overcome.",
+      "texts": [
+        "1 Corinthians 2:14",
+        "John 16:13-14"
+      ]
+    },
+    {
+      "id": "unveil",
+      "step": "See a Person unveiled",
+      "text": "Apokalypsis means unveiling. The book is the revealing of Jesus Christ, the visible image of the invisible God, not the revealing of an antichrist or a horror story.",
+      "texts": [
+        "Revelation 1:1",
+        "Colossians 1:15"
+      ]
+    },
+    {
+      "id": "within",
+      "step": "Find him revealed in his people",
+      "text": "The unveiling did not stop at the resurrection. Christ, the firstborn among many, is being revealed in his body now. The focus moves from outward speculation to inward transformation.",
+      "texts": [
+        "Galatians 1:16",
+        "Colossians 1:27",
+        "Romans 8:19"
+      ]
+    },
+    {
+      "id": "overcome",
+      "step": "Live as an overcomer",
+      "text": "Every letter ends 'to the one who overcomes'. The goal is not to map the book but to live it: to rise, reign and reveal Jesus from the inside out, with peace in storms and boldness in deception.",
+      "texts": [
+        "Revelation 3:21",
+        "Revelation 12:11"
+      ]
+    }
+  ],
+  "overcomer": [
+    {
+      "church": "Ephesus",
+      "promise": "To eat from the tree of life",
+      "ref": "Revelation 2:7",
+      "fulfilled": "The tree of life by the river, its leaves for healing",
+      "fulfilledRef": "Revelation 22:2, 14",
+      "meaning": "The way to the tree barred in Genesis 3 is open again in Christ. This view reads it as life drawn from Christ now, not a reward kept for later."
+    },
+    {
+      "church": "Smyrna",
+      "promise": "Not hurt by the second death",
+      "ref": "Revelation 2:11",
+      "fulfilled": "The second death has no power over those in the first resurrection",
+      "fulfilledRef": "Revelation 20:6",
+      "meaning": "Those raised with Christ in the new birth already share his life, so the final death cannot touch them."
+    },
+    {
+      "church": "Pergamum",
+      "promise": "Hidden manna and a white stone with a new name",
+      "ref": "Revelation 2:17",
+      "fulfilled": "His name on their foreheads",
+      "fulfilledRef": "Revelation 22:4",
+      "meaning": "Christ is the bread from heaven. The new name is a new identity given by God rather than earned."
+    },
+    {
+      "church": "Thyatira",
+      "promise": "Authority over the nations and the morning star",
+      "ref": "Revelation 2:26-28",
+      "fulfilled": "They will reign for ever and ever; Jesus the bright morning star",
+      "fulfilledRef": "Revelation 22:5, 16",
+      "meaning": "The overcomer shares Christ's reign, and the morning star rises in the heart."
+    },
+    {
+      "church": "Sardis",
+      "promise": "White garments and a name kept in the book of life",
+      "ref": "Revelation 3:5",
+      "fulfilled": "The bride in fine linen; those written in the Lamb's book",
+      "fulfilledRef": "Revelation 19:8; 21:27",
+      "meaning": "The robe is righteousness given, not woven by effort."
+    },
+    {
+      "church": "Philadelphia",
+      "promise": "A pillar in God's temple, bearing the name of the new Jerusalem",
+      "ref": "Revelation 3:12",
+      "fulfilled": "The city whose temple is God and the Lamb",
+      "fulfilledRef": "Revelation 21:2, 22",
+      "meaning": "The believer becomes part of the dwelling of God, the temple not made with hands."
+    },
+    {
+      "church": "Laodicea",
+      "promise": "To sit with Christ on his throne",
+      "ref": "Revelation 3:21",
+      "fulfilled": "The throne of God and of the Lamb, and his servants reign",
+      "fulfilledRef": "Revelation 22:3-5",
+      "meaning": "The man-child caught up to the throne pictures this: the overcomer seated with Christ now."
+    }
+  ],
+  "lines": [
+    "Revelation isn't a puzzle to solve; it's a Person to behold.",
+    "Not meant to be mapped out, but lived out.",
+    "Not a map for the future, but a mirror for the present.",
+    "It's not about getting out; it's about growing up.",
+    "Christ comes not to rescue a defeated people but to be revealed in victorious ones.",
+    "Overcomers are known not by what they avoid but by who they reveal."
   ]
 }

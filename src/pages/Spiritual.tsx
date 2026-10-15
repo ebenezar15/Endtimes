@@ -8,6 +8,11 @@ import { UnveilHero } from '../components/spiritual/UnveilHero'
 import { SymbolFlow } from '../components/spiritual/SymbolFlow'
 import { TwoCities } from '../components/spiritual/TwoCities'
 import { JourneyMap } from '../components/spiritual/JourneyMap'
+import { ViewContrast } from '../components/spiritual/ViewContrast'
+import { MethodPath } from '../components/spiritual/MethodPath'
+import { OvercomerBridge } from '../components/spiritual/OvercomerBridge'
+import { PatternKeys, LinesTicker } from '../components/spiritual/PatternKeys'
+import { ChapterDepth } from '../components/spiritual/ChapterDepth'
 import { spiritual } from '../lib/data/revelation'
 
 function Section({ id, title, lede, children }: { id: string; title: string; lede?: string; children: React.ReactNode }) {
@@ -68,15 +73,23 @@ export default function Spiritual() {
             Spiritual <span className="text-gradient">Understanding</span>
           </motion.h1>
           <Prose text={s.overview} className="mt-4 text-[1.05rem]" />
+          <LinesTicker lines={s.lines} />
           <nav aria-label="On this page" className="mt-5 flex flex-wrap gap-2 text-sm">
             {[
               ['principles', 'Principles'],
+              ['method', 'The way of seeing'],
+              ['lens', 'The lens'],
               ['flow', 'Reading an image'],
               ['cities', 'Old and new'],
+              ['patterns', 'Old Testament keys'],
               ['journey', 'The journey'],
+              ['overcomer', 'The overcomer'],
               ['chapters', 'All 22 chapters'],
+              ['depth', 'Chapter studies'],
               ['critiques', 'Critiques'],
-            ].map(([id, l]) => (
+            ]
+              .filter(([id]) => (id === 'method' ? s.method.length : id === 'lens' ? s.contrasts.length : id === 'patterns' ? s.patterns.length : id === 'overcomer' ? s.overcomer.length : id === 'depth' ? s.chapters.some((c) => c.depth.length) : true))
+              .map(([id, l]) => (
               <a key={id} href={`#${id}`} onClick={(e) => (e.preventDefault(), document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }))} className="chip no-underline hover:border-accent">
                 {l}
               </a>
@@ -103,6 +116,18 @@ export default function Spiritual() {
         </ul>
       </Section>
 
+      {s.method.length > 0 && (
+        <Section id="method" title="The way of seeing" lede="How this view says Revelation should be read: not by decoding the news, but by letting Scripture and the Spirit show Christ. Watch the path light up, then step through it.">
+          <MethodPath steps={s.method} />
+        </Section>
+      )}
+
+      {s.contrasts.length > 0 && (
+        <Section id="lens" title="Through the lens" lede="The popular end-times reading on one side, this view on the other. Drag the slider or press the button to sweep the lens down the list.">
+          <ViewContrast rows={s.contrasts} />
+        </Section>
+      )}
+
       <Section id="flow" title="From image to reality" lede="Pick an image. The flow shows how this view moves from its surface reading, to what it reveals of Christ, to what it means now.">
         <div className="leaf p-5">
           <SymbolFlow keys={s.keys} />
@@ -113,9 +138,21 @@ export default function Spiritual() {
         <TwoCities keys={s.keys} />
       </Section>
 
+      {s.patterns.length > 0 && (
+        <Section id="patterns" title="Old Testament keys" lede="This view lets Scripture interpret Scripture. These are the patterns it uses to unlock the images. Pick a key to see how each one maps onto Revelation.">
+          <PatternKeys patterns={s.patterns} />
+        </Section>
+      )}
+
       <Section id="journey" title="The journey through the book" lede="Read as one movement, from the unveiling of Christ to the tree of life. Scroll to follow the light.">
         <JourneyMap journey={s.journey} />
       </Section>
+
+      {s.overcomer.length > 0 && (
+        <Section id="overcomer" title="To the one who overcomes" lede="Every letter in chapters 2 and 3 ends with a promise to the overcomer, and every promise comes back in the closing vision. Select a promise to see how this view reads it.">
+          <OvercomerBridge items={s.overcomer} />
+        </Section>
+      )}
 
       <Section id="chapters" title="Christ in every chapter" lede="Turn a card over to see how this view finds Christ in that chapter. Each chapter page shows this reading beside the other views.">
         <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
@@ -124,6 +161,12 @@ export default function Spiritual() {
           ))}
         </ul>
       </Section>
+
+      {s.chapters.some((c) => c.depth.length) && (
+        <Section id="depth" title="Chapter studies in depth" lede="Verse-by-verse notes on the chapters this view teaches most fully.">
+          <ChapterDepth chapters={chapters.filter((c) => c.depth.length)} />
+        </Section>
+      )}
 
       <Section id="critiques" title="Critiques and responses" lede="As with every view in this app, the strongest objections come with the answers its proponents give.">
         <ol className="space-y-4">

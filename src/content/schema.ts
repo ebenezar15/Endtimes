@@ -392,6 +392,8 @@ export const SpiritualChapter = z.object({
   insights: z.array(Text).min(2),
   /** Optional per-symbol insights keyed by RevSymbol id. */
   symbolInsights: z.array(z.object({ symbolId: Id, insight: Text })).default([]),
+  /** Longer verse-by-verse notes for chapters this view has taught in depth. */
+  depth: z.array(z.object({ title: Text, text: Text, texts: z.array(Ref).default([]) })).default([]),
   texts: z.array(Ref).default([]),
 })
 
@@ -403,6 +405,16 @@ export const SpiritualStudy = z.object({
   keys: z.array(SpiritualKey).min(12),
   chapters: z.array(SpiritualChapter),
   critiques: z.array(z.object({ critique: Text, response: Text })).min(2),
+  /** How this view sets itself against the popular end-times reading, row by row. */
+  contrasts: z.array(z.object({ topic: Text, popular: Text, spiritual: Text, texts: z.array(Ref).default([]) })).default([]),
+  /** The way of reading: the steps from outward signs to Christ revealed within. */
+  method: z.array(z.object({ id: Id, step: Text, text: Text, texts: z.array(Ref).default([]) })).default([]),
+  /** Old Testament patterns used as keys (creation, Exodus, tabernacle, feasts...). */
+  patterns: z.array(z.object({ id: Id, pattern: Text, text: Text, links: z.array(z.object({ from: Text, to: Text })).default([]), texts: z.array(Ref).default([]) })).default([]),
+  /** The seven promises "to the one who overcomes" and where each is fulfilled. */
+  overcomer: z.array(z.object({ church: Text, promise: Text, ref: Ref, fulfilled: Text, fulfilledRef: Ref, meaning: Text })).default([]),
+  /** Short lines that sum up the view, paraphrased. */
+  lines: z.array(Text).default([]),
   sources: z.array(Id).min(1),
 })
 export type SpiritualStudy = z.infer<typeof SpiritualStudy>
