@@ -59,7 +59,7 @@ export default function Spiritual() {
   const chapters = [...s.chapters].sort((a, b) => a.chapter - b.chapter)
   return (
     <div className="mx-auto max-w-6xl">
-      <section className="grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)]">
+      <section className="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)]">
         <div>
           <motion.p className="text-xs font-bold uppercase tracking-[0.3em] text-accent" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
             A Christ-centred reading of Revelation
@@ -83,7 +83,7 @@ export default function Spiritual() {
             ))}
           </nav>
         </div>
-        <div className="leaf overflow-hidden p-2">
+        <div className="leaf overflow-hidden p-2 lg:sticky lg:top-24 lg:mt-6">
           <UnveilHero />
         </div>
       </section>
