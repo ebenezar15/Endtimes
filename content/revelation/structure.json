@@ -1,0 +1,899 @@
+{
+  "intro": "Revelation is not a random string of visions. It is carefully built, with numbered sevens, repeated scenes, an opening and closing that mirror each other, and whole sequences borrowed from earlier prophets. Many scholars also think the book is arranged concentrically, so that its first and last parts answer each other and the weight falls in the middle. This study sets out several of those proposals, the verbal bookends that frame the book, similar structures in the Old Testament prophets, and the earlier sequences John follows, while being clear that structural outlines are scholarly proposals rather than settled facts.",
+  "chiasmIntro": "A chiasm, or concentric ring composition, arranges material in a mirror pattern, A B C B′ A′, so that the second half retraces the first in reverse order and the centre stands out as the turning point. Ancient texts were mostly heard rather than read silently, and patterns like this helped speakers remember long material and helped listeners follow it, signalling where a section began, where it turned and where it ended. Because the pattern folds back on itself, the centre often carries the main point. A well-known example is Gordon Wenham's argument that the Genesis flood narrative mirrors itself around 8:1, 'God remembered Noah': the waters rise, the ark floats, then the waters fall in reverse order. Scholars debate how many such structures were intended by the authors, but the technique itself is well attested in the Hebrew Bible and the ancient world.",
+  "outlines": [
+    {
+      "id": "schussler-fiorenza-seven-part",
+      "name": "Seven-part concentric outline",
+      "proposer": "Elisabeth Schüssler Fiorenza",
+      "centre": "D",
+      "segments": [
+        {
+          "label": "A",
+          "title": "Prologue and epistolary greeting",
+          "range": "1:1–8",
+          "startCh": 1,
+          "endCh": 1
+        },
+        {
+          "label": "B",
+          "title": "Inaugural vision and the messages to the seven churches",
+          "range": "1:9–3:22",
+          "startCh": 1,
+          "endCh": 3
+        },
+        {
+          "label": "C",
+          "title": "The sealed scroll: seals and trumpets",
+          "range": "4:1–9:21; 11:15–19",
+          "startCh": 4,
+          "endCh": 9
+        },
+        {
+          "label": "D",
+          "title": "The small prophetic scroll: the community in conflict with the powers",
+          "range": "10:1–15:4",
+          "startCh": 10,
+          "endCh": 15
+        },
+        {
+          "label": "C′",
+          "title": "Bowls and the judgment of Babylon",
+          "range": "15:1, 5–19:10",
+          "startCh": 15,
+          "endCh": 19
+        },
+        {
+          "label": "B′",
+          "title": "Parousia, final judgment and the New Jerusalem",
+          "range": "19:11–22:9",
+          "startCh": 19,
+          "endCh": 22
+        },
+        {
+          "label": "A′",
+          "title": "Epilogue and epistolary conclusion",
+          "range": "22:10–21",
+          "startCh": 22,
+          "endCh": 22
+        }
+      ],
+      "note": "Schüssler Fiorenza argues that the book is woven like a tapestry, with interlocking sections rather than simple blocks, so C and C′ overlap and interrupt the centre (C includes 11:15–19, and C′ begins at 15:1 and resumes at 15:5). For drawing the arches the chapter spans here are simplified to C 4–9 and C′ 15–19. On her reading the centre, the small scroll of chapters 10–15, holds the prophetic heart of the book: the conflict between the community and the dragon and beasts.",
+      "sources": [
+        "schussler-fiorenza-justice-judgment"
+      ]
+    },
+    {
+      "id": "strand-chiastic",
+      "name": "Historical and eschatological halves in inverse order",
+      "proposer": "Kenneth A. Strand",
+      "centre": "D",
+      "segments": [
+        {
+          "label": "A",
+          "title": "Prologue",
+          "range": "1:1–11",
+          "startCh": 1,
+          "endCh": 1
+        },
+        {
+          "label": "B",
+          "title": "The church militant: the seven churches",
+          "range": "1:12–3:22",
+          "startCh": 1,
+          "endCh": 3
+        },
+        {
+          "label": "C",
+          "title": "God's work for salvation in progress: throne room and seals",
+          "range": "4:1–8:1",
+          "startCh": 4,
+          "endCh": 8
+        },
+        {
+          "label": "D",
+          "title": "Forces opposing God's people warned and battling: trumpets, dragon and beasts",
+          "range": "8:2–14:20",
+          "startCh": 8,
+          "endCh": 14
+        },
+        {
+          "label": "D′",
+          "title": "Forces opposing God's people punished and judged: bowls and Babylon",
+          "range": "15:1–18:24",
+          "startCh": 15,
+          "endCh": 18
+        },
+        {
+          "label": "C′",
+          "title": "God's work for salvation completed: heavenly praise, rider, millennium, new creation",
+          "range": "19:1–21:4",
+          "startCh": 19,
+          "endCh": 21
+        },
+        {
+          "label": "B′",
+          "title": "The church triumphant: the New Jerusalem",
+          "range": "21:5–22:5",
+          "startCh": 21,
+          "endCh": 22
+        },
+        {
+          "label": "A′",
+          "title": "Epilogue",
+          "range": "22:6–21",
+          "startCh": 22,
+          "endCh": 22
+        }
+      ],
+      "note": "This follows the outline Strand published in 1976–1977, which he called tentative. It has no single central section: the hinge is the line between chapters 14 and 15, where the historical half (evil powers opposing God's people) turns into the eschatological half (evil powers judged), so the two innermost sections D and D′ together form the centre and D is marked here only for drawing. Strand later refined the scheme into eight basic visions, four historical and four eschatological, paired in inverse order between prologue and epilogue (1987); the exact boundaries vary slightly between his versions.",
+      "sources": [
+        "strand-interpreting-revelation",
+        "strand-ministry-literary-structure",
+        "strand-eight-basic-visions"
+      ]
+    },
+    {
+      "id": "chapter-12-pivot",
+      "name": "Prologue, two halves and the chapter 12 pivot",
+      "proposer": "Adela Yarbro Collins (two cycles of visions), with the chapter 12 turning point noted by many commentators",
+      "centre": "C",
+      "segments": [
+        {
+          "label": "A",
+          "title": "Prologue",
+          "range": "1:1–8",
+          "startCh": 1,
+          "endCh": 1
+        },
+        {
+          "label": "B",
+          "title": "First cycle: churches, the sealed scroll, seals and trumpets",
+          "range": "1:9–11:19",
+          "startCh": 1,
+          "endCh": 11
+        },
+        {
+          "label": "C",
+          "title": "The woman, the child and the dragon: the central drama",
+          "range": "12:1–17",
+          "startCh": 12,
+          "endCh": 12
+        },
+        {
+          "label": "B′",
+          "title": "Second cycle: beasts, bowls, Babylon, the return of Christ and the new creation",
+          "range": "13:1–22:5",
+          "startCh": 13,
+          "endCh": 22
+        },
+        {
+          "label": "A′",
+          "title": "Epilogue",
+          "range": "22:6–21",
+          "startCh": 22,
+          "endCh": 22
+        }
+      ],
+      "note": "Collins divides the body of the book into two great cycles, the second opening at 12:1, and many commentators observe that chapter 12 starts afresh, going back to the birth of the Messiah and exposing the dragon behind the beasts that follow. Treating chapter 12 as a free-standing centre is a simplification of that observation rather than Collins's own diagram, and the boundaries here are approximate.",
+      "sources": [
+        "collins-combat-myth",
+        "beale-revelation-nigtc",
+        "koester-revelation-ayb"
+      ]
+    }
+  ],
+  "bookends": [
+    {
+      "a": "Revelation 1:1",
+      "aText": "God gave the revelation to show his servants what must soon take place, sent through his angel to John.",
+      "b": "Revelation 22:6",
+      "bText": "God sent his angel to show his servants what must soon take place.",
+      "note": "The same chain of revelation (God, Christ, angel, John, servants) opens and closes the book, with almost identical wording."
+    },
+    {
+      "a": "Revelation 1:3",
+      "aText": "Blessed is the one who reads and those who hear and keep what is written in this prophecy.",
+      "b": "Revelation 22:7",
+      "bText": "Blessed is the one who keeps the words of the prophecy of this book.",
+      "note": "The first and last of the book's seven beatitudes both bless those who keep the prophecy, framing everything between as words to obey, not only to decode."
+    },
+    {
+      "a": "Revelation 1:3",
+      "aText": "For the time is near.",
+      "b": "Revelation 22:10",
+      "bText": "Do not seal up the words of the prophecy of this book, for the time is near.",
+      "note": "The urgency is identical at both ends. Contrast Daniel 12:4, where Daniel is told to seal the book until the time of the end."
+    },
+    {
+      "a": "Revelation 1:7",
+      "aText": "Look, he is coming with the clouds.",
+      "b": "Revelation 22:20",
+      "bText": "Surely I am coming soon. Amen. Come, Lord Jesus!",
+      "note": "The coming of Christ is announced at the start and promised three times at the close (22:7, 12, 20), ending with the church's answering prayer."
+    },
+    {
+      "a": "Revelation 1:8",
+      "aText": "I am the Alpha and the Omega, says the Lord God.",
+      "b": "Revelation 22:13",
+      "bText": "I am the Alpha and the Omega, the first and the last, the beginning and the end.",
+      "note": "At the start the title belongs to the Lord God; at the end Jesus speaks it of himself, one of the book's strongest statements of his divine identity."
+    },
+    {
+      "a": "Revelation 1:1, 4, 9",
+      "aText": "His servant John; John to the seven churches; I, John, your brother.",
+      "b": "Revelation 22:8",
+      "bText": "I, John, am the one who heard and saw these things.",
+      "note": "The prophet names himself as witness at both ends, underlining that the book is testimony he received, not his own invention."
+    },
+    {
+      "a": "Revelation 1:4, 11",
+      "aText": "Grace to you and peace; the message to be sent to the seven churches.",
+      "b": "Revelation 22:16, 21",
+      "bText": "I, Jesus, sent my angel to testify these things for the churches. The grace of the Lord Jesus be with all.",
+      "note": "The book is framed as a letter, with an opening grace greeting and a closing grace benediction addressed to the churches."
+    },
+    {
+      "a": "Revelation 1:6",
+      "aText": "He has made us a kingdom, priests to his God and Father.",
+      "b": "Revelation 22:3–5",
+      "bText": "His servants will worship him, see his face, and reign for ever and ever.",
+      "note": "The priestly kingdom announced at the start (echoing Exodus 19:6) is shown fully realised at the end, as worshippers who see God's face and reign."
+    }
+  ],
+  "critiques": [
+    {
+      "critique": "Chiasms can be found in almost any long text if a reader looks hard enough and chooses the labels; the pattern may come from the interpreter rather than the author.",
+      "response": "This is a real danger, and the variety of proposed outlines shows it. Proposals are more persuasive when they rest on repeated wording and clear markers in the text (as with the bookends of chapters 1 and 22, or the trumpet–bowl parallels) rather than only on broad themes. Even then they remain proposals to be tested, not facts."
+    },
+    {
+      "critique": "Scholars do not agree on where the sections of Revelation begin and end, or on what stands at the centre (chapter 10–15 for Schüssler Fiorenza, the chapter 14–15 hinge for Strand, chapter 12 for others).",
+      "response": "The disagreement is genuine. Yet most outlines agree on several points: the prologue and epilogue mirror each other, the seals, trumpets and bowls form a related series, and chapters 12–14 mark a major turn in the book. Readers can hold the shared points with more confidence than any one detailed scheme."
+    },
+    {
+      "critique": "Revelation is plainly organised by numbered sevens and by repeated, overlapping visions (recapitulation), so forcing it into a single mirror pattern may hide its forward movement.",
+      "response": "Many scholars see several structuring devices working at once: linear sevens that build to a climax, recapitulating cycles, interlocking transitions and concentric framing. A concentric reading need not replace the others; at its best it highlights the centre and the frame while the sevens carry the story forward."
+    }
+  ],
+  "prophetic": [
+    {
+      "id": "daniel-2-7",
+      "book": "Daniel",
+      "passage": "Daniel 2–7 (the Aramaic chapters)",
+      "summary": "Adolphe Lenglet (1972), followed by Joyce Baldwin and many others, argued that the Aramaic chapters of Daniel form a concentric unit. Chapters 2 and 7 both portray four world kingdoms replaced by God's kingdom; chapters 3 and 6 both tell of faithful Jews delivered from death (the furnace and the lions' den); chapters 4 and 5 both show God judging a proud king. There is no single middle chapter, so the paired chapters 4–5 are shown here as one central segment: together they make the point that the Most High rules the kingdoms of men (4:17, 25; 5:21).",
+      "segments": [
+        {
+          "label": "A",
+          "title": "Four kingdoms: the statue, ended by God's kingdom",
+          "range": "2:1–49",
+          "startCh": 2,
+          "endCh": 2
+        },
+        {
+          "label": "B",
+          "title": "Deliverance from the fiery furnace",
+          "range": "3:1–30",
+          "startCh": 3,
+          "endCh": 3
+        },
+        {
+          "label": "C",
+          "title": "Judgment on proud kings: Nebuchadnezzar humbled, Belshazzar weighed",
+          "range": "4:1–5:31",
+          "startCh": 4,
+          "endCh": 5
+        },
+        {
+          "label": "B′",
+          "title": "Deliverance from the lions' den",
+          "range": "6:1–28",
+          "startCh": 6,
+          "endCh": 6
+        },
+        {
+          "label": "A′",
+          "title": "Four kingdoms: the four beasts, ended by the Son of Man",
+          "range": "7:1–28",
+          "startCh": 7,
+          "endCh": 7
+        }
+      ],
+      "centre": "C",
+      "link": "Revelation draws heavily on this block. The beast of Revelation 13 combines Daniel 7's four beasts, the demand to worship the image (13:15) recalls Daniel 3, the fall of Babylon (Revelation 17–18) echoes Belshazzar's night in Daniel 5, and the centre's message, that God rules over earthly kingdoms, is the confession of Revelation 11:15.",
+      "sources": [
+        "lenglet-structure-daniel-2-7",
+        "baldwin-daniel-totc"
+      ]
+    },
+    {
+      "id": "zechariah-night-visions",
+      "book": "Zechariah",
+      "passage": "Zechariah 1:7–6:15 (the night visions)",
+      "summary": "Joyce Baldwin, Carol and Eric Meyers, and David Dorsey are among those who see the night visions arranged symmetrically. The first and last visions (horses patrolling the earth, chariots going out to the earth) frame the series; the inner visions deal with judgment on the nations and the cleansing of the land; and the centre is the vision of the golden lampstand fed by two olive trees, the two anointed leaders, Zerubbabel and the high priest Joshua (chapter 4, with the closely related Joshua scene of chapter 3). Scholars count and pair the visions slightly differently, so the boundaries here are approximate.",
+      "segments": [
+        {
+          "label": "A",
+          "title": "Horsemen patrolling the whole earth",
+          "range": "1:7–17",
+          "startCh": 1,
+          "endCh": 1
+        },
+        {
+          "label": "B",
+          "title": "Horns and craftsmen; the man with the measuring line",
+          "range": "1:18–2:13",
+          "startCh": 1,
+          "endCh": 2
+        },
+        {
+          "label": "C",
+          "title": "Joshua cleansed; the lampstand and the two olive trees",
+          "range": "3:1–4:14",
+          "startCh": 3,
+          "endCh": 4
+        },
+        {
+          "label": "B′",
+          "title": "The flying scroll; the woman in the basket",
+          "range": "5:1–11",
+          "startCh": 5,
+          "endCh": 5
+        },
+        {
+          "label": "A′",
+          "title": "Four chariots going out to the whole earth",
+          "range": "6:1–8",
+          "startCh": 6,
+          "endCh": 6
+        }
+      ],
+      "centre": "C",
+      "link": "Revelation 11:4 identifies the two witnesses as 'the two olive trees and the two lampstands', taking the centre of Zechariah's visions as the key to the church's prophetic witness. The coloured horses (Zechariah 1:8; 6:2–3) shape the riders of Revelation 6, the measuring line (2:1–2) lies behind Revelation 11:1 and 21:15, and the seven eyes of the LORD (4:10) become the seven eyes of the Lamb (Revelation 5:6).",
+      "sources": [
+        "baldwin-haggai-zechariah-malachi-totc",
+        "dorsey-literary-structure-ot"
+      ]
+    },
+    {
+      "id": "isaiah-56-66",
+      "book": "Isaiah",
+      "passage": "Isaiah 56–66",
+      "summary": "John Oswalt, among others, sets out the last section of Isaiah as a concentric arrangement. Foreigners gathered to worship (56:1–8) is matched by the nations gathered to see God's glory (66:18–24); Israel's sin and lament (56:9–59:15a) by a further lament and God's answer (63:7–66:17); the LORD as divine warrior (59:15b–21) by the warrior coming from Edom with garments stained red (63:1–6). At the apex stand chapters 60–62: Zion glorified, filled with light, and the Spirit-anointed messenger who proclaims good news. Some scholars divide the outer sections differently, but the central position of 60–62 is widely accepted.",
+      "segments": [
+        {
+          "label": "A",
+          "title": "Foreigners and outcasts gathered to worship",
+          "range": "56:1–8",
+          "startCh": 56,
+          "endCh": 56
+        },
+        {
+          "label": "B",
+          "title": "Israel's failure, sin and lament",
+          "range": "56:9–59:15a",
+          "startCh": 56,
+          "endCh": 59
+        },
+        {
+          "label": "C",
+          "title": "The LORD arms himself as warrior and redeemer",
+          "range": "59:15b–21",
+          "startCh": 59,
+          "endCh": 59
+        },
+        {
+          "label": "D",
+          "title": "Zion glorified and the anointed messenger",
+          "range": "60:1–62:12",
+          "startCh": 60,
+          "endCh": 62
+        },
+        {
+          "label": "C′",
+          "title": "The warrior returns from Edom, robes stained red",
+          "range": "63:1–6",
+          "startCh": 63,
+          "endCh": 63
+        },
+        {
+          "label": "B′",
+          "title": "Lament, God's answer, new heavens and new earth",
+          "range": "63:7–66:17",
+          "startCh": 63,
+          "endCh": 66
+        },
+        {
+          "label": "A′",
+          "title": "The nations gathered to see God's glory",
+          "range": "66:18–24",
+          "startCh": 66,
+          "endCh": 66
+        }
+      ],
+      "centre": "D",
+      "link": "The centre of this structure supplies much of Revelation's New Jerusalem: the glory of God as its light with no need of sun or moon (Isaiah 60:19 → Revelation 21:23), gates never shut and kings bringing their glory into it (60:3, 11 → 21:24–26), and the bride adorned (61:10; 62:5 → 21:2). The flanking warrior of 63:1–6 becomes the rider whose robe is dipped in blood and who treads the winepress (Revelation 19:13–15), and 65:17 and 66:22 give 'a new heaven and a new earth' (21:1).",
+      "sources": [
+        "oswalt-isaiah-nivac",
+        "motyer-prophecy-isaiah"
+      ]
+    },
+    {
+      "id": "amos-5-1-17",
+      "book": "Amos",
+      "passage": "Amos 5:1–17",
+      "summary": "Jan de Waard (1977) argued that this lament over Israel is a carefully built chiasm, and many later commentators have adopted his outline. A funeral lament (5:1–3) matches wailing in every street (5:16–17); 'seek me and live' (5:4–6) matches 'seek good and not evil, that you may live' (5:14–15); justice turned to wormwood (5:7) matches the abuse of justice in the gate (5:10–13). At the centre stands a hymn to the Creator who made the Pleiades and Orion, turns darkness into morning and brings sudden destruction: 'the LORD is his name' (5:8–9). The whole structure lies within chapter 5, so every segment is drawn at chapter 5 and the verse ranges carry the detail.",
+      "segments": [
+        {
+          "label": "A",
+          "title": "Lament: fallen is virgin Israel",
+          "range": "5:1–3",
+          "startCh": 5,
+          "endCh": 5
+        },
+        {
+          "label": "B",
+          "title": "Seek me and live",
+          "range": "5:4–6",
+          "startCh": 5,
+          "endCh": 5
+        },
+        {
+          "label": "C",
+          "title": "Justice turned to wormwood",
+          "range": "5:7",
+          "startCh": 5,
+          "endCh": 5
+        },
+        {
+          "label": "D",
+          "title": "The Creator who judges: the LORD is his name",
+          "range": "5:8–9",
+          "startCh": 5,
+          "endCh": 5
+        },
+        {
+          "label": "C′",
+          "title": "Justice trampled in the gate",
+          "range": "5:10–13",
+          "startCh": 5,
+          "endCh": 5
+        },
+        {
+          "label": "B′",
+          "title": "Seek good, that you may live",
+          "range": "5:14–15",
+          "startCh": 5,
+          "endCh": 5
+        },
+        {
+          "label": "A′",
+          "title": "Wailing in all the streets",
+          "range": "5:16–17",
+          "startCh": 5,
+          "endCh": 5
+        }
+      ],
+      "centre": "D",
+      "link": "Revelation shares the same move: judgment on injustice is grounded in the sovereignty of the Creator. The 'Lord God Almighty' of Revelation (4:8; 11:17) echoes Amos's 'LORD God of hosts', rendered 'Almighty' (pantokrator) in the Greek Old Testament; the bitter star named Wormwood (Revelation 8:11) draws on the wormwood image (Amos 5:7; Jeremiah 9:15); and the darkening of the day (Amos 5:8, 18–20) anticipates the darkness of the trumpets and bowls (Revelation 8:12; 16:10).",
+      "sources": [
+        "de-waard-amos-5",
+        "dorsey-literary-structure-ot"
+      ]
+    },
+    {
+      "id": "joel-symmetry",
+      "book": "Joel",
+      "passage": "Joel 1–3 (Hebrew 1–4)",
+      "summary": "Duane Garrett (1985) and other commentators argue that Joel is a unified composition that turns at 2:18, 'Then the LORD became jealous for his land', with the second half answering the first. The ruined land (chapter 1) is answered by the land restored and 'the years the locust has eaten' repaid (2:18–27); the invading army of the day of the LORD (2:1–11) is answered by the outpouring of the Spirit and judgment on the nations (2:28–3:21). The call to return to the LORD (2:12–17) stands at the turn. This is better described as a symmetrical structure than a strict chiasm, and proposals for Joel vary considerably, so the outline is approximate.",
+      "segments": [
+        {
+          "label": "A",
+          "title": "The locust plague ruins the land",
+          "range": "1:1–20",
+          "startCh": 1,
+          "endCh": 1
+        },
+        {
+          "label": "B",
+          "title": "The army of the day of the LORD invades",
+          "range": "2:1–11",
+          "startCh": 2,
+          "endCh": 2
+        },
+        {
+          "label": "C",
+          "title": "Return to me with all your heart",
+          "range": "2:12–17",
+          "startCh": 2,
+          "endCh": 2
+        },
+        {
+          "label": "A′",
+          "title": "The LORD pities his land and restores it",
+          "range": "2:18–27",
+          "startCh": 2,
+          "endCh": 2
+        },
+        {
+          "label": "B′",
+          "title": "The Spirit poured out and the nations judged",
+          "range": "2:28–3:21",
+          "startCh": 2,
+          "endCh": 3
+        }
+      ],
+      "centre": "C",
+      "link": "Joel supplies Revelation's demonic locusts with lions' teeth, looking like horses prepared for battle and sounding like chariots (Joel 1:6; 2:4–5 → Revelation 9:7–9), the darkened sun and blood-red moon (Joel 2:10, 31 → Revelation 6:12), the question 'who can endure it?' (Joel 2:11 → Revelation 6:17), and the harvest and winepress of the nations (Joel 3:13 → Revelation 14:15–20). Like Joel, Revelation calls for repentance in the face of these judgments (9:20–21).",
+      "sources": [
+        "garrett-structure-joel",
+        "dorsey-literary-structure-ot"
+      ]
+    },
+    {
+      "id": "ezekiel-glory-frame",
+      "book": "Ezekiel",
+      "passage": "Ezekiel 1–48",
+      "summary": "Ezekiel is usually divided into judgment on Jerusalem (1–24), oracles against the nations (25–32) and restoration (33–48). Commentators such as Daniel Block note that the book is framed by the glory of God: Ezekiel sees it by the Chebar canal (chapter 1), watches it leave the defiled temple (chapters 10–11), and sees it return to the new temple (43:1–5), where he explicitly compares the vision to the earlier ones (43:3). This gives the book a symmetrical frame around the oracles against the nations, though it is a frame rather than a detailed verse-by-verse chiasm.",
+      "segments": [
+        {
+          "label": "A",
+          "title": "The glory appears by the Chebar canal; the prophet's commission",
+          "range": "1:1–3:27",
+          "startCh": 1,
+          "endCh": 3
+        },
+        {
+          "label": "B",
+          "title": "Judgment on Jerusalem; the glory departs from the temple",
+          "range": "4:1–24:27",
+          "startCh": 4,
+          "endCh": 24
+        },
+        {
+          "label": "C",
+          "title": "Oracles against the nations",
+          "range": "25:1–32:32",
+          "startCh": 25,
+          "endCh": 32
+        },
+        {
+          "label": "B′",
+          "title": "Restoration of Israel: new heart, dry bones, Gog defeated",
+          "range": "33:1–39:29",
+          "startCh": 33,
+          "endCh": 39
+        },
+        {
+          "label": "A′",
+          "title": "The new temple; the glory returns",
+          "range": "40:1–48:35",
+          "startCh": 40,
+          "endCh": 48
+        }
+      ],
+      "centre": "C",
+      "link": "Revelation follows Ezekiel's arc closely: it opens with a throne vision (Revelation 4, from Ezekiel 1) and closes with a measured holy city where God dwells with his people (Revelation 21–22, from Ezekiel 40–48). The final words of Ezekiel, 'The LORD is there' (48:35), become 'the dwelling place of God is with man' (Revelation 21:3). See also the Ezekiel sequence below.",
+      "sources": [
+        "block-ezekiel-25-48",
+        "dorsey-literary-structure-ot"
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "id": "ezekiel-order",
+      "title": "Following Ezekiel's order",
+      "book": "Ezekiel",
+      "intro": "Albert Vanhoye (1962) and later Greg Beale and others observed that Revelation does not only quote Ezekiel; it moves through Ezekiel's visions in broadly the same order, from the throne vision at the start to the temple-city at the end. The match is not exact (the supper of the birds, for example, comes before Gog and Magog in Revelation but after it in Ezekiel), yet the overall sequence is striking.",
+      "pairs": [
+        {
+          "ot": "Ezekiel 1",
+          "otTitle": "Throne vision: living creatures, rainbow, sea-like expanse",
+          "rev": "Revelation 4",
+          "revTitle": "The throne room of heaven",
+          "note": "Four living creatures, a rainbow, an expanse like crystal and a figure on the throne appear in both."
+        },
+        {
+          "ot": "Ezekiel 2:8–3:3",
+          "otTitle": "The prophet eats a scroll, sweet as honey",
+          "rev": "Revelation 10:8–11",
+          "revTitle": "John eats the little scroll",
+          "note": "In both the scroll is sweet in the mouth, and in Revelation bitter in the stomach, before the prophet is sent to prophesy again."
+        },
+        {
+          "ot": "Ezekiel 9:4–6",
+          "otTitle": "A mark on the foreheads of those who grieve",
+          "rev": "Revelation 7:2–4",
+          "revTitle": "The servants of God sealed on their foreheads",
+          "note": "The faithful are marked for protection before judgment falls."
+        },
+        {
+          "ot": "Ezekiel 10:2",
+          "otTitle": "Burning coals from among the cherubim scattered over the city",
+          "rev": "Revelation 8:3–5",
+          "revTitle": "Fire from the altar thrown on the earth",
+          "note": "Fire from God's presence becomes the signal for judgment."
+        },
+        {
+          "ot": "Ezekiel 16; 23",
+          "otTitle": "Jerusalem and Samaria as unfaithful prostitutes",
+          "rev": "Revelation 17",
+          "revTitle": "The great prostitute, Babylon",
+          "note": "Both use the image of a harlot city stripped and burned by her former lovers (Ezekiel 16:37–41; 23:25–29; Revelation 17:16)."
+        },
+        {
+          "ot": "Ezekiel 26–28",
+          "otTitle": "Lament over Tyre, the merchant city",
+          "rev": "Revelation 18",
+          "revTitle": "Lament over fallen Babylon",
+          "note": "Kings, merchants and seafarers mourn, and the cargo list of Ezekiel 27 is echoed in Revelation 18:11–19."
+        },
+        {
+          "ot": "Ezekiel 37",
+          "otTitle": "The valley of dry bones comes to life",
+          "rev": "Revelation 20:4–6",
+          "revTitle": "The first resurrection; the saints live and reign",
+          "note": "Beale and others see the revival of God's people in Ezekiel 37 behind the coming to life in Revelation 20, before the Gog battle in both books."
+        },
+        {
+          "ot": "Ezekiel 38–39",
+          "otTitle": "Gog of the land of Magog attacks and is destroyed",
+          "rev": "Revelation 20:7–10",
+          "revTitle": "Gog and Magog gathered for battle and consumed by fire",
+          "note": "Revelation names Gog and Magog directly, and fire from heaven ends the attack in both (Ezekiel 38:22; 39:6)."
+        },
+        {
+          "ot": "Ezekiel 39:17–20",
+          "otTitle": "Birds summoned to a sacrificial feast",
+          "rev": "Revelation 19:17–18",
+          "revTitle": "The great supper of God",
+          "note": "The invitation to the birds to eat the flesh of kings and mighty men is closely reproduced."
+        },
+        {
+          "ot": "Ezekiel 40–48",
+          "otTitle": "The measured temple, the city and the river of life",
+          "rev": "Revelation 21–22",
+          "revTitle": "The measured New Jerusalem and the river of the water of life",
+          "note": "Measuring (Ezekiel 40:3; Revelation 21:15), twelve gates named for the tribes (48:31–34; 21:12), and a river with fruit trees whose leaves heal (47:1–12; 22:1–2)."
+        }
+      ],
+      "sources": [
+        "vanhoye-ezechiel-apocalypse",
+        "beale-revelation-nigtc",
+        "block-ezekiel-25-48"
+      ]
+    },
+    {
+      "id": "exodus-plagues",
+      "title": "The Exodus plagues in the trumpets and bowls",
+      "book": "Exodus",
+      "intro": "The trumpets and bowls are modelled on the plagues of Egypt, and the people of God are pictured as a new Israel delivered through judgment and singing by the sea. Most commentators note this pattern, including Bauckham and Beale, though Revelation rearranges and intensifies the plagues rather than copying them in order.",
+      "pairs": [
+        {
+          "ot": "Exodus 7:17–21",
+          "otTitle": "Water turned to blood",
+          "rev": "Revelation 8:8–9; 16:3–4",
+          "revTitle": "Sea and rivers become blood",
+          "note": "The first Egyptian plague returns in the second trumpet and the second and third bowls."
+        },
+        {
+          "ot": "Exodus 8:2–6",
+          "otTitle": "Frogs",
+          "rev": "Revelation 16:13",
+          "revTitle": "Three unclean spirits like frogs",
+          "note": "The frogs become deceiving spirits from the dragon, beast and false prophet."
+        },
+        {
+          "ot": "Exodus 9:9–11",
+          "otTitle": "Boils on people and animals",
+          "rev": "Revelation 16:2",
+          "revTitle": "Painful sores on the beast's worshippers",
+          "note": "The first bowl repeats the sixth plague."
+        },
+        {
+          "ot": "Exodus 9:23–25",
+          "otTitle": "Hail and fire",
+          "rev": "Revelation 8:7; 16:21",
+          "revTitle": "Hail mixed with fire; huge hailstones",
+          "note": "The first trumpet and the seventh bowl both recall the seventh plague."
+        },
+        {
+          "ot": "Exodus 10:12–15",
+          "otTitle": "Locusts cover the land",
+          "rev": "Revelation 9:3–11",
+          "revTitle": "Locusts from the abyss",
+          "note": "The locusts become a demonic army that torments people rather than crops."
+        },
+        {
+          "ot": "Exodus 10:21–23",
+          "otTitle": "Darkness over Egypt",
+          "rev": "Revelation 8:12; 16:10",
+          "revTitle": "Sun, moon and stars darkened; the beast's kingdom plunged into darkness",
+          "note": "As in Egypt, darkness falls on the oppressor's realm."
+        },
+        {
+          "ot": "Exodus 12",
+          "otTitle": "The Passover lamb whose blood protects",
+          "rev": "Revelation 5:6–10; 7:14",
+          "revTitle": "The Lamb who was slain ransoms a people",
+          "note": "The Lamb's blood redeems and protects, making a new people out of every nation."
+        },
+        {
+          "ot": "Exodus 15:1–18",
+          "otTitle": "The song of Moses beside the sea",
+          "rev": "Revelation 15:2–4",
+          "revTitle": "The song of Moses and of the Lamb beside the sea of glass",
+          "note": "The conquerors stand by the sea and sing of God's righteous deeds, as Israel did after crossing the Red Sea."
+        }
+      ],
+      "sources": [
+        "bauckham-climax-prophecy",
+        "beale-revelation-nigtc"
+      ]
+    },
+    {
+      "id": "daniel-7",
+      "title": "Daniel 7 in Revelation 13 and 17",
+      "book": "Daniel",
+      "intro": "Daniel 7 is one of the most important sources for Revelation. John takes its vision of beasts from the sea, the arrogant horn, the heavenly court and the kingdom given to the saints, and reworks it in Revelation 13, 17 and 20. Beale has argued that Daniel is the dominant Old Testament background of the whole book.",
+      "pairs": [
+        {
+          "ot": "Daniel 7:2–3",
+          "otTitle": "Four great beasts rise from the stirred-up sea",
+          "rev": "Revelation 13:1",
+          "revTitle": "A beast rises out of the sea",
+          "note": "The setting of the sea, a symbol of chaos and the nations, is the same."
+        },
+        {
+          "ot": "Daniel 7:4–6",
+          "otTitle": "Lion, bear and leopard",
+          "rev": "Revelation 13:2",
+          "revTitle": "One beast like a leopard, with feet like a bear's and a mouth like a lion's",
+          "note": "Daniel's successive beasts are merged into one, in reverse order, suggesting a power that sums up all the empires."
+        },
+        {
+          "ot": "Daniel 7:7, 24",
+          "otTitle": "The fourth beast with ten horns",
+          "rev": "Revelation 13:1; 17:3, 12",
+          "revTitle": "Ten horns, explained as ten kings",
+          "note": "Both John and Daniel explain the horns as kings who rule with the beast."
+        },
+        {
+          "ot": "Daniel 7:8, 20, 25",
+          "otTitle": "A horn with a mouth speaking great things against the Most High",
+          "rev": "Revelation 13:5–6",
+          "revTitle": "A mouth uttering great and blasphemous things",
+          "note": "The blasphemous speech of the little horn passes to the beast."
+        },
+        {
+          "ot": "Daniel 7:21, 25",
+          "otTitle": "The horn makes war on the saints for a time, times and half a time",
+          "rev": "Revelation 12:14; 13:5–7",
+          "revTitle": "War on the saints for forty-two months; time, times and half a time",
+          "note": "The same limited period of persecution is used in several forms (3½ years, 42 months, 1,260 days)."
+        },
+        {
+          "ot": "Daniel 7:9–10",
+          "otTitle": "Thrones set, the Ancient of Days seated, books opened",
+          "rev": "Revelation 20:4, 11–12",
+          "revTitle": "Thrones, the great white throne, books opened",
+          "note": "The heavenly court scene becomes the final judgment."
+        },
+        {
+          "ot": "Daniel 7:11",
+          "otTitle": "The beast slain and given over to burning fire",
+          "rev": "Revelation 19:20",
+          "revTitle": "The beast thrown alive into the lake of fire",
+          "note": "The fate of the beast is the same."
+        },
+        {
+          "ot": "Daniel 7:13–14, 22, 27",
+          "otTitle": "One like a son of man; dominion given to the saints",
+          "rev": "Revelation 1:7, 13; 20:4; 22:5",
+          "revTitle": "The Son of Man coming with the clouds; the saints reign",
+          "note": "The kingdom is given to the Son of Man and shared with his people."
+        }
+      ],
+      "sources": [
+        "beale-revelation-nigtc",
+        "bauckham-climax-prophecy"
+      ]
+    },
+    {
+      "id": "genesis-reversed",
+      "title": "Genesis 1–3 reversed in Revelation 21–22",
+      "book": "Genesis",
+      "intro": "The Bible's last two chapters answer its first three. Creation, Eden and the curse are taken up again, but now the curse is lifted, the serpent is defeated and God dwells openly with his people. Many writers, including Beale and Middleton, read the New Jerusalem as Eden restored and enlarged into a temple-city filling the new creation.",
+      "pairs": [
+        {
+          "ot": "Genesis 1:1",
+          "otTitle": "God creates the heavens and the earth",
+          "rev": "Revelation 21:1, 5",
+          "revTitle": "A new heaven and a new earth; 'I am making all things new'",
+          "note": "The story ends where it began, with creation renewed rather than abandoned."
+        },
+        {
+          "ot": "Genesis 1:2, 9–10",
+          "otTitle": "The deep and the seas",
+          "rev": "Revelation 21:1",
+          "revTitle": "The sea is no more",
+          "note": "The sea, an image of chaos and the source of the beast (13:1), has no place in the new creation."
+        },
+        {
+          "ot": "Genesis 1:3, 14–16",
+          "otTitle": "Light, sun and moon",
+          "rev": "Revelation 21:23; 22:5",
+          "revTitle": "No need of sun or moon; the Lord God is their light",
+          "note": "Created lights give way to the direct light of God's glory."
+        },
+        {
+          "ot": "Genesis 2:10–14",
+          "otTitle": "A river flows out of Eden; gold and precious stones",
+          "rev": "Revelation 21:18–21; 22:1",
+          "revTitle": "The river of the water of life; a city of gold and jewels",
+          "note": "Eden's river and treasures reappear in the city."
+        },
+        {
+          "ot": "Genesis 2:9; 3:22–24",
+          "otTitle": "The tree of life, then barred by cherubim",
+          "rev": "Revelation 22:2, 14",
+          "revTitle": "The tree of life open to those who wash their robes",
+          "note": "Access lost in Genesis is restored."
+        },
+        {
+          "ot": "Genesis 3:16–19",
+          "otTitle": "Pain, toil and death",
+          "rev": "Revelation 21:4",
+          "revTitle": "No more death, mourning, crying or pain",
+          "note": "The effects of the fall are undone."
+        },
+        {
+          "ot": "Genesis 3:17",
+          "otTitle": "The ground cursed",
+          "rev": "Revelation 22:3",
+          "revTitle": "No longer will there be anything accursed",
+          "note": "The curse is removed at the end."
+        },
+        {
+          "ot": "Genesis 3:1, 15",
+          "otTitle": "The serpent deceives; its head to be crushed",
+          "rev": "Revelation 12:9; 20:2, 10",
+          "revTitle": "The ancient serpent, the devil, bound and thrown into the lake of fire",
+          "note": "The promise of Genesis 3:15 is fulfilled."
+        },
+        {
+          "ot": "Genesis 3:8",
+          "otTitle": "God walking in the garden; the humans hide",
+          "rev": "Revelation 21:3; 22:4",
+          "revTitle": "God dwells with his people; they will see his face",
+          "note": "Hiding from God gives way to open, face-to-face fellowship."
+        }
+      ],
+      "sources": [
+        "beale-temple-church-mission",
+        "middleton-new-heaven-earth",
+        "beale-revelation-nigtc"
+      ]
+    }
+  ],
+  "sources": [
+    "schussler-fiorenza-justice-judgment",
+    "strand-interpreting-revelation",
+    "strand-ministry-literary-structure",
+    "strand-eight-basic-visions",
+    "collins-combat-myth",
+    "wenham-coherence-flood",
+    "dorsey-literary-structure-ot",
+    "lenglet-structure-daniel-2-7",
+    "baldwin-daniel-totc",
+    "baldwin-haggai-zechariah-malachi-totc",
+    "oswalt-isaiah-nivac",
+    "de-waard-amos-5",
+    "garrett-structure-joel",
+    "vanhoye-ezechiel-apocalypse",
+    "beale-revelation-nigtc",
+    "bauckham-climax-prophecy",
+    "block-ezekiel-25-48",
+    "koester-revelation-ayb"
+  ]
+}
