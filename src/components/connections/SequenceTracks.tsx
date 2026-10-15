@@ -18,18 +18,16 @@ export function SequenceTracks({ sequences }: { sequences: Seq[] }) {
   const wrap = useRef<HTMLDivElement>(null)
   const left = useRef<(HTMLLIElement | null)[]>([])
   const right = useRef<(HTMLLIElement | null)[]>([])
-  const [lines, setLines] = useState<{ y1: number; y2: number }[]>([])
-  const [w, setW] = useState(0)
+  const [lines, setLines] = useState<{ x1: number; y1: number; x2: number; y2: number }[]>([])
 
   useLayoutEffect(() => {
     const measure = () => {
       const r = wrap.current?.getBoundingClientRect()
       if (!r || !s) return
-      setW(r.width)
       setLines(s.pairs.map((_, i) => {
         const a = left.current[i]?.getBoundingClientRect()
         const b = right.current[i]?.getBoundingClientRect()
-        return { y1: a ? a.top - r.top + a.height / 2 : 0, y2: b ? b.top - r.top + b.height / 2 : 0 }
+        return { x1: a ? a.right - r.left : 0, y1: a ? a.top - r.top + a.height / 2 : 0, x2: b ? b.left - r.left : 0, y2: b ? b.top - r.top + b.height / 2 : 0 }
       }))
     }
     measure()
@@ -68,13 +66,12 @@ export function SequenceTracks({ sequences }: { sequences: Seq[] }) {
       <div ref={wrap} className="relative mt-4 grid grid-cols-2 gap-x-[22%] sm:gap-x-[16%]">
         <svg className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden>
           {lines.map((l, i) => {
-            const x1 = w * (0.5 - 0.11)
-            const x2 = w * (0.5 + 0.11)
+            const { x1, x2 } = l
             const on = i === step
             return (
               <motion.path
                 key={s.id + i}
-                d={`M${x1},${l.y1} C${w / 2},${l.y1} ${w / 2},${l.y2} ${x2},${l.y2}`}
+                d={`M${x1},${l.y1} C${(x1 + x2) / 2},${l.y1} ${(x1 + x2) / 2},${l.y2} ${x2},${l.y2}`}
                 fill="none"
                 stroke={on ? 'var(--gold-bright)' : 'var(--rule)'}
                 strokeWidth={on ? 3.5 : 2}

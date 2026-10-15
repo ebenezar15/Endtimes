@@ -1,0 +1,1170 @@
+[
+  {
+    "id": "genesis",
+    "book": "Genesis",
+    "era": "Traditionally attributed to Moses; many scholars date its final form to the monarchy or the exile. It narrates creation to the patriarchs (Joseph in Egypt).",
+    "setting": "Genesis tells Israel's origin story against the backdrop of ancient Near Eastern creation and flood traditions from Mesopotamia and Egypt. It explains how a good creation was marred by human rebellion and how God chose Abraham's family to bring blessing back to the nations.",
+    "themes": [
+      "Creation and the garden",
+      "The serpent and the curse",
+      "Promise of a victorious seed",
+      "Covenant with Noah and Abraham",
+      "Judgment on Babel and Sodom"
+    ],
+    "summary": "Revelation never formally quotes the Old Testament with a citation formula, yet scholars agree it alludes to it constantly; estimates of the number of allusions vary widely depending on how strictly an allusion is defined. Genesis supplies the book's frame: what was lost in Genesis 1 to 3 (the tree of life, the river, God's presence, freedom from curse) is restored in Revelation 21 to 22, so the Bible's first and last pages mirror each other. The ancient serpent of Eden reappears as the dragon of Revelation 12, and the promise that the woman's seed would crush the serpent is played out as cosmic conflict. Readers of every school recognise this new-creation bookend, though they differ on whether it describes a renewed physical earth, a heavenly reality already present, or both.",
+    "links": [
+      {
+        "ot": "Genesis 2:9",
+        "rev": "Revelation 22:2",
+        "image": "Tree of life",
+        "note": "Barred to humanity after the fall, the tree of life now stands on both banks of the river, bearing fruit monthly, with leaves for the healing of the nations. Revelation 2:7 already promises it to the one who conquers."
+      },
+      {
+        "ot": "Genesis 2:10",
+        "rev": "Revelation 22:1",
+        "image": "River of paradise",
+        "note": "Eden's river that watered the garden becomes the river of the water of life flowing from the throne of God and of the Lamb. Ezekiel 47 stands between the two texts."
+      },
+      {
+        "ot": "Genesis 3:1",
+        "rev": "Revelation 12:9",
+        "image": "Ancient serpent",
+        "note": "The crafty serpent of Eden is explicitly identified as the great dragon, the devil and Satan, the deceiver of the whole world. Genesis never names the serpent as Satan; Revelation makes the identification plain."
+      },
+      {
+        "ot": "Genesis 3:15",
+        "rev": "Revelation 12:17",
+        "image": "Woman, seed and enmity",
+        "note": "Enmity between the serpent and the woman and her offspring becomes the dragon's war on the woman and 'the rest of her offspring', those who keep God's commandments. The child of Revelation 12:5 is widely read as the promised seed."
+      },
+      {
+        "ot": "Genesis 3:17",
+        "rev": "Revelation 22:3",
+        "image": "Curse removed",
+        "note": "The ground cursed because of Adam is answered by 'no longer will there be anything accursed'. Zechariah 14:11 is also echoed here."
+      },
+      {
+        "ot": "Genesis 9:13",
+        "rev": "Revelation 4:3",
+        "image": "Rainbow",
+        "note": "The bow set in the clouds as a sign of God's covenant not to destroy the earth by flood encircles God's throne, combined with Ezekiel 1:28. Many read it as a sign that judgment proceeds from a covenant-keeping God."
+      },
+      {
+        "ot": "Genesis 19:24-28",
+        "rev": "Revelation 14:10-11",
+        "image": "Fire, sulphur and rising smoke",
+        "note": "The fire and sulphur that fell on Sodom and the smoke rising like a furnace become a pattern for judgment on those who worship the beast and on Babylon (Revelation 19:3). Revelation 11:8 also calls the great city 'Sodom' symbolically."
+      },
+      {
+        "ot": "Genesis 37:9",
+        "rev": "Revelation 12:1",
+        "image": "Sun, moon and twelve stars",
+        "note": "Joseph's dream of sun, moon and eleven stars bowing to him (the twelfth star) lies behind the woman clothed with the sun, the moon under her feet, and a crown of twelve stars, linking her with Israel. Interpreters differ on whether she represents Israel, the church, Mary, or the people of God across both covenants."
+      },
+      {
+        "ot": "Genesis 49:9-10",
+        "rev": "Revelation 5:5",
+        "image": "Lion of the tribe of Judah",
+        "note": "Jacob's blessing of Judah as a lion's cub who keeps the sceptre is announced in heaven, but John turns and sees a slain Lamb. The royal lion is redefined by the sacrificial lamb."
+      }
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "beale-mcdonough-revelation-cnuot",
+      "koester-revelation-ayb",
+      "moyise-ot-in-revelation"
+    ]
+  },
+  {
+    "id": "exodus",
+    "book": "Exodus",
+    "era": "Traditionally attributed to Moses; describes Israel's deliverance from Egypt and covenant at Sinai, variously dated to the 15th or 13th century BC.",
+    "setting": "Exodus tells of Israel enslaved under a powerful Pharaoh, delivered by ten plagues, the Passover and the crossing of the sea. At Sinai God makes Israel a covenant people and comes to dwell among them in the tabernacle.",
+    "themes": [
+      "Plagues on an oppressive empire",
+      "The Passover lamb",
+      "Song of deliverance at the sea",
+      "Kingdom of priests",
+      "God dwelling in the tabernacle",
+      "The divine name 'I am'"
+    ],
+    "summary": "Exodus is one of Revelation's deepest patterns: the church is pictured as a new Israel being brought out of a new Egypt. The trumpet and bowl judgments (Revelation 8 to 9 and 16) are modelled closely on the Egyptian plagues, the Lamb's blood redeems a people as the Passover blood did, and the redeemed sing the song of Moses and of the Lamb beside a sea. Sinai's thunder and lightning frame God's throne, and the people are made a kingdom and priests. Interpreters agree on the exodus pattern; they differ on whether the plagues describe literal future events, past judgments on Jerusalem or Rome, or recurring judgments throughout the church age.",
+    "links": [
+      {
+        "ot": "Exodus 3:14",
+        "rev": "Revelation 1:4",
+        "image": "The divine name",
+        "note": "God's self-naming 'I am who I am' is expanded into 'him who is and who was and who is to come'. Greek translations of Exodus 3:14 render the name 'the one who is', which John adapts."
+      },
+      {
+        "ot": "Exodus 7:17-21",
+        "rev": "Revelation 16:3-4",
+        "image": "Water turned to blood",
+        "note": "The first Egyptian plague returns in the second and third bowls and in the trumpets (Revelation 8:8-9). The two witnesses also have power to turn waters into blood (Revelation 11:6)."
+      },
+      {
+        "ot": "Exodus 9:8-11",
+        "rev": "Revelation 16:2",
+        "image": "Painful sores",
+        "note": "The boils that afflicted the Egyptians fall on those who bear the mark of the beast."
+      },
+      {
+        "ot": "Exodus 9:22-25",
+        "rev": "Revelation 8:7",
+        "image": "Hail and fire",
+        "note": "Hail mixed with fire strikes the earth at the first trumpet, and enormous hailstones fall at the seventh bowl (Revelation 16:21)."
+      },
+      {
+        "ot": "Exodus 10:12-15",
+        "rev": "Revelation 9:3-11",
+        "image": "Locusts",
+        "note": "The eighth plague becomes demonic locusts from the abyss, now combined with Joel's locust army. The judgment is intensified but limited: they may not harm those sealed by God."
+      },
+      {
+        "ot": "Exodus 10:21-23",
+        "rev": "Revelation 16:10",
+        "image": "Darkness",
+        "note": "Darkness over Egypt becomes darkness over the beast's kingdom; the fourth trumpet also darkens a third of the lights (Revelation 8:12)."
+      },
+      {
+        "ot": "Exodus 12:5-13",
+        "rev": "Revelation 5:6-9",
+        "image": "Passover lamb",
+        "note": "A lamb's blood once marked Israel's houses for protection; now a slain Lamb's blood ransoms people from every tribe and nation. The Lamb also echoes Isaiah 53:7."
+      },
+      {
+        "ot": "Exodus 15:1-18",
+        "rev": "Revelation 15:2-4",
+        "image": "Song of Moses at the sea",
+        "note": "Israel sang beside the sea after Pharaoh's defeat; the conquerors stand beside a sea of glass mixed with fire and sing 'the song of Moses and the song of the Lamb'. Strikingly, the song celebrates the nations coming to worship God, not only their defeat."
+      },
+      {
+        "ot": "Exodus 19:6",
+        "rev": "Revelation 1:6",
+        "image": "Kingdom of priests",
+        "note": "Israel's calling at Sinai is applied to those freed by Christ's blood, from every nation (also Revelation 5:10 and 20:6)."
+      },
+      {
+        "ot": "Exodus 19:16-19",
+        "rev": "Revelation 4:5",
+        "image": "Thunder, lightning and trumpet",
+        "note": "The theophany at Sinai surrounds God's throne and recurs, growing more intense, at the close of the seals, trumpets and bowls (Revelation 8:5, 11:19, 16:18)."
+      }
+    ],
+    "sources": [
+      "bauckham-climax-prophecy",
+      "beale-revelation-nigtc",
+      "beale-mcdonough-revelation-cnuot",
+      "koester-revelation-ayb"
+    ]
+  },
+  {
+    "id": "leviticus",
+    "book": "Leviticus",
+    "era": "Traditionally attributed to Moses at Sinai; many scholars associate its final form with priestly circles of the later monarchy or exile.",
+    "setting": "Leviticus is a manual for worship and holiness in the tabernacle, addressed to a people camped at Sinai with a holy God in their midst. It governs sacrifice, priesthood, purity, the annual feasts and the covenant blessings and curses.",
+    "themes": [
+      "God dwelling among his people",
+      "Sacrifice and atonement",
+      "Priesthood and holiness",
+      "Feasts and the sacred calendar",
+      "Covenant blessings and sevenfold curses"
+    ],
+    "summary": "Leviticus is used less visibly than the prophets, but it supplies much of the temple and priestly vocabulary that fills Revelation's heavenly scenes: altars, incense, blood, priestly garments and the hope of God dwelling among his people. Its covenant promise 'I will walk among you and be your God' is a key source for the climax in Revelation 21:3. Some commentators also see the sevenfold covenant curses of Leviticus 26 behind Revelation's series of seven judgments, though this is suggested rather than certain. A few links, such as the burning of a priest's unfaithful daughter, are pressed chiefly by interpreters who identify Babylon with first-century Jerusalem and are disputed by others.",
+    "links": [
+      {
+        "ot": "Leviticus 26:11-12",
+        "rev": "Revelation 21:3",
+        "image": "God dwelling and walking among his people",
+        "note": "The covenant promise that God would set his dwelling among Israel and be their God is fulfilled as 'the dwelling place of God is with man'. Revelation 2:1 also pictures Christ walking among the lampstands."
+      },
+      {
+        "ot": "Leviticus 26:18-28",
+        "rev": "Revelation 15:1",
+        "image": "Sevenfold punishment",
+        "note": "God warns four times that he will punish covenant breakers 'sevenfold'. Many commentators think this lies behind the structure of seven seals, trumpets and bowls; the link is thematic rather than verbal."
+      },
+      {
+        "ot": "Leviticus 16:12-13",
+        "rev": "Revelation 8:3-5",
+        "image": "Censer, coals and incense",
+        "note": "On the Day of Atonement the high priest took coals from the altar and incense before the Lord. An angel offers incense with the saints' prayers, then hurls the censer's fire to the earth as judgment (with Ezekiel 10:2)."
+      },
+      {
+        "ot": "Leviticus 4:7",
+        "rev": "Revelation 6:9",
+        "image": "Blood at the base of the altar",
+        "note": "Sacrificial blood was poured out at the base of the altar; the souls of those slain for God's word are seen under the altar, portraying martyrdom as sacrifice."
+      },
+      {
+        "ot": "Leviticus 23:40-43",
+        "rev": "Revelation 7:9",
+        "image": "Palm branches and booths",
+        "note": "The Feast of Booths was celebrated with palm branches; the great multitude holds palm branches, and God will 'shelter them with his presence' (Revelation 7:15), using the verb for pitching a tent."
+      },
+      {
+        "ot": "Leviticus 21:9",
+        "rev": "Revelation 17:16",
+        "image": "The priest's daughter burned",
+        "note": "A priest's daughter who prostitutes herself is to be burned with fire; the harlot is burned (also Revelation 18:8). Interpreters who see Babylon as apostate Jerusalem stress this link, while those who see Babylon as Rome or a future world system regard it as background at most."
+      }
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "beale-mcdonough-revelation-cnuot",
+      "aune-revelation-wbc",
+      "chilton-days-of-vengeance"
+    ]
+  },
+  {
+    "id": "psalms",
+    "book": "Psalms",
+    "era": "Composed over many centuries, from the time of David (c. 1000 BC) to after the exile, and collected for Israel's worship.",
+    "setting": "The Psalms are the prayer book and hymnal of Israel's temple and synagogue. They celebrate God as king over creation, voice laments under oppression, and hold up the hope of an anointed Davidic king who will rule the nations.",
+    "themes": [
+      "God enthroned as king",
+      "The anointed king and the raging nations",
+      "Laments asking 'How long?'",
+      "New songs of praise",
+      "The book of the living"
+    ],
+    "summary": "Revelation's worship scenes are steeped in the Psalms, and its picture of Christ as king leans heavily on the royal psalms, above all Psalm 2. The nations rage against God and his anointed, and the Messiah rules them with a rod of iron, an image that appears three times in Revelation. The martyrs pray the lament 'How long?', heaven sings 'new songs', and the only New Testament uses of 'Hallelujah' occur in Revelation 19. Interpreters agree on these links but differ over when the Messiah's rule with the rod is exercised: now from heaven, at his return, or during a future earthly millennium.",
+    "links": [
+      {
+        "ot": "Psalm 2:1-2",
+        "rev": "Revelation 11:18",
+        "image": "Nations rage",
+        "note": "The raging of nations against the Lord and his anointed is answered: 'the nations raged, but your wrath came'. Revelation 17:14 and 19:19 echo kings gathering against the Lamb."
+      },
+      {
+        "ot": "Psalm 2:9",
+        "rev": "Revelation 19:15",
+        "image": "Rod of iron",
+        "note": "The Messiah 'will rule them with a rod of iron'. The phrase is applied to Christ (Revelation 12:5, 19:15) and promised to the one who conquers (Revelation 2:26-27), so the king's rule is shared with his people."
+      },
+      {
+        "ot": "Psalm 89:27",
+        "rev": "Revelation 1:5",
+        "image": "Firstborn and ruler of kings",
+        "note": "God's promise to make David's heir 'the firstborn, the highest of the kings of the earth', alongside the moon as 'faithful witness in the skies' (89:37), stands behind Jesus as 'the faithful witness, the firstborn of the dead, and the ruler of kings on earth'."
+      },
+      {
+        "ot": "Psalm 96:1",
+        "rev": "Revelation 5:9",
+        "image": "A new song",
+        "note": "The psalms call for a new song to the Lord (also 33:3, 98:1, 144:9). In Revelation the new song celebrates the Lamb's redemption (also 14:3)."
+      },
+      {
+        "ot": "Psalm 79:5-10",
+        "rev": "Revelation 6:10",
+        "image": "How long, and avenge the blood",
+        "note": "The psalm asks 'How long, O LORD?' and for the shed blood of God's servants to be avenged. The souls under the altar ask the same. They are told to rest a little longer."
+      },
+      {
+        "ot": "Psalm 86:9",
+        "rev": "Revelation 15:4",
+        "image": "All nations will come and worship",
+        "note": "The song of Moses and the Lamb draws on the psalm's hope that all nations will come and worship before God, alongside echoes of Psalm 111:2 and 145:17 in Revelation 15:3."
+      },
+      {
+        "ot": "Psalm 69:28",
+        "rev": "Revelation 3:5",
+        "image": "Blotted out of the book",
+        "note": "The psalmist prays that enemies be blotted out of the book of the living; Christ promises never to blot out the conqueror's name from the book of life."
+      },
+      {
+        "ot": "Psalm 115:13",
+        "rev": "Revelation 19:5",
+        "image": "Small and great who fear him",
+        "note": "The Hallelujah psalms call the Lord's servants, 'both the small and the great', to praise. Revelation 19:1-6 is the only place in the New Testament that uses the Hebrew word Hallelujah."
+      }
+    ],
+    "sources": [
+      "beale-mcdonough-revelation-cnuot",
+      "beale-revelation-nigtc",
+      "aune-revelation-wbc"
+    ]
+  },
+  {
+    "id": "isaiah",
+    "book": "Isaiah",
+    "era": "Isaiah son of Amoz prophesied in Jerusalem c. 740 to 700 BC; many scholars assign chapters 40 to 66 to later prophets of the exile and return, while others defend single authorship.",
+    "setting": "Isaiah addresses Judah under the threat of Assyria and, in its later chapters, a people facing or returning from exile in Babylon. It sets the holy God of Israel against proud empires and promises a suffering servant, a restored Zion and new heavens and a new earth.",
+    "themes": [
+      "The holy one on his throne",
+      "The servant who suffers",
+      "Fall of Babylon",
+      "Day of the Lord and the winepress",
+      "Zion restored with gates open to the nations",
+      "New heavens and new earth"
+    ],
+    "summary": "Isaiah is probably the single most used prophet in Revelation by number of allusions, though some scholars give Ezekiel or Daniel greater structural weight. It supplies the thrice-holy throne vision, the titles 'first and last' and the key of David, the fall of Babylon and the harlot-queen's boast, and the warrior who treads the winepress. Above all, Revelation 21 to 22 is woven out of Isaiah 25, 54, 60 and 65: tears wiped away, a jewelled city, gates never shut, the nations walking by its light and new heavens and a new earth. The slain Lamb also recalls Isaiah's servant led like a lamb to the slaughter. Readers differ on whether the new creation describes a coming renewal of this world, a heavenly state, or a reality already begun in the church.",
+    "links": [
+      {
+        "ot": "Isaiah 6:1-3",
+        "rev": "Revelation 4:8",
+        "image": "Holy, holy, holy",
+        "note": "Isaiah's vision of the Lord enthroned with six-winged seraphim crying 'Holy, holy, holy' is merged with Ezekiel's living creatures, who sing it without ceasing."
+      },
+      {
+        "ot": "Isaiah 44:6",
+        "rev": "Revelation 1:17",
+        "image": "First and the last",
+        "note": "A title of the Lord alone (also 48:12), set against idols, is spoken by the risen Christ (also 2:8 and 22:13), a striking claim to share God's identity."
+      },
+      {
+        "ot": "Isaiah 22:22",
+        "rev": "Revelation 3:7",
+        "image": "Key of David",
+        "note": "The key given to the steward Eliakim, to open and none shall shut, belongs to Christ, who sets an open door before Philadelphia."
+      },
+      {
+        "ot": "Isaiah 53:7",
+        "rev": "Revelation 5:6",
+        "image": "Lamb led to slaughter",
+        "note": "The servant led like a lamb to slaughter stands behind the Lamb 'standing, as though it had been slain', combined with the Passover lamb. Revelation's word for lamb (arnion) differs from the Greek of Isaiah 53:7 (amnos), so the link is thematic."
+      },
+      {
+        "ot": "Isaiah 34:4",
+        "rev": "Revelation 6:13-14",
+        "image": "Sky rolled up like a scroll",
+        "note": "The host of heaven falling like leaves from a fig tree and the sky rolled up like a scroll describe the sixth seal. Preterists often read such language as stock prophetic imagery for the fall of a political order; futurists usually expect a cosmic event."
+      },
+      {
+        "ot": "Isaiah 21:9",
+        "rev": "Revelation 18:2",
+        "image": "Fallen, fallen is Babylon",
+        "note": "Isaiah's announcement of Babylon's fall (with Jeremiah 51:8) is repeated over the great city (also 14:8). Interpreters identify this Babylon with Rome, Jerusalem, a future world city or the world system in every age."
+      },
+      {
+        "ot": "Isaiah 47:7-9",
+        "rev": "Revelation 18:7-8",
+        "image": "The queen's boast",
+        "note": "Babylon's boast 'I shall not sit as a widow' and the sudden loss of children and widowhood in one day are applied to the harlot city, whose plagues come in a single day."
+      },
+      {
+        "ot": "Isaiah 63:1-3",
+        "rev": "Revelation 19:13-15",
+        "image": "Treading the winepress",
+        "note": "The warrior from Edom with garments stained from treading the winepress alone becomes the rider whose robe is dipped in blood. Many note that in Revelation the robe is bloodied before the battle, which some take as the Lamb's own blood."
+      },
+      {
+        "ot": "Isaiah 25:8",
+        "rev": "Revelation 21:4",
+        "image": "Tears wiped away",
+        "note": "God will swallow up death and wipe away tears from all faces (also 7:17), combined with Isaiah 65:19, where weeping is heard no more."
+      },
+      {
+        "ot": "Isaiah 65:17",
+        "rev": "Revelation 21:1",
+        "image": "New heavens and new earth",
+        "note": "Isaiah's promise (also 66:22) frames the final vision, while Isaiah 60:11,19-20 supply gates never shut and a city lit by God's glory (Revelation 21:23-25) and Isaiah 54:11-12 its jewelled foundations."
+      }
+    ],
+    "sources": [
+      "fekkes-isaiah-revelation",
+      "motyer-prophecy-isaiah",
+      "beale-mcdonough-revelation-cnuot",
+      "bauckham-climax-prophecy"
+    ]
+  },
+  {
+    "id": "jeremiah",
+    "book": "Jeremiah",
+    "era": "Jeremiah prophesied in Judah c. 627 to 586 BC, through Babylon's rise and the fall of Jerusalem.",
+    "setting": "Jeremiah warned Judah through the last decades of the monarchy that Babylon would destroy Jerusalem and the temple, and he lived through the siege of 587/586 BC. His book also contains oracles against the nations that climax in a long prophecy of Babylon's own fall (chapters 50 to 51).",
+    "themes": [
+      "Judgment on covenant unfaithfulness",
+      "Babylon's cup and Babylon's fall",
+      "Come out of her, my people",
+      "The searcher of hearts",
+      "A new covenant"
+    ],
+    "summary": "Revelation's portrait of Babylon the great in chapters 17 to 18 draws heavily on Jeremiah 50 to 51, combined with Isaiah and Ezekiel. From Jeremiah come the golden cup that makes the nations drunk, the city enthroned by many waters, the call for God's people to come out of her, and the sign-act of a stone thrown into the waters. Jeremiah also supplies the picture of God searching minds and hearts, and the bitter star Wormwood. Readers agree that Revelation uses Jeremiah's Babylon as a type; they differ on whether the antitype is first-century Jerusalem, imperial Rome, a future world power, or a recurring pattern of godless culture.",
+    "links": [
+      {
+        "ot": "Jeremiah 51:7",
+        "rev": "Revelation 17:2-4",
+        "image": "Golden cup that makes nations drunk",
+        "note": "Babylon was a golden cup in the Lord's hand that made all the earth drunk; now the harlot herself holds the golden cup of her abominations, and the nations are drunk with the wine of her immorality."
+      },
+      {
+        "ot": "Jeremiah 51:13",
+        "rev": "Revelation 17:1",
+        "image": "Dwelling by many waters",
+        "note": "Literal Babylon sat on the Euphrates and its canals; Revelation interprets the 'many waters' as peoples, multitudes, nations and languages (17:15)."
+      },
+      {
+        "ot": "Jeremiah 51:45",
+        "rev": "Revelation 18:4",
+        "image": "Come out of her, my people",
+        "note": "The call to flee Babylon before its judgment (also Jeremiah 50:8 and Isaiah 48:20) is addressed to God's people, warning them not to share in her sins."
+      },
+      {
+        "ot": "Jeremiah 50:29",
+        "rev": "Revelation 18:6",
+        "image": "Repay her as she has done",
+        "note": "Jeremiah's call to repay Babylon according to her deeds is intensified: 'pay her back double for her deeds'."
+      },
+      {
+        "ot": "Jeremiah 51:63-64",
+        "rev": "Revelation 18:21",
+        "image": "Stone thrown into the waters",
+        "note": "Jeremiah's scroll tied to a stone and sunk in the Euphrates, with the words 'Thus shall Babylon sink', becomes a mighty angel hurling a great millstone into the sea."
+      },
+      {
+        "ot": "Jeremiah 25:10",
+        "rev": "Revelation 18:22-23",
+        "image": "Silence of the city",
+        "note": "The sound of the millstones, the light of the lamp and the voices of bride and bridegroom fall silent in the ruined city, as Jeremiah threatened against Judah."
+      },
+      {
+        "ot": "Jeremiah 51:25",
+        "rev": "Revelation 8:8",
+        "image": "Burning mountain",
+        "note": "Babylon is called a 'destroying mountain' to be made a burnt mountain; at the second trumpet something like a great burning mountain is thrown into the sea. The allusion is probable but not certain."
+      },
+      {
+        "ot": "Jeremiah 9:15",
+        "rev": "Revelation 8:11",
+        "image": "Wormwood",
+        "note": "God threatens to feed his unfaithful people bitter wormwood (also 23:15); at the third trumpet a star called Wormwood makes the waters bitter."
+      },
+      {
+        "ot": "Jeremiah 17:10",
+        "rev": "Revelation 2:23",
+        "image": "Searcher of minds and hearts",
+        "note": "The Lord who tests the heart and gives to each according to his ways (with Psalm 7:9) speaks to Thyatira as Christ."
+      },
+      {
+        "ot": "Jeremiah 15:2",
+        "rev": "Revelation 13:10",
+        "image": "To captivity, to the sword",
+        "note": "Jeremiah's grim list of fates for unfaithful Judah is turned into a call for the endurance and faith of the saints under the beast."
+      }
+    ],
+    "sources": [
+      "bauckham-climax-prophecy",
+      "beale-mcdonough-revelation-cnuot",
+      "koester-revelation-ayb",
+      "beale-revelation-nigtc"
+    ]
+  },
+  {
+    "id": "ezekiel",
+    "book": "Ezekiel",
+    "era": "Prophesied c. 593 to 571 BC among the Judean exiles in Babylon.",
+    "setting": "Ezekiel was a priest deported to Babylon in 597 BC who received visions by the Chebar canal. He announced Jerusalem's fall in 586 BC, the glory of God leaving the temple, judgment on the nations, and then restoration: dry bones raised, Gog defeated and a new temple from which a river flows.",
+    "themes": [
+      "Glory of God on the throne-chariot",
+      "Eating the scroll",
+      "Judgment and the departure of the glory",
+      "Harlot city and lament over Tyre",
+      "Gog and Magog",
+      "New temple, river and city"
+    ],
+    "summary": "Ezekiel shapes Revelation more structurally than any other book. Several scholars have observed that Revelation follows Ezekiel's broad order: throne vision, scroll, marking the faithful, scattering of fire on the city, the harlot, the lament over the trading city, resurrection, Gog and Magog, the birds' feast, and finally the measured temple-city with its river. John's own call (eating the scroll) mirrors Ezekiel's, and his final vision reworks Ezekiel 40 to 48. A key difference is that Ezekiel describes a temple, while Revelation's city has no temple because God and the Lamb are its temple; dispensational futurists usually expect Ezekiel's temple to be fulfilled separately in a millennial age, while many others see Revelation 21 to 22 as its fulfilment.",
+    "links": [
+      {
+        "ot": "Ezekiel 1:26-28",
+        "rev": "Revelation 4:2-3",
+        "image": "Throne with rainbow brightness",
+        "note": "Ezekiel's figure on a sapphire throne surrounded by radiance like a rainbow is the model for John's throne vision, now with emerald and jasper, and with the Lamb soon at its centre."
+      },
+      {
+        "ot": "Ezekiel 1:5-10",
+        "rev": "Revelation 4:6-8",
+        "image": "Four living creatures",
+        "note": "Ezekiel's creatures, each with four faces (human, lion, ox, eagle), become four creatures each with one of those faces, full of eyes and with six wings like Isaiah's seraphim."
+      },
+      {
+        "ot": "Ezekiel 2:9-3:3",
+        "rev": "Revelation 10:9-10",
+        "image": "Eating the scroll",
+        "note": "Ezekiel eats a scroll written front and back that tastes like honey; John eats a little scroll, sweet in his mouth but bitter in his stomach, and is told to prophesy again. The two-sided scroll also lies behind Revelation 5:1."
+      },
+      {
+        "ot": "Ezekiel 9:4",
+        "rev": "Revelation 7:3",
+        "image": "Mark on the forehead",
+        "note": "A man with a writing case marks those who grieve over Jerusalem's sins before judgment begins; God's servants are sealed on their foreheads before the winds of judgment blow."
+      },
+      {
+        "ot": "Ezekiel 10:2",
+        "rev": "Revelation 8:5",
+        "image": "Coals scattered over the city",
+        "note": "Burning coals from between the cherubim are scattered over Jerusalem; an angel throws fire from the altar onto the earth."
+      },
+      {
+        "ot": "Ezekiel 27:12-24",
+        "rev": "Revelation 18:11-19",
+        "image": "Merchants' lament and cargo list",
+        "note": "Tyre's trading partners and goods, and the sailors' lament over the sunken city, shape the merchants' and mariners' lament over Babylon, whose cargo list ends with 'human souls'."
+      },
+      {
+        "ot": "Ezekiel 38:2",
+        "rev": "Revelation 20:8",
+        "image": "Gog and Magog",
+        "note": "Ezekiel's Gog of the land of Magog, leading nations against restored Israel, becomes 'Gog and Magog', the nations from the four corners of the earth gathered after the thousand years. Interpreters differ on whether this is the same battle as Revelation 19 or a later one."
+      },
+      {
+        "ot": "Ezekiel 39:17-20",
+        "rev": "Revelation 19:17-18",
+        "image": "Birds' feast",
+        "note": "The birds are summoned to eat the flesh of mighty men and horses on the mountains of Israel; an angel summons them to 'the great supper of God' after the rider's victory."
+      },
+      {
+        "ot": "Ezekiel 40:2-3",
+        "rev": "Revelation 21:10,15",
+        "image": "High mountain and measuring rod",
+        "note": "Ezekiel is taken to a very high mountain where a man measures a temple; John is carried to a great high mountain where an angel measures a city. The same measuring motif lies behind Revelation 11:1."
+      },
+      {
+        "ot": "Ezekiel 47:1-12",
+        "rev": "Revelation 22:1-2",
+        "image": "River and trees of healing",
+        "note": "The river flowing from the temple, with trees bearing fruit monthly and leaves for healing, flows instead from the throne of God and the Lamb, combined with Eden's tree of life. Ezekiel 48:31-34, the city's twelve gates named for Israel's tribes, also stands behind Revelation 21:12-13."
+      }
+    ],
+    "sources": [
+      "block-ezekiel-25-48",
+      "bauckham-climax-prophecy",
+      "beale-mcdonough-revelation-cnuot",
+      "moyise-ot-in-revelation",
+      "beale-revelation-nigtc"
+    ]
+  },
+  {
+    "id": "daniel",
+    "book": "Daniel",
+    "era": "Set in the 6th century BC at the courts of Babylon and Persia; traditionally written by Daniel then, while many critical scholars date its final form to c. 167 to 164 BC under Antiochus IV.",
+    "setting": "Daniel tells of Judean exiles who stay faithful under pagan kings who demand worship, and records visions of a succession of empires pictured as beasts and as a great statue. These empires end when God gives the kingdom to 'one like a son of man' and to the holy ones.",
+    "themes": [
+      "Faithfulness under empire",
+      "Beasts from the sea",
+      "The Son of Man and the Ancient of Days",
+      "Time, times and half a time",
+      "Sealed and opened books",
+      "Resurrection and judgment"
+    ],
+    "summary": "Daniel is one of Revelation's two or three most important sources, and G. K. Beale has argued that Daniel 2 and 7 provide a framework for whole sections of the book. From Daniel come the beasts from the sea, the Son of Man on the clouds, the white-haired Ancient of Days, the books opened at judgment, the time, times and half a time, and the angel swearing by him who lives forever. One notable change: what Daniel expects 'in the latter days' and must seal up, Revelation says 'must soon take place' and must not be sealed. Preterists, futurists, historicists and idealists read these links very differently, especially regarding which empire the fourth beast represents and whether the three and a half years are literal.",
+    "links": [
+      {
+        "ot": "Daniel 2:28-29",
+        "rev": "Revelation 1:1",
+        "image": "What must take place",
+        "note": "Daniel's 'what will be in the latter days' becomes 'what must soon take place' (also 1:19, 4:1, 22:6). Many see this as signalling that Daniel's end-time kingdom has begun to arrive; how soon 'soon' is meant is a central debate between schools."
+      },
+      {
+        "ot": "Daniel 7:3-7",
+        "rev": "Revelation 13:1-2",
+        "image": "Beast from the sea",
+        "note": "Daniel's four beasts (lion, bear, leopard and a ten-horned beast) are fused into one beast with ten horns that resembles a leopard, a bear and a lion. Many identify Daniel's fourth beast and Revelation's beast with Rome; futurists often add a final revived empire."
+      },
+      {
+        "ot": "Daniel 7:9",
+        "rev": "Revelation 1:14",
+        "image": "White hair like wool",
+        "note": "Features of the Ancient of Days, hair white like wool and a throne of fire, are given to the risen Son of Man, joining divine and messianic imagery."
+      },
+      {
+        "ot": "Daniel 7:13",
+        "rev": "Revelation 1:7",
+        "image": "Coming with the clouds",
+        "note": "The one like a son of man coming with the clouds (combined with Zechariah 12:10) is applied to Jesus (also 1:13 and 14:14). Preterists often link this to judgment on Jerusalem in AD 70; others to the second coming."
+      },
+      {
+        "ot": "Daniel 7:10",
+        "rev": "Revelation 20:12",
+        "image": "Books opened",
+        "note": "Myriads of attendants stand before the throne (echoed in Revelation 5:11) and the court sits and books are opened; in Revelation the dead are judged from what is written in the books."
+      },
+      {
+        "ot": "Daniel 7:8",
+        "rev": "Revelation 13:5",
+        "image": "Mouth speaking great things",
+        "note": "The little horn's boastful mouth becomes the beast's mouth uttering blasphemies, exercising authority forty-two months."
+      },
+      {
+        "ot": "Daniel 7:21,25",
+        "rev": "Revelation 13:7",
+        "image": "War on the saints",
+        "note": "The horn makes war on the holy ones for 'a time, times and half a time'; the beast makes war on the saints, and the woman is protected for the same period (12:14). Futurists usually take it as three and a half literal years; others take it as symbolic of the church age or a limited time of trial."
+      },
+      {
+        "ot": "Daniel 7:22,27",
+        "rev": "Revelation 20:4",
+        "image": "Thrones and kingdom given to the saints",
+        "note": "Judgment is given for the holy ones, who receive the kingdom; John sees thrones and those to whom judgment was committed reigning with Christ. The timing and nature of this reign is the core of the millennial debate."
+      },
+      {
+        "ot": "Daniel 10:5-6",
+        "rev": "Revelation 1:13-15",
+        "image": "Man clothed in linen",
+        "note": "Daniel's heavenly figure with a golden belt, eyes like flaming torches, limbs like burnished bronze and a voice like a multitude shapes the portrait of the risen Christ."
+      },
+      {
+        "ot": "Daniel 12:4",
+        "rev": "Revelation 22:10",
+        "image": "Sealed and unsealed",
+        "note": "Daniel is told to shut up the words and seal the book until the time of the end; John is told not to seal the prophecy, 'for the time is near'."
+      },
+      {
+        "ot": "Daniel 12:7",
+        "rev": "Revelation 10:5-7",
+        "image": "Oath by the one who lives forever",
+        "note": "The man in linen raises his hands and swears by him who lives forever about 'a time, times and half a time'; the mighty angel raises his hand and swears that there will be no more delay."
+      }
+    ],
+    "sources": [
+      "beale-use-of-daniel",
+      "beale-mcdonough-revelation-cnuot",
+      "young-prophecy-of-daniel",
+      "collins-apocalyptic-imagination"
+    ]
+  },
+  {
+    "id": "hosea",
+    "book": "Hosea",
+    "era": "Prophesied in the northern kingdom of Israel c. 750 to 722 BC, before its fall to Assyria.",
+    "setting": "Hosea prophesied in Israel's last prosperous and chaotic decades, as kings were assassinated and Assyria loomed. His marriage to an unfaithful wife became a living parable of Israel's idolatry and of God's faithful, wooing love.",
+    "themes": [
+      "Covenant as marriage",
+      "Spiritual adultery",
+      "Wealth breeding pride",
+      "Wilderness as a place of renewal",
+      "'Not my people' becoming 'my people'"
+    ],
+    "summary": "Hosea is a lighter source than the major prophets, but its marriage imagery helps shape Revelation's contrast between the harlot and the bride. The terrified cry for the mountains to fall on us comes directly from Hosea, and the self-satisfied boast of Laodicea echoes Ephraim's boast of wealth. The wilderness where God allures and nourishes his people stands behind the woman's refuge in Revelation 12. Some of these links are verbal and secure, others thematic, and commentators weigh them differently.",
+    "links": [
+      {
+        "ot": "Hosea 10:8",
+        "rev": "Revelation 6:16",
+        "image": "Mountains, fall on us",
+        "note": "Israel's idolaters will say to the mountains 'Cover us' and to the hills 'Fall on us'; at the sixth seal people of every rank say the same to escape the wrath of the Lamb. Jesus also quotes the line in Luke 23:30."
+      },
+      {
+        "ot": "Hosea 12:8",
+        "rev": "Revelation 3:17",
+        "image": "'I am rich'",
+        "note": "Ephraim boasts 'I am rich; I have found wealth for myself'; Laodicea says 'I am rich, I have prospered, and I need nothing', unaware of its poverty."
+      },
+      {
+        "ot": "Hosea 2:14",
+        "rev": "Revelation 12:6,14",
+        "image": "Refuge in the wilderness",
+        "note": "God promises to allure his people into the wilderness and speak tenderly to them; the woman flees to a place prepared by God in the wilderness and is nourished there."
+      },
+      {
+        "ot": "Hosea 2:19-20",
+        "rev": "Revelation 19:7-8",
+        "image": "Betrothal and bride",
+        "note": "God's promise to betroth Israel to himself in faithfulness becomes the marriage of the Lamb, whose bride is clothed in fine linen, the righteous deeds of the saints."
+      },
+      {
+        "ot": "Hosea 2:23",
+        "rev": "Revelation 21:3",
+        "image": "My people, my God",
+        "note": "'Not my people' will be called 'my people', and they will say 'You are my God'. The covenant formula reaches its fullness when God dwells with humanity and 'they will be his people'."
+      }
+    ],
+    "sources": [
+      "beale-mcdonough-revelation-cnuot",
+      "beale-revelation-nigtc"
+    ]
+  },
+  {
+    "id": "joel",
+    "book": "Joel",
+    "era": "Date disputed: proposals range from the 9th century BC to after the exile (c. 400 BC); the setting is Judah and Jerusalem.",
+    "setting": "Joel responds to a devastating locust plague and drought, which he treats as a warning of the coming day of the Lord. He calls Judah to repentance, promises the outpouring of the Spirit, and foresees the nations gathered for judgment in the valley of Jehoshaphat.",
+    "themes": [
+      "Locust army",
+      "The great and terrible day of the Lord",
+      "Darkened sun and blood moon",
+      "Harvest and winepress",
+      "Nations gathered for judgment",
+      "Waters from the Lord's house"
+    ],
+    "summary": "Joel is a concentrated source for Revelation's judgment imagery. Its locust army, with lions' teeth and the sound of chariots, merges with the Egyptian locust plague in the fifth trumpet; its cosmic signs and question 'who can endure it?' shape the sixth seal; and its harvest and winepress become the double harvest of Revelation 14. The gathering of the nations to a valley of judgment is one background to Armageddon. Interpreters differ on whether these scenes describe events already fulfilled, still future, or recurring patterns of judgment.",
+    "links": [
+      {
+        "ot": "Joel 2:4-5",
+        "rev": "Revelation 9:7-9",
+        "image": "Locusts like war horses",
+        "note": "Joel's locusts look like horses, run like war horses and sound like chariots; Revelation's locusts are like horses prepared for battle with wings like the noise of many chariots."
+      },
+      {
+        "ot": "Joel 1:6",
+        "rev": "Revelation 9:8",
+        "image": "Teeth of lions",
+        "note": "The invading nation has the teeth of a lion; the locusts have teeth like lions' teeth."
+      },
+      {
+        "ot": "Joel 2:31",
+        "rev": "Revelation 6:12",
+        "image": "Sun dark, moon blood",
+        "note": "The sun turned to darkness and the moon to blood before the day of the Lord (also 2:10) appear at the sixth seal. Peter quotes the same passage at Pentecost (Acts 2:20)."
+      },
+      {
+        "ot": "Joel 2:11",
+        "rev": "Revelation 6:17",
+        "image": "Who can endure the day?",
+        "note": "'The day of the LORD is great and very awesome; who can endure it?' becomes 'the great day of their wrath has come, and who can stand?' (with Malachi 3:2)."
+      },
+      {
+        "ot": "Joel 3:13",
+        "rev": "Revelation 14:15-20",
+        "image": "Sickle, harvest and winepress",
+        "note": "'Put in the sickle, for the harvest is ripe; the winepress is full' is split into two scenes: a grain harvest by one like a son of man, and a grape harvest trodden in the winepress of God's wrath. Some read the grain harvest as the gathering of the saved, others as judgment."
+      },
+      {
+        "ot": "Joel 3:2,12",
+        "rev": "Revelation 16:14,16",
+        "image": "Nations gathered to the valley",
+        "note": "God gathers the nations to the valley of Jehoshaphat ('the Lord judges') for judgment; demonic spirits gather the kings to Armageddon. Whether Armageddon is a literal place of battle or a symbol is debated."
+      }
+    ],
+    "sources": [
+      "beale-mcdonough-revelation-cnuot",
+      "aune-revelation-wbc",
+      "koester-revelation-ayb"
+    ]
+  },
+  {
+    "id": "amos",
+    "book": "Amos",
+    "era": "Prophesied c. 760 to 750 BC in the northern kingdom of Israel, though he came from Tekoa in Judah.",
+    "setting": "Amos, a herdsman and tender of sycamore figs, spoke during a prosperous era under Jeroboam II when the wealthy oppressed the poor. He warned that the day of the Lord would be darkness, not light, for a complacent Israel.",
+    "themes": [
+      "The lion has roared",
+      "God reveals his plans to the prophets",
+      "The Lord God of hosts",
+      "Day of the Lord as darkness",
+      "Justice for the poor"
+    ],
+    "summary": "Amos is a minor but distinct source for Revelation, mainly for the theme of prophecy itself and for God's title. The angel's lion-like roar and the declaration that God's mystery was announced to his servants the prophets both echo Amos 3. Revelation's favourite title for God, 'the Lord God Almighty', matches how the Greek Old Testament often renders Amos's 'LORD God of hosts'. Several other links, such as darkness at noon, are thematic and shared with other prophets.",
+    "links": [
+      {
+        "ot": "Amos 3:7",
+        "rev": "Revelation 10:7",
+        "image": "Revealed to his servants the prophets",
+        "note": "The Lord does nothing without revealing his secret to his servants the prophets; the mystery of God will be fulfilled, 'just as he announced to his servants the prophets'."
+      },
+      {
+        "ot": "Amos 3:8",
+        "rev": "Revelation 10:3",
+        "image": "The lion roars",
+        "note": "'The lion has roared; who will not fear? The Lord GOD has spoken; who can but prophesy?' (also 1:2). The mighty angel calls out like a roaring lion, and seven thunders answer."
+      },
+      {
+        "ot": "Amos 4:13",
+        "rev": "Revelation 4:8",
+        "image": "Lord God Almighty",
+        "note": "The Greek translation of Amos frequently renders 'LORD God of hosts' as 'Lord God Almighty' (pantokrator). Revelation uses this title for God nine times, more than any other New Testament book."
+      },
+      {
+        "ot": "Amos 8:9",
+        "rev": "Revelation 8:12",
+        "image": "Darkness at noon",
+        "note": "God will make the sun go down at noon and darken the earth in broad daylight; at the fourth trumpet a third of the sun, moon and stars is darkened. Exodus 10 is also in view."
+      },
+      {
+        "ot": "Amos 5:18-20",
+        "rev": "Revelation 6:15-17",
+        "image": "Day of the Lord as darkness",
+        "note": "Amos warns those who long for the day of the Lord that it will be darkness and inescapable, like fleeing a lion only to meet a bear. The sixth seal pictures the same inescapability, though this link is thematic."
+      }
+    ],
+    "sources": [
+      "beale-mcdonough-revelation-cnuot",
+      "bauckham-climax-prophecy",
+      "beale-revelation-nigtc"
+    ]
+  },
+  {
+    "id": "zechariah",
+    "book": "Zechariah",
+    "era": "Chapters 1 to 8 are dated 520 to 518 BC in Jerusalem after the return from exile; chapters 9 to 14 are undated and often placed later.",
+    "setting": "Zechariah encouraged the small, discouraged community that had returned from Babylon to rebuild the temple under Zerubbabel and the high priest Joshua, while the Persian empire ruled. His night visions and later oracles promise God's presence, a humble king, a pierced one mourned by the nation, and the Lord's universal reign from Jerusalem.",
+    "themes": [
+      "Night visions of horses and riders",
+      "Lampstand and two olive trees",
+      "Measuring Jerusalem",
+      "The accuser rebuked",
+      "The pierced one",
+      "Living waters and endless day"
+    ],
+    "summary": "Zechariah gives Revelation many of its most vivid images. The coloured horses become the four horsemen, the lampstand and two olive trees become the two witnesses, the seven eyes of the Lord become the Lamb's seven eyes, and the man with a measuring line becomes John measuring the temple and the angel measuring the city. Revelation's first prophecy of Christ's coming combines Daniel 7:13 with Zechariah 12:10, 'they will look on him whom they pierced'. Preterists tend to connect the mourning 'tribes of the land' with first-century Israel, futurists with a future national repentance, and idealists with all people at Christ's return.",
+    "links": [
+      {
+        "ot": "Zechariah 6:1-8",
+        "rev": "Revelation 6:1-8",
+        "image": "Coloured horses",
+        "note": "Zechariah's chariots with red, black, white and dappled horses patrolling the earth (also 1:8) become four horsemen released by the Lamb, now bringing conquest, war, famine and death."
+      },
+      {
+        "ot": "Zechariah 4:2-3",
+        "rev": "Revelation 11:4",
+        "image": "Lampstand and two olive trees",
+        "note": "Zechariah's single lampstand flanked by two olive trees, the two anointed ones (4:14, often seen as Joshua and Zerubbabel), become the two witnesses who are 'the two olive trees and the two lampstands'. Identifications of the witnesses vary from two individuals to the witnessing church."
+      },
+      {
+        "ot": "Zechariah 4:10",
+        "rev": "Revelation 5:6",
+        "image": "Seven eyes",
+        "note": "The seven eyes of the Lord that range through the whole earth belong to the Lamb, interpreted as the seven spirits of God sent out into all the earth."
+      },
+      {
+        "ot": "Zechariah 2:1-2",
+        "rev": "Revelation 11:1",
+        "image": "Measuring line",
+        "note": "A man with a measuring line goes to measure Jerusalem; John is told to measure the temple and its worshippers, and later an angel measures the holy city (21:15). Interpreters disagree on whether the temple is the literal temple or the church."
+      },
+      {
+        "ot": "Zechariah 3:1-2",
+        "rev": "Revelation 12:10",
+        "image": "Satan the accuser",
+        "note": "Satan stands at the angel's right hand to accuse the high priest and is rebuked; in Revelation the accuser of the brothers is thrown down from heaven."
+      },
+      {
+        "ot": "Zechariah 12:10",
+        "rev": "Revelation 1:7",
+        "image": "Him whom they pierced",
+        "note": "Those who pierced him look on him and mourn, combined with Daniel 7:13. John 19:37 cites the same verse using the same Greek verb, which differs from the standard Greek translation."
+      },
+      {
+        "ot": "Zechariah 14:7-8",
+        "rev": "Revelation 22:1,5",
+        "image": "Endless day and living waters",
+        "note": "A unique day without night and living waters flowing out from Jerusalem anticipate the city with no night and the river of the water of life."
+      },
+      {
+        "ot": "Zechariah 14:11",
+        "rev": "Revelation 22:3",
+        "image": "No more curse",
+        "note": "Jerusalem will dwell in security with 'never again a decree of utter destruction' (a ban or curse); in the new Jerusalem 'no longer will there be anything accursed'."
+      }
+    ],
+    "sources": [
+      "beale-mcdonough-revelation-cnuot",
+      "bauckham-climax-prophecy",
+      "beale-revelation-nigtc",
+      "koester-revelation-ayb"
+    ]
+  },
+  {
+    "id": "malachi",
+    "book": "Malachi",
+    "era": "Usually dated c. 460 to 430 BC in Jerusalem under Persian rule, after the second temple was rebuilt.",
+    "setting": "Malachi addressed a disillusioned community whose priests offered blemished sacrifices and whose people doubted God's justice. He announced that the Lord would suddenly come to his temple, preceded by a messenger, Elijah, to refine and to judge.",
+    "themes": [
+      "The Lord's sudden coming",
+      "Who can endure his coming?",
+      "Elijah before the great day",
+      "Book of remembrance",
+      "God's name great among the nations"
+    ],
+    "summary": "Malachi's influence on Revelation is modest and mostly thematic rather than verbal. It contributes the question of who can stand when the Lord appears, the expectation of an Elijah figure before the day of the Lord, which many see in the fire-breathing, sky-shutting two witnesses, and the image of a book kept before God. As the last book of the prophets in the Christian Old Testament, Malachi also shares with Revelation a closing emphasis on the coming of the Lord. Commentators vary in how many of these echoes they accept.",
+    "links": [
+      {
+        "ot": "Malachi 3:2",
+        "rev": "Revelation 6:17",
+        "image": "Who can stand?",
+        "note": "'Who can endure the day of his coming, and who can stand when he appears?' is echoed, with Joel 2:11, in the cry at the sixth seal."
+      },
+      {
+        "ot": "Malachi 4:5",
+        "rev": "Revelation 11:3-6",
+        "image": "Elijah before the day",
+        "note": "The promised return of Elijah before the great day of the Lord is one background for the two witnesses, who like Elijah can shut the sky and call down fire (1 Kings 17:1; 2 Kings 1:10). Views range from a literal return of Elijah to a symbol of the church's prophetic witness."
+      },
+      {
+        "ot": "Malachi 3:16",
+        "rev": "Revelation 20:12",
+        "image": "Book of remembrance",
+        "note": "A book of remembrance is written before the Lord of those who feared him; books are opened at the final judgment, and the book of life decides destinies. Daniel 7:10 and 12:1 are also in view."
+      },
+      {
+        "ot": "Malachi 1:11",
+        "rev": "Revelation 15:4",
+        "image": "God's name among the nations",
+        "note": "From the rising to the setting of the sun God's name will be great among the nations, and incense offered; the song of the Lamb proclaims that all nations will come and worship."
+      }
+    ],
+    "sources": [
+      "beale-mcdonough-revelation-cnuot",
+      "koester-revelation-ayb"
+    ]
+  },
+  {
+    "id": "matthew",
+    "book": "Matthew",
+    "era": "The Olivet discourse (Matthew 24 to 25) is set in Jerusalem shortly before Jesus' death (c. AD 30 to 33); Matthew's Gospel is dated by scholars anywhere from the 50s to the 80s AD.",
+    "setting": "On the Mount of Olives, after predicting that the temple would be thrown down, Jesus answered his disciples' questions about when this would happen and the sign of his coming and the end of the age. The discourse draws on Daniel and the prophets and was spoken under Roman rule, about forty years before Jerusalem fell in AD 70.",
+    "themes": [
+      "Wars, famines and earthquakes",
+      "Great tribulation",
+      "False christs and false prophets",
+      "Cosmic signs and the Son of Man's coming",
+      "Gathering of the elect",
+      "Watchfulness: the thief in the night"
+    ],
+    "summary": "Revelation does not quote Matthew, but many commentators note a close resemblance between the sequence of the seals in Revelation 6 and the signs Jesus lists in the Olivet discourse: war, strife, famine, death, persecution, then cosmic upheaval. Both draw on Daniel and Zechariah for the Son of Man coming on the clouds and the mourning of the tribes, and both warn of false prophets doing signs and of a coming like a thief. Whether the two describe the same events is central to the debate between schools: preterists link much of both to AD 70, futurists to a final tribulation, and others see a near fulfilment that foreshadows the end.",
+    "links": [
+      {
+        "ot": "Matthew 24:6-7",
+        "rev": "Revelation 6:2-8",
+        "image": "Wars, famine and pestilence",
+        "note": "Wars and rumours of wars, nation against nation, famines and earthquakes parallel the first four seals; Luke 21:11 adds pestilences, matching the fourth rider."
+      },
+      {
+        "ot": "Matthew 24:9",
+        "rev": "Revelation 6:9-11",
+        "image": "Persecution and martyrdom",
+        "note": "Jesus warns that disciples will be handed over and put to death; the fifth seal shows martyrs crying out, told to wait until their number is complete."
+      },
+      {
+        "ot": "Matthew 24:29",
+        "rev": "Revelation 6:12-13",
+        "image": "Sun darkened, stars fall",
+        "note": "After the tribulation, the sun and moon are darkened and stars fall from heaven, drawing on Isaiah 13:10 and 34:4; the sixth seal uses the same images."
+      },
+      {
+        "ot": "Matthew 24:30",
+        "rev": "Revelation 1:7",
+        "image": "Tribes mourn as he comes on clouds",
+        "note": "Both combine Daniel 7:13 and Zechariah 12:10: the Son of Man coming on the clouds and the tribes mourning. Whether 'tribes of the earth' or 'of the land' is meant is debated between preterist and futurist readers."
+      },
+      {
+        "ot": "Matthew 24:21",
+        "rev": "Revelation 7:14",
+        "image": "The great tribulation",
+        "note": "Jesus speaks of great tribulation unequalled in history; the multitude in white are those 'coming out of the great tribulation'. Preterists usually place it in AD 66 to 70, futurists in a final seven-year period, and idealists across the church age."
+      },
+      {
+        "ot": "Matthew 24:24",
+        "rev": "Revelation 13:13-14",
+        "image": "False prophets with great signs",
+        "note": "False christs and false prophets performing great signs to deceive the elect correspond to the second beast, later called the false prophet (19:20), who deceives by signs."
+      },
+      {
+        "ot": "Matthew 24:31",
+        "rev": "Revelation 7:1",
+        "image": "Four winds and a great trumpet",
+        "note": "Angels gather the elect from the four winds with a loud trumpet; four angels hold back the four winds until God's servants are sealed, and the seventh trumpet announces the kingdom (11:15)."
+      },
+      {
+        "ot": "Matthew 24:43",
+        "rev": "Revelation 16:15",
+        "image": "Coming like a thief",
+        "note": "The householder who does not know when the thief is coming becomes Christ's warning 'Behold, I am coming like a thief' (also 3:3), with the blessing on the one who stays awake."
+      }
+    ],
+    "sources": [
+      "carson-matthew-ebc",
+      "france-matthew-nicnt",
+      "beale-revelation-nigtc",
+      "gregg-revelation-four-views"
+    ]
+  },
+  {
+    "id": "john",
+    "book": "John",
+    "era": "Traditionally written by the apostle John at Ephesus c. AD 85 to 95; some scholars propose an earlier date or a different author, and the relationship between the Gospel and Revelation is debated.",
+    "setting": "John's Gospel was written for believers in a setting of tension with the synagogue and the wider Greco-Roman world, possibly at Ephesus, one of Revelation's seven cities. It presents Jesus as the eternal Word made flesh, the Lamb of God and the fulfilment of Israel's feasts and temple.",
+    "themes": [
+      "The Lamb of God",
+      "The Word made flesh",
+      "God tabernacling with his people",
+      "Living water",
+      "'I am' sayings",
+      "Christ's victory over the world"
+    ],
+    "summary": "The Gospel of John and Revelation share a remarkable set of images found almost nowhere else in the New Testament: Christ as the Lamb, as the Word of God, as the giver of living water, as the one 'pierced', and as the true temple where God dwells. Ancient tradition ascribes both to the apostle John, but from Dionysius of Alexandria in the 3rd century onward some have noted large differences in style, and many scholars today speak of a shared Johannine tradition rather than a single author. It is unclear whether either book drew on the other, so these links are best treated as shared themes. Revelation also uses the Gospel's language of 'conquering' and its emphatic 'I am' statements.",
+    "links": [
+      {
+        "ot": "John 1:29",
+        "rev": "Revelation 5:6",
+        "image": "Lamb of God",
+        "note": "John the Baptist names Jesus the Lamb of God who takes away the sin of the world; Revelation calls Christ 'the Lamb' twenty-eight times. The Greek words differ (amnos in the Gospel, arnion in Revelation)."
+      },
+      {
+        "ot": "John 1:1",
+        "rev": "Revelation 19:13",
+        "image": "The Word of God",
+        "note": "The Word who was with God and was God reappears as the rider whose name is 'The Word of God'. Using 'the Word' as a title for Christ is characteristic of the Johannine writings."
+      },
+      {
+        "ot": "John 1:14",
+        "rev": "Revelation 21:3",
+        "image": "God tabernacling",
+        "note": "The Word 'dwelt' (literally 'tabernacled') among us; at the end 'the dwelling place (tabernacle) of God is with man', using the same Greek root. Revelation 7:15 uses it too."
+      },
+      {
+        "ot": "John 7:37-38",
+        "rev": "Revelation 22:17",
+        "image": "Living water for the thirsty",
+        "note": "'If anyone thirsts, let him come to me and drink' (also 4:10-14) is matched by 'let the one who is thirsty come; let the one who desires take the water of life without price' (also 7:17 and 21:6)."
+      },
+      {
+        "ot": "John 19:37",
+        "rev": "Revelation 1:7",
+        "image": "Him whom they pierced",
+        "note": "Both cite Zechariah 12:10 with the same Greek verb, which differs from the standard Greek Old Testament, a detail often noted as a link between the two books."
+      },
+      {
+        "ot": "John 8:12",
+        "rev": "Revelation 21:23",
+        "image": "Light of the world",
+        "note": "Jesus is the light of the world; in the new Jerusalem the glory of God gives light and its lamp is the Lamb."
+      },
+      {
+        "ot": "John 2:19-21",
+        "rev": "Revelation 21:22",
+        "image": "Temple of his body",
+        "note": "Jesus speaks of the temple of his body; John sees no temple in the city, 'for its temple is the Lord God the Almighty and the Lamb'."
+      },
+      {
+        "ot": "John 16:33",
+        "rev": "Revelation 3:21",
+        "image": "Conquering the world",
+        "note": "'I have overcome (conquered) the world' is echoed when Christ says he conquered and sat down with his Father; every letter to the churches ends with a promise to the one who conquers."
+      },
+      {
+        "ot": "John 10:11",
+        "rev": "Revelation 7:17",
+        "image": "The shepherd",
+        "note": "The good shepherd who lays down his life becomes the Lamb at the centre of the throne who will be their shepherd and guide them to springs of living water."
+      }
+    ],
+    "sources": [
+      "carson-john-pntc",
+      "koester-revelation-ayb",
+      "bauckham-theology-revelation",
+      "carson-moo-intro-nt"
+    ]
+  },
+  {
+    "id": "thessalonians",
+    "book": "2 Thessalonians",
+    "era": "Paul's letters to the church at Thessalonica, written from Corinth c. AD 50 to 51 (Pauline authorship of 2 Thessalonians is disputed by some scholars).",
+    "setting": "Thessalonica was a Roman provincial capital in Macedonia where a young, mostly Gentile church faced persecution soon after Paul's departure. The letters answer questions about believers who had died and correct the idea that the day of the Lord had already come.",
+    "themes": [
+      "The Lord's descent with trumpet",
+      "The day of the Lord like a thief",
+      "The man of lawlessness",
+      "Deceiving signs and wonders",
+      "Christ's appearing in flaming fire"
+    ],
+    "summary": "These letters are not sources Revelation draws on directly, but they share much of the same early Christian expectation and imagery. Paul's 'man of lawlessness', who exalts himself, sits in God's temple and works deceptive signs before being slain by the breath of the Lord's mouth, closely parallels Revelation's beasts and the rider's victory. Both use the trumpet, the thief in the night and Isaiah 11:4. The schools differ sharply on these parallels: futurists generally equate the man of lawlessness with a future antichrist matching the beast, preterists often place him in the first century, and some amillennial readers see a figure or power arising near the end of a long age.",
+    "links": [
+      {
+        "ot": "2 Thessalonians 2:3-4",
+        "rev": "Revelation 13:5-8",
+        "image": "Self-exalting enemy",
+        "note": "The man of lawlessness opposes and exalts himself against every so-called god and takes his seat in God's temple; the beast utters blasphemies and is worshipped by all whose names are not written in the book of life."
+      },
+      {
+        "ot": "2 Thessalonians 2:9-10",
+        "rev": "Revelation 13:13-14",
+        "image": "Deceiving signs and wonders",
+        "note": "His coming is by Satan's activity with false signs and wonders that deceive the perishing; the second beast performs great signs and deceives those who dwell on earth."
+      },
+      {
+        "ot": "2 Thessalonians 2:8",
+        "rev": "Revelation 19:15,20",
+        "image": "Slain by the breath of his mouth",
+        "note": "Both draw on Isaiah 11:4: the Lord Jesus kills the lawless one with the breath of his mouth; the rider strikes the nations with the sword from his mouth, and the beast and false prophet are captured."
+      },
+      {
+        "ot": "2 Thessalonians 1:7-8",
+        "rev": "Revelation 19:11-14",
+        "image": "Revealed from heaven with angels",
+        "note": "Jesus is revealed from heaven with his mighty angels in flaming fire to repay those who afflict his people; the rider, with eyes like flame, comes from heaven followed by heaven's armies."
+      },
+      {
+        "ot": "1 Thessalonians 4:16",
+        "rev": "Revelation 11:15",
+        "image": "The trumpet of God",
+        "note": "The Lord descends with a cry, the voice of an archangel and the trumpet of God (also 1 Corinthians 15:52); at the seventh trumpet the kingdom of the world becomes the kingdom of our Lord. Whether these trumpets mark the same moment is debated, especially in discussions of the rapture."
+      },
+      {
+        "ot": "1 Thessalonians 5:2",
+        "rev": "Revelation 16:15",
+        "image": "Like a thief in the night",
+        "note": "The day of the Lord comes like a thief in the night, a saying traced to Jesus (Matthew 24:43); Revelation repeats it as Christ's own warning (also 3:3)."
+      }
+    ],
+    "sources": [
+      "bruce-thessalonians-wbc",
+      "riddlebarger-man-of-sin-book",
+      "gentry-restrainer-man-of-lawlessness",
+      "beale-revelation-nigtc"
+    ]
+  },
+  {
+    "id": "hebrews",
+    "book": "Hebrews",
+    "era": "Written by an unnamed author to Jewish-Christian believers, most often dated in the 60s AD before the temple's destruction, though some date it later.",
+    "setting": "Hebrews addresses believers tempted under pressure and persecution to drift back from faith in Christ. It argues that Jesus is the great high priest who entered the true sanctuary in heaven, of which the earthly tabernacle was a copy and shadow.",
+    "themes": [
+      "The heavenly sanctuary",
+      "Christ as high priest",
+      "Blood that cleanses",
+      "Heavenly Jerusalem and Mount Zion",
+      "A city with foundations",
+      "The final shaking of heaven and earth"
+    ],
+    "summary": "Hebrews is not a source Revelation alludes to, but the two books share a strikingly similar picture of worship in heaven: a true sanctuary on which the earthly tabernacle was modelled, with its ark, altar and incense, and a heavenly Mount Zion and Jerusalem filled with angels and the redeemed. Both portray Christ's blood as cleansing his people and look for a coming city 'whose designer and builder is God'. Reading them together helps explain why Revelation's throne room is full of temple furniture. Interpreters differ on whether the heavenly temple and city are present spiritual realities, a coming physical city, or both.",
+    "links": [
+      {
+        "ot": "Hebrews 8:1-5",
+        "rev": "Revelation 15:5",
+        "image": "True tent in heaven",
+        "note": "The earthly tabernacle was a copy and shadow of the heavenly sanctuary 'that the Lord set up'; John sees 'the sanctuary of the tent of witness in heaven' opened."
+      },
+      {
+        "ot": "Hebrews 9:4",
+        "rev": "Revelation 11:19",
+        "image": "Ark of the covenant",
+        "note": "Hebrews describes the ark and golden altar of incense in the earthly tabernacle; in Revelation God's temple in heaven is opened and the ark of his covenant is seen."
+      },
+      {
+        "ot": "Hebrews 4:14-16",
+        "rev": "Revelation 1:13",
+        "image": "High priest",
+        "note": "Jesus is the great high priest who has passed through the heavens; John sees him in a long robe with a golden sash, garments many read as priestly, walking among the lampstands."
+      },
+      {
+        "ot": "Hebrews 9:12-14",
+        "rev": "Revelation 7:14",
+        "image": "Cleansing blood",
+        "note": "Christ entered once for all by his own blood, which purifies the conscience; the multitude have washed their robes and made them white in the blood of the Lamb."
+      },
+      {
+        "ot": "Hebrews 12:22-23",
+        "rev": "Revelation 14:1",
+        "image": "Mount Zion and the heavenly city",
+        "note": "Believers have come to Mount Zion, the heavenly Jerusalem, with innumerable angels and the firstborn enrolled in heaven; the Lamb stands on Mount Zion with the 144,000 who bear his name, and heaven's myriads worship (5:11)."
+      },
+      {
+        "ot": "Hebrews 11:10",
+        "rev": "Revelation 21:14",
+        "image": "City with foundations",
+        "note": "Abraham looked for the city that has foundations, whose designer and builder is God (also 11:16 and 13:14); the new Jerusalem comes down from God with twelve foundations bearing the apostles' names."
+      },
+      {
+        "ot": "Hebrews 12:26-27",
+        "rev": "Revelation 20:11",
+        "image": "Shaking heaven and earth",
+        "note": "Quoting Haggai 2:6, God will shake heaven and earth once more so that what cannot be shaken may remain; at the great white throne earth and sky flee away, and later a new heaven and earth appear."
+      }
+    ],
+    "sources": [
+      "lane-hebrews-wbc",
+      "beale-temple-church-mission",
+      "koester-revelation-ayb"
+    ]
+  }
+]

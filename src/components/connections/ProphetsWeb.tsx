@@ -25,7 +25,7 @@ export function ProphetsWeb({ books }: { books: SourceBook[] }) {
   })
   return (
     <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
-      <div className="leaf p-2">
+      <div className="leaf self-start p-2 lg:sticky lg:top-24">
         <svg viewBox="0 0 520 520" className="h-auto w-full" role="group" aria-label="Books Revelation draws on">
           <defs>
             <radialGradient id="web-core">

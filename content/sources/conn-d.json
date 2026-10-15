@@ -1,0 +1,46 @@
+[
+  {
+    "id": "moyise-ot-in-revelation",
+    "title": "The Old Testament in the Book of Revelation",
+    "author": "Steve Moyise",
+    "camp": "reference",
+    "type": "book",
+    "year": "1995",
+    "accessed": "2026-10-15",
+    "summary": "Journal for the Study of the New Testament Supplement 115 (Sheffield Academic Press). Studies how Revelation absorbs and reshapes Old Testament texts, especially Ezekiel, through allusion rather than formal quotation.",
+    "verified": true
+  },
+  {
+    "id": "fekkes-isaiah-revelation",
+    "title": "Isaiah and Prophetic Traditions in the Book of Revelation: Visionary Antecedents and Their Development",
+    "author": "Jan Fekkes III",
+    "camp": "reference",
+    "type": "book",
+    "year": "1994",
+    "accessed": "2026-10-15",
+    "summary": "JSNT Supplement 93 (Sheffield Academic Press). Detailed study of Revelation's allusions to Isaiah and other prophets, sorting them by how confidently they can be identified.",
+    "verified": true
+  },
+  {
+    "id": "beale-use-of-daniel",
+    "title": "The Use of Daniel in Jewish Apocalyptic Literature and in the Revelation of St. John",
+    "author": "G. K. Beale",
+    "camp": "reference",
+    "type": "book",
+    "year": "1984",
+    "accessed": "2026-10-15",
+    "summary": "University Press of America. Argues that Daniel, especially chapters 2 and 7, provides an interpretive framework for several major sections of Revelation.",
+    "verified": true
+  },
+  {
+    "id": "carson-john-pntc",
+    "title": "The Gospel According to John",
+    "author": "D. A. Carson",
+    "camp": "reference",
+    "type": "book",
+    "year": "1991",
+    "accessed": "2026-10-15",
+    "summary": "Pillar New Testament Commentary (Eerdmans/IVP). Standard evangelical commentary on John, including the Lamb of God, Word, living water and 'I am' sayings.",
+    "verified": true
+  }
+]

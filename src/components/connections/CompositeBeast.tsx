@@ -15,7 +15,12 @@ const BEASTS = [
  */
 export function CompositeBeast() {
   const [merged, setMerged] = useState(false)
-  const pos = (i: number) => (merged ? { x: 260, y: 120 } : { x: 70 + i * 127, y: 110 })
+  // Separate: four in a row. Merged: clustered inside one body.
+  const pos = (i: number) => {
+    if (!merged) return { x: 70 + i * 127, y: 110, r: 46 }
+    const a = (i / 4) * Math.PI * 2 - Math.PI / 2
+    return { x: 260 + Math.cos(a) * 52, y: 120 + Math.sin(a) * 52, r: 34 }
+  }
   const heads = 1 + 1 + 4 + 1 // lion, bear, leopard's four, fourth beast
   return (
     <div className="leaf p-4">
@@ -27,16 +32,16 @@ export function CompositeBeast() {
           <Icon name={merged ? 'shuffle' : 'motion'} size={14} /> {merged ? 'Separate (Daniel 7)' : 'Merge (Revelation 13)'}
         </button>
       </div>
-      <svg viewBox="0 0 520 240" className="mt-3 h-auto w-full" role="img" aria-label={merged ? 'The four beasts merged into the one beast of Revelation 13' : 'The four beasts of Daniel 7'}>
+      <svg viewBox="0 0 520 240" className="mx-auto mt-3 h-auto w-full max-w-2xl" role="img" aria-label={merged ? 'The four beasts merged into the one beast of Revelation 13' : 'The four beasts of Daniel 7'}>
         <motion.circle cx={260} cy={120} r={merged ? 92 : 0} fill="color-mix(in srgb, var(--rubric) 18%, transparent)" stroke="var(--rubric)" strokeWidth={2} animate={{ r: merged ? 92 : 0 }} transition={{ type: 'spring', stiffness: 90, damping: 14 }} />
         {BEASTS.map((b, i) => {
           const p = pos(i)
           return (
-            <motion.g key={b.id} animate={{ x: p.x, y: p.y, scale: merged ? 0.62 : 1 }} transition={{ type: 'spring', stiffness: 110, damping: 15, delay: merged ? (3 - i) * 0.08 : i * 0.08 }}>
-              <motion.circle r={46} fill="var(--surface)" stroke="var(--rubric)" strokeWidth={2.5} animate={{ x: merged ? Math.cos((i / 4) * Math.PI * 2) * 70 : 0, y: merged ? Math.sin((i / 4) * Math.PI * 2) * 70 : 0 }} />
-              <motion.text textAnchor="middle" fontSize={12} fontWeight={700} fill="var(--ink)" animate={{ x: merged ? Math.cos((i / 4) * Math.PI * 2) * 70 : 0, y: (merged ? Math.sin((i / 4) * Math.PI * 2) * 70 : 0) + 4 }}>
-                {b.name.split(' ')[0] === 'Fourth' ? 'Ten horns' : b.name.split(' ')[0]}
-              </motion.text>
+            <motion.g key={b.id} initial={false} animate={{ x: p.x, y: p.y }} transition={{ type: 'spring', stiffness: 110, damping: 15, delay: merged ? (3 - i) * 0.08 : i * 0.08 }}>
+              <motion.circle cx={0} cy={0} initial={false} animate={{ r: p.r }} fill="var(--surface)" stroke="var(--rubric)" strokeWidth={2.5} />
+              <text textAnchor="middle" y={4} fontSize={merged ? 11 : 12} fontWeight={700} fill="var(--ink)">
+                {b.id === 'fourth' ? 'Ten horns' : b.name.split(' ')[0]}
+              </text>
               {!merged && (
                 <text y={66} textAnchor="middle" fontSize={11} fill="var(--ink-soft)">
                   {b.dan}

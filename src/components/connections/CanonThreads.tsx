@@ -96,8 +96,8 @@ export function CanonThreads({ threads, initial }: { threads: CanonThread[]; ini
               </rect>
             )
           })}
-          {SECTIONS.map((s) => (
-            <text key={s.name} x={bx(s.from) - (W - 20) / N / 2} y={stripY + 44} fontSize={11} fill="var(--ink-soft)">
+          {SECTIONS.map((s, si) => (
+            <text key={s.name} x={bx(s.from) - (W - 20) / N / 2} y={stripY + (si % 2 ? 46 : 38)} fontSize={11} fill="var(--ink-soft)">
               {s.name === 'Revelation' ? '' : s.name}
             </text>
           ))}
