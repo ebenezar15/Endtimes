@@ -99,6 +99,26 @@
         "Revelation 22:17",
         "1 John 4:18"
       ]
+    },
+    {
+      "id": "signs-point-beyond-themselves",
+      "title": "Signs point beyond themselves",
+      "text": "Revelation was 'signified' (Revelation 1:1), and a sign is meant to be followed, not studied for its own sake. This view holds that the signs point to Christ crucified, buried and risen, the sign of Jonah that Jesus said was the only one given. Reading the signs as coded news about nations, wars or particular leaders is treated as looking at the signpost instead of the destination.",
+      "texts": [
+        "Revelation 1:1",
+        "Matthew 12:39-40",
+        "1 Corinthians 1:22-24"
+      ]
+    },
+    {
+      "id": "grace-through-revelation",
+      "title": "Grace comes through revelation",
+      "text": "Peter tells believers to set their hope fully on the grace brought 'at the revelation of Jesus Christ'. This view reads the book's title in that light: grace is received by seeing Christ, and abundant grace flows from abundant revelation of him. Effort, prayer and diligence matter, but without that sight a believer slides back to living under law. That is why the view calls Revelation a book of grace and of overcoming.",
+      "texts": [
+        "1 Peter 1:13",
+        "Romans 5:17",
+        "2 Peter 1:2-3"
+      ]
     }
   ],
   "journey": [
@@ -785,20 +805,190 @@
         "John 19:30",
         "Hebrews 10:14"
       ]
+    },
+    {
+      "id": "man-child",
+      "symbol": "The male child caught up to the throne",
+      "surface": "Jesus alone, born of Mary, ascended and enthroned; some futurists also see a raptured group of believers.",
+      "spiritual": "This view reads the child as Christ first and also as Christ formed in his people: the company of overcomers brought to mature sonship. The rod-of-iron promise of Psalm 2 is given to the overcomer in Revelation 2:26-27, so the son born from the woman (the church) is the overcomer. He is caught up to the throne as soon as he is born, so the reign is not postponed.",
+      "christ": "Christ the firstborn is the pattern and the source of the many sons. What was true of him is reproduced in those in whom he is formed (Galatians 4:19).",
+      "chapter": 12,
+      "texts": [
+        "Revelation 12:5",
+        "Revelation 2:26-27",
+        "Galatians 4:19",
+        "Romans 8:29"
+      ]
+    },
+    {
+      "id": "rod-of-iron",
+      "symbol": "The rod of iron",
+      "surface": "A literal, forceful rule of Christ over the nations in a future earthly kingdom.",
+      "spiritual": "The rod is read as the word of God, the sharp sword that comes out of Christ's mouth rather than his hand. Christ and his overcomers rule by what he speaks, a word that divides soul and spirit and judges thoughts and intentions.",
+      "christ": "Christ reigns by his word, not by force. The same word that judges also heals.",
+      "chapter": 19,
+      "texts": [
+        "Revelation 2:27",
+        "Revelation 12:5",
+        "Revelation 19:15",
+        "Hebrews 4:12",
+        "Psalm 2:9"
+      ]
+    },
+    {
+      "id": "cloud-and-rainbow-angel",
+      "symbol": "The mighty angel clothed with a cloud, a rainbow on his head",
+      "surface": "A powerful created angel announcing the end; the cloud and rainbow are descriptive details.",
+      "spiritual": "The rainbow is read through Genesis 9, God's pledge never again to destroy all flesh, so the message is covenant mercy rather than destruction. The cloud is sign language, not weather. The angel bears Christ's own features and is read as the corporate Christ, the Son of Man as head and body, bringing the mystery of God to completion.",
+      "christ": "Christ is the covenant made flesh, and his message through his people is salvation, not destruction (1 Timothy 4:10).",
+      "chapter": 10,
+      "texts": [
+        "Revelation 10:1",
+        "Revelation 10:7",
+        "Genesis 9:13-16",
+        "Ephesians 5:30-32"
+      ]
+    },
+    {
+      "id": "jezebel",
+      "symbol": "Jezebel and her children",
+      "surface": "A particular false prophetess in first-century Thyatira, or a type of seductive heresy or immorality in the church.",
+      "spiritual": "This view reads Jezebel as teaching that comes from the church itself, the 'woman', instead of from Christ the Head: teaching based on performance, religion and the knowledge of good and evil. Her 'children' are the beliefs and false identities such teaching conceives in mind and heart, which is why the one who strikes them is the one who searches minds and hearts.",
+      "christ": "Christ is his people's one Teacher (Matthew 23:8-10). His word puts to death what false teaching has conceived, so that he can be formed in them.",
+      "chapter": 2,
+      "texts": [
+        "Revelation 2:20-23",
+        "Matthew 23:8-10",
+        "Colossians 3:5-10"
+      ]
+    },
+    {
+      "id": "image-of-the-beast",
+      "symbol": "The image of the beast",
+      "surface": "A literal statue or technological image of a future world ruler that people are forced to worship.",
+      "spiritual": "A man-made picture of God carved into the mind: God made in the image of man, such as a Christ who comes to devour and destroy. Once engraved, it is 'given breath' and feels real in a person's life. The golden calf, hailed by the Lord's own name, is the pattern.",
+      "christ": "Christ is the true image of the invisible God (Colossians 1:15). Looking at him corrects every image made by human devising.",
+      "chapter": 13,
+      "texts": [
+        "Revelation 13:14-15",
+        "Exodus 32:4-5",
+        "Acts 17:29",
+        "Colossians 1:15"
+      ]
+    },
+    {
+      "id": "sand-of-the-sea",
+      "symbol": "Standing on the sand of the sea",
+      "surface": "A minor scene-setting detail of where John or the dragon stood.",
+      "spiritual": "Sand is read through Solomon's 'largeness of heart like the sand on the seashore' as the wisdom of the earthly person. The beast becomes visible from that standpoint. Where a person stands, in earthly or heavenly wisdom, decides what rises to rule them.",
+      "christ": "One greater than Solomon brings the wisdom from above (Matthew 12:42). In Christ, Abraham's seed are stars of heaven as well as sand of the sea.",
+      "chapter": 13,
+      "texts": [
+        "Revelation 13:1",
+        "1 Kings 4:29",
+        "Genesis 22:17",
+        "James 3:15-17"
+      ]
+    },
+    {
+      "id": "bowls-of-wrath",
+      "symbol": "The seven bowls of wrath",
+      "surface": "Global catastrophes poured on an unbelieving world at the end of a future tribulation.",
+      "spiritual": "The bowls complete God's wrath rather than start it. On this reading the scroll is sealed, then read in the trumpets, then made visible in the bowls. Like the plagues on Pharaoh, they fall on what enslaves (the beast, the false image, the old man), not on people as such.",
+      "christ": "They complete what the cross finished. 'It is done' (Revelation 16:17) echoes 'It is finished' (John 19:30).",
+      "chapter": 16,
+      "texts": [
+        "Revelation 15:1",
+        "Revelation 16:1-2",
+        "Revelation 16:17",
+        "Romans 1:18"
+      ]
+    },
+    {
+      "id": "another-angel",
+      "symbol": "'Another angel' lighting the earth",
+      "surface": "A separate created angel announcing the fall of a future world city.",
+      "spiritual": "'Another' is read as the same Lord in another form and administration, as Jesus promised 'another Helper'. Christ as Spirit descends from the heaven of the believer's spirit into the unenlightened soul, and his glory lights it with revelation. Only that light exposes the mystery of Babylon, so leaving her begins with seeing.",
+      "christ": "The Lord is the Spirit (2 Corinthians 3:17). Christ himself comes to his people with authority and light.",
+      "chapter": 18,
+      "texts": [
+        "Revelation 18:1",
+        "John 14:16-18",
+        "2 Corinthians 3:17",
+        "Ephesians 1:17-18"
+      ]
+    },
+    {
+      "id": "fine-linen",
+      "symbol": "Fine linen, bright and clean",
+      "surface": "The bride's own good works and faithful deeds, rewarded at the end.",
+      "spiritual": "'It was granted to her': the linen is a gift. This view reads 'the righteous acts of the saints' as the holy righteous act of the Bridegroom given to the bride (Romans 5:18), the reverse of the fig leaves sewn in Eden. The same linen clothes the armies that follow him, so the bride who is ready rides in his army.",
+      "christ": "Christ's own righteousness is the bride's garment, as God himself clothed Adam and Eve (Genesis 3:21).",
+      "chapter": 19,
+      "texts": [
+        "Revelation 19:8",
+        "Revelation 19:14",
+        "Romans 5:18",
+        "Genesis 3:7",
+        "Genesis 3:21"
+      ]
+    },
+    {
+      "id": "souls-beheaded",
+      "symbol": "The souls of those beheaded",
+      "surface": "Martyrs physically executed for their faith, raised to reign in a future millennium.",
+      "spiritual": "This view notes that the souls are said to be beheaded, and reads 'head' alongside 'husband' (Ephesians 5:23). The soul's old head (sin, the carnal mind, Adam, the serpent) is cut off at the altar of the cross, through the word of God. Those who have died that first death share the first resurrection and now sit on thrones carrying out judgment.",
+      "christ": "Christ is the soul's true Head and Husband. Losing the old life for his sake is finding life (Matthew 16:25).",
+      "chapter": 20,
+      "texts": [
+        "Revelation 20:4",
+        "Revelation 6:9",
+        "Romans 7:1-4",
+        "Ephesians 5:23"
+      ]
+    },
+    {
+      "id": "book-of-life",
+      "symbol": "The book of life",
+      "surface": "A heavenly register of the saved, consulted at the final judgment.",
+      "spiritual": "It is the book of life, not of the soul, which marks the move from living soul to life-giving spirit. This view takes Christ himself to be the book: the Alpha and Omega with whose letters it is written, the one of whom 'the volume of the book' speaks.",
+      "christ": "Christ is the book in which his people's life is written (Hebrews 10:7). The believer's hope rests on him, not on the books of works.",
+      "chapter": 20,
+      "texts": [
+        "Revelation 20:12",
+        "Revelation 20:15",
+        "Revelation 13:8",
+        "Hebrews 10:7"
+      ]
+    },
+    {
+      "id": "former-heaven-and-earth",
+      "symbol": "The first heaven and the first earth",
+      "surface": "The physical sky and planet, destroyed or replaced at the end of history.",
+      "spiritual": "Heaven is read as what rules a person and earth as what is ruled, the heart where seed is sown. The first heaven and earth are the old man and every old ruling system: law, the old covenant and remembered sin. They flee from the face of the one on the throne and give way to the new creation.",
+      "christ": "If anyone is in Christ, there is a new creation; the old has passed away (2 Corinthians 5:17). His face, like the sun, makes the old flee.",
+      "chapter": 21,
+      "texts": [
+        "Revelation 21:1",
+        "Revelation 20:11",
+        "2 Corinthians 5:17",
+        "Isaiah 66:1"
+      ]
     }
   ],
   "chapters": [
     {
       "chapter": 1,
       "theme": "The unveiling of the risen Christ",
-      "christRevealed": "The faithful witness, firstborn from the dead and ruler of kings, who loves us and has freed us by his blood. He is the glorified Son of Man among the lampstands and the Living One who holds the keys of death and Hades.",
-      "reading": "The book opens with a person. Before any seal is broken, John is shown Jesus as he now is, and this view insists that everything which follows must be read in the light of this first sight. Christ is described in images drawn from Daniel's Son of Man and Ancient of Days: white hair, eyes of fire, feet of burnished bronze, a voice like many waters, and a face shining like the sun. The doxology says what he has already done. He loves us (present tense), has freed us from our sins by his blood, and has made us a kingdom and priests. The believer's identity is settled before the drama begins.\n\nJohn's response is the pattern for every reader. He falls at Christ's feet as though dead, and Christ lays his right hand on him and says 'Do not be afraid'. A book that begins with 'Fear not' from the one who died and is alive for ever was not meant to be read in terror. Christ also stands among the lampstands, not above or apart from them, as a priest tending the lights. The revelation is of a Christ who is present with his people.",
+      "christRevealed": "The faithful witness, firstborn from the dead and ruler of kings, who loves us and has freed us by his blood. He is the glorified Son of Man among the lampstands and the Living One who holds the keys of death and Hades. He is also the High Priest tending his lamps, and the one whose unveiling brings grace to those who see him (1 Peter 1:13).",
+      "reading": "The book opens with a person. Before any seal is broken, John is shown Jesus as he now is, and this view insists that everything which follows must be read in the light of this first sight. Christ is described in images drawn from Daniel's Son of Man and Ancient of Days: white hair, eyes of fire, feet of burnished bronze, a voice like many waters, and a face shining like the sun. The doxology says what he has already done. He loves us (present tense), has freed us from our sins by his blood, and has made us a kingdom and priests. The believer's identity is settled before the drama begins.\n\nJohn's response is the pattern for every reader. He falls at Christ's feet as though dead, and Christ lays his right hand on him and says 'Do not be afraid'. A book that begins with 'Fear not' from the one who died and is alive for ever was not meant to be read in terror. Christ also stands among the lampstands, not above or apart from them, as a priest tending the lights. The revelation is of a Christ who is present with his people.\n\nThis view also gives weight to the word 'signified' in the first verse. The book is told in signs, and a sign is followed to where it points rather than stared at. The governing sign is the one Jesus himself gave, the sign of Jonah: his death, burial and resurrection. Peter's call to hope fully in the grace brought 'at the revelation of Jesus Christ' is read alongside the title, so grace is received by seeing Christ rather than by effort. The figure among the lampstands is the High Priest tending his temple, and the heaven seen in him (a face like the sun, stars in his hand) is read as Christ as head together with his body.",
       "insights": [
         "'Revelation of Jesus Christ' is read in both senses: from him and about him. The book's subject is a person.",
         "The doxology (Revelation 1:5-6) states the finished work in three verbs: he loves, he freed, he made. Identity comes first and the drama follows.",
         "The first 'Do not be afraid' (Revelation 1:17) sets the tone for reading everything after it.",
         "Christ holds the keys of death and Hades, so the things the world fears are in the hands that were pierced.",
-        "'In the Spirit on the Lord's day' (Revelation 1:10) is read as the posture for receiving the book: seeing from the Spirit and from resurrection day."
+        "'In the Spirit on the Lord's day' (Revelation 1:10) is read as the posture for receiving the book: seeing from the Spirit and from resurrection day.",
+        "'Signified' (Revelation 1:1) is read as 'shown in signs'. Each sign is followed to what it points to, and the sign of Jonah, Christ's death, burial and resurrection, governs the rest."
       ],
       "symbolInsights": [
         {
@@ -839,18 +1029,67 @@
         "Daniel 7:9-14",
         "John 20:19-22",
         "Colossians 1:18"
+      ],
+      "depth": [
+        {
+          "title": "1:1 The revelation of Jesus Christ",
+          "text": "This view reads the opening words as both the title and the subject of the whole book: an unveiling of who Christ is, what he did at the cross and what he is doing now in his people. On this reading the book is not first a forecast about nations or rulers, and making it a book about an antichrist misses its subject.",
+          "texts": [
+            "Revelation 1:1",
+            "Galatians 1:15-16",
+            "2 Corinthians 3:16-18"
+          ]
+        },
+        {
+          "title": "1:1 'Signified': a book told in signs",
+          "text": "'Signified' is taken to mean 'shown by signs'. On this reading a sign works like a road sign: you look where it points, not at the sign itself. So the view resists turning the beast or other images into a particular country or leader, and asks instead what each sign points to in Christ.",
+          "texts": [
+            "Revelation 1:1",
+            "John 12:33",
+            "Matthew 12:39-40"
+          ]
+        },
+        {
+          "title": "1:1 with 1 Peter 1:13 Grace through revelation",
+          "text": "This view links the book's title with Peter's call to hope fully in the grace brought 'at the revelation of Jesus Christ'. Grace is said to come by seeing Christ, and abundant grace by abundant revelation, rather than by effort, though prayer and diligence still matter. Without that sight, the teaching says, believers drift back to living under the law.",
+          "texts": [
+            "1 Peter 1:13",
+            "Romans 5:17",
+            "2 Peter 1:2"
+          ]
+        },
+        {
+          "title": "1:10–16 Heaven seen in a man",
+          "text": "On this reading John's being 'in the Spirit' is the posture that stops prophecy being read as a list of dated predictions. The figure he sees carries a whole heaven in himself: a face like the sun, seven stars in his right hand, a voice like many waters. This view takes that as heaven revealed in a man, Christ as head together with his body, the one new man.",
+          "texts": [
+            "Revelation 1:10-16",
+            "2 Corinthians 12:2",
+            "Ephesians 2:15"
+          ]
+        },
+        {
+          "title": "1:12–20 The High Priest among the lampstands",
+          "text": "This view reads Christ walking among the lampstands in priestly dress as the High Priest tending his spiritual temple. He supplies oil, lights the lamps (gives understanding) and trims the wicks (removes what is old), leading his people on from the holy place towards the most holy. His right hand laid on John is read as the touch that turns a frightened reader into one who can receive the book.",
+          "texts": [
+            "Revelation 1:12-20",
+            "Exodus 27:20-21",
+            "Hebrews 8:1-2"
+          ]
+        }
       ]
     },
     {
       "chapter": 2,
       "theme": "The heart examined (I): first love, fear, compromise and control",
-      "christRevealed": "The one who walks among the lampstands, the First and Last who died and came to life, the one with the sharp sword, and the Son of God with eyes of fire who searches minds and hearts.",
-      "reading": "The letters were written to real congregations in Asia Minor, and this view keeps that setting in view. It also reads each church as a condition of the heart found in every age. In each letter Christ introduces himself with a facet of the opening vision suited to that condition. Ephesus works hard and tests doctrine but has left its first love, which is the danger of serving from duty rather than from being loved. Smyrna is poor and facing prison but is told it is rich, and that faithfulness unto death will meet a crown of life. Pergamum lives where Satan's throne is and is drawn into compromise. Thyatira tolerates a 'Jezebel', a controlling spirit that mixes devotion with self-rule.\n\nWhat stands out on this reading is that each problem is answered with Christ himself. The remedy for lost love is to remember and return to the One who first loved. The remedy for fear is the One who died and came to life. The remedy for compromise is hidden manna and a white stone with a new name. Even the warnings ('repent') are read as invitations to change the mind, as the Greek metanoia suggests, and turn back to Christ rather than to more effort. The overcomer is not a spiritual elite. In the light of 1 John 5:4-5, the overcomer is the one who believes that Jesus is the Son of God.",
+      "christRevealed": "The one who walks among the lampstands, the First and Last who died and came to life, the one with the sharp sword, and the Son of God with eyes of fire who searches minds and hearts. He is the one Teacher of his people (Matthew 23:8-10), whose word strikes down what false teaching has conceived in them.",
+      "reading": "The letters were written to real congregations in Asia Minor, and this view keeps that setting in view. It also reads each church as a condition of the heart found in every age. In each letter Christ introduces himself with a facet of the opening vision suited to that condition. Ephesus works hard and tests doctrine but has left its first love, which is the danger of serving from duty rather than from being loved. Smyrna is poor and facing prison but is told it is rich, and that faithfulness unto death will meet a crown of life. Pergamum lives where Satan's throne is and is drawn into compromise. Thyatira tolerates a 'Jezebel', a controlling spirit that mixes devotion with self-rule.\n\nWhat stands out on this reading is that each problem is answered with Christ himself. The remedy for lost love is to remember and return to the One who first loved. The remedy for fear is the One who died and came to life. The remedy for compromise is hidden manna and a white stone with a new name. Even the warnings ('repent') are read as invitations to change the mind, as the Greek metanoia suggests, and turn back to Christ rather than to more effort. The overcomer is not a spiritual elite. In the light of 1 John 5:4-5, the overcomer is the one who believes that Jesus is the Son of God.\n\nThyatira receives particular attention in this view. Jezebel is read as teaching that comes from the church itself, the 'woman', rather than from Christ the Head, and her 'children' as the beliefs and identities that such teaching conceives in mind and heart. That is why the one who strikes them is the one who searches minds and hearts. The same letter gives the overcomer the promise of Psalm 2, to rule the nations with a rod of iron, and this view takes it as the bridge to the male child of chapter 12. Each church is also read as an area of the soul still to be overcome.",
       "insights": [
         "Each letter opens with who Christ is before it says what the church is. Identity precedes correction.",
         "'Repent' (metanoeō) is read as a change of mind, a turning of the forehead, not a return to self-improvement.",
         "The overcomer overcomes by faith in the Son (1 John 5:4-5), so every promise is a promise of Christ himself: the tree of life, hidden manna, a new name and the morning star.",
-        "'Remember from where you have fallen' (Revelation 2:5) points back to love, not to greater activity. Ephesus already had activity."
+        "'Remember from where you have fallen' (Revelation 2:5) points back to love, not to greater activity. Ephesus already had activity.",
+        "Jezebel is read as teaching that comes from the church rather than from Christ the Head, and her 'children' as beliefs and identities conceived in mind and heart (Revelation 2:23).",
+        "The rod-of-iron promise (Revelation 2:26-27) is given to the overcomer within the church, which this view treats as the bridge to the male child of chapter 12."
       ],
       "symbolInsights": [
         {
@@ -891,6 +1130,55 @@
         "1 John 5:4-5",
         "1 John 4:19",
         "John 6:32-35"
+      ],
+      "depth": [
+        {
+          "title": "2:18 Eyes like a flame of fire",
+          "text": "Thyatira's letter introduces Christ as the one who searches minds and hearts. This view stresses that this is where the issue lies: what is addressed is the beliefs and identities held inside, not only outward conduct.",
+          "texts": [
+            "Revelation 2:18",
+            "Revelation 2:23",
+            "Hebrews 4:12-13"
+          ]
+        },
+        {
+          "title": "2:20 Jezebel: teaching from the woman, not the Head",
+          "text": "This view reads Jezebel as religious teaching that comes from the church itself (the 'woman') rather than from Christ the Head. It draws people into performance, religious duty and the knowledge of good and evil, and so into spiritual adultery: joining themselves to another teacher. The teaching sets this against Jesus' words that his people have one teacher, the Christ.",
+          "texts": [
+            "Revelation 2:20",
+            "Matthew 23:8-10",
+            "Ephesians 5:23-24",
+            "1 Kings 21:25"
+          ]
+        },
+        {
+          "title": "2:21–23 Jezebel's children",
+          "text": "On this reading the 'children' Christ strikes with death are not people but what false teaching conceives: beliefs and false identities born in the mind and heart. The clue is that the one who strikes them is the one who 'searches minds and hearts'. His judgment here is aimed at what brings death to his people, so that Christ can be formed in them.",
+          "texts": [
+            "Revelation 2:22-23",
+            "Colossians 3:5-10",
+            "James 1:14-15"
+          ]
+        },
+        {
+          "title": "2:26–27 Rule with a rod of iron",
+          "text": "The promise of Psalm 2, to rule the nations with a rod of iron, is given here to 'the one who overcomes' within the church. This view notes that a 'he' comes out of a 'she', and uses this as the bridge to the male child of chapter 12. The rod is read as the word of God, so the overcomer reigns by what Christ speaks, not by force.",
+          "texts": [
+            "Revelation 2:26-27",
+            "Psalm 2:8-9",
+            "Revelation 12:5",
+            "Revelation 19:15"
+          ]
+        },
+        {
+          "title": "2–3 Seven churches, many areas to overcome",
+          "text": "Alongside the historical congregations, this view reads the seven churches as the many areas of the soul: beliefs, identities and mindsets still to be brought under Christ. Each area overcome is an area where the believer already sits with Christ on his throne. The book can then be walked through again for the next area of life.",
+          "texts": [
+            "Revelation 2:7",
+            "Revelation 3:21",
+            "2 Corinthians 10:5"
+          ]
+        }
       ]
     },
     {
@@ -949,13 +1237,15 @@
     {
       "chapter": 4,
       "theme": "Come up here: seeing from the throne",
-      "christRevealed": "Christ is revealed as the open door into God's presence (John 10:9) and as the One for whom all creation was made. Chapter 5 shows him at the centre of the throne described here.",
-      "reading": "After the letters a door stands open in heaven and a voice says 'Come up here'. This view reads it as an invitation to every believer to see from God's vantage point, where they are already seated with Christ (Ephesians 2:6). The first thing seen is not chaos but a throne, and Someone sitting on it. Before a single seal is opened, John sees that God reigns and that heaven is at rest, surrounded by a rainbow of covenant faithfulness.\n\nThe details speak of settled order. The sea of glass is calm and clear, which is the restless sea stilled before God. The twenty-four elders (the twelve tribes and twelve apostles, one people of God) sit on thrones in white garments with crowns. Then they cast their crowns before the throne, confessing that every crown was a gift. The four living creatures cry 'Holy' without ceasing, and the elders answer that God is worthy because he created all things. On this reading, worship from the place of rest is the right posture for reading what follows.",
+      "christRevealed": "Christ is revealed as the open door into God's presence (John 10:9) and as the One for whom all creation was made. Chapter 5 shows him at the centre of the throne described here. He is also the content of the scroll held on the throne, the one of whom 'the volume of the book' is written (Hebrews 10:7).",
+      "reading": "After the letters a door stands open in heaven and a voice says 'Come up here'. This view reads it as an invitation to every believer to see from God's vantage point, where they are already seated with Christ (Ephesians 2:6). The first thing seen is not chaos but a throne, and Someone sitting on it. Before a single seal is opened, John sees that God reigns and that heaven is at rest, surrounded by a rainbow of covenant faithfulness.\n\nThe details speak of settled order. The sea of glass is calm and clear, which is the restless sea stilled before God. The twenty-four elders (the twelve tribes and twelve apostles, one people of God) sit on thrones in white garments with crowns. Then they cast their crowns before the throne, confessing that every crown was a gift. The four living creatures cry 'Holy' without ceasing, and the elders answer that God is worthy because he created all things. On this reading, worship from the place of rest is the right posture for reading what follows.\n\nThis view also draws a line from this chapter to chapter 20. Here John sees a throne; there a company sits on thrones. Seeing is the beginning and sitting is the destiny, and the seals, trumpets and bowls in between are read as God's work of bringing the church to overcome. The scroll of chapter 5 is read as the believer's inheritance in Christ, opened, read and then made visible in daily life.",
       "insights": [
         "The order of the book is the order of the Christian life: first the throne (who reigns), then the seals (what happens).",
         "The rainbow around the throne recalls God's covenant with Noah. Judgment is surrounded by mercy.",
         "The elders are seated. Rest, not anxious striving, is heaven's posture.",
-        "Casting crowns confesses that every crown is grace received."
+        "Casting crowns confesses that every crown is grace received.",
+        "Seeing the throne in chapter 4 is not yet sitting on it in chapter 20. The chapters between are God's work of bringing the church to overcome.",
+        "The scroll on the throne is read as the believer's inheritance, the 'volume of the book' written of Christ (Psalm 40:7; Hebrews 10:7)."
       ],
       "symbolInsights": [
         {
@@ -988,6 +1278,54 @@
         "Ephesians 2:6",
         "Genesis 9:13-16",
         "Isaiah 6:1-3"
+      ],
+      "depth": [
+        {
+          "title": "4:1 A door opened in heaven",
+          "text": "This view reads John hearing the voice and being caught up through the open door as a picture of the church receiving revelation. What he is shown first is not a sequence of events but a throne with One seated on it.",
+          "texts": [
+            "Revelation 4:1-2",
+            "John 10:9",
+            "Ephesians 1:17-18"
+          ]
+        },
+        {
+          "title": "4:2 Seeing the throne is not yet sitting on it",
+          "text": "This view contrasts chapter 4, where John sees a throne, with chapter 20, where a company sits on thrones. The promise of 3:21 is to sit with Christ, and the seals, trumpets and bowls in between are read as God's work of bringing the church to overcome. Overcoming comes first and sitting follows, because the throne is for reigning, not for overcoming.",
+          "texts": [
+            "Revelation 3:21",
+            "Revelation 4:2",
+            "Revelation 20:4"
+          ]
+        },
+        {
+          "title": "4:2–3 Already seated with Christ",
+          "text": "Read with Ephesians 2, the throne is where believers have already been raised and seated in Christ. The rainbow around it recalls the covenant with Noah, so the reign shown here is framed by mercy. On this reading the believer's task is to come to see, and then to live from, a position already given.",
+          "texts": [
+            "Ephesians 2:4-7",
+            "Revelation 4:3",
+            "Genesis 9:13-16"
+          ]
+        },
+        {
+          "title": "4:1–2 The most holy place",
+          "text": "This view also places the throne in the most holy place of the tabernacle, at the mercy seat from which the river of chapter 22 flows. Access was opened at the cross, but on this reading God's people had not yet used it, so the chapters that follow begin removing what is old.",
+          "texts": [
+            "Hebrews 4:16",
+            "Hebrews 10:19-20",
+            "Revelation 22:1"
+          ]
+        },
+        {
+          "title": "4–5 The scroll as the believer's inheritance",
+          "text": "The scroll in the hand of the One on the throne (5:1) is read as the believer's inheritance in Christ, what God has willed for his people. The teaching links it with the psalm, 'in the volume of the book it is written of me', and takes that book to be Christ himself formed in his people. The seals then mark a closed book, the trumpets the book read aloud, and the bowls what was read becoming visible in daily life.",
+          "texts": [
+            "Revelation 5:1",
+            "Psalm 40:7",
+            "Hebrews 10:7",
+            "Colossians 1:27"
+          ]
+        }
       ]
     },
     {
@@ -1243,13 +1581,15 @@
     {
       "chapter": 10,
       "theme": "The little scroll: eating the word",
-      "christRevealed": "Christ is revealed in the mighty angel's glory: clothed with a cloud, with a rainbow over his head, a face like the sun and feet like pillars of fire. Many in this view see the angel as a reflection of Christ himself, the one who announces that the mystery of God is fulfilled.",
-      "reading": "A mighty angel descends with features drawn from the vision of Christ in chapter 1 and the throne of chapter 4. He plants one foot on the sea and one on the land, which is authority over the restless and the settled alike. He swears there will be no more delay, and in the seventh trumpet the mystery of God will be fulfilled. In Paul the 'mystery' is Christ in you, the hope of glory (Colossians 1:27), and the union of Jew and Gentile in one body. This view reads the completion of the mystery as the full revelation of that union.\n\nJohn is told to take the little scroll and eat it. It is sweet in his mouth and bitter in his stomach. This view reads it as the word received inwardly, not only studied. The revelation of Christ is sweet, and its outworking in a world that resists it, and in the old nature being crucified, can be bitter. Then the commission is renewed: prophesy again. Revelation is given in order to be lived and spoken.",
+      "christRevealed": "Christ is revealed in the mighty angel's glory: clothed with a cloud, with a rainbow over his head, a face like the sun and feet like pillars of fire. Many in this view see the angel as a reflection of Christ himself, the one who announces that the mystery of God is fulfilled. The teaching surveyed here goes further and reads the messenger as the corporate Christ, the Son of Man as head and body.",
+      "reading": "A mighty angel descends with features drawn from the vision of Christ in chapter 1 and the throne of chapter 4. He plants one foot on the sea and one on the land, which is authority over the restless and the settled alike. He swears there will be no more delay, and in the seventh trumpet the mystery of God will be fulfilled. In Paul the 'mystery' is Christ in you, the hope of glory (Colossians 1:27), and the union of Jew and Gentile in one body. This view reads the completion of the mystery as the full revelation of that union.\n\nJohn is told to take the little scroll and eat it. It is sweet in his mouth and bitter in his stomach. This view reads it as the word received inwardly, not only studied. The revelation of Christ is sweet, and its outworking in a world that resists it, and in the old nature being crucified, can be bitter. Then the commission is renewed: prophesy again. Revelation is given in order to be lived and spoken.\n\nThis view gives special weight to the rainbow on the angel's head. Read through Genesis 9, the bow set in the cloud was God's pledge that all flesh would not again be destroyed, so the message of this chapter is covenant mercy, not destruction. The cloud is read as sign language for Christ appearing in and with his people. The prophets spoke of Christ's sufferings and the glories that would follow (1 Peter 1:11), and this view reads those glories as Christ revealed in his people.",
       "insights": [
         "The angel's foot on sea and land declares Christ's authority over the restless and the stable alike.",
         "'No more delay' and 'the mystery of God finished' are read through Colossians 1:27: Christ in you.",
         "Eating the scroll means the word internalised and made part of the person, not simply analysed.",
-        "Sweet and bitter: the joy of the revelation and the cost of its outworking go together."
+        "Sweet and bitter: the joy of the revelation and the cost of its outworking go together.",
+        "The rainbow on the angel's head recalls the bow in the cloud (Genesis 9:13-16). The message is covenant mercy, not destruction.",
+        "The angel is read as the corporate Christ, head and body, carrying the message of the mystery to completion."
       ],
       "symbolInsights": [
         {
@@ -1283,6 +1623,45 @@
         "Colossians 1:26-27",
         "Ephesians 3:3-6",
         "Jeremiah 15:16"
+      ],
+      "depth": [
+        {
+          "title": "10:1 Clothed with a cloud",
+          "text": "This view treats the cloud as sign language rather than weather. As with 'coming with clouds' in 1:7, the cloud is read as Christ appearing in and with his people, a 'cloud of witnesses'.",
+          "texts": [
+            "Revelation 10:1",
+            "Revelation 1:7",
+            "Hebrews 12:1"
+          ]
+        },
+        {
+          "title": "10:1 A rainbow on his head",
+          "text": "The teaching reads the rainbow through Genesis 9, where God set his bow in the cloud as a pledge that all flesh would not again be destroyed. On this reading the bow and the cloud appear together here as they did after the flood, so the message is covenant mercy rather than destruction. It is linked with Paul's description of God as the Saviour of all people, especially of those who believe.",
+          "texts": [
+            "Genesis 9:13-16",
+            "Revelation 10:1",
+            "1 Timothy 4:10"
+          ]
+        },
+        {
+          "title": "10:1 The mighty angel as the corporate Christ",
+          "text": "Because the angel bears Christ's own features (a face like the sun, feet like pillars of fire), this view identifies him not as a lone angelic being but as the Son of Man as head and body, the one new man. 'Angel' means messenger, and on this reading Christ's message now comes through his people.",
+          "texts": [
+            "Revelation 10:1",
+            "Revelation 1:15-16",
+            "Ephesians 2:15",
+            "Ephesians 5:30-32"
+          ]
+        },
+        {
+          "title": "10:7 The mystery of God finished",
+          "text": "The prophets foretold the sufferings of Christ and 'the glories that would follow'. This view reads those glories as Christ revealed in his people. From chapter 10 onwards, then, the book is read as announcing the full working out of the mystery of Christ in the believer.",
+          "texts": [
+            "Revelation 10:7",
+            "1 Peter 1:10-11",
+            "Colossians 1:26-27"
+          ]
+        }
       ]
     },
     {
@@ -1342,14 +1721,15 @@
     {
       "chapter": 12,
       "theme": "The woman, the child and the cast-down accuser",
-      "christRevealed": "The male child who will rule the nations, born, caught up to God and his throne. His blood overcomes the accuser, and the kingdom of God and the authority of his Christ have come.",
-      "reading": "Chapter 12 goes behind the scenes. A woman clothed with the sun, the faithful people of God, labours to bring forth the Messiah. A great red dragon waits to devour the child. The child is born and caught up to God's throne, and the whole of Christ's life, death, resurrection and ascension is told in one verse. Then there is war in heaven, and the dragon, the ancient serpent and accuser of the brothers, is thrown down. A loud voice announces that now salvation and the kingdom have come.\n\nThis view treats the chapter as central for the believer's mind. The dragon's main weapon is accusation, the voice of condemnation day and night. He is overcome 'by the blood of the Lamb and by the word of their testimony'. The accuser is defeated by what Christ has done and by agreeing with it, not by fear, rituals or self-improvement. The cast-down dragon is furious because his time is short. He pursues the woman, but she is given eagle's wings and nourished in the wilderness, and the earth itself swallows the flood he sends. The believer is not exempt from his rage, but the believer does not need to fear him.",
+      "christRevealed": "The male child who will rule the nations, born, caught up to God and his throne. His blood overcomes the accuser, and the kingdom of God and the authority of his Christ have come. In this view's most distinctive reading he is also Christ formed and brought to maturity in his people, the many sons who share his rule by the word.",
+      "reading": "Chapter 12 goes behind the scenes. A woman clothed with the sun, the faithful people of God, labours to bring forth the Messiah. A great red dragon waits to devour the child. The child is born and caught up to God's throne, and the whole of Christ's life, death, resurrection and ascension is told in one verse. Then there is war in heaven, and the dragon, the ancient serpent and accuser of the brothers, is thrown down. A loud voice announces that now salvation and the kingdom have come.\n\nThis view treats the chapter as central for the believer's mind. The dragon's main weapon is accusation, the voice of condemnation day and night. He is overcome 'by the blood of the Lamb and by the word of their testimony'. The accuser is defeated by what Christ has done and by agreeing with it, not by fear, rituals or self-improvement. The cast-down dragon is furious because his time is short. He pursues the woman, but she is given eagle's wings and nourished in the wilderness, and the earth itself swallows the flood he sends. The believer is not exempt from his rage, but the believer does not need to fear him.\n\nThe teaching surveyed here adds a distinctive reading of the child. The woman, clothed with the sun because the Son is within her, is the church in the last hour of labour. Because the promise to rule with a rod of iron was given to the overcomer in 2:26-27, the male child is read not only as Jesus but as Christ formed in believers (Galatians 4:19): the company of overcomers brought to mature sonship. He is caught up to the throne as soon as he is born, so reigning is not postponed. The rod of iron is the word from his mouth (Revelation 19:15). When the child takes the throne, the inner heavens are cleansed of the accuser.",
       "insights": [
         "The child's birth, ascension and enthronement in one verse (Revelation 12:5) summarise the whole work of Christ.",
         "The accuser is thrown down because of the cross (John 12:31). His remaining weapon is accusation, and the answer to it is the blood.",
         "'The word of their testimony' is read as agreement with what God says about the finished work.",
         "The dragon's fury is a sign that his time is short. It is a sign of defeat, not of strength.",
-        "The woman is carried and nourished in the wilderness, so God's provision continues during opposition."
+        "The woman is carried and nourished in the wilderness, so God's provision continues during opposition.",
+        "The male child is read distinctively as Christ formed in his overcomers (Galatians 4:19), caught up to reign as soon as he is born and ruling by the word."
       ],
       "symbolInsights": [
         {
@@ -1392,19 +1772,98 @@
         "Romans 8:33-34",
         "Colossians 2:15",
         "Exodus 19:4"
+      ],
+      "depth": [
+        {
+          "title": "12:1 A sign in heaven",
+          "text": "On this reading the sign is seen only in the Spirit, not by the natural mind. 'Heaven' is read as the realm of spirit and of rule, so the drama of the chapter concerns what reigns within God's people.",
+          "texts": [
+            "Revelation 12:1",
+            "1 Corinthians 2:14",
+            "Colossians 3:1-2"
+          ]
+        },
+        {
+          "title": "12:1–2 The woman clothed with the sun",
+          "text": "This view reads the woman as the church, betrothed as a pure virgin to Christ. She is clothed with the sun because the Son is within her and shining out, and she is in the last hour of labour. Her pains are the church's travail until Christ is fully formed, the sorrow Jesus said would turn to joy.",
+          "texts": [
+            "Revelation 12:1-2",
+            "2 Corinthians 11:2",
+            "Galatians 4:19",
+            "John 16:21-22"
+          ]
+        },
+        {
+          "title": "12:5 The male child",
+          "text": "The most distinctive reading in this teaching takes the male child not as Jesus alone but also as Christ matured in believers: the company of overcomers brought to full sonship. The reason given is that the rod-of-iron promise of Psalm 2 is applied in 2:26-27 to the overcomer in the church. Jesus the firstborn is the pattern, and the many sons are the harvest of his life.",
+          "texts": [
+            "Revelation 12:5",
+            "Revelation 2:26-27",
+            "Romans 8:19",
+            "Romans 8:29",
+            "Galatians 4:6-7"
+          ]
+        },
+        {
+          "title": "12:5 Caught up to God and his throne",
+          "text": "On this reading enthronement follows birth at once; it does not wait for years or for a future date. When Christ is brought to maturity in an area of life, the believer reigns with him there. This is read with Paul's call to seek the things above, where Christ is seated.",
+          "texts": [
+            "Revelation 12:5",
+            "Revelation 3:21",
+            "Colossians 3:1-4"
+          ]
+        },
+        {
+          "title": "12:5 The rod of iron",
+          "text": "This view reads the rod as the word of God, the sword that comes from Christ's mouth (19:15) rather than from his hand. Christ and his overcomers rule by what is spoken from him, a word that divides soul and spirit, not by force.",
+          "texts": [
+            "Revelation 19:15",
+            "Hebrews 4:12",
+            "Psalm 2:9"
+          ]
+        },
+        {
+          "title": "12:7–9 War in heaven: heaven cleansed",
+          "text": "When the child is enthroned, war breaks out and the dragon is thrown down. This view reads it as the inner heavens, whatever rules a person, being cleansed of the accuser once Christ takes the throne there. The dragon is one being under four names, the ancient serpent of Genesis 3.",
+          "texts": [
+            "Revelation 12:7-9",
+            "Genesis 3:15",
+            "Luke 10:18"
+          ]
+        },
+        {
+          "title": "12:12 Rejoice, heavens; woe to the earth",
+          "text": "On this reading the rejoicing belongs to those living from the Spirit, and the woe to the earthly, soulish side of life. There the dragon has a short time left, before the Son who cleansed heaven shakes the earth as well.",
+          "texts": [
+            "Revelation 12:12",
+            "Hebrews 12:26-27",
+            "1 Corinthians 15:47-49"
+          ]
+        },
+        {
+          "title": "11:15 and 14:14–16 When the child is born",
+          "text": "This view places the birth at the seventh trumpet, as the church keeps hearing the true message of Christ. The harvest of 14:14-16 is read as the ripening of the word sown as seed, after the former and latter rains. Christ's 'comings' are therefore read as many, like showers on a field, rather than a single date.",
+          "texts": [
+            "Revelation 11:15",
+            "Revelation 14:14-16",
+            "James 5:7",
+            "Hosea 6:3"
+          ]
+        }
       ]
     },
     {
       "chapter": 13,
       "theme": "The beasts and their mark: the battle for the mind",
-      "christRevealed": "Christ is revealed by contrast. He is the Lamb slain from the foundation of the world, whose book of life holds his people's names. The beasts parody his death, resurrection and worship, and that parody shows what the real Christ is.",
-      "reading": "A beast rises from the sea. It is a composite of Daniel's four empires with blasphemous names, and it receives its throne from the dragon. A second beast rises from the land with horns like a lamb but speaks like a dragon, and it makes everyone worship the first beast and receive its mark on the right hand or forehead. Futurist readers look for a future world ruler and a literal mark. Preterist readers point to Nero and the imperial cult. This view keeps the historical background but reads the beasts as the beast nature: humanity organised without God, political power that devours, and a religious voice that looks gentle but carries the dragon's accusation.\n\nThe mark is placed on the forehead (thinking) and the hand (doing). This view reads it as a mind and a way of life shaped by the flesh, self-effort and fear. It is the counterfeit of God's seal, and those who bear it 'buy and sell', which is life as transaction and earning. Its number, 666, is the number of a man, and six always falls short of seven, the rest of God. The call is to wisdom and to the endurance and faith of the saints. The answer to the mark is not fear of a technology but a renewed mind that bears the Father's name (Revelation 14:1).",
+      "christRevealed": "Christ is revealed by contrast. He is the Lamb slain from the foundation of the world, whose book of life holds his people's names. The beasts parody his death, resurrection and worship, and that parody shows what the real Christ is. He is the true image of the invisible God (Colossians 1:15), set against every image of God made in the likeness of man.",
+      "reading": "A beast rises from the sea. It is a composite of Daniel's four empires with blasphemous names, and it receives its throne from the dragon. A second beast rises from the land with horns like a lamb but speaks like a dragon, and it makes everyone worship the first beast and receive its mark on the right hand or forehead. Futurist readers look for a future world ruler and a literal mark. Preterist readers point to Nero and the imperial cult. This view keeps the historical background but reads the beasts as the beast nature: humanity organised without God, political power that devours, and a religious voice that looks gentle but carries the dragon's accusation.\n\nThe mark is placed on the forehead (thinking) and the hand (doing). This view reads it as a mind and a way of life shaped by the flesh, self-effort and fear. It is the counterfeit of God's seal, and those who bear it 'buy and sell', which is life as transaction and earning. Its number, 666, is the number of a man, and six always falls short of seven, the rest of God. The call is to wisdom and to the endurance and faith of the saints. The answer to the mark is not fear of a technology but a renewed mind that bears the Father's name (Revelation 14:1).\n\nThe teaching surveyed here reads the three figures through James 3:15 as three kinds of wisdom that are not from above: earthly, soulish and demonic. John sees the sea-beast once he stands on the sand, which is read as the wisdom of the earthly person. The image of the beast is a man-made picture of God carved in the mind, such as a Christ who comes to devour. The mark is linked with the 'engraved' image of Acts 17:29: a false picture of God ruling thought and action. The call is to stand in heaven rather than on the sand, and to let God engrave his true image instead.",
       "insights": [
         "The beast's healed wound and borrowed throne parody the Lamb's death, resurrection and enthronement. The counterfeit always imitates.",
         "The land beast has horns 'like a lamb' but speaks like a dragon: religion that looks like Christ but speaks accusation.",
         "Forehead and hand are mind and works. The battle of the book is over what governs a person's thinking and doing.",
         "666 is man's number, effort that never reaches God's seventh-day rest.",
-        "The Lamb was slain 'from the foundation of the world' (Revelation 13:8, as many translate it). The cross predates and outlasts every beast."
+        "The Lamb was slain 'from the foundation of the world' (Revelation 13:8, as many translate it). The cross predates and outlasts every beast.",
+        "The three figures are read as James's three wisdoms that are not from above: earthly, soulish and demonic (James 3:15)."
       ],
       "symbolInsights": [
         {
@@ -1446,6 +1905,82 @@
         "Romans 12:2",
         "Romans 8:5-7",
         "Hebrews 4:9-10"
+      ],
+      "depth": [
+        {
+          "title": "13:1 Standing on the sand",
+          "text": "The teaching notices that the sea-beast appears once John is standing on the sand of the sea (in the reading followed here). Sand is read through Solomon's 'largeness of heart like the sand on the seashore' as the wisdom of the earthly person, which later turned after other gods. From that standpoint the beast rises into view; from heaven it would not look the same.",
+          "texts": [
+            "Revelation 13:1",
+            "1 Kings 4:29",
+            "1 Kings 11:4"
+          ]
+        },
+        {
+          "title": "13:2–4 The dragon gives the beast his throne",
+          "text": "This view reads 'heaven' as whatever rules a person: whatever is obeyed becomes the throne over them. Either the Son sits on that throne within, or the dragon and the beast do. 'Who is like the beast?' shows that what a person follows becomes their god.",
+          "texts": [
+            "Revelation 13:2-4",
+            "Isaiah 66:1",
+            "Romans 6:16"
+          ]
+        },
+        {
+          "title": "13:1, 11 Three beasts, three wisdoms",
+          "text": "The teaching matches James's three kinds of wisdom that are not from above with the chapter's three figures: earthly (the beast from the earth), soulish or sensual (the beast from the sea) and demonic (the dragon). They act as one. Their opposite is the wisdom from above, pure, peaceable and full of mercy.",
+          "texts": [
+            "James 3:15-17",
+            "Revelation 13:1",
+            "Revelation 13:11"
+          ]
+        },
+        {
+          "title": "13:7–10 War on the saints",
+          "text": "On this reading the beast can overcome saints because they are still earthly in some areas of life. It is 'those who dwell on the earth', a phrase the chapter keeps repeating, who worship it. The overcoming comes through the patience and faith of the saints.",
+          "texts": [
+            "Revelation 13:7-10",
+            "Revelation 13:14",
+            "Hebrews 12:22"
+          ]
+        },
+        {
+          "title": "13:11–14 Horns like a lamb, voice like a dragon",
+          "text": "The second beast, later called the false prophet, is read as earthly wisdom that looks like the Lamb but speaks the dragon's language, a wolf in sheep's clothing. Its signs, even fire from heaven, impress but deceive.",
+          "texts": [
+            "Revelation 13:11-14",
+            "Matthew 7:15",
+            "Revelation 19:20"
+          ]
+        },
+        {
+          "title": "13:14–15 The image and its breath",
+          "text": "This view reads the image of the beast as a man-made picture of God carved in the mind: God in the image of man rather than man in the image of God. A Christ who comes to devour and destroy is given as an example of such an image. Once engraved it is 'given breath' and feels real, and the golden calf, hailed by the Lord's own name, is the pattern.",
+          "texts": [
+            "Revelation 13:14-15",
+            "Exodus 32:4-5",
+            "Colossians 1:15",
+            "Romans 1:23"
+          ]
+        },
+        {
+          "title": "13:16–17 The mark as an engraving",
+          "text": "The teaching connects the word 'mark' with Paul's phrase in Acts 17:29 for something 'shaped by art and man's devising'. The mark is that engraved false image ruling the forehead (thinking) and the right hand (authority and action), and it becomes the currency of everyday buying and selling. Against it God writes his own image, as he once engraved the tablets.",
+          "texts": [
+            "Revelation 13:16-17",
+            "Acts 17:29",
+            "Exodus 32:16",
+            "2 Corinthians 3:3"
+          ]
+        },
+        {
+          "title": "13:18 Here is wisdom: the number of a man",
+          "text": "The chapter closes with a call for wisdom, and the beast's number is 'the number of a man'. This view takes it to mean that the beast is human wisdom and a human image of God. Christ is the reverse: God made man, not man made into a god.",
+          "texts": [
+            "Revelation 13:18",
+            "1 Corinthians 1:20-25",
+            "Genesis 3:5"
+          ]
+        }
       ]
     },
     {
@@ -1505,13 +2040,15 @@
     {
       "chapter": 15,
       "theme": "The song of Moses and the Lamb: victory sung before the bowls",
-      "christRevealed": "The Lamb whose song is joined to Moses' song. He is the true Exodus and the King of the nations, whose righteous acts have been revealed.",
-      "reading": "Before the last plagues are poured out, John sees the victors standing beside a sea of glass mixed with fire. They hold harps and sing the song of Moses and the song of the Lamb. The scene recalls Israel on the far shore of the Red Sea after Egypt's army was overthrown. This view stresses the order. The victory song is sung before the bowls, because the outcome is already settled and the believer reads the judgments from the far shore.\n\nThe song itself says nothing about the singers' achievements. It is entirely about God: great and marvellous are his works, just and true are his ways, all nations will come and worship. The temple fills with smoke from God's glory, and no one can enter until the plagues are finished. This view reads that as the completion of God's work on the old order. It is something he does, and human effort contributes nothing to it.",
+      "christRevealed": "The Lamb whose song is joined to Moses' song. He is the true Exodus and the King of the nations, whose righteous acts have been revealed. He alone trod the winepress outside the city (Revelation 14:20; Isaiah 63:3).",
+      "reading": "Before the last plagues are poured out, John sees the victors standing beside a sea of glass mixed with fire. They hold harps and sing the song of Moses and the song of the Lamb. The scene recalls Israel on the far shore of the Red Sea after Egypt's army was overthrown. This view stresses the order. The victory song is sung before the bowls, because the outcome is already settled and the believer reads the judgments from the far shore.\n\nThe song itself says nothing about the singers' achievements. It is entirely about God: great and marvellous are his works, just and true are his ways, all nations will come and worship. The temple fills with smoke from God's glory, and no one can enter until the plagues are finished. This view reads that as the completion of God's work on the old order. It is something he does, and human effort contributes nothing to it.\n\nThis view also stresses that the bowls complete God's wrath rather than begin it. On this reading the scroll is the believer's inheritance: sealed, then read aloud in the trumpets, then made visible in the bowls. As in Egypt, the plagues fall on Pharaoh, on what enslaves, not on God's people. The teaching reads 'judgments' in 15:4 as 'righteous requirements' (as in Romans 8:4), fulfilled in those who walk by the Spirit, and that is why the nations come to worship.",
       "insights": [
         "The victory song comes before the bowls. Believers read judgment from the far shore of the Exodus.",
         "The song of Moses and the song of the Lamb are one song. The Exodus is fulfilled in Christ's Passover.",
         "The song is wholly God-centred and celebrates his works, not the victors' own.",
-        "'All nations will come and worship' sets a hopeful, universal horizon even in the context of judgment."
+        "'All nations will come and worship' sets a hopeful, universal horizon even in the context of judgment.",
+        "The bowls complete God's wrath rather than start it (Revelation 15:1). On this reading it began when Christ was confessed as Lord and the accuser was cast down.",
+        "'Judgments' in Revelation 15:4 is read as 'righteous requirements', as in Romans 8:4, fulfilled in those who walk by the Spirit."
       ],
       "symbolInsights": [
         {
@@ -1544,19 +2081,70 @@
         "Exodus 15:1-18",
         "1 Corinthians 5:7",
         "Psalm 86:9"
+      ],
+      "depth": [
+        {
+          "title": "15:1 Wrath completed",
+          "text": "The seven last plagues are those in which God's wrath 'is finished'. This view reads the bowls as completing, not starting, God's wrath against whatever holds a person captive. On this reading that wrath began when Christ was confessed as Lord and the accuser was cast down.",
+          "texts": [
+            "Revelation 15:1",
+            "Revelation 12:10",
+            "Romans 1:18"
+          ]
+        },
+        {
+          "title": "5–16 Seals, trumpets, bowls",
+          "text": "On this reading the scroll is the believer's inheritance. The seals keep it closed, the trumpets open and read it as revelation, and the bowls make what was read visible in daily life. Knowing alone is not the goal; the bowls are the work of God becoming seen.",
+          "texts": [
+            "Revelation 5:1",
+            "Revelation 8:6",
+            "Revelation 15:7",
+            "James 1:22-25"
+          ]
+        },
+        {
+          "title": "15:2–3 The song of Moses and the Lamb",
+          "text": "The song recalls Israel's deliverance at the sea. This view reads the bowls through the plagues of Egypt, which fell on Pharaoh and not on Israel: on what enslaves, not on the enslaved. 'Great and marvellous are your works' marks the bowls as God's own work made visible.",
+          "texts": [
+            "Revelation 15:3",
+            "Exodus 15:1-2",
+            "Exodus 8:22-23"
+          ]
+        },
+        {
+          "title": "15:4 Your righteous acts revealed",
+          "text": "The teaching reads 'judgments' here as 'righteous requirements', comparing Romans 8:4, where the righteous requirement of the law is fulfilled in those who walk by the Spirit. The nations come to worship because something has been done to set them free.",
+          "texts": [
+            "Revelation 15:4",
+            "Romans 8:4",
+            "Psalm 86:9"
+          ]
+        },
+        {
+          "title": "14:19–20 The winepress outside the city",
+          "text": "As background to the bowls, the vine of the earth is thrown into the winepress and trodden outside the city. This view reads it as the cross: Christ alone treading the winepress as in Isaiah 63, dealing with the bitter grapes of Isaiah's vineyard song. The day of vengeance ends in comfort for those who mourn.",
+          "texts": [
+            "Revelation 14:19-20",
+            "Isaiah 63:1-6",
+            "Isaiah 5:1-7",
+            "Hebrews 13:12",
+            "Isaiah 61:2"
+          ]
+        }
       ]
     },
     {
       "chapter": 16,
       "theme": "The bowls poured out: 'It is done'",
       "christRevealed": "Christ is revealed in the cry 'It is done' from the throne, which echoes 'It is finished' from the cross. He is also the one who comes like a thief and blesses those who stay awake and keep their garments.",
-      "reading": "The seven bowls are poured out in quick succession. They mirror the trumpets but are now total rather than partial. Sores, the sea and rivers turning to blood, a scorching sun, darkness on the beast's throne, the Euphrates dried up and a great earthquake. Futurist readers see global catastrophe at the end of the tribulation. This view reads the bowls as the full exposure and end of the beast system. Everything the old order drank from turns to blood, its throne is plunged into darkness, and its subjects gnaw their tongues in pain yet still do not change their minds.\n\nIn the middle of the bowls Christ speaks directly: 'Behold, I am coming like a thief. Blessed is the one who stays awake and keeps his garments.' The believer's call is to stay alert and clothed in Christ's righteousness, not to stockpile or fear. At the seventh bowl a loud voice from the throne says 'It is done'. This view hears the cross in it: what was finished at Golgotha is here shown complete over the whole system of sin and death. Babylon splits in three, and every island and mountain flees. The old is not reformed. It is ended.",
+      "reading": "The seven bowls are poured out in quick succession. They mirror the trumpets but are now total rather than partial. Sores, the sea and rivers turning to blood, a scorching sun, darkness on the beast's throne, the Euphrates dried up and a great earthquake. Futurist readers see global catastrophe at the end of the tribulation. This view reads the bowls as the full exposure and end of the beast system. Everything the old order drank from turns to blood, its throne is plunged into darkness, and its subjects gnaw their tongues in pain yet still do not change their minds.\n\nIn the middle of the bowls Christ speaks directly: 'Behold, I am coming like a thief. Blessed is the one who stays awake and keeps his garments.' The believer's call is to stay alert and clothed in Christ's righteousness, not to stockpile or fear. At the seventh bowl a loud voice from the throne says 'It is done'. This view hears the cross in it: what was finished at Golgotha is here shown complete over the whole system of sin and death. Babylon splits in three, and every island and mountain flees. The old is not reformed. It is ended.\n\nThe teaching surveyed here reads each bowl as striking the old man and the beast system within, not people as such. The bowls fall on the earth, where the dragon was cast down. The sea turned to blood strikes the beast at its source, and the rivers recall the serpent's flood of words (12:15), so God heals the mouth as well as the heart. The people scorched are read as the old man, since every nation is still to come and worship (15:4). Romans 1:18 is read as wrath against the ungodliness of people, not against people themselves.",
       "insights": [
         "'It is done' (Revelation 16:17) is read as the echo of 'It is finished' (John 19:30). The bowls show the cross's verdict made complete.",
         "The bowls fall on those who bear the beast's mark and worship its image. They are aimed at the beast system, not at the sealed.",
         "Even total judgment does not produce repentance (Revelation 16:9, 11). Only grace changes the mind.",
         "The beatitude in the middle of the bowls (Revelation 16:15) calls believers to wakefulness and to stay clothed in Christ.",
-        "Armageddon is gathered but never fought in this chapter. The outcome was settled before the armies assembled."
+        "Armageddon is gathered but never fought in this chapter. The outcome was settled before the armies assembled.",
+        "The people scorched (Revelation 16:8-9) are read as the old man. Wrath falls on the ungodliness of people, not on people themselves (Romans 1:18)."
       ],
       "symbolInsights": [
         {
@@ -1598,6 +2186,62 @@
         "Revelation 21:6",
         "Exodus 7–12",
         "Romans 2:4"
+      ],
+      "depth": [
+        {
+          "title": "16:1 Poured on the earth",
+          "text": "The bowls are poured on the earth, where the dragon was cast down in chapter 12 and where the beast and Babylon hold sway. This view reads them as falling on what deceives the earthly, carnal mind, not on heaven and not on people as such.",
+          "texts": [
+            "Revelation 16:1",
+            "Revelation 12:9",
+            "Revelation 12:12"
+          ]
+        },
+        {
+          "title": "16:2–3 Sores, and the sea as blood",
+          "text": "The first bowl strikes those with the mark and the image, which this view reads as the earthly, soulish old self within the believer rather than a separate class of humanity. The second turns the sea to blood 'like that of a dead man', striking the beast at its source, the sea it rose from.",
+          "texts": [
+            "Revelation 16:2-3",
+            "Revelation 13:1",
+            "Ephesians 4:22-24"
+          ]
+        },
+        {
+          "title": "16:4–7 Rivers, springs and words",
+          "text": "The third bowl falls on rivers and springs, which the teaching links with the flood from the serpent's mouth (12:15): streams of earthly wisdom and words. The angel of the waters and the altar answer that God's judgments are true and righteous. On this reading God heals not only heart and mind but also the mouth.",
+          "texts": [
+            "Revelation 16:4-7",
+            "Revelation 12:15",
+            "James 3:10-12"
+          ]
+        },
+        {
+          "title": "16:8–9 The 'men' who are scorched",
+          "text": "The teaching reads the people scorched by the sun as the old man, not people as such. Otherwise, it argues, every nation could not come and worship (15:4) and every knee bow. Wrath is revealed against the ungodliness and unrighteousness of people rather than against people themselves.",
+          "texts": [
+            "Revelation 16:8-9",
+            "Romans 1:18",
+            "Philippians 2:10-11"
+          ]
+        },
+        {
+          "title": "16:13–14 Unclean spirits from three mouths",
+          "text": "The frog-like spirits come out of the mouths of the dragon, the beast and the false prophet. This view reads them as words of earthly wisdom: spiritual messages, not creatures from science fiction.",
+          "texts": [
+            "Revelation 16:13-14",
+            "1 John 4:1",
+            "1 Timothy 4:1"
+          ]
+        },
+        {
+          "title": "16:17–19 'It is done' and Babylon divided",
+          "text": "The seventh bowl's cry is heard as the cry of the cross, 'It is finished'. Babylon is remembered and falls, and this view reads her fall as releasing the nations to come out and worship. Chapters 17 and 18 are read as unfolding inside this last bowl.",
+          "texts": [
+            "Revelation 16:17-19",
+            "John 19:30",
+            "Revelation 18:4"
+          ]
+        }
       ]
     },
     {
@@ -1657,14 +2301,15 @@
     {
       "chapter": 18,
       "theme": "Babylon fallen: come out of her",
-      "christRevealed": "Christ is revealed as the one who calls his people out, as the true merchant who sells gold without price, and as the lamp and bridegroom whose voice will never again be heard in Babylon because it belongs to the New Jerusalem.",
-      "reading": "A glorious angel lights the earth and cries 'Fallen, fallen is Babylon the great'. Then another voice says 'Come out of her, my people'. This view takes that call as the centre of the chapter. Coming out of Babylon is not mainly a geographical move or a withdrawal from society. It is a departure in mind and heart from the system of mixture, self-exaltation and trade in souls. Babylon says in her heart 'I sit as a queen and will never see mourning'. That is self-sufficiency again, and it falls in a single hour.\n\nThe long list of cargo, from gold, silver and fine linen down to cattle, sheep, horses and chariots, ends with 'slaves, that is, human souls'. This view reads the list as Babylon's real business: the commerce of the soul, a religious and economic system that buys and sells people and keeps them labouring for what does not satisfy. The kings and merchants lament from a distance, but heaven rejoices. The millstone thrown into the sea and the silence of the city's music, crafts, lamps and wedding voices show its total end. The lamp and the voice of the bridegroom and bride are not lost. They move to the other city.",
+      "christRevealed": "Christ is revealed as the one who calls his people out, as the true merchant who sells gold without price, and as the lamp and bridegroom whose voice will never again be heard in Babylon because it belongs to the New Jerusalem. He is also the 'another angel' of 18:1, the Lord as Spirit, whose glory lights the earth with revelation.",
+      "reading": "A glorious angel lights the earth and cries 'Fallen, fallen is Babylon the great'. Then another voice says 'Come out of her, my people'. This view takes that call as the centre of the chapter. Coming out of Babylon is not mainly a geographical move or a withdrawal from society. It is a departure in mind and heart from the system of mixture, self-exaltation and trade in souls. Babylon says in her heart 'I sit as a queen and will never see mourning'. That is self-sufficiency again, and it falls in a single hour.\n\nThe long list of cargo, from gold, silver and fine linen down to cattle, sheep, horses and chariots, ends with 'slaves, that is, human souls'. This view reads the list as Babylon's real business: the commerce of the soul, a religious and economic system that buys and sells people and keeps them labouring for what does not satisfy. The kings and merchants lament from a distance, but heaven rejoices. The millstone thrown into the sea and the silence of the city's music, crafts, lamps and wedding voices show its total end. The lamp and the voice of the bridegroom and bride are not lost. They move to the other city.\n\nThe teaching surveyed here reads the angel who lights the earth as Christ himself, descending as Spirit into the parts of the soul not yet enlightened. Babylon is a mystery, and only revelation exposes it. Distinctively, it reads Babylon as the man-made, institutional religious system, fallen from grace into law-keeping and human doctrine, which looks exactly like the bride from outside (17:4; 21:18-21). The order is revelation, recognition, then departure. God calls his people out before he brings the system down, and he judges the system, not the people. The teaching applies this to oneself first.",
       "insights": [
         "'Come out of her' is a call to the mind and heart. The answer to Babylon is departure, not fear of her.",
         "The cargo list ends with human souls. Babylon's real trade is people.",
         "Babylon falls in one hour. What is built without God has no foundation.",
         "Heaven rejoices over her fall. The end of the old system is good news.",
-        "The bridegroom's and bride's voices fall silent in Babylon because the wedding belongs to the New Jerusalem."
+        "The bridegroom's and bride's voices fall silent in Babylon because the wedding belongs to the New Jerusalem.",
+        "'Another angel' (Revelation 18:1) is read as Christ himself as Spirit, lighting the soul with revelation. No one can leave a mystery they cannot see."
       ],
       "symbolInsights": [
         {
@@ -1706,19 +2351,88 @@
         "Jeremiah 51:6-9",
         "2 Corinthians 6:17",
         "Isaiah 55:1-2"
+      ],
+      "depth": [
+        {
+          "title": "18:1 Another angel",
+          "text": "'Another' is read as the same Lord in another form or administration, just as Jesus promised 'another Helper' and Paul wrote that 'the Lord is the Spirit'. Coming down from heaven with great authority, this angel is taken to be Christ himself as Spirit.",
+          "texts": [
+            "Revelation 18:1",
+            "John 14:16-18",
+            "2 Corinthians 3:17",
+            "1 Corinthians 12:4-6"
+          ]
+        },
+        {
+          "title": "18:1 The earth lit with his glory",
+          "text": "On this reading Christ descends from the 'heaven' of the believer's spirit into the 'earth' of a soul not yet enlightened. The light is revelation, the eyes of the heart enlightened, and revelation is what a 'mystery' such as Babylon requires.",
+          "texts": [
+            "Revelation 18:1",
+            "Ephesians 1:17-18",
+            "Isaiah 60:1-2"
+          ]
+        },
+        {
+          "title": "18:2 Fallen, fallen",
+          "text": "This view reads the cry as an unveiling of Babylon's existing condition rather than news of a fresh event: she has fallen from grace by seeking righteousness through law. Her dens of demons and unclean birds are read as false doctrines and spirits of error.",
+          "texts": [
+            "Revelation 18:2",
+            "Galatians 5:1-4",
+            "1 Timothy 4:1"
+          ]
+        },
+        {
+          "title": "17:4–5 with 21:18–21 Two women, one appearance",
+          "text": "Distinctively, this teaching reads Babylon as the man-made, institutional religious system, in contrast to the church Christ builds by revelation. Harlot and bride wear the same gold, precious stones and pearls, so they cannot be told apart from outside. She is 'mother of harlots' because the drift began early, as Paul's 'so soon' to the Galatians shows.",
+          "texts": [
+            "Revelation 17:4-5",
+            "Revelation 21:18-21",
+            "Galatians 1:6",
+            "Matthew 16:18"
+          ]
+        },
+        {
+          "title": "18:4 Come out of her, my people",
+          "text": "The sequence is revelation (verse 1), recognition (verse 2), then departure (verse 4): no one can leave a mystery they cannot see. God calls his people out before the system falls, and he judges the system, not the people. The teaching insists the call is applied to oneself, not used to judge other believers.",
+          "texts": [
+            "Revelation 18:4",
+            "Jeremiah 51:6",
+            "2 Corinthians 6:16-17"
+          ]
+        },
+        {
+          "title": "18:21 and Jeremiah 51 The destroying wind and the stone",
+          "text": "The chapter draws heavily on Jeremiah 51. This view reads the 'destroying wind' and the stirred-up spirit of the kings of the Medes as the Spirit at work through those joined to the Lord. The scroll weighted with a stone and sunk in the Euphrates is the pattern for the millstone thrown into the sea.",
+          "texts": [
+            "Jeremiah 51:1",
+            "Jeremiah 51:11",
+            "Jeremiah 51:63-64",
+            "Revelation 18:21"
+          ]
+        },
+        {
+          "title": "11:13 and 14:1–4 Firstfruits, then the harvest",
+          "text": "The tenth of the city that falls in chapter 11 is read as a tithe, recalling Abraham's tenth to Melchizedek, and the firstfruits on Mount Zion as the first to come out. Firstfruits imply a full harvest still to be gathered out of Babylon, so those who have come out are there to help others out, not to boast.",
+          "texts": [
+            "Revelation 11:13",
+            "Revelation 14:1-4",
+            "Genesis 14:18-20"
+          ]
+        }
       ]
     },
     {
       "chapter": 19,
       "theme": "The marriage of the Lamb and the Word on the white horse",
-      "christRevealed": "The Bridegroom whose marriage has come, Faithful and True, the Word of God whose robe is dipped in blood. He conquers by the sword from his mouth and bears the name King of kings and Lord of lords.",
-      "reading": "Heaven bursts into Hallelujah because the harlot is judged and the marriage of the Lamb has come. The two women of the book meet their ends: the harlot falls and the bride stands ready. Her fine linen, bright and clean, was 'given to her'. The text identifies it as the righteous acts of the saints, and this view reads those acts as the fruit of grace rather than the price of admission. 'Blessed are those invited to the marriage supper of the Lamb.' This view treats the marriage as the goal of the whole book and of the cross: union with Christ.\n\nThen heaven opens and a rider on a white horse appears, called Faithful and True, the Word of God. Many readers see the second coming here. Most in this view also affirm a future return, but they stress that this rider conquers in the way the Lamb conquers. His robe is dipped in blood before any battle, and that is his own blood. The only weapon named comes from his mouth. His armies wear fine linen and are never shown fighting. The beast and the false prophet are captured, and the rest are slain by the sword of his mouth. On this reading the Word ends the old order, and the opposite supper, the birds' feast, shows what becomes of everything that exalted itself against him.",
+      "christRevealed": "The Bridegroom whose marriage has come, Faithful and True, the Word of God whose robe is dipped in blood. He conquers by the sword from his mouth and bears the name King of kings and Lord of lords. He is the Bridegroom who will not force a bride, whose own righteous act is the linen she is given.",
+      "reading": "Heaven bursts into Hallelujah because the harlot is judged and the marriage of the Lamb has come. The two women of the book meet their ends: the harlot falls and the bride stands ready. Her fine linen, bright and clean, was 'given to her'. The text identifies it as the righteous acts of the saints, and this view reads those acts as the fruit of grace rather than the price of admission. 'Blessed are those invited to the marriage supper of the Lamb.' This view treats the marriage as the goal of the whole book and of the cross: union with Christ.\n\nThen heaven opens and a rider on a white horse appears, called Faithful and True, the Word of God. Many readers see the second coming here. Most in this view also affirm a future return, but they stress that this rider conquers in the way the Lamb conquers. His robe is dipped in blood before any battle, and that is his own blood. The only weapon named comes from his mouth. His armies wear fine linen and are never shown fighting. The beast and the false prophet are captured, and the rest are slain by the sword of his mouth. On this reading the Word ends the old order, and the opposite supper, the birds' feast, shows what becomes of everything that exalted itself against him.\n\nThe teaching surveyed here reads the chapter as the high point of a love story that began with Adam and Eve. The Lamb does not force a bride who does not love him; the seals, trumpets and bowls were his work of washing her until his love reached her heart. Her linen is his 'righteous act' given to her (Romans 5:18), the reverse of the fig leaves sewn in Eden. Once clothed she rides in his army, and the war of 19:11-21 is read as the Word clearing away what remains of the flesh. The church that was one spirit with the Lord in chapter 1 is here brought to the 'one flesh' of the marriage.",
       "insights": [
         "Two women and two suppers. The harlot's judgment and the bride's wedding belong together in one chapter.",
         "The bride's linen is 'given', so her righteousness is received as a gift and expressed in life.",
         "The rider's robe is dipped in blood before the battle. It is the blood of the cross, not of his enemies.",
         "The only weapon is the sword from his mouth: Christ conquers by his word.",
-        "The testimony of Jesus is the spirit of prophecy (Revelation 19:10). All true prophecy bears witness to him."
+        "The testimony of Jesus is the spirit of prophecy (Revelation 19:10). All true prophecy bears witness to him.",
+        "The bride's linen is read as the Bridegroom's 'righteous act' given to her (Romans 5:18), the reverse of Eden's fig leaves."
       ],
       "symbolInsights": [
         {
@@ -1760,19 +2474,87 @@
         "Isaiah 61:10",
         "Hebrews 4:12",
         "John 1:1-14"
+      ],
+      "depth": [
+        {
+          "title": "19:1–2 One judgment, two outcomes",
+          "text": "Heaven's Hallelujah celebrates judgments that are true and righteous. This view reads one judgment working two ways: the harlot is put away and the bride is made ready. Every judgment aims at salvation and at God's glory being seen on earth.",
+          "texts": [
+            "Revelation 19:1-2",
+            "Isaiah 26:9"
+          ]
+        },
+        {
+          "title": "19:7 The bride has made herself ready",
+          "text": "On this reading the Lamb does not force a bride who does not love him. Everything up to chapter 19, the seals, trumpets and bowls, is his work of washing the church until his love, shown long ago at the cross, reaches her heart and she receives it. Scripture opens with a wedding in Eden and closes with this one.",
+          "texts": [
+            "Revelation 19:7",
+            "Ephesians 5:25-27",
+            "Genesis 2:22-24"
+          ]
+        },
+        {
+          "title": "19:8 Fine linen: the righteous act given",
+          "text": "'It was granted to her' marks the linen as a gift. The teaching reads 'the righteous acts of the saints' as the holy righteous act of the Bridegroom, comparing 'one man's righteous act' in Romans 5:18, rather than the bride's religious performance. It is the reverse of the fig leaves Adam and Eve sewed, and recalls the garments God made for them himself.",
+          "texts": [
+            "Revelation 19:8",
+            "Romans 5:18",
+            "Genesis 3:7",
+            "Genesis 3:21",
+            "Isaiah 61:10"
+          ]
+        },
+        {
+          "title": "19:11–13 The rider called the Word of God",
+          "text": "After the bride is ready there is war again. This view reads the rider, Faithful and True, whose name is the Word of God, as the Word himself dealing with the last remnants of Adamic carnality in his people. His robe is dipped in blood before any battle.",
+          "texts": [
+            "Revelation 19:11-13",
+            "John 1:1",
+            "Ephesians 5:26"
+          ]
+        },
+        {
+          "title": "19:14 Armies in fine linen",
+          "text": "The armies wear the same linen the bride has just received. On this reading, once the bride is ready she rides in his army: no longer captive in Babylon but on the Bridegroom's side against what remains of the flesh.",
+          "texts": [
+            "Revelation 19:14",
+            "Revelation 17:14",
+            "Ephesians 6:10-17"
+          ]
+        },
+        {
+          "title": "19:15, 21 The sword from his mouth",
+          "text": "Every enemy falls to the sword of his mouth, which this view reads as the Word destroying another 'word' within: God's wisdom ends human wisdom and truth ends the lie. The teaching treats this cleansing as part of the marriage supper, the bride yielding to her husband's love and putting away what is left of the harlot.",
+          "texts": [
+            "Revelation 19:15",
+            "Revelation 19:21",
+            "Hebrews 4:12",
+            "2 Corinthians 10:4-5"
+          ]
+        },
+        {
+          "title": "Chapters 1 and 19 One spirit, then one flesh",
+          "text": "This view notes that Ephesians speaks of 'one flesh', not 'one spirit'. It reads the believer as first one spirit with the Lord and then brought to oneness in the flesh, which it connects with the lowly body being changed to be like his glorious body. Revelation 1 shows the church one in spirit, and chapter 19 the union made complete.",
+          "texts": [
+            "1 Corinthians 6:17",
+            "Ephesians 5:31-32",
+            "Philippians 3:20-21"
+          ]
+        }
       ]
     },
     {
       "chapter": 20,
       "theme": "The strong man bound: reigning in life",
-      "christRevealed": "Christ is revealed as the one who binds the strong man, the resurrection and the life, the King with whom his people reign, and the Judge on the great white throne before whom death and Hades are destroyed.",
-      "reading": "An angel with the key of the abyss binds the dragon for a thousand years so that he may no longer deceive the nations. Thrones are set, and souls who did not worship the beast come to life and reign with Christ. This is the first resurrection. Premillennial readers see a future earthly kingdom after Christ's return. This view, like amillennial and some postmillennial readings, sees the present reign of Christ. Jesus said he had bound the strong man (Matthew 12:29) and that the ruler of this world was cast out (John 12:31). The thousand years is the fullness of that reign, ten cubed, and the nations are now open to the gospel.\n\nThe first resurrection is read as the new birth. Believers who have passed from death to life (John 5:24) and been raised with Christ (Ephesians 2:5-6) reign with him as priests now, in life (Romans 5:17). The second death has no power over them. The release of Satan and the Gog and Magog gathering show the old order's last surge against the beloved city, ended at once by fire from heaven. Then comes the great white throne. The books are opened, but so is the book of life, and in this tradition the believer's hope rests on that book, the Lamb's book. Death and Hades themselves are thrown into the lake of fire, which is the end of everything that opposes life. Proponents differ on the details of final judgment but agree that its last enemy is death itself.",
+      "christRevealed": "Christ is revealed as the one who binds the strong man, the resurrection and the life, the King with whom his people reign, and the Judge on the great white throne before whom death and Hades are destroyed. He is also the true Head and Husband of the soul, and himself the book of life.",
+      "reading": "An angel with the key of the abyss binds the dragon for a thousand years so that he may no longer deceive the nations. Thrones are set, and souls who did not worship the beast come to life and reign with Christ. This is the first resurrection. Premillennial readers see a future earthly kingdom after Christ's return. This view, like amillennial and some postmillennial readings, sees the present reign of Christ. Jesus said he had bound the strong man (Matthew 12:29) and that the ruler of this world was cast out (John 12:31). The thousand years is the fullness of that reign, ten cubed, and the nations are now open to the gospel.\n\nThe first resurrection is read as the new birth. Believers who have passed from death to life (John 5:24) and been raised with Christ (Ephesians 2:5-6) reign with him as priests now, in life (Romans 5:17). The second death has no power over them. The release of Satan and the Gog and Magog gathering show the old order's last surge against the beloved city, ended at once by fire from heaven. Then comes the great white throne. The books are opened, but so is the book of life, and in this tradition the believer's hope rests on that book, the Lamb's book. Death and Hades themselves are thrown into the lake of fire, which is the end of everything that opposes life. Proponents differ on the details of final judgment but agree that its last enemy is death itself.\n\nThe teaching surveyed here adds a sharper reading of verse 4. It is the souls, not the bodies, that are beheaded: the soul's old head or husband (sin, the carnal mind, Adam, the serpent) is cut off at the altar of the cross. That is the first death, and sharing Christ's resurrection life is the first resurrection. The souls who cried 'How long?' in chapter 6 now sit on thrones and carry out God's judgment, a judgment that brings life to the nations. The lake of fire is linked with the altar fire that consumed the sacrifice, and the book of life is read as Christ himself.",
       "insights": [
         "The binding of Satan is read through Matthew 12:29 and John 12:31: the strong man was bound by Christ's work.",
         "The thousand years is the fullness of Christ's present reign, and believers reign in life now (Romans 5:17).",
         "The first resurrection is the new birth (John 5:24-25). The second death has no power over those raised with Christ.",
         "At the white throne the book of life is opened alongside the books of works. The Lamb's book is the believer's ground of hope.",
-        "Death and Hades are thrown into the lake. The last enemy is destroyed (1 Corinthians 15:26)."
+        "Death and Hades are thrown into the lake. The last enemy is destroyed (1 Corinthians 15:26).",
+        "The souls 'beheaded' (Revelation 20:4) are read as souls whose old head, sin and the carnal mind, has been cut off at the cross. Those who cried 'How long?' (Revelation 6:10) now carry out judgment."
       ],
       "symbolInsights": [
         {
@@ -1815,19 +2597,90 @@
         "Ephesians 2:5-6",
         "Romans 5:17",
         "1 Corinthians 15:25-26"
+      ],
+      "depth": [
+        {
+          "title": "3:21 to 20:4 From seeing the throne to sitting on it",
+          "text": "This view reads chapter 20 as the completion of the promise in 3:21. In chapter 5 the redeemed learn that they are made kings and priests who will reign on the earth; in chapter 20 that identity is lived. The reign is on earth and in the present, since heaven does not need believers to reign there.",
+          "texts": [
+            "Revelation 3:21",
+            "Revelation 5:9-10",
+            "Revelation 20:4"
+          ]
+        },
+        {
+          "title": "20:4 Thrones, and judgment given",
+          "text": "Plural thrones and an unnamed 'they': the overcomers are seated as kings to carry out God's judgment. On this reading the souls who cried 'How long?' under the altar (6:10) heard the altar affirm God's judgments (16:7), saw their blood avenged (19:2), and now execute judgment themselves, a judgment that brings life to others.",
+          "texts": [
+            "Revelation 20:4",
+            "Revelation 6:9-10",
+            "Revelation 16:7",
+            "Revelation 19:2",
+            "1 Corinthians 6:2-3"
+          ]
+        },
+        {
+          "title": "20:4 Souls beheaded",
+          "text": "This view notes that it is souls, not bodies, said to be beheaded. Reading 'head' alongside 'husband' (Ephesians 5:23), it takes the beheading as the soul's old head being cut off: sin, the carnal mind, Adam and the serpent. Freed from the former husband, the soul is joined to Christ.",
+          "texts": [
+            "Revelation 20:4",
+            "Ephesians 5:23",
+            "Romans 7:1-4",
+            "Matthew 16:24-25"
+          ]
+        },
+        {
+          "title": "6:9 Slain through the word of God",
+          "text": "On this reading 'slain for the word of God' is better taken as slain through it: the word itself does the slaying. Truth kills the lie and cuts off carnal thinking.",
+          "texts": [
+            "Revelation 6:9",
+            "Hebrews 4:12",
+            "John 17:17"
+          ]
+        },
+        {
+          "title": "20:5–6 First death, first resurrection",
+          "text": "The believer's share in the cross is read as the first death, the end of the old man, and Christ the life-giving Spirit raised within as the first resurrection. The second death has no power over those who have passed through the first. The teaching warns against fixing on numbers such as 'first' and 'a thousand' rather than on the First and the Last.",
+          "texts": [
+            "Revelation 20:5-6",
+            "Romans 6:3-6",
+            "1 Corinthians 15:45-46"
+          ]
+        },
+        {
+          "title": "20:14–15 The lake of fire and the altar fire",
+          "text": "This view links the lake of fire with the fire on the altar that consumed the flesh of the sacrifice. Death, Hades and every remnant of carnality are burned up there, and those who went to the cross but turned back to their old 'husband' are urged to return to the altar. The teaching declines to read these verses as hellish punishment; others who share the wider view hold different positions on final judgment.",
+          "texts": [
+            "Revelation 20:14-15",
+            "Leviticus 6:12-13",
+            "Hebrews 12:29",
+            "1 Corinthians 3:13-15"
+          ]
+        },
+        {
+          "title": "20:12, 15 The book of life",
+          "text": "It is the book of life, not a book of the soul, which on this reading marks the move from living soul to life-giving spirit. Christ himself is taken to be the book: the Alpha and Omega with whose letters it is written, the one of whom 'the volume of the book' speaks.",
+          "texts": [
+            "Revelation 20:12",
+            "Revelation 20:15",
+            "Hebrews 10:7",
+            "Revelation 22:13"
+          ]
+        }
       ]
     },
     {
       "chapter": 21,
       "theme": "All things new: the bride-city comes down",
       "christRevealed": "The Alpha and Omega who says 'It is done' and 'I make all things new', who gives the water of life freely, and the Lamb who is the city's temple and its lamp.",
-      "reading": "John sees a new heaven and a new earth, and the sea is no more. The holy city, the New Jerusalem, comes down out of heaven from God, prepared as a bride. An angel says 'Come, I will show you the bride', and then shows a city. This view takes that literally as an interpretive instruction: the city is the bride, the people of God in union with Christ. It comes down, so it is grace from above, the opposite of Babel's tower built from below. God's dwelling is with humanity. He wipes away every tear and says 'Behold, I make all things new' and 'It is done'.\n\nThe city's dimensions are a perfect cube, like the Most Holy Place of the temple. In this reading the whole people of God has become the Holy of Holies. Its walls rest on the apostles, its gates bear the tribes, and its gates are single pearls, each formed around a wound. There is no temple, because God and the Lamb are its temple. There is no sun, because the Lamb is its lamp. Proponents hold both senses at once: this is the new creation already begun in every believer (2 Corinthians 5:17), and it is the final hope of a renewed cosmos. What is excluded is everything unclean. What is included is everyone written in the Lamb's book of life.",
+      "reading": "John sees a new heaven and a new earth, and the sea is no more. The holy city, the New Jerusalem, comes down out of heaven from God, prepared as a bride. An angel says 'Come, I will show you the bride', and then shows a city. This view takes that literally as an interpretive instruction: the city is the bride, the people of God in union with Christ. It comes down, so it is grace from above, the opposite of Babel's tower built from below. God's dwelling is with humanity. He wipes away every tear and says 'Behold, I make all things new' and 'It is done'.\n\nThe city's dimensions are a perfect cube, like the Most Holy Place of the temple. In this reading the whole people of God has become the Holy of Holies. Its walls rest on the apostles, its gates bear the tribes, and its gates are single pearls, each formed around a wound. There is no temple, because God and the Lamb are its temple. There is no sun, because the Lamb is its lamp. Proponents hold both senses at once: this is the new creation already begun in every believer (2 Corinthians 5:17), and it is the final hope of a renewed cosmos. What is excluded is everything unclean. What is included is everyone written in the Lamb's book of life.\n\nThe teaching surveyed here reads heaven as what rules a person and earth as what is ruled, the heart where seed is sown. The former heaven and earth are the old man and every old ruling system, the new are the new creation in Christ, and 2 Corinthians 5:17 is treated as a one-verse parallel. As Eve was built from Adam, the bride comes out of the heavenly Man and comes down to earth. 'Former things' not remembered is linked to God remembering sins no more (Hebrews 10:17), and the purging fire is something to desire rather than fear.",
       "insights": [
         "'Come, I will show you the bride', followed by the sight of a city. The New Jerusalem is the bride.",
         "No more sea: the restless, unrenewed mind and the chaotic nations are gone in the new creation.",
         "'It is done' and 'I make all things new' echo the cross and the new creation in Christ (2 Corinthians 5:17).",
         "The cube shape makes the whole city the Holy of Holies. God's people are his dwelling.",
-        "The Lamb is the lamp, so the city's light is the glory of God in the face of Christ."
+        "The Lamb is the lamp, so the city's light is the glory of God in the face of Christ.",
+        "Heaven is read as what rules and earth as what is ruled, so the passing of the former heaven and earth is the old man giving way to the new (2 Corinthians 5:17)."
       ],
       "symbolInsights": [
         {
@@ -1870,19 +2723,87 @@
         "Hebrews 12:22",
         "Isaiah 65:17-19",
         "1 Kings 6:20"
+      ],
+      "depth": [
+        {
+          "title": "21:1 New heaven and new earth",
+          "text": "This view reads heaven and earth here as humanity in two states: heaven as what rules (as the lights rule day and night) and earth as what is ruled, the heart where seed is sown. The former heaven and earth are the old man and every old ruling system; the new are the new creation in Christ. 2 Corinthians 5:17 is treated as a one-verse parallel.",
+          "texts": [
+            "Revelation 21:1",
+            "Genesis 1:16-18",
+            "2 Corinthians 5:17",
+            "Isaiah 66:1"
+          ]
+        },
+        {
+          "title": "20:11 Fled from his face",
+          "text": "In the lead-in, earth and heaven flee from the face of the one on the throne, a face that shines like the sun (1:16). On this reading the fire that burns the beast and its image away is the purging of the old, something to long for rather than fear.",
+          "texts": [
+            "Revelation 20:11",
+            "Revelation 1:16",
+            "2 Peter 3:10-13",
+            "Malachi 4:2"
+          ]
+        },
+        {
+          "title": "21:2 The bride drawn out of the heavenly Man",
+          "text": "As Eve was built from the side of the earthly Adam, the bride-city comes out of the heavenly Man. This is the washed church without spot or wrinkle, not the mixed churches of chapters 2-3. She comes down to earth rather than staying in a distant heaven.",
+          "texts": [
+            "Revelation 21:2",
+            "Genesis 2:21-23",
+            "Ephesians 5:26-32"
+          ]
+        },
+        {
+          "title": "21:2 with Galatians 4:26 The city as mother",
+          "text": "Eve was mother of all living by the flesh; the Jerusalem above is 'the mother of us all'. This view reads the union of Christ and his bride as the source of new birth on earth, whose fruit is the sons of God.",
+          "texts": [
+            "Galatians 4:26",
+            "Genesis 3:20",
+            "Romans 8:19"
+          ]
+        },
+        {
+          "title": "21:3 The dwelling of God with people",
+          "text": "On this reading the new heaven is not a location but a realm of being: union with God, in which a person sees, thinks and understands themselves through Christ.",
+          "texts": [
+            "Revelation 21:3",
+            "John 14:23",
+            "John 17:21-23"
+          ]
+        },
+        {
+          "title": "21:4–5 Former things not remembered",
+          "text": "The teaching links these verses with Isaiah 65:17 and God's promise to remember sins no more. Holding on to old memories of sin is read as letting the old heaven still rule. 'I make all things new' shows that God's plan is renewal, not destruction.",
+          "texts": [
+            "Revelation 21:4-5",
+            "Isaiah 65:17",
+            "Hebrews 10:17"
+          ]
+        },
+        {
+          "title": "21:6 The spring of the water of life",
+          "text": "The Alpha and Omega here is the same one revealed in chapter 1, whose voice is 'like many waters'. This view hears in that voice the river of life that flows out in chapter 22.",
+          "texts": [
+            "Revelation 21:6",
+            "Revelation 1:15",
+            "John 4:14"
+          ]
+        }
       ]
     },
     {
       "chapter": 22,
       "theme": "The river and the tree of life: Eden fulfilled in union",
       "christRevealed": "The Lamb on the throne from which the river flows, the tree of life, the Root and Offspring of David, the bright Morning Star, and the one who says 'I am coming' and whose grace closes the book.",
-      "reading": "The book ends where the Bible began, in a garden, but now the garden is inside a city that is a bride. A river of the water of life, clear as crystal, flows from the throne of God and of the Lamb. On either side stands the tree of life, bearing fruit every month, and its leaves heal the nations. This view reads the river as the Spirit flowing from the finished work (John 7:37-39) and the tree as Christ himself, life by union rather than by the knowledge of good and evil. The tree of life that was closed to Adam and guarded by a flaming sword is open again. There is no more curse, because Christ became a curse on a tree (Galatians 3:13).\n\nHis servants see his face, and his name is on their foreheads. This is the final answer to the beast's mark: a mind fully bearing his identity and a life lived face to face. The epilogue repeats that the time is near and that he is coming, and the book closes with invitation rather than threat. The Spirit and the bride say 'Come', whoever is thirsty may come, and whoever wishes may take the water of life freely. Those who wash their robes have the right to the tree of life. The last word is grace: 'The grace of the Lord Jesus be with all.'",
+      "reading": "The book ends where the Bible began, in a garden, but now the garden is inside a city that is a bride. A river of the water of life, clear as crystal, flows from the throne of God and of the Lamb. On either side stands the tree of life, bearing fruit every month, and its leaves heal the nations. This view reads the river as the Spirit flowing from the finished work (John 7:37-39) and the tree as Christ himself, life by union rather than by the knowledge of good and evil. The tree of life that was closed to Adam and guarded by a flaming sword is open again. There is no more curse, because Christ became a curse on a tree (Galatians 3:13).\n\nHis servants see his face, and his name is on their foreheads. This is the final answer to the beast's mark: a mind fully bearing his identity and a life lived face to face. The epilogue repeats that the time is near and that he is coming, and the book closes with invitation rather than threat. The Spirit and the bride say 'Come', whoever is thirsty may come, and whoever wishes may take the water of life freely. Those who wash their robes have the right to the tree of life. The last word is grace: 'The grace of the Lord Jesus be with all.'\n\nThe teaching surveyed here reads the chapter as Eden enlarged into a city. The river is called pure because it is unmixed, and it is read as the revelation of Jesus Christ flowing from the throne of grace. The tree of life is read as a person, the blessed one of Psalm 1 planted by the river and bearing fruit. The servants of verse 3 are living people with cleansed consciences (Hebrews 9:14). Because the Spirit and the bride are still saying 'Come' (22:17), the chapter is read as a present invitation rather than a scene after history has ended.",
       "insights": [
         "The Bible's story moves from Eden's two trees to the one tree of life, open again and on both sides of the river.",
         "'No more curse' (Revelation 22:3) is the fruit of Christ becoming a curse on the tree (Galatians 3:13).",
         "God's name on their foreheads and his face seen is the final answer to the beast's mark: a mind and identity wholly his.",
         "The closing invitation is free: 'take the water of life without price'. The book ends with grace.",
-        "'Do not seal up the words' (Revelation 22:10): the book was meant to be open and understood, not feared."
+        "'Do not seal up the words' (Revelation 22:10): the book was meant to be open and understood, not feared.",
+        "The tree of life is read as a person: the blessed one of Psalm 1, planted by the river and bearing fruit."
       ],
       "symbolInsights": [
         {
@@ -1925,6 +2846,73 @@
         "Galatians 3:13",
         "John 7:37-39",
         "Ezekiel 47:1-12"
+      ],
+      "depth": [
+        {
+          "title": "22:1 A pure river",
+          "text": "The teaching stresses the word 'pure': many streams people drink from are muddy, mixed with what is not from God. This view reads the river as the pure word, the revelation of Jesus Christ, flowing from the throne. Anything added to it ministers death rather than life.",
+          "texts": [
+            "Revelation 22:1",
+            "John 6:63",
+            "Genesis 2:10"
+          ]
+        },
+        {
+          "title": "22:1–3 The throne of grace and its servants",
+          "text": "The throne is read as the mercy seat, the throne of grace from which purification flows. Its servants are living people whose consciences have been cleansed from dead works, since only a purified conscience can serve the living God.",
+          "texts": [
+            "Revelation 22:3",
+            "Hebrews 4:16",
+            "Hebrews 9:13-14"
+          ]
+        },
+        {
+          "title": "22:2 The tree of life is a person",
+          "text": "If the river is not on another planet, neither is the tree. This view reads the tree of life as the blessed person of Psalm 1, planted by streams of water and bearing fruit in season. Believers drink from the river and feed others with their fruit.",
+          "texts": [
+            "Revelation 22:2",
+            "Psalm 1:1-3",
+            "Colossians 1:9-10"
+          ]
+        },
+        {
+          "title": "22 and Genesis 2 Eden enlarged into a city",
+          "text": "The chapter replays Genesis 2 with a difference: the garden has become a city. Eden means delight, and the river is read as flowing from the Father's pleasure in the Son. With the serpent and the tree of knowledge removed in chapters 19-20, only the tree of life remains, and the choice of Deuteronomy 30, 'choose life', is set before the reader again.",
+          "texts": [
+            "Genesis 2:8-10",
+            "Matthew 3:17",
+            "Deuteronomy 30:19",
+            "Revelation 22:3"
+          ]
+        },
+        {
+          "title": "22:7, 14 Blessed, word, keep",
+          "text": "Verse 7 repeats three words from 1:3: blessed, words and keep. This view defines the words to keep by 1:1-2, the revelation of Jesus Christ, the word of God and his testimony. The 'commandments' of 22:14 (in the reading followed here) are taken in that light rather than as a list of rules.",
+          "texts": [
+            "Revelation 1:1-3",
+            "Revelation 22:7",
+            "Revelation 22:14",
+            "1 John 3:23"
+          ]
+        },
+        {
+          "title": "22:10 Do not seal the words",
+          "text": "What Daniel was told to seal is here left open. 'The time is near' is read as meant for John's hearers and for anyone whose ears are open to the Spirit, not as a far-off date.",
+          "texts": [
+            "Revelation 22:10",
+            "Daniel 12:4",
+            "Revelation 1:3"
+          ]
+        },
+        {
+          "title": "22:17 The Spirit and the bride say 'Come'",
+          "text": "The water offered in verse 17 is the same as in verse 1. The teaching reasons that if this were a scene after history had ended, no invitation would still be open, so the chapter is read as a present opportunity to drink.",
+          "texts": [
+            "Revelation 22:17",
+            "Isaiah 55:1",
+            "John 7:37-38"
+          ]
+        }
       ]
     }
   ],
@@ -1944,6 +2932,18 @@
     {
       "critique": "It softens judgment and warning. Revelation contains sober warnings to churches ('repent, or else', Revelation 2:5, 16; 3:16) and to all who take the beast's mark (Revelation 14:9-11), along with vivid images of wrath and the lake of fire. Critics argue that reading all judgment as falling on 'the old order' or 'the flesh' can make the warnings toothless. They say it can drift toward presumption, antinomianism or universalism, and that being 'not fear-based' may not match a book that calls readers to fear God (Revelation 14:7).",
       "response": "Proponents say judgment is real and the warnings are meant seriously, but they read both from the cross. Sin, death and the accuser have been judged in Christ, so the warnings call people to turn to him rather than to fear for their standing in him (Romans 8:1). The fear of God in Revelation 14:7 is read as reverent worship, not dread. They note that 'repent' (metanoia) calls for a real change of mind that has effects in conduct. Within the view, positions on the lake of fire differ, from final judgment to purifying fire. Many proponents explicitly reject universalism, and most insist that grace teaches holiness (Titus 2:11-12) rather than licence."
+    },
+    {
+      "critique": "Reading the male child of Revelation 12 as the company of overcomers strains the text. Revelation 12:5 quotes Psalm 2:9, a messianic psalm, and the child 'caught up to God and to his throne' most naturally describes Jesus' ascension. Critics argue that making the child a group of mature believers risks blurring the uniqueness of Christ and encourages a spiritual elite.",
+      "response": "Proponents agree that the child is first of all Christ. They point out that Revelation itself applies the same Psalm 2 promise to 'the one who overcomes' (Revelation 2:26-27), and that the New Testament speaks of Christ as head and body (1 Corinthians 12:12) and of Christ being formed in believers (Galatians 4:19). They read the overcomer reading as an extension of the messianic one, not a replacement for it, and they say an overcomer is simply one who believes that Jesus is the Son of God (1 John 5:4-5), not a superior class."
+    },
+    {
+      "critique": "Equating Babylon with the institutional church is hard to square with the text. Revelation ties Babylon to the kings and merchants of the earth, to seven hills and to the blood of the saints (Revelation 17:6, 9, 18; 18:24), which most scholars take as an imperial and economic power persecuting the church. Critics also warn that the label can breed suspicion of other Christians and of church life in general.",
+      "response": "Proponents note that the prophets regularly called God's own unfaithful people a harlot (Isaiah 1:21; Ezekiel 16), and that Revelation's harlot is dressed almost exactly like the bride (17:4; 21:18-21), so a counterfeit of the people of God is a natural reading. Many also accept a political and economic dimension. They stress that God judges the system, not the people in it, and that the call 'come out of her' is to be applied to one's own heart first rather than used against other believers."
+    },
+    {
+      "critique": "Some teaching within this view goes further than its own mainstream. Reading every 'coming' of Christ as inward, the lake of fire as the purifying altar fire, and 1 Timothy 4:10 ('Saviour of all people') as a covenant that includes everyone can leave little room for a future bodily return (Acts 1:11), for the separation described in Revelation 20:15 and 21:8, or for the distinction Paul makes in 'especially of those who believe'.",
+      "response": "Those who hold these readings say that fire in Scripture often purifies (Malachi 3:2-3; 1 Corinthians 3:13-15), that God desires all people to be saved (1 Timothy 2:4), and that the cross is where judgment fell. They argue that 'coming' language in the New Testament has several layers (John 14:18, 23), so present comings need not exclude a final one. Others in the wider Spiritual Understanding disagree and affirm a future personal return and a real final judgment. They treat these readings as one strand within the view rather than its consensus."
     }
   ],
   "sources": [
@@ -2066,6 +3066,17 @@
       ]
     },
     {
+      "id": "signs",
+      "step": "Follow the sign to what it points to",
+      "text": "The book says it was 'signified', shown in signs (Revelation 1:1). A sign is not looked at but followed. Jesus gave one sign to a generation that kept asking for signs, the sign of Jonah: his death, burial and resurrection. This view treats it as the master key, so every image is read within that frame and any interpretation that does not lead back to the cross is set aside.",
+      "texts": [
+        "Revelation 1:1",
+        "Matthew 12:38-40",
+        "Matthew 16:4",
+        "1 Corinthians 1:22-24"
+      ]
+    },
+    {
       "id": "spirit",
       "step": "Read with the Spirit, not the natural mind",
       "text": "The disciples misread the Scriptures while they expected an earthly kingdom. Revelation is 'spiritually discerned'. The Spirit does not only explain the words, he brings them into the reader's life: how the Lamb reigns, how we are sealed, how we overcome.",
@@ -2168,5 +3179,254 @@
     "It's not about getting out; it's about growing up.",
     "Christ comes not to rescue a defeated people but to be revealed in victorious ones.",
     "Overcomers are known not by what they avoid but by who they reveal."
+  ],
+  "patterns": [
+    {
+      "id": "sign-of-jonah",
+      "pattern": "The sign of Jonah",
+      "text": "Jonah's three days in the fish are, in Jesus' own words, the one sign given to a sign-seeking generation. This view uses it as the master key to a book that says it was 'signified': every image is read within Christ's death, burial and resurrection, and an interpretation that does not lead there is set aside.",
+      "links": [
+        {
+          "from": "The only sign given to a generation that wanted signs",
+          "to": "A book 'signified' in signs (Revelation 1:1)"
+        },
+        {
+          "from": "Three days in the belly of the fish",
+          "to": "The Lamb standing as though slain (Revelation 5:6)"
+        },
+        {
+          "from": "Jonah brought up alive from the deep",
+          "to": "The Living One who was dead (Revelation 1:18)"
+        },
+        {
+          "from": "Death, burial and resurrection",
+          "to": "The first death and first resurrection (Revelation 20:5-6)"
+        }
+      ],
+      "texts": [
+        "Jonah 1:17",
+        "Matthew 12:38-40",
+        "Matthew 16:4",
+        "1 Corinthians 15:3-4"
+      ]
+    },
+    {
+      "id": "tabernacle-courts",
+      "pattern": "Tabernacle courts",
+      "text": "The tabernacle moved from the outer court with its altar, through the holy place with the lampstand, to the most holy place with the ark and mercy seat. This view treats first salvation as the outer court and reads Revelation as leading believers on into the holy and most holy places, with Christ ministering as High Priest.",
+      "links": [
+        {
+          "from": "The altar of sacrifice in the outer court",
+          "to": "Souls under the altar (Revelation 6:9)"
+        },
+        {
+          "from": "The lampstand in the holy place",
+          "to": "Christ among the seven lampstands (Revelation 1:12-13)"
+        },
+        {
+          "from": "The mercy seat in the most holy place",
+          "to": "The throne through the open door (Revelation 4:1-2)"
+        },
+        {
+          "from": "Fire on the altar never going out",
+          "to": "The lake of fire (Revelation 20:14)"
+        },
+        {
+          "from": "The most holy place as a perfect cube",
+          "to": "The cube-shaped city (Revelation 21:16)"
+        }
+      ],
+      "texts": [
+        "Exodus 26:33-34",
+        "Leviticus 6:12-13",
+        "1 Kings 6:20",
+        "Hebrews 9:1-14"
+      ]
+    },
+    {
+      "id": "feasts-of-the-lord",
+      "pattern": "The feasts of the Lord",
+      "text": "Israel's year ran from Passover through firstfruits and Pentecost to the autumn feasts of ingathering and Tabernacles. This view stresses that Passover is only the first of seven feasts, so the believer's experience is meant to move on, through firstfruits to the full harvest and God dwelling with his people.",
+      "links": [
+        {
+          "from": "The Passover lamb",
+          "to": "The Lamb as though slain (Revelation 5:6)"
+        },
+        {
+          "from": "Firstfruits offered to God",
+          "to": "The firstfruits on Mount Zion (Revelation 14:4)"
+        },
+        {
+          "from": "The harvest ingathering",
+          "to": "The sickle and the harvest (Revelation 14:14-16)"
+        },
+        {
+          "from": "The Feast of Tabernacles",
+          "to": "The dwelling of God with people (Revelation 21:3)"
+        }
+      ],
+      "texts": [
+        "Leviticus 23:4-44",
+        "1 Corinthians 5:7",
+        "John 7:37-39",
+        "Revelation 14:4"
+      ]
+    },
+    {
+      "id": "eden-and-the-two-trees",
+      "pattern": "Creation, Eden and the two trees",
+      "text": "Genesis sets lights in the heavens to rule, plants a garden with a river and two trees, and records the serpent's word. This view reads the two trees as two sources of identity, life or the knowledge of good and evil, and sees Revelation ending with the serpent removed and only the tree of life remaining, in a garden grown into a city.",
+      "links": [
+        {
+          "from": "Lights set in the heavens to rule (Genesis 1:16)",
+          "to": "Heaven as what rules; the Lamb as its lamp (Revelation 21:23)"
+        },
+        {
+          "from": "The river going out of Eden",
+          "to": "The pure river from the throne (Revelation 22:1)"
+        },
+        {
+          "from": "The tree of life, then barred",
+          "to": "The tree of life open again (Revelation 22:2, 14)"
+        },
+        {
+          "from": "The serpent and the curse",
+          "to": "The dragon thrown down; no more curse (Revelation 20:2; 22:3)"
+        },
+        {
+          "from": "A garden",
+          "to": "A city (Revelation 21:2)"
+        }
+      ],
+      "texts": [
+        "Genesis 1:14-18",
+        "Genesis 2:9-10",
+        "Genesis 3:15",
+        "Genesis 3:22-24",
+        "Psalm 1:1-3"
+      ]
+    },
+    {
+      "id": "adam-and-eve-christ-and-bride",
+      "pattern": "Adam and Eve, Christ and the bride",
+      "text": "Scripture opens with a wedding and closes with one. Eve was built from Adam's side, and Paul calls 'the two shall become one flesh' a mystery about Christ and the church. This view reads Revelation as the bride drawn out of the heavenly Man, clothed by him and brought into union.",
+      "links": [
+        {
+          "from": "Eve built from Adam's side",
+          "to": "The bride-city coming down from heaven (Revelation 21:2, 9-10)"
+        },
+        {
+          "from": "Fig leaves sewn for themselves",
+          "to": "Fine linen granted to the bride (Revelation 19:8)"
+        },
+        {
+          "from": "Garments of skin made by God",
+          "to": "White robes washed in the Lamb's blood (Revelation 7:14)"
+        },
+        {
+          "from": "'The two shall become one flesh'",
+          "to": "The marriage of the Lamb (Revelation 19:7)"
+        },
+        {
+          "from": "Eve, mother of all living",
+          "to": "The woman bringing forth the male child (Revelation 12:5)"
+        }
+      ],
+      "texts": [
+        "Genesis 2:21-24",
+        "Genesis 3:7",
+        "Genesis 3:21",
+        "Ephesians 5:31-32",
+        "Galatians 4:26"
+      ]
+    },
+    {
+      "id": "noah-rainbow-covenant",
+      "pattern": "Noah's rainbow covenant",
+      "text": "After the flood God set his bow in the cloud as a pledge never again to destroy all flesh. This view reads every rainbow in Revelation through that covenant, so the throne and its messenger are framed by mercy. The flood also shows that the world 'that then existed' perished while the earth remained, so renewal rather than annihilation, and that outward washing alone did not change the heart.",
+      "links": [
+        {
+          "from": "The bow set in the cloud (Genesis 9:13)",
+          "to": "The angel clothed with a cloud, a rainbow on his head (Revelation 10:1)"
+        },
+        {
+          "from": "The covenant with every living creature",
+          "to": "The rainbow around the throne (Revelation 4:3)"
+        },
+        {
+          "from": "The old world washed, the earth remaining",
+          "to": "A new heaven and a new earth (Revelation 21:1)"
+        },
+        {
+          "from": "'Never again will all flesh be cut off'",
+          "to": "All nations coming to worship (Revelation 15:4)"
+        }
+      ],
+      "texts": [
+        "Genesis 9:11-16",
+        "2 Peter 3:5-7",
+        "1 Timothy 4:10",
+        "Revelation 10:1"
+      ]
+    },
+    {
+      "id": "exodus-and-the-plagues",
+      "pattern": "Exodus and the plagues",
+      "text": "The trumpets and bowls echo the plagues of Egypt, and the victors sing the song of Moses. This view stresses that the plagues fell on Pharaoh and Egypt, not on Israel in Goshen, and reads Egypt as whatever enslaves a person. The bowls are then deliverance for the captive, not wrath on God's people.",
+      "links": [
+        {
+          "from": "Plagues on Egypt, Goshen spared",
+          "to": "Bowls on those with the beast's mark (Revelation 16:2)"
+        },
+        {
+          "from": "Waters turned to blood",
+          "to": "Sea and rivers turned to blood (Revelation 16:3-4)"
+        },
+        {
+          "from": "The song of Moses at the sea",
+          "to": "The song of Moses and the Lamb (Revelation 15:3)"
+        },
+        {
+          "from": "Carried on eagles' wings (Exodus 19:4)",
+          "to": "The woman given eagle's wings (Revelation 12:14)"
+        }
+      ],
+      "texts": [
+        "Exodus 7:20",
+        "Exodus 8:22-23",
+        "Exodus 15:1-2",
+        "Exodus 19:4"
+      ]
+    },
+    {
+      "id": "babylon-in-jeremiah-51",
+      "pattern": "Babylon in Jeremiah 51",
+      "text": "Revelation 18 borrows its language from Jeremiah's oracle against Babylon, the power that destroyed God's temple. This view also follows Israel's path from Egypt to Jerusalem to captivity in Babylon as a picture of a church freed and then yoked again under religious law, and reads the return from exile as the believer's way out.",
+      "links": [
+        {
+          "from": "'Flee from the midst of Babylon' (Jeremiah 51:6)",
+          "to": "'Come out of her, my people' (Revelation 18:4)"
+        },
+        {
+          "from": "'Babylon has suddenly fallen' (Jeremiah 51:8)",
+          "to": "'Fallen, fallen is Babylon the great' (Revelation 18:2)"
+        },
+        {
+          "from": "The destroying wind; the spirit of the kings of the Medes",
+          "to": "Another angel with great authority (Revelation 18:1)"
+        },
+        {
+          "from": "A stone tied to the scroll and sunk in the Euphrates",
+          "to": "The millstone thrown into the sea (Revelation 18:21)"
+        }
+      ],
+      "texts": [
+        "Jeremiah 51:1",
+        "Jeremiah 51:6-11",
+        "Jeremiah 51:63-64",
+        "Genesis 11:4-9",
+        "Psalm 126:1-3"
+      ]
+    }
   ]
 }

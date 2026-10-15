@@ -10,8 +10,8 @@ import { Gloss } from '../Gloss'
 const ITEMS = [
   { id: 'altar', name: 'Bronze altar', court: 'Outer court', x: 120, y: 150, rev: 'Souls under the altar; the first resurrection', refs: 'Revelation 6:9; 20:4', ch: 6, text: 'Where the sacrifice was made. This view reads it as the cross, where the old life is laid down. The souls under the altar and the souls "beheaded" in chapter 20 are those who have lost their old head at the cross and now live and reign with Christ.' },
   { id: 'laver', name: 'Bronze laver', court: 'Outer court', x: 215, y: 150, rev: 'The sea of glass before the throne', refs: 'Revelation 4:6; 15:2', ch: 15, text: 'The basin where priests washed. In Revelation it has become a sea of glass, still and clear, and the overcomers stand on it. On this reading the washing by the word is complete, and the believer stands in it rather than striving for it.' },
-  { id: 'lampstand', name: 'Lampstand', court: 'Holy place', x: 315, y: 112, rev: 'Christ among the seven golden lampstands', refs: 'Revelation 1:12-13, 20', ch: 1, text: 'The only light in the holy place. The lampstands are the churches, and Christ walks among them as priest, trimming the lamps. The light of the sanctuary is Christ shining through his people.' },
-  { id: 'table', name: 'Table of bread', court: 'Holy place', x: 315, y: 188, rev: 'The hidden manna', refs: 'Revelation 2:17', ch: 2, text: 'Bread kept before God’s face. The overcomer is promised hidden manna: Christ the bread from heaven, fed on inwardly, not earned.' },
+  { id: 'lampstand', name: 'Lampstand', court: 'Holy place', x: 315, y: 124, rev: 'Christ among the seven golden lampstands', refs: 'Revelation 1:12-13, 20', ch: 1, text: 'The only light in the holy place. The lampstands are the churches, and Christ walks among them as priest, trimming the lamps. The light of the sanctuary is Christ shining through his people.' },
+  { id: 'table', name: 'Table of bread', court: 'Holy place', x: 315, y: 182, rev: 'The hidden manna', refs: 'Revelation 2:17', ch: 2, text: 'Bread kept before God’s face. The overcomer is promised hidden manna: Christ the bread from heaven, fed on inwardly, not earned.' },
   { id: 'incense', name: 'Altar of incense', court: 'Holy place', x: 385, y: 150, rev: 'Golden censer and the prayers of the saints', refs: 'Revelation 8:3-4', ch: 8, text: 'Incense rose before the veil. In chapter 8 the prayers of the saints rise with incense, and fire from the altar is thrown to the earth: prayer that is answered with the trumpets’ wake-up calls.' },
   { id: 'ark', name: 'Ark of the covenant', court: 'Most holy place', x: 470, y: 150, rev: 'The ark seen in the opened temple', refs: 'Revelation 11:19; 21:22', ch: 11, text: 'Behind the veil, the mercy seat. At the seventh trumpet the temple opens and the ark is seen; by chapter 21 there is no temple, because God and the Lamb are its temple. The veil is gone and the whole city is the most holy place.' },
 ] as const
@@ -36,8 +36,8 @@ export function TabernacleMap() {
           {/* the veil, torn */}
           <path d="M425,75 L425,138 M425,162 L425,225" stroke="var(--rubric)" strokeWidth={5} />
           <text x={140} y={62} textAnchor="middle" fontSize={13} fontWeight={700} fill="var(--ink-soft)">OUTER COURT</text>
-          <text x={347} y={95} textAnchor="middle" fontSize={12} fontWeight={700} fill="var(--ink-soft)">HOLY PLACE</text>
-          <text x={472} y={95} textAnchor="middle" fontSize={11} fontWeight={700} fill="var(--ink-soft)">MOST HOLY</text>
+          <text x={347} y={93} textAnchor="middle" fontSize={12} fontWeight={700} fill="var(--ink-soft)">HOLY PLACE</text>
+          <text x={472} y={93} textAnchor="middle" fontSize={11} fontWeight={700} fill="var(--ink-soft)">MOST HOLY</text>
           {/* gate */}
           <path d="M20,125 V175" stroke="var(--accent)" strokeWidth={6} strokeLinecap="round" />
           <text x={36} y={278} fontSize={12} fill="var(--ink-soft)">gate (east)</text>
