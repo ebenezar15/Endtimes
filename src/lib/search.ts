@@ -18,6 +18,7 @@ export function searchIndex() {
     ...scholars.map((s) => ({ kind: 'Scholar', title: s.name, text: s.bio, to: `/library?tab=scholars#${s.id}`, extra: s.works.join(' ') })),
     ...content.index.revelation.map((c) => ({ kind: 'Revelation', title: `Revelation ${c.chapter}: ${c.title}`, text: c.section, to: `/revelation/${c.chapter}` })),
     ...content.index.revelation.flatMap((c) => c.symbols.map((s) => ({ kind: 'Revelation image', title: s.phrase, text: s.ref, to: `/revelation/${c.chapter}#sym-${s.id}` }))),
+    ...content.index.threads.map((t) => ({ kind: 'Bible connection', title: t.title, text: t.summary, to: `/revelation/connections?thread=${t.id}` })),
     ...content.index.spiritualKeys.map((k) => ({ kind: 'Spiritual understanding', title: k.symbol, text: k.spiritual, to: '/spiritual#flow' })),
     ...library.map((e) => ({ kind: 'Library', title: e.title, text: e.summary, to: `/library#${e.id}`, extra: e.participants.join(' ') })),
   ]

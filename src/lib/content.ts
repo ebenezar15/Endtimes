@@ -21,6 +21,7 @@ export const content = data as unknown as {
     arguments: ArgumentIndex[]
     scholars: { id: string; name: string; dates: string }[]
     quizzes: number
+    threads: { id: string; title: string; kind: string; summary: string }[]
     spiritualKeys: { id: string; symbol: string; chapter: number; spiritual: string }[]
     revelation: { chapter: number; title: string; section: string; symbols: { id: string; phrase: string; ref: string; category: string }[] }[]
   }

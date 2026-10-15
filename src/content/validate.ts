@@ -25,6 +25,9 @@ export type ContentBundle = {
   revChapters: S.RevChapter[]
   revIntro: S.RevIntroSection[]
   spiritual: S.SpiritualStudy | null
+  revThreads: S.CanonThread[]
+  revBooks: S.SourceBook[]
+  revStructure: S.RevStructure | null
 }
 
 const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema: z.ZodTypeAny; single?: boolean }[] = [
@@ -47,6 +50,9 @@ const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema:
   { match: (p) => p.startsWith('revelation/chapters'), key: 'revChapters', schema: S.RevChapter },
   { match: (p) => p === 'revelation/intro.json', key: 'revIntro', schema: S.RevIntroSection },
   { match: (p) => p === 'revelation/spiritual.json', key: 'spiritual', schema: S.SpiritualStudy, single: true },
+  { match: (p) => p.startsWith('revelation/threads/'), key: 'revThreads', schema: S.CanonThread },
+  { match: (p) => p === 'revelation/books.json', key: 'revBooks', schema: S.SourceBook },
+  { match: (p) => p === 'revelation/structure.json', key: 'revStructure', schema: S.RevStructure, single: true },
 ]
 
 export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
@@ -54,7 +60,7 @@ export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
 export function emptyBundle(): ContentBundle {
   return {
     positions: [], combinations: [], topics: [], matrix: [], passages: [], arguments: [], timelines: [],
-    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [], spiritual: null,
+    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [], spiritual: null, revThreads: [], revBooks: [], revStructure: null,
   }
 }
 
@@ -205,6 +211,30 @@ export function checkBundle(b: ContentBundle, opts: { partial?: boolean } = {}):
     b.spiritual.keys.forEach((k) => k.opposite && !keyIds.has(k.opposite) && errors.push(`spiritual key ${k.id}: unknown opposite "${k.opposite}"`))
     b.spiritual.chapters.forEach((c) => c.symbolInsights.forEach((x) => !symIds.has(x.symbolId) && errors.push(`spiritual ch ${c.chapter}: unknown symbol "${x.symbolId}"`)))
     if (!opts.partial) for (let n = 1; n <= 22; n++) if (!b.spiritual.chapters.some((c) => c.chapter === n)) errors.push(`spiritual: missing chapter ${n}`)
+  }
+  dup('canon thread', b.revThreads.map((t) => t.id))
+  dup('source book', b.revBooks.map((t) => t.id))
+  for (const t of b.revThreads) {
+    needSrc(`thread ${t.id}`, t.sources)
+    if (t.stops.at(-1)?.book !== 'Revelation') errors.push(`thread ${t.id}: last stop must be in Revelation`)
+    const order = t.stops.map((x) => S.CANON.indexOf(x.book))
+    if (order.some((o, i) => i > 0 && o < order[i - 1])) errors.push(`thread ${t.id}: stops are not in canonical order`)
+  }
+  b.revBooks.forEach((x) => needSrc(`source book ${x.id}`, x.sources))
+  if (b.revStructure) {
+    const st = b.revStructure
+    needSrc('structure', st.sources)
+    const pairs = (where: string, segs: { label: string }[], centre: string) => {
+      const labels = segs.map((x) => x.label)
+      if (!labels.includes(centre)) errors.push(`${where}: centre "${centre}" not a segment`)
+      for (const l of labels) {
+        const base = l.replace(/[′']/g, '')
+        if (l !== centre && !labels.some((m) => m !== l && m.replace(/[′']/g, '') === base)) errors.push(`${where}: "${l}" has no partner`)
+      }
+    }
+    st.outlines.forEach((o) => (needSrc(`outline ${o.id}`, o.sources), pairs(`outline ${o.id}`, o.segments, o.centre), o.segments.forEach((x) => x.endCh > 22 && errors.push(`outline ${o.id}: chapter > 22`))))
+    st.prophetic.forEach((o) => (needSrc(`prophetic chiasm ${o.id}`, o.sources), pairs(`prophetic chiasm ${o.id}`, o.segments, o.centre)))
+    st.sequences.forEach((o) => needSrc(`sequence ${o.id}`, o.sources))
   }
   if (!opts.partial && b.revChapters.length)
     for (let n = 1; n <= 22; n++) if (!chapters.has(n)) errors.push(`missing Revelation chapter ${n}`)

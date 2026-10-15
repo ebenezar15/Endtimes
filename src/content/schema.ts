@@ -419,3 +419,109 @@ export const SpiritualStudy = z.object({
 })
 export type SpiritualStudy = z.infer<typeof SpiritualStudy>
 export type SpiritualKey = z.infer<typeof SpiritualKey>
+
+/* ---------- Revelation and the whole Bible ---------------------------------------------- */
+
+/** Canonical book names, in order, used by the canon thread map. */
+export const CANON = [
+  'Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy', 'Joshua', 'Judges', 'Ruth', '1 Samuel', '2 Samuel', '1 Kings', '2 Kings',
+  '1 Chronicles', '2 Chronicles', 'Ezra', 'Nehemiah', 'Esther', 'Job', 'Psalms', 'Proverbs', 'Ecclesiastes', 'Song of Songs',
+  'Isaiah', 'Jeremiah', 'Lamentations', 'Ezekiel', 'Daniel', 'Hosea', 'Joel', 'Amos', 'Obadiah', 'Jonah', 'Micah', 'Nahum',
+  'Habakkuk', 'Zephaniah', 'Haggai', 'Zechariah', 'Malachi',
+  'Matthew', 'Mark', 'Luke', 'John', 'Acts', 'Romans', '1 Corinthians', '2 Corinthians', 'Galatians', 'Ephesians', 'Philippians',
+  'Colossians', '1 Thessalonians', '2 Thessalonians', '1 Timothy', '2 Timothy', 'Titus', 'Philemon', 'Hebrews', 'James', '1 Peter',
+  '2 Peter', '1 John', '2 John', '3 John', 'Jude', 'Revelation',
+] as const
+export const CanonBook = z.enum(CANON)
+
+/** One stop on a theme's path through the Bible. */
+export const CanonStop = z.object({ book: CanonBook, ref: Ref, note: Text })
+
+/** A theme, image, symbol, metaphor or phrase traced from its first appearance to Revelation. */
+export const CanonThread = z.object({
+  id: Id,
+  title: Text,
+  kind: z.enum(['image', 'symbol', 'metaphor', 'phrase', 'number', 'colour', 'creature', 'place', 'title', 'theme']),
+  /** One-line hook. */
+  summary: Text,
+  /** In canonical order; the last stops are in Revelation. */
+  stops: z.array(CanonStop).min(3),
+  /** What the image means across the canon. */
+  meaning: Text,
+  /** Ancient Near Eastern, Second Temple Jewish and Greco-Roman context. */
+  culture: Text,
+  /** How Revelation reuses, intensifies or reverses the source. */
+  compare: Text,
+  /** How the main schools of interpretation take it in Revelation (brief, even-handed). */
+  views: Text.optional(),
+  chapters: z.array(z.number().int().min(1).max(22)).min(1),
+  sources: z.array(Id).default([]),
+})
+export type CanonThread = z.infer<typeof CanonThread>
+
+/** A book Revelation draws on, with the specific echoes. */
+export const SourceBook = z.object({
+  id: Id,
+  book: CanonBook,
+  /** Date and setting, e.g. "6th century BC, among the exiles in Babylon". */
+  era: Text,
+  setting: Text,
+  themes: z.array(Text).min(2),
+  /** How and why Revelation uses this book. */
+  summary: Text,
+  links: z.array(z.object({ ot: Ref, rev: Ref, image: Text, note: Text })).min(3),
+  sources: z.array(Id).default([]),
+})
+export type SourceBook = z.infer<typeof SourceBook>
+
+const Segment = z.object({ label: z.string().min(1).max(4), title: Text, range: Text, startCh: z.number().int().min(1), endCh: z.number().int().min(1) })
+
+/** A proposed chiastic (concentric) outline. Segments are in reading order; matching labels pair up (A ... A′). */
+export const ChiasmOutline = z.object({
+  id: Id,
+  name: Text,
+  /** Who proposed it (scholar), shown as attribution. */
+  proposer: Text,
+  segments: z.array(Segment).min(3),
+  /** Label of the centre segment. */
+  centre: z.string().min(1).max(4),
+  note: Text,
+  sources: z.array(Id).default([]),
+})
+export type ChiasmOutline = z.infer<typeof ChiasmOutline>
+
+export const RevStructure = z.object({
+  intro: Text,
+  /** What a chiasm is and why ancient authors used it. */
+  chiasmIntro: Text,
+  outlines: z.array(ChiasmOutline).min(2),
+  /** Verbal echoes between the opening and close of the book. */
+  bookends: z.array(z.object({ a: Ref, aText: Text, b: Ref, bText: Text, note: Text })).min(4),
+  critiques: z.array(z.object({ critique: Text, response: Text })).min(1),
+  /** Concentric structures in other prophetic books. Segments use chapter numbers of that book. */
+  prophetic: z.array(
+    z.object({
+      id: Id,
+      book: CanonBook,
+      passage: Text,
+      summary: Text,
+      segments: z.array(Segment).min(3),
+      centre: z.string().min(1).max(4),
+      link: Text,
+      sources: z.array(Id).default([]),
+    }),
+  ).min(4),
+  /** Whole sequences Revelation follows from an earlier book. */
+  sequences: z.array(
+    z.object({
+      id: Id,
+      title: Text,
+      book: CanonBook,
+      intro: Text,
+      pairs: z.array(z.object({ ot: Ref, otTitle: Text, rev: Ref, revTitle: Text, note: Text })).min(4),
+      sources: z.array(Id).default([]),
+    }),
+  ).min(3),
+  sources: z.array(Id).min(1),
+})
+export type RevStructure = z.infer<typeof RevStructure>

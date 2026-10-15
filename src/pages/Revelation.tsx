@@ -26,6 +26,9 @@ export default function Revelation() {
           <Link to="/revelation/1" className="btn btn-primary no-underline">
             <Icon name="scroll" /> Begin at chapter 1
           </Link>
+          <Link to="/revelation/connections" className="btn no-underline">
+            <Icon name="layers" /> Revelation and the whole Bible
+          </Link>
           <Link to="/spiritual" className="btn no-underline">
             <Icon name="sparkles" /> Spiritual understanding
           </Link>

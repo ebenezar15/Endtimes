@@ -51,6 +51,7 @@ export function generateContent(opts: { partial?: boolean } = {}) {
       arguments: b.arguments.map((a) => ({ id: a.id, title: a.title, question: a.question, topic: a.topic, positions: a.positions })),
       scholars: b.scholars.map((s) => ({ id: s.id, name: s.name, dates: s.dates })),
       quizzes: b.quizzes.length,
+      threads: b.revThreads.map((t) => ({ id: t.id, title: t.title, kind: t.kind, summary: t.summary })),
       spiritualKeys: (b.spiritual?.keys ?? []).map((k) => ({ id: k.id, symbol: k.symbol, chapter: k.chapter, spiritual: k.spiritual })),
       revelation: [...b.revChapters]
         .sort((x, y) => x.chapter - y.chapter)
@@ -80,6 +81,7 @@ export function generateContent(opts: { partial?: boolean } = {}) {
       }
     })
   write('revelation', { intro: b.revIntro, chapters, spiritual })
+  write('connections', { threads: b.revThreads, books: b.revBooks, structure: b.revStructure })
   // A slim slice for the first screen (home page + app shell).
   write('core', {
     positions: b.positions.map(({ id, name, shortName, axis, color, initial, tagline, summary }) => ({ id, name, shortName, axis, color, initial, tagline, summary })),
