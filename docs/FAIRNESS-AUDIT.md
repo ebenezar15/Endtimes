@@ -200,3 +200,118 @@ Roots (who makes the opening claim): dispensational premillennial or dispensatio
 - **Unattributed scholarly judgements remain**, for example that Gentry's book is "widely regarded as the most comprehensive" defence. They are now hedged but not sourced.
 - **No source checking.** I did not re-check citations against the sources registry or online. Sources already marked `"verified": false` remain as they were.
 - **Skimmed files.** I skimmed the scholars and flashcards files with keyword searches rather than reading every entry. Tone problems that a search for loaded terms would not catch could remain there.
+
+## Revelation Study
+
+Date: 2026-10-15. Scope: `content/revelation/intro.json` (12 sections) and `content/revelation/chapters/*.json` (22 chapters, every symbol note and every chapter-level reading).
+
+### Method
+
+1. **Read in full.** I turned each file into plain text and read all of it, one chapter file at a time: summaries, context essays, and every symbol's `jewish`, `cultural`, `meaning` and `readings` fields, plus the chapter `readings` and questions. I gave the contested passages the most attention: the date of the book (intro; 4:11; 11:1-2; 17:10), 666 (13:18), Babylon (11:8; 14:8; 16:19; 17–18), the 144,000 (7:4; 14:1), 3:10 and the rapture, and chapter 20.
+2. **Meaning-field check.** A `meaning` field is meant to give the broadly shared explanation. I checked whether any of them quietly adopted one school's reading as the consensus, for example a symbolic reading of cosmic signs, Israel's vocation as "realized" in the church, or the unsealing of 22:10 as an argument for early fulfilment.
+3. **Lean and strawman checks.** I applied the same tests as in the main audit: loaded words; asymmetric hedges (a caveat attached to one view's reading but not to another's); one view getting the last word inside another view's reading; full-preterist critiques with no answer from proponents; and pejorative asides ("popular writers", "speculative", "in the commentator's own day") placed inside a view's own reading. I checked for leans in both directions, toward and against partial preterism and postmillennialism.
+4. **Length tally.** A script measured how long each view's readings are on average. **Symbol readings:** partial preterism 175 characters (174 readings), futurism 131 (175), idealism 121 (166), historicism 158 (123). **Chapter readings:** partial preterism 481 characters, futurism 376, historicism 364, idealism 314, eclectic 304.
+5. **Edits.** I made minimal text edits in place. `npm run validate` and `npm test` pass after all edits. Note that another session committed (4ba32a3) while this audit was running, and that commit already contains some of these edits. The remaining edits are uncommitted working-tree changes.
+
+### Overall finding
+
+The Revelation Study was already careful:
+
+- **The date** is labelled "disputed", with both sides' evidence set out in the introduction. Chapters 4, 11, 12, 13 and 17 say how a pre-70 or post-70 setting affects the reading.
+- **666** lists five proposals. It calls Nero the majority view but disputed, and gives the critics' objections.
+- **Babylon** is labelled disputed, with five identifications, and the Roman evidence (the seven hills, the cargo list) is stated fully.
+- **3:10** gives the pretribulational case (Walvoord, Thomas) in its strongest form, alongside the John 17:15 reading.
+- **Chapter 20** is even-handed. Each millennial view gets its strongest argument, the main critique and the reply.
+- **Full preterism** is repeatedly noted as departing from the historic creeds, usually with the proponents' reply.
+
+I found no systematic lean toward partial preterism or postmillennialism in what is argued. The leans I did find were of four kinds:
+
+- **Space.** Partial-preterist readings are consistently the longest. They therefore usually carry more specific evidence (Josephus, Gentry's counts) than the futurist and idealist readings beside them. This is the clearest structural tilt.
+- **Meaning fields.** A handful of meaning fields adopted a covenantal or preterist framing as the shared view.
+- **Hedges in both directions.** Some hedges and rebuttals were asymmetric. Several partial-preterist readings ended with "most scholars dispute" or with the critics having the last word. Several futurist readings carried pejorative asides.
+- **Full preterism.** A few full-preterist notes gave the critics' charge with no reply from proponents.
+
+### Verdict for each view
+
+- **Partial preterism.** Gentry, Chilton and DeMar would recognise it. It is not strawmanned. If anything it is the best-evidenced view in the study. I removed hedges that applied to it alone ("which most scholars dispute"; "a minority view even among scholars"), made its date caveat uniform ("depends on a pre-70 date, which is disputed"), and added its standard replies on Babylon where the critics previously had the last word.
+- **Full preterism.** The notes are factual and non-polemical, use the proponents' own terms (covenantal resurrection, the time texts), and repeat the creedal note throughout. I added the proponents' reply in the seven places where only the critique appeared.
+- **Historicism.** The notes are accurate to Elliott and Barnes, with dates and identifications, and they distinguish Adventist historicism. I removed one dismissive aside ("often expected in the near future of the commentator").
+- **Futurism.** The dispensational and historic-premillennial forms are kept apart, and 3:10, the 144,000, the seventieth week and Babylon are all well stated. Its readings were the thinnest. I strengthened six chapter readings (1, 8, 12, 14, 19, 22) with arguments futurists actually make, and removed three asides inside its own readings: speculation about the ark, "speculative" for Petra, and "popular writers… little support" on Babylon. I also made the dispensational assumptions in two notes explicit, since historic premillennialists do not share them.
+- **Idealism.** The notes are faithful to Hendriksen, Beale and Milligan. They are short but accurate. I strengthened four chapter readings (1, 12, 21, 22).
+- **Eclectic.** Faithful to Beale, Bauckham, Osborne and Koester. No change needed.
+- **Postmillennialism.** Stated in its own terms (Warfield, Boettner, Gentry, Mathison), with the "sand of the seashore" critique and the reply. One reading credited postmillennial optimism to partial preterism as such. I now attribute it to postmillennial partial preterists, since some partial preterists are amillennial.
+- **Amillennialism.** Faithful to Hoekema, Riddlebarger, Storms, Beale and Kline. No change needed.
+- **Historic premillennialism.** Ladd's position and Alford's argument on *ezēsan* are stated well. It has few separate readings (13 symbols), but where it appears it is fair.
+- **Dispensational premillennialism.** Walvoord, Pentecost and Thomas are stated in their own terms on the elders, 3:10, 19:7-9, the Israel distinctions and the two battles. I corrected two meaning fields that had quietly assumed the covenantal view (5:10 and 21:12).
+
+### Changes made (41 edits in 7 files)
+
+**`intro.json`**
+
+1. **Date section.** "Syriac Peshitta heading" became "the heading of the sixth-century Syriac version of Revelation, which the original Peshitta lacked". Why: factual. The Peshitta did not contain Revelation.
+2. **Date section.** I added the late-date reply to the argument from silence about Jerusalem's fall. Why: it was the only early-date argument left unanswered.
+3. **Numbers section.** "Preterists usually treat time periods as symbolic" now notes that Gentry matches the 42 months to the Neronic persecution or the Jewish War. Why: factual, since Gentry reads them closely.
+4. **3½ fact.** Added each school's reading. Why: the entry gave only the symbolic reading.
+5. **144,000 fact.** Changed from "the complete people of God (literal Jewish remnant in many futurist readings)" to an entry marked "Disputed" with three readings. Why: the entry presented the symbolic view as the meaning.
+
+**`chapters/01-03.json`**
+
+6. **1:6 kingdom of priests, meaning.** "the fulfilment of Israel's vocation" became "taking up the vocation of Exodus 19:6", with a note that covenantal and dispensational interpreters relate this differently. Why: a meaning field had adopted the covenantal view.
+7. **1:5 faithful witness, partial-preterism reading.** Postmillennial optimism is now attributed to postmillennial partial preterists, and amillennial partial preterists are noted. Why: postmillennialism had been conflated with partial preterism.
+8. **1:12 lampstands, futurism reading.** "which follow the church's departure" became an explicitly dispensational statement, with the historic-premillennial view noted. Why: a futurist strawman by omission.
+9. **3:10 hour of testing, cultural.** Added that Revelation 12:9 and 16:14 use *oikoumenē* for the whole world. Why: the note gave only the evidence that favours the preterist reading.
+10. **Chapter 1, futurism reading.** Added the futurist case from 1:7 and Acts 1:11 and on *en tachei*. Why: thin compared with the preterist reading.
+11. **Chapter 1, idealism reading.** Strengthened. Why: same reason.
+
+**`chapters/04-07.json`**
+
+12. **5:10 kingdom and priests, meaning.** "now realized in" became "now given to", with the covenantal and dispensational readings noted. Why: a meaning field had adopted the covenantal view.
+13. **6:12 sun and moon, meaning.** "Stock imagery for the collapse of political orders, sometimes also taken as literal" became a neutral statement of the options. Why: a meaning field leaned preterist and idealist.
+14. **Chapter 7, full-preterism reading.** Added the proponents' reply. Why: the critique had been left unanswered.
+
+**`chapters/08-11.json`**
+
+15. **Chapter 9, partial-preterism reading.** "which most scholars dispute" became "which is disputed". Why: an asymmetric hedge, worded differently from chapters 8 and 10.
+16. **11:8 great city, partial-preterism reading.** Removed "(a minority view even among scholars)" and pointed to chapter 17, where the dispute is set out. Why: an asymmetric hedge inside the view's own reading.
+17. **11:1 temple of God, partial-preterism reading.** Added Gentry's answer to the critics. Why: the critics had the last word.
+18. **Chapter 11, partial-preterism reading.** "Most scholars … dispute this dating argument" became a neutral date caveat. Why: an asymmetric hedge, already covered by the chapter's context essay.
+19. **11:19 ark, futurism reading.** Replaced the aside about popular speculation over the ark with Walvoord and Thomas's actual reading (covenant faithfulness, including to Israel). Why: a strawman.
+20. **11:18 judgment of the dead, full-preterism reading.** Added the proponents' reply. Why: the critique had been left unanswered.
+21. **11:15 seventh trumpet, historicism reading.** Removed "often expected in the near future of the commentator". Why: a dismissive aside.
+22. **Chapter 8, futurism reading.** Strengthened with the Exodus-realism and escalation arguments. Why: thin.
+
+**`chapters/12-14.json`**
+
+23. **12:6 woman in the wilderness, futurism reading.** "though that is speculative" became a neutral note that others decline to name a place. Why: a pejorative hedge.
+24. **Chapter 12, futurism reading.** Strengthened with Daniel's half-week and Matthew 24:15-21. Why: thin.
+25. **Chapter 12, idealism reading.** Strengthened. Why: same reason.
+26. **Chapter 14, futurism reading.** Strengthened with Matthew 24:14. Why: same reason.
+
+**`chapters/15-18.json`**
+
+27. **17:5 Babylon, partial-preterism reading.** "Other early-date preterists (e.g. those following Bauckham…)" became "Other preterists identify Babylon with Rome…". Why: factual. Bauckham holds the late date and is not a preterist.
+28. **17:5 Babylon, futurism reading.** Removed the aside "Popular writers have proposed … with little support". Why: a pejorative aside inside the view's own reading.
+29. **18:12 cargo list, partial-preterism reading.** Added the preterist reply that the list is modelled on Ezekiel 27. Why: the critics had the last word.
+30. **18:24 blood of the prophets, partial-preterism reading.** Added the preterist reply from Matthew 23:35. Why: same reason.
+
+**`chapters/19-22.json`**
+
+31. **20:5-6 first resurrection, full-preterism reading.** Added the proponents' reply. Why: the critique had been left unanswered.
+32. **19:11 rider, full-preterism reading.** Added the proponents' reply. Why: same reason.
+33. **21:1 new heaven and new earth, full-preterism reading.** Added the proponents' reply. Why: same reason.
+34. **22:6 "soon", full-preterism reading.** Added the proponents' reply. Why: same reason.
+35. **22:20 "Come, Lord Jesus", full-preterism reading.** Added the proponents' reply. Why: same reason.
+36. **21:12 twelve gates, meaning.** "inherits Israel's identity" became a statement that this is debated. Why: a meaning field had adopted the covenantal view.
+37. **22:10 "do not seal", meaning.** "Among the strongest arguments for an early fulfilment" is now attributed to preterists, with the alternative reading given. Why: a meaning field had adopted the preterist view.
+38. **Chapter 19, futurism reading.** Strengthened. Why: thin.
+39. **Chapter 21, idealism reading.** Strengthened. Why: same reason.
+40. **Chapter 22, futurism reading.** Strengthened. Why: same reason.
+41. **Chapter 22, idealism reading.** Strengthened. Why: same reason.
+
+### Remaining limitations
+
+- **Space imbalance persists.** Partial-preterist symbol readings remain about a third longer than futurist and idealist ones, and partial-preterist chapter readings remain the longest. I strengthened 10 chapter readings but did not rebalance the 340-odd thin futurist and idealist symbol readings, many of which are one line ("Literal X in the Tribulation"). A fuller pass should give those readings the specific evidence their proponents cite.
+- **Millennial positions appear rarely in symbol notes.** Historic premillennialism has 13 symbol readings, postmillennialism 22 and amillennialism 37, so the millennial views are compared mainly in chapters 1–5, 11, 12, 15–16 and 19–22. That is defensible, since most symbols do not divide them, but it limits comparison.
+- **Critique-and-reply inside readings is uneven.** Partial-preterist and full-preterist readings often contain a critique plus a reply. Futurist and historicist readings rarely contain a critique at all. The pattern is now balanced in the sense that every critique carries a reply, but critiques are still concentrated on the preterist views.
+- **No source checking.** I did not re-check citations or scholars' attributions against the books, for example exactly how Chilton and Gentry each identify the 144,000, or Ladd on 7:4.
+- **Jewish and cultural fields.** I read these for leaning claims only and did not fact-check every ancient reference.
