@@ -1,0 +1,14 @@
+[
+  {
+    "id": "herodotus-histories",
+    "title": "Histories (esp. 1.178-191 on Babylon and its capture by Cyrus)",
+    "author": "Herodotus",
+    "camp": "reference",
+    "type": "primary",
+    "year": "c. 430 BC",
+    "accessed": "2026-10-15",
+    "summary": "Greek history of the wars between Greeks and Persians, whose account of Cyrus diverting the Euphrates and entering Babylon along the lowered riverbed (1.191) is often cited as background to the dried-up river of Revelation 16:12.",
+    "verified": false,
+    "note": "Primary ancient text cited by book and section; Xenophon (Cyropaedia 7.5) gives a similar account, and the Babylonian Nabonidus Chronicle says the city fell without battle."
+  }
+]
