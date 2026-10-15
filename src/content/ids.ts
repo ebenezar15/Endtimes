@@ -3,11 +3,11 @@ import type { ArgNode } from './schema'
 
 export const POSITION_IDS = [
   'postmil', 'amil', 'histpremil', 'disppremil',
-  'partial-preterism', 'full-preterism', 'historicism', 'futurism', 'idealism', 'eclectic',
+  'partial-preterism', 'full-preterism', 'historicism', 'futurism', 'idealism', 'eclectic', 'spiritual',
   'covenant-theology', 'dispensationalism', 'progressive-covenantalism',
 ] as const
 /** Positions covered by the comparison matrix and timelines. */
-export const VIEW_IDS = POSITION_IDS.slice(0, 10)
+export const VIEW_IDS = POSITION_IDS.slice(0, 11)
 export const TOPIC_IDS = [
   'millennium', 'satan-binding', 'first-resurrection', 'second-coming', 'rapture',
   'great-tribulation', 'antichrist', 'olivet-generation', 'seventy-weeks', 'revelation-date',

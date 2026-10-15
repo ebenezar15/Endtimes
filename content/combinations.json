@@ -166,5 +166,33 @@
     "frequency": "occasional",
     "note": "Progressive dispensationalists often acknowledge first-century referents and present-age 'already' fulfilments alongside a primarily futurist reading, a moderate eclecticism that traditional dispensationalists resist.",
     "exemplars": ["Craig A. Blaising", "Darrell L. Bock"]
+  },
+  {
+    "millennial": "postmil",
+    "hermeneutic": "spiritual",
+    "frequency": "common",
+    "note": "A natural pairing: reading the book 'from victory', with the Rider on the white horse conquering by his word (Revelation 19:11-16) and the harvest as gospel fruit (Revelation 14:14-16), fits a hope that Christ's present reign will increasingly fill the earth. Many proponents also have a preterist-leaning view of AD 70 as the end of the old covenant age.",
+    "exemplars": []
+  },
+  {
+    "millennial": "amil",
+    "hermeneutic": "spiritual",
+    "frequency": "common",
+    "note": "Equally natural: the thousand years as Christ's present reign and the first resurrection as the new birth follow the Augustinian reading of Revelation 20, and the 'two cities' structure echoes Tyconius and Augustine. Amillennial-leaning proponents are less confident about the outward triumph of the gospel within history.",
+    "exemplars": []
+  },
+  {
+    "millennial": "histpremil",
+    "hermeneutic": "spiritual",
+    "frequency": "rare",
+    "note": "Uncommon: the view reads the millennium as Christ's present reign and the first resurrection as the new birth, whereas historic premillennialism needs a future earthly reign after a bodily first resurrection. A few readers combine Christ-centred spiritual applications of chapters 1–19 with a premillennial reading of Revelation 20.",
+    "exemplars": []
+  },
+  {
+    "millennial": "disppremil",
+    "hermeneutic": "spiritual",
+    "frequency": "incompatible",
+    "note": "Incompatible in substance: the Spiritual Understanding rejects a future seven-year tribulation, a separate pre-tribulation rapture and a distinct national programme for Israel, and reads the church as the Bride and the New Jerusalem. Dispensationalists may draw devotional Christ-centred applications from Revelation, but not as their interpretive method.",
+    "exemplars": []
   }
 ]

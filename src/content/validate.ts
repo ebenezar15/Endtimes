@@ -24,6 +24,7 @@ export type ContentBundle = {
   tour: S.TourStep[]
   revChapters: S.RevChapter[]
   revIntro: S.RevIntroSection[]
+  spiritual: S.SpiritualStudy | null
 }
 
 const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema: z.ZodTypeAny; single?: boolean }[] = [
@@ -45,6 +46,7 @@ const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema:
   { match: (p) => p === 'tour.json', key: 'tour', schema: S.TourStep },
   { match: (p) => p.startsWith('revelation/chapters'), key: 'revChapters', schema: S.RevChapter },
   { match: (p) => p === 'revelation/intro.json', key: 'revIntro', schema: S.RevIntroSection },
+  { match: (p) => p === 'revelation/spiritual.json', key: 'spiritual', schema: S.SpiritualStudy, single: true },
 ]
 
 export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
@@ -52,7 +54,7 @@ export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
 export function emptyBundle(): ContentBundle {
   return {
     positions: [], combinations: [], topics: [], matrix: [], passages: [], arguments: [], timelines: [],
-    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [],
+    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [], spiritual: null,
   }
 }
 
@@ -197,6 +199,13 @@ export function checkBundle(b: ContentBundle, opts: { partial?: boolean } = {}):
     }
   }
   b.revIntro.forEach((x) => needSrc(`revelation intro ${x.id}`, x.sources))
+  if (b.spiritual) {
+    needSrc('spiritual', b.spiritual.sources)
+    const keyIds = new Set(b.spiritual.keys.map((k) => k.id))
+    b.spiritual.keys.forEach((k) => k.opposite && !keyIds.has(k.opposite) && errors.push(`spiritual key ${k.id}: unknown opposite "${k.opposite}"`))
+    b.spiritual.chapters.forEach((c) => c.symbolInsights.forEach((x) => !symIds.has(x.symbolId) && errors.push(`spiritual ch ${c.chapter}: unknown symbol "${x.symbolId}"`)))
+    if (!opts.partial) for (let n = 1; n <= 22; n++) if (!b.spiritual.chapters.some((c) => c.chapter === n)) errors.push(`spiritual: missing chapter ${n}`)
+  }
   if (!opts.partial && b.revChapters.length)
     for (let n = 1; n <= 22; n++) if (!chapters.has(n)) errors.push(`missing Revelation chapter ${n}`)
   if (b.flowchart) errors.push(...checkFlowchart(b.flowchart))

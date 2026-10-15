@@ -8,6 +8,7 @@ export const NAV: { to: string; label: string; icon: IconName; group: string }[]
   { to: '/compare', label: 'Compare', icon: 'layers', group: 'Think' },
   { to: '/arena', label: 'Argument Arena', icon: 'scales', group: 'Think' },
   { to: '/revelation', label: 'Revelation Study', icon: 'seal', group: 'Read' },
+  { to: '/spiritual', label: 'Spiritual Understanding', icon: 'sparkles', group: 'Read' },
   { to: '/passages', label: 'Passage Lab', icon: 'scroll', group: 'Read' },
   { to: '/library', label: 'Debates & Library', icon: 'library', group: 'Read' },
   { to: '/glossary', label: 'Glossary', icon: 'book', group: 'Read' },

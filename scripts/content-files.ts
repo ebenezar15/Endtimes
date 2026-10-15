@@ -51,6 +51,7 @@ export function generateContent(opts: { partial?: boolean } = {}) {
       arguments: b.arguments.map((a) => ({ id: a.id, title: a.title, question: a.question, topic: a.topic, positions: a.positions })),
       scholars: b.scholars.map((s) => ({ id: s.id, name: s.name, dates: s.dates })),
       quizzes: b.quizzes.length,
+      spiritualKeys: (b.spiritual?.keys ?? []).map((k) => ({ id: k.id, symbol: k.symbol, chapter: k.chapter, spiritual: k.spiritual })),
       revelation: [...b.revChapters]
         .sort((x, y) => x.chapter - y.chapter)
         .map((c) => ({ chapter: c.chapter, title: c.title, section: c.section, symbols: c.symbols.map((s) => ({ id: s.id, phrase: s.phrase, ref: s.ref, category: s.category })) })),
@@ -62,7 +63,23 @@ export function generateContent(opts: { partial?: boolean } = {}) {
   write('study', { quizzes: b.quizzes, flashcards: b.flashcards })
   write('timelines', { timelines: b.timelines, flowchart: b.flowchart })
   write('bible', b.bible ?? { translations: {}, passages: {} })
-  write('revelation', { intro: b.revIntro, chapters: [...b.revChapters].sort((x, y) => x.chapter - y.chapter) })
+  // Fold the Spiritual Understanding into each chapter's readings and symbol readings, so it appears beside the other views.
+  const spiritual = b.spiritual
+  const chapters = [...b.revChapters]
+    .sort((x, y) => x.chapter - y.chapter)
+    .map((c) => {
+      const sc = spiritual?.chapters.find((x) => x.chapter === c.chapter)
+      if (!sc) return c
+      const insight = new Map(sc.symbolInsights.map((x) => [x.symbolId, x.insight]))
+      return {
+        ...c,
+        readings: [...c.readings.filter((r) => r.position !== 'spiritual'), { position: 'spiritual', reading: `${sc.theme}. ${sc.reading}` }],
+        symbols: c.symbols.map((sym) =>
+          insight.has(sym.id) ? { ...sym, readings: [...sym.readings.filter((r) => r.position !== 'spiritual'), { position: 'spiritual', reading: insight.get(sym.id)! }] } : sym,
+        ),
+      }
+    })
+  write('revelation', { intro: b.revIntro, chapters, spiritual })
   // A slim slice for the first screen (home page + app shell).
   write('core', {
     positions: b.positions.map(({ id, name, shortName, axis, color, initial, tagline, summary }) => ({ id, name, shortName, axis, color, initial, tagline, summary })),

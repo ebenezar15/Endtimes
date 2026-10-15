@@ -1534,5 +1534,107 @@
         "explanation": "Proponents argue that all promises to Israel find their 'yes' in Christ (2 Corinthians 1:20) and are shared by Jew and Gentile together."
       }
     ]
+  },
+  {
+    "set": "spiritual",
+    "title": "Spiritual Understanding",
+    "questions": [
+      {
+        "id": "governing-verse",
+        "q": "Which verse does the Spiritual Understanding treat as the governing statement of the whole book?",
+        "options": [
+          "Revelation 1:1, 'the revelation of Jesus Christ'",
+          "Revelation 13:18, the number of the beast",
+          "Revelation 20:2, the thousand years",
+          "Revelation 22:18, the warning not to add to the book"
+        ],
+        "answer": 0,
+        "explanation": "Proponents read the book as the unveiling of a Person: each chapter should reveal Christ and what he accomplished at the cross."
+      },
+      {
+        "id": "key-image",
+        "q": "What image is described as the key that opens the book?",
+        "options": [
+          "The great red dragon",
+          "The Lamb standing as though slain at the centre of the throne",
+          "The woman clothed with the sun",
+          "The beast from the sea"
+        ],
+        "answer": 1,
+        "explanation": "Revelation 5:5-6: the Lion of Judah conquers as the slain Lamb, so the cross is the lens for every vision."
+      },
+      {
+        "id": "forehead-hand",
+        "q": "In this reading, what do the forehead and the hand usually signify?",
+        "options": [
+          "Political and military power",
+          "Jewish and Gentile believers",
+          "The mind (thinking) and one's doing (works)",
+          "Heaven and earth"
+        ],
+        "answer": 2,
+        "explanation": "Drawing on Deuteronomy 6:8, the mark on forehead or hand is a mindset and a way of living; the Father's name on the forehead (Revelation 14:1) is a renewed mind and identity."
+      },
+      {
+        "id": "six-six-six",
+        "q": "How does the view typically interpret 666?",
+        "options": [
+          "A barcode or microchip",
+          "The number of humanity striving in its own effort, short of God's seventh-day rest",
+          "The date of the Antichrist's rise",
+          "The number of years until the end"
+        ],
+        "answer": 1,
+        "explanation": "Six is read as humanity's number (made on the sixth day), falling short of seven, God's completed rest (Genesis 2:2; Hebrews 4:9-10)."
+      },
+      {
+        "id": "first-resurrection",
+        "q": "What is the 'first resurrection' of Revelation 20:5-6 in the Spiritual Understanding?",
+        "options": [
+          "A bodily resurrection before the millennium",
+          "The rapture of the church",
+          "The new birth: being raised with Christ into union with him",
+          "The revival of Israel"
+        ],
+        "answer": 2,
+        "explanation": "The view follows the Augustinian reading (Ephesians 2:5-6; John 5:24-25): those born again already reign with Christ."
+      },
+      {
+        "id": "two-women",
+        "q": "Which pair of 'two women' structures the book's contrasts in this view?",
+        "options": [
+          "Eve and Mary",
+          "Jezebel and Lydia",
+          "The harlot (Babylon) and the Bride (the New Jerusalem)",
+          "Sarah and Hagar only"
+        ],
+        "answer": 2,
+        "explanation": "The harlot of Revelation 17 represents a religion of mixture and self-effort; the Bride of Revelation 21 is the people of God in union with Christ, a city coming down from heaven."
+      },
+      {
+        "id": "judgments",
+        "q": "On whom or what do Revelation's judgments mainly fall, according to this reading?",
+        "options": [
+          "On believers who lack enough faith",
+          "On the old order, sin, death and the accuser",
+          "Only on the nation of Israel",
+          "On the physical earth alone"
+        ],
+        "answer": 1,
+        "explanation": "Reading through the finished work ('It is finished', 'It is done'), proponents see the judgments as the end of what opposes life, so believers read from victory, not toward fear."
+      },
+      {
+        "id": "critique",
+        "q": "Which is a common critique of the Spiritual Understanding?",
+        "options": [
+          "It is too literal",
+          "It sets too many dates",
+          "It can allegorise the symbols away from their first-century setting and underplay the future hope",
+          "It ignores the Lamb"
+        ],
+        "answer": 2,
+        "explanation": "Critics see a risk of subjective keys and a weakened future eschatology; proponents answer that the historical setting is the first layer, the keys come from Scripture's own usage, and Christ's appearing is affirmed."
+      }
+    ]
   }
 ]

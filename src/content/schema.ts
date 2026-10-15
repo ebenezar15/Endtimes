@@ -363,3 +363,47 @@ export type RevSymbol = z.infer<typeof RevSymbol>
 export type RevChapter = z.infer<typeof RevChapter>
 export type RevIntroSection = z.infer<typeof RevIntroSection>
 export type ViewReading = z.infer<typeof ViewReading>
+
+/* ---------- Spiritual understanding of Revelation ---------------------------------------- */
+
+export const SpiritualKey = z.object({
+  id: Id,
+  symbol: Text,
+  /** The common surface or future-event reading it is contrasted with. */
+  surface: Text,
+  /** The Christ-centred spiritual meaning. */
+  spiritual: Text,
+  /** What it says about Christ and the cross. */
+  christ: Text,
+  /** Pairs with its opposite in the "two cities" map (e.g. babylon ↔ new-jerusalem). */
+  opposite: Id.optional(),
+  chapter: z.number().int().min(1).max(22),
+  texts: z.array(Ref).default([]),
+})
+
+export const SpiritualChapter = z.object({
+  chapter: z.number().int().min(1).max(22),
+  /** Short theme, e.g. "The unveiling of the risen Christ". */
+  theme: Text,
+  /** How Christ is revealed in this chapter. */
+  christRevealed: Text,
+  /** The chapter read as a spiritual reality for the believer now. */
+  reading: Text,
+  insights: z.array(Text).min(2),
+  /** Optional per-symbol insights keyed by RevSymbol id. */
+  symbolInsights: z.array(z.object({ symbolId: Id, insight: Text })).default([]),
+  texts: z.array(Ref).default([]),
+})
+
+export const SpiritualStudy = z.object({
+  overview: Text,
+  principles: z.array(z.object({ id: Id, title: Text, text: Text, texts: z.array(Ref).default([]) })).min(4),
+  /** Stages of the inner journey through the book, for the journey map. */
+  journey: z.array(z.object({ id: Id, chapters: Text, stage: Text, text: Text })).min(5),
+  keys: z.array(SpiritualKey).min(12),
+  chapters: z.array(SpiritualChapter),
+  critiques: z.array(z.object({ critique: Text, response: Text })).min(2),
+  sources: z.array(Id).min(1),
+})
+export type SpiritualStudy = z.infer<typeof SpiritualStudy>
+export type SpiritualKey = z.infer<typeof SpiritualKey>

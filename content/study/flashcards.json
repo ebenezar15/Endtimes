@@ -882,5 +882,61 @@
         "back": "Usually amillennial, sometimes historic premillennial."
       }
     ]
+  },
+  {
+    "set": "spiritual",
+    "title": "Spiritual Understanding",
+    "cards": [
+      {
+        "id": "definition",
+        "front": "The Spiritual Understanding in one sentence",
+        "back": "Revelation is the unveiling of Jesus Christ and his finished work, read as present spiritual reality rather than a forecast to fear."
+      },
+      {
+        "id": "lamb-key",
+        "front": "The key to the book",
+        "back": "The Lamb standing as though slain (Revelation 5:6): the Lion conquers by self-giving, and the cross is the centre of history."
+      },
+      {
+        "id": "finished-work",
+        "front": "'It is finished' / 'It is done'",
+        "back": "John 19:30; Revelation 16:17; Revelation 21:6. The judgments unfold a victory already won at the cross."
+      },
+      {
+        "id": "two-cities",
+        "front": "Two cities",
+        "back": "Babylon (religion of mixture and self-effort, the commerce of the soul) versus the New Jerusalem (the Bride, grace coming down from above)."
+      },
+      {
+        "id": "mark-and-seal",
+        "front": "Mark of the beast vs seal of God",
+        "back": "A mind and life shaped by flesh, fear and self-effort versus the Spirit and the Father's name on the forehead: a new identity (Revelation 13:16; Revelation 14:1)."
+      },
+      {
+        "id": "six-six-six",
+        "front": "666",
+        "back": "Humanity's number: human effort that falls short of God's sabbath rest (7)."
+      },
+      {
+        "id": "one-forty-four",
+        "front": "The 144,000",
+        "back": "12 × 12 × 1,000: the complete people of God, seen again as the innumerable multitude (Revelation 7:4-9)."
+      },
+      {
+        "id": "thousand-years",
+        "front": "The thousand years and first resurrection",
+        "back": "The fullness of Christ's present reign; the first resurrection is the new birth into union with him (Revelation 20:4-6; Ephesians 2:6)."
+      },
+      {
+        "id": "two-trees",
+        "front": "Two trees",
+        "back": "Life by union with Christ (the tree of life, Revelation 22:2) set against living by the knowledge of good and evil."
+      },
+      {
+        "id": "relations",
+        "front": "Nearest relatives",
+        "back": "Idealism and partial preterism (symbolic, rooted in the first century), and amillennial or postmillennial 'present reign' views; it differs most from futurism."
+      }
+    ]
   }
 ]

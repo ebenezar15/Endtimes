@@ -1,7 +1,7 @@
-import type { Bible, RevChapter, RevIntroSection } from '../../content/schema'
+import type { Bible, RevChapter, RevIntroSection, SpiritualStudy } from '../../content/schema'
 import data from '../../generated/revelation.json'
 
-export const { intro, chapters } = data as unknown as { intro: RevIntroSection[]; chapters: RevChapter[] }
+export const { intro, chapters, spiritual } = data as unknown as { intro: RevIntroSection[]; chapters: RevChapter[]; spiritual: SpiritualStudy | null }
 export const chapterByNumber = new Map(chapters.map((c) => [c.chapter, c]))
 
 type RevText = { translations: Bible['translations']; chapters: Record<string, Record<'BSB' | 'KJV' | 'WEB', { ref: string; text: string }[]>> }

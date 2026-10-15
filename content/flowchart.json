@@ -101,7 +101,8 @@
       "options": [
         { "label": "Parallel cycles: each retells the whole church age in symbols", "result": "r-amil-idealist-eclectic" },
         { "label": "A chronological chart of church history", "result": "r-amil-historicist" },
-        { "label": "Mainly a picture of the end-time climax, with patterns that run through the age", "result": "r-amil-futurist" }
+        { "label": "Mainly a picture of the end-time climax, with patterns that run through the age", "result": "r-amil-futurist" },
+        { "label": "They unveil Christ and his finished work as present spiritual realities", "result": "r-spiritual" }
       ]
     }
   ],
@@ -177,6 +178,16 @@
       "title": "Amillennialism + historicism (Reformation pattern)",
       "positions": ["amil", "historicism"],
       "summary": "You see the millennium as the present (or, for some Reformers, an already-past) age, while reading Revelation and Daniel as a chart of church history that identifies the papacy as Antichrist. This combination was common among sixteenth-century Reformers, including Luther, who followed Augustine on the millennium while applying the historicist reading to their own day."
+    },
+    {
+      "id": "r-spiritual",
+      "title": "Spiritual understanding (Christ-centred)",
+      "positions": [
+        "spiritual",
+        "idealism",
+        "amil"
+      ],
+      "summary": "You read Revelation as 'the revelation of Jesus Christ': the slain Lamb is the key, the cross is the decisive victory, and the symbols describe present spiritual realities such as union with Christ, the renewed mind, the seal of the Father's name, and the old order of law and self-effort giving way to grace and the new creation. The thousand years are Christ's reign now and the first resurrection is the new birth. You read from victory rather than toward fear, and most who hold this view expect Christ's appearing to consummate what the cross finished. It draws on the spiritual exegesis of Origen, Tyconius and Augustine, and overlaps with idealist, preterist-leaning, amillennial and postmillennial readings. Critics warn that it can allegorise the symbols and underplay the future hope."
     },
     {
       "id": "r-amil-futurist",

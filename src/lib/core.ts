@@ -14,7 +14,7 @@ export const core = data as unknown as {
 
 const ORDER = [
   'postmil', 'amil', 'histpremil', 'disppremil',
-  'partial-preterism', 'full-preterism', 'historicism', 'futurism', 'idealism', 'eclectic',
+  'partial-preterism', 'full-preterism', 'historicism', 'futurism', 'idealism', 'eclectic', 'spiritual',
   'covenant-theology', 'dispensationalism', 'progressive-covenantalism',
 ]
 const rank = (id: string) => ORDER.indexOf(id) + 1 || 99
