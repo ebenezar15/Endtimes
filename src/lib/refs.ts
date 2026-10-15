@@ -1,3 +1,4 @@
+import { LANG } from './lang'
 import { content } from './content'
 
 const parse = (r: string) => {
@@ -23,5 +24,6 @@ export function passageForRef(ref: string) {
   )
 }
 
+/** BibleGateway link: the NIV in English, the Tamil Bible (BSI Old Version) when the app is in Tamil. */
 export const nivUrl = (ref: string) =>
-  `https://www.biblegateway.com/passage/?search=${encodeURIComponent(ref.replace(/–/g, '-'))}&version=NIV`
+  `https://www.biblegateway.com/passage/?search=${encodeURIComponent(ref.replace(/–/g, '-'))}&version=${LANG === 'ta' ? 'TAOVBSI' : 'NIV'}`

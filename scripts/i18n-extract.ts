@@ -1,9 +1,9 @@
 /**
- * Collects every string still needing Tamil into i18n/source/NNN.json batches (arrays of English
+ * Collects every string still needing Tamil (and not already in a batch) into i18n/source/<round>-NNN.json batches (arrays of English
  * strings, about 30k characters each), and writes i18n/ui-keys.json (the t('…') strings in src).
- *   npx vite-node scripts/i18n-extract.ts
+ *   npx vite-node scripts/i18n-extract.ts r2
  */
-import { mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { parseFiles } from '../src/content/validate'
 import { readContent } from './content-files'
@@ -30,10 +30,19 @@ writeFileSync(join(root, 'i18n', 'ui-keys.json'), JSON.stringify([...ui].sort(),
 // 2. Content strings, in reading order.
 const { files } = readContent()
 const { bundle } = parseFiles(files)
+// Strings already sitting in a batch (being translated) are not queued again.
+const round = process.argv[2] ?? 'r1'
+const srcDir = join(root, 'i18n', 'source')
+const pending = new Set<string>()
+try {
+  for (const f of readdirSync(srcDir)) if (f.endsWith('.json')) for (const x of JSON.parse(readFileSync(join(srcDir, f), 'utf8'))) pending.add(x)
+} catch {
+  /* first run */
+}
 const seen = new Set<string>()
 const todo: string[] = []
 const add = (s: string) => {
-  if (!seen.has(s) && !ta[s]) todo.push(s)
+  if (!seen.has(s) && !ta[s] && !pending.has(s)) todo.push(s)
   seen.add(s)
   return s
 }
@@ -41,15 +50,14 @@ const add = (s: string) => {
 mapStrings(bundle, add)
 
 // 3. Batches.
-const dir = join(root, 'i18n', 'source')
-rmSync(dir, { recursive: true, force: true })
+const dir = srcDir
 mkdirSync(dir, { recursive: true })
 let batch: string[] = []
 let size = 0
 let n = 0
 const flush = () => {
   if (!batch.length) return
-  writeFileSync(join(dir, `${String(++n).padStart(3, '0')}.json`), JSON.stringify(batch, null, 1))
+  writeFileSync(join(dir, `${round}-${String(++n).padStart(3, '0')}.json`), JSON.stringify(batch, null, 1))
   batch = []
   size = 0
 }
