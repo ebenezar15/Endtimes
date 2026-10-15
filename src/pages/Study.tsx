@@ -274,12 +274,30 @@ function Progress() {
           </tbody>
         </table>
       )}
-      <button
-        type="button"
-        className="btn ui text-sm"
-        onClick={() => window.confirm('Clear all progress, notes and saved items on this device?') && resetStudy()}
-      >
+      <ClearButton onConfirm={resetStudy} />
+    </div>
+  )
+}
+
+/** Two-step clear: an on-page confirmation instead of window.confirm, which some embedded viewers block. */
+function ClearButton({ onConfirm }: { onConfirm: () => void }) {
+  const [asking, setAsking] = useState(false)
+  const [done, setDone] = useState(false)
+  if (done) return <p className="ui text-sm text-ink-soft" role="status">Progress, notes and saved items cleared.</p>
+  if (!asking)
+    return (
+      <button type="button" className="btn ui text-sm" onClick={() => setAsking(true)}>
         Clear progress and notes
+      </button>
+    )
+  return (
+    <div className="leaf flex flex-wrap items-center gap-3 p-3" role="alertdialog" aria-label="Confirm clearing">
+      <p className="text-sm">Clear all progress, notes and saved items on this device? This can’t be undone.</p>
+      <button type="button" className="btn btn-primary text-sm" onClick={() => (onConfirm(), setAsking(false), setDone(true))}>
+        Yes, clear everything
+      </button>
+      <button type="button" className="btn text-sm" onClick={() => setAsking(false)}>
+        Keep them
       </button>
     </div>
   )
@@ -297,9 +315,15 @@ function labelFor(key: string): { label: string; to: string } {
 function Notes() {
   const { notes, pins, bookmarks } = useApp()
   const entries = Object.entries(notes).sort(([a], [b]) => Number(pins.includes(b)) - Number(pins.includes(a)))
+  const [copied, setCopied] = useState<'idle' | 'ok' | 'failed'>('idle')
+  const markdown = () => `# My notes from Last Things\n\n${entries.map(([k, v]) => `## ${labelFor(k).label}${pins.includes(k) ? ' (pinned)' : ''}\n\n${v}\n`).join('\n')}`
+  const copyMd = () =>
+    navigator.clipboard
+      .writeText(markdown())
+      .then(() => setCopied('ok'))
+      .catch(() => setCopied('failed'))
   const exportMd = () => {
-    const md = entries.map(([k, v]) => `## ${labelFor(k).label}${pins.includes(k) ? ' (pinned)' : ''}\n\n${v}\n`).join('\n')
-    const url = URL.createObjectURL(new Blob([`# My notes from Last Things\n\n${md}`], { type: 'text/markdown' }))
+    const url = URL.createObjectURL(new Blob([markdown()], { type: 'text/markdown' }))
     const a = document.createElement('a')
     a.href = url
     a.download = 'last-things-notes.md'
@@ -312,11 +336,22 @@ function Notes() {
         <div className="flex items-baseline justify-between">
           <h2 className="text-2xl">Notes</h2>
           {entries.length > 0 && (
-            <button type="button" className="ui text-sm underline underline-offset-2" onClick={exportMd}>
-              Download as Markdown
-            </button>
+            <span className="flex gap-3 text-sm">
+              <button type="button" className="underline underline-offset-2" onClick={copyMd}>
+                {copied === 'ok' ? 'Copied' : 'Copy all'}
+              </button>
+              <button type="button" className="underline underline-offset-2" onClick={exportMd}>
+                Download
+              </button>
+            </span>
           )}
         </div>
+        {copied === 'failed' && (
+          <div className="mt-2">
+            <p className="text-sm text-ink-soft">Copying isn’t allowed here. Select the text below and copy it yourself.</p>
+            <textarea readOnly className="mt-1 h-32 w-full rounded-lg border border-rule bg-bg p-2 text-sm" value={markdown()} onFocus={(e) => e.currentTarget.select()} />
+          </div>
+        )}
         {entries.length === 0 ? (
           <p className="ui mt-2 text-sm text-ink-soft">No notes yet. Use “Add a note” at the foot of any position, passage or debate.</p>
         ) : (
