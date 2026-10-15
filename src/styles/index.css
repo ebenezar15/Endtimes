@@ -144,6 +144,27 @@
   --font-serif: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
 }
 
+/* ---------- Page background ------------------------------------------------------------
+ * Unlayered and on html, body and #root, so no host or embedding stylesheet (the artifact
+ * preview, browser extensions, reader modes) can leave a light page under dark-mode text. */
+html,
+html body,
+html #root {
+  background-color: var(--bg);
+  color: var(--ink);
+}
+html body,
+html #root {
+  background-image:
+    radial-gradient(ellipse at 15% -10%, rgb(var(--glow) / 0.12), transparent 55%),
+    radial-gradient(ellipse at 95% 110%, rgb(var(--glow) / 0.1), transparent 50%);
+  background-attachment: fixed;
+}
+html #root {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
 @layer base {
 /* ---------- Base ------------------------------------------------------------------- */
 html {

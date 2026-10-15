@@ -1,0 +1,801 @@
+[
+  {
+    "id": "new-heavens-new-earth",
+    "title": "New heavens and a new earth",
+    "kind": "theme",
+    "summary": "The God who made the heavens and the earth in the beginning promises to make them new, and Revelation sees it done.",
+    "stops": [
+      {
+        "book": "Genesis",
+        "ref": "Genesis 1:1",
+        "note": "In the beginning God creates the heavens and the earth, the pair that the whole canon later promises to renew."
+      },
+      {
+        "book": "Psalms",
+        "ref": "Psalm 102:25-26",
+        "note": "The heavens and earth God founded will perish and wear out like a garment, and he will change them like a robe while he remains the same."
+      },
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 65:17",
+        "note": "God announces 'I create new heavens and a new earth', and the former things will not be remembered."
+      },
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 66:22",
+        "note": "The new heavens and new earth will endure before God, and so will Israel's offspring and name."
+      },
+      {
+        "book": "Matthew",
+        "ref": "Matthew 19:28",
+        "note": "Jesus speaks of 'the renewal' (palingenesia, literally rebirth) when the Son of Man sits on his glorious throne."
+      },
+      {
+        "book": "Romans",
+        "ref": "Romans 8:19-22",
+        "note": "Creation groans in labour pains, waiting to be set free from its bondage to decay into the freedom of the glory of God's children."
+      },
+      {
+        "book": "2 Peter",
+        "ref": "2 Peter 3:13",
+        "note": "After the day of God and its fire, believers wait for new heavens and a new earth in which righteousness dwells."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 21:1",
+        "note": "John sees a new heaven and a new earth, for the first heaven and the first earth have passed away."
+      }
+    ],
+    "meaning": "The phrase answers Genesis 1:1: the creation God began will not be abandoned but brought to its goal. In Isaiah the new creation is the setting for a restored Jerusalem, long life, secure homes and peace among animals, so it is earthy as well as heavenly. In the New Testament it becomes the horizon of Christian hope, tied to Christ's return, the resurrection and the liberation of the whole created order.",
+    "culture": "Many Ancient Near Eastern myths told of the world being ordered after a cosmic battle, but rarely of a final new creation. Second Temple texts develop Isaiah's promise: 1 Enoch 91:16 says the first heaven will pass away and a new heaven appear, Jubilees 1:29 speaks of 'the day of the new creation', and 2 Baruch and 4 Ezra 7 describe the renewal of creation after judgment; the Qumran Community Rule (1QS 4:25) looks to 'the making of the new'. In Stoic thought the cosmos was periodically consumed by fire (ekpyrosis) and reborn (palingenesia), a cycle that differs from the once-for-all renewal of biblical hope.",
+    "compare": "Revelation 21:1 takes up Isaiah 65:17 almost word for word but places it after the final judgment of chapter 20 rather than alongside long-lived mortals as Isaiah 65:20 does. It joins the new creation to a descending city and to the absence of the sea, details Isaiah does not have. Where Isaiah says the former things will not be remembered, Revelation says they have 'passed away'.",
+    "views": "Interpreters debate whether the new creation is a renewal of this world, purified and transformed (a view argued by many reformed, amillennial and some premillennial writers and popular in recent theology), or a replacement after its annihilation (a view some draw from 2 Peter 3:10 and 'passed away' in Revelation 21:1). Futurists of most kinds place it after the final judgment; some full preterists read it as the new covenant order inaugurated in the first century; idealists and Spiritual Understanding readers stress that the new creation has already begun in Christ and the church while awaiting completion.",
+    "chapters": [
+      20,
+      21,
+      22
+    ],
+    "sources": [
+      "middleton-new-heaven-earth",
+      "wright-surprised-by-hope",
+      "beale-revelation-nigtc",
+      "bauckham-theology-revelation",
+      "gentry-2-peter-3-consummation",
+      "preston-elements-shall-melt",
+      "charlesworth-otp",
+      "vermes-complete-dss",
+      "hoekema-bible-future"
+    ]
+  },
+  {
+    "id": "no-more-sea",
+    "title": "'And the sea was no more'",
+    "kind": "image",
+    "summary": "The restless sea of chaos, monsters and beasts, which God tamed at creation, is finally gone in the new creation.",
+    "stops": [
+      {
+        "book": "Genesis",
+        "ref": "Genesis 1:2",
+        "note": "Darkness lies over the face of the deep (tehom), and the Spirit of God hovers over the waters before God orders them."
+      },
+      {
+        "book": "Psalms",
+        "ref": "Psalm 74:13",
+        "note": "God divided the sea by his might and broke the heads of the sea monsters on the waters, language of victory over chaos."
+      },
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 27:1",
+        "note": "On that day the LORD will punish Leviathan the fleeing and twisting serpent and slay the dragon that is in the sea."
+      },
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 57:20",
+        "note": "The wicked are like the tossing sea that cannot be quiet, whose waters cast up mire and mud."
+      },
+      {
+        "book": "Daniel",
+        "ref": "Daniel 7:2-3",
+        "note": "The four winds of heaven stir up the great sea, and four great beasts come up out of it, the empires that oppress God's people."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 13:1",
+        "note": "A beast with ten horns and seven heads rises out of the sea, the dragon's agent of persecution."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 21:1",
+        "note": "In the new heaven and new earth 'the sea was no more'."
+      }
+    ],
+    "meaning": "In the Bible the sea is often more than water: it stands for the chaotic, threatening forces that God restrains, the source of monsters and of hostile empires. Its absence in the new creation signals that every threat to God's ordered world and to his people has been removed. Some readers also hear the end of separation, since for John on Patmos the sea divided him from the churches.",
+    "culture": "In the Babylonian Enuma Elish Marduk splits the sea-monster Tiamat to make the world, and in the Ugaritic Baal cycle Baal defeats Yam (Sea) and the seven-headed serpent Lotan, a close cousin of Leviathan. Second Temple writings keep the imagery: 4 Ezra 11-13 has an eagle and a man rising from the sea, and 1 Enoch 60 pictures Leviathan in the depths of the sea. For Greeks and Romans the sea was a place of danger and death, and Rome's power came to Asia Minor by sea.",
+    "compare": "Revelation keeps the canonical pattern in which the sea is the source of the beast (Daniel 7 and Revelation 13), and the sea gives up its dead in 20:13 before it disappears. Where the Psalms and Isaiah speak of God defeating the sea monster, Revelation removes the sea altogether, a step further than the earlier texts. Yet Revelation also has a glassy sea before God's throne (4:6, 15:2), a calm, subdued sea in heaven.",
+    "views": "Few take the line as a prediction of literal oceans vanishing, though some futurists allow it; most interpreters of every school read it symbolically as the end of chaos, evil, death or separation. Preterists and some idealists link the sea with the restless nations or the Gentile world from which the beast arose, and Spiritual Understanding readers may take it as the unsettled human heart stilled in Christ.",
+    "chapters": [
+      4,
+      13,
+      15,
+      20,
+      21
+    ],
+    "sources": [
+      "collins-combat-myth",
+      "beale-revelation-nigtc",
+      "aune-revelation-wbc",
+      "koester-revelation-ayb",
+      "bauckham-theology-revelation",
+      "charlesworth-otp",
+      "mounce-revelation-nicnt"
+    ]
+  },
+  {
+    "id": "no-more-tears-or-death",
+    "title": "'He will wipe away every tear… death shall be no more'",
+    "kind": "phrase",
+    "summary": "The curse of Genesis 3 is undone as God himself swallows up death and wipes the tears from every face.",
+    "stops": [
+      {
+        "book": "Genesis",
+        "ref": "Genesis 3:19",
+        "note": "After the fall the man is told he will return to the dust, for dust he is, the sentence of death."
+      },
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 25:8",
+        "note": "On the mountain of the LORD's feast he will swallow up death for ever and wipe away tears from all faces."
+      },
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 35:10",
+        "note": "The ransomed return to Zion with singing, and sorrow and sighing flee away."
+      },
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 65:19",
+        "note": "In the new Jerusalem the sound of weeping and of crying will no more be heard."
+      },
+      {
+        "book": "Hosea",
+        "ref": "Hosea 13:14",
+        "note": "God asks, 'O death, where are your plagues? O Sheol, where is your sting?', a line that can be read as threat or promise."
+      },
+      {
+        "book": "1 Corinthians",
+        "ref": "1 Corinthians 15:26",
+        "note": "The last enemy to be destroyed is death."
+      },
+      {
+        "book": "1 Corinthians",
+        "ref": "1 Corinthians 15:54-55",
+        "note": "Paul joins Isaiah 25:8 and Hosea 13:14: death is swallowed up in victory, where is your sting?"
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 7:17",
+        "note": "The Lamb shepherds the great multitude to springs of living water, and God wipes away every tear from their eyes."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 21:4",
+        "note": "God wipes away every tear; death, mourning, crying and pain are no more, for the former things have passed away."
+      }
+    ],
+    "meaning": "Death enters the story as the consequence of sin, and the prophets promise a day when God will reverse it personally and tenderly. The image of God wiping tears pictures both power over death and intimate comfort. Paul reads the resurrection of Christ as the first fruits of that victory, and Revelation sees it completed for all God's people.",
+    "culture": "In the Ugaritic Baal cycle the god Mot (Death) has a vast throat that swallows Baal, so Isaiah's picture of the LORD swallowing Death reverses a familiar image. Second Temple texts share the hope: 4 Ezra 8:53 says death is hidden and Hades has fled, 2 Baruch 73 promises that pain, sickness and untimely death will vanish, and 1 Enoch 51 speaks of the earth giving back the dead. In the Greco-Roman world many epitaphs voiced resignation, such as the formula 'I was not, I was, I am not, I do not care', against which this hope stood out.",
+    "compare": "Revelation 7:17 and 21:4 quote Isaiah 25:8 but leave out the swallowing of death in that verse, saying instead that death 'shall be no more', and 20:14 has Death and Hades thrown into the lake of fire. Revelation adds mourning, crying and pain to the list, gathering Isaiah 35:10 and 65:19. Revelation 7:17 places the comfort in the present heavenly scene, and 21:4 in the final new creation.",
+    "views": "Futurists, historicists and most preterists place the final abolition of death at the end of history, often with the general resurrection; some full preterists read it as the end of covenantal death with the old covenant order in AD 70. Idealists and Spiritual Understanding readers often stress that believers already share in Christ's victory over death while awaiting its full display.",
+    "chapters": [
+      7,
+      20,
+      21
+    ],
+    "sources": [
+      "wright-resurrection-son-god",
+      "beale-revelation-nigtc",
+      "fekkes-isaiah-revelation",
+      "charlesworth-otp",
+      "koester-revelation-ayb",
+      "oswalt-isaiah-nivac",
+      "wright-surprised-by-hope"
+    ]
+  },
+  {
+    "id": "all-things-new",
+    "title": "'Behold, I am making all things new'",
+    "kind": "phrase",
+    "summary": "Isaiah's 'new thing' and Paul's 'new creation' come to rest in the one sentence God speaks from the throne.",
+    "stops": [
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 42:9",
+        "note": "The former things have come to pass, and now God declares new things before they spring forth."
+      },
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 43:18-19",
+        "note": "Do not remember the former things; behold, I am doing a new thing, a way in the wilderness and rivers in the desert."
+      },
+      {
+        "book": "Ezekiel",
+        "ref": "Ezekiel 36:26",
+        "note": "God promises a new heart and a new spirit, replacing a heart of stone with a heart of flesh."
+      },
+      {
+        "book": "2 Corinthians",
+        "ref": "2 Corinthians 5:17",
+        "note": "If anyone is in Christ, there is a new creation: the old has passed away, behold, the new has come."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 21:5",
+        "note": "The one seated on the throne says, 'Behold, I am making all things new', and tells John these words are trustworthy and true."
+      }
+    ],
+    "meaning": "Isaiah promises a new act of God like the exodus but greater, a return from exile that would make former deliverances pale. Ezekiel locates the newness within people, while Paul says the new creation has already broken in for anyone in Christ. In Revelation the promise widens to everything, spoken directly by God from the throne, one of the very few places in the book where God himself speaks.",
+    "culture": "Ancient Near Eastern kings often boasted of restoring temples and cities, but the language of a god renewing all things is distinctive to the prophets. Second Temple texts speak of God renewing creation: Jubilees 1:29 and 4:26, 1 Enoch 45:4-5 (heaven and earth transformed), 2 Baruch 32:6 and 44:12, and the Qumran Community Rule's 'making of the new' (1QS 4:25). Roman imperial propaganda proclaimed a new golden age under Augustus, as in Virgil's fourth Eclogue, a renewal Revelation implicitly contrasts with God's.",
+    "compare": "Revelation 21:5 echoes Isaiah 43:19 and Paul's 'behold, the new has come', but moves from 'a new thing' or 'a new creation' to 'all things'. It also uses the present tense, 'I am making', which some read as an ongoing work already begun rather than only a future event. Isaiah tells Israel not to remember the former things; Revelation says the former things have passed away (21:4).",
+    "views": "Futurists generally read the saying as describing the final state after Christ's return and the last judgment, while preterists and some postmillennialists see a renewal already under way through the gospel since the first century. Idealists and Spiritual Understanding readers often emphasize the present tense, seeing God now renewing people and communities as a foretaste of the whole.",
+    "chapters": [
+      21
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "fekkes-isaiah-revelation",
+      "bauckham-theology-revelation",
+      "middleton-new-heaven-earth",
+      "charlesworth-otp",
+      "vermes-complete-dss",
+      "moyise-ot-in-revelation"
+    ]
+  },
+  {
+    "id": "god-dwells-with-people",
+    "title": "'The dwelling of God is with man'",
+    "kind": "theme",
+    "summary": "From walking in Eden to the tabernacle and the Word made flesh, God's purpose to live among his people is fulfilled.",
+    "stops": [
+      {
+        "book": "Genesis",
+        "ref": "Genesis 3:8",
+        "note": "The man and woman hear the LORD God walking in the garden in the cool of the day and hide among the trees."
+      },
+      {
+        "book": "Exodus",
+        "ref": "Exodus 25:8",
+        "note": "God tells Moses, 'Let them make me a sanctuary, that I may dwell in their midst.'"
+      },
+      {
+        "book": "Exodus",
+        "ref": "Exodus 29:45",
+        "note": "God will dwell among the people of Israel and be their God."
+      },
+      {
+        "book": "Leviticus",
+        "ref": "Leviticus 26:11-12",
+        "note": "God promises to set his dwelling among them, walk among them and be their God, while they are his people."
+      },
+      {
+        "book": "Ezekiel",
+        "ref": "Ezekiel 37:27",
+        "note": "After the dry bones revive, God says, 'My dwelling place shall be with them; I will be their God, and they shall be my people.'"
+      },
+      {
+        "book": "Zechariah",
+        "ref": "Zechariah 2:10-11",
+        "note": "Daughter Zion is told to sing, for God will dwell in her midst, and many nations will join themselves to the LORD and be his people (2:14-15 in Hebrew)."
+      },
+      {
+        "book": "John",
+        "ref": "John 1:14",
+        "note": "The Word became flesh and 'tabernacled' (eskenosen) among us, and we have seen his glory."
+      },
+      {
+        "book": "2 Corinthians",
+        "ref": "2 Corinthians 6:16",
+        "note": "Paul applies Leviticus 26 and Ezekiel 37 to the church: we are the temple of the living God."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 21:3",
+        "note": "A loud voice declares that the dwelling (skene) of God is with humanity; he will dwell with them and they will be his people."
+      }
+    ],
+    "meaning": "The covenant formula 'I will be their God and they will be my people' is tied throughout the Bible to God's presence among them. Eden, the tabernacle, the temple, the incarnation and the church are each stages of this one purpose. Revelation 21:3 presents its fulfilment with no temple needed, because God and the Lamb are its temple (21:22).",
+    "culture": "Across the Ancient Near East temples were understood as the house of a god, and Mesopotamian and Egyptian texts describe the deity residing in the inner shrine. The Aramaic Targums often speak of God making his Shekinah (presence) dwell among Israel, as in Targum Onkelos on Exodus 25:8, and the Greek skene (tent) sounds like that Hebrew word. Qumran's Temple Scroll (11Q19 29) expects God to dwell with Israel for ever in a sanctuary he himself creates, and Jubilees 1:17 promises that God will build his sanctuary among them and dwell with them.",
+    "compare": "Revelation 21:3 combines Leviticus 26, Ezekiel 37 and Zechariah 2 and, in several important manuscripts, says 'they will be his peoples' (plural), widening Zechariah's many nations into the covenant people. Where Exodus required a sanctuary built by hands, Revelation has no temple at all. John's Gospel and Revelation share the tabernacling language, the first of the incarnation and the second of the final state.",
+    "views": "Futurists read the verse as the eternal state following the millennium or the final judgment; amillennialists and postmillennialists also place its fulness at the end while seeing it begun in the church; some preterists read it as the new covenant community established after AD 70. Idealists and Spiritual Understanding readers often stress God's dwelling with his people now by the Spirit.",
+    "chapters": [
+      7,
+      21,
+      22
+    ],
+    "sources": [
+      "beale-temple-church-mission",
+      "beale-revelation-nigtc",
+      "bauckham-theology-revelation",
+      "aune-revelation-wbc",
+      "vermes-complete-dss",
+      "charlesworth-otp",
+      "carson-john-pntc"
+    ]
+  },
+  {
+    "id": "first-resurrection-second-death",
+    "title": "The first resurrection and the second death",
+    "kind": "phrase",
+    "summary": "Revelation's paired phrases draw on Daniel's two destinies and Jesus' two resurrections, and the Targums already spoke of a second death.",
+    "stops": [
+      {
+        "book": "Ezekiel",
+        "ref": "Ezekiel 37:1-14",
+        "note": "The valley of dry bones lives again by God's Spirit, a picture of Israel's national restoration often read later as resurrection."
+      },
+      {
+        "book": "Daniel",
+        "ref": "Daniel 12:2",
+        "note": "Many who sleep in the dust will awake, some to everlasting life and some to shame and everlasting contempt."
+      },
+      {
+        "book": "John",
+        "ref": "John 5:24-29",
+        "note": "Jesus speaks of a present passing from death to life for those who hear, and a future hour when all in the tombs come out to life or judgment."
+      },
+      {
+        "book": "Romans",
+        "ref": "Romans 6:4-5",
+        "note": "Believers are buried with Christ in baptism and raised to walk in newness of life, united to him in a death and resurrection like his."
+      },
+      {
+        "book": "Colossians",
+        "ref": "Colossians 3:1",
+        "note": "Believers have been raised with Christ and are told to seek the things above, where Christ is seated."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 2:11",
+        "note": "The one who conquers will not be hurt by the second death."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 20:4-6",
+        "note": "Souls of the faithful come to life and reign with Christ a thousand years; this is the first resurrection, and over them the second death has no power."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 20:14",
+        "note": "Death and Hades are thrown into the lake of fire, which is the second death."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 21:8",
+        "note": "The cowardly, faithless and others have their portion in the lake of fire, the second death."
+      }
+    ],
+    "meaning": "Daniel 12:2 introduces a double outcome of resurrection, and the New Testament speaks both of a present spiritual rising with Christ and of a future bodily resurrection. Revelation names a 'first resurrection' that brings blessing and priestly reign and a 'second death' that is final exclusion from God's life. The two phrases imply a first death and a second resurrection, which interpreters identify in different ways.",
+    "culture": "The phrase 'second death' appears in the Aramaic Targums, for example Targum Onkelos and other Targums on Deuteronomy 33:6 ('let Reuben live and not die the second death') and Targum Jonathan on Isaiah 22:14 and 65:6, 15, where it means final death after judgment. Resurrection hope is developed in 1 Enoch 22 and 51, 2 Maccabees 7, 4 Ezra 7:32 and 2 Baruch 30 and 50-51, and the Qumran text 4Q521 speaks of the Lord reviving the dead. Most Greeks and Romans thought of the soul's survival but regarded bodily resurrection as impossible or undesirable.",
+    "compare": "Revelation alone in the New Testament uses the terms 'first resurrection' and 'second death', and it reverses the expected sequence by announcing blessing before describing the final judgment. Daniel's two groups rise together, while Revelation 20:5 separates them by a thousand years in its sequence. The second death, already promised in 2:11, is defined only in 20:14 and 21:8 as the lake of fire.",
+    "views": "Premillennialists (historic and dispensational) usually take the first resurrection as the bodily raising of the saints before a future millennium and the second as the general resurrection after it. Amillennialists and many postmillennialists take it as spiritual, either regeneration (Augustine) or the believer's entrance into heavenly life at death (Kline), with one bodily resurrection at the end; some preterists link it to the vindication of the martyrs in the first century. Idealists and Spiritual Understanding readers often read it as the present life in Christ over which the second death has no claim.",
+    "chapters": [
+      2,
+      20,
+      21
+    ],
+    "sources": [
+      "kline-first-resurrection",
+      "michaels-first-resurrection-response",
+      "deere-premil-rev20",
+      "white-recapitulation-rev20",
+      "riddlebarger-case-amil",
+      "augustine-city-of-god",
+      "aune-revelation-wbc",
+      "wright-resurrection-son-god",
+      "charlesworth-otp",
+      "vermes-complete-dss"
+    ]
+  },
+  {
+    "id": "lake-of-fire-abyss",
+    "title": "The lake of fire, Gehenna and the abyss",
+    "kind": "place",
+    "summary": "Sodom's fire, Isaiah's undying worm and Daniel's river of fire lead to Revelation's abyss and lake burning with sulphur.",
+    "stops": [
+      {
+        "book": "Genesis",
+        "ref": "Genesis 19:24",
+        "note": "The LORD rains sulphur and fire on Sodom and Gomorrah, an image of judgment that recurs throughout the canon."
+      },
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 30:33",
+        "note": "Topheth has long been prepared for the king of Assyria, its pyre made deep and wide and kindled by the breath of the LORD like a stream of sulphur."
+      },
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 66:24",
+        "note": "Outside Jerusalem lie the corpses of the rebels, whose worm will not die and whose fire will not be quenched."
+      },
+      {
+        "book": "Daniel",
+        "ref": "Daniel 7:9-11",
+        "note": "A stream of fire flows from the throne of the Ancient of Days, and the beast is slain and given over to be burned."
+      },
+      {
+        "book": "Matthew",
+        "ref": "Matthew 25:41",
+        "note": "The king sends the cursed into the eternal fire prepared for the devil and his angels."
+      },
+      {
+        "book": "Mark",
+        "ref": "Mark 9:43-48",
+        "note": "Jesus warns of Gehenna, the unquenchable fire, quoting Isaiah 66:24's undying worm."
+      },
+      {
+        "book": "Luke",
+        "ref": "Luke 8:31",
+        "note": "The demons named Legion beg Jesus not to command them to depart into the abyss."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 9:1-2",
+        "note": "A fallen star is given the key to the shaft of the abyss, and smoke rises from it like a great furnace."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 20:10-15",
+        "note": "The devil joins the beast and false prophet (19:20) in the lake of fire and sulphur, and Death, Hades and those not in the book of life follow."
+      }
+    ],
+    "meaning": "Fire and sulphur are the Bible's recurring images for God's final, purifying and destroying judgment, beginning with Sodom. Gehenna, the valley outside Jerusalem associated with child sacrifice at Topheth, becomes Jesus' word for final judgment, and the abyss is a place where evil powers are confined. Revelation distinguishes the abyss, a temporary prison, from the lake of fire, the final destiny of the beast, the false prophet, the devil, Death and Hades.",
+    "culture": "Egyptian funerary books such as the Amduat picture lakes of fire in the underworld, and Greek writers spoke of Tartarus as the lowest prison of rebel Titans, a term 2 Peter 2:4 uses. In 1 Enoch fallen angels are bound in an abyss of fire (10:4-13, 18-21, 90:24-26), and 4 Ezra 7:36 contrasts the furnace of Gehenna with the paradise of delight. The often repeated idea that the Hinnom valley was a burning rubbish dump is first attested in medieval Jewish commentary (Kimchi) and is doubted by many scholars.",
+    "compare": "Revelation combines Sodom's sulphur, Daniel's burning of the beast and Isaiah's unquenchable fire into the single image of a lake, a term not used earlier in the Bible. The abyss of Luke 8:31, dreaded by demons, becomes in Revelation 9 a source of locust-like torment and in 20:1-3 the prison of Satan. Revelation adds that Death and Hades themselves are cast in, so the lake ends death itself.",
+    "views": "All schools read the lake of fire as final judgment after history, though preterists often see earlier scenes (chapters 9 and 19) as judgments in the first century. Readers differ on its nature: traditional eternal conscious punishment, conditional immortality or annihilation (stressing destruction and the 'second death'), and, among a minority, ultimate restoration; most interpreters treat the fire and lake as symbolic of a real reality. Spiritual Understanding readers may stress present separation from God as its beginning.",
+    "chapters": [
+      9,
+      11,
+      14,
+      17,
+      19,
+      20,
+      21
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "aune-revelation-wbc",
+      "koester-revelation-ayb",
+      "charlesworth-otp",
+      "france-matthew-nicnt",
+      "mounce-revelation-nicnt",
+      "osborne-revelation-becnt"
+    ]
+  },
+  {
+    "id": "gog-and-magog",
+    "title": "Gog and Magog",
+    "kind": "title",
+    "summary": "A grandson of Noah's son Japheth becomes Ezekiel's northern invader and finally Revelation's name for the nations' last revolt.",
+    "stops": [
+      {
+        "book": "Genesis",
+        "ref": "Genesis 10:2",
+        "note": "Magog appears as a son of Japheth beside Gomer, Madai, Javan, Tubal and Meshech in the table of nations."
+      },
+      {
+        "book": "Ezekiel",
+        "ref": "Ezekiel 38:2",
+        "note": "The prophet is told to set his face against Gog of the land of Magog, chief prince (or prince of Rosh) of Meshech and Tubal."
+      },
+      {
+        "book": "Ezekiel",
+        "ref": "Ezekiel 38:14-16",
+        "note": "When Israel dwells securely, Gog comes from the remote north with many peoples like a cloud covering the land, in the latter days."
+      },
+      {
+        "book": "Ezekiel",
+        "ref": "Ezekiel 39:1-6",
+        "note": "God turns Gog back, makes him fall on the mountains of Israel and sends fire on Magog and the coastlands."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 19:17-18",
+        "note": "An angel summons the birds to the great supper of God, quoting Ezekiel 39's invitation after Gog's defeat."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 20:7-9",
+        "note": "After the thousand years Satan deceives the nations at the four corners of the earth, Gog and Magog, who surround the camp of the saints and are consumed by fire from heaven."
+      }
+    ],
+    "meaning": "In Ezekiel Gog is the ruler of a vast coalition from the far north who attacks restored Israel and is destroyed by God alone, showing the nations that the LORD is holy. The figure represents the last great assault on God's people after their restoration. Revelation uses both names as a symbolic title for the nations from every corner of the earth gathered for a final rebellion.",
+    "culture": "Many scholars link Gog with Gyges, king of Lydia (Gugu in Assyrian records), and Magog has been placed in Anatolia or the steppe; Josephus (Antiquities 1.123) identified Magog with the Scythians. In Second Temple and early Jewish texts Gog and Magog become the end-time enemy: the Sibylline Oracles (3:319, 512) mention the land of Gog and Magog, the Qumran War Scroll names Gog among the foes, and Targum Pseudo-Jonathan on Numbers 11:26 has Eldad and Medad prophesying Gog's attack at the end of days. Greeks and Romans told of barbarian peoples beyond the world's edge, later linked with Gog and Magog in the Alexander legends.",
+    "compare": "Ezekiel's Gog is a person from the land of Magog, but Revelation treats Gog and Magog as two names for the nations themselves, not a single ruler. Ezekiel's invader comes from the north against the mountains of Israel; Revelation's armies come from the four corners of the earth against 'the camp of the saints and the beloved city'. Revelation uses Ezekiel 38-39 twice, the bird feast in 19:17-21 and the fire from heaven in 20:7-10.",
+    "views": "Premillennialists generally read 20:7-9 as a revolt at the end of a future millennium, and many dispensationalists distinguish it from Ezekiel's Gog, which they place before or during the tribulation, sometimes identified with Russia (a view others reject). Amillennialists and many postmillennialists see 19:17-21 and 20:7-10 as the same final battle described twice, since both draw on Ezekiel 39; some preterists link Ezekiel's prophecy to past events such as the Maccabean wars or Rome. Idealists read Gog and Magog as the recurring hostility of the world to the church, climaxing at the end.",
+    "chapters": [
+      16,
+      19,
+      20
+    ],
+    "sources": [
+      "block-ezekiel-25-48",
+      "feinberg-prophecy-ezekiel",
+      "beale-revelation-nigtc",
+      "white-recapitulation-rev20",
+      "josephus-antiquities",
+      "charlesworth-otp",
+      "lindsey-late-great-planet",
+      "walvoord-revelation-jesus-christ",
+      "riddlebarger-case-amil"
+    ]
+  },
+  {
+    "id": "armageddon",
+    "title": "Armageddon (Har-Magedon)",
+    "kind": "place",
+    "summary": "Revelation's gathering place for the last battle bears the name of a famous battlefield that is not a mountain.",
+    "stops": [
+      {
+        "book": "Judges",
+        "ref": "Judges 5:19",
+        "note": "The kings of Canaan fight at Taanach by the waters of Megiddo, and Deborah's song celebrates their defeat."
+      },
+      {
+        "book": "1 Kings",
+        "ref": "1 Kings 18:19-40",
+        "note": "On Mount Carmel, the ridge above the Megiddo plain, Elijah confronts the prophets of Baal and fire falls from heaven."
+      },
+      {
+        "book": "2 Kings",
+        "ref": "2 Kings 23:29",
+        "note": "King Josiah meets Pharaoh Neco at Megiddo and is killed there."
+      },
+      {
+        "book": "2 Chronicles",
+        "ref": "2 Chronicles 35:22",
+        "note": "Josiah disguises himself and fights in the plain of Megiddo, ignoring God's word through Neco."
+      },
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 14:13",
+        "note": "The king of Babylon boasts that he will sit on 'the mount of assembly' (har mo'ed) in the far north, a phrase some link with Har-Magedon."
+      },
+      {
+        "book": "Joel",
+        "ref": "Joel 3:2",
+        "note": "God will gather all nations to the valley of Jehoshaphat to enter into judgment with them."
+      },
+      {
+        "book": "Zechariah",
+        "ref": "Zechariah 12:11",
+        "note": "Jerusalem's mourning will be like the mourning for Hadad-rimmon in the plain of Megiddo."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 16:12-16",
+        "note": "As the Euphrates dries up, demonic spirits gather the kings of the whole world for the battle of the great day of God Almighty, at the place called in Hebrew Armageddon."
+      }
+    ],
+    "meaning": "Megiddo guarded a key pass into the Jezreel valley and was the scene of decisive battles, both victories (Deborah) and disasters (Josiah). Revelation 16:16 uses its name for the gathering of the world's rulers against God, though the battle itself is described only in 19:11-21. The name thus evokes a memorable battleground and a place of mourning rather than a precise map reference, a point interpreters weigh differently.",
+    "culture": "Megiddo was famous well beyond Israel: Pharaoh Thutmose III's victory there in the fifteenth century BC is the earliest battle recorded in detail, and armies used the pass for centuries. Greek Harmagedon most likely renders Hebrew har Megiddo, 'mountain of Megiddo', but Megiddo is a tell on a plain, so scholars have proposed Mount Carmel nearby, 'city of Megiddo', 'his fruitful mountain' (Jerusalem), or har mo'ed, the 'mount of assembly' of Isaiah 14:13 (an argument advanced by Meredith Kline). Second Temple texts such as 1 Enoch 56 and the Qumran War Scroll describe a final gathering of nations against God's people.",
+    "compare": "Revelation names the place 'in Hebrew', signalling a symbolic name, and attaches it to a gathering of 'the kings of the whole world' rather than Canaanite or Egyptian armies. Where Joel puts the judgment in the valley of Jehoshaphat and Zechariah focuses on Jerusalem, Revelation uses Megiddo, possibly combining the battleground with Zechariah's mourning. No battle is described at 16:16; the victory in 19:19-21 is won by the word of the rider, not by armies.",
+    "views": "Many futurists expect a literal gathering of armies in the Jezreel valley near Megiddo before Christ's return, while preterists tend to read it as the judgment on Jerusalem or on Rome in the first centuries, and historicists have linked the drying Euphrates with events such as the decline of the Ottoman Empire. Idealists and amillennialists usually take Armageddon as a symbol of the final conflict between God and the world-system, the same battle as 19:19-21 and 20:7-9, and Spiritual Understanding readers may read it as the present spiritual battle of the believer.",
+    "chapters": [
+      16,
+      19
+    ],
+    "sources": [
+      "aune-revelation-wbc",
+      "beale-revelation-nigtc",
+      "koester-revelation-ayb",
+      "mounce-revelation-nicnt",
+      "gregg-revelation-four-views",
+      "walvoord-revelation-jesus-christ",
+      "chilton-days-of-vengeance",
+      "charlesworth-otp"
+    ]
+  },
+  {
+    "id": "song-of-moses-hallelujah",
+    "title": "Hallelujah and the song of Moses and the Lamb",
+    "kind": "phrase",
+    "summary": "The victory song by the sea and the Psalter's hallelujahs become the hymns of the redeemed around God's throne.",
+    "stops": [
+      {
+        "book": "Exodus",
+        "ref": "Exodus 15:1-18",
+        "note": "After the crossing of the sea Moses and Israel sing that the LORD has triumphed gloriously and will reign for ever."
+      },
+      {
+        "book": "Deuteronomy",
+        "ref": "Deuteronomy 32:1-43",
+        "note": "Moses' last song proclaims that God's works are perfect and all his ways are just, and that he will avenge the blood of his servants."
+      },
+      {
+        "book": "Psalms",
+        "ref": "Psalm 86:9",
+        "note": "All the nations God has made will come and worship before him and glorify his name."
+      },
+      {
+        "book": "Psalms",
+        "ref": "Psalm 104:35",
+        "note": "The psalm closes with 'Praise the LORD', the first 'Hallelujah' in the Psalter, after a prayer that sinners be consumed from the earth."
+      },
+      {
+        "book": "Psalms",
+        "ref": "Psalms 113-118",
+        "note": "The Hallel psalms, sung at Passover, praise the God who raises the poor and brought Israel out of Egypt."
+      },
+      {
+        "book": "Jeremiah",
+        "ref": "Jeremiah 10:7",
+        "note": "Who would not fear you, O King of the nations? Among all the wise of the nations there is none like you."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 15:3-4",
+        "note": "Beside the sea of glass the conquerors sing the song of Moses and of the Lamb, weaving Psalm 86:9, Jeremiah 10:7 and Deuteronomy 32:4."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 19:1-6",
+        "note": "A great multitude cries 'Hallelujah' four times, celebrating God's judgment of Babylon and his reign, and announcing the marriage of the Lamb."
+      }
+    ],
+    "meaning": "Israel's worship began with a song of rescue at the sea and returned constantly to praise for God's justice and kingship. Revelation sets the redeemed beside a heavenly sea singing a new exodus song, and the only 'Hallelujahs' in the New Testament fall in Revelation 19. Praise in this thread is both thanksgiving for deliverance and celebration of God's just judgment of oppressors.",
+    "culture": "Victory hymns after battle were common in the Ancient Near East, and Egyptian and Assyrian kings recorded songs of triumph. Jewish tradition sang the Hallel (Psalms 113-118) at Passover, as the Mishnah (Pesahim 10) describes, and Tobit 13:18 pictures the streets of the new Jerusalem crying 'Hallelujah'; a Qumran manuscript (4Q365) preserves an expanded Song of Miriam. In the Roman world choirs sang hymns to the emperor, and acclamations such as 'worthy' and 'Lord and God' were offered to rulers, against which Revelation's hymns ascribe such praise to God and the Lamb.",
+    "compare": "Revelation calls the song 'the song of Moses and of the Lamb', yet its words come not from Exodus 15 but from Psalms, Jeremiah and Deuteronomy 32, and they focus on the nations coming to worship rather than on the enemy's defeat. The singers stand beside a sea mingled with fire, not on the far shore of the Red Sea. Psalm 104:35 links hallelujah with the removal of sinners, and Revelation 19 likewise sings it over fallen Babylon.",
+    "views": "Futurists usually place these hymns in heaven during or after a future tribulation, historicists at points in church history, and preterists in connection with the fall of Jerusalem or Rome, while idealists read them as the church's continuing worship that interprets every judgment. All schools commonly note their liturgical character and use in Christian worship, and Spiritual Understanding readers may stress them as the believer's present song of deliverance.",
+    "chapters": [
+      5,
+      7,
+      11,
+      15,
+      19
+    ],
+    "sources": [
+      "bauckham-climax-prophecy",
+      "beale-revelation-nigtc",
+      "aune-revelation-wbc",
+      "koester-revelation-ayb",
+      "vermes-complete-dss",
+      "beale-mcdonough-revelation-cnuot",
+      "thompson-apocalypse-empire"
+    ]
+  },
+  {
+    "id": "how-long-o-lord",
+    "title": "'How long, O Lord?' and the souls under the altar",
+    "kind": "phrase",
+    "summary": "From Abel's blood crying from the ground to the martyrs beneath the altar, the lament for justice runs through Scripture.",
+    "stops": [
+      {
+        "book": "Genesis",
+        "ref": "Genesis 4:10",
+        "note": "God tells Cain, 'The voice of your brother's blood is crying to me from the ground.'"
+      },
+      {
+        "book": "Leviticus",
+        "ref": "Leviticus 4:7",
+        "note": "The priest pours out the rest of the sacrificial blood at the base of the altar of burnt offering."
+      },
+      {
+        "book": "Psalms",
+        "ref": "Psalm 79:5-10",
+        "note": "After Jerusalem's fall the psalmist asks 'How long, O LORD?' and prays that the avenging of your servants' blood be known among the nations (compare the 'how long' of Psalm 13:1)."
+      },
+      {
+        "book": "Habakkuk",
+        "ref": "Habakkuk 1:2",
+        "note": "The prophet asks, 'O LORD, how long shall I cry for help, and you will not hear?'"
+      },
+      {
+        "book": "Zechariah",
+        "ref": "Zechariah 1:12",
+        "note": "The angel of the LORD asks how long God will withhold mercy from Jerusalem after seventy years."
+      },
+      {
+        "book": "Luke",
+        "ref": "Luke 18:7-8",
+        "note": "Jesus asks whether God will not give justice to his elect who cry to him day and night, and promises he will do so speedily."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 6:9-11",
+        "note": "Under the altar the souls of those slain for the word of God cry 'How long?' and are told to rest until the number of their fellow servants is complete."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 8:3-5",
+        "note": "The prayers of the saints rise with incense from the golden altar, and fire from the altar is thrown on the earth."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 16:7",
+        "note": "The altar itself answers, 'Yes, Lord God Almighty, true and just are your judgments.'"
+      }
+    ],
+    "meaning": "The cry 'How long?' is the classic lament of the faithful who suffer while God seems silent. Shed blood is pictured as having a voice that reaches God, and in the sacrificial system blood was poured at the altar's base, which makes the martyrs' position under the altar an image of their lives offered to God. Revelation shows the cry heard: the prayers rise before God, set the judgments in motion and are finally answered with praise for God's justice.",
+    "culture": "Laments asking how long a god would stay angry are known from Mesopotamian prayers, giving the biblical form a wider setting. 1 Enoch 47 describes the prayer and blood of the righteous rising before the Lord of Spirits until the number of the righteous is reached, and in 4 Ezra 4:35-37 the souls of the righteous in their chambers ask 'How long?' and are told to wait until the number like them is complete; later rabbinic texts place the souls of the righteous beneath the throne of glory. Romans prized noble deaths, and Christians in Asia faced the threat of execution, as Pliny's letter to Trajan later shows.",
+    "compare": "Revelation follows the 1 Enoch and 4 Ezra pattern closely, with a cry for vengeance answered by a waiting period until a number is complete, but places the souls under the heavenly altar. Where the Psalms ask God to avenge his servants among the nations, Revelation gives the martyrs white robes and rest first. The altar that hears their cry in 6:9 later speaks in 16:7 to affirm the justice of the bowl judgments.",
+    "views": "Preterists often identify the martyrs with those killed under Jewish and Neronian persecution and the vindication with AD 70 or Rome's judgment, historicists with martyrs across church history, and futurists with believers killed in the end-time tribulation, sometimes with those of earlier ages. Idealists read the scene as the persistent prayer of the suffering church in every age, and Spiritual Understanding readers may stress the believer's present offering of life to God.",
+    "chapters": [
+      6,
+      8,
+      9,
+      14,
+      16,
+      19
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "bauckham-climax-prophecy",
+      "aune-revelation-wbc",
+      "charlesworth-otp",
+      "koester-revelation-ayb",
+      "pliny-letters-trajan",
+      "schussler-fiorenza-justice-judgment"
+    ]
+  },
+  {
+    "id": "two-suppers",
+    "title": "The marriage supper and the great supper of God",
+    "kind": "image",
+    "summary": "Isaiah's feast for all peoples and Ezekiel's grim banquet for the birds become two contrasting suppers in Revelation 19.",
+    "stops": [
+      {
+        "book": "Isaiah",
+        "ref": "Isaiah 25:6-8",
+        "note": "On Mount Zion the LORD prepares for all peoples a feast of rich food and aged wine, and swallows up death for ever."
+      },
+      {
+        "book": "Ezekiel",
+        "ref": "Ezekiel 39:17-20",
+        "note": "After Gog's defeat God invites the birds and beasts to a sacrificial feast of the flesh of the mighty and the blood of princes."
+      },
+      {
+        "book": "Matthew",
+        "ref": "Matthew 8:11",
+        "note": "Many will come from east and west and recline at table with Abraham, Isaac and Jacob in the kingdom of heaven."
+      },
+      {
+        "book": "Matthew",
+        "ref": "Matthew 22:1-14",
+        "note": "In the parable of the wedding feast the invited refuse, others are brought in, and a guest without a wedding garment is cast out."
+      },
+      {
+        "book": "Luke",
+        "ref": "Luke 14:15-24",
+        "note": "A guest blesses those who will eat bread in the kingdom; Jesus answers with a great banquet the invited refuse and the poor and lame fill."
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 19:9",
+        "note": "The angel says, 'Blessed are those who are invited to the marriage supper of the Lamb.'"
+      },
+      {
+        "book": "Revelation",
+        "ref": "Revelation 19:17-18",
+        "note": "An angel standing in the sun calls the birds to 'the great supper of God' to eat the flesh of kings, captains and all people."
+      }
+    ],
+    "meaning": "The meal is one of the Bible's richest images of salvation: God as host, his people welcomed, joy and plenty at his table. Jesus' table fellowship and parables present the kingdom as a banquet whose guest list surprises the righteous. Revelation sets two suppers side by side: the joyful wedding feast for those invited by the Lamb and the grim feast of judgment, in which the enemies of God become the meal.",
+    "culture": "Ancient Near Eastern texts celebrate a god's victory with a banquet, as when Baal holds a feast after building his palace in the Ugaritic texts. Second Temple writings speak of a messianic banquet: 1 Enoch 62:14 says the righteous will eat with that Son of Man, 2 Baruch 29:4 makes Behemoth and Leviathan food for the survivors, and the Qumran Rule of the Congregation (1QSa 2) describes a meal led by the priest and the Messiah of Israel. In the Greco-Roman world wedding feasts and banquets marked social rank, and leaving corpses unburied for birds was a grave dishonour.",
+    "compare": "Revelation 19 brings Isaiah's feast and Ezekiel's sacrificial meal together in the same chapter, so that the blessing and the curse are parallel invitations. Ezekiel's banquet follows Gog's defeat, while Revelation's precedes the defeat of the beast and his armies and includes 'all people, free and slave, small and great'. The parables' wedding feast becomes the marriage of the Lamb, with the bride clothed in the righteous deeds of the saints rather than a guest's garment.",
+    "views": "Futurists usually place the marriage supper at or after Christ's return, with dispensationalists often locating the marriage in heaven before the return and the supper in the millennial kingdom, and the great supper at the battle of Armageddon. Preterists may connect the suppers with the new covenant feast and the judgment on Jerusalem or Rome, while idealists and amillennialists read them as the final consummation and judgment pictured in contrasting meals, with the Lord's Supper as a present foretaste, a theme Spiritual Understanding readers often stress.",
+    "chapters": [
+      3,
+      19,
+      20
+    ],
+    "sources": [
+      "beale-revelation-nigtc",
+      "aune-revelation-wbc",
+      "charlesworth-otp",
+      "vermes-complete-dss",
+      "block-ezekiel-25-48",
+      "france-matthew-nicnt",
+      "koester-revelation-ayb",
+      "pentecost-things-to-come"
+    ]
+  }
+]

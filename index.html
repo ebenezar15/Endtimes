@@ -8,6 +8,15 @@
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="icon-192.png" />
     <title>Last Things</title>
+    <script>
+      // Apply the saved scheme and mode before the app loads, so a dark page never flashes light.
+      try {
+        var st = (JSON.parse(localStorage.getItem('last-things') || '{}').state) || {}
+        var dark = st.highContrast || st.mode === 'dark' || ((!st.mode || st.mode === 'system') && matchMedia('(prefers-color-scheme: dark)').matches)
+        document.documentElement.dataset.scheme = st.scheme || 'sea'
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

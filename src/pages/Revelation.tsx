@@ -7,6 +7,7 @@ import { Sources } from '../components/Sources'
 import { SevensDiagram } from '../components/SevensDiagram'
 import { ChurchesMap } from '../components/ChurchesMap'
 import { Icon } from '../components/Icon'
+import { SealedScroll } from '../components/SealedScroll'
 import { chapters, intro } from '../lib/data/revelation'
 
 /** Colours for the movements of the book, assigned in order of first appearance. */
@@ -18,25 +19,42 @@ export default function Revelation() {
   const symbolCount = chapters.reduce((n, c) => n + c.symbols.length, 0)
   return (
     <div className="mx-auto max-w-6xl">
-      <PageHeader
-        title="The Book of Revelation"
-        lede="A chapter-by-chapter study of the Apocalypse. Each phrase and image is traced to its Old Testament and Jewish roots and its setting in Roman Asia, then read through every major view."
-      >
-        <div className="mt-5 flex flex-wrap gap-2">
-          <Link to="/revelation/1" className="btn btn-primary no-underline">
-            <Icon name="scroll" /> Begin at chapter 1
-          </Link>
-          <Link to="/revelation/connections" className="btn no-underline">
-            <Icon name="layers" /> Revelation and the whole Bible
-          </Link>
-          <Link to="/spiritual" className="btn no-underline">
-            <Icon name="sparkles" /> Spiritual understanding
-          </Link>
-          <Link to="/revelation/symbols" className="btn no-underline">
-            <Icon name="search" /> Index of {symbolCount || 'all'} phrases and images
-          </Link>
-        </div>
-      </PageHeader>
+      <div className="grid items-center gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]">
+        <PageHeader
+          title="The Book of Revelation"
+          lede="A chapter-by-chapter study of the Apocalypse. Each phrase and image is traced to its Old Testament and Jewish roots and its setting in Roman Asia, then read through every major view."
+        >
+          <div className="mt-5 flex flex-wrap gap-2">
+            <Link to="/revelation/1" className="btn btn-primary no-underline">
+              <Icon name="scroll" /> Begin at chapter 1
+            </Link>
+            <Link to="/revelation/connections" className="btn no-underline">
+              <Icon name="layers" /> Revelation and the whole Bible
+            </Link>
+            <Link to="/spiritual" className="btn no-underline">
+              <Icon name="sparkles" /> Spiritual understanding
+            </Link>
+            <Link to="/revelation/symbols" className="btn no-underline">
+              <Icon name="search" /> Index of {symbolCount || 'all'} phrases and images
+            </Link>
+          </div>
+        </PageHeader>
+        <motion.div initial={{ opacity: 0, scale: 0.94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }} className="leaf mb-8 p-3">
+          <SealedScroll />
+        </motion.div>
+      </div>
+
+      <Link to="/revelation/connections" className="group leaf glow-card mb-12 flex flex-wrap items-center gap-4 p-5 text-ink no-underline transition-transform hover:-translate-y-1">
+        <motion.span className="flex size-14 items-center justify-center rounded-2xl bg-accent text-[var(--accent-ink)]" animate={{ rotate: [0, 8, -8, 0] }} transition={{ duration: 6, repeat: Infinity }}>
+          <Icon name="layers" size={26} />
+        </motion.span>
+        <span className="min-w-0 flex-1">
+          <span className="block text-xs font-bold uppercase tracking-widest text-accent">New</span>
+          <span className="block text-xl font-bold">Revelation and the whole Bible</span>
+          <span className="block text-ink-soft">An atlas of places from Ur to Patmos, golden threads from Genesis to Revelation, the books behind the book, shared sequences and the book's mirror structure.</span>
+        </span>
+        <Icon name="arrow" className="transition-transform group-hover:translate-x-1" />
+      </Link>
 
       <section aria-labelledby="map-h">
         <h2 id="map-h" className="text-2xl font-bold">

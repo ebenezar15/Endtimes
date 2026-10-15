@@ -81,7 +81,7 @@ export function generateContent(opts: { partial?: boolean } = {}) {
       }
     })
   write('revelation', { intro: b.revIntro, chapters, spiritual })
-  write('connections', { threads: b.revThreads, books: b.revBooks, structure: b.revStructure })
+  write('connections', { threads: b.revThreads, books: b.revBooks, structure: b.revStructure, atlas: b.atlas })
   // A slim slice for the first screen (home page + app shell).
   write('core', {
     positions: b.positions.map(({ id, name, shortName, axis, color, initial, tagline, summary }) => ({ id, name, shortName, axis, color, initial, tagline, summary })),

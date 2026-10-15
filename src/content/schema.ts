@@ -525,3 +525,35 @@ export const RevStructure = z.object({
   sources: z.array(Id).min(1),
 })
 export type RevStructure = z.infer<typeof RevStructure>
+
+/* ---------- Atlas of Revelation ----------------------------------------------------------- */
+
+export const AtlasEra = z.object({ id: Id, label: Text, years: Text, summary: Text })
+export const AtlasPlace = z.object({
+  id: Id,
+  name: Text,
+  /** Decimal degrees. */
+  lat: z.number().min(15).max(50),
+  lon: z.number().min(5).max(60),
+  kind: z.enum(['city', 'region', 'mountain', 'river', 'island', 'sea', 'valley']),
+  /** Era ids in which the place matters. */
+  eras: z.array(Id).min(1),
+  /** What happened there in the Bible's story. */
+  story: Text,
+  /** How Revelation uses the place or its memory. */
+  revelation: Text,
+  /** Historical or archaeological context. */
+  context: Text,
+  refs: z.array(Ref).min(1),
+  /** Canon thread ids this place belongs to. */
+  threads: z.array(Id).default([]),
+})
+export const AtlasJourney = z.object({ id: Id, title: Text, era: Id, stops: z.array(Id).min(2), note: Text, refs: z.array(Ref).default([]) })
+export const Atlas = z.object({
+  intro: Text,
+  eras: z.array(AtlasEra).min(3),
+  places: z.array(AtlasPlace).min(10),
+  journeys: z.array(AtlasJourney).min(2),
+  sources: z.array(Id).min(1),
+})
+export type Atlas = z.infer<typeof Atlas>

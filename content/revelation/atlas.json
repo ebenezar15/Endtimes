@@ -1,0 +1,933 @@
+{
+  "intro": "Revelation is full of places: Babylon, Sodom and Egypt, Mount Zion, the Euphrates, Armageddon and seven real cities in Roman Asia. This atlas maps the places behind its imagery across the whole biblical story, so you can see how John's visions draw on the geography of earlier Scripture and of his own world. Where a site's location or a date is uncertain, the notes say so.",
+  "eras": [
+    {
+      "id": "patriarchs",
+      "label": "Patriarchs and Exodus",
+      "years": "c. 2000-1250 BC",
+      "summary": "Abraham leaves Mesopotamia on the strength of God's promise, and his descendants go down to Egypt and are brought out through plagues, Passover and the sea. At Sinai God makes them a kingdom of priests, a pattern Revelation repeatedly echoes."
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom and prophets",
+      "years": "c. 1000-586 BC",
+      "summary": "David and Solomon establish Jerusalem and its temple, and the prophets confront kings and announce judgement on Israel and the nations. Assyria and then Babylon rise as the great powers whose fall the prophets foretell."
+    },
+    {
+      "id": "exile",
+      "label": "Exile and return",
+      "years": "586-330 BC",
+      "summary": "Babylon destroys Jerusalem and the temple, and prophets such as Ezekiel and Daniel receive visions among the exiles. Under Persia some return to rebuild the city and temple, while others stay in the eastern diaspora."
+    },
+    {
+      "id": "greek",
+      "label": "Greek and Maccabean age",
+      "years": "330-63 BC",
+      "summary": "Alexander's conquests spread Greek language and culture, and his successors in Egypt and Syria fight over the land of Israel. The persecution under Antiochus IV and the Maccabean revolt shape later readings of Daniel's beasts and times."
+    },
+    {
+      "id": "rome",
+      "label": "Rome and the first churches",
+      "years": "63 BC-AD 70",
+      "summary": "Pompey brings Judea under Roman control, Jesus is crucified under Pontius Pilate, and the gospel spreads from Jerusalem through Antioch to Asia and Rome. The era closes with Nero's persecution and the destruction of Jerusalem's temple in AD 70."
+    },
+    {
+      "id": "john",
+      "label": "John on Patmos",
+      "years": "c. AD 68-96",
+      "summary": "John receives Revelation in exile on Patmos and writes to seven churches in the Roman province of Asia. Scholars debate the date: an early date under Nero or soon after (c. AD 68-69) and a late date under Domitian (c. AD 95, following Irenaeus) are both defended, with the late date the majority view."
+    }
+  ],
+  "places": [
+    {
+      "id": "eden",
+      "name": "Eden (traditional location)",
+      "lat": 31.0,
+      "lon": 47.44,
+      "kind": "region",
+      "eras": [
+        "patriarchs"
+      ],
+      "story": "Genesis places the garden where God put the first humans at the source of four rivers, two of which are the Tigris and the Euphrates. There the serpent deceived the woman and the way to the tree of life was closed.",
+      "revelation": "Revelation ends where Genesis began: the ancient serpent is defeated, and the tree of life and a river stand again in the city of God, with no more curse.",
+      "context": "The real location of Eden is unknown, and Genesis may not intend a mappable site at all. This marker follows one traditional guess near the meeting of the Tigris and Euphrates in southern Iraq; others have suggested Armenia or elsewhere.",
+      "refs": [
+        "Genesis 2:8-14",
+        "Genesis 3:22-24",
+        "Revelation 2:7",
+        "Revelation 12:9",
+        "Revelation 22:1-3"
+      ],
+      "threads": [
+        "tree-of-life",
+        "river-water-of-life",
+        "dragon-ancient-serpent"
+      ]
+    },
+    {
+      "id": "ur",
+      "name": "Ur of the Chaldeans",
+      "lat": 30.96,
+      "lon": 46.1,
+      "kind": "city",
+      "eras": [
+        "patriarchs"
+      ],
+      "story": "Abram's family set out from Ur of the Chaldeans on the long journey that began the story of God's covenant people.",
+      "revelation": "Revelation does not name Ur, but its picture of a people called out of Babylon's land to a city with foundations echoes Abraham, who left Mesopotamia looking for the city whose builder is God.",
+      "context": "Most scholars identify biblical Ur with Tell el-Muqayyar in southern Iraq, excavated by Leonard Woolley, though a minority have proposed a northern Ur near Haran.",
+      "refs": [
+        "Genesis 11:31",
+        "Genesis 15:7",
+        "Hebrews 11:8-10",
+        "Revelation 21:14"
+      ],
+      "threads": [
+        "come-out-of-her-my-people",
+        "jerusalem-zion-new-jerusalem"
+      ]
+    },
+    {
+      "id": "haran",
+      "name": "Haran",
+      "lat": 36.86,
+      "lon": 39.03,
+      "kind": "city",
+      "eras": [
+        "patriarchs"
+      ],
+      "story": "Terah's family settled in Haran, and from there Abram obeyed God's call to go to the land he would be shown. Jacob later fled to Haran and married there.",
+      "revelation": "Haran is not named in Revelation; it marks the start of the promise to bless all the families of the earth, which Revelation sees fulfilled in a people from every tribe and nation.",
+      "context": "Haran, in modern south-east Turkey, was a long-lived trading city and a centre of the moon god Sin, the same deity honoured at Ur.",
+      "refs": [
+        "Genesis 11:31-32",
+        "Genesis 12:1-4",
+        "Genesis 28:10",
+        "Revelation 7:9"
+      ],
+      "threads": []
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt (Memphis)",
+      "lat": 29.85,
+      "lon": 31.25,
+      "kind": "region",
+      "eras": [
+        "patriarchs",
+        "kingdom",
+        "greek"
+      ],
+      "story": "Israel went down to Egypt in Joseph's day, was enslaved, and was set free when God struck Egypt with plagues and the Passover lamb was slain.",
+      "revelation": "Revelation's trumpets and bowls echo the plagues on Egypt, the redeemed sing the song of Moses, and the great city is spiritually called Sodom and Egypt.",
+      "context": "Memphis, near modern Cairo, was the old capital of Lower Egypt. The date of the Exodus is debated, with an earlier date around 1446 BC and a later one around 1260 BC both defended.",
+      "refs": [
+        "Exodus 12:1-13",
+        "Exodus 7:14-21",
+        "Revelation 8:7-12",
+        "Revelation 11:8",
+        "Revelation 15:3",
+        "Revelation 16:2-4"
+      ],
+      "threads": [
+        "the-lamb",
+        "trumpets"
+      ]
+    },
+    {
+      "id": "mount-sinai",
+      "name": "Mount Sinai (traditional Jebel Musa)",
+      "lat": 28.54,
+      "lon": 33.98,
+      "kind": "mountain",
+      "eras": [
+        "patriarchs"
+      ],
+      "story": "At Sinai God came down in fire, cloud, thunder and a trumpet blast, gave the law, and made Israel a kingdom of priests.",
+      "revelation": "Revelation's lightning, voices and thunder before the throne recall Sinai, and the redeemed are made a kingdom and priests to God, as Israel was at Sinai.",
+      "context": "The location of Sinai is uncertain. Jebel Musa in southern Sinai is the traditional site, honoured since the fourth century, but scholars have also proposed sites in northern Sinai and in north-west Arabia.",
+      "refs": [
+        "Exodus 19:6",
+        "Exodus 19:16-19",
+        "Revelation 1:6",
+        "Revelation 4:5",
+        "Revelation 5:10"
+      ],
+      "threads": [
+        "throne-and-rainbow",
+        "trumpets"
+      ]
+    },
+    {
+      "id": "sodom",
+      "name": "Sodom (south of the Dead Sea, uncertain)",
+      "lat": 31.05,
+      "lon": 35.4,
+      "kind": "city",
+      "eras": [
+        "patriarchs"
+      ],
+      "story": "Lot settled near Sodom, and God destroyed the cities of the plain with fire and sulfur from heaven because of their wickedness.",
+      "revelation": "Revelation calls the great city where the Lord was crucified spiritually Sodom, and its lake of fire and sulfur draws on Sodom's judgement.",
+      "context": "The site is not known. A traditional view places Sodom near the southern end of the Dead Sea, while some archaeologists argue for Tall el-Hammam north-east of the Dead Sea; both proposals are disputed.",
+      "refs": [
+        "Genesis 19:24-28",
+        "Jude 7",
+        "Revelation 11:8",
+        "Revelation 14:10",
+        "Revelation 21:8"
+      ],
+      "threads": []
+    },
+    {
+      "id": "jericho",
+      "name": "Jericho",
+      "lat": 31.87,
+      "lon": 35.44,
+      "kind": "city",
+      "eras": [
+        "patriarchs",
+        "kingdom"
+      ],
+      "story": "After the Exodus Israel crossed the Jordan and marched around Jericho for seven days, with seven priests blowing seven trumpets, until the walls fell.",
+      "revelation": "Revelation's seven trumpets, sounding before the fall of a hostile city and the coming of the kingdom, echo the pattern of Jericho.",
+      "context": "Tell es-Sultan is one of the oldest continuously settled sites known. The dating of its destruction layers and their relation to Joshua remain debated among archaeologists.",
+      "refs": [
+        "Joshua 6:1-20",
+        "Revelation 8:2",
+        "Revelation 11:15"
+      ],
+      "threads": [
+        "trumpets",
+        "number-seven"
+      ]
+    },
+    {
+      "id": "megiddo",
+      "name": "Megiddo",
+      "lat": 32.585,
+      "lon": 35.18,
+      "kind": "city",
+      "eras": [
+        "kingdom"
+      ],
+      "story": "Megiddo guarded the pass into the Jezreel Valley; kings fought there in Deborah's song, and King Josiah fell there in battle against Pharaoh Necho.",
+      "revelation": "Revelation gathers the kings of the whole world to the place called in Hebrew Armageddon, often understood as 'mountain of Megiddo', though Megiddo is a mound, not a mountain.",
+      "context": "Megiddo was a fortified city layered with some twenty levels of occupation. Whether Armageddon means Megiddo, Mount Carmel nearby, or a symbolic 'mount of assembly' is debated.",
+      "refs": [
+        "Judges 5:19",
+        "2 Kings 23:29",
+        "Zechariah 12:11",
+        "Revelation 16:16"
+      ],
+      "threads": [
+        "day-of-the-lord-great-day-of-wrath"
+      ]
+    },
+    {
+      "id": "mount-carmel",
+      "name": "Mount Carmel",
+      "lat": 32.67,
+      "lon": 35.09,
+      "kind": "mountain",
+      "eras": [
+        "kingdom"
+      ],
+      "story": "On Carmel Elijah challenged the prophets of Baal, and fire fell from heaven to show who was the true God.",
+      "revelation": "Revelation's beast from the land makes fire come down from heaven to deceive, a dark mirror of Carmel, and Elijah's ministry lies behind the two witnesses.",
+      "context": "The Carmel ridge runs towards the coast above the Jezreel Valley and Megiddo. Some interpreters link the 'mountain' of Armageddon with Carmel.",
+      "refs": [
+        "1 Kings 18:20-40",
+        "Revelation 11:5-6",
+        "Revelation 13:13",
+        "Revelation 16:16"
+      ],
+      "threads": []
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem and Mount Zion",
+      "lat": 31.78,
+      "lon": 35.23,
+      "kind": "city",
+      "eras": [
+        "kingdom",
+        "exile",
+        "greek",
+        "rome"
+      ],
+      "story": "David made Jerusalem his capital and Solomon built the temple there; it was destroyed by Babylon, rebuilt after the exile, and was the city where Jesus was crucified and raised.",
+      "revelation": "The Lamb stands on Mount Zion with the 144,000, the earthly city where the Lord was crucified is trampled, and the book ends with the new Jerusalem coming down from heaven.",
+      "context": "Jerusalem's temple was destroyed by Babylon in 586 BC and by Rome in AD 70. Interpreters disagree whether some of Revelation's judgements refer to the city's fall in AD 70.",
+      "refs": [
+        "2 Samuel 5:6-9",
+        "1 Kings 8:1-11",
+        "Revelation 11:1-2",
+        "Revelation 11:8",
+        "Revelation 14:1",
+        "Revelation 21:2"
+      ],
+      "threads": [
+        "jerusalem-zion-new-jerusalem",
+        "temple-tabernacle",
+        "twelve-and-144000"
+      ]
+    },
+    {
+      "id": "bethlehem",
+      "name": "Bethlehem",
+      "lat": 31.7,
+      "lon": 35.2,
+      "kind": "city",
+      "eras": [
+        "kingdom",
+        "rome"
+      ],
+      "story": "Bethlehem was the home of Ruth and the birthplace of David, and Micah foretold that a ruler would come from there; Jesus was born there.",
+      "revelation": "Revelation 12 shows a woman giving birth to a male child who will rule the nations while a dragon waits to devour him, a heavenly view of the nativity and Herod's threat.",
+      "context": "Bethlehem lies about nine kilometres south of Jerusalem. The Church of the Nativity stands over a cave venerated since at least the second century.",
+      "refs": [
+        "Micah 5:2",
+        "Matthew 2:1-16",
+        "Revelation 12:1-5",
+        "Revelation 22:16"
+      ],
+      "threads": [
+        "dragon-ancient-serpent"
+      ]
+    },
+    {
+      "id": "tyre",
+      "name": "Tyre",
+      "lat": 33.27,
+      "lon": 35.2,
+      "kind": "city",
+      "eras": [
+        "kingdom",
+        "exile",
+        "greek"
+      ],
+      "story": "Tyre was the great Phoenician sea-trading city; Isaiah and Ezekiel announced its fall and pictured its merchants and sailors mourning over it.",
+      "revelation": "Revelation 18's lament for Babylon, with its cargo list and weeping kings, merchants and sailors, is modelled closely on Ezekiel's dirge over Tyre.",
+      "context": "Tyre was an island city until Alexander the Great built a causeway to capture it in 332 BC. Its purple dye and shipping made it a byword for wealth.",
+      "refs": [
+        "Isaiah 23:1-18",
+        "Ezekiel 27:1-36",
+        "Ezekiel 28:1-19",
+        "Revelation 18:9-19"
+      ],
+      "threads": [
+        "babylon",
+        "the-great-harlot"
+      ]
+    },
+    {
+      "id": "nineveh",
+      "name": "Nineveh",
+      "lat": 36.36,
+      "lon": 43.15,
+      "kind": "city",
+      "eras": [
+        "kingdom"
+      ],
+      "story": "Nineveh, capital of Assyria, repented at Jonah's preaching but later fell in 612 BC, as Nahum foretold.",
+      "revelation": "Nahum calls Nineveh a harlot and mistress of sorceries whose fall makes onlookers clap, language that Revelation reuses for Babylon.",
+      "context": "Nineveh lies across the Tigris from modern Mosul in Iraq. Its palaces held the library of Ashurbanipal and the reliefs of Sennacherib's siege of Lachish.",
+      "refs": [
+        "Jonah 3:1-10",
+        "Nahum 3:1-7",
+        "Revelation 17:1-2",
+        "Revelation 18:23"
+      ],
+      "threads": [
+        "the-great-harlot"
+      ]
+    },
+    {
+      "id": "babylon",
+      "name": "Babylon",
+      "lat": 32.54,
+      "lon": 44.42,
+      "kind": "city",
+      "eras": [
+        "kingdom",
+        "exile",
+        "greek"
+      ],
+      "story": "Babylon under Nebuchadnezzar destroyed Jerusalem and the temple and carried Judah into exile; Daniel served there, and Jeremiah and Isaiah foretold its fall.",
+      "revelation": "Revelation's Babylon the great is the proud city that persecutes the saints and seduces the nations; most read it as Rome, some as Jerusalem, some as a future city, and the call to 'come out of her' quotes Jeremiah.",
+      "context": "Babylon lay on the Euphrates south of modern Baghdad. Cyrus of Persia took it in 539 BC, partly by diverting or wading the river, a memory Revelation's drying of the Euphrates may echo.",
+      "refs": [
+        "Jeremiah 51:6-8",
+        "Jeremiah 51:63-64",
+        "Daniel 4:30",
+        "Isaiah 21:9",
+        "Revelation 14:8",
+        "Revelation 17:5",
+        "Revelation 18:2-4"
+      ],
+      "threads": [
+        "babylon",
+        "the-great-harlot",
+        "come-out-of-her-my-people"
+      ]
+    },
+    {
+      "id": "euphrates",
+      "name": "River Euphrates (near Carchemish)",
+      "lat": 36.83,
+      "lon": 38.01,
+      "kind": "river",
+      "eras": [
+        "patriarchs",
+        "kingdom",
+        "exile"
+      ],
+      "story": "The Euphrates marked the northern limit of the land promised to Abraham, and at Carchemish on its banks Babylon defeated Egypt in 605 BC.",
+      "revelation": "In Revelation four angels bound at the great river Euphrates are released, and the sixth bowl dries up the river to prepare the way for the kings from the east.",
+      "context": "For Rome the Euphrates was the frontier with the feared Parthian cavalry. Interpreters debate whether Revelation's Euphrates is literal or a symbol of invasion from beyond the empire's edge.",
+      "refs": [
+        "Genesis 15:18",
+        "Jeremiah 46:2",
+        "Revelation 9:14",
+        "Revelation 16:12"
+      ],
+      "threads": [
+        "horns-and-horses"
+      ]
+    },
+    {
+      "id": "kebar",
+      "name": "The Kebar canal near Nippur",
+      "lat": 32.13,
+      "lon": 45.23,
+      "kind": "river",
+      "eras": [
+        "exile"
+      ],
+      "story": "Among the exiles by the Kebar canal, Ezekiel saw the heavens opened and the throne-chariot of God with four living creatures, a rainbow and wheels full of eyes.",
+      "revelation": "Revelation's throne room, living creatures, rainbow, sealed scroll eaten by the prophet, measured temple and river of life all draw heavily on Ezekiel.",
+      "context": "The Kebar is usually identified with the naru kabaru, a canal near Nippur known from Babylonian tablets, though the exact course is uncertain.",
+      "refs": [
+        "Ezekiel 1:1-28",
+        "Ezekiel 3:1-3",
+        "Revelation 4:2-8",
+        "Revelation 10:9-10"
+      ],
+      "threads": [
+        "throne-and-rainbow",
+        "four-living-creatures",
+        "scroll-and-book"
+      ]
+    },
+    {
+      "id": "susa",
+      "name": "Susa",
+      "lat": 32.19,
+      "lon": 48.26,
+      "kind": "city",
+      "eras": [
+        "exile"
+      ],
+      "story": "Susa was a Persian royal city where Daniel saw his vision of the ram and the goat, Nehemiah served the king, and Esther saved her people.",
+      "revelation": "Daniel's visions of beasts and horns, received in the Persian and Babylonian courts, supply Revelation's beast imagery and its pattern of a people kept safe under hostile empire.",
+      "context": "Susa, in south-west Iran, was the winter capital of the Persian kings; Darius I built a great palace there.",
+      "refs": [
+        "Daniel 8:1-8",
+        "Nehemiah 1:1",
+        "Esther 1:2",
+        "Revelation 13:1-2"
+      ],
+      "threads": [
+        "horns-and-horses",
+        "sea-and-beast-from-the-sea"
+      ]
+    },
+    {
+      "id": "damascus",
+      "name": "Damascus",
+      "lat": 33.51,
+      "lon": 36.29,
+      "kind": "city",
+      "eras": [
+        "patriarchs",
+        "kingdom",
+        "rome"
+      ],
+      "story": "Abraham's servant Eliezer came from Damascus, the city was capital of Aram in the days of the kings, and Saul met the risen Christ on the road there.",
+      "revelation": "Damascus is not named in Revelation, but Paul's conversion vision of the glorified Jesus anticipates John's vision of the risen Christ in Revelation 1.",
+      "context": "Damascus is one of the oldest continuously inhabited cities in the world, set in an oasis fed by the Barada river.",
+      "refs": [
+        "Genesis 15:2",
+        "Isaiah 17:1",
+        "Acts 9:1-9",
+        "Revelation 1:12-17"
+      ],
+      "threads": []
+    },
+    {
+      "id": "bozrah",
+      "name": "Bozrah in Edom",
+      "lat": 30.73,
+      "lon": 35.61,
+      "kind": "city",
+      "eras": [
+        "kingdom"
+      ],
+      "story": "Isaiah pictures the Lord coming from Edom, from Bozrah, in garments stained red because he has trodden the winepress of his wrath alone.",
+      "revelation": "Revelation's rider on the white horse wears a robe dipped in blood and treads the winepress of the fury of God's wrath, drawing directly on Isaiah 63.",
+      "context": "Bozrah is identified with Buseirah in southern Jordan, an Edomite capital of the Iron Age. Edom in prophecy often stands for the nations hostile to God's people.",
+      "refs": [
+        "Isaiah 34:5-6",
+        "Isaiah 63:1-6",
+        "Revelation 14:19-20",
+        "Revelation 19:13-15"
+      ],
+      "threads": [
+        "harvest-and-winepress",
+        "king-of-kings-rider-white-horse"
+      ]
+    },
+    {
+      "id": "alexandria",
+      "name": "Alexandria",
+      "lat": 31.2,
+      "lon": 29.92,
+      "kind": "city",
+      "eras": [
+        "greek",
+        "rome"
+      ],
+      "story": "Alexandria is mentioned in Acts as the home of Apollos and of grain ships that carried Paul; there the Hebrew Scriptures were translated into Greek.",
+      "revelation": "Revelation does not name Alexandria, but its Greek Old Testament wording and the grain ships of Revelation 18's cargo trade belong to the Mediterranean economy Alexandria fed.",
+      "context": "Founded by Alexander in 331 BC, Alexandria became the Ptolemaic capital, home of the great library and the Septuagint translation, and Rome's chief grain port.",
+      "refs": [
+        "Acts 18:24",
+        "Acts 27:6",
+        "Revelation 18:11-13"
+      ],
+      "threads": []
+    },
+    {
+      "id": "antioch",
+      "name": "Antioch on the Orontes",
+      "lat": 36.2,
+      "lon": 36.16,
+      "kind": "city",
+      "eras": [
+        "greek",
+        "rome"
+      ],
+      "story": "In Antioch believers were first called Christians, and from there Paul and Barnabas were sent out on their missionary journeys.",
+      "revelation": "Antioch is not named in Revelation, but it was the Seleucid capital of Antiochus IV, whose persecution in Daniel 7-11 shaped the image of a blasphemous beast and a time, times and half a time.",
+      "context": "Antioch, modern Antakya in Turkey, was the third city of the Roman empire and the base of the Roman governor of Syria.",
+      "refs": [
+        "Acts 11:19-26",
+        "Acts 13:1-3",
+        "Daniel 7:25",
+        "Revelation 13:5-7"
+      ],
+      "threads": [
+        "three-and-a-half"
+      ]
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "lat": 41.9,
+      "lon": 12.5,
+      "kind": "city",
+      "eras": [
+        "rome",
+        "john"
+      ],
+      "story": "Paul wrote to the church in Rome and later arrived there as a prisoner; Christian tradition holds that Peter and Paul died there under Nero.",
+      "revelation": "Most interpreters see Rome behind Babylon the great, the city on seven hills ruling the kings of the earth and drunk with the blood of the saints, while others read Babylon as Jerusalem or a future world city.",
+      "context": "Rome was famously built on seven hills. Nero's persecution after the fire of AD 64 and the later imperial cult form the background against which many read Revelation.",
+      "refs": [
+        "Acts 28:14-16",
+        "1 Peter 5:13",
+        "Revelation 17:9",
+        "Revelation 17:18",
+        "Revelation 18:2"
+      ],
+      "threads": [
+        "babylon",
+        "the-great-harlot",
+        "sea-and-beast-from-the-sea",
+        "number-666"
+      ]
+    },
+    {
+      "id": "mediterranean",
+      "name": "The Mediterranean (\"the sea\")",
+      "lat": 34.5,
+      "lon": 20.0,
+      "kind": "sea",
+      "eras": [
+        "patriarchs",
+        "kingdom",
+        "exile",
+        "greek",
+        "rome",
+        "john"
+      ],
+      "story": "For Israel 'the Great Sea' was the western boundary of the land and a place of storms and danger, as Jonah and Paul both found.",
+      "revelation": "The beast rises out of the sea, the merchants and sailors lament Babylon from the sea, and in the new creation there is no more sea.",
+      "context": "Rome called the Mediterranean 'our sea'; its shipping lanes carried the empire's goods and armies. Seen from Patmos, the beast's rising from the sea suggests power arriving from Rome across the water.",
+      "refs": [
+        "Numbers 34:6",
+        "Daniel 7:2-3",
+        "Acts 27:13-44",
+        "Revelation 13:1",
+        "Revelation 18:17-19",
+        "Revelation 21:1"
+      ],
+      "threads": [
+        "sea-and-beast-from-the-sea"
+      ]
+    },
+    {
+      "id": "patmos",
+      "name": "Patmos",
+      "lat": 37.31,
+      "lon": 26.55,
+      "kind": "island",
+      "eras": [
+        "john"
+      ],
+      "story": "John was on the island called Patmos because of the word of God and the testimony of Jesus when he received the revelation.",
+      "revelation": "Revelation was seen on Patmos and sent from there to seven churches on the mainland of Asia.",
+      "context": "Patmos is a small rocky island in the Aegean, and Roman authorities used such islands for banishment. John's exile is dated either under Nero (late 60s) or, following Irenaeus, under Domitian (about AD 95).",
+      "refs": [
+        "Revelation 1:9-11"
+      ],
+      "threads": [
+        "number-seven"
+      ]
+    },
+    {
+      "id": "ephesus",
+      "name": "Ephesus",
+      "lat": 37.94,
+      "lon": 27.34,
+      "kind": "city",
+      "eras": [
+        "rome",
+        "john"
+      ],
+      "story": "Paul spent about three years in Ephesus, where the riot over Artemis broke out; Timothy later led the church there.",
+      "revelation": "The risen Christ praises Ephesus for testing false apostles but rebukes it for leaving its first love, and promises the tree of life in God's paradise.",
+      "context": "Ephesus was the chief city of Roman Asia and home of the great temple of Artemis. Its harbour was steadily silting up, and it held a provincial temple of the emperors from the time of Domitian.",
+      "refs": [
+        "Acts 19:1-41",
+        "Revelation 1:11",
+        "Revelation 2:1-7"
+      ],
+      "threads": [
+        "tree-of-life",
+        "number-seven"
+      ]
+    },
+    {
+      "id": "smyrna",
+      "name": "Smyrna",
+      "lat": 38.42,
+      "lon": 27.14,
+      "kind": "city",
+      "eras": [
+        "rome",
+        "john"
+      ],
+      "story": "The church in Smyrna is not described in Acts; it later became known for its bishop Polycarp, martyred there around AD 155.",
+      "revelation": "The letter to Smyrna promises the crown of life to those faithful unto death and warns of ten days of tribulation and slander.",
+      "context": "Smyrna, modern Izmir, prided itself on long loyalty to Rome and won the right to build a temple to Tiberius in AD 26. The city had been rebuilt after centuries in ruins, matching Christ's title as the one who died and came to life.",
+      "refs": [
+        "Revelation 1:11",
+        "Revelation 2:8-11"
+      ],
+      "threads": [
+        "number-seven"
+      ]
+    },
+    {
+      "id": "pergamum",
+      "name": "Pergamum",
+      "lat": 39.13,
+      "lon": 27.18,
+      "kind": "city",
+      "eras": [
+        "rome",
+        "john"
+      ],
+      "story": "Pergamum's church held firm even when Antipas, Christ's faithful witness, was killed there.",
+      "revelation": "Christ says Pergamum is where Satan's throne is, warns against the teaching of Balaam, and promises hidden manna and a white stone with a new name.",
+      "context": "Pergamum had the great altar of Zeus, a famous shrine of Asclepius, and in 29 BC became the first city in Asia with a temple to Augustus and Roma. Which of these 'Satan's throne' refers to is debated.",
+      "refs": [
+        "Numbers 31:16",
+        "Revelation 1:11",
+        "Revelation 2:12-17"
+      ],
+      "threads": [
+        "number-seven"
+      ]
+    },
+    {
+      "id": "thyatira",
+      "name": "Thyatira",
+      "lat": 38.92,
+      "lon": 27.84,
+      "kind": "city",
+      "eras": [
+        "rome",
+        "john"
+      ],
+      "story": "Lydia, the seller of purple goods whom Paul met in Philippi, came from Thyatira.",
+      "revelation": "The letter to Thyatira warns against 'Jezebel', who leads servants into sexual immorality and idol food, and promises authority over the nations and the morning star.",
+      "context": "Thyatira, modern Akhisar, had many trade guilds of dyers, bronze-smiths and others, whose feasts honoured patron gods and put pressure on Christians who worked in those trades.",
+      "refs": [
+        "Acts 16:14",
+        "1 Kings 16:31",
+        "Revelation 1:11",
+        "Revelation 2:18-29"
+      ],
+      "threads": [
+        "number-seven"
+      ]
+    },
+    {
+      "id": "sardis",
+      "name": "Sardis",
+      "lat": 38.49,
+      "lon": 28.04,
+      "kind": "city",
+      "eras": [
+        "rome",
+        "john"
+      ],
+      "story": "Sardis is not mentioned outside Revelation in the New Testament.",
+      "revelation": "Christ tells Sardis it has a name for being alive but is dead, urges it to wake up, and warns he will come like a thief; the faithful few will walk in white.",
+      "context": "Sardis, the old Lydian capital of Croesus, had an acropolis thought impregnable, yet it was taken by surprise at night by Cyrus and again by Antiochus III. It was badly damaged in the earthquake of AD 17.",
+      "refs": [
+        "Revelation 1:11",
+        "Revelation 3:1-6",
+        "Revelation 16:15"
+      ],
+      "threads": [
+        "white-garments",
+        "number-seven"
+      ]
+    },
+    {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "lat": 38.35,
+      "lon": 28.52,
+      "kind": "city",
+      "eras": [
+        "rome",
+        "john"
+      ],
+      "story": "Philadelphia is not mentioned outside Revelation in the New Testament.",
+      "revelation": "Christ holds the key of David and sets an open door before Philadelphia, promising to make the one who conquers a pillar in God's temple who will never go out, bearing a new name.",
+      "context": "Philadelphia, modern Alaşehir, suffered repeated earthquakes after AD 17, and many residents lived outside the city for fear of falling buildings. It took the new name Neocaesarea in thanks for imperial relief.",
+      "refs": [
+        "Isaiah 22:22",
+        "Revelation 1:11",
+        "Revelation 3:7-13"
+      ],
+      "threads": [
+        "temple-tabernacle",
+        "number-seven"
+      ]
+    },
+    {
+      "id": "laodicea",
+      "name": "Laodicea",
+      "lat": 37.84,
+      "lon": 29.11,
+      "kind": "city",
+      "eras": [
+        "rome",
+        "john"
+      ],
+      "story": "Paul mentions the church at Laodicea and a letter sent to it, linking it with nearby Colossae and Hierapolis.",
+      "revelation": "Christ calls Laodicea lukewarm, neither hot nor cold, and urges the self-satisfied church to buy gold, white garments and eye salve; he stands at the door and knocks.",
+      "context": "Laodicea was a rich banking and textile city famed for black wool and an eye remedy, and it rebuilt after the AD 60 earthquake without Roman help. Its water came by aqueduct from springs to the south near modern Denizli and arrived tepid and mineral-laden, unlike the hot springs of Hierapolis or the cold water of Colossae.",
+      "refs": [
+        "Colossians 4:13-16",
+        "Revelation 1:11",
+        "Revelation 3:14-22"
+      ],
+      "threads": [
+        "white-garments",
+        "number-seven"
+      ]
+    },
+    {
+      "id": "hierapolis",
+      "name": "Hierapolis",
+      "lat": 37.93,
+      "lon": 29.13,
+      "kind": "city",
+      "eras": [
+        "rome",
+        "john"
+      ],
+      "story": "Paul notes that Epaphras laboured hard for the believers in Laodicea and Hierapolis.",
+      "revelation": "Hierapolis is not named in Revelation, but many interpreters think its hot springs, seen across the valley from Laodicea, lie behind the contrast of hot, cold and lukewarm in the letter to Laodicea.",
+      "context": "Hierapolis, modern Pamukkale, is famous for hot mineral springs and white travertine terraces. Tradition links it with the apostle Philip, and Papias was its bishop in the early second century.",
+      "refs": [
+        "Colossians 4:13",
+        "Revelation 3:15-16"
+      ],
+      "threads": []
+    },
+    {
+      "id": "colossae",
+      "name": "Colossae",
+      "lat": 37.79,
+      "lon": 29.26,
+      "kind": "city",
+      "eras": [
+        "rome"
+      ],
+      "story": "Paul wrote to the church at Colossae, founded through Epaphras, and asked that his letter be read in Laodicea too.",
+      "revelation": "Colossae is not named in Revelation; its cold, fresh water is often contrasted with Laodicea's lukewarm supply in reading Revelation 3, and Colossians' hymn of Christ as the beginning of creation parallels Revelation 3:14.",
+      "context": "Colossae lay in the Lycus valley about 16 kilometres east of Laodicea. Its mound has never been fully excavated, though survey work began in the 2010s.",
+      "refs": [
+        "Colossians 1:2",
+        "Colossians 1:15-18",
+        "Colossians 4:16",
+        "Revelation 3:14"
+      ],
+      "threads": []
+    }
+  ],
+  "journeys": [
+    {
+      "id": "abraham",
+      "title": "Abraham's journey",
+      "era": "patriarchs",
+      "stops": [
+        "ur",
+        "haran",
+        "damascus",
+        "jerusalem"
+      ],
+      "note": "Abram leaves Ur with his father, settles in Haran, then goes on at God's call into Canaan; Damascus marks the usual route south and Jerusalem stands for the land of promise, where Melchizedek of Salem blessed him. Hebrews says he was looking for the city with foundations that Revelation shows coming down.",
+      "refs": [
+        "Genesis 11:31",
+        "Genesis 12:1-5",
+        "Genesis 14:18-20",
+        "Hebrews 11:8-10"
+      ]
+    },
+    {
+      "id": "exodus",
+      "title": "The Exodus",
+      "era": "patriarchs",
+      "stops": [
+        "egypt",
+        "mount-sinai",
+        "jericho"
+      ],
+      "note": "Israel is freed from Egypt through the plagues and the Passover lamb, meets God at Sinai, and enters the land at Jericho with seven trumpets. The route and Sinai's location are debated; Revelation retells this story with the Lamb, the plagues and the song of Moses.",
+      "refs": [
+        "Exodus 12:29-42",
+        "Exodus 19:1-6",
+        "Joshua 6:1-20",
+        "Revelation 15:2-4"
+      ]
+    },
+    {
+      "id": "exile",
+      "title": "Into exile",
+      "era": "exile",
+      "stops": [
+        "jerusalem",
+        "babylon",
+        "kebar"
+      ],
+      "note": "Nebuchadnezzar takes Judah's people from Jerusalem to Babylon, and by the Kebar canal Ezekiel sees the throne of God among the exiles. Revelation's throne vision is born from this memory of God present in a foreign land.",
+      "refs": [
+        "2 Kings 25:1-21",
+        "Psalm 137:1",
+        "Ezekiel 1:1-3"
+      ]
+    },
+    {
+      "id": "return",
+      "title": "The return from Babylon",
+      "era": "exile",
+      "stops": [
+        "babylon",
+        "damascus",
+        "jerusalem"
+      ],
+      "note": "After Cyrus's decree in 538 BC, exiles return to rebuild Jerusalem and its temple, travelling up the Euphrates and south through Syria rather than across the desert. Isaiah's call to go out of Babylon becomes Revelation's 'Come out of her, my people'.",
+      "refs": [
+        "Ezra 1:1-5",
+        "Isaiah 48:20",
+        "Isaiah 52:11",
+        "Revelation 18:4"
+      ]
+    },
+    {
+      "id": "seven-letters",
+      "title": "The circuit of the seven letters",
+      "era": "john",
+      "stops": [
+        "patmos",
+        "ephesus",
+        "smyrna",
+        "pergamum",
+        "thyatira",
+        "sardis",
+        "philadelphia",
+        "laodicea"
+      ],
+      "note": "The seven churches lie on a roughly circular Roman road, and a messenger landing at Ephesus from Patmos would reach them in exactly this order, as William Ramsay observed. Whether John chose the order for this reason is likely but not certain.",
+      "refs": [
+        "Revelation 1:11",
+        "Revelation 2:1",
+        "Revelation 3:14"
+      ]
+    },
+    {
+      "id": "babylon-to-rome",
+      "title": "From Babylon to Rome",
+      "era": "rome",
+      "stops": [
+        "babylon",
+        "jerusalem",
+        "rome"
+      ],
+      "note": "Babylon destroyed Jerusalem's temple in 586 BC and Rome destroyed it again in AD 70, so Jewish and Christian writers came to call Rome 'Babylon', as 1 Peter appears to do. Revelation 17-18 uses the name for the great city, which most read as Rome, though some argue for Jerusalem or a future city.",
+      "refs": [
+        "1 Peter 5:13",
+        "Revelation 14:8",
+        "Revelation 17:5",
+        "Revelation 17:9",
+        "Revelation 18:2"
+      ]
+    }
+  ],
+  "sources": [
+    "ramsay-letters-seven-churches",
+    "hemer-letters-seven-churches",
+    "koester-revelation-ayb",
+    "friesen-imperial-cults",
+    "porter-laodicean-water",
+    "rudwick-lukewarmness-laodicea",
+    "aune-revelation-wbc",
+    "beale-revelation-nigtc",
+    "bauckham-climax-prophecy",
+    "thompson-apocalypse-empire",
+    "irenaeus-against-heresies",
+    "gentry-before-jerusalem-fell",
+    "robinson-redating-nt",
+    "fekkes-isaiah-revelation",
+    "vanhoye-ezechiel-apocalypse"
+  ]
+}

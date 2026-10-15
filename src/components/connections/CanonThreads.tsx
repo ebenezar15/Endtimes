@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { CANON, type CanonThread } from '../../content/schema'
 import { Gloss } from '../Gloss'
@@ -40,6 +40,10 @@ export function CanonThreads({ threads, initial }: { threads: CanonThread[]; ini
   const [id, setId] = useState(initial && threads.some((t) => t.id === initial) ? initial : threads[0]?.id)
   const [tab, setTab] = useState<(typeof TABS)[number]['key']>('meaning')
   const [stop, setStop] = useState<number | null>(null)
+  // Follow links that name a thread (from search or the atlas).
+  useEffect(() => {
+    if (initial && threads.some((x) => x.id === initial)) (setId(initial), setKind('all'), setStop(null))
+  }, [initial, threads])
   const t = threads.find((x) => x.id === id) ?? threads[0]
   if (!t) return null
   const list = threads.filter((x) => kind === 'all' || x.kind === kind)

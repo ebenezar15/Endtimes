@@ -1,4 +1,5 @@
-import { motion } from 'framer-motion'
+import { motion, useScroll, useSpring } from 'framer-motion'
+import { useEffect } from 'react'
 import { useSearchParams, Link } from 'react-router-dom'
 import { CANON } from '../content/schema'
 import { Gloss, Prose } from '../components/Gloss'
@@ -12,16 +13,29 @@ import { ChiasmArches } from '../components/connections/ChiasmArches'
 import { Bookends } from '../components/connections/Bookends'
 import { PropheticChiasms } from '../components/connections/PropheticChiasms'
 import { CompositeBeast } from '../components/connections/CompositeBeast'
-import { books, structure, threads } from '../lib/data/connections'
+import { AtlasMap } from '../components/connections/AtlasMap'
+import { atlas, books, structure, threads } from '../lib/data/connections'
 
 function Section({ id, title, lede, children }: { id: string; title: string; lede?: string; children: React.ReactNode }) {
+  const words = title.split(' ')
   return (
-    <section id={id} className="mt-16 scroll-mt-20" aria-labelledby={`${id}-h`}>
-      <h2 id={`${id}-h`} className="text-2xl font-bold sm:text-3xl">
-        {title}
-      </h2>
-      {lede && <p className="mt-1 max-w-[70ch] text-ink-soft">{lede}</p>}
-      <div className="mt-5">{children}</div>
+    <section id={id} className="mt-20 scroll-mt-20" aria-labelledby={`${id}-h`}>
+      <motion.h2 id={`${id}-h`} className="text-2xl font-bold sm:text-3xl" initial="hidden" whileInView="show" viewport={{ once: true, margin: '-60px' }} transition={{ staggerChildren: 0.06 }} aria-label={title}>
+        {words.map((w, i) => (
+          <motion.span key={i} aria-hidden className="mr-[0.28em] inline-block" variants={{ hidden: { opacity: 0, y: 18, rotateX: -60 }, show: { opacity: 1, y: 0, rotateX: 0 } }} transition={{ type: 'spring', stiffness: 220, damping: 20 }}>
+            {w}
+          </motion.span>
+        ))}
+      </motion.h2>
+      <motion.span aria-hidden className="mt-2 block h-[3px] w-24 origin-left rounded-full bg-gradient-to-r from-[var(--gold-bright)] to-[var(--accent)]" initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.2 }} />
+      {lede && (
+        <motion.p className="mt-2 max-w-[70ch] text-ink-soft" initial={{ opacity: 0, y: 8 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.25 }}>
+          {lede}
+        </motion.p>
+      )}
+      <motion.div className="mt-5" initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-40px' }} transition={{ duration: 0.6, delay: 0.1 }}>
+        {children}
+      </motion.div>
     </section>
   )
 }
@@ -62,6 +76,7 @@ function CanonHero() {
 }
 
 const NAVS: [string, string][] = [
+  ['atlas', 'The atlas'],
   ['map', 'Where it surfaces'],
   ['threads', 'Golden threads'],
   ['books', 'The books behind it'],
@@ -73,11 +88,17 @@ const NAVS: [string, string][] = [
 
 export default function RevelationConnections() {
   const [params] = useSearchParams()
+  const progress = useSpring(useScroll().scrollYProgress, { stiffness: 120, damping: 24 })
+  const linked = params.get('thread')
+  useEffect(() => {
+    if (linked) setTimeout(() => document.getElementById('threads')?.scrollIntoView({ behavior: 'smooth' }), 350)
+  }, [linked])
   const linkCount = books.reduce((n, b) => n + b.links.length, 0)
   const stopCount = threads.reduce((n, t) => n + t.stops.length, 0)
   const st = structure
   return (
     <div className="mx-auto max-w-6xl">
+      <motion.div aria-hidden className="fixed left-0 right-0 top-0 z-50 h-1 origin-left bg-gradient-to-r from-[var(--rubric)] via-[var(--gold-bright)] to-[var(--accent)]" style={{ scaleX: progress }} />
       <section className="grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)]">
         <div>
           <Link to="/revelation" className="text-sm no-underline">
@@ -107,6 +128,12 @@ export default function RevelationConnections() {
           <CanonHero />
         </div>
       </section>
+
+      {atlas && (
+        <Section id="atlas" title="Atlas of Revelation" lede="The places behind the book, from Ur to Patmos. Play through the eras or pick one: the places of each age light up and its journeys draw themselves. Zoom into the seven churches, the Holy Land or Mesopotamia, and select any place.">
+          <AtlasMap atlas={atlas} threads={threads} />
+        </Section>
+      )}
 
       {books.length > 0 && (
         <Section id="map" title="Where the Old Testament surfaces" lede="Each row is a book Revelation draws on; each column a chapter of Revelation. Select a cell to see the echoes.">

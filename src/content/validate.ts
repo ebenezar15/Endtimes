@@ -28,6 +28,7 @@ export type ContentBundle = {
   revThreads: S.CanonThread[]
   revBooks: S.SourceBook[]
   revStructure: S.RevStructure | null
+  atlas: S.Atlas | null
 }
 
 const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema: z.ZodTypeAny; single?: boolean }[] = [
@@ -53,6 +54,7 @@ const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema:
   { match: (p) => p.startsWith('revelation/threads/'), key: 'revThreads', schema: S.CanonThread },
   { match: (p) => p === 'revelation/books.json', key: 'revBooks', schema: S.SourceBook },
   { match: (p) => p === 'revelation/structure.json', key: 'revStructure', schema: S.RevStructure, single: true },
+  { match: (p) => p === 'revelation/atlas.json', key: 'atlas', schema: S.Atlas, single: true },
 ]
 
 export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
@@ -60,7 +62,7 @@ export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
 export function emptyBundle(): ContentBundle {
   return {
     positions: [], combinations: [], topics: [], matrix: [], passages: [], arguments: [], timelines: [],
-    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [], spiritual: null, revThreads: [], revBooks: [], revStructure: null,
+    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [], spiritual: null, revThreads: [], revBooks: [], revStructure: null, atlas: null,
   }
 }
 
@@ -235,6 +237,22 @@ export function checkBundle(b: ContentBundle, opts: { partial?: boolean } = {}):
     st.outlines.forEach((o) => (needSrc(`outline ${o.id}`, o.sources), pairs(`outline ${o.id}`, o.segments, o.centre), o.segments.forEach((x) => x.endCh > 22 && errors.push(`outline ${o.id}: chapter > 22`))))
     st.prophetic.forEach((o) => (needSrc(`prophetic chiasm ${o.id}`, o.sources), pairs(`prophetic chiasm ${o.id}`, o.segments, o.centre)))
     st.sequences.forEach((o) => needSrc(`sequence ${o.id}`, o.sources))
+  }
+  if (b.atlas) {
+    const a = b.atlas
+    needSrc('atlas', a.sources)
+    const eras = new Set(a.eras.map((e) => e.id))
+    const places = new Set(a.places.map((p) => p.id))
+    const thr = new Set(b.revThreads.map((t) => t.id))
+    dup('atlas place', a.places.map((p) => p.id))
+    for (const p of a.places) {
+      p.eras.forEach((e) => !eras.has(e) && errors.push(`atlas ${p.id}: unknown era "${e}"`))
+      p.threads.forEach((t) => !thr.has(t) && errors.push(`atlas ${p.id}: unknown thread "${t}"`))
+    }
+    for (const j of a.journeys) {
+      if (!eras.has(j.era)) errors.push(`atlas journey ${j.id}: unknown era "${j.era}"`)
+      j.stops.forEach((s) => !places.has(s) && errors.push(`atlas journey ${j.id}: unknown place "${s}"`))
+    }
   }
   if (!opts.partial && b.revChapters.length)
     for (let n = 1; n <= 22; n++) if (!chapters.has(n)) errors.push(`missing Revelation chapter ${n}`)
