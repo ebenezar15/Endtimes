@@ -131,7 +131,8 @@
       ],
       "threads": [
         "the-lamb",
-        "trumpets"
+        "trumpets",
+        "sodom-and-egypt"
       ]
     },
     {
@@ -177,7 +178,9 @@
         "Revelation 14:10",
         "Revelation 21:8"
       ],
-      "threads": []
+      "threads": [
+        "sodom-and-egypt"
+      ]
     },
     {
       "id": "jericho",
@@ -221,6 +224,7 @@
         "Revelation 16:16"
       ],
       "threads": [
+        "armageddon",
         "day-of-the-lord-great-day-of-wrath"
       ]
     },
@@ -242,7 +246,10 @@
         "Revelation 13:13",
         "Revelation 16:16"
       ],
-      "threads": []
+      "threads": [
+        "two-witnesses",
+        "armageddon"
+      ]
     },
     {
       "id": "jerusalem",
@@ -293,7 +300,8 @@
         "Revelation 22:16"
       ],
       "threads": [
-        "dragon-ancient-serpent"
+        "dragon-ancient-serpent",
+        "key-of-david"
       ]
     },
     {
@@ -393,6 +401,7 @@
         "Revelation 16:12"
       ],
       "threads": [
+        "euphrates-kings-of-east",
         "horns-and-horses"
       ]
     },
@@ -669,6 +678,8 @@
         "Revelation 2:12-17"
       ],
       "threads": [
+        "balaam-jezebel",
+        "hidden-manna-white-stone",
         "number-seven"
       ]
     },
@@ -692,6 +703,8 @@
         "Revelation 2:18-29"
       ],
       "threads": [
+        "balaam-jezebel",
+        "morning-star",
         "number-seven"
       ]
     },
@@ -737,6 +750,7 @@
         "Revelation 3:7-13"
       ],
       "threads": [
+        "key-of-david",
         "temple-tabernacle",
         "number-seven"
       ]

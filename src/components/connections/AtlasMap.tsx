@@ -64,7 +64,7 @@ export function AtlasMap({ atlas, threads }: { atlas: Atlas; threads: CanonThrea
     return () => clearTimeout(t)
   }, [playing, eraIdx, atlas.eras])
   // Scale marks and labels with the zoom so they stay readable.
-  const scale = zoom === 'all' ? 1 : zoom === 'mesopotamia' ? 0.6 : 0.3
+  const scale = Math.max(0.12, Number(ZOOMS[zoom].box.split(' ')[2]) / ATLAS_W)
   const p = sel ? byId.get(sel) : undefined
   const cur = atlas.eras[eraIdx]
 
