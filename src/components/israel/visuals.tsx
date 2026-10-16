@@ -107,7 +107,7 @@ export function MindMap({ map }: { map: IsraelStudy['mindmap'] }) {
             <g key={br.id} role="button" tabIndex={0} aria-pressed={on} aria-label={br.label} onClick={() => setSel(br.id)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setSel(br.id)} className="cursor-pointer outline-none">
               <motion.circle cx={p.x} cy={p.y} r={on ? 46 : 42} fill={palette[i % palette.length]} animate={{ scale: on ? 1.06 : 1 }} whileHover={{ scale: 1.1 }} style={{ transformOrigin: `${p.x}px ${p.y}px` }} stroke="var(--surface)" strokeWidth={3} />
               <foreignObject x={p.x - 40} y={p.y - 32} width={80} height={64} pointerEvents="none">
-                <div className="flex h-full items-center justify-center overflow-hidden text-center text-[10px] font-bold leading-[1.15] text-white [overflow-wrap:anywhere]">{br.label}</div>
+                <div className="flex h-full items-center justify-center overflow-hidden text-center font-bold leading-[1.15] text-white [overflow-wrap:anywhere]" style={{ fontSize: br.label.length > 16 ? 8.5 : 10 }}>{br.label}</div>
               </foreignObject>
             </g>
           )

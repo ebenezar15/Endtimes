@@ -1,3 +1,4 @@
+import { LANG } from '../lib/lang'
 import { lazy, Suspense, useEffect, useState, type ReactNode } from 'react'
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import { AnimatePresence, motion, useScroll, useSpring } from 'framer-motion'
@@ -14,8 +15,8 @@ const SearchDialog = lazy(() => import('../components/SearchDialog'))
 
 function Logo() {
   return (
-    <Link to="/" className="flex items-center gap-2.5 text-ink no-underline" aria-label={t('Last Things home')}>
-      <motion.svg width="34" height="34" viewBox="0 0 64 64" initial={{ rotate: -90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} transition={{ type: 'spring', stiffness: 120, damping: 14 }} aria-hidden>
+    <Link to="/" className="flex min-w-0 items-center gap-2.5 text-ink no-underline" aria-label={t('Last Things home')}>
+      <motion.svg width="34" height="34" className="shrink-0" viewBox="0 0 64 64" initial={{ rotate: -90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} transition={{ type: 'spring', stiffness: 120, damping: 14 }} aria-hidden>
         <rect width="64" height="64" rx="16" fill="var(--accent)" />
         <motion.path
           d="M18 47h9v-5a15 15 0 1 1 10 0v5h9"
@@ -29,9 +30,9 @@ function Logo() {
           transition={{ duration: 1.1, delay: 0.3 }}
         />
       </motion.svg>
-      <span className="leading-none">
+      <span className={`min-w-0 leading-none ${LANG === 'ta' ? 'hidden min-[430px]:block' : ''}`}>
         <span className="block text-[17px] font-bold tracking-tight">{t('Last Things')}</span>
-        <span className="block text-[10px] font-semibold uppercase tracking-[0.25em] text-ink-soft">{t('Views of the end')}</span>
+        <span className={`text-[10px] font-semibold uppercase tracking-[0.25em] text-ink-soft ${LANG === 'ta' ? 'hidden sm:block' : 'block'}`}>{t('Views of the end')}</span>
       </span>
     </Link>
   )
@@ -178,7 +179,7 @@ export function Shell({ children }: { children: ReactNode }) {
           <button type="button" className="btn px-2.5 lg:hidden" onClick={() => setMenu(true)} aria-label={t('Open menu')} aria-expanded={menu}>
             <Icon name="menu" />
           </button>
-          <div className="lg:hidden">
+          <div className="min-w-0 lg:hidden">
             <Logo />
           </div>
           <button type="button" onClick={() => setSearch(true)} className="btn ml-auto justify-start whitespace-nowrap text-ink-soft sm:w-80 lg:ml-0" aria-label={t('Search (Ctrl+K)')}>

@@ -38,7 +38,7 @@ export default function PositionPage() {
     <article className="mx-auto max-w-6xl">
       <header className="flex flex-wrap items-start gap-5 pt-2">
         <Illum id={p.id} size={84} />
-        <div className="min-w-0 flex-1">
+        <div className="min-w-0 flex-1 basis-full sm:basis-auto">
           <p className="ui text-sm" style={{ color: c.text }}>
             {p.axis === 'millennial' ? t('Millennial view') : p.axis === 'hermeneutic' ? t('Reading of Revelation') : t('Framework')}
           </p>

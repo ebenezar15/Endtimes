@@ -66,9 +66,9 @@ export function CampSpectrum({ camps }: { camps: S['camps'] }) {
         })}
       </div>
       <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
-        <label className="flex items-center gap-2">
+        <label className="flex max-w-full flex-wrap items-center gap-2">
           <span className="text-ink-soft">{t('Compare with:')}</span>
-          <select className="rounded-lg bg-surface-2 px-2 py-1.5 ring-1 ring-rule" value={b ?? ''} onChange={(e) => setB(e.target.value || undefined)}>
+          <select className="min-w-0 max-w-full rounded-lg bg-surface-2 px-2 py-1.5 ring-1 ring-rule" value={b ?? ''} onChange={(e) => setB(e.target.value || undefined)}>
             <option value="">{t('(none)')}</option>
             {camps
               .filter((c) => c.id !== ca.id)
@@ -275,8 +275,8 @@ export function PromiseBoard({ promises }: { promises: S['promises'] }) {
         <ul className="space-y-2">
           {rows.map((r, i) => (
             <li key={r.c} className="flex items-center gap-2 text-sm">
-              <span className="flex w-32 shrink-0 items-center gap-1.5 font-semibold">
-                <Icon name={CATEGORY[r.c].icon} size={14} className="shrink-0" /> {CATEGORY[r.c].label()} <span className="font-normal text-ink-soft">· {r.n}</span>
+              <span className="flex w-36 shrink-0 items-center gap-1.5 font-semibold">
+                <Icon name={CATEGORY[r.c].icon} size={14} className="shrink-0" /> <span className="min-w-0">{CATEGORY[r.c].label()}</span> <span className="whitespace-nowrap font-normal text-ink-soft">· {r.n}</span>
               </span>
               <span className="flex h-5 flex-1 overflow-hidden rounded-full bg-surface-2">
                 {r.by.map((v, k) => (

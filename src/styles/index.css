@@ -533,3 +533,14 @@ p {
 .react-flow__controls-button svg {
   fill: var(--ink);
 }
+
+/* Tamil words are long: keep large headings inside narrow screens. */
+@media (max-width: 640px) {
+  html[lang='ta'] h1 {
+    font-size: min(2.25rem, 7.4vw);
+    overflow-wrap: break-word;
+  }
+  html[lang='ta'] h2 {
+    overflow-wrap: break-word;
+  }
+}
