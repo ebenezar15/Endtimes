@@ -754,7 +754,7 @@ export const IsraelStudy = z.object({
       ref: Ref,
       promise: Text,
       /** The path from promise to fulfilment, in order. */
-      path: z.array(z.object({ stage: PromiseStage, ref: Ref, text: Text })).min(3),
+      path: z.array(z.object({ phase: PromiseStage, ref: Ref, text: Text })).min(3),
       /** Historical evidence and setting. */
       history: Text,
       /** How it reaches believers today. */

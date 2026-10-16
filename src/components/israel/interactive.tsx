@@ -153,7 +153,7 @@ export const CATEGORY: Record<S['promises'][number]['category'], { label: () => 
   zion: { label: () => t('Zion'), icon: 'omega' },
   people: { label: () => t('People'), icon: 'book' },
 }
-const STAGE: Record<S['promises'][number]['path'][number]['stage'], { label: () => string; color: string }> = {
+const STAGE: Record<S['promises'][number]['path'][number]['phase'], { label: () => string; color: string }> = {
   promise: { label: () => t('Promise'), color: '#ca8a04' },
   type: { label: () => t('Shadow'), color: '#7c3aed' },
   christ: { label: () => t('Christ'), color: '#be123c' },
@@ -177,12 +177,12 @@ function Journey({ p }: { p: S['promises'][number] }) {
       <ol className="relative grid gap-3">
         {p.path.map((s, i) => (
           <motion.li key={p.id + i} initial={{ opacity: 0, x: 14 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.3 * i }} className="relative flex gap-3">
-            <motion.span initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.3 * i, type: 'spring', stiffness: 300 }} className="relative z-[1] inline-flex size-10 shrink-0 items-center justify-center rounded-full font-bold text-white shadow ring-4 ring-[var(--surface)]" style={{ background: STAGE[s.stage].color }}>
+            <motion.span initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.3 * i, type: 'spring', stiffness: 300 }} className="relative z-[1] inline-flex size-10 shrink-0 items-center justify-center rounded-full font-bold text-white shadow ring-4 ring-[var(--surface)]" style={{ background: STAGE[s.phase].color }}>
               {i + 1}
             </motion.span>
             <div className="min-w-0 flex-1 rounded-xl bg-surface-2 p-3">
-              <p className="flex flex-wrap items-baseline gap-x-2 text-[0.7rem] font-bold uppercase tracking-widest" style={{ color: STAGE[s.stage].color }}>
-                {STAGE[s.stage].label()} <span className="text-sm normal-case tracking-normal text-[var(--ink)]">{refLabel(s.ref)}</span>
+              <p className="flex flex-wrap items-baseline gap-x-2 text-[0.7rem] font-bold uppercase tracking-widest" style={{ color: STAGE[s.phase].color }}>
+                {STAGE[s.phase].label()} <span className="text-sm normal-case tracking-normal text-[var(--ink)]">{refLabel(s.ref)}</span>
               </p>
               <p className="mt-1 text-[0.95rem] leading-relaxed">
                 <Gloss>{s.text}</Gloss>
@@ -267,7 +267,7 @@ export function PromiseBoard({ promises }: { promises: S['promises'] }) {
   const rows = cats.map((c) => {
     const ps = promises.filter((p) => p.category === c)
     const steps = ps.flatMap((p) => p.path)
-    return { c, n: ps.length, total: steps.length, by: stages.map((st) => steps.filter((x) => x.stage === st).length) }
+    return { c, n: ps.length, total: steps.length, by: stages.map((st) => steps.filter((x) => x.phase === st).length) }
   })
   return (
     <div className="grid gap-4 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
