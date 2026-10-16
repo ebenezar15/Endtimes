@@ -1,7 +1,7 @@
 import { LANG } from './lang'
 
 /** Bible book names in Tamil (Tamil Bible, BSI Old Version), for displaying references. */
-const BOOKS: [string, string][] = [
+export const BOOKS: [string, string][] = [
   ['Song of Songs', 'உன்னதப்பாட்டு'], ['1 Thessalonians', '1 தெசலோனிக்கேயர்'], ['2 Thessalonians', '2 தெசலோனிக்கேயர்'], ['1 Corinthians', '1 கொரிந்தியர்'],
   ['2 Corinthians', '2 கொரிந்தியர்'], ['1 Chronicles', '1 நாளாகமம்'], ['2 Chronicles', '2 நாளாகமம்'], ['Deuteronomy', 'உபாகமம்'], ['Lamentations', 'புலம்பல்'],
   ['Ecclesiastes', 'பிரசங்கி'], ['Philippians', 'பிலிப்பியர்'], ['Colossians', 'கொலோசெயர்'], ['Revelation', 'வெளிப்படுத்தின விசேஷம்'], ['Zephaniah', 'செப்பனியா'],

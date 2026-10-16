@@ -705,3 +705,112 @@ export const JosephusStory = z.object({
   sources: z.array(Id).min(1),
 })
 export type JosephusStory = z.infer<typeof JosephusStory>
+
+/* ---------- Israel in prophecy: promises, fulfilment, the modern state, the kingdom ---- */
+
+/** fulfilment = the promises are fulfilled in Christ and his people (covenantal, amil, postmil, progressive covenantal);
+ *  future = a distinct future for national/ethnic Israel (dispensational, many historic premillennialists). */
+const Camp = z.enum(['fulfilment', 'future'])
+const RefText = z.object({ ref: Ref, text: Text })
+const PromiseStage = z.enum(['promise', 'type', 'christ', 'church', 'consummation'])
+export const ISRAEL_CATEGORIES = ['land', 'seed', 'nation', 'throne', 'temple', 'return', 'new-covenant', 'nations', 'zion', 'people'] as const
+
+export const IsraelStudy = z.object({
+  intro: Text,
+  /** Why the question matters. */
+  stakes: z.array(z.object({ id: Id, title: Text, text: Text })).min(3),
+  /** The views, from full fulfilment to a distinct national future. */
+  camps: z.array(
+    z.object({
+      id: Id,
+      family: Camp,
+      name: Text,
+      summary: Text,
+      /** Who "Israel" is in the promises. */
+      israel: Text,
+      land: Text,
+      kingdom: Text,
+      modernState: Text,
+      romans11: Text,
+      scholars: z.array(Text).min(2),
+      keyTexts: z.array(Ref).min(2),
+      sources: z.array(Id).default([]),
+    }),
+  ).min(5),
+  /** A mind map: the centre and its branches. */
+  mindmap: z.object({
+    center: Text,
+    branches: z.array(z.object({ id: Id, label: Text, text: Text, children: z.array(z.object({ label: Text, ref: Ref, text: Text })).min(2) })).min(6),
+  }),
+  /** Jesus relives Israel's story (typology). */
+  recapitulation: z.array(z.object({ id: Id, israel: Text, israelRef: Ref, jesus: Text, jesusRef: Ref })).min(10),
+  /** The Old Testament promises and prophecies, traced to where the New Testament says they land. */
+  promises: z.array(
+    z.object({
+      id: Id,
+      category: z.enum(ISRAEL_CATEGORIES),
+      title: Text,
+      /** The Old Testament text, e.g. "Genesis 12:1-3". */
+      ref: Ref,
+      promise: Text,
+      /** The path from promise to fulfilment, in order. */
+      path: z.array(z.object({ stage: PromiseStage, ref: Ref, text: Text })).min(3),
+      /** Historical evidence and setting. */
+      history: Text,
+      /** How it reaches believers today. */
+      toUs: Text,
+      /** The future-for-Israel reading, as its proponents put it. */
+      futurist: Text,
+      /** The fulfilment camp's reply. */
+      reply: Text,
+      /** The future camp's answer back. */
+      rejoinder: Text,
+      sources: z.array(Id).default([]),
+    }),
+  ).min(20),
+  /** The land promise widening from Canaan to the whole renewed earth. */
+  landWidening: z.array(z.object({ id: Id, label: Text, ref: Ref, text: Text })).min(5),
+  /** The modern State of Israel. */
+  modern: z.object({
+    intro: Text,
+    timeline: z.array(z.object({ year: z.number(), label: Text, text: Text, kind: z.enum(['religious', 'political', 'diplomatic', 'war', 'theological']) })).min(15),
+    /** Political, secular and diplomatic factors behind the state's founding. */
+    factors: z.array(z.object({ id: Id, title: Text, text: Text })).min(5),
+    /** Texts said to predict 1948 and after. */
+    claims: z.array(
+      z.object({ id: Id, ref: Ref, claim: Text, proponents: Text, argument: Text, criticism: Text, response: Text, verdict: Text, sources: z.array(Id).default([]) }),
+    ).min(8),
+    /** On love for the Jewish people, and what the debate is not. */
+    caution: Text,
+  }),
+  /** Present reigning kingdom versus a future earthly kingdom. */
+  kingdom: z.object({
+    intro: Text,
+    arguments: z.array(
+      z.object({ id: Id, side: z.enum(['present', 'future']), title: Text, claim: Text, refs: z.array(Ref).min(1), counter: Text, rebuttal: Text, sources: z.array(Id).default([]) }),
+    ).min(16),
+    /** David's throne, promise to the risen Christ. */
+    throne: z.array(RefText).min(6),
+  }),
+  romans11: z.object({
+    text: Text,
+    readings: z.array(z.object({ id: Id, label: Text, reading: Text, holders: Text, strengths: Text, weaknesses: Text })).min(4),
+  }),
+  /** How each family reads the Old Testament. */
+  hermeneutics: z.array(z.object({ id: Id, title: Text, fulfilment: Text, future: Text, refs: z.array(Ref).default([]) })).min(6),
+  /** Argument, counter, answer. */
+  exchanges: z.array(z.object({ id: Id, by: Camp, title: Text, argument: Text, counter: Text, answer: Text, refs: z.array(Ref).default([]), sources: z.array(Id).default([]) })).min(14),
+  /** Caricatures of each camp, and what they actually hold. */
+  strawmen: z.array(z.object({ id: Id, against: Camp, strawman: Text, whyFalse: Text, accurate: Text })).min(8),
+  /** A decision path through the key questions. */
+  flow: z.object({
+    start: Id,
+    nodes: z.array(z.object({ id: Id, q: Text, help: Text, options: z.array(z.object({ label: Text, next: Id })).min(2) })).min(5),
+    results: z.array(z.object({ id: Id, camp: Id, title: Text, text: Text })).min(3),
+  }),
+  quiz: z.array(z.object({ q: Text, options: z.array(Text).min(3), answer: z.number().int().min(0), explain: Text })).min(10),
+  /** Each family's best case in a paragraph. */
+  bestCase: z.object({ fulfilment: Text, future: Text }),
+  sources: z.array(Id).min(1),
+})
+export type IsraelStudy = z.infer<typeof IsraelStudy>
