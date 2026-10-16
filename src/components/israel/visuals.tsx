@@ -80,15 +80,15 @@ export function MindMap({ map }: { map: IsraelStudy['mindmap'] }) {
             <g key={br.id}>
               <motion.line x1={C} y1={C} x2={p.x} y2={p.y} stroke={palette[i % palette.length]} strokeWidth={on ? 5 : 2.5} initial={{ pathLength: 0 }} whileInView={{ pathLength: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: i * 0.08 }} strokeLinecap="round" opacity={on ? 1 : 0.55} />
               {on &&
-                br.children.map((ch, k) => {
+                br.children.map((_, k) => {
                   const spread = br.children.length > 1 ? (k / (br.children.length - 1) - 0.5) * 0.9 : 0
                   const q = pos(i, 232, spread)
                   return (
                     <g key={k}>
                       <motion.line x1={p.x} y1={p.y} x2={q.x} y2={q.y} stroke={palette[i % palette.length]} strokeWidth={1.6} strokeDasharray="4 3" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 0.1 + k * 0.08 }} />
-                      <motion.circle cx={q.x} cy={q.y} r={7} fill={palette[i % palette.length]} initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.25 + k * 0.08, type: 'spring' }} />
-                      <motion.text x={q.x} y={q.y + (q.y > C ? 20 : -12)} textAnchor="middle" fontSize={11.5} fill="var(--ink)" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.35 + k * 0.08 }}>
-                        {ch.label.length > 22 ? ch.label.slice(0, 21) + '…' : ch.label}
+                      <motion.circle cx={q.x} cy={q.y} r={9} fill={palette[i % palette.length]} initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.25 + k * 0.08, type: 'spring' }} />
+                      <motion.text x={q.x} y={q.y + 4} textAnchor="middle" fontSize={9} fontWeight={800} fill="#fff" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.35 + k * 0.08 }}>
+                        {k + 1}
                       </motion.text>
                     </g>
                   )
@@ -105,9 +105,9 @@ export function MindMap({ map }: { map: IsraelStudy['mindmap'] }) {
           const on = br.id === b.id
           return (
             <g key={br.id} role="button" tabIndex={0} aria-pressed={on} aria-label={br.label} onClick={() => setSel(br.id)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setSel(br.id)} className="cursor-pointer outline-none">
-              <motion.circle cx={p.x} cy={p.y} r={on ? 40 : 34} fill={palette[i % palette.length]} animate={{ scale: on ? 1.06 : 1 }} whileHover={{ scale: 1.1 }} style={{ transformOrigin: `${p.x}px ${p.y}px` }} stroke="var(--surface)" strokeWidth={3} />
-              <foreignObject x={p.x - 36} y={p.y - 30} width={72} height={60} pointerEvents="none">
-                <div className="flex h-full items-center justify-center text-center text-[10.5px] font-bold leading-tight text-white">{br.label}</div>
+              <motion.circle cx={p.x} cy={p.y} r={on ? 46 : 42} fill={palette[i % palette.length]} animate={{ scale: on ? 1.06 : 1 }} whileHover={{ scale: 1.1 }} style={{ transformOrigin: `${p.x}px ${p.y}px` }} stroke="var(--surface)" strokeWidth={3} />
+              <foreignObject x={p.x - 40} y={p.y - 32} width={80} height={64} pointerEvents="none">
+                <div className="flex h-full items-center justify-center overflow-hidden text-center text-[10px] font-bold leading-[1.15] text-white [overflow-wrap:anywhere]">{br.label}</div>
               </foreignObject>
             </g>
           )
@@ -123,6 +123,9 @@ export function MindMap({ map }: { map: IsraelStudy['mindmap'] }) {
             {b.children.map((ch, k) => (
               <motion.li key={k} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 + k * 0.07 }} className="rounded-xl bg-surface-2 p-3">
                 <p className="font-semibold">
+                  <span className="mr-1.5 inline-flex size-5 items-center justify-center rounded-full text-[0.7rem] text-white" style={{ background: palette[bi % palette.length] }}>
+                    {k + 1}
+                  </span>
                   {ch.label} <span className="text-xs font-normal text-ink-soft">· {refLabel(ch.ref)}</span>
                 </p>
                 <p className="mt-0.5 text-[0.95rem] text-ink-soft">

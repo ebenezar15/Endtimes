@@ -154,9 +154,9 @@ export const CATEGORY: Record<S['promises'][number]['category'], { label: () => 
   people: { label: () => t('People'), icon: 'book' },
 }
 const STAGE: Record<S['promises'][number]['path'][number]['stage'], { label: () => string; color: string }> = {
-  promise: { label: () => t('Promise'), color: '#b45309' },
+  promise: { label: () => t('Promise'), color: '#ca8a04' },
   type: { label: () => t('Shadow'), color: '#7c3aed' },
-  christ: { label: () => t('Christ'), color: '#c2410c' },
+  christ: { label: () => t('Christ'), color: '#be123c' },
   church: { label: () => t('Church'), color: '#0f766e' },
   consummation: { label: () => t('New creation'), color: '#1d4ed8' },
 }
@@ -173,7 +173,7 @@ function Journey({ p }: { p: S['promises'][number] }) {
   return (
     <div className="relative">
       <div className="absolute bottom-3 left-5 top-3 w-1 rounded-full bg-surface-2" aria-hidden />
-      <motion.div key={p.id} className="absolute bottom-3 left-5 top-3 w-1 origin-top rounded-full bg-gradient-to-b from-[#b45309] via-[#c2410c] to-[#1d4ed8]" initial={{ scaleY: 0 }} animate={{ scaleY: 1 }} transition={{ duration: 0.3 * p.path.length, ease: 'linear' }} aria-hidden />
+      <motion.div key={p.id} className="absolute bottom-3 left-5 top-3 w-1 origin-top rounded-full bg-gradient-to-b from-[#ca8a04] via-[#be123c] to-[#1d4ed8]" initial={{ scaleY: 0 }} animate={{ scaleY: 1 }} transition={{ duration: 0.3 * p.path.length, ease: 'linear' }} aria-hidden />
       <ol className="relative grid gap-3">
         {p.path.map((s, i) => (
           <motion.li key={p.id + i} initial={{ opacity: 0, x: 14 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.3 * i }} className="relative flex gap-3">
@@ -260,40 +260,41 @@ export function PromiseTracker({ promises }: { promises: S['promises'] }) {
   )
 }
 
-/** Infographic: how many promises reach each stage, by category. */
+/** Infographic: for each kind of promise, how its steps are spread from first giving to new creation. */
 export function PromiseBoard({ promises }: { promises: S['promises'] }) {
   const cats = [...new Set(promises.map((p) => p.category))]
-  const max = Math.max(...cats.map((c) => promises.filter((p) => p.category === c).length))
+  const stages = Object.keys(STAGE) as (keyof typeof STAGE)[]
+  const rows = cats.map((c) => {
+    const ps = promises.filter((p) => p.category === c)
+    const steps = ps.flatMap((p) => p.path)
+    return { c, n: ps.length, total: steps.length, by: stages.map((st) => steps.filter((x) => x.stage === st).length) }
+  })
   return (
-    <div className="grid gap-4 md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
-      <ul className="space-y-2">
-        {cats.map((c, i) => {
-          const n = promises.filter((p) => p.category === c).length
-          const toChrist = promises.filter((p) => p.category === c && p.path.some((s) => s.stage === 'christ')).length
-          return (
-            <li key={c} className="flex items-center gap-2 text-sm">
-              <span className="flex w-28 shrink-0 items-center gap-1.5 font-semibold">
-                <Icon name={CATEGORY[c].icon} size={14} /> {CATEGORY[c].label()}
+    <div className="grid gap-4 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
+      <div>
+        <ul className="space-y-2">
+          {rows.map((r, i) => (
+            <li key={r.c} className="flex items-center gap-2 text-sm">
+              <span className="flex w-32 shrink-0 items-center gap-1.5 font-semibold">
+                <Icon name={CATEGORY[r.c].icon} size={14} className="shrink-0" /> {CATEGORY[r.c].label()} <span className="font-normal text-ink-soft">· {r.n}</span>
               </span>
-              <span className="relative h-5 flex-1 overflow-hidden rounded-full bg-surface-2">
-                <motion.span className="absolute inset-y-0 left-0 rounded-full bg-[var(--gold)]" initial={{ width: 0 }} whileInView={{ width: `${(n / max) * 100}%` }} viewport={{ once: true }} transition={{ duration: 0.8, delay: i * 0.06 }} />
-                <motion.span className="absolute inset-y-0 left-0 rounded-full bg-accent" initial={{ width: 0 }} whileInView={{ width: `${(toChrist / max) * 100}%` }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.4 + i * 0.06 }} />
-              </span>
-              <span className="w-10 text-right text-xs tabular-nums text-ink-soft">
-                {toChrist}/{n}
+              <span className="flex h-5 flex-1 overflow-hidden rounded-full bg-surface-2">
+                {r.by.map((v, k) => (
+                  <motion.span key={k} title={`${STAGE[stages[k]].label()}: ${v}`} className="h-full" style={{ background: STAGE[stages[k]].color }} initial={{ width: 0 }} whileInView={{ width: `${(v / r.total) * 100}%` }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.05 + k * 0.12 }} />
+                ))}
               </span>
             </li>
-          )
-        })}
-        <li className="flex flex-wrap gap-3 pt-1 text-xs text-ink-soft">
-          <span className="flex items-center gap-1">
-            <span className="size-3 rounded-full bg-[var(--gold)]" /> {t('Promises traced')}
-          </span>
-          <span className="flex items-center gap-1">
-            <span className="size-3 rounded-full bg-accent" /> {t('Traced to Christ in the New Testament')}
-          </span>
-        </li>
-      </ul>
+          ))}
+        </ul>
+        <p className="mt-3 flex flex-wrap gap-x-3 gap-y-1 text-xs text-ink-soft">
+          {stages.map((st) => (
+            <span key={st} className="flex items-center gap-1">
+              <span className="size-3 rounded-full" style={{ background: STAGE[st].color }} /> {STAGE[st].label()}
+            </span>
+          ))}
+        </p>
+        <p className="mt-1 text-xs text-ink-soft">{t('Each bar shows where the steps of that kind of promise fall, from first giving to the new creation.')}</p>
+      </div>
       <div className="leaf flex flex-col justify-center p-5 text-center">
         <p className="font-serif text-5xl font-bold text-accent">{promises.length}</p>
         <p className="mt-1 font-semibold">{t('Old Testament promises traced in this study')}</p>
