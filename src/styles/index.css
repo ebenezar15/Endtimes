@@ -543,4 +543,18 @@ p {
   html[lang='ta'] h2 {
     overflow-wrap: break-word;
   }
+  html[lang='ta'] section > h2.text-2xl {
+    font-size: min(1.5rem, 6vw);
+  }
+}
+
+/* Tamil words are long: let flex and grid items shrink below their longest word and wrap it, instead of running off narrow screens. */
+html[lang='ta'] main {
+  overflow-wrap: break-word;
+}
+html[lang='ta'] main :is(.grid, .flex, .inline-flex) > :not(svg, [class*='min-w-']) {
+  min-width: 0;
+}
+fieldset {
+  min-width: 0;
 }

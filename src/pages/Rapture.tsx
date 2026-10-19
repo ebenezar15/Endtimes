@@ -62,7 +62,7 @@ export default function Rapture() {
                 <span className="inline-flex size-9 shrink-0 items-center justify-center rounded-xl bg-accent text-[var(--accent-ink)]">
                   <Icon name={icon as 'trumpet'} size={17} />
                 </span>
-                <span className="font-semibold leading-snug">{q}</span>
+                <span className="min-w-0 font-semibold leading-snug [overflow-wrap:break-word]">{q}</span>
               </motion.li>
             ))}
           </ol>

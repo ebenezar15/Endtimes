@@ -8,7 +8,7 @@ export function Section({ id, title, lede, children }: { id: string; title: stri
     <section id={id} className="mt-20 scroll-mt-20" aria-labelledby={`${id}-h`}>
       <motion.h2 id={`${id}-h`} className="text-2xl font-bold sm:text-3xl" initial="hidden" whileInView="show" viewport={{ once: true, margin: '-60px' }} transition={{ staggerChildren: 0.06 }} aria-label={title}>
         {words.map((w, i) => (
-          <motion.span key={i} aria-hidden className="mr-[0.28em] inline-block" variants={{ hidden: { opacity: 0, y: 18, rotateX: -60 }, show: { opacity: 1, y: 0, rotateX: 0 } }} transition={{ type: 'spring', stiffness: 220, damping: 20 }}>
+          <motion.span key={i} aria-hidden className="mr-[0.28em] inline-block max-w-full [overflow-wrap:anywhere]" variants={{ hidden: { opacity: 0, y: 18, rotateX: -60 }, show: { opacity: 1, y: 0, rotateX: 0 } }} transition={{ type: 'spring', stiffness: 220, damping: 20 }}>
             {w}
           </motion.span>
         ))}

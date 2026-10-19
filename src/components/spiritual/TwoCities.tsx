@@ -40,7 +40,7 @@ export function TwoCities({ keys }: { keys: SpiritualKey[] }) {
           const isOpen = open === i
           return (
             <motion.li key={p.old.id + p.neu.id} initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-30px' }} transition={{ delay: (i % 4) * 0.06 }}>
-              <button type="button" aria-expanded={isOpen} onClick={() => setOpen(isOpen ? null : i)} className="grid w-full grid-cols-[1fr_3rem_1fr] items-stretch gap-2 text-left md:grid-cols-[1fr_4rem_1fr]">
+              <button type="button" aria-expanded={isOpen} onClick={() => setOpen(isOpen ? null : i)} className="grid w-full grid-cols-[minmax(0,1fr)_3rem_minmax(0,1fr)] items-stretch gap-2 text-left md:grid-cols-[1fr_4rem_1fr]">
                 <span className="leaf block p-3" style={{ borderLeft: '4px solid var(--rubric)' }}>
                   <span className="block font-bold">{p.old.symbol}</span>
                   <span className="text-xs text-ink-soft">{t('Revelation {n}', { n: p.old.chapter })}</span>

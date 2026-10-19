@@ -77,7 +77,7 @@ function Story({ scenes }: { scenes: Scene[] }) {
   const y1 = Math.ceil(scenes.at(-1)!.at)
   const go = (k: number) => document.getElementById(`scene-${scenes[k].id}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' })
   return (
-    <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)]">
+    <div className="grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)]">
       <div className="order-2 lg:order-1">
         {scenes.map((x, k) => (
           <SceneCard key={x.id} s={x} i={k} onActive={setI} active={k === i} />
