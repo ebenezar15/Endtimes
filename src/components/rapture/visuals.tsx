@@ -463,8 +463,8 @@ export function KingdomSpectrum({ models }: { models: R['kingdomModels'] }) {
     <div>
       <div className="leaf p-4">
         <div className="relative mx-2 mt-2 h-4 rounded-full" style={{ background: 'linear-gradient(90deg, hsl(215 70% 42%), hsl(130 55% 38%), hsl(45 80% 42%), hsl(15 75% 45%))' }} aria-hidden>
-          {sorted.map((x) => (
-            <motion.button key={x.id} type="button" aria-label={x.name} onClick={() => setSel(x.id)} className="absolute top-1/2 size-5 -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-[var(--surface)] shadow" style={{ left: `${x.place * 10}%`, background: hue(x.place) }} animate={{ scale: x.id === m.id ? 1.5 : 1 }} whileHover={{ scale: 1.3 }} />
+          {sorted.map((x, i) => (
+            <motion.button key={x.id} type="button" aria-label={x.name} onClick={() => setSel(x.id)} className="absolute top-1/2 size-5 -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-[var(--surface)] shadow" style={{ left: `${x.place * 10 + (sorted.findIndex((y) => y.place === x.place) === i ? 0 : 2.6 * (i - sorted.findIndex((y) => y.place === x.place)))}%`, background: hue(x.place) }} animate={{ scale: x.id === m.id ? 1.5 : 1 }} whileHover={{ scale: 1.3 }} />
           ))}
         </div>
         <div className="mt-3 flex justify-between gap-4 text-xs font-bold uppercase tracking-widest">
