@@ -891,7 +891,7 @@ export const RaptureStudy = z.object({
   /** Stewardship texts read from both ends. */
   stewardship: z.array(z.object({ id: Id, ref: Ref, title: Text, text: Text, establish: Text, steward: Text })).min(7),
   exchanges: z.array(z.object({ id: Id, by: z.enum(['establish', 'steward']), title: Text, argument: Text, counter: Text, answer: Text, refs: z.array(Ref).default([]), sources: z.array(Id).default([]) })).min(12),
-  strawmen: z.array(z.object({ id: Id, against: Text, strawman: Text, whyFalse: Text, accurate: Text })).min(10),
+  strawmen: z.array(z.object({ id: Id, target: Text, strawman: Text, whyFalse: Text, accurate: Text })).min(10),
   flow: z.object({
     start: Id,
     nodes: z.array(z.object({ id: Id, q: Text, help: Text, options: z.array(z.object({ label: Text, next: Id })).min(2) })).min(6),

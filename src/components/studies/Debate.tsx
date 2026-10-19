@@ -87,7 +87,7 @@ export function Rounds({ items, sides, counterLabel }: { items: Round[]; sides: 
 }
 
 /** Caricatures: knock each down to see what is really held. */
-export function StrawList({ items }: { items: { id: string; against: string; strawman: string; whyFalse: string; accurate: string }[] }) {
+export function StrawList({ items }: { items: { id: string; target: string; strawman: string; whyFalse: string; accurate: string }[] }) {
   return (
     <ul className="grid gap-3 md:grid-cols-2">
       {items.map((s) => (
@@ -97,11 +97,11 @@ export function StrawList({ items }: { items: { id: string; against: string; str
   )
 }
 
-function StrawCard({ s }: { s: { against: string; strawman: string; whyFalse: string; accurate: string } }) {
+function StrawCard({ s }: { s: { target: string; strawman: string; whyFalse: string; accurate: string } }) {
   const [down, setDown] = useState(false)
   return (
     <motion.li layout initial={{ opacity: 0, y: 14 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="leaf relative overflow-hidden p-4" style={{ borderTop: '4px solid var(--rubric)' }}>
-      <p className="text-xs font-bold uppercase tracking-widest text-rubric">{t('A caricature of: {camp}', { camp: s.against })}</p>
+      <p className="text-xs font-bold uppercase tracking-widest text-rubric">{t('A caricature of: {camp}', { camp: s.target })}</p>
       <div className="relative mt-2">
         <motion.p animate={{ opacity: down ? 0.45 : 1 }} className={`font-serif text-lg italic ${down ? 'line-through decoration-[var(--rubric)] decoration-2' : ''}`}>
           “{s.strawman}”
