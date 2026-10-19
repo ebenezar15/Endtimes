@@ -814,3 +814,92 @@ export const IsraelStudy = z.object({
   sources: z.array(Id).min(1),
 })
 export type IsraelStudy = z.infer<typeof IsraelStudy>
+
+/* ---------- The rapture, the millennium, and the kingdom ---------------------------------- */
+
+export const TRIB_VIEWS = ['pretrib', 'midtrib', 'prewrath', 'posttrib', 'partial', 'one-coming'] as const
+const TribId = z.enum(TRIB_VIEWS)
+const MILL_VIEWS = ['amil', 'postmil', 'histpremil', 'disppremil'] as const
+
+export const RaptureStudy = z.object({
+  intro: Text,
+  /** Rapture views. Times are years into a seven-year tribulation (0–7); null where the view has no seven-year period. */
+  tribViews: z.array(
+    z.object({
+      id: TribId,
+      name: Text,
+      summary: Text,
+      rapture: z.number().min(0).max(7).nullable(),
+      wrathStart: z.number().min(0).max(7).nullable(),
+      timing: Text,
+      origin: Text,
+      scholars: z.array(Text).min(2),
+      keyTexts: z.array(Ref).min(2),
+      strengths: Text,
+      weaknesses: Text,
+      sources: z.array(Id).default([]),
+    }),
+  ).length(6),
+  /** Key passages and how each rapture view reads them. */
+  texts: z.array(
+    z.object({ id: Id, ref: Ref, title: Text, question: Text, readings: z.array(z.object({ view: TribId, reading: Text })).min(4), sources: z.array(Id).default([]) }),
+  ).min(10),
+  arguments: z.array(z.object({ id: Id, view: TribId, title: Text, argument: Text, counter: Text, answer: Text, refs: z.array(Ref).default([]), sources: z.array(Id).default([]) })).min(16),
+  /** How the doctrine of the rapture developed. */
+  history: z.array(z.object({ year: z.number(), label: Text, text: Text, view: TribId.nullable() })).min(14),
+  /** The four millennial views; ids match the app's positions. */
+  millViews: z.array(
+    z.object({
+      id: z.enum(MILL_VIEWS),
+      summary: Text,
+      rev20: Text,
+      satanBound: Text,
+      firstResurrection: Text,
+      thousand: Text,
+      /** Events in order, from now to the eternal state. */
+      sequence: z.array(z.object({ label: Text, kind: z.enum(['age', 'event', 'kingdom', 'eternal']) })).min(4),
+      /** Gospel/kingdom influence in the world across the age, six points from now to the return, 0–10. */
+      shape: z.array(z.number().min(0).max(10)).length(6),
+      shapeNote: Text,
+      scholars: z.array(Text).min(3),
+      keyTexts: z.array(Ref).min(3),
+      strengths: Text,
+      weaknesses: Text,
+      sources: z.array(Id).default([]),
+    }),
+  ).length(4),
+  millDebates: z.array(z.object({ id: Id, question: Text, refs: z.array(Ref).min(1), readings: z.array(ViewReading).length(4), sources: z.array(Id).default([]) })).min(10),
+  /** Establishing a literal kingdom, or stewarding one already established. */
+  kingdomModels: z.array(
+    z.object({
+      id: Id,
+      name: Text,
+      /** Where it sits: 0 = the kingdom is established only at Christ's return; 10 = the church's task is to bring the kingdom's rule into every sphere now. */
+      place: z.number().min(0).max(10),
+      summary: Text,
+      whoBrings: Text,
+      churchTask: Text,
+      culture: Text,
+      keyTexts: z.array(Ref).min(2),
+      strengths: Text,
+      critique: Text,
+      response: Text,
+      scholars: z.array(Text).min(2),
+      sources: z.array(Id).default([]),
+    }),
+  ).min(7),
+  /** Stewardship texts read from both ends. */
+  stewardship: z.array(z.object({ id: Id, ref: Ref, title: Text, text: Text, establish: Text, steward: Text })).min(7),
+  exchanges: z.array(z.object({ id: Id, by: z.enum(['establish', 'steward']), title: Text, argument: Text, counter: Text, answer: Text, refs: z.array(Ref).default([]), sources: z.array(Id).default([]) })).min(12),
+  strawmen: z.array(z.object({ id: Id, against: Text, strawman: Text, whyFalse: Text, accurate: Text })).min(10),
+  flow: z.object({
+    start: Id,
+    nodes: z.array(z.object({ id: Id, q: Text, help: Text, options: z.array(z.object({ label: Text, next: Id })).min(2) })).min(6),
+    results: z.array(z.object({ id: Id, title: Text, text: Text })).min(4),
+  }),
+  quiz: z.array(z.object({ q: Text, options: z.array(Text).min(3), answer: z.number().int().min(0), explain: Text })).min(12),
+  /** Common ground every view can affirm. */
+  commonGround: z.array(z.object({ id: Id, title: Text, text: Text, refs: z.array(Ref).default([]) })).min(5),
+  sources: z.array(Id).min(1),
+})
+export type RaptureStudy = z.infer<typeof RaptureStudy>

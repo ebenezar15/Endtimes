@@ -13,6 +13,7 @@ export const NAV: { to: string; label: string; icon: IconName; group: string }[]
   { to: '/olivet', label: t('Matthew 24 & AD 70'), icon: 'compass', group: 'Investigate' },
   { to: '/josephus', label: t('Josephus & AD 70'), icon: 'book', group: 'Investigate' },
   { to: '/israel', label: t('Israel in prophecy'), icon: 'star', group: 'Investigate' },
+  { to: '/rapture', label: t('Rapture, millennium & kingdom'), icon: 'trumpet', group: 'Investigate' },
   { to: '/signs', label: t('Signs of the times'), icon: 'hourglass', group: 'Investigate' },
   { to: '/dating', label: t('Dating Revelation'), icon: 'scales', group: 'Investigate' },
   { to: '/passages', label: t('Passage Lab'), icon: 'scroll', group: 'Read' },
