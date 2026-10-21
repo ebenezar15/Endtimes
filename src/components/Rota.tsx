@@ -1,4 +1,5 @@
-import { useMemo } from 'react'
+import { useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { LANG } from '../lib/lang'
 import { core as content, hermeneuticViews, millennialViews } from '../lib/core'
 import { usePositionColors } from '../lib/theme'
 import { useApp } from '../lib/store'
@@ -28,6 +29,67 @@ function textArc(r: number, a0: number, a1: number) {
 }
 
 const RING = { m: [70, 146], h: [214, 286] } as const
+
+/** Splits a Tamil label into two balanced lines at a space (Tamil words are long; one line rarely fits a segment). */
+function lines(label: string): string[] {
+  if (LANG !== 'ta' || !label.includes(' ')) return [label]
+  const words = label.split(' ')
+  let best = 1
+  let diff = Infinity
+  for (let i = 1; i < words.length; i++) {
+    const d = Math.abs(words.slice(0, i).join(' ').length - words.slice(i).join(' ').length)
+    if (d < diff) (diff = d), (best = i)
+  }
+  return [words.slice(0, best).join(' '), words.slice(best).join(' ')]
+}
+
+/**
+ * A label set along a ring segment, one or two lines, centred in the band and shrunk until each
+ * line fits the arc — measured after the fonts load, so it sits the same on every device.
+ */
+function ArcLabel({ id, label, r1, r2, a0, a1, size, fill }: { id: string; label: string; r1: number; r2: number; a0: number; a1: number; size: number; fill: string }) {
+  const ls = lines(label)
+  const [fs, setFs] = useState(ls.length > 1 ? size * 0.82 : size)
+  const refs = useRef<(SVGTextElement | null)[]>([])
+  const mid = (a0 + a1) / 2
+  const lower = mid > 90 && mid < 270
+  const m = (r1 + r2) / 2
+  const h = fs * 0.72
+  const gap = fs * 1.15
+  // Baseline radius for each line: glyphs rise outward on the upper half and inward on the lower half.
+  const radii = ls.length === 1 ? [lower ? m + h / 2 : m - h / 2] : lower ? [m - gap / 2 + h / 2, m + gap / 2 + h / 2] : [m + gap / 2 - h / 2, m - gap / 2 - h / 2]
+  useLayoutEffect(() => {
+    const fit = () => {
+      let scale = 1
+      refs.current.forEach((el, k) => {
+        if (!el) return
+        const avail = radii[k] * ((a1 - a0) * Math.PI) / 180 * 0.9
+        const w = el.getComputedTextLength()
+        if (w > avail) scale = Math.min(scale, avail / w)
+      })
+      if (scale < 0.99) setFs((f) => Math.max(8, f * scale))
+    }
+    fit()
+    document.fonts?.ready.then(fit).catch(() => {})
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [label, fs])
+  return (
+    <>
+      <defs>
+        {ls.map((_, k) => (
+          <path key={k} id={`ta-${id}-${k}`} d={textArc(radii[k], a0, a1)} fill="none" />
+        ))}
+      </defs>
+      {ls.map((l, k) => (
+        <text key={k} ref={(el) => void (refs.current[k] = el)} fontSize={fs} fontWeight={500} fill={fill} letterSpacing={LANG === 'ta' ? 0 : '0.02em'}>
+          <textPath href={`#ta-${id}-${k}`} startOffset="50%" textAnchor="middle">
+            {l}
+          </textPath>
+        </text>
+      ))}
+    </>
+  )
+}
 const GAP = [RING.m[1], RING.h[0]] as const
 
 export type RotaProps = {
@@ -58,10 +120,6 @@ export function Rota({ selected, highlight, onSelect }: RotaProps) {
   return (
     <svg viewBox="0 0 600 600" className="h-auto w-full max-w-[38rem] select-none" role="group" aria-label={t('Map of eschatological positions: inner ring, the four millennial views; outer ring, the six ways of reading Revelation. Threads show which pairings are common.')}>
       <defs>
-        {segs.map((s) => {
-          const r = s.ring === 'm' ? (RING.m[0] + RING.m[1]) / 2 - 5 : (RING.h[0] + RING.h[1]) / 2 - 5
-          return <path key={s.p.id} id={`ta-${s.p.id}`} d={textArc(r, s.a0, s.a1)} fill="none" />
-        })}
         <radialGradient id="rota-core" cx="50%" cy="45%" r="60%">
           <stop offset="0%" stopColor="var(--surface)" />
           <stop offset="100%" stopColor="var(--surface-2)" />
@@ -98,11 +156,7 @@ export function Rota({ selected, highlight, onSelect }: RotaProps) {
             style={{ opacity: dim ? 0.35 : 1, animationDelay: `${0.05 * i}s` }}
           >
             <path d={arc(r1, r2, s.a0, s.a1)} fill={col.base} stroke={selected === s.p.id ? 'var(--ink)' : 'var(--gold-bright)'} strokeWidth={selected === s.p.id ? 3 : 1.2} />
-            <text fontSize={s.ring === 'm' ? 15 : 13.5} fontWeight={500} fill={col.ink} letterSpacing="0.02em">
-              <textPath href={`#ta-${s.p.id}`} startOffset="50%" textAnchor="middle">
-                {s.p.shortName}
-              </textPath>
-            </text>
+            <ArcLabel id={s.p.id} label={s.p.shortName} r1={r1} r2={r2} a0={s.a0} a1={s.a1} size={s.ring === 'm' ? 15 : 13.5} fill={col.ink} />
             {isMine && (() => {
               const [x, y] = polar(r2 - 9, (s.a0 + s.a1) / 2 + (s.a1 - s.a0) * 0.36)
               return <text x={x} y={y + 4} textAnchor="middle" fontSize={13} fill={col.ink} aria-hidden>✦</text>
@@ -155,9 +209,23 @@ export function Rota({ selected, highlight, onSelect }: RotaProps) {
       <text x={C} y={C + 13} textAnchor="middle" fontFamily="Cormorant Garamond, Georgia, serif" fontStyle="italic" fontSize={11.5} fill="var(--ink-soft)">
         “{t('a thousand years')}”
       </text>
-      <text x={C} y={C + 29} textAnchor="middle" fontSize={9.5} fill="var(--ink-soft)">
-        {t('Revelation 20:1–10')}
-      </text>
+      {(() => {
+        // Tamil book names are long: put the reference on two lines inside the core.
+        const ref = t('Revelation 20:1–10')
+        const cut = LANG === 'ta' ? ref.lastIndexOf(' ') : -1
+        return cut > 0 ? (
+          <text x={C} y={C + 27} textAnchor="middle" fontSize={8.5} fill="var(--ink-soft)">
+            <tspan x={C}>{ref.slice(0, cut)}</tspan>
+            <tspan x={C} dy={11}>
+              {ref.slice(cut + 1)}
+            </tspan>
+          </text>
+        ) : (
+          <text x={C} y={C + 29} textAnchor="middle" fontSize={9.5} fill="var(--ink-soft)">
+            {ref}
+          </text>
+        )
+      })()}
     </svg>
   )
 }

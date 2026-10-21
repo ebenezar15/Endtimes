@@ -195,7 +195,7 @@ export function RoadHero() {
           </div>
         </div>
 
-        <motion.div className="flex items-center justify-center gap-4 pb-4 text-xs font-semibold uppercase tracking-[0.25em] text-ink-soft" animate={{ y: [0, 6, 0] }} transition={{ repeat: Infinity, duration: 2 }}>
+        <motion.div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 px-4 pb-4 text-center text-xs font-semibold uppercase tracking-[0.25em] text-ink-soft" animate={{ y: [0, 6, 0] }} transition={{ repeat: Infinity, duration: 2 }}>
           <span>{at < 99 ? t('Scroll to travel through time ↓') : t('Explore below ↓')}</span>
           <a href="#after-road" className="normal-case tracking-normal" onClick={(ev) => (ev.preventDefault(), document.getElementById('after-road')?.scrollIntoView({ behavior: 'smooth' }))}>
             {t('Skip')} <Icon name="arrow" size={12} className="inline rotate-90" />

@@ -1,6 +1,13 @@
 {
- "Read in NIV": "தமிழ் வேதாகமத்தில் படிக்க",
- "Read {ref} in the NIV on BibleGateway": "{ref}-ஐ BibleGateway-இல் தமிழ் வேதாகமத்தில் படிக்க",
- "Show “Read in NIV” links (opens BibleGateway)": "“தமிழ் வேதாகமத்தில் படிக்க” இணைப்புகளைக் காட்டு (BibleGateway-ஐத் திறக்கும்)",
- "The NIV is under copyright, so its text can’t be built into the app. The links open the same passage in the NIV on BibleGateway.": "இந்தப் பயன்பாட்டில் உள்ள வேதாகம உரை ஆங்கிலப் பொதுக்கள மொழிபெயர்ப்புகள் (BSB, KJV, WEB). இணைப்புகள் அதே பகுதியை BibleGateway-இல் தமிழ் வேதாகமத்தில் (BSI பழைய மொழிபெயர்ப்பு) திறக்கும்."
+"Read in NIV": "தமிழ் வேதாகமத்தில் படிக்க",
+"Read {ref} in the NIV on BibleGateway": "{ref}-ஐ BibleGateway-இல் தமிழ் வேதாகமத்தில் படிக்க",
+"Show “Read in NIV” links (opens BibleGateway)": "“தமிழ் வேதாகமத்தில் படிக்க” இணைப்புகளைக் காட்டு (BibleGateway-ஐத் திறக்கும்)",
+"The NIV is under copyright, so its text can’t be built into the app. The links open the same passage in the NIV on BibleGateway.": "இந்தப் பயன்பாட்டில் உள்ள வேதாகம உரை ஆங்கிலப் பொதுக்கள மொழிபெயர்ப்புகள் (BSB, KJV, WEB). இணைப்புகள் அதே பகுதியை BibleGateway-இல் தமிழ் வேதாகமத்தில் (BSI பழைய மொழிபெயர்ப்பு) திறக்கும்.",
+"Disp. Premil": "காலப்பகுப்பு முன்-ஆயிரவருடம்",
+"Full Preterist": "முழு நிறைவேறிய-காலம்",
+"Partial Preterist": "பகுதி நிறைவேறிய-காலம்",
+"Historicist": "வரலாற்றுத்தொடர் விளக்கம்",
+"Futurist": "எதிர்கால விளக்கம்",
+"Idealist": "அடையாள விளக்கம்",
+"Spiritual": "ஆவிக்குரிய புரிதல்"
 }
