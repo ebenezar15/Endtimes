@@ -2,7 +2,7 @@
   "name": "last-things",
   "private": true,
   "version": "1.0.0",
-  "description": "Last Things \u2014 an interactive study of Christian eschatology",
+  "description": "Last Things — an interactive study of Christian eschatology",
   "type": "module",
   "scripts": {
     "bible": "node scripts/build-bible.mjs",
@@ -42,6 +42,7 @@
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^5.2.0",
     "d3-geo": "^3.1.1",
+    "fflate": "^0.8.2",
     "jsdom": "^29.1.1",
     "kjv": "^1.0.0",
     "tailwindcss": "^4.3.3",
