@@ -91,7 +91,7 @@ function emit(b: ContentBundle, out: string, opts: { bible?: boolean } = {}) {
     })
   write('revelation', { intro: b.revIntro, chapters, spiritual })
   write('connections', { threads: b.revThreads, books: b.revBooks, structure: b.revStructure, atlas: b.atlas })
-  write('studies', { olivet: b.olivet, signs: b.signs, dating: b.dating, josephus: b.josephus, israel: b.israel, rapture: b.rapture })
+  write('studies', { olivet: b.olivet, signs: b.signs, dating: b.dating, josephus: b.josephus, israel: b.israel, rapture: b.rapture, fulfilled: b.fulfilled })
   // A slim slice for the first screen (home page + app shell).
   write('core', {
     positions: b.positions.map(({ id, name, shortName, axis, color, initial, tagline, summary }) => ({ id, name, shortName, axis, color, initial, tagline, summary })),

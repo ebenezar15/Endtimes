@@ -903,3 +903,49 @@ export const RaptureStudy = z.object({
   sources: z.array(Id).min(1),
 })
 export type RaptureStudy = z.infer<typeof RaptureStudy>
+
+/* ---------- Matthew 24 verse by verse: the fulfilled reading ---------------------------------- */
+
+export const FulfilledStudy = z.object({
+  intro: Text,
+  /** Where this reading sits among Christian views, stated factually. */
+  orthodoxy: Text,
+  /** The five questions to ask of the discourse. */
+  keys: z.array(z.object({ id: z.enum(['who', 'what', 'where', 'when', 'why']), question: Text, answer: Text, refs: z.array(Ref).default([]) })).length(5),
+  historians: z.array(z.object({ id: Id, name: Text, life: Text, works: Text, role: Text, caution: Text })).min(3),
+  /** Matthew 21–23 as the setting. */
+  context: z.array(z.object({ id: Id, ref: Ref, title: Text, text: Text })).min(3),
+  chapters: z.array(z.object({ id: Id, title: Text, range: Ref, summary: Text })).min(8),
+  verses: z.array(
+    z.object({
+      id: Id,
+      chapter: Id,
+      ref: Ref,
+      title: Text,
+      /** A short phrase from the verse (public-domain wording). */
+      phrase: Text,
+      meaning: Text,
+      fulfilment: Text,
+      evidence: z.array(z.object({ source: Text, text: Text })).default([]),
+      refs: z.array(Ref).default([]),
+      word: z.object({ term: Text, gloss: Text, note: Text }).nullable(),
+      /** How other views read the verse, briefly. */
+      other: Text,
+      answer: Text,
+      /** Year of the fulfilment the reading points to, if any. */
+      year: z.number().nullable(),
+    }),
+  ).min(45),
+  /** Prophetic images and what the reading takes them to mean. */
+  symbols: z.array(z.object({ id: Id, image: Text, ref: Ref, meaning: Text, refs: z.array(Ref).default([]) })).min(10),
+  timeTexts: z.array(z.object({ ref: Ref, phrase: Text, note: Text })).min(15),
+  timeline: z.array(z.object({ year: z.number(), label: Text, text: Text, verse: Ref.nullable() })).min(15),
+  doubleFulfilment: z.object({ text: Text, points: z.array(z.object({ title: Text, text: Text, refs: z.array(Ref).default([]) })).min(4), otherSide: Text }),
+  revelationDate: z.array(z.object({ id: Id, title: Text, argument: Text, counter: Text })).min(6),
+  objections: z.array(z.object({ id: Id, q: Text, a: Text, refs: z.array(Ref).default([]) })).min(8),
+  /** "What now?": the original mandate. */
+  mandate: z.object({ text: Text, items: z.array(z.object({ label: Text, ref: Ref, text: Text })).length(5) }),
+  quiz: z.array(z.object({ q: Text, options: z.array(Text).min(3), answer: z.number().int().min(0), explain: Text })).min(12),
+  sources: z.array(Id).min(1),
+})
+export type FulfilledStudy = z.infer<typeof FulfilledStudy>

@@ -11,6 +11,7 @@ export const NAV: { to: string; label: string; icon: IconName; group: string }[]
   { to: '/revelation', label: t('Revelation Study'), icon: 'seal', group: 'Read' },
   { to: '/spiritual', label: t('Spiritual Understanding'), icon: 'sparkles', group: 'Read' },
   { to: '/olivet', label: t('Matthew 24 & AD 70'), icon: 'compass', group: 'Investigate' },
+  { to: '/fulfilled', label: t('Matthew 24 verse by verse'), icon: 'scroll', group: 'Investigate' },
   { to: '/josephus', label: t('Josephus & AD 70'), icon: 'book', group: 'Investigate' },
   { to: '/israel', label: t('Israel in prophecy'), icon: 'star', group: 'Investigate' },
   { to: '/rapture', label: t('Rapture, millennium & kingdom'), icon: 'trumpet', group: 'Investigate' },

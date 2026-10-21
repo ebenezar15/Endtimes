@@ -35,6 +35,7 @@ export type ContentBundle = {
   josephus: S.JosephusStory | null
   israel: S.IsraelStudy | null
   rapture: S.RaptureStudy | null
+  fulfilled: S.FulfilledStudy | null
 }
 
 const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema: z.ZodTypeAny; single?: boolean }[] = [
@@ -67,6 +68,7 @@ const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema:
   { match: (p) => p === 'studies/josephus.json', key: 'josephus', schema: S.JosephusStory, single: true },
   { match: (p) => p === 'studies/israel.json', key: 'israel', schema: S.IsraelStudy, single: true },
   { match: (p) => p === 'studies/rapture.json', key: 'rapture', schema: S.RaptureStudy, single: true },
+  { match: (p) => p === 'studies/fulfilled.json', key: 'fulfilled', schema: S.FulfilledStudy, single: true },
 ]
 
 export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
@@ -74,7 +76,7 @@ export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
 export function emptyBundle(): ContentBundle {
   return {
     positions: [], combinations: [], topics: [], matrix: [], passages: [], arguments: [], timelines: [],
-    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [], spiritual: null, revThreads: [], revBooks: [], revStructure: null, atlas: null, olivet: null, signs: null, dating: null, josephus: null, israel: null, rapture: null,
+    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [], spiritual: null, revThreads: [], revBooks: [], revStructure: null, atlas: null, olivet: null, signs: null, dating: null, josephus: null, israel: null, rapture: null, fulfilled: null,
   }
 }
 
@@ -315,6 +317,14 @@ export function checkBundle(b: ContentBundle, opts: { partial?: boolean } = {}):
     if (!ids.has(R.flow.start)) errors.push(`rapture flow: unknown start "${R.flow.start}"`)
     R.flow.nodes.forEach((n) => n.options.forEach((o) => !ids.has(o.next) && errors.push(`rapture flow ${n.id}: unknown next "${o.next}"`)))
     R.quiz.forEach((q, i) => q.answer >= q.options.length && errors.push(`rapture quiz ${i}: answer out of range`))
+  }
+  if (b.fulfilled) {
+    const F = b.fulfilled
+    needSrc('fulfilled', F.sources)
+    const ch = new Set(F.chapters.map((c) => c.id))
+    dup('fulfilled verse', F.verses.map((v) => v.id))
+    F.verses.forEach((v) => !ch.has(v.chapter) && errors.push(`fulfilled verse ${v.id}: unknown chapter "${v.chapter}"`))
+    F.quiz.forEach((q, i) => q.answer >= q.options.length && errors.push(`fulfilled quiz ${i}: answer out of range`))
   }
   if (b.dating) {
     needSrc('dating', b.dating.sources)
