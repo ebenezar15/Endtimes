@@ -12,7 +12,7 @@ import { ProgressBar, Section } from '../components/studies/Section'
 import { CountUp } from '../components/ui'
 import { t } from '../lib/i18n'
 import { refLabel } from '../lib/refLabel'
-import { prophecyQA } from '../lib/data/studies'
+import { prophecyQA } from '../lib/data/qa'
 
 type P = ProphecyQAStudy
 

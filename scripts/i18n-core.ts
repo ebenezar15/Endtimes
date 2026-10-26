@@ -12,7 +12,7 @@ export const NEVER = new Set([
   'set', 'millennial', 'hermeneutic', 'frequency', 'opposite', 'stops', 'result', 'axis', 'color', 'initial', 'next', 'centre',
   'focus', 'start', 'a', 'b', 'ot', 'rev', 'ranges', 'passages', 'fulfilledRef', 'prophecy', 'parallels', 'side', 'participants',
   'exemplars', 'works', 'proposer', 'url', 'accessed', 'type', 'camp', 'dates', 'source', 'era', 'chapters', 'author',
-  'focus', 'romans', 'fire', 'breached', 'icon', 'phase', 'by', 'against', 'view', 'chapter',
+  'focus', 'romans', 'fire', 'breached', 'icon', 'phase', 'by', 'against', 'view', 'chapter', 'group',
 ])
 // `era` is prose in source books but an id in atlas journeys; source books' era is handled by ERA_PROSE below.
 const PROSE_UNDER = new Set(['books', 'revBooks'])
