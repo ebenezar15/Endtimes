@@ -949,3 +949,73 @@ export const FulfilledStudy = z.object({
   sources: z.array(Id).min(1),
 })
 export type FulfilledStudy = z.infer<typeof FulfilledStudy>
+
+/* ---------- Shared: a question answered from Scripture ---------------------------------------- */
+
+export const QA = z.object({
+  id: Id,
+  /** Group id (a chapter or theme of the study). */
+  group: Id,
+  q: Text,
+  /** The answer in one or two crisp sentences. */
+  short: Text,
+  /** The full biblical answer. */
+  answer: Text,
+  /** Concrete examples or illustrations from Scripture or history. */
+  examples: z.array(Text).default([]),
+  refs: z.array(Ref).default([]),
+  /** How other views answer, fairly. */
+  other: Text,
+})
+
+/* ---------- New heavens and new earth: heaven-and-earth as covenant language ------------------ */
+
+export const NewCreationStudy = z.object({
+  intro: Text,
+  /** The main ways Christians read "heaven and earth" and its passing. */
+  views: z.array(z.object({ id: Id, name: Text, summary: Text, keyClaim: Text, texts: z.array(Ref).min(2), holders: Text, strengths: Text, weaknesses: Text })).min(5),
+  groups: z.array(z.object({ id: Id, title: Text, summary: Text })).min(5),
+  questions: z.array(QA).min(30),
+  /** The tabernacle read as a small cosmos. */
+  tabernacle: z.array(z.object({ id: z.enum(['court', 'holy', 'most-holy']), name: Text, represents: Text, text: Text, refs: z.array(Ref).default([]) })).length(3),
+  /** Creation words echoed when God forms, judges or remakes his people. */
+  echoes: z.array(z.object({ id: Id, theme: Text, genesis: Ref, genesisPhrase: Text, echo: Ref, echoPhrase: Text, note: Text })).min(8),
+  /** "Heaven and earth" passages, each read both ways. */
+  atlas: z.array(z.object({ id: Id, ref: Ref, phrase: Text, kind: z.enum(['creation', 'witness', 'praise', 'judgment', 'people', 'passing', 'new']), covenantal: Text, physical: Text })).min(30),
+  /** From the first creation to the new: the covenant "worlds". */
+  worlds: z.array(z.object({ id: Id, label: Text, ref: Ref, era: Text, covenantal: Text, traditional: Text })).min(8),
+  words: z.array(z.object({ id: Id, term: Text, script: Text, meaning: Text, refs: z.array(Ref).default([]), note: Text })).min(8),
+  /** Isaiah 65–66 laid beside Revelation 21–22. */
+  parallels: z.array(z.object({ theme: Text, isaiah: Ref, revelation: Ref, note: Text })).min(8),
+  objections: z.array(z.object({ id: Id, q: Text, a: Text, refs: z.array(Ref).default([]) })).min(10),
+  flow: z.object({
+    start: Id,
+    nodes: z.array(z.object({ id: Id, q: Text, help: Text, options: z.array(z.object({ label: Text, next: Id })).min(2) })).min(5),
+    results: z.array(z.object({ id: Id, title: Text, text: Text })).min(3),
+  }),
+  quiz: z.array(z.object({ q: Text, options: z.array(Text).min(3), answer: z.number().int().min(0), explain: Text })).min(12),
+  sources: z.array(Id).min(1),
+})
+export type NewCreationStudy = z.infer<typeof NewCreationStudy>
+
+/* ---------- Prophecy questions answered: a chapter-by-chapter question bank ------------------- */
+
+export const ProphecyQAStudy = z.object({
+  intro: Text,
+  /** Keys for reading prophecy. */
+  principles: z.array(z.object({ id: Id, title: Text, text: Text, refs: z.array(Ref).default([]) })).min(6),
+  groups: z.array(z.object({ id: Id, title: Text, summary: Text, icon: z.enum(['hourglass', 'compass', 'crown', 'seal', 'scroll', 'trumpet', 'eye', 'scales', 'book', 'star', 'lamp', 'layers', 'question', 'timeline']) })).min(10),
+  questions: z.array(QA).min(120),
+  /** Dated predictions that failed, as data. */
+  predictions: z.array(z.object({ year: z.number(), who: Text, claim: Text, outcome: Text })).min(12),
+  /** Candidates named as Antichrist or the beast through history, as data. */
+  candidates: z.array(z.object({ name: Text, era: Text, by: Text, basis: Text })).min(10),
+  flow: z.object({
+    start: Id,
+    nodes: z.array(z.object({ id: Id, q: Text, help: Text, options: z.array(z.object({ label: Text, next: Id })).min(2) })).min(5),
+    results: z.array(z.object({ id: Id, title: Text, text: Text })).min(3),
+  }),
+  quiz: z.array(z.object({ q: Text, options: z.array(Text).min(3), answer: z.number().int().min(0), explain: Text })).min(15),
+  sources: z.array(Id).min(1),
+})
+export type ProphecyQAStudy = z.infer<typeof ProphecyQAStudy>
