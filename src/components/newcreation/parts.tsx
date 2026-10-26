@@ -153,7 +153,7 @@ export function Tabernacle({ parts }: { parts: N['tabernacle'] }) {
           <text x={150} y={92} textAnchor="middle" fontSize={11.5} fontWeight={800} fill="#fff">
             {parts.find((x) => x.id === 'holy')?.name}
           </text>
-          <path d="M110 150 V120 M100 130 H120" stroke="#fde68a" strokeWidth={3} />
+          <path d="M110 152 V116 M96 116 Q96 132 110 132 Q124 132 124 116 M102 116 Q102 127 110 127 Q118 127 118 116 M101 152 H119" stroke="#fde68a" strokeWidth={2.5} fill="none" strokeLinecap="round" />
         </g>
         <g {...zone('most-holy')}>
           <motion.rect x={30} y={70} width={40} height={100} fill="#4c1d95" animate={{ opacity: on('most-holy') }} stroke="#fff" strokeWidth={2} />
@@ -256,9 +256,9 @@ export function Atlas({ items }: { items: N['atlas'] }) {
       </div>
       <div className="leaf mt-4 overflow-hidden p-3">
         <div className="scroll-x">
-          <div className="flex min-w-max gap-1">
+          <div className="flex min-w-max gap-1 sm:min-w-0">
             {books.map((bk) => (
-              <div key={bk} className="flex w-16 flex-col items-center gap-1">
+              <div key={bk} className="flex w-14 flex-col items-center gap-1 sm:w-auto sm:min-w-0 sm:flex-1">
                 <div className="flex min-h-24 flex-col-reverse items-center gap-1">
                   {items
                     .filter((y) => book(y.ref) === bk)

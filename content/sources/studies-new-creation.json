@@ -1,0 +1,92 @@
+[
+ {
+  "id": "nc-lightfoot-horae-hebraicae",
+  "title": "Horae Hebraicae et Talmudicae (A Commentary on the New Testament from the Talmud and Hebraica)",
+  "author": "John Lightfoot",
+  "camp": "reference",
+  "type": "primary",
+  "year": "1658-1674",
+  "accessed": "2026-10-26",
+  "summary": "A Puritan Hebraist's notes on the Gospels and Acts from Jewish sources; on Matthew 24 he reads the darkened heavens and the passing of heaven and earth as the end of the Jewish state in AD 70.",
+  "verified": false,
+  "note": "Public-domain work, cited by the passage commented on; no specific online edition checked."
+ },
+ {
+  "id": "nc-jordan-through-new-eyes",
+  "title": "Through New Eyes: Developing a Biblical View of the World",
+  "author": "James B. Jordan",
+  "camp": "reference",
+  "type": "book",
+  "year": "1988",
+  "accessed": "2026-10-26",
+  "summary": "Biblical-theology study of the symbolic world of Scripture, arguing that each major covenant brought a new 'heavens and earth' with new rulers and a new sanctuary.",
+  "verified": false
+ },
+ {
+  "id": "nc-beale-nt-biblical-theology",
+  "title": "A New Testament Biblical Theology: The Unfolding of the Old Testament in the New",
+  "author": "G. K. Beale",
+  "camp": "amil",
+  "type": "book",
+  "year": "2011",
+  "accessed": "2026-10-26",
+  "summary": "Presents the New Testament storyline as the 'already and not yet' new-creational kingdom begun in Christ's resurrection and completed at his return.",
+  "verified": false
+ },
+ {
+  "id": "nc-levenson-temple-world",
+  "title": "The Temple and the World (The Journal of Religion 64:3)",
+  "author": "Jon D. Levenson",
+  "camp": "reference",
+  "type": "article",
+  "year": "1984",
+  "accessed": "2026-10-26",
+  "summary": "Jewish biblical scholar's study of how the Jerusalem temple was understood in Israel as a small model of the created world.",
+  "verified": false
+ },
+ {
+  "id": "nc-wolters-2-peter-3-10",
+  "title": "Worldview and Textual Criticism in 2 Peter 3:10 (Westminster Theological Journal 49)",
+  "author": "Al Wolters",
+  "camp": "reference",
+  "type": "article",
+  "year": "1987",
+  "accessed": "2026-10-26",
+  "summary": "Argues that the earliest reading of 2 Peter 3:10, 'will be found', points to a purging and renewal of the earth rather than its annihilation.",
+  "verified": false
+ },
+ {
+  "id": "nc-martin-vaughn-beyond-creation",
+  "title": "Beyond Creation Science: New Covenant Creation from Genesis to Revelation",
+  "author": "Timothy P. Martin and Jeffrey L. Vaughn",
+  "camp": "full-preterism",
+  "type": "book",
+  "year": "2007",
+  "accessed": "2026-10-26",
+  "summary": "Sets out the covenant-creation reading, which takes the 'heavens and earth' of Genesis 1 as the covenant world that passed away in AD 70; a minority view even among preterists.",
+  "verified": false
+ },
+ {
+  "id": "nc-philo-life-of-moses",
+  "title": "On the Life of Moses, Book 2",
+  "author": "Philo of Alexandria",
+  "camp": "reference",
+  "type": "primary",
+  "year": "c. AD 20-50",
+  "accessed": "2026-10-26",
+  "summary": "First-century Jewish philosopher who, like Josephus, read the tabernacle furnishings and the high priest's robes as symbols of the cosmos.",
+  "verified": false,
+  "note": "Primary ancient text, cited by standard section numbers."
+ },
+ {
+  "id": "nc-brown-discourses-sayings",
+  "title": "Discourses and Sayings of Our Lord Jesus Christ",
+  "author": "John Brown of Edinburgh",
+  "camp": "reference",
+  "type": "book",
+  "year": "1850",
+  "accessed": "2026-10-26",
+  "summary": "Scottish expositor who read the passing of heaven and earth in Matthew 5:18 as Old Testament language for the end of the Mosaic economy.",
+  "verified": false
+ }
+]
