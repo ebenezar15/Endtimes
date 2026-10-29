@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useMemo, useState } from 'react'
 import { t } from '../../lib/i18n'
+import { LANG } from '../../lib/lang'
 import { Gloss } from '../Gloss'
 import { Icon, type IconName } from '../Icon'
 import { Refs } from '../Refs'
@@ -104,7 +105,7 @@ export function QAExplorer({ items, groups, group, setGroup }: { items: QAItem[]
   }
   return (
     <div>
-      <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4">
+      <ul className={`grid gap-2 sm:grid-cols-3 lg:grid-cols-4 ${LANG === 'ta' ? 'grid-cols-1' : 'grid-cols-2'}`}>
         <li>
           <button type="button" onClick={() => setGroup('all')} aria-pressed={group === 'all'} className={`flex h-full w-full items-center gap-2 rounded-xl p-3 text-left text-sm ring-1 ${group === 'all' ? 'bg-accent text-[var(--accent-ink)] ring-transparent' : 'ring-rule hover:bg-surface-2'}`}>
             <Icon name="layers" size={16} className="shrink-0" />

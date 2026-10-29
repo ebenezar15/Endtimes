@@ -162,7 +162,7 @@ export function Tabernacle({ parts }: { parts: N['tabernacle'] }) {
         <text x={50} y={190} textAnchor="middle" fontSize={10} fill="var(--ink-soft)">
           {t('west')}
         </text>
-        <text x={380} y={190} textAnchor="middle" fontSize={10} fill="var(--ink-soft)">
+        <text x={398} y={190} textAnchor="end" fontSize={10} fill="var(--ink-soft)">
           {t('east · entrance')}
         </text>
       </svg>
