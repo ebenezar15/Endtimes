@@ -342,7 +342,7 @@ export function Test1948({ items }: { items: H['test1948'] }) {
 }
 
 /** "Every sign is being fulfilled": each claim on a card that turns over to the answer. */
-export function ClaimCards({ items }: { items: H['claims'] }) {
+export function ClaimCards({ items, front }: { items: H['claims']; front?: string }) {
   const [flip, setFlip] = useState<Set<string>>(new Set())
   const toggle = (id: string) => setFlip((s) => (s.has(id) ? (s.delete(id), new Set(s)) : new Set(s.add(id))))
   return (
@@ -354,7 +354,7 @@ export function ClaimCards({ items }: { items: H['claims'] }) {
             <button type="button" onClick={() => toggle(c.id)} aria-pressed={on} className="block w-full text-left">
               <motion.div animate={{ rotateY: on ? 180 : 0 }} transition={{ duration: 0.5 }} className="relative grid [transform-style:preserve-3d]">
                 <div className={`leaf col-start-1 row-start-1 flex flex-col p-4 [backface-visibility:hidden] ${on ? 'max-h-0 overflow-hidden !border-0 !p-0 !shadow-none' : ''}`} style={{ borderTop: '5px solid var(--rubric)' }}>
-                  <p className="text-xs font-bold uppercase tracking-widest text-rubric">{t('The claim')}</p>
+                  <p className="text-xs font-bold uppercase tracking-widest text-rubric">{front ?? t('The claim')}</p>
                   <p className="mt-1 text-lg font-bold leading-snug">“{c.claim}”</p>
                   <p className="mt-2 text-sm text-ink-soft">{refLabel(c.verse)}</p>
                   <p className="mt-auto pt-3 text-xs font-semibold text-accent">{t('Tap to see the answer')} ↻</p>

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import type { HopeStudy } from '../content/schema'
 import { Gloss, Prose } from '../components/Gloss'
 import { ApostlesWall, ClaimCards, Compare, FathersMap, GrowthLadder, PromiseMap, Test1948, Trends, TwistTimeline } from '../components/hope/parts'
+import { RiseBraid, Terms, TreeModels, ZionClaims } from '../components/hope/zion'
 import { Icon, type IconName } from '../components/Icon'
 import { Quiz } from '../components/israel/interactive'
 import { QAExplorer } from '../components/qa/QAExplorer'
@@ -17,6 +18,7 @@ const PART_LOOK: Record<string, { icon: IconName; color: string }> = {
   early: { icon: 'scroll', color: 'hsl(15 75% 45%)' },
   israel: { icon: 'star', color: 'hsl(215 70% 42%)' },
   worse: { icon: 'compass', color: 'hsl(160 60% 32%)' },
+  zion: { icon: 'scales', color: 'hsl(265 45% 42%)' },
 }
 
 /** A full-width banner opening each of the three parts. */
@@ -54,6 +56,11 @@ const JUMP = [
   ['claims', () => t('Claims answered')],
   ['trends', () => t('The record')],
   ['growth', () => t('A growing kingdom')],
+  ['part-zion', () => t('Zionism')],
+  ['zion-rise', () => t('How Zionism rose')],
+  ['zion-claims', () => t('Zionist claims')],
+  ['olive', () => t('One olive tree')],
+  ['attacks', () => t('Replacement charges')],
   ['path', () => t('Find your hope')],
   ['quiz', () => t('Quiz')],
 ] as const
@@ -152,11 +159,35 @@ export default function KingdomHope() {
         <PartQuestions s={s} part="worse" />
       </Section>
 
+      <PartBanner part={s.parts[3]} n={4} />
+      <Section id="zion-terms" title={t('Words that matter')} lede={t('Theology is not politics, and neither is hostility to people. Start with clear terms.')}>
+        <Prose text={s.zion.intro} className="mb-4" />
+        <Terms items={s.zion.terms} />
+      </Section>
+      <Section id="zion-rise" title={t('How Zionism rose: three strands')} lede={t('Jewish national hopes, Christian restorationism and great-power politics, braided over four centuries. Filter by strand.')}>
+        <RiseBraid items={s.zion.rise} />
+      </Section>
+      <Section id="zion-claims" title={t('Christian Zionist claims, tested')} lede={t('Pick a claim. Read it, then its strongest case, then the partial preterist answer.')}>
+        <ZionClaims items={s.zion.claims} />
+      </Section>
+      <Section id="olive" title={t('Two peoples, replacement, or one olive tree?')} lede={t('Three pictures of Israel and the church. Paul draws the third. Tap the numbers on the tree.')}>
+        <TreeModels models={s.zion.models} olive={s.zion.olive} />
+      </Section>
+      <Section id="attacks" title={t('“Replacement theology!”: the charges answered')} lede={t('Each card holds a charge against fulfilment theology. Turn it over for the answer, the key distinction, and the critics’ rejoinder.')}>
+        <ClaimCards front={t('The charge')} items={s.zion.attacks.map((a) => ({ id: a.id, claim: a.attack, verse: a.verse, reply: a.reply, data: a.distinction, other: a.rejoinder }))} />
+      </Section>
+      <Section id="zion-path" title={t('Testing a Zionist claim: a decision path')} lede={t('Run any claim about Israel and prophecy through these questions.')}>
+        <Flow flow={s.zion.flow} />
+      </Section>
+      <Section id="q-zion" title={t('Questions on Zionism and replacement theology')}>
+        <PartQuestions s={s} part="zion" />
+      </Section>
+
       <Section id="path" title={t('Find your hope: a decision path')} lede={t('Answer the key questions in order and see which hope they lead to.')}>
         <Flow flow={s.flow} />
       </Section>
 
-      <Section id="quiz" title={t('Test yourself')} lede={t('Questions on the early church, Israel and the signs.')}>
+      <Section id="quiz" title={t('Test yourself')} lede={t('Questions on the early church, Israel, the signs and Zionism.')}>
         <Quiz items={s.quiz} />
         <p className="mt-6 text-sm text-ink-soft">
           <Gloss>{t('Go deeper in the related studies:')}</Gloss>

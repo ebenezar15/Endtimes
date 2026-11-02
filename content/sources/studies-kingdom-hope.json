@@ -114,5 +114,63 @@
   "summary": "Global estimates of the share of people living below the international poverty line.",
   "verified": false,
   "note": "Figures rounded; not re-checked online in this session."
+ },
+ {
+  "id": "kh-herzl-state",
+  "title": "The Jewish State (Der Judenstaat)",
+  "author": "Theodor Herzl",
+  "camp": "reference",
+  "type": "primary",
+  "year": "1896",
+  "accessed": "2026-11-02",
+  "summary": "The founding text of political Zionism, arguing from European antisemitism for a Jewish national state.",
+  "verified": true
+ },
+ {
+  "id": "kh-un-181",
+  "title": "UN General Assembly Resolution 181 (II): Future Government of Palestine",
+  "author": "United Nations",
+  "camp": "reference",
+  "type": "primary",
+  "year": "1947",
+  "accessed": "2026-11-02",
+  "summary": "The partition plan proposing separate Jewish and Arab states.",
+  "verified": true
+ },
+ {
+  "id": "kh-weber-road",
+  "title": "On the Road to Armageddon: How Evangelicals Became Israel's Best Friend",
+  "author": "Timothy P. Weber",
+  "camp": "reference",
+  "type": "book",
+  "year": "2004",
+  "accessed": "2026-11-02",
+  "summary": "A historian's account of dispensationalism and its influence on American support for Israel.",
+  "verified": false,
+  "note": "Not re-checked online in this session."
+ },
+ {
+  "id": "kh-robertson-israel",
+  "title": "The Israel of God: Yesterday, Today, and Tomorrow",
+  "author": "O. Palmer Robertson",
+  "camp": "reference",
+  "type": "book",
+  "year": "2000",
+  "accessed": "2026-11-02",
+  "summary": "A Reformed study of land, people, temple and Romans 11, arguing for fulfilment in Christ with a future for Jewish people in him.",
+  "verified": false,
+  "note": "Not re-checked online in this session."
+ },
+ {
+  "id": "kh-vlach-replacement",
+  "title": "Has the Church Replaced Israel? A Theological Evaluation",
+  "author": "Michael J. Vlach",
+  "camp": "reference",
+  "type": "book",
+  "year": "2010",
+  "accessed": "2026-11-02",
+  "summary": "A dispensational critique of supersessionism, giving the strongest case against the fulfilment view.",
+  "verified": false,
+  "note": "Not re-checked online in this session."
  }
 ]

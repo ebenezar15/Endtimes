@@ -1029,7 +1029,7 @@ export const HopeStudy = z.object({
   /** Where this reading stands among Christians. */
   orthodoxy: Text,
   /** The three questions of the study. */
-  parts: z.array(z.object({ id: Id, title: Text, question: Text, answer: Text })).length(3),
+  parts: z.array(z.object({ id: Id, title: Text, question: Text, answer: Text })).min(3),
   groups: z.array(z.object({ id: Id, part: Id, title: Text, summary: Text })).min(6),
   questions: z.array(QA).min(30),
   /** Early writers on the thousand years, with who taught whom. */
@@ -1076,6 +1076,27 @@ export const HopeStudy = z.object({
     start: Id,
     nodes: z.array(z.object({ id: Id, q: Text, help: Text, options: z.array(z.object({ label: Text, next: Id })).min(2) })).min(5),
     results: z.array(z.object({ id: Id, title: Text, text: Text })).min(3),
+  }),
+  /** Part 4: Zionism, its claims, and the charge of "replacement theology". */
+  zion: z.object({
+    intro: Text,
+    /** Words that are often confused. */
+    terms: z.array(z.object({ term: Text, meaning: Text })).min(5),
+    /** Jewish, Christian and political strands of the rise of Zionism. */
+    rise: z.array(z.object({ year: z.number(), strand: z.enum(['jewish', 'christian', 'political']), who: Text, event: Text })).min(18),
+    /** Christian Zionist claims: the claim, its best case, and the fulfilled reply. */
+    claims: z.array(z.object({ id: Id, claim: Text, texts: z.array(Ref).min(1), case: Text, reply: Text, refs: z.array(Ref).default([]) })).min(12),
+    /** Three pictures of Israel and the church. */
+    models: z.array(z.object({ id: z.enum(['two', 'replace', 'one']), name: Text, summary: Text, verse: Ref, verdict: Text })).length(3),
+    /** The parts of Paul's olive tree. */
+    olive: z.array(z.object({ id: z.enum(['root', 'trunk', 'broken', 'remain', 'wild', 'regraft']), label: Text, text: Text, ref: Ref })).length(6),
+    /** Charges made against fulfilment theology, and replies. */
+    attacks: z.array(z.object({ id: Id, attack: Text, verse: Ref, reply: Text, distinction: Text, rejoinder: Text })).min(10),
+    flow: z.object({
+      start: Id,
+      nodes: z.array(z.object({ id: Id, q: Text, help: Text, options: z.array(z.object({ label: Text, next: Id })).min(2) })).min(4),
+      results: z.array(z.object({ id: Id, title: Text, text: Text })).min(3),
+    }),
   }),
   quiz: z.array(QuizItem).min(12),
   sources: z.array(Id).min(1),
