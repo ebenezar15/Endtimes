@@ -37,7 +37,7 @@ export function FathersMap({ items }: { items: H['fathers'] }) {
             <g key={y}>
               <line x1={x(y)} x2={x(y)} y1={25} y2={190} stroke="var(--rule)" strokeDasharray="3 4" />
               <text x={x(y)} y={208} textAnchor="middle" fontSize={12} fill="var(--ink-soft)">
-                AD {y}
+                {t('AD {y}', { y })}
               </text>
             </g>
           ))}
@@ -147,10 +147,10 @@ export function Compare({ rows }: { rows: H['compare'] }) {
       {rows.map((r, i) => (
         <motion.div key={i} initial={{ opacity: 0, y: 8 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.05 }} className="grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] border-t border-[var(--rule)] text-[0.92rem] sm:grid-cols-[10rem_minmax(0,1fr)_minmax(0,1fr)]">
           <span className="col-span-2 bg-surface-2 px-3 py-2 font-bold sm:col-span-1 sm:py-3">{r.topic}</span>
-          <span className="p-3">
+          <span className="min-w-0 p-3 [overflow-wrap:anywhere]">
             <Gloss>{r.early}</Gloss>
           </span>
-          <span className="border-l border-[var(--rule)] p-3">
+          <span className="min-w-0 border-l border-[var(--rule)] p-3 [overflow-wrap:anywhere]">
             <Gloss>{r.modern}</Gloss>
           </span>
         </motion.div>
@@ -353,13 +353,13 @@ export function ClaimCards({ items }: { items: H['claims'] }) {
           <motion.li key={c.id} initial={{ opacity: 0, y: 14 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: (i % 3) * 0.06 }} className="[perspective:1200px]">
             <button type="button" onClick={() => toggle(c.id)} aria-pressed={on} className="block w-full text-left">
               <motion.div animate={{ rotateY: on ? 180 : 0 }} transition={{ duration: 0.5 }} className="relative grid [transform-style:preserve-3d]">
-                <div className="leaf col-start-1 row-start-1 flex flex-col p-4 [backface-visibility:hidden]" style={{ borderTop: '5px solid var(--rubric)' }}>
+                <div className={`leaf col-start-1 row-start-1 flex flex-col p-4 [backface-visibility:hidden] ${on ? 'max-h-0 overflow-hidden !border-0 !p-0 !shadow-none' : ''}`} style={{ borderTop: '5px solid var(--rubric)' }}>
                   <p className="text-xs font-bold uppercase tracking-widest text-rubric">{t('The claim')}</p>
                   <p className="mt-1 text-lg font-bold leading-snug">“{c.claim}”</p>
                   <p className="mt-2 text-sm text-ink-soft">{refLabel(c.verse)}</p>
                   <p className="mt-auto pt-3 text-xs font-semibold text-accent">{t('Tap to see the answer')} ↻</p>
                 </div>
-                <div className="leaf col-start-1 row-start-1 p-4 [backface-visibility:hidden] [transform:rotateY(180deg)]" style={{ borderTop: '5px solid var(--accent)' }}>
+                <div className={`leaf col-start-1 row-start-1 p-4 [backface-visibility:hidden] [transform:rotateY(180deg)] ${on ? '' : 'max-h-0 overflow-hidden !border-0 !p-0 !shadow-none'}`} style={{ borderTop: '5px solid var(--accent)' }}>
                   <p className="text-xs font-bold uppercase tracking-widest text-accent">{t('The answer')}</p>
                   <p className="mt-1 text-[0.95rem]">
                     <Gloss>{c.reply}</Gloss>
