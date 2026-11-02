@@ -1,0 +1,653 @@
+{
+  "intro": "Three questions come up again and again. Why did so many early Christians expect a thousand-year kingdom on earth, and did the apostles teach one? Is the modern state of Israel a fulfilment of prophecy, or were the promises to Israel kept long ago? And when people say “every prophecy is being fulfilled and the world is getting worse,” what does Scripture, and the record of history, actually say? This study follows the fulfilled (partial preterist) reading, sets out the evidence with timelines, maps and charts, and gives the best reply from the other side at every step.",
+  "orthodoxy": "Every view in this study is held by Bible-believing Christians. The fulfilled reading here is the partial preterist one: the prophecies of Jerusalem's fall were kept in AD 70, while Christ's bodily return, the resurrection of the dead and the final judgement are still ahead, as the creeds confess. Premillennial and dispensational believers are brothers and sisters who read the same texts differently; their best arguments are given beside each answer.",
+  "parts": [
+    {
+      "id": "early",
+      "title": "The early church and the kingdom",
+      "question": "Why did many early Christians expect an earthly thousand-year kingdom, and did the apostles teach it?",
+      "answer": "A strong line of early writers in Asia Minor and Rome expected a thousand-year reign in a rebuilt Jerusalem, drawing on Jewish hopes and a literal reading of Isaiah and Revelation 20. But the view was never universal, never written into a creed, and quite different from modern dispensationalism. The apostles themselves preached a kingdom already begun in Christ's resurrection and reign, growing until it is complete at his return."
+    },
+    {
+      "id": "israel",
+      "title": "Israel: promises kept",
+      "question": "Is the founding of modern Israel an end-times event, or were the promises to Israel already kept?",
+      "answer": "The New Testament says the land, the seed, the throne, the temple and the new covenant were all kept in Christ, and widens the land promise to the whole world. No New Testament text predicts a return to the land. Reading 1948 as prophecy grew out of 17th-century Puritan hopes, 19th-century dispensationalism and 20th-century politics and best-sellers."
+    },
+    {
+      "id": "worse",
+      "title": "Is the world getting worse?",
+      "question": "How should we answer the claim that every prophecy is being fulfilled and the world is getting worse?",
+      "answer": "Most of the “signs” were promised to Jesus' own generation and were fulfilled before AD 70. Every generation since has read its own news into them, and every date has failed. Meanwhile Scripture promises a growing kingdom, and the long record shows the gospel spreading and many measures of human suffering falling, even while real evil remains."
+    }
+  ],
+  "groups": [
+    { "id": "fathers", "part": "early", "title": "What the early writers believed", "summary": "Who held a thousand-year kingdom, who did not, and why the expectation rose and faded." },
+    { "id": "apostles", "part": "early", "title": "What the apostles preached", "summary": "The kingdom in the sermons and letters of the apostles: begun now, finished at Christ's return." },
+    { "id": "promises", "part": "israel", "title": "Promises kept", "summary": "The land, the seed, the throne, the temple and the covenant, and where they were kept." },
+    { "id": "state", "part": "israel", "title": "1948 and the modern state", "summary": "Why the founding of the state is a historical and political event, not a prophetic one." },
+    { "id": "twist", "part": "israel", "title": "How the reading changed", "summary": "From Puritan hopes to Darby, Scofield, Balfour and best-sellers." },
+    { "id": "signs", "part": "worse", "title": "The signs argument", "summary": "Wars, earthquakes, apostasy and the days of Noah: what the texts say and when." },
+    { "id": "record", "part": "worse", "title": "What the record shows", "summary": "Long-run data on poverty, health, learning and the growth of the church." },
+    { "id": "answer", "part": "worse", "title": "Answering with grace", "summary": "How to reply to friends who expect things to get worse until the end." }
+  ],
+  "questions": [
+    {
+      "id": "why-early-chiliasm",
+      "group": "fathers",
+      "q": "Why did many early Christians expect a thousand-year kingdom on earth?",
+      "short": "They inherited Jewish hopes of an earthly messianic age, read Isaiah 65 and Revelation 20 literally, and lived under persecution that made a visible vindication on earth very attractive.",
+      "answer": "Early chiliasm (from the Greek for “thousand”) came from several streams at once. Jewish writings of the time, such as 4 Ezra and 2 Baruch, expected a temporary messianic kingdom before the age to come. Many believers counted the six days of creation as six thousand years of history, to be followed by a sabbath thousand-year rest. Isaiah 65 and Revelation 20 were read as a description of life on this earth. And under Roman persecution, a reign of the martyrs in the very world that had killed them was a powerful hope. The view was strongest in Asia Minor, through Papias and then Irenaeus, and in Rome through Justin and Hippolytus.",
+      "examples": [
+        "Papias of Hierapolis described vines with ten thousand branches each bearing ten thousand clusters in the coming kingdom.",
+        "The Epistle of Barnabas counted the six days of creation as six thousand years, with the Son's coming bringing the seventh-day rest.",
+        "Justin Martyr expected the saints to live a thousand years in a rebuilt and enlarged Jerusalem."
+      ],
+      "refs": ["Revelation 20:4-6", "Isaiah 65:17-25", "2 Peter 3:8", "Hebrews 4:9"],
+      "other": "Premillennial believers see this as the plain early reading of Revelation 20, close to the apostles, which later theologians lost under the influence of allegory and of an imperial church comfortable with power."
+    },
+    {
+      "id": "was-it-universal",
+      "group": "fathers",
+      "q": "Did all early Christians hold this view?",
+      "short": "No. Justin Martyr, its best-known early defender, admitted that many Christians of “pure and pious faith” did not share it.",
+      "answer": "The evidence shows a real division, not a consensus. Justin, writing around AD 155, says he and others expect a thousand years in Jerusalem, but grants that many true Christians think otherwise. Many of the earliest writings say nothing at all about a thousand years: Clement of Rome, the Didache, Ignatius and Polycarp's letter all speak of Christ's return, resurrection and judgement without an earthly interim kingdom. In Rome, Gaius opposed chiliasm around 200; in Alexandria, Clement, Origen and Dionysius rejected it. The map below shows both groups across the first four centuries.",
+      "examples": [
+        "Justin, Dialogue with Trypho 80: many who belong to the pure and godly faith do not hold this opinion.",
+        "Polycarp, a disciple of the apostle John, wrote of the resurrection and judgement but nothing of a thousand-year reign.",
+        "Dionysius of Alexandria persuaded a group of chiliast churches in Egypt to change their view after three days of public discussion."
+      ],
+      "refs": ["Acts 17:31", "John 5:28-29", "2 Timothy 4:1"],
+      "other": "Premillennial historians reply that silence is not denial, and that the chiliasts are the earliest writers who discuss Revelation 20 at all, so they are the best witnesses to its first reading."
+    },
+    {
+      "id": "early-vs-modern",
+      "group": "fathers",
+      "q": "Was early chiliasm the same as modern dispensational premillennialism?",
+      "short": "No. The early chiliasts had no pre-tribulation rapture, no separate plan for Israel, and taught that the church is the true Israel.",
+      "answer": "The early chiliasts expected the church to suffer under the Antichrist, then Christ to come once, raise the righteous and reign with them. Justin and Irenaeus both taught that Christians are the true Israel and the heirs of Abraham. Modern dispensationalism, shaped by John Nelson Darby in the 1830s, adds a secret rapture before a seven-year tribulation and two separate peoples of God with two programs. So a modern dispensationalist cannot simply claim the early chiliasts as forerunners; on the central question of Israel and the church, the early writers stand with the fulfilled and covenantal readings. The comparison table on this page sets the differences side by side.",
+      "examples": [
+        "Justin, Dialogue 11: we who were led to God through Christ are the true spiritual Israel.",
+        "Irenaeus, Against Heresies 5.25-30: the church will face the Antichrist before the Lord comes.",
+        "No early writer teaches a rapture seven years before the return."
+      ],
+      "refs": ["Galatians 3:29", "Galatians 6:16", "Romans 2:28-29", "2 Thessalonians 2:1-3"],
+      "other": "Historic premillennialists agree with this and hold the early form, without a pre-tribulation rapture. Dispensationalists answer that the early church held the core truth, a future earthly kingdom, and that its details were refined as doctrine developed."
+    },
+    {
+      "id": "why-faded",
+      "group": "fathers",
+      "q": "Why did belief in an earthly thousand-year kingdom fade?",
+      "short": "Its critics argued from Scripture that the kingdom is spiritual and present, and its most extreme forms, with sensual feasting or a New Jerusalem in Phrygia, discredited it.",
+      "answer": "Several things worked together. The heretic Cerinthus and the Montanist prophets, who expected the New Jerusalem to come down at Pepuza, attached chiliasm to errors. Writers like Origen pointed out that Jesus said the resurrected neither marry nor are given in marriage, and that the kingdom is righteousness, peace and joy in the Spirit. Tyconius and then Augustine read Revelation 20 as the present reign of Christ and his saints between his two comings. It is often said the change came because the church gained power under Constantine; there is some truth in that, but Origen and Dionysius had argued the point long before Constantine.",
+      "examples": [
+        "Eusebius says Papias misunderstood apostolic stories and took figurative words literally.",
+        "Augustine, City of God 20.7, says he once held a spiritual form of chiliasm before reading the thousand years as the church age.",
+        "Jerome rewrote the end of Victorinus' Revelation commentary to remove its chiliasm."
+      ],
+      "refs": ["Matthew 22:30", "Romans 14:17", "John 18:36", "Revelation 20:1-6"],
+      "other": "Premillennial believers see the decline as a loss caused by allegorical reading and a church at ease with the empire, and note that chiliasm revived among Bible readers after the Reformation."
+    },
+    {
+      "id": "creeds",
+      "group": "fathers",
+      "q": "Do the creeds say anything about a thousand-year kingdom?",
+      "short": "No creed teaches it. The Nicene Creed says of Christ, “his kingdom will have no end.”",
+      "answer": "The Apostles' Creed confesses that Christ ascended, sits at the right hand of the Father, and will come to judge the living and the dead. The Nicene Creed, in its 381 form, adds that his kingdom will have no end, written against the idea that Christ's reign would one day stop. None of the ecumenical creeds mentions an earthly interim kingdom. The churches agreed on the return, the resurrection and the judgement, and left the millennium as a matter of interpretation.",
+      "examples": [
+        "Apostles' Creed: he ascended into heaven and sits at the right hand of God the Father almighty.",
+        "Nicene Creed (381): his kingdom will have no end.",
+        "The Augsburg Confession (1530), article 17, rejects the idea that the godly will rule the world before the resurrection."
+      ],
+      "refs": ["Luke 1:33", "Daniel 7:14", "Acts 1:11"],
+      "other": "Premillennial believers point out that the creeds also do not condemn their view, and that “no end” can mean an earthly reign that flows into the eternal kingdom."
+    },
+    {
+      "id": "apostles-kingdom-now",
+      "group": "apostles",
+      "q": "Did the apostles expect a future earthly kingdom for Israel?",
+      "short": "Before Pentecost they did (Acts 1:6). After it, they preached that Christ already reigns on David's throne and that the kingdom grows through the gospel to the nations.",
+      "answer": "The disciples' question, “Lord, will you at this time restore the kingdom to Israel?”, shows the hope they grew up with. Jesus did not answer with a date; he promised the Spirit and sent them to the ends of the earth. Ten days later Peter announced that God had kept his oath to David by raising Christ to sit on his throne. James said the rebuilding of David's fallen tent was happening as Gentiles turned to God. Paul preached the kingdom for two years in Rome and told the Colossians they had already been transferred into it. The apostles did look forward to Christ's return and the final kingdom, but they never describe a future political reign from Jerusalem.",
+      "examples": [
+        "Acts 2:30-36: David foresaw the Christ seated on his throne, and God has made him Lord and Christ.",
+        "Acts 15:14-17: the rebuilding of David's tent is fulfilled as Gentiles are called by God's name.",
+        "Colossians 1:13: he has transferred us to the kingdom of his beloved Son."
+      ],
+      "refs": ["Acts 1:6-8", "Acts 2:30-36", "Acts 15:14-17", "Colossians 1:13", "Acts 28:31"],
+      "other": "Dispensationalists answer that Jesus did not deny a future restoration in Acts 1:7 but only declined to give its time, and that Acts 3:19-21 still looks forward to the restoration of all things at his return."
+    },
+    {
+      "id": "acts-1-6",
+      "group": "apostles",
+      "q": "What does Jesus' answer in Acts 1:6-8 tell us?",
+      "short": "He corrected the scope and the means: the kingdom would come by the Spirit, through witnesses, reaching from Jerusalem to the ends of the earth.",
+      "answer": "The disciples asked about the time (“at this time”), the place (“to Israel”) and the agent (“will you restore”). Jesus answered each one. The time belongs to the Father. The power would come on them by the Spirit, not by a political act. The reach would be Jerusalem, Judea, Samaria and the ends of the earth. The book of Acts follows exactly that map. So the restoration of Israel begins as Jews in Jerusalem believe, and widens as the nations are brought in.",
+      "examples": [
+        "Acts 2:41: three thousand Jews believe in Jerusalem.",
+        "Acts 8:5-12: Philip preaches the kingdom in Samaria.",
+        "Acts 13:47: Paul quotes Isaiah 49:6, a light for the nations to the end of the earth."
+      ],
+      "refs": ["Acts 1:6-8", "Isaiah 49:6", "Acts 13:47"],
+      "other": "Dispensationalists read the answer as a postponement: the national kingdom is still promised, but the church age comes first."
+    },
+    {
+      "id": "kingdom-both",
+      "group": "apostles",
+      "q": "If the kingdom is already here, why do the apostles also speak of inheriting it later?",
+      "short": "Because the kingdom is begun now and completed at Christ's return. The reign has started; the final inheritance, in resurrected bodies, is still ahead.",
+      "answer": "Paul says Christ must reign until all his enemies are under his feet, the last being death, and then hand the kingdom to the Father. That means the reign is now, and its finish is at the resurrection. So believers are in the kingdom now (Colossians 1:13; Revelation 1:9) and will inherit it fully when flesh and blood are changed (1 Corinthians 15:50-54). Theologians call this “already and not yet.” What the apostles do not describe is a third stage between these two: an earthly political kingdom after the return but before the eternal state.",
+      "examples": [
+        "1 Corinthians 15:24-26: he reigns until the last enemy, death, is destroyed.",
+        "Revelation 1:9: John is a partner in the tribulation and the kingdom.",
+        "2 Peter 1:11: an entrance into the eternal kingdom."
+      ],
+      "refs": ["1 Corinthians 15:24-26", "1 Corinthians 15:50-54", "Revelation 1:9", "2 Timothy 4:18"],
+      "other": "Premillennial believers place the thousand years between the return and the end in 1 Corinthians 15:23-24 (“then comes the end”), finding room there for an interim kingdom."
+    },
+    {
+      "id": "disciples-of-apostles",
+      "group": "apostles",
+      "q": "If the apostles taught a present kingdom, why did some of their disciples' disciples expect a future earthly one?",
+      "short": "The line from John to Papias to Irenaeus passed on stories as well as Scripture, and the earliest sources already disagreed about how to read them.",
+      "answer": "Irenaeus says Papias heard John, and Irenaeus heard Polycarp. That chain is real, but it carried oral tradition, and Eusebius, who had Papias' books, judged that Papias had misread apostolic accounts and taken pictures literally. Polycarp's own letter, from the same chain, says nothing of a thousand years. Other lines from the apostles, in Rome, Antioch and Alexandria, show no chiliasm. Closeness in time is valuable, but the New Testament itself is closer still, and the second century also produced errors that no one now accepts.",
+      "examples": [
+        "Irenaeus attributes the vine saying to “the elders who saw John”; no Gospel contains it.",
+        "Eusebius, Church History 3.39: Papias took things spoken in figures literally.",
+        "Second-century teachers also produced Gnostic and Montanist ideas, so early does not always mean apostolic."
+      ],
+      "refs": ["2 Thessalonians 2:15", "John 21:22-23", "Acts 20:29-30"],
+      "other": "Premillennial believers see the John-Papias-Irenaeus line as strong evidence that the beloved disciple himself taught a future earthly reign, since he wrote Revelation 20."
+    },
+    {
+      "id": "land-promise",
+      "group": "promises",
+      "q": "Was the land promise to Abraham ever kept?",
+      "short": "Yes. Joshua and Nehemiah both say every word of it was kept, and the New Testament widens it to the whole world.",
+      "answer": "Joshua says the LORD gave Israel all the land he swore to their fathers, and not one of his good promises failed. Under Solomon, Israel ruled from the Euphrates to the border of Egypt, the very limits of Genesis 15. Nehemiah, praying after the exile, says God kept his promise to give the land to Abraham's descendants, because he is righteous. The land could be lost through unfaithfulness, as the covenant warned. In the New Testament, Abraham is “heir of the world,” the meek inherit the earth, and the patriarchs were looking for a better, heavenly country. The land was a down payment on the renewed creation.",
+      "examples": [
+        "Joshua 21:43-45: not one word of all the good promises failed.",
+        "1 Kings 4:21: Solomon ruled from the Euphrates to the border of Egypt.",
+        "Romans 4:13: the promise was that Abraham would be heir of the world."
+      ],
+      "refs": ["Genesis 15:18-21", "Joshua 21:43-45", "1 Kings 4:21", "Nehemiah 9:7-8", "Romans 4:13", "Hebrews 11:16"],
+      "other": "Dispensationalists answer that the promise was “forever” (Genesis 17:8), so temporary possession cannot be its full keeping, and that God must still give the land to Abraham's physical descendants."
+    },
+    {
+      "id": "all-kept-in-christ",
+      "group": "promises",
+      "q": "What does it mean that all God's promises are “yes” in Christ?",
+      "short": "Paul says every promise of God finds its yes in Jesus. The promises to Israel are not cancelled; they are kept, in him, for all who belong to him.",
+      "answer": "The promises to Israel were given to Abraham and his seed. Paul says the seed is Christ, and that all who belong to Christ, Jew or Gentile, are Abraham's seed and heirs. So the promises are not taken from Israel and given to someone else; they are kept in Israel's Messiah and shared with every believer. Jewish believers are the first heirs, and Gentiles are grafted into the same tree. The map of promises on this page shows each one beside the place where the New Testament says it was kept.",
+      "examples": [
+        "2 Corinthians 1:20: all the promises of God find their yes in him.",
+        "Galatians 3:16, 29: the seed is Christ; if you are Christ's, you are Abraham's seed.",
+        "Ephesians 2:12-19: Gentiles once strangers to the covenants of promise are now fellow citizens."
+      ],
+      "refs": ["2 Corinthians 1:20", "Galatians 3:16", "Galatians 3:29", "Ephesians 2:12-19", "Romans 11:17-24"],
+      "other": "Dispensationalists agree the promises are kept in Christ, but hold that some of them, the national and land promises, will be kept to ethnic Israel in a future kingdom."
+    },
+    {
+      "id": "temple-promise",
+      "group": "promises",
+      "q": "Must a temple be rebuilt in Jerusalem for prophecy to be fulfilled?",
+      "short": "The New Testament applies the temple promises to Christ and his people. Paul quotes Ezekiel's promise of God's sanctuary among his people and says, “we are the temple of the living God.”",
+      "answer": "Jesus spoke of his body as the temple. Paul calls the church God's temple, built on the apostles and prophets with Christ as cornerstone, and in 2 Corinthians 6:16 he quotes Ezekiel 37:27, the promise of God's dwelling among his people, as kept in the church. Hebrews says the old covenant with its sacrifices was ready to vanish, and Revelation's new Jerusalem has no temple, for the Lord and the Lamb are its temple. Ezekiel's vision of a great temple (chapters 40-48) is read in this light: a vision of God's restored presence, with a river of life that John sees flowing in the new Jerusalem.",
+      "examples": [
+        "John 2:19-21: he was speaking of the temple of his body.",
+        "2 Corinthians 6:16: we are the temple of the living God, as God said (Ezekiel 37:27).",
+        "Revelation 21:22: I saw no temple in the city, for its temple is the Lord God and the Lamb."
+      ],
+      "refs": ["John 2:19-21", "2 Corinthians 6:16", "Ephesians 2:19-22", "Hebrews 8:13", "Revelation 21:22", "Ezekiel 47:1-12"],
+      "other": "Dispensationalists expect a rebuilt temple, partly from 2 Thessalonians 2:4 and Ezekiel 40-48, with sacrifices as memorials; fulfilled readers place 2 Thessalonians 2 in the years before AD 70, when the temple still stood."
+    },
+    {
+      "id": "romans-11",
+      "group": "promises",
+      "q": "Doesn't Romans 11 promise a future for Israel?",
+      "short": "It promises salvation for Israel through faith in Christ, not a return to the land or a state. Christians who hold the fulfilled reading differ on whether that means a large future turning of Jews to Christ.",
+      "answer": "Paul says God has not rejected his people: he himself is an Israelite, and there is a remnant chosen by grace. The natural branches can be grafted back in if they do not continue in unbelief, and “in this way all Israel will be saved.” Some read “all Israel” as the whole people of God, Jew and Gentile; others as the full number of the Jewish remnant through history; others, including many postmillennial writers, as a great future conversion of Jews. None of these readings needs a land or a political state: the passage is about being grafted into Christ by faith.",
+      "examples": [
+        "Romans 11:5: at the present time there is a remnant chosen by grace.",
+        "Romans 11:23: they will be grafted in, if they do not continue in unbelief.",
+        "Puritans and many postmillennial writers expected a mass conversion of Jews that would bless the whole world."
+      ],
+      "refs": ["Romans 11:1-5", "Romans 11:23-27", "Romans 9:6-8"],
+      "other": "Dispensationalists read Romans 11:25-27 as the national salvation of Israel at Christ's return, tied to the restoration of the nation in its land."
+    },
+    {
+      "id": "why-1948-not-prophecy",
+      "group": "state",
+      "q": "Why is the founding of Israel in 1948 not an end-times prophecy being fulfilled?",
+      "short": "No New Testament text predicts a return to the land, the Old Testament returns were kept after the Babylonian exile, and the covenant tied return to repentance, which a largely secular movement did not claim.",
+      "answer": "The prophets promised a return from exile after seventy years, and Ezra and Nehemiah record it. When later texts are claimed for 1948, such as Isaiah 11:11 or Ezekiel 37, their own context points to the return from Assyria and Babylon, and the New Testament applies their Spirit-and-covenant promises to Christ's people. Moses tied the return to Israel turning to the LORD with all its heart (Deuteronomy 30:1-3). The founding of the state was a remarkable historical event, the work of a mostly secular national movement with British and United Nations support. Christians can value it and care for its people without making it a prophetic clock.",
+      "examples": [
+        "Jeremiah 29:10 and Daniel 9:2: seventy years, then return; Ezra 1:1-3 records it.",
+        "Herzl's Zionism (1896) was a secular national movement, not a religious revival.",
+        "The fig-tree reading (1948 + 40 years = 1988) failed, as did dates built on 1967."
+      ],
+      "refs": ["Deuteronomy 30:1-5", "Jeremiah 29:10-14", "Ezra 1:1-4", "Isaiah 11:11-16", "Ezekiel 37:11-14"],
+      "other": "Dispensationalists see 1948 as God's providence keeping his word: Ezekiel 36:24-27 and 37 describe a return in unbelief followed by cleansing, and the survival of the Jewish people and their return after nearly 1,900 years is to them a sign that cannot be explained by chance."
+    },
+    {
+      "id": "fig-tree",
+      "group": "state",
+      "q": "Is the fig tree in Matthew 24:32 a symbol of the nation of Israel?",
+      "short": "No. Jesus uses it as a picture of seasons, and Luke adds “and all the trees.” When the signs appear, the destruction is near, and it came within that generation.",
+      "answer": "Jesus says: from the fig tree learn its lesson; when its branch becomes tender and puts out leaves, summer is near. So also, when you see all these things, know that he is near, at the very gates. Truly, this generation will not pass away until all these things take place. Luke's version reads “look at the fig tree and all the trees.” The point is timing, not national rebirth. The 1970s reading that made the fig tree 1948 Israel led to the prediction that the end would come by 1988, which did not happen.",
+      "examples": [
+        "Luke 21:29: look at the fig tree, and all the trees.",
+        "Matthew 24:34: this generation will not pass away until all these things take place.",
+        "The Late Great Planet Earth (1970) linked the fig tree to 1948 and a forty-year generation."
+      ],
+      "refs": ["Matthew 24:32-34", "Luke 21:29-32", "Mark 13:28-30"],
+      "other": "Some dispensationalists still read the fig tree as Israel, noting Jesus cursed a fig tree as a sign against the nation (Mark 11), but most now avoid setting a length for the generation."
+    },
+    {
+      "id": "times-of-gentiles",
+      "group": "state",
+      "q": "Did Jerusalem's recapture in 1967 end “the times of the Gentiles”?",
+      "short": "Luke 21:24 is about the Roman siege and its aftermath: Jerusalem surrounded by armies, its people killed or taken captive, and the city trampled. That happened in AD 70.",
+      "answer": "Luke 21:20-24 begins, “when you see Jerusalem surrounded by armies, then know that its desolation has come near,” and tells the disciples to flee to the mountains. Josephus records about 97,000 captives and the city's destruction. The “trampling” of the city by the nations is the same language Revelation 11:2 uses for the holy city in that period. Jesus did not say the city would one day return to a Jewish state as a prophetic marker; he said its desolation was coming. Reading 1967 into the verse makes it say something it does not.",
+      "examples": [
+        "Luke 21:20: when you see Jerusalem surrounded by armies.",
+        "Josephus, Jewish War 6.9.3: about 97,000 taken captive.",
+        "Revelation 11:2: they will trample the holy city for forty-two months."
+      ],
+      "refs": ["Luke 21:20-24", "Revelation 11:2", "Daniel 9:26"],
+      "other": "Dispensationalists read “until the times of the Gentiles are fulfilled” as implying a later Jewish recovery of the city, which they see beginning in 1967."
+    },
+    {
+      "id": "bless-israel",
+      "group": "state",
+      "q": "Doesn't Genesis 12:3 mean Christians must support the modern state?",
+      "short": "The blessing is on Abraham and his seed, whom Paul identifies as Christ and those in him. Christians should love and bless Jewish people, but the verse is not a political instruction for a modern state.",
+      "answer": "God told Abram, “I will bless those who bless you, and him who dishonours you I will curse, and in you all the families of the earth shall be blessed.” Peter applies the final line to the sending of Jesus (Acts 3:25-26), and Paul says it preached the gospel in advance (Galatians 3:8). The popular link with modern foreign policy came largely through the notes of the Scofield Reference Bible (1909). Christians have every reason to love Jewish neighbours, oppose antisemitism, and pray for peace for Jews and Arabs alike, including Arab Christians in the land, without treating a modern government as beyond criticism.",
+      "examples": [
+        "Acts 3:25-26: God sent his servant to bless you, as he said to Abraham.",
+        "Galatians 3:8-9: those of faith are blessed along with Abraham.",
+        "There are Arab and Palestinian Christian churches in the land today whose members are also Abraham's seed in Christ."
+      ],
+      "refs": ["Genesis 12:1-3", "Acts 3:25-26", "Galatians 3:8-9", "Galatians 3:29"],
+      "other": "Christian Zionists hold that God's blessing on Abraham's physical descendants continues, and that supporting Israel is part of honouring that promise."
+    },
+    {
+      "id": "how-twisted",
+      "group": "twist",
+      "q": "How did the founding of modern Israel come to be read as prophecy?",
+      "short": "Step by step: Puritan hopes of Jewish conversion and return, Darby's two-peoples theology, British restorationist politics, the Scofield Bible, and then 1948 and 1967 interpreted through best-selling prophecy books.",
+      "answer": "In the 1600s some English Puritans began to expect the Jews' conversion and return. In the 1830s John Nelson Darby taught that Israel and the church are two peoples with separate destinies, with a secret rapture of the church. British evangelicals such as Lord Shaftesbury urged the restoration of the Jews, and the American William Blackstone petitioned his president in 1891. The Scofield Reference Bible spread Darby's system to millions. Herzl's secular Zionism, the Balfour Declaration and the 1948 declaration of independence then seemed to confirm the scheme, and books like The Late Great Planet Earth and the Left Behind series made it popular culture. The timeline on this page traces each step.",
+      "examples": [
+        "Henry Finch's book of 1621 on the Jews' restoration offended King James I.",
+        "The Blackstone Memorial (1891) asked the US president to give Palestine back to the Jews.",
+        "The Scofield Reference Bible's note on Genesis 12:3 tied the blessing to the Jewish nation."
+      ],
+      "refs": ["Matthew 21:43", "Galatians 4:25-26", "Hebrews 12:22"],
+      "other": "Christian Zionists see this history as Christians rediscovering God's faithfulness to Israel after centuries of church contempt for the Jews, and point out that some of the same Puritans were moved by love for Jewish people."
+    },
+    {
+      "id": "replacement",
+      "group": "twist",
+      "q": "Isn't the fulfilled reading just “replacement theology”?",
+      "short": "No. The church does not replace Israel; it is Israel's Messiah's own people, the one olive tree into which Gentiles are grafted. Jews are not shut out; they are welcomed back by faith.",
+      "answer": "“Replacement” suggests God dropped one people and picked another. The New Testament picture is of fulfilment and growth: Jesus chose twelve Jewish apostles as the core of a renewed Israel, the first church was entirely Jewish, and Gentiles were grafted into the existing olive tree. Paul calls the believing community “the Israel of God” and says the true circumcision are those who worship by the Spirit. Fulfilled readers also reject any contempt for Jewish people; the history of Christian antisemitism is a grave sin, and Paul's heart was to see his own people saved.",
+      "examples": [
+        "Romans 11:17: you, a wild olive shoot, were grafted in among the others.",
+        "Galatians 6:16: peace and mercy be upon the Israel of God.",
+        "Romans 10:1: my heart's desire and prayer to God for them is that they may be saved."
+      ],
+      "refs": ["Romans 11:17-24", "Galatians 6:16", "Philippians 3:3", "Ephesians 2:14-16", "Romans 10:1"],
+      "other": "Critics reply that whatever it is called, the view still transfers Israel's national promises to the church, and that the term “Israel” in Paul nearly always means ethnic Israel."
+    },
+    {
+      "id": "signs-fulfilled-now",
+      "group": "signs",
+      "q": "Aren't the signs of Matthew 24 being fulfilled today?",
+      "short": "Jesus gave the signs to his disciples about their own generation, and history records them before AD 70. Every generation since has found the same signs in its news.",
+      "answer": "The disciples asked when the temple would be destroyed. Jesus spoke of false christs, wars, famines, earthquakes, persecution, the gospel preached to the nations, and the abomination of desolation, and then said this generation would not pass away until all these things took place. Acts and Josephus record false prophets, the famine under Claudius, earthquakes, persecution and the Roman armies around Jerusalem, all within forty years. Wars and earthquakes have happened in every century since, so finding them in today's news proves nothing about today. The study on Matthew 24 goes through every verse.",
+      "examples": [
+        "Acts 11:28: Agabus foretold a great famine, which took place in the days of Claudius.",
+        "Colossians 1:23: the gospel has been proclaimed in all creation under heaven.",
+        "Josephus records false prophets leading crowds into the desert before AD 70."
+      ],
+      "refs": ["Matthew 24:1-34", "Acts 11:28", "Colossians 1:23", "Luke 21:20-22"],
+      "other": "Futurist readers hold that the signs are “birth pains” that grow in frequency and intensity before the return, so their recurrence today still matters."
+    },
+    {
+      "id": "days-of-noah",
+      "group": "signs",
+      "q": "Doesn't “as in the days of Noah” mean the world will get more and more wicked?",
+      "short": "Jesus' point in Matthew 24:37-39 is that people were unaware: eating, drinking and marrying until the flood came. It is about suddenness, not a rising graph of evil.",
+      "answer": "Genesis does describe great wickedness before the flood, but Jesus draws a different lesson. He lists ordinary things, eating, drinking, marrying, and says they did not know until the flood came and swept them away. The warning is to be ready because the judgement comes suddenly to people going about normal life. Those “taken” in the comparison are taken by the flood, in judgement. Nothing in the passage says the world must grow steadily worse before Christ comes.",
+      "examples": [
+        "Matthew 24:38-39: eating and drinking, marrying and giving in marriage, and they were unaware.",
+        "Luke 17:28-30 adds the days of Lot: buying, selling, planting, building.",
+        "Matthew 24:42: stay awake, for you do not know on what day your Lord is coming."
+      ],
+      "refs": ["Matthew 24:37-42", "Luke 17:26-30", "Genesis 6:5"],
+      "other": "Many futurists still read the comparison as including the moral state of Noah's world (Genesis 6:5, 11), and see growing violence and corruption as part of the sign."
+    },
+    {
+      "id": "perilous-times",
+      "group": "signs",
+      "q": "What about 2 Timothy 3: “in the last days there will come times of difficulty”?",
+      "short": "Paul tells Timothy to avoid such people. The “last days” had already come, and Paul adds that the deceivers “will not get very far.”",
+      "answer": "Paul lists lovers of self, lovers of money, the proud and the abusive, and then says, “avoid such people.” That only makes sense if they were in Timothy's world. The New Testament says the last days began with Christ: God has spoken in these last days by his Son, and Peter called Pentecost the last days of Joel. Verse 9 says the false teachers will not get very far, for their folly will be plain to all. Verse 13 says evil people and impostors go from bad to worse, deceiving and being deceived: that describes the impostors, not the whole world.",
+      "examples": [
+        "2 Timothy 3:5: avoid such people.",
+        "Hebrews 1:2: in these last days he has spoken to us by his Son.",
+        "2 Timothy 3:9: they will not get very far."
+      ],
+      "refs": ["2 Timothy 3:1-13", "Hebrews 1:1-2", "Acts 2:16-17", "1 John 2:18"],
+      "other": "Futurist readers agree the last days began at Pentecost, but say they end in a final period when these sins reach a peak."
+    },
+    {
+      "id": "find-faith",
+      "group": "signs",
+      "q": "Does Luke 18:8, “will he find faith on earth?”, mean faith will nearly die out?",
+      "short": "The question ends a parable about praying and not losing heart. It challenges the hearers to keep believing; it is not a forecast that the church will shrink.",
+      "answer": "Jesus told the parable of the widow and the unjust judge to show that his disciples ought always to pray and not lose heart. God will give justice to his elect speedily. Then comes the question, “when the Son of Man comes, will he find faith on earth?” In context, it presses the hearers: will you keep praying until he vindicates you? The vindication of the persecuted disciples came within their generation. Meanwhile the number of Christians has grown from about 560 million in 1900 to well over two and a half billion.",
+      "examples": [
+        "Luke 18:1: they ought always to pray and not lose heart.",
+        "Luke 18:7-8: he will give justice to them speedily.",
+        "Christians in Africa grew from about 9 million in 1900 to over 650 million by 2020."
+      ],
+      "refs": ["Luke 18:1-8", "Revelation 6:9-11"],
+      "other": "Some futurist readers take the question as a hint of widespread unbelief at the very end; others agree it is a challenge rather than a forecast."
+    },
+    {
+      "id": "apostasy",
+      "group": "signs",
+      "q": "Isn't the great falling away of 2 Thessalonians 2 happening now?",
+      "short": "Paul told the Thessalonians the mystery of lawlessness was “already at work” and that they knew what was restraining it. The falling away came in their generation.",
+      "answer": "Paul wrote to calm believers who thought the day of the Lord had come. First, he said, the rebellion must come and the man of lawlessness be revealed. He reminded them he had told them these things, said they knew what was holding him back, and said the mystery of lawlessness was already at work. Jesus had warned that many would fall away before the end of that age, and the later letters record it: all in Asia turned away from Paul, and John wrote that many antichrists had already come and gone out from the church.",
+      "examples": [
+        "2 Thessalonians 2:5-7: you know what is restraining him; the mystery of lawlessness is already at work.",
+        "2 Timothy 1:15: all who are in Asia turned away from me.",
+        "1 John 2:18-19: many antichrists have come; they went out from us."
+      ],
+      "refs": ["2 Thessalonians 2:1-8", "Matthew 24:10-12", "2 Timothy 1:15", "1 John 2:18-19"],
+      "other": "Futurists hold that the rebellion and the man of lawlessness are still future, at the end of the age, and often see today's decline in Western churches as its approach."
+    },
+    {
+      "id": "is-world-worse",
+      "group": "record",
+      "q": "Is the world really getting worse?",
+      "short": "Some things are worse and much is better. On long-run measures, extreme poverty, child deaths and illiteracy have fallen sharply, and the church has grown more in the last century than in any before.",
+      "answer": "News reports what goes wrong, and each generation remembers the past as calmer than it was. The long record tells a more mixed story. Around 1800 about four in ten children died before age five; today it is under four in a hundred. Life expectancy has more than doubled. Extreme poverty has fallen from over a third of humanity in 1990 to under a tenth. Real evils remain, and some are new. The Christian claim is not that progress is automatic, but that the risen Christ is ruling, and his kingdom, like yeast, keeps working through the whole loaf.",
+      "examples": [
+        "Child deaths before age five: about 43% around 1800, about 4% today.",
+        "Life expectancy: about 29 years in 1800, about 73 today.",
+        "Christians worldwide: about 0.56 billion in 1900, about 2.6 billion today."
+      ],
+      "refs": ["Matthew 13:33", "Isaiah 9:7", "1 Corinthians 15:25"],
+      "other": "Premillennial believers answer that material progress is not spiritual progress, that secular Western culture is declining fast, and that Scripture expects evil to ripen before the end."
+    },
+    {
+      "id": "church-growth",
+      "group": "record",
+      "q": "How has the church grown since the apostles?",
+      "short": "From about 120 believers in Acts 1 to around 2.6 billion people who call themselves Christians, with the fastest growth in the last century in Africa, Asia and Latin America.",
+      "answer": "Acts begins with about 120 disciples. By 300 the church may have numbered several million in the Roman Empire. In 1900 about 558 million people were Christians, most of them in Europe and North America. By 2025 the figure is about 2.6 billion, and the centre has shifted to the global South: Africa alone went from about 9 million Christians in 1900 to over 650 million. That is what the parables of the mustard seed and the leaven describe: small beginnings, great growth.",
+      "examples": [
+        "Acts 1:15: about 120 believers.",
+        "Acts 2:41; 4:4: three thousand, then five thousand.",
+        "Africa: about 9 million Christians in 1900, over 650 million in 2020."
+      ],
+      "refs": ["Acts 1:15", "Acts 2:41", "Matthew 13:31-33", "Daniel 2:35"],
+      "other": "Some reply that counting nominal Christians overstates true faith, and that numbers do not measure the health of the church."
+    },
+    {
+      "id": "earthquakes-data",
+      "group": "record",
+      "q": "Are earthquakes increasing, as is often claimed?",
+      "short": "No. The US Geological Survey reports roughly the same number of major earthquakes each year over the last century; we simply detect and hear about more of them.",
+      "answer": "The USGS notes that about fifteen earthquakes of magnitude 7 or greater happen in an average year, and that this rate has stayed fairly constant. There are many more seismograph stations now, so far more small earthquakes are recorded, and news travels instantly. Jesus did mention earthquakes in various places as the beginning of birth pains, and in that generation there were notable ones, including the earthquake at Philippi in Acts 16 and a destructive one at Laodicea around AD 60.",
+      "examples": [
+        "USGS: about 15 earthquakes of magnitude 7 or more per year on average.",
+        "Acts 16:26: a great earthquake shook the prison at Philippi.",
+        "Tacitus records an earthquake that destroyed Laodicea in AD 60."
+      ],
+      "refs": ["Matthew 24:7-8", "Acts 16:26"],
+      "other": "Some futurists accept that the count is steady but say that the human impact of earthquakes, with larger cities, is greater, or that the sign is not about numbers at all."
+    },
+    {
+      "id": "wars-data",
+      "group": "record",
+      "q": "Are wars getting worse?",
+      "short": "Wars remain terrible, but deaths in battle per head of world population are far below the levels of the two world wars.",
+      "answer": "Research groups that count battle deaths, such as the Uppsala Conflict Data Program and the Peace Research Institute Oslo, show that the rate of battle deaths per 100,000 people fell steeply after 1945. It rose again with the wars in Ethiopia and Ukraine after 2020, but remains a small fraction of its 20th-century peak. Jesus said, “you will hear of wars and rumours of wars; see that you are not alarmed, for this must take place, but the end is not yet.” Wars were never meant as a countdown.",
+      "examples": [
+        "Matthew 24:6: the end is not yet.",
+        "In the Second World War, battle deaths ran at over 100 per 100,000 people a year; in most recent years, a few.",
+        "AD 66-70 saw civil war in Rome (the year of the four emperors) and the Jewish revolt."
+      ],
+      "refs": ["Matthew 24:6", "Isaiah 2:4", "Micah 4:3"],
+      "other": "Others warn that nuclear weapons make the risk of a catastrophic war greater than ever, so falling averages give false comfort."
+    },
+    {
+      "id": "how-answer",
+      "group": "answer",
+      "q": "How do I answer a friend who says every prophecy is being fulfilled?",
+      "short": "Ask which prophecy and which verse, read it in context with them, look at who it was spoken to and when, and show how many generations have said the same thing.",
+      "answer": "Start with the text, not the news. Ask: who was this spoken to, and what did it mean to them? Look for time words such as “this generation,” “soon,” “near,” or “some standing here.” Check whether the New Testament already says it was fulfilled. Then look at history: every century has had wars, earthquakes and famines, and every generation of date-setters has been wrong. Finally, point to the promises of a growing kingdom. Do it with humility: your friend loves the Lord and wants to be ready, which is good.",
+      "examples": [
+        "Matthew 16:28: some standing here will not taste death until they see the Son of Man coming in his kingdom.",
+        "Revelation 1:1, 3: things that must soon take place; the time is near.",
+        "Dates set for 1844, 1914, 1988 and 2011 all failed."
+      ],
+      "refs": ["Matthew 16:27-28", "Matthew 24:34", "Revelation 1:1-3", "1 Peter 3:15"],
+      "other": "Futurists answer that prophecies can have near and far fulfilments, so a first-century fulfilment does not rule out a greater one at the end."
+    },
+    {
+      "id": "hope-not-fear",
+      "group": "answer",
+      "q": "Why does it matter whether we expect the world to get better or worse?",
+      "short": "What we expect shapes how we live. A hope that Christ is winning gives courage to evangelise, build, serve and plan for the long term.",
+      "answer": "If believers expect only decline, it is easy to retreat, to see every problem as a sign, and to fear the news. Scripture gives Christians a different posture: Christ has all authority, he is with us to the end of the age, and the nations will be discipled. The apostles faced far worse than most believers do today, yet they turned the world upside down. Expecting the kingdom to grow does not mean ignoring suffering; it means working against it in Christ's name, confident that our labour in the Lord is not in vain.",
+      "examples": [
+        "Matthew 28:18-20: all authority has been given to me; make disciples of all nations.",
+        "1 Corinthians 15:58: your labour is not in vain in the Lord.",
+        "Jeremiah 29:7: seek the welfare of the city where I have sent you."
+      ],
+      "refs": ["Matthew 28:18-20", "1 Corinthians 15:58", "Jeremiah 29:4-7", "Acts 17:6"],
+      "other": "Premillennial believers have also built hospitals, schools and missions, and answer that urgency about Christ's return has itself been a great motive for evangelism."
+    },
+    {
+      "id": "growth-promises",
+      "group": "answer",
+      "q": "What does Scripture promise about the growth of Christ's kingdom?",
+      "short": "A stone that becomes a mountain filling the earth, a mustard seed that becomes a tree, yeast that leavens all the dough, and a government whose increase will never end.",
+      "answer": "Daniel saw a stone cut without hands strike the statue of the empires and become a great mountain that filled the whole earth, a kingdom set up in the days of those kings. Jesus compared the kingdom to a mustard seed and to yeast. Isaiah says of the child on David's throne, “of the increase of his government and of peace there will be no end.” The Psalms promise that all the ends of the earth will turn to the LORD. Paul says Christ must reign until all his enemies are under his feet. These are pictures of steady, unstoppable growth during this age.",
+      "examples": [
+        "Daniel 2:35, 44: the stone became a great mountain and filled the whole earth.",
+        "Matthew 13:31-33: the mustard seed and the leaven.",
+        "Habakkuk 2:14: the earth will be filled with the knowledge of the glory of the LORD."
+      ],
+      "refs": ["Daniel 2:34-35", "Daniel 2:44", "Matthew 13:31-33", "Isaiah 9:6-7", "Psalm 22:27", "Habakkuk 2:14"],
+      "other": "Amillennial and premillennial believers read these as describing the kingdom's final glory at Christ's return, or its spiritual reach, rather than a visible growth within history."
+    },
+    {
+      "id": "wheat-tares",
+      "group": "answer",
+      "q": "Doesn't the parable of the wheat and weeds show evil growing with good until the end?",
+      "short": "Yes, both grow together until the harvest; the parable does not say the weeds win. In the same chapter, the mustard seed and the leaven describe the kingdom spreading.",
+      "answer": "Jesus says the field is the world and both wheat and weeds grow until the harvest at the end of the age. That guards against expecting a perfect world before the end, and against trying to root out evil by force. But the parable gives no proportion; it does not say the weeds will take over the field. Matthew sets it beside the mustard seed and the yeast, so the whole chapter teaches both: evil persists, and the kingdom grows.",
+      "examples": [
+        "Matthew 13:30: let both grow together until the harvest.",
+        "Matthew 13:31-32: the smallest seed becomes a tree.",
+        "Matthew 13:33: until it was all leavened."
+      ],
+      "refs": ["Matthew 13:24-43"],
+      "other": "Premillennial readers see the parable as the main picture of this age: a mixed field that only Christ's return will put right."
+    }
+  ],
+  "fathers": [
+    { "id": "john", "name": "John the apostle", "year": 90, "place": "Ephesus", "view": "silent", "teacher": null, "work": "Revelation; letters", "says": "Wrote Revelation 20. What he meant by the thousand years is the very question in dispute." },
+    { "id": "clement-rome", "name": "Clement of Rome", "year": 96, "place": "Rome", "view": "silent", "teacher": null, "work": "1 Clement", "says": "Speaks of Christ's coming, the resurrection and judgement, with no thousand-year kingdom." },
+    { "id": "didache", "name": "The Didache", "year": 100, "place": "Syria (probably)", "view": "silent", "teacher": null, "work": "Didache 16", "says": "Ends with watchfulness, the deceiver, the resurrection and the Lord coming on the clouds; no millennium." },
+    { "id": "cerinthus", "name": "Cerinthus", "year": 100, "place": "Asia Minor", "view": "chiliast", "teacher": null, "work": "Known through Gaius and Eusebius", "says": "A false teacher said to expect an earthly kingdom of bodily pleasures; his name made later writers wary of chiliasm." },
+    { "id": "ignatius", "name": "Ignatius of Antioch", "year": 110, "place": "Antioch", "view": "silent", "teacher": null, "work": "Seven letters", "says": "Stresses Christ's real death and resurrection and the end; nothing on a thousand years." },
+    { "id": "papias", "name": "Papias", "year": 125, "place": "Hierapolis", "view": "chiliast", "teacher": "john", "work": "Expositions of the Sayings of the Lord (fragments)", "says": "Taught a bodily kingdom of a thousand years on this earth after the resurrection. Eusebius thought he misread figurative words." },
+    { "id": "barnabas", "name": "Epistle of Barnabas", "year": 130, "place": "Alexandria (probably)", "view": "chiliast", "teacher": null, "work": "Barnabas 15", "says": "Six days of creation as six thousand years, then the Son's coming and a sabbath rest. Scholars debate whether that rest is on earth." },
+    { "id": "polycarp", "name": "Polycarp", "year": 150, "place": "Smyrna", "view": "silent", "teacher": "john", "work": "Letter to the Philippians", "says": "A disciple of John; his letter speaks of resurrection and judgement but never of a thousand years." },
+    { "id": "justin", "name": "Justin Martyr", "year": 155, "place": "Rome", "view": "chiliast", "teacher": null, "work": "Dialogue with Trypho 80-81", "says": "Expects a thousand years in a rebuilt Jerusalem, yet admits many Christians of pure faith think otherwise; calls the church the true Israel." },
+    { "id": "montanists", "name": "Montanist prophets", "year": 170, "place": "Phrygia", "view": "chiliast", "teacher": null, "work": "Known through opponents", "says": "Expected the New Jerusalem to come down at Pepuza; their excesses discredited chiliasm in many churches." },
+    { "id": "irenaeus", "name": "Irenaeus", "year": 180, "place": "Lyon", "view": "chiliast", "teacher": "polycarp", "work": "Against Heresies 5.32-36", "says": "A kingdom of the righteous in the renewed creation before the final judgement; the church faces the Antichrist first." },
+    { "id": "gaius", "name": "Gaius of Rome", "year": 200, "place": "Rome", "view": "non-chiliast", "teacher": null, "work": "Dialogue against Proclus", "says": "Opposed chiliasm and linked it with Cerinthus." },
+    { "id": "clement-alex", "name": "Clement of Alexandria", "year": 200, "place": "Alexandria", "view": "non-chiliast", "teacher": null, "work": "Stromata", "says": "The rest of the saints is spiritual; no earthly thousand-year kingdom." },
+    { "id": "hippolytus", "name": "Hippolytus", "year": 204, "place": "Rome", "view": "chiliast", "teacher": "irenaeus", "work": "Commentary on Daniel 4", "says": "Six thousand years of history, then the sabbath kingdom; placed the end around AD 500 to calm date-setters." },
+    { "id": "tertullian", "name": "Tertullian", "year": 207, "place": "Carthage", "view": "chiliast", "teacher": null, "work": "Against Marcion 3.24", "says": "A thousand-year kingdom in a Jerusalem come down from heaven after the resurrection." },
+    { "id": "origen", "name": "Origen", "year": 230, "place": "Alexandria and Caesarea", "view": "non-chiliast", "teacher": "clement-alex", "work": "On First Principles 2.11", "says": "Criticised those who hope for eating, drinking and an earthly Jerusalem; the promises are spiritual." },
+    { "id": "nepos", "name": "Nepos", "year": 250, "place": "Egypt", "view": "chiliast", "teacher": null, "work": "Refutation of the Allegorists", "says": "Defended an earthly thousand-year kingdom against allegorical readers." },
+    { "id": "dionysius", "name": "Dionysius of Alexandria", "year": 260, "place": "Alexandria", "view": "non-chiliast", "teacher": "origen", "work": "On the Promises (via Eusebius 7.24-25)", "says": "Debated Nepos' followers for three days until they changed their minds." },
+    { "id": "victorinus", "name": "Victorinus of Pettau", "year": 300, "place": "Pannonia", "view": "chiliast", "teacher": null, "work": "Commentary on Revelation", "says": "The first Latin commentary on Revelation; Jerome later rewrote its chiliast ending." },
+    { "id": "methodius", "name": "Methodius", "year": 300, "place": "Olympus, Lycia", "view": "chiliast", "teacher": null, "work": "Symposium 9", "says": "A thousand-year feast of tabernacles in the resurrection, given a strongly spiritual sense." },
+    { "id": "lactantius", "name": "Lactantius", "year": 310, "place": "Nicomedia and Trier", "view": "chiliast", "teacher": null, "work": "Divine Institutes 7.24", "says": "Christ will reign a thousand years among the righteous, with the earth richly fruitful." },
+    { "id": "eusebius", "name": "Eusebius", "year": 325, "place": "Caesarea", "view": "non-chiliast", "teacher": null, "work": "Church History 3.39", "says": "Preserved the record of the debate and judged Papias a man of limited understanding." },
+    { "id": "tyconius", "name": "Tyconius", "year": 380, "place": "North Africa", "view": "non-chiliast", "teacher": null, "work": "Book of Rules; Revelation commentary (lost)", "says": "Read the thousand years as the church age between Christ's comings." },
+    { "id": "jerome", "name": "Jerome", "year": 400, "place": "Bethlehem", "view": "non-chiliast", "teacher": null, "work": "Commentary on Isaiah", "says": "Called the expectation of an earthly golden Jerusalem a fable." },
+    { "id": "augustine", "name": "Augustine", "year": 420, "place": "Hippo", "view": "non-chiliast", "teacher": null, "work": "City of God 20.7-9", "says": "Once held a spiritual chiliasm; came to read the thousand years as Christ's present reign with his saints." }
+  ],
+  "compare": [
+    { "topic": "Israel and the church", "early": "The church is the true Israel, Abraham's seed in Christ (Justin, Irenaeus).", "modern": "Israel and the church are two distinct peoples with separate programs." },
+    { "topic": "Rapture", "early": "No rapture before the tribulation; the church faces the Antichrist.", "modern": "The church is caught up before a seven-year tribulation." },
+    { "topic": "Order of events", "early": "Antichrist, Christ's one return, resurrection of the righteous, thousand-year kingdom, final judgement.", "modern": "Rapture, seven-year tribulation, return, thousand years with mortal nations and a restored national Israel, final rebellion, judgement." },
+    { "topic": "Temple", "early": "The Antichrist sits in a temple; no restored sacrificial worship for believers.", "modern": "A rebuilt temple, often with sacrifices as memorials during the kingdom." },
+    { "topic": "Main reasons", "early": "Six-day creation week as six thousand years; Isaiah 65; Revelation 20; persecution.", "modern": "A consistent literal hermeneutic; unconditional promises to ethnic Israel; a gap in Daniel's seventy weeks." },
+    { "topic": "Status", "early": "A respected opinion that many orthodox Christians did not share; in no creed.", "modern": "A system formed in the 1830s, spread by the Scofield Bible, conferences and popular books." },
+    { "topic": "Land promises", "early": "Kept to the saints, Abraham's seed, in the renewed earth.", "modern": "To be kept to the nation of Israel in the land of Canaan." }
+  ],
+  "apostles": [
+    { "ref": "Mark 1:15", "who": "Jesus", "said": "The time is fulfilled; the kingdom of God is at hand.", "time": "now" },
+    { "ref": "Matthew 12:28", "who": "Jesus", "said": "If I cast out demons by the Spirit of God, the kingdom of God has come upon you.", "time": "now" },
+    { "ref": "Luke 17:20-21", "who": "Jesus", "said": "The kingdom does not come with signs to be observed; it is in your midst.", "time": "now" },
+    { "ref": "John 18:36", "who": "Jesus", "said": "My kingdom is not of this world.", "time": "now" },
+    { "ref": "Acts 1:6-8", "who": "Jesus", "said": "Not for you to know times; you will receive power and be my witnesses to the end of the earth.", "time": "both" },
+    { "ref": "Acts 2:30-36", "who": "Peter", "said": "God swore to seat one of David's descendants on his throne; he raised Jesus and made him Lord and Christ.", "time": "now" },
+    { "ref": "Acts 3:20-21", "who": "Peter", "said": "Heaven must receive him until the time of restoring all things.", "time": "later" },
+    { "ref": "Acts 8:12", "who": "Philip", "said": "Preached good news about the kingdom of God and the name of Jesus.", "time": "now" },
+    { "ref": "Acts 14:22", "who": "Paul", "said": "Through many tribulations we must enter the kingdom of God.", "time": "later" },
+    { "ref": "Acts 15:14-17", "who": "James", "said": "The rebuilding of David's fallen tent agrees with God calling Gentiles.", "time": "now" },
+    { "ref": "Acts 28:31", "who": "Paul", "said": "Proclaiming the kingdom of God and teaching about the Lord Jesus Christ.", "time": "now" },
+    { "ref": "Romans 14:17", "who": "Paul", "said": "The kingdom of God is righteousness and peace and joy in the Holy Spirit.", "time": "now" },
+    { "ref": "1 Corinthians 15:24-26", "who": "Paul", "said": "He must reign until he has put all his enemies under his feet; then he hands over the kingdom.", "time": "both" },
+    { "ref": "1 Corinthians 15:50", "who": "Paul", "said": "Flesh and blood cannot inherit the kingdom of God.", "time": "later" },
+    { "ref": "Colossians 1:13", "who": "Paul", "said": "He has transferred us to the kingdom of his beloved Son.", "time": "now" },
+    { "ref": "2 Timothy 4:1", "who": "Paul", "said": "By his appearing and his kingdom.", "time": "later" },
+    { "ref": "Hebrews 12:28", "who": "Hebrews", "said": "We are receiving a kingdom that cannot be shaken.", "time": "now" },
+    { "ref": "James 2:5", "who": "James", "said": "Heirs of the kingdom promised to those who love him.", "time": "later" },
+    { "ref": "2 Peter 1:11", "who": "Peter", "said": "An entrance into the eternal kingdom of our Lord.", "time": "later" },
+    { "ref": "Revelation 1:6", "who": "John", "said": "He made us a kingdom, priests to his God and Father.", "time": "now" },
+    { "ref": "Revelation 1:9", "who": "John", "said": "Your partner in the tribulation and the kingdom.", "time": "now" },
+    { "ref": "Revelation 11:15", "who": "John", "said": "The kingdom of the world has become the kingdom of our Lord and of his Christ.", "time": "both" }
+  ],
+  "promises": [
+    { "id": "land", "theme": "Land", "promise": "To your offspring I give this land, from the river of Egypt to the Euphrates.", "ref": "Genesis 15:18-21", "kept": "Not one of all the good promises failed; all came to pass. Solomon ruled to the Euphrates.", "keptRef": "Joshua 21:43-45", "other": "The promise is everlasting, so a future, permanent possession is still owed to Israel." },
+    { "id": "land-world", "theme": "Land widened", "promise": "All the land of Canaan, for an everlasting possession.", "ref": "Genesis 17:8", "kept": "Abraham's promise was to be heir of the world; the meek will inherit the earth; the fathers sought a heavenly country.", "keptRef": "Romans 4:13", "other": "The wider inheritance is added to the land of Canaan, not a replacement for it." },
+    { "id": "seed", "theme": "Seed", "promise": "In your offspring shall all the nations of the earth be blessed.", "ref": "Genesis 22:18", "kept": "The offspring is Christ, and all who belong to Christ are Abraham's offspring.", "keptRef": "Galatians 3:16, 29", "other": "Abraham also has a physical seed, Israel, with its own continuing promises." },
+    { "id": "nations", "theme": "Blessing to the nations", "promise": "In you all the families of the earth shall be blessed.", "ref": "Genesis 12:3", "kept": "God sent his servant Jesus to bless you, as he promised Abraham; the gospel was preached beforehand to Abraham.", "keptRef": "Acts 3:25-26", "other": "The blessing on those who bless Abraham's descendants still applies to the nation." },
+    { "id": "return", "theme": "Return from exile", "promise": "When seventy years are completed for Babylon, I will bring you back to this place.", "ref": "Jeremiah 29:10-14", "kept": "In the first year of Cyrus, the LORD stirred him to send the exiles home to rebuild.", "keptRef": "Ezra 1:1-4", "other": "A second, worldwide return was still to come after the first." },
+    { "id": "second-time", "theme": "The second gathering", "promise": "The Lord will extend his hand a second time to recover the remnant of his people.", "ref": "Isaiah 11:11-12", "kept": "The first time was the exodus from Egypt (11:16); the second, from Assyria and Babylon. Paul applies the root of Jesse rising for the nations to the Gentile mission.", "keptRef": "Romans 15:12", "other": "The worldwide scope (“four corners of the earth”) points to the modern return." },
+    { "id": "bones", "theme": "Dry bones", "promise": "I will open your graves, bring you into the land of Israel, and put my Spirit within you.", "ref": "Ezekiel 37:11-14", "kept": "Ezekiel explains the bones as the exiles. The new-covenant Spirit of Ezekiel 36-37 is given to Christ's people, written on hearts.", "keptRef": "2 Corinthians 3:3", "other": "The bones came together in 1948 without breath; the Spirit will come at a future national conversion." },
+    { "id": "throne", "theme": "David's throne", "promise": "I will establish the throne of his kingdom forever.", "ref": "2 Samuel 7:12-16", "kept": "God raised Christ to sit on David's throne at his right hand.", "keptRef": "Acts 2:30-36", "other": "Christ now sits on the Father's throne; David's throne will be taken on earth at the return." },
+    { "id": "tent", "theme": "David's tent", "promise": "I will raise up the booth of David that is fallen, that they may possess all the nations.", "ref": "Amos 9:11-12", "kept": "James says this is happening as Gentiles are called by God's name.", "keptRef": "Acts 15:14-17", "other": "James shows Gentile inclusion agrees with Amos, while the rebuilding itself waits for the kingdom." },
+    { "id": "covenant", "theme": "New covenant", "promise": "I will make a new covenant with the house of Israel and Judah.", "ref": "Jeremiah 31:31-34", "kept": "Jesus' blood is the new covenant; Hebrews quotes Jeremiah in full and calls the old covenant obsolete.", "keptRef": "Hebrews 8:6-13", "other": "The church shares the new covenant's spiritual blessings; its national promises await Israel." },
+    { "id": "sanctuary", "theme": "Sanctuary", "promise": "My dwelling place shall be with them; my sanctuary in their midst forevermore.", "ref": "Ezekiel 37:26-28", "kept": "Paul quotes these words and says, we are the temple of the living God.", "keptRef": "2 Corinthians 6:16", "other": "Ezekiel 40-48 still describes a literal future temple in the land." },
+    { "id": "spirit", "theme": "The Spirit poured out", "promise": "I will pour out my Spirit on all flesh.", "ref": "Joel 2:28-32", "kept": "Peter: this is what was uttered through the prophet Joel.", "keptRef": "Acts 2:16-21", "other": "Pentecost was a first instalment; the cosmic signs of Joel 2:30-31 are still future." },
+    { "id": "pierced", "theme": "The pierced one", "promise": "They will look on me, on him whom they have pierced, and mourn.", "ref": "Zechariah 12:10", "kept": "John: these things took place that the Scripture might be fulfilled.", "keptRef": "John 19:37", "other": "The national mourning of Israel at Christ's return is still future (Revelation 1:7)." },
+    { "id": "my-people", "theme": "“My people”", "promise": "In the place where it was said, you are not my people, they shall be called children of the living God.", "ref": "Hosea 1:10", "kept": "Paul applies this to the calling of Gentiles as well as Jews.", "keptRef": "Romans 9:24-26", "other": "Hosea speaks of Israel's future restoration; Paul only draws an analogy." },
+    { "id": "all-israel", "theme": "All Israel saved", "promise": "The Deliverer will come from Zion; he will banish ungodliness from Jacob.", "ref": "Isaiah 59:20-21", "kept": "Paul places this in the gospel age: a remnant chosen by grace now, Jews and Gentiles in one olive tree. Many fulfilled readers also expect a large future turning of Jews to Christ.", "keptRef": "Romans 11:5, 26-27", "other": "Romans 11:26 is the national salvation of Israel at Christ's return." }
+  ],
+  "twist": [
+    { "year": 1609, "who": "Thomas Brightman", "event": "An English Puritan commentary on Revelation predicts the conversion and return of the Jews.", "kind": "theology" },
+    { "year": 1621, "who": "Henry Finch", "event": "The World's Great Restauration argues for a restored Jewish kingdom; King James I takes offence.", "kind": "theology" },
+    { "year": 1655, "who": "Oliver Cromwell", "event": "The Whitehall Conference discusses readmitting Jews to England, partly for prophetic reasons.", "kind": "politics" },
+    { "year": 1669, "who": "Increase Mather", "event": "The Mystery of Israel's Salvation brings restoration hopes to New England.", "kind": "theology" },
+    { "year": 1831, "who": "John Nelson Darby", "event": "At the Powerscourt conferences, Darby develops the teaching of Israel and the church as two peoples and a pre-tribulation rapture.", "kind": "theology" },
+    { "year": 1840, "who": "Lord Shaftesbury", "event": "Urges the British foreign secretary to support a Jewish return to Palestine.", "kind": "politics" },
+    { "year": 1878, "who": "William Blackstone", "event": "Jesus Is Coming popularises dispensational teaching in America.", "kind": "popular" },
+    { "year": 1891, "who": "William Blackstone", "event": "The Blackstone Memorial petitions the US president to give Palestine to the Jews.", "kind": "politics" },
+    { "year": 1896, "who": "Theodor Herzl", "event": "The Jewish State launches political Zionism, a largely secular national movement.", "kind": "politics" },
+    { "year": 1909, "who": "C. I. Scofield", "event": "The Scofield Reference Bible puts Darby's system into the margins of millions of Bibles.", "kind": "popular" },
+    { "year": 1917, "who": "Arthur Balfour", "event": "The Balfour Declaration backs a national home for the Jewish people in Palestine.", "kind": "politics" },
+    { "year": 1948, "who": "David Ben-Gurion", "event": "The State of Israel is declared; prophecy teachers hail it as the budding fig tree.", "kind": "politics" },
+    { "year": 1967, "who": "Six-Day War", "event": "Israel takes East Jerusalem; many read Luke 21:24 as fulfilled.", "kind": "popular" },
+    { "year": 1970, "who": "Hal Lindsey", "event": "The Late Great Planet Earth links the fig tree to 1948 and a forty-year generation, pointing to about 1988.", "kind": "popular" },
+    { "year": 1995, "who": "Tim LaHaye and Jerry B. Jenkins", "event": "The Left Behind novels begin, selling tens of millions of copies.", "kind": "popular" },
+    { "year": 2006, "who": "John Hagee", "event": "Christians United for Israel is founded as a political lobby.", "kind": "politics" },
+    { "year": 2018, "who": "US embassy", "event": "The US embassy opens in Jerusalem, with evangelical pastors giving the prayers.", "kind": "politics" }
+  ],
+  "test1948": [
+    { "q": "Does Moses tie the return to the land to Israel turning back to the LORD?", "ref": "Deuteronomy 30:1-5", "yes": "Then a return led by a largely secular national movement does not match the return Moses described.", "no": "Some read Ezekiel 36:24-27 as a return first and cleansing after; that is the strongest case for 1948." },
+    { "q": "Did the prophets' promised return from exile already happen?", "ref": "Ezra 1:1-4", "yes": "Then the exile promises have a recorded fulfilment, as Ezra, Nehemiah, Haggai and Zechariah say.", "no": "Those who say no read the return under Cyrus as partial and look for a fuller one." },
+    { "q": "Does any New Testament text predict a return to the land?", "ref": "Acts 1:6-8", "yes": "Supporters point to Luke 21:24 and Romans 11; neither mentions a return to the land.", "no": "Then the apostles, who knew the prophets best, did not expect one; they widened the promise to the world." },
+    { "q": "Is the fig tree in Matthew 24:32 a symbol of the nation?", "ref": "Luke 21:29-31", "yes": "Then “this generation” set the end by about 1988, which did not happen.", "no": "Luke adds “and all the trees”: it is a picture of seasons, and the generation was Jesus' own." },
+    { "q": "Is a modern state the same as the covenant people?", "ref": "Romans 2:28-29", "yes": "Then citizenship would decide covenant standing, which Paul denies.", "no": "Then the promises belong to Christ and those in him, Jew and Gentile, wherever they live." }
+  ],
+  "claims": [
+    { "id": "wars", "claim": "Wars and rumours of wars are increasing.", "verse": "Matthew 24:6-7", "reply": "Jesus said “the end is not yet” and spoke of wars his disciples would hear about. The Jewish revolt and Rome's year of four emperors (AD 69) filled that generation.", "data": "Battle deaths per head of world population are far below the levels of the world wars, though they rose again after 2020.", "other": "Modern weapons make the potential for destruction greater than ever." },
+    { "id": "quakes", "claim": "Earthquakes are getting more frequent.", "verse": "Matthew 24:7", "reply": "Earthquakes “in various places” are the beginning of birth pains, not the end. There were notable earthquakes in that generation.", "data": "The USGS reports about 15 earthquakes of magnitude 7+ a year with no significant increase over the past century.", "other": "The sign may be about impact or awareness rather than numbers." },
+    { "id": "plagues", "claim": "Pandemics like COVID-19 are end-time plagues.", "verse": "Luke 21:11", "reply": "Famine and plague struck that generation (Acts 11:28). Far worse pandemics came long before ours.", "data": "The Black Death killed perhaps a third of Europe; the 1918 flu tens of millions. Each was also read as the end.", "other": "Plagues are part of the pattern of birth pains, which some expect to intensify." },
+    { "id": "perilous", "claim": "People are lovers of self and money as never before: these are the perilous last days.", "verse": "2 Timothy 3:1-5", "reply": "Paul tells Timothy to avoid such people: they were in his day. The last days began with Christ.", "data": "Each list in Paul's letters describes sins of every age (Romans 1:29-31).", "other": "The last days began at Pentecost but may end with an intensified version of these sins." },
+    { "id": "worse-and-worse", "claim": "Evil will go from bad to worse until the end.", "verse": "2 Timothy 3:13", "reply": "Paul says impostors go from bad to worse, deceiving and deceived; but four verses earlier, “they will not get very far.”", "data": "The verse describes deceivers, not the world as a whole.", "other": "The pattern of deceivers worsening can apply to every age, including ours." },
+    { "id": "noah", "claim": "It is like the days of Noah: violence everywhere.", "verse": "Matthew 24:37-39", "reply": "Jesus' point is unawareness: eating, drinking and marrying until the flood came.", "data": "The passage names ordinary activities, not a rising graph of evil.", "other": "Genesis 6 also stresses violence, so the moral state may be part of the comparison." },
+    { "id": "fig", "claim": "Israel's rebirth in 1948 started the final generation.", "verse": "Matthew 24:32-34", "reply": "Luke adds “and all the trees”; the generation was Jesus' own.", "data": "Predictions built on 1948 (1981, 1988) and 1967 all failed.", "other": "Most dispensationalists now accept the fig tree as Israel without setting a date." },
+    { "id": "mark", "claim": "Technology like chips and digital money is preparing the mark of the beast.", "verse": "Revelation 13:16-18", "reply": "Revelation was written to seven churches about things that must soon take place; the number fits Nero Caesar.", "data": "Barcodes, credit cards, computers, RFID and vaccines have each been named as the mark.", "other": "The mark may be literal and future, and today's technology makes it possible for the first time." },
+    { "id": "apostasy", "claim": "The great falling away is happening in today's churches.", "verse": "2 Thessalonians 2:3-7", "reply": "Paul said the mystery of lawlessness was already at work and the readers knew what restrained it.", "data": "2 Timothy 1:15 and 1 John 2:18-19 record mass defections in the apostles' lifetime.", "other": "The final apostasy is still future, at the end of the age." },
+    { "id": "faith", "claim": "Faith is dying out; Jesus said he might not find faith.", "verse": "Luke 18:8", "reply": "The question ends a parable telling disciples not to lose heart; it is a challenge, not a forecast.", "data": "Christians numbered about 0.56 billion in 1900 and about 2.6 billion today.", "other": "Nominal numbers say little about living faith." },
+    { "id": "gospel", "claim": "Once the gospel reaches every nation, the end will come.", "verse": "Matthew 24:14", "reply": "Paul says the gospel had been proclaimed in all creation under heaven and was bearing fruit in the whole world.", "data": "Colossians 1:6, 23 and Romans 10:18 describe the gospel's reach in Paul's day.", "other": "“All nations” means every people group, which mission agencies still count as unreached." },
+    { "id": "tares", "claim": "Evil and good grow together, so the world cannot get better.", "verse": "Matthew 13:30", "reply": "Both grow, but the parable gives no proportion; the mustard seed and leaven in the same chapter describe growth.", "data": "Matthew 13 holds both truths: evil persists, and the kingdom spreads.", "other": "The mixed field is the main picture of this age until Christ returns." }
+  ],
+  "trends": [
+    { "id": "child", "label": "Children dying before age five", "unit": "% of children", "better": "down", "points": [{ "year": 1800, "value": 43 }, { "year": 1900, "value": 36 }, { "year": 1950, "value": 22.5 }, { "year": 1990, "value": 9.3 }, { "year": 2022, "value": 3.7 }], "source": "Gapminder and UN Inter-agency Group for Child Mortality Estimation, via Our World in Data", "note": "Figures before 1950 are historical reconstructions." },
+    { "id": "life", "label": "Life expectancy at birth", "unit": "years", "better": "up", "points": [{ "year": 1800, "value": 29 }, { "year": 1900, "value": 32 }, { "year": 1950, "value": 46 }, { "year": 2000, "value": 67 }, { "year": 2023, "value": 73 }], "source": "Riley and UN World Population Prospects, via Our World in Data", "note": "Global average; early values are estimates." },
+    { "id": "poverty", "label": "People in extreme poverty", "unit": "% of world population", "better": "down", "points": [{ "year": 1990, "value": 36 }, { "year": 1999, "value": 29 }, { "year": 2010, "value": 16 }, { "year": 2015, "value": 10 }, { "year": 2019, "value": 8.5 }], "source": "World Bank Poverty and Inequality Platform", "note": "International poverty line; rounded. Before 1990, reconstructions put most of humanity below this line." },
+    { "id": "literacy", "label": "Adults who can read", "unit": "% of adults", "better": "up", "points": [{ "year": 1820, "value": 12 }, { "year": 1900, "value": 21 }, { "year": 1980, "value": 69 }, { "year": 2020, "value": 87 }], "source": "van Zanden et al. and UNESCO, via Our World in Data", "note": "Rounded; early values are estimates." },
+    { "id": "christians", "label": "Christians worldwide", "unit": "millions", "better": "up", "points": [{ "year": 1900, "value": 558 }, { "year": 1970, "value": 1229 }, { "year": 2000, "value": 1985 }, { "year": 2025, "value": 2640 }], "source": "Center for the Study of Global Christianity, Gordon-Conwell", "note": "Counts everyone who identifies as Christian; rounded." },
+    { "id": "africa", "label": "Christians in Africa", "unit": "millions", "better": "up", "points": [{ "year": 1900, "value": 9 }, { "year": 1970, "value": 143 }, { "year": 2000, "value": 382 }, { "year": 2020, "value": 667 }], "source": "Center for the Study of Global Christianity, Gordon-Conwell", "note": "Rounded." }
+  ],
+  "growth": [
+    { "id": "stone", "ref": "Daniel 2:34-35, 44", "image": "A stone cut without hands", "point": "Strikes the empires and becomes a mountain filling the whole earth: a kingdom set up in the days of those kings." },
+    { "id": "mustard", "ref": "Matthew 13:31-32", "image": "A mustard seed", "point": "The smallest seed becomes a tree where the birds of the air nest." },
+    { "id": "leaven", "ref": "Matthew 13:33", "image": "Yeast in the dough", "point": "Hidden in flour until all of it was leavened: quiet, steady, total." },
+    { "id": "river", "ref": "Ezekiel 47:1-12", "image": "A river from the temple", "point": "Ankle-deep, knee-deep, waist-deep, then a river to swim in, bringing life wherever it goes." },
+    { "id": "government", "ref": "Isaiah 9:6-7", "image": "A child on David's throne", "point": "Of the increase of his government and of peace there will be no end." },
+    { "id": "enemies", "ref": "Psalm 110:1-2", "image": "Rule in the midst of enemies", "point": "Sit at my right hand until I make your enemies your footstool; the most quoted psalm in the New Testament." },
+    { "id": "waters", "ref": "Habakkuk 2:14", "image": "Waters covering the sea", "point": "The earth will be filled with the knowledge of the glory of the LORD." },
+    { "id": "ends", "ref": "Psalm 22:27", "image": "All the ends of the earth", "point": "All the families of the nations shall worship before you." }
+  ],
+  "flow": {
+    "start": "n1",
+    "nodes": [
+      { "id": "n1", "q": "Did Jesus say the kingdom had arrived in his ministry?", "help": "Read Mark 1:15 and Matthew 12:28.", "options": [{ "label": "Yes, it began with him", "next": "n2" }, { "label": "No, it was offered and postponed", "next": "r-dispensational" }] },
+      { "id": "n2", "q": "Is Christ reigning now on David's throne?", "help": "Read Acts 2:30-36 and 1 Corinthians 15:25.", "options": [{ "label": "Yes, at the Father's right hand", "next": "n3" }, { "label": "He reigns in heaven, but David's throne is future", "next": "r-historic" }] },
+      { "id": "n3", "q": "Were the signs of Matthew 24 fulfilled in Jesus' generation?", "help": "Read Matthew 24:34 and Luke 21:20-24.", "options": [{ "label": "Yes, mostly by AD 70", "next": "n4" }, { "label": "No, they are mainly future", "next": "n5" }] },
+      { "id": "n4", "q": "Will the gospel bring most of the nations to Christ before he returns?", "help": "Read Matthew 13:31-33, Psalm 22:27 and Daniel 2:35.", "options": [{ "label": "Yes, the kingdom will fill the earth", "next": "r-fulfilled" }, { "label": "It will spread, but the world stays mixed", "next": "r-amil" }] },
+      { "id": "n5", "q": "Will the world grow better or worse before the return?", "help": "Weigh Matthew 13:24-33 together.", "options": [{ "label": "Better, by the gospel", "next": "r-postmil" }, { "label": "Mixed, until the end", "next": "r-amil" }] }
+    ],
+    "results": [
+      { "id": "r-fulfilled", "title": "A fulfilled and advancing hope", "text": "The signs were kept in AD 70, Christ reigns now, and his kingdom grows until it fills the earth before his bodily return. This is the reading followed in this study." },
+      { "id": "r-postmil", "title": "Postmillennial hope", "text": "Christ reigns now and the gospel will win the nations before his return, with some signs still future." },
+      { "id": "r-amil", "title": "Amillennial hope", "text": "Christ reigns now; the thousand years are this age; good and evil grow together until his return." },
+      { "id": "r-historic", "title": "Historic premillennial hope", "text": "Christ reigns in heaven now and will return to reign a thousand years on earth, as many early writers held, without a separate plan for Israel." },
+      { "id": "r-dispensational", "title": "Dispensational hope", "text": "The kingdom offered to Israel was postponed; the church will be raptured, and Christ will reign from Jerusalem over a restored Israel." }
+    ]
+  },
+  "quiz": [
+    { "q": "Which early defender of a thousand-year kingdom admitted that many faithful Christians did not hold it?", "options": ["Justin Martyr", "Origen", "Augustine", "Eusebius"], "answer": 0, "explain": "In his Dialogue with Trypho, Justin grants that many of pure and pious faith think otherwise." },
+    { "q": "What did the disciples ask Jesus just before his ascension?", "options": ["When the temple would fall", "Whether he would restore the kingdom to Israel at that time", "Who would be the greatest", "Where they should wait"], "answer": 1, "explain": "Acts 1:6. Jesus answered with the Spirit and a mission to the ends of the earth." },
+    { "q": "According to Peter at Pentecost, what did God do to keep his oath to David?", "options": ["Rebuilt the temple", "Raised Christ to sit on his throne", "Returned Israel to the land", "Gave the law again"], "answer": 1, "explain": "Acts 2:30-36." },
+    { "q": "Which book says not one of the LORD's good promises about the land failed?", "options": ["Joshua", "Ruth", "Esther", "Lamentations"], "answer": 0, "explain": "Joshua 21:43-45; Nehemiah 9:8 says the same." },
+    { "q": "According to Paul, what was Abraham promised he would inherit?", "options": ["Canaan only", "The world", "Egypt", "Jerusalem only"], "answer": 1, "explain": "Romans 4:13: heir of the world." },
+    { "q": "Which Old Testament promise does Paul quote to say “we are the temple of the living God”?", "options": ["Ezekiel 37:27", "Isaiah 2:2", "Daniel 9:27", "Haggai 2:9"], "answer": 0, "explain": "2 Corinthians 6:16." },
+    { "q": "What does Luke add to the fig-tree saying?", "options": ["And the vine", "And all the trees", "In the spring", "Of Israel"], "answer": 1, "explain": "Luke 21:29: look at the fig tree, and all the trees." },
+    { "q": "Who developed the teaching of Israel and the church as two peoples with a pre-tribulation rapture?", "options": ["Augustine", "John Calvin", "John Nelson Darby", "Martin Luther"], "answer": 2, "explain": "Darby, in the 1830s." },
+    { "q": "What does the USGS say about the number of major earthquakes each year?", "options": ["Doubling every decade", "Roughly constant, about 15 of magnitude 7+", "Falling to zero", "Unknown"], "answer": 1, "explain": "More are recorded because there are more instruments." },
+    { "q": "In 2 Timothy 3, what does Paul tell Timothy to do about the people of the “last days”?", "options": ["Wait for the rapture", "Avoid such people", "Fight them", "Leave the city"], "answer": 1, "explain": "2 Timothy 3:5: they were in Timothy's own world." },
+    { "q": "In Jesus' comparison with the days of Noah, what were people doing?", "options": ["Building towers", "Eating, drinking and marrying", "Fighting wars", "Worshipping idols"], "answer": 1, "explain": "Matthew 24:38: the point is unawareness." },
+    { "q": "In Daniel 2, what does the stone become?", "options": ["A temple", "A great mountain filling the whole earth", "A new statue", "A wall"], "answer": 1, "explain": "Daniel 2:35." },
+    { "q": "About how many Christians were there in Africa in 1900?", "options": ["About 9 million", "About 300 million", "About 600 million", "None"], "answer": 0, "explain": "By 2020 there were over 650 million." },
+    { "q": "What does the Nicene Creed say about Christ's kingdom?", "options": ["It lasts a thousand years", "It will have no end", "It begins in 1948", "It is only in heaven"], "answer": 1, "explain": "Luke 1:33: of his kingdom there will be no end." }
+  ],
+  "sources": ["kh-justin-dialogue", "kh-irenaeus-heresies", "kh-eusebius-history", "kh-augustine-city", "kh-hill-regnum", "kh-burge-land", "kh-owid", "kh-usgs-earthquakes", "kh-csgc-status", "kh-worldbank-pip"]
+}

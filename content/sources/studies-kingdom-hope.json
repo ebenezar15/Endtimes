@@ -1,0 +1,118 @@
+[
+ {
+  "id": "kh-justin-dialogue",
+  "title": "Dialogue with Trypho",
+  "author": "Justin Martyr",
+  "camp": "reference",
+  "type": "primary",
+  "year": "c. 155",
+  "accessed": "2026-11-02",
+  "summary": "Justin's debate with a Jewish teacher; chapters 80-81 set out his thousand-year hope and admit that many faithful Christians disagree.",
+  "verified": true
+ },
+ {
+  "id": "kh-irenaeus-heresies",
+  "title": "Against Heresies, Book 5",
+  "author": "Irenaeus of Lyon",
+  "camp": "reference",
+  "type": "primary",
+  "year": "c. 180",
+  "accessed": "2026-11-02",
+  "summary": "Irenaeus' account of the Antichrist, the resurrection and the kingdom of the righteous, including the sayings he credits to the elders and Papias.",
+  "verified": true
+ },
+ {
+  "id": "kh-eusebius-history",
+  "title": "Church History",
+  "author": "Eusebius of Caesarea",
+  "camp": "reference",
+  "type": "primary",
+  "year": "c. 325",
+  "accessed": "2026-11-02",
+  "summary": "Preserves fragments of Papias, Gaius and Dionysius, and records the early debate over the thousand years.",
+  "verified": true
+ },
+ {
+  "id": "kh-augustine-city",
+  "title": "The City of God, Book 20",
+  "author": "Augustine of Hippo",
+  "camp": "reference",
+  "type": "primary",
+  "year": "c. 426",
+  "accessed": "2026-11-02",
+  "summary": "Augustine's reading of Revelation 20 as Christ's present reign with his saints, and his account of once holding a spiritual chiliasm.",
+  "verified": true
+ },
+ {
+  "id": "kh-hill-regnum",
+  "title": "Regnum Caelorum: Patterns of Millennial Thought in Early Christianity",
+  "author": "Charles E. Hill",
+  "camp": "reference",
+  "type": "book",
+  "year": "2001",
+  "accessed": "2026-11-02",
+  "summary": "A study of early Christian writers arguing that non-chiliast views were more widespread and earlier than often assumed.",
+  "verified": false,
+  "note": "Not re-checked online in this session."
+ },
+ {
+  "id": "kh-burge-land",
+  "title": "Whose Land? Whose Promise? What Christians Are Not Being Told about Israel and the Palestinians",
+  "author": "Gary M. Burge",
+  "camp": "reference",
+  "type": "book",
+  "year": "2003",
+  "accessed": "2026-11-02",
+  "summary": "A New Testament scholar on the land promises, their fulfilment in Christ, and the history of Christian Zionism, with attention to Palestinian Christians.",
+  "verified": false,
+  "note": "Not re-checked online in this session."
+ },
+ {
+  "id": "kh-owid",
+  "title": "Our World in Data: child mortality, life expectancy, literacy and conflict deaths",
+  "author": "Our World in Data, University of Oxford",
+  "url": "https://ourworldindata.org",
+  "camp": "reference",
+  "type": "article",
+  "accessed": "2026-11-02",
+  "summary": "Long-run data series compiled from historical and UN sources.",
+  "verified": false,
+  "note": "Figures are rounded from the published series and were not re-checked online in this session."
+ },
+ {
+  "id": "kh-usgs-earthquakes",
+  "title": "Are earthquakes increasing?",
+  "author": "US Geological Survey",
+  "url": "https://www.usgs.gov",
+  "camp": "reference",
+  "type": "article",
+  "accessed": "2026-11-02",
+  "summary": "The USGS explains that the rate of major earthquakes has stayed fairly constant and more are recorded because of better instruments.",
+  "verified": false,
+  "note": "Not re-checked online in this session."
+ },
+ {
+  "id": "kh-csgc-status",
+  "title": "Status of Global Christianity",
+  "author": "Center for the Study of Global Christianity, Gordon-Conwell Theological Seminary",
+  "url": "https://www.gordonconwell.edu/center-for-global-christianity/",
+  "camp": "reference",
+  "type": "article",
+  "accessed": "2026-11-02",
+  "summary": "Annual estimates of Christian numbers worldwide and by continent since 1900.",
+  "verified": false,
+  "note": "Figures rounded; not re-checked online in this session."
+ },
+ {
+  "id": "kh-worldbank-pip",
+  "title": "Poverty and Inequality Platform",
+  "author": "World Bank",
+  "url": "https://pip.worldbank.org",
+  "camp": "reference",
+  "type": "article",
+  "accessed": "2026-11-02",
+  "summary": "Global estimates of the share of people living below the international poverty line.",
+  "verified": false,
+  "note": "Figures rounded; not re-checked online in this session."
+ }
+]

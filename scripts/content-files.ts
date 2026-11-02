@@ -94,6 +94,7 @@ function emit(b: ContentBundle, out: string, opts: { bible?: boolean } = {}) {
   write('studies', { olivet: b.olivet, signs: b.signs, dating: b.dating, josephus: b.josephus, israel: b.israel, rapture: b.rapture, fulfilled: b.fulfilled, newCreation: b.newCreation })
   // The prophecy question bank is large; it gets its own file so other studies stay light.
   write('qa', { prophecyQA: b.prophecyQA })
+  write('hope', { hope: b.hope })
   // A slim slice for the first screen (home page + app shell).
   write('core', {
     positions: b.positions.map(({ id, name, shortName, axis, color, initial, tagline, summary }) => ({ id, name, shortName, axis, color, initial, tagline, summary })),

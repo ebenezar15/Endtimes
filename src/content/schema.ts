@@ -1019,3 +1019,65 @@ export const ProphecyQAStudy = z.object({
   sources: z.array(Id).min(1),
 })
 export type ProphecyQAStudy = z.infer<typeof ProphecyQAStudy>
+
+/* ---------- Kingdom hope: the early church, Israel, and "the world is getting worse" ---------- */
+
+const QuizItem = z.object({ q: Text, options: z.array(Text).min(3), answer: z.number().int().min(0), explain: Text })
+
+export const HopeStudy = z.object({
+  intro: Text,
+  /** Where this reading stands among Christians. */
+  orthodoxy: Text,
+  /** The three questions of the study. */
+  parts: z.array(z.object({ id: Id, title: Text, question: Text, answer: Text })).length(3),
+  groups: z.array(z.object({ id: Id, part: Id, title: Text, summary: Text })).min(6),
+  questions: z.array(QA).min(30),
+  /** Early writers on the thousand years, with who taught whom. */
+  fathers: z.array(
+    z.object({
+      id: Id,
+      name: Text,
+      year: z.number(),
+      place: Text,
+      view: z.enum(['chiliast', 'non-chiliast', 'silent']),
+      /** Id of a teacher in this list, for the line of discipleship. */
+      teacher: Id.nullable(),
+      work: Text,
+      says: Text,
+    }),
+  ).min(16),
+  /** Early chiliasm laid beside modern dispensational premillennialism. */
+  compare: z.array(z.object({ topic: Text, early: Text, modern: Text })).min(6),
+  /** What the apostles said about the kingdom: now, later, or both. */
+  apostles: z.array(z.object({ ref: Ref, who: Text, said: Text, time: z.enum(['now', 'later', 'both']) })).min(14),
+  /** Promises to Israel and where the New Testament or history says they were kept. */
+  promises: z.array(z.object({ id: Id, theme: Text, promise: Text, ref: Ref, kept: Text, keptRef: Ref, other: Text })).min(12),
+  /** How the founding of the modern state came to be read as prophecy. */
+  twist: z.array(z.object({ year: z.number(), who: Text, event: Text, kind: z.enum(['theology', 'politics', 'popular']) })).min(12),
+  /** The 1948 question as a decision path. */
+  test1948: z.array(z.object({ q: Text, ref: Ref, yes: Text, no: Text })).min(4),
+  /** "Every prophecy is being fulfilled and the world is getting worse": claims and replies. */
+  claims: z.array(z.object({ id: Id, claim: Text, verse: Ref, reply: Text, data: Text, other: Text })).min(8),
+  /** Long-run measures, with their sources. */
+  trends: z.array(
+    z.object({
+      id: Id,
+      label: Text,
+      unit: Text,
+      better: z.enum(['up', 'down']),
+      points: z.array(z.object({ year: z.number(), value: z.number() })).min(4),
+      source: Text,
+      note: Text,
+    }),
+  ).min(5),
+  /** Pictures of the kingdom growing. */
+  growth: z.array(z.object({ id: Id, ref: Ref, image: Text, point: Text })).min(6),
+  flow: z.object({
+    start: Id,
+    nodes: z.array(z.object({ id: Id, q: Text, help: Text, options: z.array(z.object({ label: Text, next: Id })).min(2) })).min(5),
+    results: z.array(z.object({ id: Id, title: Text, text: Text })).min(3),
+  }),
+  quiz: z.array(QuizItem).min(12),
+  sources: z.array(Id).min(1),
+})
+export type HopeStudy = z.infer<typeof HopeStudy>
