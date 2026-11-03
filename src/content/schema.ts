@@ -1146,3 +1146,47 @@ export const WeeksStudy = z.object({
   sources: z.array(Id).min(1),
 })
 export type WeeksStudy = z.infer<typeof WeeksStudy>
+
+/* ---------- Revelation's judgements: seals, trumpets and bowls --------------------------------- */
+
+export const JudgmentsStudy = z.object({
+  intro: Text,
+  orthodoxy: Text,
+  /** The time statements that frame the visions. */
+  bookends: z.array(z.object({ ref: Ref, words: Text })).min(6),
+  /** The twenty-one judgements. */
+  series: z.array(
+    z.object({
+      id: Id,
+      set: z.enum(['seal', 'trumpet', 'bowl']),
+      n: z.number().int().min(1).max(7),
+      ref: Ref,
+      image: Text,
+      fulfilled: Text,
+      when: Text,
+      background: Ref,
+      futurist: Text,
+    }),
+  ).length(21),
+  /** How the three series relate. */
+  structures: z.array(z.object({ id: z.enum(['sequential', 'recapitulation', 'telescopic']), name: Text, summary: Text, holders: Text, strength: Text, weakness: Text })).length(3),
+  /** The plagues of Egypt echoed in the trumpets and bowls. */
+  exodus: z.array(z.object({ plague: Text, exodusRef: Ref, trumpet: z.number().int().nullable(), bowl: z.number().int().nullable(), note: Text })).min(6),
+  /** The pauses between judgements. */
+  interludes: z.array(z.object({ id: Id, ref: Ref, title: Text, reading: Text })).min(4),
+  /** Other figures and symbols of Revelation. */
+  symbols: z.array(z.object({ id: Id, name: Text, ref: Ref, fulfilled: Text, futurist: Text })).min(10),
+  /** Problems in other readings. */
+  problems: z.array(z.object({ id: Id, holder: Text, kind: z.enum(['logical', 'scriptural', 'inconsistency']), name: Text, problem: Text, reply: Text, refs: z.array(Ref).default([]) })).min(10),
+  objections: z.array(z.object({ id: Id, q: Text, a: Text, refs: z.array(Ref).default([]) })).min(8),
+  groups: z.array(z.object({ id: Id, title: Text, summary: Text })).min(4),
+  questions: z.array(QA).min(12),
+  flow: z.object({
+    start: Id,
+    nodes: z.array(z.object({ id: Id, q: Text, help: Text, options: z.array(z.object({ label: Text, next: Id })).min(2) })).min(4),
+    results: z.array(z.object({ id: Id, title: Text, text: Text })).min(3),
+  }),
+  quiz: z.array(QuizItem).min(12),
+  sources: z.array(Id).min(1),
+})
+export type JudgmentsStudy = z.infer<typeof JudgmentsStudy>

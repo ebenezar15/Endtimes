@@ -34,6 +34,7 @@ const NewCreation = lazy(() => import('../pages/NewCreation'))
 const ProphecyQA = lazy(() => import('../pages/ProphecyQA'))
 const KingdomHope = lazy(() => import('../pages/KingdomHope'))
 const SeventyWeeks = lazy(() => import('../pages/SeventyWeeks'))
+const Judgments = lazy(() => import('../pages/Judgments'))
 const NotFound = lazy(() => import('../pages/NotFound'))
 
 function ScrollToTop() {
@@ -82,6 +83,7 @@ export function App() {
               <Route path="/questions" element={<ProphecyQA />} />
               <Route path="/kingdom-hope" element={<KingdomHope />} />
               <Route path="/seventy-weeks" element={<SeventyWeeks />} />
+              <Route path="/judgments" element={<Judgments />} />
               <Route path="/revelation/symbols" element={<RevelationSymbols />} />
               <Route path="/revelation/connections" element={<RevelationConnections />} />
               <Route path="/revelation/:n" element={<RevelationChapter />} />
