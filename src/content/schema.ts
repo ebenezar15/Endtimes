@@ -1119,7 +1119,7 @@ export const WeeksStudy = z.object({
     z.object({
       id: z.enum(['messianic', 'gap', 'critical', 'symbolic']),
       name: Text,
-      start: Text,
+      from: Text,
       sixtyNine: Text,
       seventieth: Text,
       prince: Text,
@@ -1132,7 +1132,7 @@ export const WeeksStudy = z.object({
   /** End-time passages and whether this reading sees them as fulfilled. */
   passages: z.array(z.object({ id: Id, ref: Ref, title: Text, status: z.enum(['fulfilled', 'future', 'both']), timeText: Text, when: Text, reading: Text, futurist: Text })).min(18),
   /** Logical and scriptural problems in other readings. */
-  fallacies: z.array(z.object({ id: Id, view: Text, kind: z.enum(['logical', 'scriptural', 'inconsistency']), name: Text, problem: Text, reply: Text, refs: z.array(Ref).default([]) })).min(10),
+  fallacies: z.array(z.object({ id: Id, holder: Text, kind: z.enum(['logical', 'scriptural', 'inconsistency']), name: Text, problem: Text, reply: Text, refs: z.array(Ref).default([]) })).min(10),
   strawmen: z.array(z.object({ id: Id, target: Text, strawman: Text, whyFalse: Text, accurate: Text })).min(8),
   objections: z.array(z.object({ id: Id, q: Text, a: Text, refs: z.array(Ref).default([]) })).min(10),
   groups: z.array(z.object({ id: Id, title: Text, summary: Text })).min(4),

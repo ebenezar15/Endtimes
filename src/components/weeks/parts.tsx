@@ -70,7 +70,7 @@ export function WeeksGrid({ models }: { models: W['models'] }) {
           <motion.dl key={m} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="mt-4 grid gap-3 sm:grid-cols-2">
             {(
               [
-                [t('Starts'), model.start, C7],
+                [t('Starts'), model.from, C7],
                 [t('After 69 weeks'), model.sixtyNine, C62],
                 [t('The 70th week'), model.seventieth, C70],
                 [t('The “he” of 9:27'), model.prince, 'var(--accent)'],
@@ -115,7 +115,7 @@ export function DecreeCalc({ decrees, timeline }: { decrees: W['decrees']; timel
   return (
     <div className="leaf p-4 sm:p-6">
       <p className="text-sm font-bold">{t('1. Choose the starting decree')}</p>
-      <div className="mt-2 grid gap-2 sm:grid-cols-4">
+      <div className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
         {decrees.map((x) => (
           <button key={x.id} type="button" onClick={() => setD(x.id)} aria-pressed={d === x.id} className={`rounded-xl p-3 text-left text-sm ring-1 ${d === x.id ? 'bg-accent text-[var(--accent-ink)] ring-transparent' : 'ring-rule hover:bg-surface-2'}`}>
             <span className="block font-serif text-lg font-bold">{yearLabel(x.year)}</span>
@@ -139,7 +139,7 @@ export function DecreeCalc({ decrees, timeline }: { decrees: W['decrees']; timel
           [dec.year, yearLabel(dec.year), C7],
           [e69, `${t('69 weeks')}: ${yearLabel(e69)}`, C62],
         ].map(([y, l, c], k) => (
-          <motion.span key={k} className={`absolute -translate-x-1/2 whitespace-nowrap text-xs font-bold ${k ? 'top-4' : '-top-7'}`} style={{ color: c as string }} animate={{ left: `${x(y as number)}%` }}>
+          <motion.span key={k} className={`absolute whitespace-nowrap text-xs font-bold ${x(y as number) > 60 ? '-translate-x-full' : x(y as number) < 25 ? '' : '-translate-x-1/2'} ${k ? 'top-4' : '-top-7'}`} style={{ color: c as string }} animate={{ left: `${x(y as number)}%` }}>
             ▼ {l}
           </motion.span>
         ))}
@@ -291,7 +291,7 @@ export function MasterTimeline({ items }: { items: W['timeline'] }) {
           </button>
         ))}
         {[-600, -300, 27, 70].map((y) => (
-          <span key={y} className="absolute top-11 -translate-x-1/2 whitespace-nowrap text-[0.65rem] text-ink-soft" style={{ left: `${track(y)}%` }}>
+          <span key={y} className={`absolute top-11 whitespace-nowrap text-[0.65rem] text-ink-soft ${y === 70 ? '-translate-x-full' : y === -600 ? '' : '-translate-x-1/2'}`} style={{ left: `${track(y)}%` }}>
             {yearLabel(y)}
           </span>
         ))}
@@ -404,7 +404,7 @@ const KIND = {
 
 /** Problems in other readings, filterable by view and by kind; each opens to the reply. */
 export function Fallacies({ items }: { items: W['fallacies'] }) {
-  const views = useMemo(() => [...new Set(items.map((x) => x.view))], [items])
+  const views = useMemo(() => [...new Set(items.map((x) => x.holder))], [items])
   const [v, setV] = useState('all')
   const [open, setOpen] = useState<string | null>(null)
   return (
@@ -415,7 +415,7 @@ export function Fallacies({ items }: { items: W['fallacies'] }) {
         </button>
         {views.map((x) => (
           <button key={x} type="button" className="chip cursor-pointer" aria-pressed={v === x} onClick={() => setV(x)} style={v === x ? { background: 'var(--accent)', color: 'var(--accent-ink)' } : undefined}>
-            {x} {items.filter((y) => y.view === x).length}
+            {x} {items.filter((y) => y.holder === x).length}
           </button>
         ))}
       </div>
@@ -428,7 +428,7 @@ export function Fallacies({ items }: { items: W['fallacies'] }) {
       </ul>
       <ul className="mt-4 grid gap-3 md:grid-cols-2">
         {items
-          .filter((x) => v === 'all' || x.view === v)
+          .filter((x) => v === 'all' || x.holder === v)
           .map((x, i) => {
             const on = open === x.id
             return (
@@ -438,7 +438,7 @@ export function Fallacies({ items }: { items: W['fallacies'] }) {
                     <span className="rounded-full px-2 py-0.5 text-white" style={{ background: KIND[x.kind].c }}>
                       {KIND[x.kind].l()}
                     </span>
-                    <span className="text-ink-soft">{x.view}</span>
+                    <span className="text-ink-soft">{x.holder}</span>
                   </p>
                   <p className="mt-1 text-lg font-bold leading-snug">{x.name}</p>
                   <p className="mt-1 text-[0.95rem]">
