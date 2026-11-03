@@ -1197,7 +1197,7 @@ export const WarningsStudy = z.object({
   intro: Text,
   orthodoxy: Text,
   /** One warning traced step by step through the prophets, Jesus and history. */
-  chain: z.array(z.object({ id: Id, stage: z.enum(['prophet', 'jesus', 'history']), title: Text, ref: Ref, text: Text })).min(8),
+  chain: z.array(z.object({ id: Id, kind: z.enum(['prophet', 'jesus', 'history']), title: Text, ref: Ref, text: Text })).min(8),
   /** Old Testament warnings echoed by Jesus and the apostles. */
   echoes: z.array(z.object({ id: Id, ot: Ref, otText: Text, nt: Ref, ntText: Text, link: Text })).min(12),
   /** The Valley of Hinnom through history. */
@@ -1211,7 +1211,7 @@ export const WarningsStudy = z.object({
       popular: Text,
       setting: Text,
       clues: z.array(Text).min(1),
-      reach: z.enum(['ad70', 'both', 'final']),
+      status: z.enum(['ad70', 'both', 'final']),
       note: Text,
     }),
   ).min(12),
