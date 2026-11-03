@@ -63,7 +63,7 @@ export default function Warnings() {
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent">{t('Warnings heard in their setting')}</p>
           <motion.h1 className="mt-2 text-4xl font-bold leading-[1.05] sm:text-5xl" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }}>
-            {t('“I never knew you”: warnings misread')}
+            {t('Warnings misread')}
           </motion.h1>
           <Prose text={s.intro} className="mt-4 text-[1.05rem]" />
         </div>
