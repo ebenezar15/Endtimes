@@ -1102,3 +1102,47 @@ export const HopeStudy = z.object({
   sources: z.array(Id).min(1),
 })
 export type HopeStudy = z.infer<typeof HopeStudy>
+
+/* ---------- Daniel's seventy weeks and the end-time timeline ---------------------------------- */
+
+export const WeeksStudy = z.object({
+  intro: Text,
+  orthodoxy: Text,
+  /** The six purposes of Daniel 9:24 and where they were accomplished. */
+  goals: z.array(z.object({ id: Id, goal: Text, ref: Ref, kept: Text, keptRef: Ref })).length(6),
+  /** Daniel 9:24-27 phrase by phrase, read two ways. */
+  phrases: z.array(z.object({ id: Id, ref: Ref, phrase: Text, fulfilled: Text, futurist: Text })).min(10),
+  /** Possible starting decrees for the count. */
+  decrees: z.array(z.object({ id: Id, year: z.number(), who: Text, ref: Ref, note: Text })).min(4),
+  /** How the main views count the weeks. */
+  models: z.array(
+    z.object({
+      id: z.enum(['messianic', 'gap', 'critical', 'symbolic']),
+      name: Text,
+      start: Text,
+      sixtyNine: Text,
+      seventieth: Text,
+      prince: Text,
+      strength: Text,
+      weakness: Text,
+    }),
+  ).length(4),
+  /** From Daniel's exile to the fall of Masada: dated events. */
+  timeline: z.array(z.object({ id: Id, year: z.number(), label: Text, text: Text, refs: z.array(Ref).default([]), era: z.enum(['exile', 'persia', 'greece', 'christ', 'church', 'war']) })).min(24),
+  /** End-time passages and whether this reading sees them as fulfilled. */
+  passages: z.array(z.object({ id: Id, ref: Ref, title: Text, status: z.enum(['fulfilled', 'future', 'both']), timeText: Text, when: Text, reading: Text, futurist: Text })).min(18),
+  /** Logical and scriptural problems in other readings. */
+  fallacies: z.array(z.object({ id: Id, view: Text, kind: z.enum(['logical', 'scriptural', 'inconsistency']), name: Text, problem: Text, reply: Text, refs: z.array(Ref).default([]) })).min(10),
+  strawmen: z.array(z.object({ id: Id, target: Text, strawman: Text, whyFalse: Text, accurate: Text })).min(8),
+  objections: z.array(z.object({ id: Id, q: Text, a: Text, refs: z.array(Ref).default([]) })).min(10),
+  groups: z.array(z.object({ id: Id, title: Text, summary: Text })).min(4),
+  questions: z.array(QA).min(16),
+  flow: z.object({
+    start: Id,
+    nodes: z.array(z.object({ id: Id, q: Text, help: Text, options: z.array(z.object({ label: Text, next: Id })).min(2) })).min(4),
+    results: z.array(z.object({ id: Id, title: Text, text: Text })).min(3),
+  }),
+  quiz: z.array(QuizItem).min(12),
+  sources: z.array(Id).min(1),
+})
+export type WeeksStudy = z.infer<typeof WeeksStudy>

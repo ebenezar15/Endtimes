@@ -15,6 +15,7 @@ export const NAV: { to: string; label: string; icon: IconName; group: string }[]
   { to: '/new-creation', label: t('New heavens & new earth'), icon: 'sparkles', group: 'Investigate' },
   { to: '/questions', label: t('Prophecy questions answered'), icon: 'question', group: 'Investigate' },
   { to: '/kingdom-hope', label: t('Early church, Israel and a world getting worse?'), icon: 'compass', group: 'Investigate' },
+  { to: '/seventy-weeks', label: t('Daniel’s seventy weeks and the end-time timeline'), icon: 'timeline', group: 'Investigate' },
   { to: '/josephus', label: t('Josephus & AD 70'), icon: 'book', group: 'Investigate' },
   { to: '/israel', label: t('Israel in prophecy'), icon: 'star', group: 'Investigate' },
   { to: '/rapture', label: t('Rapture, millennium & kingdom'), icon: 'trumpet', group: 'Investigate' },
