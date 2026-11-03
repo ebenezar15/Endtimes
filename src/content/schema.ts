@@ -1190,3 +1190,45 @@ export const JudgmentsStudy = z.object({
   sources: z.array(Id).min(1),
 })
 export type JudgmentsStudy = z.infer<typeof JudgmentsStudy>
+
+/* ---------- Warnings read in their setting: AD 70, not the afterlife ---------------------------- */
+
+export const WarningsStudy = z.object({
+  intro: Text,
+  orthodoxy: Text,
+  /** One warning traced step by step through the prophets, Jesus and history. */
+  chain: z.array(z.object({ id: Id, stage: z.enum(['prophet', 'jesus', 'history']), title: Text, ref: Ref, text: Text })).min(8),
+  /** Old Testament warnings echoed by Jesus and the apostles. */
+  echoes: z.array(z.object({ id: Id, ot: Ref, otText: Text, nt: Ref, ntText: Text, link: Text })).min(12),
+  /** The Valley of Hinnom through history. */
+  hinnom: z.array(z.object({ id: Id, label: Text, ref: Ref, when: Text, text: Text })).min(6),
+  /** Passages often applied to the afterlife or the second coming. */
+  misread: z.array(
+    z.object({
+      id: Id,
+      ref: Ref,
+      phrase: Text,
+      popular: Text,
+      setting: Text,
+      clues: z.array(Text).min(1),
+      reach: z.enum(['ad70', 'both', 'final']),
+      note: Text,
+    }),
+  ).min(12),
+  /** "Days of the LORD" on nations before AD 70. */
+  days: z.array(z.object({ id: Id, ref: Ref, target: Text, year: z.number(), imagery: Text })).min(7),
+  /** Teaching summarised from a video series on the last days. */
+  teaching: z.array(z.object({ id: Id, title: Text, points: z.array(Text).min(4), refs: z.array(Ref).default([]) })).min(3),
+  /** What this reading does and does not claim. */
+  guardrails: z.array(z.object({ id: Id, q: Text, a: Text, refs: z.array(Ref).default([]) })).min(4),
+  groups: z.array(z.object({ id: Id, title: Text, summary: Text })).min(3),
+  questions: z.array(QA).min(12),
+  flow: z.object({
+    start: Id,
+    nodes: z.array(z.object({ id: Id, q: Text, help: Text, options: z.array(z.object({ label: Text, next: Id })).min(2) })).min(4),
+    results: z.array(z.object({ id: Id, title: Text, text: Text })).min(3),
+  }),
+  quiz: z.array(QuizItem).min(10),
+  sources: z.array(Id).min(1),
+})
+export type WarningsStudy = z.infer<typeof WarningsStudy>

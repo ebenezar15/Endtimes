@@ -97,6 +97,7 @@ function emit(b: ContentBundle, out: string, opts: { bible?: boolean } = {}) {
   write('hope', { hope: b.hope })
   write('weeks', { weeks: b.weeks })
   write('judgments', { judgments: b.judgments })
+  write('warnings', { warnings: b.warnings })
   // A slim slice for the first screen (home page + app shell).
   write('core', {
     positions: b.positions.map(({ id, name, shortName, axis, color, initial, tagline, summary }) => ({ id, name, shortName, axis, color, initial, tagline, summary })),
