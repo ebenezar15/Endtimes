@@ -1,12 +1,5 @@
 @import 'tailwindcss';
 
-@import '@fontsource/figtree/latin-400.css';
-@import '@fontsource/figtree/latin-500.css';
-@import '@fontsource/figtree/latin-600.css';
-@import '@fontsource/figtree/latin-700.css';
-@import '@fontsource/gloock/latin-400.css';
-@import '@fontsource/ibm-plex-mono/latin-400.css';
-@import '@fontsource/ibm-plex-mono/latin-500.css';
 @import '@fontsource/nunito-sans/latin-400.css';
 @import '@fontsource/nunito-sans/latin-600.css';
 @import '@fontsource/nunito-sans/latin-700.css';
@@ -174,9 +167,9 @@
   --color-gold: var(--gold);
   --color-gold-bright: var(--gold-bright);
   --color-rubric: var(--rubric);
-  --font-sans: 'Figtree', 'Avenir Next', 'Nunito Sans', 'Noto Sans Tamil', ui-sans-serif, system-ui, sans-serif;
-  --font-display: 'Gloock', 'Noto Serif Tamil', Georgia, serif;
-  --font-mono: 'IBM Plex Mono', 'Noto Sans Tamil', ui-monospace, Menlo, monospace;
+  --font-sans: 'Avenir Next', 'AvenirNext', 'Avenir Next LT Pro', 'Avenir', 'Nunito Sans', 'Noto Sans Tamil', ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-sans);
+  --font-mono: var(--font-sans);
   --color-violet: var(--violet);
   --font-serif: 'Cormorant Garamond', 'EB Garamond', 'Noto Serif Tamil', Georgia, serif;
 }
@@ -593,29 +586,20 @@ fieldset {
 }
 
 
-/* ---------- Observatory typography (unlayered, so it wins over utility weights) ---------- */
+/* ---------- Observatory typography: Avenir Next throughout ---------- */
 h1,
 h2 {
-  font-family: var(--font-display);
-  font-weight: 400 !important;
-  letter-spacing: -0.01em;
-  font-synthesis: none;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
-html[lang='ta'] h1,
-html[lang='ta'] h2 {
-  font-weight: 700 !important;
-}
-/* Small uppercase eyebrows become mono labels. */
 html:not([lang='ta']) .uppercase[class*='tracking-'] {
-  font-family: var(--font-mono);
-  font-weight: 500;
-}
-.font-mono {
-  font-family: var(--font-mono);
+  font-weight: 600;
 }
 .font-display {
-  font-family: var(--font-display);
-  font-weight: 400;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 /* Living-diagram motion shared by rooms. */
 @keyframes obs-pulse {
