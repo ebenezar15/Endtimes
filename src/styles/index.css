@@ -1,5 +1,12 @@
 @import 'tailwindcss';
 
+@import '@fontsource/figtree/latin-400.css';
+@import '@fontsource/figtree/latin-500.css';
+@import '@fontsource/figtree/latin-600.css';
+@import '@fontsource/figtree/latin-700.css';
+@import '@fontsource/gloock/latin-400.css';
+@import '@fontsource/ibm-plex-mono/latin-400.css';
+@import '@fontsource/ibm-plex-mono/latin-500.css';
 @import '@fontsource/nunito-sans/latin-400.css';
 @import '@fontsource/nunito-sans/latin-600.css';
 @import '@fontsource/nunito-sans/latin-700.css';
@@ -23,7 +30,30 @@
  *   bg/bg-2 page, surface/surface-2 cards, ink/ink-soft text, rule lines,
  *   accent (+accent-ink on it), rubric (second accent), gold/gold-bright (gilding),
  *   agree (matrix "agrees"), glow (r g b, for shadows and highlights).            */
+/* Observatory: deep ink-teal with gold (truth), teal (Spirit), coral (judgement) and violet (vision). */
 :root,
+[data-scheme='observatory'][data-theme='dark'] {
+  --bg: #0a1517; --bg-2: #0f1d20; --surface: #0f1d20; --surface-2: #15282c;
+  --ink: #e7efe9; --ink-soft: #93a8a3; --rule: #23393d;
+  --accent-base: #5cc8b8; --rubric: #ef7a63; --gold: #e8b65a; --gold-bright: #e8b65a;
+  --violet: #a99bf0; --agree: #86d3a8; --glow: 92 200 184; --shadow: 0 0 0;
+  color-scheme: dark;
+}
+[data-scheme='observatory'] {
+  --bg: #eef3f1; --bg-2: #e3ebe8; --surface: #ffffff; --surface-2: #e3ebe8;
+  --ink: #10211e; --ink-soft: #4e6560; --rule: #cfdcd8;
+  --accent-base: #0f7a6c; --rubric: #c2452c; --gold: #a3680c; --gold-bright: #c98d1f;
+  --violet: #5a48c4; --agree: #2b6a3a; --glow: 15 122 108; --shadow: 16 33 30;
+  color-scheme: light;
+}
+[data-scheme='observatory'][data-theme='dark'] {
+  --bg: #0a1517; --bg-2: #0f1d20; --surface: #0f1d20; --surface-2: #15282c;
+  --ink: #e7efe9; --ink-soft: #93a8a3; --rule: #23393d;
+  --accent-base: #5cc8b8; --rubric: #ef7a63; --gold: #e8b65a; --gold-bright: #e8b65a;
+  --violet: #a99bf0; --agree: #86d3a8; --glow: 92 200 184; --shadow: 0 0 0;
+  color-scheme: dark;
+}
+
 [data-scheme='sea'] {
   --bg: #edf4f5; --bg-2: #e1edef; --surface: #fbfefe; --surface-2: #e9f2f3;
   --ink: #0f2328; --ink-soft: #46595e; --rule: #c6d9dc;
@@ -144,7 +174,10 @@
   --color-gold: var(--gold);
   --color-gold-bright: var(--gold-bright);
   --color-rubric: var(--rubric);
-  --font-sans: 'Avenir Next', 'AvenirNext', 'Avenir Next LT Pro', 'Avenir', 'Nunito Sans', 'Noto Sans Tamil', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Figtree', 'Avenir Next', 'Nunito Sans', 'Noto Sans Tamil', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Gloock', 'Noto Serif Tamil', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', 'Noto Sans Tamil', ui-monospace, Menlo, monospace;
+  --color-violet: var(--violet);
   --font-serif: 'Cormorant Garamond', 'EB Garamond', 'Noto Serif Tamil', Georgia, serif;
 }
 
@@ -557,4 +590,54 @@ html[lang='ta'] main :is(.grid, .flex, .inline-flex) > :not(svg, [class*='min-w-
 }
 fieldset {
   min-width: 0;
+}
+
+
+/* ---------- Observatory typography (unlayered, so it wins over utility weights) ---------- */
+h1,
+h2 {
+  font-family: var(--font-display);
+  font-weight: 400 !important;
+  letter-spacing: -0.01em;
+  font-synthesis: none;
+}
+html[lang='ta'] h1,
+html[lang='ta'] h2 {
+  font-weight: 700 !important;
+}
+/* Small uppercase eyebrows become mono labels. */
+html:not([lang='ta']) .uppercase[class*='tracking-'] {
+  font-family: var(--font-mono);
+  font-weight: 500;
+}
+.font-mono {
+  font-family: var(--font-mono);
+}
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 400;
+}
+/* Living-diagram motion shared by rooms. */
+@keyframes obs-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.8); opacity: 0; }
+}
+@keyframes obs-dash {
+  to { stroke-dashoffset: -28; }
+}
+.obs-halo {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: obs-pulse 2.6s ease-in-out infinite;
+}
+.obs-flow {
+  stroke-dasharray: 6 8;
+  animation: obs-dash 1.4s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .obs-halo, .obs-flow { animation: none; }
+}
+[data-motion='reduce'] .obs-halo,
+[data-motion='reduce'] .obs-flow {
+  animation: none;
 }

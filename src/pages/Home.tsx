@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Rota } from '../components/Rota'
 import { RoadHero } from '../components/RoadHero'
+import { ObservatoryHero } from '../components/ObservatoryHero'
 import { CountUp, GlowCard } from '../components/ui'
 import { Icon, type IconName } from '../components/Icon'
 import { Illum } from '../components/Badge'
@@ -66,7 +67,10 @@ export default function Home() {
 
   return (
     <div>
-      <RoadHero />
+      <ObservatoryHero />
+      <div id="road" className="scroll-mt-16">
+        <RoadHero />
+      </div>
     <div id="after-road" className="mx-auto max-w-6xl scroll-mt-16 px-4 py-16 sm:px-6 lg:px-10">
       <div className="mb-16 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
         {stats.map((s, i) => (

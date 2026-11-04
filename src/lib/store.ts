@@ -47,7 +47,7 @@ type Actions = {
 }
 
 export const DEFAULT_SETTINGS: Settings = {
-  scheme: 'sea',
+  scheme: 'observatory',
   mode: 'system',
   highContrast: false,
   accent: null,
@@ -88,7 +88,7 @@ export const useApp = create<Settings & Study & Actions>()(
     }),
     {
       name: 'last-things',
-      version: 2,
+      version: 3,
       storage: createJSONStorage(() => safeStorage),
       // v1 stored a single "theme"; map it onto scheme + mode.
       migrate: (old, version) => {
@@ -102,6 +102,8 @@ export const useApp = create<Settings & Study & Actions>()(
           delete o.theme
           delete o.themeAuto
         }
+        // v3: the Observatory redesign becomes the default for anyone still on the old default scheme.
+        if (version < 3 && (o.scheme === 'sea' || o.scheme === undefined)) o.scheme = 'observatory'
         return o as never
       },
     },

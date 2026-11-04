@@ -30,9 +30,9 @@ function Logo() {
           transition={{ duration: 1.1, delay: 0.3 }}
         />
       </motion.svg>
-      <span className={`min-w-0 leading-none ${LANG === 'ta' ? 'hidden min-[430px]:block' : ''}`}>
-        <span className="block text-[17px] font-bold tracking-tight">{t('Last Things')}</span>
-        <span className={`text-[10px] font-semibold uppercase tracking-[0.25em] text-ink-soft ${LANG === 'ta' ? 'hidden sm:block' : 'block'}`}>{t('Views of the end')}</span>
+      <span className={`min-w-0 leading-none ${LANG === 'ta' ? 'hidden min-[430px]:block' : 'hidden min-[400px]:block lg:block'}`}>
+        <span className={`font-display block leading-none ${LANG === 'ta' ? 'text-[1.05rem] leading-tight' : 'whitespace-nowrap text-[1.2rem] sm:text-[1.4rem]'}`}>{t('Last Things')}</span>
+        <span className={`text-[9.5px] font-semibold uppercase tracking-[0.14em] text-ink-soft ${LANG === 'ta' ? 'hidden sm:block' : 'hidden whitespace-nowrap min-[400px]:block'}`}>{t('Views of the end')}</span>
       </span>
     </Link>
   )
@@ -42,10 +42,10 @@ function NavList({ onNavigate }: { onNavigate?: () => void }) {
   const groups = [...new Set(NAV.map((n) => n.group))]
   const saved = useApp((s) => s.bookmarks.length)
   return (
-    <nav aria-label={t('Main')} className="space-y-5">
+    <nav aria-label={t('Main')} className="space-y-4">
       {groups.map((g) => (
         <div key={g}>
-          <p className="mb-1.5 px-3 text-[11px] font-bold uppercase tracking-[0.2em] text-ink-soft">{NAV_GROUP_LABEL[g] ?? g}</p>
+          <p className="mb-1 px-3 text-[10.5px] uppercase tracking-[0.14em] text-ink-soft opacity-75">{NAV_GROUP_LABEL[g] ?? g}</p>
           <ul className="space-y-0.5">
             {NAV.filter((n) => n.group === g).map((n) => (
               <li key={n.to}>
@@ -53,12 +53,12 @@ function NavList({ onNavigate }: { onNavigate?: () => void }) {
                   to={n.to}
                   end={n.to === '/'}
                   onClick={onNavigate}
-                  className={({ isActive }) => `group relative flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-semibold no-underline transition-colors ${isActive ? 'text-accent' : 'text-ink hover:text-accent'}`}
+                  className={({ isActive }) => `group relative flex items-center gap-3 rounded-[9px] px-3 py-[7px] text-[0.92rem] font-medium leading-tight no-underline transition-colors ${isActive ? 'text-ink' : 'text-ink-soft hover:bg-surface-2 hover:text-ink'}`}
                 >
                   {({ isActive }) => (
                     <>
-                      {isActive && <motion.span layoutId="nav-active" className="absolute inset-0 rounded-xl bg-surface-2 ring-1 ring-rule" transition={{ type: 'spring', stiffness: 380, damping: 30 }} />}
-                      <motion.span className="relative" whileHover={{ scale: 1.2, rotate: -8 }}>
+                      {isActive && <motion.span layoutId="nav-active" className="absolute inset-0 rounded-[9px]" style={{ background: 'color-mix(in srgb, var(--gold) 15%, transparent)' }} transition={{ type: 'spring', stiffness: 380, damping: 30 }} />}
+                      <motion.span className={`relative ${isActive ? 'text-gold' : ''}`} whileHover={{ scale: 1.2, rotate: -8 }}>
                         <Icon name={n.icon} />
                       </motion.span>
                       <span className="relative">{n.label}</span>
@@ -164,7 +164,7 @@ export function Shell({ children }: { children: ReactNode }) {
         {t('Skip to content')}
       </a>
 
-      <aside className="scrollbar-thin fixed inset-y-0 left-0 z-30 hidden w-64 overflow-y-auto border-r border-rule bg-bg/80 px-3 py-5 backdrop-blur-xl lg:block">
+      <aside className="scrollbar-thin fixed inset-y-0 left-0 z-30 hidden w-64 overflow-y-auto border-r border-rule bg-bg-2 px-3 py-5 lg:block">
         <div className="mb-6 px-2">
           <Logo />
         </div>
@@ -184,8 +184,8 @@ export function Shell({ children }: { children: ReactNode }) {
           </div>
           <button type="button" onClick={() => setSearch(true)} className="btn ml-auto justify-start whitespace-nowrap text-ink-soft sm:w-80 lg:ml-0" aria-label={t('Search (Ctrl+K)')}>
             <Icon name="search" />
-            <span className="hidden sm:inline">{t('Search positions, texts, terms…')}</span>
-            <kbd className="chip ml-auto hidden py-0 sm:inline-flex">Ctrl K</kbd>
+            <span className="hidden min-w-0 truncate sm:inline">{t('Search positions, texts, terms…')}</span>
+            <kbd className="chip ml-auto hidden shrink-0 whitespace-nowrap py-0 sm:inline-flex">Ctrl K</kbd>
           </button>
           <div className="flex items-center gap-2 lg:ml-auto">
             <LensChip />

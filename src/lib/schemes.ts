@@ -2,6 +2,7 @@ import { t } from './i18n'
 
 /** Colour schemes (CSS lives in styles/index.css). Surfaces are mirrored here for contrast maths. */
 export const SCHEMES = [
+  { id: 'observatory', name: t('Observatory'), blurb: t('Ink-teal night with gold, teal and coral light'), swatch: ['#0a1517', '#e8b65a', '#5cc8b8'], surface: { light: '#ffffff', dark: '#0f1d20' }, bg: { light: '#eef3f1', dark: '#0a1517' } },
   { id: 'sea', name: t('Sea of Glass'), blurb: t('Teal and fire-bronze (Revelation 15:2)'), swatch: ['#edf4f5', '#0e6673', '#9c3d1b'], surface: { light: '#fbfefe', dark: '#0e242a' }, bg: { light: '#edf4f5', dark: '#061317' } },
   { id: 'throne', name: t('Throne Room'), blurb: t('Amethyst with an emerald rainbow (4:3)'), swatch: ['#f2f0f9', '#4a2ea0', '#0d6e4c'], surface: { light: '#fdfcff', dark: '#181432' }, bg: { light: '#f2f0f9', dark: '#0c0a1b' } },
   { id: 'dawn', name: t('Morning Star'), blurb: t('Dawn red against the last of night (22:16)'), swatch: ['#fbf1ec', '#a83a24', '#34489a'], surface: { light: '#fffaf7', dark: '#231523' }, bg: { light: '#fbf1ec', dark: '#130b13' } },
