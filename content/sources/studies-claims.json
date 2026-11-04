@@ -1,0 +1,27 @@
+[
+ {
+  "id": "ca-africanus-chronography",
+  "title": "Chronography (fragments, preserved by George Syncellus)",
+  "author": "Julius Africanus",
+  "camp": "reference",
+  "type": "primary",
+  "year": "c. 221",
+  "accessed": "2026-11-04",
+  "summary": "Africanus' world chronicle, which cites Thallus and Phlegon on the darkness at the crucifixion and argues it could not have been an eclipse.",
+  "verified": true,
+  "url": "https://www.neverthirsty.org/about-christ/historical-quotes/thallus/",
+  "note": "Checked via secondary summaries; Thallus' and Phlegon's own words survive only secondhand."
+ },
+ {
+  "id": "ca-allen-thallus",
+  "title": "Thallus and Phlegon on the darkness at the crucifixion",
+  "author": "Akroterion (journal article)",
+  "camp": "critic",
+  "type": "article",
+  "year": "2018",
+  "accessed": "2026-11-04",
+  "summary": "A scholarly assessment of whether Thallus and Phlegon can be linked to the crucifixion darkness.",
+  "verified": true,
+  "url": "https://akroterion.journals.ac.za/pub/article/view/975/1015"
+ }
+]

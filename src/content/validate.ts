@@ -42,6 +42,7 @@ export type ContentBundle = {
   weeks: S.WeeksStudy | null
   judgments: S.JudgmentsStudy | null
   warnings: S.WarningsStudy | null
+  claims: S.ClaimsStudy | null
 }
 
 const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema: z.ZodTypeAny; single?: boolean }[] = [
@@ -81,6 +82,7 @@ const routes: { match: (p: string) => boolean; key: keyof ContentBundle; schema:
   { match: (p) => p === 'studies/seventy-weeks.json', key: 'weeks', schema: S.WeeksStudy, single: true },
   { match: (p) => p === 'studies/judgments.json', key: 'judgments', schema: S.JudgmentsStudy, single: true },
   { match: (p) => p === 'studies/warnings.json', key: 'warnings', schema: S.WarningsStudy, single: true },
+  { match: (p) => p === 'studies/claims.json', key: 'claims', schema: S.ClaimsStudy, single: true },
 ]
 
 export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
@@ -88,7 +90,7 @@ export { POSITION_IDS, VIEW_IDS, TOPIC_IDS, walkArg }
 export function emptyBundle(): ContentBundle {
   return {
     positions: [], combinations: [], topics: [], matrix: [], passages: [], arguments: [], timelines: [],
-    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [], spiritual: null, revThreads: [], revBooks: [], revStructure: null, atlas: null, olivet: null, signs: null, dating: null, josephus: null, israel: null, rapture: null, fulfilled: null, newCreation: null, prophecyQA: null, hope: null, weeks: null, judgments: null, warnings: null,
+    flowchart: null, scholars: [], library: [], glossary: [], quizzes: [], flashcards: [], sources: [], bible: null, tour: [], revChapters: [], revIntro: [], spiritual: null, revThreads: [], revBooks: [], revStructure: null, atlas: null, olivet: null, signs: null, dating: null, josephus: null, israel: null, rapture: null, fulfilled: null, newCreation: null, prophecyQA: null, hope: null, weeks: null, judgments: null, warnings: null, claims: null,
   }
 }
 
@@ -338,7 +340,7 @@ export function checkBundle(b: ContentBundle, opts: { partial?: boolean } = {}):
     F.verses.forEach((v) => !ch.has(v.chapter) && errors.push(`fulfilled verse ${v.id}: unknown chapter "${v.chapter}"`))
     F.quiz.forEach((q, i) => q.answer >= q.options.length && errors.push(`fulfilled quiz ${i}: answer out of range`))
   }
-  for (const [name, X] of [['new creation', b.newCreation], ['prophecy questions', b.prophecyQA], ['kingdom hope', b.hope], ['seventy weeks', b.weeks], ['judgements', b.judgments], ['warnings', b.warnings]] as const) {
+  for (const [name, X] of [['new creation', b.newCreation], ['prophecy questions', b.prophecyQA], ['kingdom hope', b.hope], ['seventy weeks', b.weeks], ['judgements', b.judgments], ['warnings', b.warnings], ['claims answered', b.claims]] as const) {
     if (!X) continue
     needSrc(name, X.sources)
     const g = new Set(X.groups.map((x) => x.id))

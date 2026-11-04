@@ -1232,3 +1232,46 @@ export const WarningsStudy = z.object({
   sources: z.array(Id).min(1),
 })
 export type WarningsStudy = z.infer<typeof WarningsStudy>
+
+/* ---------- Claims answered: dispensational and premillennial objections -------------------- */
+
+export const ClaimsStudy = z.object({
+  intro: Text,
+  orthodoxy: Text,
+  /** The darkness at the cross: prophecy fulfilled in history with cosmic language. */
+  darkness: z.object({
+    point: Text,
+    gospels: z.array(z.object({ ref: Ref, note: Text })).min(3),
+    prophecies: z.array(z.object({ ref: Ref, note: Text })).min(3),
+    history: z.array(z.object({ who: Text, when: Text, note: Text })).min(2),
+    hymn: z.object({ lines: z.array(Text).min(4), credit: Text }),
+  }),
+  /** Sun, moon and stars in the prophets: each time a nation fell in history. */
+  cosmic: z.array(z.object({ id: Id, ref: Ref, target: Text, year: z.number(), sign: Text, fulfilled: Text })).min(8),
+  /** Objections, each with the answer. kind: what is being objected to. */
+  claims: z.array(
+    z.object({
+      id: Id,
+      category: z.enum(['hermeneutics', 'timing', 'israel', 'signs', 'rapture', 'millennium', 'history', 'hope']),
+      kind: z.enum(['preterism', 'postmil']),
+      holder: Text,
+      claim: Text,
+      verse: Ref,
+      answer: Text,
+      key: Text,
+      rejoinder: Text,
+    }),
+  ).min(24),
+  /** Where a "consistently literal" method reads figuratively. */
+  literal: z.array(z.object({ ref: Ref, phrase: Text, literal: Text, usual: Text })).min(6),
+  groups: z.array(z.object({ id: Id, title: Text, summary: Text })).min(3),
+  questions: z.array(QA).min(10),
+  flow: z.object({
+    start: Id,
+    nodes: z.array(z.object({ id: Id, q: Text, help: Text, options: z.array(z.object({ label: Text, next: Id })).min(2) })).min(4),
+    results: z.array(z.object({ id: Id, title: Text, text: Text })).min(3),
+  }),
+  quiz: z.array(QuizItem).min(10),
+  sources: z.array(Id).min(1),
+})
+export type ClaimsStudy = z.infer<typeof ClaimsStudy>

@@ -1,0 +1,909 @@
+{
+  "intro": "Dispensational and premillennial teachers raise many objections to partial preterism and to the postmillennial hope. This study collects the common ones in one place, each with a short answer, the key point, and the other side's rejoinder. It begins with a test case: the darkness at the cross, where a “cosmic” prophecy was kept in history, on a particular day, in a particular land.",
+  "orthodoxy": "Partial preterism and postmillennialism are both held within historic, creedal Christianity: Christ's bodily return, the resurrection and the final judgement remain future. Dispensational and historic premillennial believers are brothers and sisters; their objections are stated in their strongest form, and their rejoinders are given beside each answer.",
+  "darkness": {
+    "point": "All three Synoptic Gospels record darkness over the whole land from noon until three in the afternoon while Jesus hung on the cross. It was a real event, on a known day, in one land, and it echoes the prophets' language of the sun going dark at a day of judgement. So when Scripture uses sun, moon and stars language, a fulfilment in history is exactly what we should expect. The objection “cosmic signs cannot have happened yet” overlooks the clearest case in the Gospels.",
+    "gospels": [
+      {
+        "ref": "Matthew 27:45",
+        "note": "Darkness over all the land from the sixth hour to the ninth."
+      },
+      {
+        "ref": "Mark 15:33",
+        "note": "When the sixth hour came, darkness over the whole land until the ninth."
+      },
+      {
+        "ref": "Luke 23:44-45",
+        "note": "Darkness over the whole land, the sun's light failed, and the temple curtain was torn."
+      }
+    ],
+    "prophecies": [
+      {
+        "ref": "Amos 8:9-10",
+        "note": "God says he will make the sun set at noon and darken the land in daylight, with mourning as for an only son."
+      },
+      {
+        "ref": "Exodus 10:21-23",
+        "note": "Three days of darkness over Egypt before the Passover; three hours of darkness before the Lamb's death."
+      },
+      {
+        "ref": "Joel 2:31",
+        "note": "The sun turned to darkness before the great day; Peter says this was being fulfilled (Acts 2:16-20)."
+      },
+      {
+        "ref": "Isaiah 50:3",
+        "note": "God clothes the heavens in black, in the Servant song that goes on to the smiting of the Servant (50:6)."
+      }
+    ],
+    "history": [
+      {
+        "who": "Thallus (via Julius Africanus)",
+        "when": "1st century; quoted c. AD 220",
+        "note": "Africanus says Thallus explained the darkness as an eclipse of the sun. His own works are lost, so his exact words and date are uncertain."
+      },
+      {
+        "who": "Julius Africanus",
+        "when": "c. AD 220",
+        "note": "Objected that a solar eclipse cannot happen at Passover, which falls at full moon, so the darkness was not an eclipse."
+      },
+      {
+        "who": "Phlegon of Tralles (via Africanus and Eusebius)",
+        "when": "2nd century",
+        "note": "Reported a great darkness and an earthquake in Bithynia in the fourth year of the 202nd Olympiad (AD 32-33). How closely this matches the crucifixion is debated."
+      }
+    ],
+    "hymn": {
+      "lines": [
+        "Well might the sun in darkness hide,",
+        "And shut his glories in,",
+        "When Christ, the mighty Maker, died",
+        "For man the creature's sin."
+      ],
+      "credit": "Isaac Watts, “Alas! and did my Saviour bleed” (1707)"
+    }
+  },
+  "cosmic": [
+    {
+      "id": "babylon",
+      "ref": "Isaiah 13:9-10",
+      "target": "Babylon",
+      "year": -539,
+      "sign": "Stars, sun and moon give no light",
+      "fulfilled": "Babylon fell to the Medes and Persians (13:17-19); the sky did not literally go out."
+    },
+    {
+      "id": "edom",
+      "ref": "Isaiah 34:4-5",
+      "target": "Edom",
+      "year": -553,
+      "sign": "The heavens rolled up like a scroll; the stars fall",
+      "fulfilled": "Edom was laid waste; its name disappears from history."
+    },
+    {
+      "id": "egypt",
+      "ref": "Ezekiel 32:7-8",
+      "target": "Egypt",
+      "year": -568,
+      "sign": "I will cover the heavens and darken the stars",
+      "fulfilled": "Pharaoh's power broken by Babylon."
+    },
+    {
+      "id": "samaria",
+      "ref": "Amos 8:9",
+      "target": "Israel (Samaria)",
+      "year": -722,
+      "sign": "The sun goes down at noon",
+      "fulfilled": "Samaria fell to Assyria; the words were echoed at the cross."
+    },
+    {
+      "id": "cross",
+      "ref": "Matthew 27:45",
+      "target": "The cross",
+      "year": 30,
+      "sign": "Darkness over the whole land for three hours",
+      "fulfilled": "A real darkness, recorded in three Gospels, as the Lamb died."
+    },
+    {
+      "id": "pentecost",
+      "ref": "Acts 2:16-20",
+      "target": "That generation",
+      "year": 30,
+      "sign": "Sun to darkness, moon to blood",
+      "fulfilled": "Peter: “this is what was spoken.” The great day followed in AD 70."
+    },
+    {
+      "id": "olivet",
+      "ref": "Matthew 24:29-30",
+      "target": "Jerusalem",
+      "year": 70,
+      "sign": "Sun darkened, stars fall, powers shaken",
+      "fulfilled": "The fall of the temple and the old order, “immediately after the tribulation of those days.”"
+    },
+    {
+      "id": "sixth-seal",
+      "ref": "Revelation 6:12-17",
+      "target": "The land",
+      "year": 70,
+      "sign": "Sun black, moon like blood, sky rolled up",
+      "fulfilled": "The great day of wrath; the cry to the mountains of Luke 23:30."
+    }
+  ],
+  "claims": [
+    {
+      "id": "literal",
+      "category": "hermeneutics",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "We take the Bible literally; preterists spiritualise it.",
+      "verse": "Revelation 1:1",
+      "answer": "Revelation says God “signified” it: shown in signs. Preterists take its time words literally (“soon”, “near”) and its images as signs; futurists usually do the reverse.",
+      "key": "Literal time words, symbolic images, as the book itself says.",
+      "rejoinder": "Dispensationalists say a sign still points to a literal future event, and that “soon” can mean sudden."
+    },
+    {
+      "id": "double",
+      "category": "hermeneutics",
+      "kind": "preterism",
+      "holder": "Both",
+      "claim": "AD 70 was only a preview; the real fulfilment is still future.",
+      "verse": "Matthew 24:34",
+      "answer": "Jesus said “all these things” would happen to that generation. Two fulfilments are possible only if the text points to them; here it points to one.",
+      "key": "“All these things … this generation.”",
+      "rejoinder": "Prophecy often has near and far horizons, as Isaiah 7:14 shows."
+    },
+    {
+      "id": "generation",
+      "category": "timing",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "“This generation” means the race of Israel, or the generation that sees the signs.",
+      "verse": "Matthew 24:34",
+      "answer": "Eleven verses earlier the same phrase means Jesus' hearers (23:36), as it does every time in the Gospels.",
+      "key": "Same phrase, same chapter-pair, same meaning.",
+      "rejoinder": "The generation that sees “these things” could be future."
+    },
+    {
+      "id": "soon",
+      "category": "timing",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "“Soon” means quickly once it starts, not soon in time.",
+      "verse": "Revelation 22:10",
+      "answer": "“The time is near” cannot mean manner. Daniel was told to seal his book because the time was far off; John is told not to seal his because it is near.",
+      "key": "Near versus far: Daniel 8:26 against Revelation 22:10.",
+      "rejoinder": "Near can describe God's timetable, in which the end is always near."
+    },
+    {
+      "id": "thousand-day",
+      "category": "timing",
+      "kind": "preterism",
+      "holder": "Both",
+      "claim": "With the Lord a day is like a thousand years, so “soon” can be millennia.",
+      "verse": "2 Peter 3:8-9",
+      "answer": "Peter explains God's patience, not a dictionary for words God spoke to people. Time words given to readers are meant for readers.",
+      "key": "God's patience, not a redefinition of “near”.",
+      "rejoinder": "Peter's point is precisely that apparent delay is not failure."
+    },
+    {
+      "id": "late-date",
+      "category": "timing",
+      "kind": "preterism",
+      "holder": "Both",
+      "claim": "Revelation was written about AD 95, after Jerusalem fell.",
+      "verse": "Revelation 11:1-2",
+      "answer": "John measures a standing temple, and the sixth king reigns as he writes (17:10). The late date rests mainly on one ambiguous sentence of Irenaeus.",
+      "key": "The book's own evidence: a temple still standing.",
+      "rejoinder": "Most scholars still hold the late date, citing Irenaeus and the conditions of the churches."
+    },
+    {
+      "id": "cosmic",
+      "category": "signs",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "The sun darkened and stars falling must be literal and future.",
+      "verse": "Matthew 24:29",
+      "answer": "The prophets used this language for the fall of Babylon, Edom and Egypt, and the Gospels record a real darkness at the cross. Such language is fulfilled in history.",
+      "key": "Darkness at the cross: a cosmic sign fulfilled on a known day.",
+      "rejoinder": "The cross darkness was literal, so the signs of Matthew 24 should be too."
+    },
+    {
+      "id": "every-eye",
+      "category": "signs",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "Every eye will see him; no one saw Jesus in AD 70.",
+      "verse": "Revelation 1:7",
+      "answer": "The verse names “those who pierced him” and “all the tribes of the land,” quoting Zechariah 12 about Jerusalem. Jesus told the high priest he would see the Son of Man coming on the clouds.",
+      "key": "Those who pierced him would see it: Matthew 26:64.",
+      "rejoinder": "“Every eye” is universal and fits only the visible second coming."
+    },
+    {
+      "id": "gospel-all",
+      "category": "signs",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "The gospel has not yet been preached to every nation.",
+      "verse": "Matthew 24:14",
+      "answer": "Paul says it had been proclaimed in all creation under heaven (Colossians 1:23). The word for world is the inhabited Roman world, as in Luke 2:1.",
+      "key": "Paul says it was done.",
+      "rejoinder": "“All nations” means every people group, many still unreached."
+    },
+    {
+      "id": "worst-ever",
+      "category": "signs",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "The great tribulation is the worst ever, so it must be the end of the world.",
+      "verse": "Matthew 24:21",
+      "answer": "Jesus adds “nor ever will be,” so history continues after it. The same superlative is used of past judgements (Exodus 11:6; Ezekiel 5:9; Daniel 9:12).",
+      "key": "“Nor ever will be” means life goes on afterwards.",
+      "rejoinder": "Nothing in AD 70 matches the scale of Revelation's plagues."
+    },
+    {
+      "id": "temple",
+      "category": "signs",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "The abomination of desolation requires a rebuilt temple.",
+      "verse": "Luke 21:20",
+      "answer": "Luke explains it as Jerusalem surrounded by armies; the temple was standing when Jesus spoke.",
+      "key": "Luke's parallel interprets Matthew.",
+      "rejoinder": "2 Thessalonians 2:4 still needs a future temple."
+    },
+    {
+      "id": "olives",
+      "category": "signs",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "The Mount of Olives has not split in two (Zechariah 14:4).",
+      "verse": "Zechariah 14:1-9",
+      "answer": "Zechariah uses prophetic imagery: living waters flow from Jerusalem (14:8), which Jesus applies to the Spirit (John 7:38). Half the city going into exile fits AD 70.",
+      "key": "Read Zechariah 14 with John 7:38.",
+      "rejoinder": "Acts 1:11-12 places the return at the Mount of Olives, matching Zechariah."
+    },
+    {
+      "id": "rapture",
+      "category": "rapture",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "1 Thessalonians 4 teaches a rapture before the tribulation.",
+      "verse": "1 Thessalonians 4:16-17",
+      "answer": "The passage has a shout and a trumpet and says nothing of a tribulation. “Meet” is the word for going out to welcome a dignitary and escort him back.",
+      "key": "No tribulation in the passage, and a public, loud event.",
+      "rejoinder": "The comfort of 4:18 and 5:9 implies escape from wrath."
+    },
+    {
+      "id": "church-gone",
+      "category": "rapture",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "The church disappears from Revelation after chapter 4, so it has been raptured.",
+      "verse": "Revelation 13:7",
+      "answer": "The saints are present throughout, persecuted and faithful (13:7; 14:12; 17:6), and the book ends “for the churches” (22:16).",
+      "key": "Saints on earth in every section.",
+      "rejoinder": "Those are tribulation saints, converted after the rapture."
+    },
+    {
+      "id": "land-first",
+      "category": "israel",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "God must restore Israel to the land before Christ returns.",
+      "verse": "Acts 1:6-8",
+      "answer": "No New Testament text predicts a return to the land; the apostles widen the promise to the world (Romans 4:13). See the Israel and Zionism studies.",
+      "key": "The apostles never predict it.",
+      "rejoinder": "The Old Testament promises are enough without repetition."
+    },
+    {
+      "id": "antisemitic",
+      "category": "israel",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "Preterism is replacement theology and fuels antisemitism.",
+      "verse": "Romans 11:17-24",
+      "answer": "Fulfilment is not replacement: one olive tree, Jewish believers its natural branches. Paul forbids arrogance toward Jews.",
+      "key": "One tree, not two; no room for pride.",
+      "rejoinder": "Any view without a national future for Israel works as replacement."
+    },
+    {
+      "id": "rev20-order",
+      "category": "millennium",
+      "kind": "postmil",
+      "holder": "Premillennial",
+      "claim": "Revelation 20 follows chapter 19, so the thousand years come after the return.",
+      "verse": "Revelation 20:1-3",
+      "answer": "Revelation repeatedly steps back to show the same period from another angle (chapter 12 goes back to Christ's birth). Satan's binding matches Jesus binding the strong man (Matthew 12:29).",
+      "key": "Revelation is not one straight line.",
+      "rejoinder": "“And I saw” in 20:1 continues the sequence of 19:11-21."
+    },
+    {
+      "id": "not-bound",
+      "category": "millennium",
+      "kind": "postmil",
+      "holder": "Premillennial",
+      "claim": "Satan is obviously not bound today.",
+      "verse": "Revelation 20:3",
+      "answer": "He is bound in one respect: “so that he might not deceive the nations.” Before Christ the nations were in darkness; now the gospel goes to them all (Luke 10:18; John 12:31).",
+      "key": "Bound from deceiving the nations, as the verse says.",
+      "rejoinder": "1 Peter 5:8 shows Satan prowling freely."
+    },
+    {
+      "id": "resurrection",
+      "category": "millennium",
+      "kind": "postmil",
+      "holder": "Premillennial",
+      "claim": "The “first resurrection” must be bodily, like the second.",
+      "verse": "Revelation 20:4-6",
+      "answer": "John sees souls who reign with Christ. Jesus also spoke of a first, spiritual rising now and a bodily one later (John 5:24-29).",
+      "key": "Souls reigning; John 5's two resurrections.",
+      "rejoinder": "The same verb for “came to life” must mean the same thing both times."
+    },
+    {
+      "id": "then-end",
+      "category": "millennium",
+      "kind": "postmil",
+      "holder": "Premillennial",
+      "claim": "“Then comes the end” in 1 Corinthians 15 leaves a gap for a millennium.",
+      "verse": "1 Corinthians 15:23-26",
+      "answer": "At Christ's coming death itself is destroyed (15:54). A premillennial kingdom with death still in it (Isaiah 65:20) cannot come after that.",
+      "key": "Death ends at the coming, not a thousand years later.",
+      "rejoinder": "Paul's “then” (eita) can allow an interval, as between Christ's resurrection and his coming."
+    },
+    {
+      "id": "ww1",
+      "category": "hope",
+      "kind": "postmil",
+      "holder": "Premillennial",
+      "claim": "Postmillennialism died with the World Wars.",
+      "verse": "Isaiah 9:7",
+      "answer": "Postmillennial hope rests on God's promises, not on a straight line of progress. The church has grown more since 1914 than in any century before.",
+      "key": "Promises, not a progress chart.",
+      "rejoinder": "The 20th century's horrors show how far the world is from a golden age."
+    },
+    {
+      "id": "social-gospel",
+      "category": "hope",
+      "kind": "postmil",
+      "holder": "Premillennial",
+      "claim": "Postmillennialism is the liberal social gospel.",
+      "verse": "Matthew 28:18-20",
+      "answer": "Historic postmillennialism, held by many Puritans, Jonathan Edwards, Charles Hodge and B. B. Warfield, was evangelical: the world won by the gospel and the Spirit.",
+      "key": "Conversion by the gospel, not politics.",
+      "rejoinder": "Some later postmillennialism did drift into a social gospel."
+    },
+    {
+      "id": "worse",
+      "category": "hope",
+      "kind": "postmil",
+      "holder": "Both",
+      "claim": "Scripture says the world will get worse (2 Timothy 3).",
+      "verse": "2 Timothy 3:1-9",
+      "answer": "Paul tells Timothy to avoid those people, and says they will not get very far (3:9). See the “world getting worse” study.",
+      "key": "“They will not get very far.”",
+      "rejoinder": "Paul's description can still apply to the very end."
+    },
+    {
+      "id": "tares",
+      "category": "hope",
+      "kind": "postmil",
+      "holder": "Premillennial",
+      "claim": "Wheat and weeds grow together until the end, so there is no golden age.",
+      "verse": "Matthew 13:30",
+      "answer": "Both grow, but the same chapter says the kingdom grows like a mustard seed and works through all the dough.",
+      "key": "Matthew 13 holds both truths.",
+      "rejoinder": "The mixed field is the main picture of this age."
+    },
+    {
+      "id": "faith",
+      "category": "hope",
+      "kind": "postmil",
+      "holder": "Premillennial",
+      "claim": "“Will he find faith on the earth?” shows faith will be rare at the end.",
+      "verse": "Luke 18:8",
+      "answer": "The question ends a parable about praying and not losing heart. It challenges the hearers; it is not a statistic.",
+      "key": "A call to perseverance, not a forecast.",
+      "rejoinder": "The question expects a negative answer."
+    },
+    {
+      "id": "jesuit",
+      "category": "history",
+      "kind": "preterism",
+      "holder": "Dispensational",
+      "claim": "Preterism was invented by a Jesuit (Alcázar) to protect the pope.",
+      "verse": "Matthew 24:2",
+      "answer": "Eusebius applied Matthew 24 to AD 70 in the fourth century. Futurism was also systematised by a Jesuit (Ribera). Where a view came from does not settle whether it is true.",
+      "key": "The origin of an idea does not prove it right or wrong.",
+      "rejoinder": "The Reformers' historicism was the main Protestant view until the 1800s."
+    },
+    {
+      "id": "slippery",
+      "category": "history",
+      "kind": "preterism",
+      "holder": "Both",
+      "claim": "Partial preterism leads to full preterism.",
+      "verse": "Acts 1:11",
+      "answer": "Scripture itself distinguishes: texts about Jerusalem with time limits, and texts about the resurrection of all the dead and Christ's bodily return. The creeds keep the second future.",
+      "key": "The texts draw the line, not a slope.",
+      "rejoinder": "The same logic that dates Matthew 24 can be pushed onto 1 Thessalonians 4."
+    },
+    {
+      "id": "recent",
+      "category": "history",
+      "kind": "postmil",
+      "holder": "Premillennial",
+      "claim": "Postmillennialism is a recent idea.",
+      "verse": "Psalm 110:1-2",
+      "answer": "Its roots are in the early church's hope of the gospel's spread, Augustine's present reign of Christ, and the Puritan hope of the 1600s.",
+      "key": "Puritan and earlier roots.",
+      "rejoinder": "The early church was largely premillennial."
+    },
+    {
+      "id": "imminent",
+      "category": "rapture",
+      "kind": "postmil",
+      "holder": "Dispensational",
+      "claim": "Christ could come at any moment, so we cannot expect centuries of growth.",
+      "verse": "Matthew 25:5",
+      "answer": "Jesus' parables expect delay: the bridegroom was delayed, the master came “after a long time” (25:19). Readiness does not require expecting the return today.",
+      "key": "“After a long time.”",
+      "rejoinder": "Watchfulness assumes the return could be soon."
+    }
+  ],
+  "literal": [
+    {
+      "ref": "Revelation 1:1",
+      "phrase": "Things that must soon take place",
+      "literal": "Within a short time of John's writing.",
+      "usual": "Sudden when it happens, or near on God's clock."
+    },
+    {
+      "ref": "Revelation 22:10",
+      "phrase": "Do not seal up … the time is near",
+      "literal": "Near to the first readers, unlike Daniel's sealed book.",
+      "usual": "Near in God's perspective."
+    },
+    {
+      "ref": "Matthew 24:34",
+      "phrase": "This generation will not pass away",
+      "literal": "Jesus' contemporaries.",
+      "usual": "The race of Israel, or a future generation."
+    },
+    {
+      "ref": "Matthew 16:28",
+      "phrase": "Some standing here will not taste death",
+      "literal": "Some of the disciples would live to see it.",
+      "usual": "The transfiguration as a preview."
+    },
+    {
+      "ref": "Matthew 10:23",
+      "phrase": "You will not finish the towns of Israel before the Son of Man comes",
+      "literal": "Within the disciples' own mission.",
+      "usual": "A future tribulation mission."
+    },
+    {
+      "ref": "Revelation 13:18",
+      "phrase": "Let the one who has understanding calculate the number",
+      "literal": "The first readers could work it out.",
+      "usual": "A future person no reader could know."
+    },
+    {
+      "ref": "James 5:8-9",
+      "phrase": "The judge is standing at the door",
+      "literal": "Judgement imminent for James' readers.",
+      "usual": "Imminent at any time in history."
+    },
+    {
+      "ref": "1 Peter 4:7",
+      "phrase": "The end of all things is at hand",
+      "literal": "The end of the old order was near for Peter's readers.",
+      "usual": "The end of history is always near."
+    }
+  ],
+  "groups": [
+    {
+      "id": "method",
+      "title": "Method and time words",
+      "summary": "Literalism, “soon”, “this generation” and double fulfilment."
+    },
+    {
+      "id": "signs",
+      "title": "Cosmic signs",
+      "summary": "The darkness at the cross and the prophets' sun, moon and stars."
+    },
+    {
+      "id": "millennium",
+      "title": "The thousand years",
+      "summary": "Revelation 20, Satan's binding and the first resurrection."
+    },
+    {
+      "id": "hope",
+      "title": "The postmillennial hope",
+      "summary": "Answers to objections against the gospel's victory in history."
+    }
+  ],
+  "questions": [
+    {
+      "id": "darkness-q",
+      "group": "signs",
+      "q": "Why does the darkness at the cross matter for prophecy?",
+      "short": "It shows that the prophets' “sun darkened” language can be fulfilled in history, on a particular day, in a particular land.",
+      "answer": "Matthew, Mark and Luke record three hours of darkness over the land at the crucifixion. Amos had spoken of the sun going down at noon at a day of judgement and mourning “as for an only son.” The darkness came at a real moment in history, not at the end of the world. So when Jesus speaks of the sun being darkened after the tribulation of those days (Matthew 24:29), we should not assume it must wait for the end of history.",
+      "examples": [
+        "Matthew 27:45; Mark 15:33; Luke 23:44-45.",
+        "Amos 8:9-10.",
+        "Africanus noted it could not have been an eclipse at Passover's full moon."
+      ],
+      "refs": [
+        "Matthew 27:45",
+        "Amos 8:9-10",
+        "Luke 23:44-45"
+      ],
+      "other": "Futurists answer that because the cross darkness was literal, the signs of Matthew 24:29 should be literal too."
+    },
+    {
+      "id": "cosmic-q",
+      "group": "signs",
+      "q": "What do sun, moon and stars mean in the prophets?",
+      "short": "They picture the fall of rulers and nations. Isaiah used them for Babylon and Edom, Ezekiel for Egypt.",
+      "answer": "Isaiah 13 says the stars and sun will not give light when Babylon falls to the Medes, and the chapter names the Medes. Isaiah 34 rolls up the sky for Edom. Ezekiel 32 darkens the stars over Egypt. Each nation fell in history. Jesus uses the same language for the end of the old order in his generation. The cosmic decoder on this page sets these side by side.",
+      "examples": [
+        "Isaiah 13:10, 17.",
+        "Isaiah 34:4-5.",
+        "Ezekiel 32:7-8."
+      ],
+      "refs": [
+        "Isaiah 13:9-19",
+        "Isaiah 34:4-5",
+        "Ezekiel 32:7-8",
+        "Matthew 24:29"
+      ],
+      "other": "Futurists hold that the language may be figurative in the prophets but literal in the final fulfilment."
+    },
+    {
+      "id": "literal-q",
+      "group": "method",
+      "q": "Who reads prophecy more literally?",
+      "short": "It depends on the words. Preterists take the time words literally and read the images as signs; futurists usually read the images literally and the time words loosely.",
+      "answer": "Revelation calls itself “signified” (1:1), a book of signs. Its time words are plain: soon, near, at hand. The literalism scorecard on this page lists eight phrases and shows how each side reads them. Neither side is simply “literal”; the question is which words the text itself marks as signs.",
+      "examples": [
+        "Revelation 1:1: he signified it.",
+        "Revelation 1:20: the stars are angels, the lampstands are churches."
+      ],
+      "refs": [
+        "Revelation 1:1",
+        "Revelation 1:20",
+        "Revelation 22:10"
+      ],
+      "other": "Dispensationalists respond that they use a consistent grammatical-historical method and that signs point to literal events."
+    },
+    {
+      "id": "generation-q",
+      "group": "method",
+      "q": "What does “this generation” mean?",
+      "short": "The people alive when Jesus spoke, as it does every time in the Gospels.",
+      "answer": "Jesus uses “this generation” for his contemporaries: an evil generation seeking a sign (12:39), on which all the righteous blood would come (23:36). In 24:34 he says this generation will not pass until all these things take place. Reading it as “this race” or “the future generation” changes its meaning in a single discourse.",
+      "examples": [
+        "Matthew 11:16; 12:41-45; 23:36.",
+        "Mark 13:30; Luke 21:32."
+      ],
+      "refs": [
+        "Matthew 23:36",
+        "Matthew 24:34"
+      ],
+      "other": "Some futurists read “generation” as race or kind; others as the generation that sees the signs."
+    },
+    {
+      "id": "double-q",
+      "group": "method",
+      "q": "Can a prophecy be fulfilled twice?",
+      "short": "Some prophecies have patterns that recur, but we should not add a second fulfilment unless Scripture points to one.",
+      "answer": "Isaiah 7:14 had a sign for Ahaz and its full meaning in Christ, as Matthew says. But Matthew 24 ties “all these things” to one generation, so adding a second, greater fulfilment reverses the text's own limit. Where the New Testament names a fulfilment, start there.",
+      "examples": [
+        "Matthew 1:22-23 on Isaiah 7:14.",
+        "Matthew 24:34: all these things."
+      ],
+      "refs": [
+        "Isaiah 7:14",
+        "Matthew 1:22-23",
+        "Matthew 24:34"
+      ],
+      "other": "Futurists see near and far horizons as a regular feature of prophecy."
+    },
+    {
+      "id": "bound-q",
+      "group": "millennium",
+      "q": "How can Satan be bound if evil is everywhere?",
+      "short": "Revelation says he is bound so that he cannot deceive the nations, not bound from every activity.",
+      "answer": "Before Christ, the nations were in darkness, with Israel alone knowing God. Jesus said he had bound the strong man and was plundering his house (Matthew 12:29), that he saw Satan fall (Luke 10:18), and that the ruler of this world would be cast out (John 12:31). Since then the gospel has gone to every nation. Satan still tempts and attacks, but he cannot keep the nations from the gospel.",
+      "examples": [
+        "Matthew 12:28-29.",
+        "John 12:31-32: I will draw all people to myself.",
+        "Colossians 2:15: he disarmed the rulers and authorities."
+      ],
+      "refs": [
+        "Revelation 20:1-3",
+        "Matthew 12:28-29",
+        "John 12:31-32",
+        "Colossians 2:15"
+      ],
+      "other": "Premillennialists see a much stronger, total binding that has not yet happened."
+    },
+    {
+      "id": "first-res-q",
+      "group": "millennium",
+      "q": "What is the first resurrection?",
+      "short": "On the amillennial and postmillennial reading, the believer's share in Christ's resurrection life now, and the reign of the faithful dead with him.",
+      "answer": "John sees the souls of martyrs who came to life and reigned with Christ. Jesus said the hour “now is” when the dead will hear his voice and live (John 5:25), and the hour “is coming” when all in the tombs will rise (5:28-29). Paul says believers have been raised with Christ (Colossians 3:1). The second, bodily resurrection comes at the end.",
+      "examples": [
+        "John 5:24-29.",
+        "Ephesians 2:5-6: raised us up with him and seated us with him.",
+        "Revelation 20:4: I saw the souls."
+      ],
+      "refs": [
+        "Revelation 20:4-6",
+        "John 5:24-29",
+        "Ephesians 2:5-6"
+      ],
+      "other": "Premillennialists argue that “came to life” must mean bodily resurrection in both verses."
+    },
+    {
+      "id": "postmil-q",
+      "group": "hope",
+      "q": "What is the postmillennial hope?",
+      "short": "That Christ reigns now and that, through the gospel and the Spirit, most of the world will come to faith before he returns.",
+      "answer": "Postmillennialists point to Christ's present authority (Matthew 28:18), the promise that his enemies will be made his footstool (Psalm 110:1), the growth parables, and the vision of the knowledge of the Lord covering the earth (Habakkuk 2:14). It is not a belief in human progress, but in the success of the gospel.",
+      "examples": [
+        "Psalm 22:27.",
+        "Isaiah 9:7.",
+        "Matthew 13:31-33."
+      ],
+      "refs": [
+        "Matthew 28:18-20",
+        "Psalm 110:1-2",
+        "Habakkuk 2:14",
+        "Isaiah 9:7"
+      ],
+      "other": "Amillennialists share the present reign but expect good and evil to grow together; premillennialists expect the kingdom to come in fullness only at the return."
+    },
+    {
+      "id": "history-q",
+      "group": "hope",
+      "q": "Who held the postmillennial hope?",
+      "short": "Many Puritans, Jonathan Edwards, the leaders of the modern missionary movement, Charles Hodge and B. B. Warfield, among others.",
+      "answer": "The Westminster Larger Catechism (1647) asks Christians to pray for the gospel's spread to all nations and the calling of the Jews. Jonathan Edwards expected a great outpouring of the Spirit. The missionary movement of the 1800s was largely driven by this hope. It declined after the World Wars and has revived since the 1970s.",
+      "examples": [
+        "Westminster Larger Catechism, Q. 191.",
+        "Jonathan Edwards, A History of the Work of Redemption."
+      ],
+      "refs": [
+        "Matthew 6:10",
+        "Psalm 2:8"
+      ],
+      "other": "Premillennial historians point out that the early church was largely premillennial."
+    },
+    {
+      "id": "how-respond-q",
+      "group": "method",
+      "q": "How should I respond to a dispensational friend?",
+      "short": "With humility and the text: agree on Christ's return and the authority of Scripture, then look together at the time words and how the New Testament reads the prophets.",
+      "answer": "Begin with what you share: Jesus is coming again, Scripture is true, the gospel must go to all nations. Then pick one passage, such as Matthew 24:34 or Revelation 1:1-3, and read it together slowly. Ask how the first hearers would have understood it. Avoid labels and mockery; a gentle answer persuades more than a clever one.",
+      "examples": [
+        "1 Peter 3:15: with gentleness and respect.",
+        "2 Timothy 2:24-25: kind to everyone, correcting opponents with gentleness."
+      ],
+      "refs": [
+        "1 Peter 3:15",
+        "2 Timothy 2:24-25",
+        "Acts 17:11"
+      ],
+      "other": "Dispensationalists would ask the same courtesy."
+    }
+  ],
+  "flow": {
+    "start": "k1",
+    "nodes": [
+      {
+        "id": "k1",
+        "q": "Does the objection quote a verse with a time word (soon, near, this generation)?",
+        "help": "Check the verse itself.",
+        "options": [
+          {
+            "label": "Yes",
+            "next": "k2"
+          },
+          {
+            "label": "No",
+            "next": "k3"
+          }
+        ]
+      },
+      {
+        "id": "k2",
+        "q": "Does the objection read that time word in its plain sense?",
+        "help": "Compare Revelation 22:10 with Daniel 8:26.",
+        "options": [
+          {
+            "label": "Yes",
+            "next": "r-weigh"
+          },
+          {
+            "label": "No, it stretches it",
+            "next": "r-time"
+          }
+        ]
+      },
+      {
+        "id": "k3",
+        "q": "Does the objection depend on cosmic or symbolic imagery being literal?",
+        "help": "Compare Isaiah 13:10 and the darkness at the cross.",
+        "options": [
+          {
+            "label": "Yes",
+            "next": "r-cosmic"
+          },
+          {
+            "label": "No",
+            "next": "k4"
+          }
+        ]
+      },
+      {
+        "id": "k4",
+        "q": "Does it rest on a verse the New Testament already interprets?",
+        "help": "E.g. Joel 2 in Acts 2, Amos 9 in Acts 15.",
+        "options": [
+          {
+            "label": "Yes",
+            "next": "r-nt"
+          },
+          {
+            "label": "No",
+            "next": "r-weigh"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "r-time",
+        "title": "Read the time word plainly",
+        "text": "The objection stretches a time word. Point to the same word's plain use elsewhere."
+      },
+      {
+        "id": "r-cosmic",
+        "title": "Read the imagery as the prophets did",
+        "text": "Show the prophets' use of cosmic language for nations falling, and the darkness at the cross."
+      },
+      {
+        "id": "r-nt",
+        "title": "Let the apostles interpret",
+        "text": "Show how the New Testament itself applies the passage."
+      },
+      {
+        "id": "r-weigh",
+        "title": "Weigh it carefully",
+        "text": "The objection may have real force; study it with the other side's best case."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "How many Gospels record the darkness at the crucifixion?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": 2,
+      "explain": "Matthew, Mark and Luke."
+    },
+    {
+      "q": "Which prophet spoke of the sun going down at noon?",
+      "options": [
+        "Amos",
+        "Jonah",
+        "Haggai",
+        "Nahum"
+      ],
+      "answer": 0,
+      "explain": "Amos 8:9."
+    },
+    {
+      "q": "Why did Julius Africanus say the darkness was not an eclipse?",
+      "options": [
+        "It was too short",
+        "Passover falls at full moon",
+        "It was at night",
+        "It was in winter"
+      ],
+      "answer": 1,
+      "explain": "A solar eclipse needs a new moon."
+    },
+    {
+      "q": "For which nation did Isaiah say the stars would not give light?",
+      "options": [
+        "Babylon",
+        "Greece",
+        "Rome",
+        "Persia"
+      ],
+      "answer": 0,
+      "explain": "Isaiah 13:10, 17-19."
+    },
+    {
+      "q": "In Matthew 23:36, who is “this generation”?",
+      "options": [
+        "A future race",
+        "Jesus' hearers",
+        "The church",
+        "The Gentiles"
+      ],
+      "answer": 1,
+      "explain": "The same phrase as 24:34."
+    },
+    {
+      "q": "What does Revelation 20:3 say Satan is bound from doing?",
+      "options": [
+        "Tempting anyone",
+        "Deceiving the nations",
+        "Existing",
+        "Speaking"
+      ],
+      "answer": 1,
+      "explain": "So that he might not deceive the nations."
+    },
+    {
+      "q": "According to 1 Corinthians 15:54, what is destroyed at Christ's coming?",
+      "options": [
+        "The church",
+        "Death",
+        "The temple",
+        "The nations"
+      ],
+      "answer": 1,
+      "explain": "Death is swallowed up in victory."
+    },
+    {
+      "q": "Which hymn writer wrote “Well might the sun in darkness hide”?",
+      "options": [
+        "Charles Wesley",
+        "Isaac Watts",
+        "Fanny Crosby",
+        "John Newton"
+      ],
+      "answer": 1,
+      "explain": "In “Alas! and did my Saviour bleed” (1707)."
+    },
+    {
+      "q": "Which Jesuit systematised futurism around 1590?",
+      "options": [
+        "Alcázar",
+        "Ribera",
+        "Loyola",
+        "Bellarmine"
+      ],
+      "answer": 1,
+      "explain": "Alcázar systematised preterism; the origin of a view does not settle its truth."
+    },
+    {
+      "q": "What does “meet” in 1 Thessalonians 4:17 usually describe?",
+      "options": [
+        "Leaving forever",
+        "Going out to welcome a dignitary and escort him back",
+        "Hiding",
+        "A secret departure"
+      ],
+      "answer": 1,
+      "explain": "The same word is used in Acts 28:15."
+    }
+  ],
+  "sources": [
+    "kh-eusebius-history",
+    "chilton-days-of-vengeance",
+    "gentry-before-jerusalem-fell",
+    "walvoord-rapture-question",
+    "ca-africanus-chronography",
+    "ca-allen-thallus"
+  ]
+}
