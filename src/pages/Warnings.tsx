@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { DeepDives } from '../components/DeepDives'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { WarningsStudy } from '../content/schema'
@@ -112,6 +113,7 @@ export default function Warnings() {
       <Section id="path" title={t('Is this warning about AD 70 or the end? A decision path')}>
         <Flow flow={s.flow} />
       </Section>
+      <DeepDives topic="warnings" />
       <Section id="quiz" title={t('Test yourself')}>
         <Quiz items={s.quiz} />
         <div className="mt-8 flex flex-wrap gap-3">

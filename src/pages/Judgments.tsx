@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { DeepDives } from '../components/DeepDives'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { JudgmentsStudy } from '../content/schema'
@@ -121,6 +122,7 @@ export default function Judgments() {
       <Section id="path" title={t('Find your reading: a decision path')}>
         <Flow flow={s.flow} />
       </Section>
+      <DeepDives topic="judgments" />
       <Section id="quiz" title={t('Test yourself')}>
         <Quiz items={s.quiz} />
         <div className="mt-8 flex flex-wrap gap-3">

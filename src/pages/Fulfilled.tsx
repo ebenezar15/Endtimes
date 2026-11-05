@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { DeepDives } from '../components/DeepDives'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Gloss, Prose } from '../components/Gloss'
@@ -136,6 +137,7 @@ export default function Fulfilled() {
         <Mandate m={s.mandate} />
       </Section>
 
+      <DeepDives topic="fulfilled" />
       <Section id="quiz" title={t('Test yourself')} lede={t('Questions on the verses, the history and the arguments.')}>
         <Quiz items={s.quiz} />
         <div className="mt-8 flex flex-wrap gap-3">

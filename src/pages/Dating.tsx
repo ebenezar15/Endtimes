@@ -1,4 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion'
+import { DeepDives } from '../components/DeepDives'
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { DatingStudy } from '../content/schema'
@@ -183,6 +184,7 @@ export default function Dating() {
         </ul>
       </Section>
 
+      <DeepDives topic="dating" />
       <Section id="implications" title={t('What hangs on the date')} lede={t('For some views the date is decisive; for others it hardly matters.')}>
         <div className="leaf p-4">
           <ViewReadings readings={d.implications} initial={lens} />

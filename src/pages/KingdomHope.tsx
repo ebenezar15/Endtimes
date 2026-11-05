@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { DeepDives } from '../components/DeepDives'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { HopeStudy } from '../content/schema'
@@ -187,6 +188,7 @@ export default function KingdomHope() {
         <Flow flow={s.flow} />
       </Section>
 
+      <DeepDives topic="hope" />
       <Section id="quiz" title={t('Test yourself')} lede={t('Questions on the early church, Israel, the signs and Zionism.')}>
         <Quiz items={s.quiz} />
         <p className="mt-6 text-sm text-ink-soft">

@@ -1305,3 +1305,22 @@ export const IsraelHistory = z.object({
   sources: z.array(Id).min(1),
 })
 export type IsraelHistory = z.infer<typeof IsraelHistory>
+
+/* ---------- Deep dives: one argument traced step by step, shown inside related studies -------- */
+
+export const DeepDive = z.object({
+  id: Id,
+  /** Studies that show this dive (route keys such as "judgments"). */
+  topics: z.array(Id).min(1),
+  title: Text,
+  question: Text,
+  steps: z.array(z.object({ title: Text, text: Text, refs: z.array(Ref).default([]) })).min(5),
+  /** Optional dated evidence, drawn as a timeline (years: negative = BC). */
+  evidence: z.array(z.object({ year: z.number(), label: Text, detail: Text, key: z.boolean().default(false) })).default([]),
+  opponent: Text,
+  conclusion: Text,
+  caution: Text,
+})
+export const DeepDives = z.object({ dives: z.array(DeepDive).min(1) })
+export type DeepDive = z.infer<typeof DeepDive>
+export type DeepDives = z.infer<typeof DeepDives>
