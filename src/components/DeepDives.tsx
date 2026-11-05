@@ -25,7 +25,7 @@ function Coin({ on }: { on: boolean }) {
 }
 
 /** Dated evidence on a line; the key item pulses. */
-function EvidenceLine({ items }: { items: DeepDive['evidence'] }) {
+function EvidenceLine({ items, coins }: { items: DeepDive['evidence']; coins: boolean }) {
   const [sel, setSel] = useState(Math.max(0, items.findIndex((e) => e.key)))
   const min = Math.min(...items.map((e) => e.year))
   const max = Math.max(...items.map((e) => e.year))
@@ -34,12 +34,12 @@ function EvidenceLine({ items }: { items: DeepDive['evidence'] }) {
   return (
     <div className="rounded-2xl bg-surface-2 p-4">
       <div className="scroll-x">
-        <div className="relative h-24 min-w-[560px]">
-          <div className="absolute inset-x-0 top-12 h-0.5 bg-[var(--rule)]" />
+        <div className="relative h-20 min-w-[560px]">
+          <div className="absolute inset-x-0 top-[1.15rem] h-0.5 bg-[var(--rule)]" />
           {items.map((it, k) => (
             <button key={k} type="button" onClick={() => setSel(k)} aria-label={`${yr(it.year)}: ${it.label}`} className="absolute top-2 flex -translate-x-1/2 flex-col items-center" style={{ left: `${x(it.year)}%` }}>
               <motion.span animate={it.key ? { scale: [1, 1.15, 1] } : { scale: k === sel ? 1.15 : 1 }} transition={it.key ? { repeat: Infinity, duration: 1.8 } : {}} className={`rounded-full ${k === sel ? 'ring-2 ring-[var(--accent)]' : ''}`}>
-                <Coin on={it.key || k === sel} />
+                {coins ? <Coin on={it.key || k === sel} /> : <span className="block size-5 rounded-full border-2 border-[var(--surface)]" style={{ background: it.key ? 'var(--rubric)' : k === sel ? 'var(--accent)' : 'var(--ink-soft)' }} />}
               </motion.span>
               <span className={`mt-1 whitespace-nowrap text-[0.65rem] font-bold ${it.key ? 'text-rubric' : 'text-ink-soft'}`}>{yr(it.year)}</span>
             </button>
@@ -52,7 +52,7 @@ function EvidenceLine({ items }: { items: DeepDive['evidence'] }) {
           {e.detail}
         </motion.p>
       </AnimatePresence>
-      <p className="mt-2 text-xs text-ink-soft">{t('The same seven-star design, from the Republic to the third century: it cannot point to a single decade.')}</p>
+      {coins && <p className="mt-2 text-xs text-ink-soft">{t('The same seven-star design, from the Republic to the third century: it cannot point to a single decade.')}</p>}
     </div>
   )
 }
@@ -80,7 +80,7 @@ function Dive({ d, startOpen }: { d: DeepDive; startOpen: boolean }) {
         {open && (
           <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="overflow-hidden">
             <div className="space-y-5 px-5 pb-5">
-              {d.evidence.length > 0 && <EvidenceLine items={d.evidence} />}
+              {d.evidence.length > 0 && <EvidenceLine items={d.evidence} coins={d.id === 'roman-coins'} />}
               <ol className="relative ml-4 border-l-2 border-[var(--rule)] pl-6">
                 <motion.span aria-hidden className="absolute -left-[2px] top-0 w-0.5 bg-[var(--accent)]" animate={{ height: `${(Math.min(shown, d.steps.length) / d.steps.length) * 100}%` }} transition={{ duration: 0.6 }} />
                 {d.steps.slice(0, shown).map((s, i) => (

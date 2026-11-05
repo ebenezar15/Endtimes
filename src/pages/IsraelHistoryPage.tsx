@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { DeepDives } from '../components/DeepDives'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { IsraelHistory } from '../content/schema'
@@ -90,6 +91,7 @@ export default function IsraelHistoryPage() {
       <Section id="questions" title={t('Every question answered')}>
         <Questions s={s} />
       </Section>
+      <DeepDives topic="israel-history" />
       <Section id="quiz" title={t('Test yourself')}>
         <Quiz items={s.quiz} />
         <div className="mt-8 flex flex-wrap gap-3">

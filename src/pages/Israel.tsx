@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { DeepDives } from '../components/DeepDives'
 import { Link } from 'react-router-dom'
 import { Gloss, Prose } from '../components/Gloss'
 import { Icon } from '../components/Icon'
@@ -169,6 +170,7 @@ export default function Israel() {
         </div>
       </Section>
 
+      <DeepDives topic="israel" />
       <Section id="quiz" title={t('Test yourself')} lede={t('Questions drawn from both camps and from history.')}>
         <Quiz items={s.quiz} />
         <div className="mt-8 flex flex-wrap gap-3">
