@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { StudyMap } from '../components/StudyMap'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Prose } from '../components/Gloss'
@@ -13,19 +14,6 @@ import { ProgressBar, Section } from '../components/studies/Section'
 import { t } from '../lib/i18n'
 import { newCreation } from '../lib/data/studies'
 
-const JUMP = [
-  ['views', () => t('The views')],
-  ['questions', () => t('Every question answered')],
-  ['tabernacle', () => t('The tabernacle cosmos')],
-  ['echoes', () => t('Creation echoes')],
-  ['atlas', () => t('Passage map')],
-  ['worlds', () => t('Covenant worlds')],
-  ['words', () => t('Word studies')],
-  ['bridge', () => t('Isaiah and Revelation')],
-  ['objections', () => t('Objections')],
-  ['path', () => t('Find your view')],
-  ['quiz', () => t('Quiz')],
-] as const
 
 export default function NewCreation() {
   const s = newCreation
@@ -53,13 +41,7 @@ export default function NewCreation() {
         </div>
       </section>
 
-      <nav aria-label={t('On this page')} className="scroll-x mt-8 flex gap-1.5 py-2">
-        {JUMP.map(([id, label]) => (
-          <a key={id} href={`#${id}`} onClick={(e) => (e.preventDefault(), document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }))} className="chip shrink-0 no-underline">
-            {label()}
-          </a>
-        ))}
-      </nav>
+      <StudyMap />
 
       <Section id="views" title={t('Six ways to read “heaven and earth”')} lede={t('From a renewed physical cosmos to a covenant world that passed away. Pick a view.')}>
         <Views views={s.views} />

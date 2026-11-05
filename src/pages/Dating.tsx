@@ -1,4 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion'
+import { StudyMap } from '../components/StudyMap'
 import { DeepDives } from '../components/DeepDives'
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -138,6 +139,7 @@ export default function Dating() {
           </div>
         </div>
       </section>
+      <StudyMap />
 
       <Section id="sides" title={t('The two dates')} lede={t('Who holds each date, and the case in brief.')}>
         <div className="grid gap-4 md:grid-cols-2">

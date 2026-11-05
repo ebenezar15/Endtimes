@@ -124,6 +124,9 @@ export function ObservatoryHero() {
               {t('Every view of the end, set out fairly, then traced through Scripture and history with living diagrams, maps and timelines. Start with a question.')}
             </motion.p>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }} className="flex flex-wrap gap-2">
+              <Link to="/deep-dives" className="btn no-underline">
+                <Icon name="layers" /> {t('Deep dives')}
+              </Link>
               <Link to="/fit" className="btn btn-primary no-underline">
                 <Icon name="fork" /> {t('Which view fits me?')}
               </Link>

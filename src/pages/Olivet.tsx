@@ -1,4 +1,5 @@
 import { refLabel } from '../lib/refLabel'
+import { StudyMap } from '../components/StudyMap'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -191,6 +192,7 @@ export default function Olivet() {
           <StonesHero />
         </div>
       </section>
+      <StudyMap />
 
       <Section id="setting" title={t('The world Jesus was speaking to')} lede={t('Who heard these words, what they could see from the Mount of Olives, and how the next forty years unfolded.')}>
         <ul className="grid gap-3 md:grid-cols-2">

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { StudyMap } from '../components/StudyMap'
 import { DeepDives } from '../components/DeepDives'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -45,26 +46,6 @@ function PartQuestions({ s, part }: { s: HopeStudy; part: string }) {
   return <QAExplorer items={s.questions.filter((q) => ids.has(q.group))} groups={groups} group={group} setGroup={setGroup} />
 }
 
-const JUMP = [
-  ['part-early', () => t('Early church')],
-  ['fathers', () => t('Early writers')],
-  ['apostles', () => t('The apostles')],
-  ['part-israel', () => t('Israel')],
-  ['promises', () => t('Promises kept')],
-  ['test-1948', () => t('Test 1948')],
-  ['twist', () => t('How it changed')],
-  ['part-worse', () => t('Getting worse?')],
-  ['claims', () => t('Claims answered')],
-  ['trends', () => t('The record')],
-  ['growth', () => t('A growing kingdom')],
-  ['part-zion', () => t('Zionism')],
-  ['zion-rise', () => t('How Zionism rose')],
-  ['zion-claims', () => t('Zionist claims')],
-  ['olive', () => t('One olive tree')],
-  ['attacks', () => t('Replacement charges')],
-  ['path', () => t('Find your hope')],
-  ['quiz', () => t('Quiz')],
-] as const
 
 export default function KingdomHope() {
   const s = hope
@@ -103,13 +84,7 @@ export default function KingdomHope() {
         </ol>
       </section>
 
-      <nav aria-label={t('On this page')} className="scroll-x mt-8 flex gap-1.5 py-2">
-        {JUMP.map(([id, label]) => (
-          <a key={id} href={`#${id}`} onClick={(e) => (e.preventDefault(), go(id))} className="chip shrink-0 no-underline">
-            {label()}
-          </a>
-        ))}
-      </nav>
+      <StudyMap />
 
       <div className="leaf mt-6 p-5" style={{ borderLeft: '5px solid var(--gold)' }}>
         <p className="flex items-center gap-2 font-bold text-[var(--gold)]">

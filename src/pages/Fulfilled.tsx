@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { StudyMap } from '../components/StudyMap'
 import { DeepDives } from '../components/DeepDives'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -12,20 +13,6 @@ import { t } from '../lib/i18n'
 import { refLabel } from '../lib/refLabel'
 import { fulfilled } from '../lib/data/studies'
 
-const JUMP = [
-  ['keys', () => t('Five questions')],
-  ['historians', () => t('The historians')],
-  ['setting', () => t('The setting')],
-  ['verses', () => t('Verse by verse')],
-  ['symbols', () => t('Symbol decoder')],
-  ['timeline', () => t('AD 30 to 73')],
-  ['time', () => t('Time texts')],
-  ['once', () => t('One fulfilment')],
-  ['revelation', () => t('Revelation’s date')],
-  ['objections', () => t('Objections')],
-  ['now', () => t('What now?')],
-  ['quiz', () => t('Quiz')],
-] as const
 
 /** Verse number of a reference like "Matthew 24:15-16", for matching timeline links to verses. */
 const start = (ref: string) => ref.match(/(\d+):(\d+)/)?.slice(1).join(':') ?? ''
@@ -62,13 +49,7 @@ export default function Fulfilled() {
         </div>
       </section>
 
-      <nav aria-label={t('On this page')} className="scroll-x mt-8 flex gap-1.5 py-2">
-        {JUMP.map(([id, label]) => (
-          <a key={id} href={`#${id}`} onClick={(e) => (e.preventDefault(), document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }))} className="chip shrink-0 no-underline">
-            {label()}
-          </a>
-        ))}
-      </nav>
+      <StudyMap />
 
       <div className="leaf mt-6 p-5" style={{ borderLeft: '5px solid var(--gold)' }}>
         <p className="flex items-center gap-2 font-bold text-[var(--gold)]">

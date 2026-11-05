@@ -1,4 +1,6 @@
 import { motion } from 'framer-motion'
+import { RaptureHero } from '../components/rapture/RaptureHero'
+import { StudyMap } from '../components/StudyMap'
 import { DeepDives } from '../components/DeepDives'
 import { Link } from 'react-router-dom'
 import { Gloss, Prose } from '../components/Gloss'
@@ -12,21 +14,6 @@ import { t } from '../lib/i18n'
 import { refLabel } from '../lib/refLabel'
 import { rapture } from '../lib/data/studies'
 
-const JUMP = [
-  ['timing', () => t('Rapture timing')],
-  ['texts', () => t('Key texts')],
-  ['arguments', () => t('Arguments')],
-  ['history', () => t('History')],
-  ['millennium', () => t('The millennium')],
-  ['shape', () => t('Shape of history')],
-  ['questions', () => t('Millennium questions')],
-  ['kingdom', () => t('Establish or steward?')],
-  ['stewardship', () => t('Stewardship texts')],
-  ['kingdom-debate', () => t('Kingdom debate')],
-  ['strawmen', () => t('Strawmen')],
-  ['path', () => t('Find your view')],
-  ['quiz', () => t('Quiz')],
-] as const
 
 const EST = { label: t('Established at the return'), color: 'hsl(215 70% 42%)' }
 const STW = { label: t('Stewarded now'), color: 'hsl(15 75% 45%)' }
@@ -52,7 +39,8 @@ export default function Rapture() {
           </div>
         </div>
         <div className="leaf p-5">
-          <p className="text-sm font-bold text-ink-soft">{t('Three questions this study weighs')}</p>
+          <RaptureHero />
+          <p className="mt-3 text-sm font-bold text-ink-soft">{t('Three questions this study weighs')}</p>
           <ol className="mt-3 space-y-3">
             {[
               ['trumpet', t('When are believers gathered to Christ: before, in the middle of, or after a great tribulation, or at his one return?')],
@@ -70,13 +58,7 @@ export default function Rapture() {
         </div>
       </section>
 
-      <nav aria-label={t('On this page')} className="scroll-x mt-8 flex gap-1.5 py-2">
-        {JUMP.map(([id, label]) => (
-          <a key={id} href={`#${id}`} onClick={(e) => (e.preventDefault(), document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }))} className="chip shrink-0 no-underline">
-            {label()}
-          </a>
-        ))}
-      </nav>
+      <StudyMap />
 
       <Section id="timing" title={t('Where each view places the rapture')} lede={t('Daniel’s seventieth week drawn as seven years. Tap a view to see where it puts the gathering of believers, the outpouring of wrath, and the return.')}>
         <TimingMachine views={s.tribViews} />

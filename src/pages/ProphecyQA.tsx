@@ -1,4 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion'
+import { StudyMap } from '../components/StudyMap'
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { ProphecyQAStudy } from '../content/schema'
@@ -96,14 +97,6 @@ function Candidates({ items }: { items: P['candidates'] }) {
   )
 }
 
-const JUMP = [
-  ['principles', () => t('Reading keys')],
-  ['questions', () => t('Every question answered')],
-  ['predictions', () => t('Failed predictions')],
-  ['candidates', () => t('Named as Antichrist')],
-  ['path', () => t('Read a prophecy')],
-  ['quiz', () => t('Quiz')],
-] as const
 
 export default function ProphecyQA() {
   const s = prophecyQA
@@ -137,13 +130,7 @@ export default function ProphecyQA() {
         </div>
       </section>
 
-      <nav aria-label={t('On this page')} className="scroll-x mt-8 flex gap-1.5 py-2">
-        {JUMP.map(([id, label]) => (
-          <a key={id} href={`#${id}`} onClick={(e) => (e.preventDefault(), document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }))} className="chip shrink-0 no-underline">
-            {label()}
-          </a>
-        ))}
-      </nav>
+      <StudyMap />
 
       <Section id="principles" title={t('Keys for reading prophecy')} lede={t('The principles every answer below relies on.')}>
         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

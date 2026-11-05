@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { StudyMap } from '../components/StudyMap'
 import { DeepDives } from '../components/DeepDives'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -14,15 +15,6 @@ import { ProgressBar, Section } from '../components/studies/Section'
 import { t } from '../lib/i18n'
 import { claims } from '../lib/data/claims'
 
-const JUMP = [
-  ['darkness', () => t('Darkness at the cross')],
-  ['cosmic', () => t('Cosmic decoder')],
-  ['arena', () => t('All objections')],
-  ['literal', () => t('Literalism scorecard')],
-  ['questions', () => t('Questions')],
-  ['path', () => t('Answer any objection')],
-  ['quiz', () => t('Quiz')],
-] as const
 
 function Questions({ s }: { s: ClaimsStudy }) {
   const [group, setGroup] = useState('all')
@@ -58,13 +50,7 @@ export default function Claims() {
         </div>
       </section>
 
-      <nav aria-label={t('On this page')} className="scroll-x mt-8 flex gap-1.5 py-2">
-        {JUMP.map(([id, label]) => (
-          <a key={id} href={`#${id}`} onClick={(e) => (e.preventDefault(), document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }))} className="chip shrink-0 no-underline">
-            {label()}
-          </a>
-        ))}
-      </nav>
+      <StudyMap />
 
       <div className="leaf mt-6 p-5" style={{ borderLeft: '5px solid var(--gold)' }}>
         <p className="flex items-center gap-2 font-bold text-[var(--gold)]">

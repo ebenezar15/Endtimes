@@ -1,4 +1,5 @@
 import { refLabel } from '../lib/refLabel'
+import { StudyMap } from '../components/StudyMap'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -104,6 +105,7 @@ export default function Spiritual() {
           <UnveilHero />
         </div>
       </section>
+      <StudyMap />
 
       <Section id="principles" title={t('How this view reads the book')} lede={t('The reading principles that shape every chapter.')}>
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

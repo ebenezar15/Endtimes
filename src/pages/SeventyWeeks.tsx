@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { StudyMap } from '../components/StudyMap'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { WeeksStudy } from '../content/schema'
@@ -14,20 +15,6 @@ import { DecreeCalc, Fallacies, GoalsChecklist, MasterTimeline, PassageMap, Phra
 import { t } from '../lib/i18n'
 import { weeks } from '../lib/data/weeks'
 
-const JUMP = [
-  ['text', () => t('The text')],
-  ['goals', () => t('Six goals')],
-  ['count', () => t('Run the count')],
-  ['views', () => t('Four views')],
-  ['timeline', () => t('Master timeline')],
-  ['passages', () => t('Passage map')],
-  ['fallacies', () => t('Fallacies')],
-  ['strawmen', () => t('Strawmen')],
-  ['objections', () => t('Objections')],
-  ['questions', () => t('Questions')],
-  ['path', () => t('Decision path')],
-  ['quiz', () => t('Quiz')],
-] as const
 
 function Questions({ s }: { s: WeeksStudy }) {
   const [group, setGroup] = useState('all')
@@ -66,13 +53,7 @@ export default function SeventyWeeks() {
         <HeroWeeks />
       </section>
 
-      <nav aria-label={t('On this page')} className="scroll-x mt-8 flex gap-1.5 py-2">
-        {JUMP.map(([id, label]) => (
-          <a key={id} href={`#${id}`} onClick={(e) => (e.preventDefault(), document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }))} className="chip shrink-0 no-underline">
-            {label()}
-          </a>
-        ))}
-      </nav>
+      <StudyMap />
 
       <div className="leaf mt-6 p-5" style={{ borderLeft: '5px solid var(--gold)' }}>
         <p className="flex items-center gap-2 font-bold text-[var(--gold)]">

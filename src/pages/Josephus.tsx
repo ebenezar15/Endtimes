@@ -1,4 +1,5 @@
 import { refLabel } from '../lib/refLabel'
+import { StudyMap } from '../components/StudyMap'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -191,6 +192,7 @@ export default function Josephus() {
           ))}
         </div>
       </section>
+      <StudyMap />
 
       <Section id="about" title={t('Who was Josephus?')}>
         <div className="leaf p-5">

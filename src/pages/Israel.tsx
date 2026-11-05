@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { StudyMap } from '../components/StudyMap'
 import { DeepDives } from '../components/DeepDives'
 import { Link } from 'react-router-dom'
 import { Gloss, Prose } from '../components/Gloss'
@@ -10,21 +11,6 @@ import { ProgressBar, Section } from '../components/studies/Section'
 import { t } from '../lib/i18n'
 import { israel } from '../lib/data/studies'
 
-const JUMP = [
-  ['camps', () => t('The views')],
-  ['map', () => t('Mind map')],
-  ['jesus', () => t('Jesus the true Israel')],
-  ['promises', () => t('The promises')],
-  ['land', () => t('The land')],
-  ['modern', () => t('Modern Israel')],
-  ['kingdom', () => t('The kingdom')],
-  ['romans11', () => t('Romans 11')],
-  ['reading', () => t('How each side reads')],
-  ['debate', () => t('Debate')],
-  ['strawmen', () => t('Strawmen')],
-  ['path', () => t('Find your view')],
-  ['quiz', () => t('Quiz')],
-] as const
 
 export default function Israel() {
   if (!israel) return <p className="text-ink-soft">{t('This study is being written.')}</p>
@@ -51,13 +37,7 @@ export default function Israel() {
         </div>
       </section>
 
-      <nav aria-label={t('On this page')} className="scroll-x mt-8 flex gap-1.5 py-2">
-        {JUMP.map(([id, label]) => (
-          <a key={id} href={`#${id}`} onClick={(e) => (e.preventDefault(), document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }))} className="chip shrink-0 no-underline">
-            {label()}
-          </a>
-        ))}
-      </nav>
+      <StudyMap />
 
       <ul className="mt-8 grid gap-3 md:grid-cols-2 lg:grid-cols-4">
         {s.stakes.map((x, i) => (

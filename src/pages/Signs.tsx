@@ -1,4 +1,5 @@
 import { refLabel } from '../lib/refLabel'
+import { StudyMap } from '../components/StudyMap'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -211,6 +212,7 @@ export default function Signs() {
           <p className="mt-2 text-center text-xs text-ink-soft">{t('Dates set for the end, stamped as they passed · tap to replay')}</p>
         </div>
       </section>
+      <StudyMap />
 
       <Section id="history" title={t('“The end is near”: two thousand years of predictions')} lede={t('Every generation has had its signs. Turn each card over to see what happened and what it teaches.')}>
         <div className="mb-4 flex flex-wrap gap-1.5">

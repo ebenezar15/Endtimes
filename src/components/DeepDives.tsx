@@ -58,7 +58,7 @@ function EvidenceLine({ items, coins }: { items: DeepDive['evidence']; coins: bo
 }
 
 /** One argument, revealed step by step along a growing line, then the other side and the conclusion. */
-function Dive({ d, startOpen }: { d: DeepDive; startOpen: boolean }) {
+export function Dive({ d, startOpen }: { d: DeepDive; startOpen: boolean }) {
   const [open, setOpen] = useState(startOpen)
   const [shown, setShown] = useState(3)
   return (

@@ -19,6 +19,7 @@ export const NAV: { to: string; label: string; icon: IconName; group: string }[]
   { to: '/judgments', label: t('Seals, trumpets and bowls'), icon: 'seal', group: 'AD70' },
   { to: '/warnings', label: t('Warnings misread'), icon: 'quote', group: 'AD70' },
   { to: '/objections', label: t('Objections answered'), icon: 'scales', group: 'Questions' },
+  { to: '/deep-dives', label: t('Deep dives'), icon: 'layers', group: 'Questions' },
   { to: '/josephus', label: t('Josephus & AD 70'), icon: 'book', group: 'AD70' },
   { to: '/israel', label: t('Israel in prophecy'), icon: 'star', group: 'Questions' },
   { to: '/israel-history', label: t('The history of Israel'), icon: 'timeline', group: 'Questions' },

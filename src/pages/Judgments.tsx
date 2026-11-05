@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { StudyMap } from '../components/StudyMap'
 import { DeepDives } from '../components/DeepDives'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -16,20 +17,6 @@ import { Fallacies } from '../components/weeks/parts'
 import { t } from '../lib/i18n'
 import { judgments } from '../lib/data/judgments'
 
-const JUMP = [
-  ['bookends', () => t('Time frame')],
-  ['board', () => t('All 21 judgements')],
-  ['escalation', () => t('Escalation')],
-  ['structure', () => t('How they fit')],
-  ['exodus', () => t('New exodus')],
-  ['interludes', () => t('Interludes')],
-  ['symbols', () => t('Symbols')],
-  ['problems', () => t('Problems in other views')],
-  ['objections', () => t('Objections')],
-  ['questions', () => t('Questions')],
-  ['path', () => t('Decision path')],
-  ['quiz', () => t('Quiz')],
-] as const
 
 function Questions({ s }: { s: JudgmentsStudy }) {
   const [group, setGroup] = useState('all')
@@ -74,13 +61,7 @@ export default function Judgments() {
         <HeroBoard />
       </section>
 
-      <nav aria-label={t('On this page')} className="scroll-x mt-8 flex gap-1.5 py-2">
-        {JUMP.map(([id, label]) => (
-          <a key={id} href={`#${id}`} onClick={(e) => (e.preventDefault(), document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }))} className="chip shrink-0 no-underline">
-            {label()}
-          </a>
-        ))}
-      </nav>
+      <StudyMap />
 
       <div className="leaf mt-6 p-5" style={{ borderLeft: '5px solid var(--gold)' }}>
         <p className="flex items-center gap-2 font-bold text-[var(--gold)]">
