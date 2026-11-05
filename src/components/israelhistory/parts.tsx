@@ -195,13 +195,13 @@ export function IsraelTimeline({ events, bands }: { events: H['events']; bands: 
       </div>
       <div className="scroll-x mt-4">
         <div className="relative min-w-[880px] pb-2">
-          <div className="relative h-24">
+          <div className="relative h-28">
             {eras.map((r, k) => (
-              <span key={r.k} className={`absolute whitespace-nowrap text-[0.68rem] font-bold ${X(r.from) > 90 ? '-translate-x-full' : ''}`} style={{ left: `${X(r.from) > 90 ? 100 : X(r.from)}%`, top: (k % 3) * 18, color: ERA[r.k].c }}>
+              <span key={r.k} className={`absolute whitespace-nowrap text-[0.68rem] font-bold ${X(r.from) > 90 ? '-translate-x-full' : ''}`} style={{ left: `${X(r.from) > 90 ? 100 : X(r.from)}%`, top: (k % 4) * 16, color: ERA[r.k].c }}>
                 {ERA[r.k].l()}
               </span>
             ))}
-            <motion.div key={e.id} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} className="absolute bottom-0 flex -translate-x-1/2 flex-col items-center" style={{ left: `${Math.min(92, Math.max(8, X(e.year)))}%` }}>
+            <motion.div key={e.id} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} className={`absolute bottom-0 flex flex-col ${X(e.year) < 15 ? 'items-start' : X(e.year) > 85 ? '-translate-x-full items-end' : '-translate-x-1/2 items-center'}`} style={{ left: `${X(e.year)}%` }}>
               <span className="w-max max-w-[11rem] rounded-md px-2 py-0.5 text-center text-[0.72rem] font-bold leading-tight text-white" style={{ background: ERA[e.era].c }}>
                 {e.title}
               </span>
