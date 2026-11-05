@@ -21,6 +21,7 @@ export const NAV: { to: string; label: string; icon: IconName; group: string }[]
   { to: '/objections', label: t('Objections answered'), icon: 'scales', group: 'Questions' },
   { to: '/josephus', label: t('Josephus & AD 70'), icon: 'book', group: 'AD70' },
   { to: '/israel', label: t('Israel in prophecy'), icon: 'star', group: 'Questions' },
+  { to: '/israel-history', label: t('The history of Israel'), icon: 'timeline', group: 'Questions' },
   { to: '/rapture', label: t('Rapture, millennium & kingdom'), icon: 'trumpet', group: 'Questions' },
   { to: '/signs', label: t('Signs of the times'), icon: 'hourglass', group: 'AD70' },
   { to: '/dating', label: t('Dating Revelation'), icon: 'scales', group: 'AD70' },
@@ -40,3 +41,28 @@ export const NAV_GROUP_LABEL: Record<string, string> = {
   Questions: t('Big questions'),
   Learn: t('Learn'),
 }
+
+/** A suggested order for working through the studies, from the views to the evidence to the questions. */
+export const LEARNING_PATH: string[] = [
+  '/positions',
+  '/timelines',
+  '/israel-history',
+  '/olivet',
+  '/fulfilled',
+  '/josephus',
+  '/signs',
+  '/dating',
+  '/seventy-weeks',
+  '/revelation',
+  '/judgments',
+  '/warnings',
+  '/israel',
+  '/kingdom-hope',
+  '/rapture',
+  '/new-creation',
+  '/objections',
+  '/questions',
+]
+
+/** The key under which a page visit is stored. */
+export const pageKey = (to: string) => `page:${to}`

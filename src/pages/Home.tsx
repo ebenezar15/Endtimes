@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { Rota } from '../components/Rota'
 import { RoadHero } from '../components/RoadHero'
 import { ObservatoryHero } from '../components/ObservatoryHero'
+import { LearningPath } from '../components/Learning'
 import { CountUp, GlowCard } from '../components/ui'
 import { Icon, type IconName } from '../components/Icon'
 import { Illum } from '../components/Badge'
@@ -68,6 +69,7 @@ export default function Home() {
   return (
     <div>
       <ObservatoryHero />
+      <LearningPath />
       <div id="road" className="scroll-mt-16">
         <RoadHero />
       </div>

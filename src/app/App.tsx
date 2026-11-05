@@ -37,6 +37,7 @@ const SeventyWeeks = lazy(() => import('../pages/SeventyWeeks'))
 const Judgments = lazy(() => import('../pages/Judgments'))
 const Warnings = lazy(() => import('../pages/Warnings'))
 const Claims = lazy(() => import('../pages/Claims'))
+const IsraelHistoryPage = lazy(() => import('../pages/IsraelHistoryPage'))
 const NotFound = lazy(() => import('../pages/NotFound'))
 
 function ScrollToTop() {
@@ -88,6 +89,7 @@ export function App() {
               <Route path="/judgments" element={<Judgments />} />
               <Route path="/warnings" element={<Warnings />} />
               <Route path="/objections" element={<Claims />} />
+              <Route path="/israel-history" element={<IsraelHistoryPage />} />
               <Route path="/revelation/symbols" element={<RevelationSymbols />} />
               <Route path="/revelation/connections" element={<RevelationConnections />} />
               <Route path="/revelation/:n" element={<RevelationChapter />} />

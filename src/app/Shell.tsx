@@ -2,7 +2,8 @@ import { LANG } from '../lib/lang'
 import { lazy, Suspense, useEffect, useState, type ReactNode } from 'react'
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import { AnimatePresence, motion, useScroll, useSpring } from 'framer-motion'
-import { NAV, NAV_GROUP_LABEL } from './nav'
+import { NAV, NAV_GROUP_LABEL, pageKey } from './nav'
+import { NextOnPath, PageOutline, useTrackVisit } from '../components/Learning'
 import { Icon } from '../components/Icon'
 import { AppearanceButton } from '../components/Appearance'
 import { LanguageSwitch } from '../components/LanguageSwitch'
@@ -41,6 +42,7 @@ function Logo() {
 function NavList({ onNavigate }: { onNavigate?: () => void }) {
   const groups = [...new Set(NAV.map((n) => n.group))]
   const saved = useApp((s) => s.bookmarks.length)
+  const visited = useApp((s) => s.visited)
   return (
     <nav aria-label={t('Main')} className="space-y-4">
       {groups.map((g) => (
@@ -63,6 +65,7 @@ function NavList({ onNavigate }: { onNavigate?: () => void }) {
                       </motion.span>
                       <span className="relative">{n.label}</span>
                       {n.to === '/study' && saved > 0 && <span className="relative ml-auto rounded-full bg-accent px-1.5 text-[10px] text-accent-ink">{saved}</span>}
+                      {n.to !== '/' && n.to !== '/study' && n.to !== '/settings' && visited.includes(pageKey(n.to)) && <Icon name="check" size={13} className="relative ml-auto shrink-0 text-accent opacity-70" aria-label={t('Visited')} />}
                     </>
                   )}
                 </NavLink>
@@ -145,6 +148,7 @@ export function Shell({ children }: { children: ReactNode }) {
   const loc = useLocation()
   const tray = useApp((s) => s.compareTray.length)
   const isHome = loc.pathname === '/'
+  useTrackVisit()
   useEffect(() => setMenu(false), [loc.pathname])
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -230,6 +234,7 @@ export function Shell({ children }: { children: ReactNode }) {
             className={isHome ? '' : 'px-4 pb-28 pt-8 sm:px-6 lg:px-10'}
           >
             {children}
+            {!isHome && <NextOnPath />}
         </motion.div>
         <footer className="border-t border-rule px-6 py-8 text-center text-xs text-ink-soft">
           {t('Last Things. Every position, reading and argument cites its sources. Bible text: Berean Study Bible, KJV, World English Bible.')}
@@ -244,6 +249,7 @@ export function Shell({ children }: { children: ReactNode }) {
         </motion.div>
       )}
       <CompareTray />
+      {!isHome && tray === 0 && <PageOutline />}
       {searchUsed && (
         <Suspense fallback={null}>
           <SearchDialog open={search} onClose={() => setSearch(false)} />

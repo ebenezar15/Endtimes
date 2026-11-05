@@ -1275,3 +1275,33 @@ export const ClaimsStudy = z.object({
   sources: z.array(Id).min(1),
 })
 export type ClaimsStudy = z.infer<typeof ClaimsStudy>
+
+/* ---------- History of Israel: from the promise to the Seed ----------------------------------- */
+
+export const IsraelHistory = z.object({
+  intro: Text,
+  orthodoxy: Text,
+  events: z.array(
+    z.object({
+      id: Id,
+      year: z.number(),
+      label: Text,
+      title: Text,
+      text: Text,
+      refs: z.array(Ref).min(1),
+      era: z.enum(['promise', 'egypt', 'sinai', 'judges', 'united', 'divided', 'exile', 'return', 'christ', 'end']),
+      icon: z.enum(['tent', 'ladder', 'tribes', 'tablets', 'wilderness', 'judge', 'crown', 'split', 'chains', 'temple', 'star', 'cross', 'fall', 'return']),
+    }),
+  ).min(16),
+  /** Spans drawn under the timeline. kind: how the span is coloured. */
+  bands: z.array(z.object({ id: Id, from: z.number(), to: z.number(), label: Text, note: Text, refs: z.array(Ref).default([]), kind: z.enum(['promise', 'covenant', 'overlap', 'seed']) })).min(3),
+  /** From one man to one Seed to all nations. */
+  seed: z.array(z.object({ id: Id, label: Text, count: Text, ref: Ref, text: Text })).min(6),
+  /** The covenants along the way. */
+  covenants: z.array(z.object({ id: Id, name: Text, with: Text, ref: Ref, sign: Text, kept: Text, keptRef: Ref })).min(5),
+  groups: z.array(z.object({ id: Id, title: Text, summary: Text })).min(3),
+  questions: z.array(QA).min(8),
+  quiz: z.array(QuizItem).min(10),
+  sources: z.array(Id).min(1),
+})
+export type IsraelHistory = z.infer<typeof IsraelHistory>

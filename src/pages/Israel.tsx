@@ -172,7 +172,10 @@ export default function Israel() {
       <Section id="quiz" title={t('Test yourself')} lede={t('Questions drawn from both camps and from history.')}>
         <Quiz items={s.quiz} />
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link to="/olivet" className="btn btn-primary no-underline">
+          <Link to="/israel-history" className="btn btn-primary no-underline">
+            <Icon name="timeline" /> {t('The history of Israel')}
+          </Link>
+          <Link to="/olivet" className="btn no-underline">
             <Icon name="compass" /> {t('Matthew 24 and AD 70')}
           </Link>
           <Link to="/signs" className="btn no-underline">

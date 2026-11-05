@@ -99,6 +99,7 @@ function emit(b: ContentBundle, out: string, opts: { bible?: boolean } = {}) {
   write('judgments', { judgments: b.judgments })
   write('warnings', { warnings: b.warnings })
   write('claims', { claims: b.claims })
+  write('israel-history', { israelHistory: b.israelHistory })
   // A slim slice for the first screen (home page + app shell).
   write('core', {
     positions: b.positions.map(({ id, name, shortName, axis, color, initial, tagline, summary }) => ({ id, name, shortName, axis, color, initial, tagline, summary })),
