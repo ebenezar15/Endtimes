@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { OnceDiagram } from '../components/fulfilled/OnceDiagram'
 import { HeroPanel } from '../components/studies/HeroPanel'
 import { KeyIdeas } from '../components/studies/KeyIdeas'
 import { KEY_IDEAS } from '../components/studies/keyIdeasData'
@@ -104,7 +105,10 @@ export default function Fulfilled() {
       </Section>
 
       <Section id="once" title={t('One fulfilment, not two')} lede={t('Why this reading rejects a second, future fulfilment, and the best case on the other side.')}>
-        <DoubleFulfilment d={s.doubleFulfilment} />
+        <OnceDiagram />
+        <div className="mt-4">
+          <DoubleFulfilment d={s.doubleFulfilment} />
+        </div>
       </Section>
 
       <Section id="revelation" title={t('Eight clues for an early Revelation')} lede={t('If Revelation was written before AD 70, it too points to the fall of Jerusalem. Each clue, and the late-date reply.')}>
