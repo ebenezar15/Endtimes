@@ -1,4 +1,8 @@
 import { AnimatePresence, motion } from 'framer-motion'
+import { QuestionOrbit } from '../components/qa/QuestionOrbit'
+import { HeroPanel } from '../components/studies/HeroPanel'
+import { KeyIdeas } from '../components/studies/KeyIdeas'
+import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { StudyMap } from '../components/StudyMap'
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -10,7 +14,6 @@ import { QAExplorer } from '../components/qa/QAExplorer'
 import { Sources } from '../components/Sources'
 import { Flow } from '../components/studies/Debate'
 import { ProgressBar, Section } from '../components/studies/Section'
-import { CountUp } from '../components/ui'
 import { t } from '../lib/i18n'
 import { refLabel } from '../lib/refLabel'
 import { prophecyQA } from '../lib/data/qa'
@@ -105,7 +108,7 @@ export default function ProphecyQA() {
   return (
     <div className="mx-auto max-w-6xl">
       <ProgressBar />
-      <section className="grid grid-cols-[minmax(0,1fr)] items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
+      <HeroPanel className="grid grid-cols-[minmax(0,1fr)] items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent">{t('Ask, search, read')}</p>
           <motion.h1 className="mt-2 text-4xl font-bold leading-[1.05] sm:text-5xl" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }}>
@@ -113,24 +116,17 @@ export default function ProphecyQA() {
           </motion.h1>
           <Prose text={s.intro} className="mt-4 text-[1.05rem]" />
         </div>
-        <div className="grid grid-cols-2 gap-3">
-          {[
-            [s.questions.length, t('questions answered')],
-            [s.groups.length, t('topics')],
-            [s.predictions.length, t('failed predictions')],
-            [s.candidates.length, t('“Antichrists” named')],
-          ].map(([n, l], k) => (
-            <motion.div key={k} initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.1 * k }} className="leaf p-4 text-center">
-              <p className="font-serif text-4xl font-bold text-accent">
-                <CountUp to={n as number} />
-              </p>
-              <p className="mt-1 text-sm font-semibold">{l}</p>
-            </motion.div>
-          ))}
+        <div className="relative">
+          <QuestionOrbit groups={s.groups} counts={Object.fromEntries(s.groups.map((g) => [g.id, s.questions.filter((q) => q.group === g.id).length]))} total={s.questions.length} />
+          <div className="mt-2 flex flex-wrap justify-center gap-2 text-sm">
+            <span className="chip">{t('{n} failed predictions', { n: s.predictions.length })}</span>
+            <span className="chip">{t('{n} “Antichrists” named', { n: s.candidates.length })}</span>
+          </div>
         </div>
-      </section>
+      </HeroPanel>
 
       <StudyMap />
+      <KeyIdeas items={KEY_IDEAS['questions']()} />
 
       <Section id="principles" title={t('Keys for reading prophecy')} lede={t('The principles every answer below relies on.')}>
         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

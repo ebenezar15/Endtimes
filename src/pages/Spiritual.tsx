@@ -1,4 +1,7 @@
 import { refLabel } from '../lib/refLabel'
+import { HeroPanel } from '../components/studies/HeroPanel'
+import { KeyIdeas } from '../components/studies/KeyIdeas'
+import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { StudyMap } from '../components/StudyMap'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
@@ -68,7 +71,7 @@ export default function Spiritual() {
   const chapters = [...s.chapters].sort((a, b) => a.chapter - b.chapter)
   return (
     <div className="mx-auto max-w-6xl">
-      <section className="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)]">
+      <HeroPanel className="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)]">
         <div>
           <motion.p className="text-xs font-bold uppercase tracking-[0.3em] text-accent" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
             {t('A Christ-centred reading of Revelation')}
@@ -104,8 +107,9 @@ export default function Spiritual() {
         <div className="leaf overflow-hidden p-2 lg:sticky lg:top-24 lg:mt-6">
           <UnveilHero />
         </div>
-      </section>
+      </HeroPanel>
       <StudyMap />
+      <KeyIdeas items={KEY_IDEAS['spiritual']()} />
 
       <Section id="principles" title={t('How this view reads the book')} lede={t('The reading principles that shape every chapter.')}>
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

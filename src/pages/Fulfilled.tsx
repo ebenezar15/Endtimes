@@ -1,4 +1,7 @@
 import { motion } from 'framer-motion'
+import { HeroPanel } from '../components/studies/HeroPanel'
+import { KeyIdeas } from '../components/studies/KeyIdeas'
+import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { StudyMap } from '../components/StudyMap'
 import { DeepDives } from '../components/DeepDives'
 import { useState } from 'react'
@@ -30,7 +33,7 @@ export default function Fulfilled() {
   return (
     <div className="mx-auto max-w-6xl">
       <ProgressBar />
-      <section className="grid grid-cols-[minmax(0,1fr)] items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
+      <HeroPanel className="grid grid-cols-[minmax(0,1fr)] items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent">{t('The fulfilled reading')}</p>
           <motion.h1 className="mt-2 text-4xl font-bold leading-[1.05] sm:text-5xl" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }}>
@@ -47,9 +50,10 @@ export default function Fulfilled() {
           <GenerationClock />
           <p className="mt-1 text-center text-xs text-ink-soft">{t('Forty years from the prophecy to the fall of the temple · tap to replay')}</p>
         </div>
-      </section>
+      </HeroPanel>
 
       <StudyMap />
+      <KeyIdeas items={KEY_IDEAS['fulfilled']()} />
 
       <div className="leaf mt-6 p-5" style={{ borderLeft: '5px solid var(--gold)' }}>
         <p className="flex items-center gap-2 font-bold text-[var(--gold)]">

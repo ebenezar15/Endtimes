@@ -21,7 +21,7 @@ const QUESTIONS: { to: string; q: string; s: string; icon: IconName; tone: 'gold
 const TONE = { gold: 'var(--gold)', teal: 'var(--accent)', coral: 'var(--rubric)', violet: 'var(--violet, var(--accent))' }
 
 /** A slow constellation: drifting points of light joined when they come near, like a living star map. */
-function Constellation() {
+export function Constellation() {
   const ref = useRef<HTMLCanvasElement>(null)
   const reduce = useReducedMotion()
   useEffect(() => {

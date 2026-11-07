@@ -1,4 +1,6 @@
 import { refLabel } from '../lib/refLabel'
+import { KeyIdeas } from '../components/studies/KeyIdeas'
+import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { StudyMap } from '../components/StudyMap'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
@@ -193,6 +195,7 @@ export default function Josephus() {
         </div>
       </section>
       <StudyMap />
+      <KeyIdeas items={KEY_IDEAS['josephus']()} />
 
       <Section id="about" title={t('Who was Josephus?')}>
         <div className="leaf p-5">

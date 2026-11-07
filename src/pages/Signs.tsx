@@ -1,4 +1,7 @@
 import { refLabel } from '../lib/refLabel'
+import { HeroPanel } from '../components/studies/HeroPanel'
+import { KeyIdeas } from '../components/studies/KeyIdeas'
+import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { StudyMap } from '../components/StudyMap'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useMemo, useState } from 'react'
@@ -194,7 +197,7 @@ export default function Signs() {
   return (
     <div className="mx-auto max-w-6xl">
       <ProgressBar />
-      <section className="grid grid-cols-[minmax(0,1fr)] items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
+      <HeroPanel className="grid grid-cols-[minmax(0,1fr)] items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent">{t('Prophecy and the newspaper')}</p>
           <motion.h1 className="mt-2 text-4xl font-bold leading-[1.05] sm:text-5xl" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }}>
@@ -211,8 +214,9 @@ export default function Signs() {
           <StampWall items={s.history} />
           <p className="mt-2 text-center text-xs text-ink-soft">{t('Dates set for the end, stamped as they passed · tap to replay')}</p>
         </div>
-      </section>
+      </HeroPanel>
       <StudyMap />
+      <KeyIdeas items={KEY_IDEAS['signs']()} />
 
       <Section id="history" title={t('“The end is near”: two thousand years of predictions')} lede={t('Every generation has had its signs. Turn each card over to see what happened and what it teaches.')}>
         <div className="mb-4 flex flex-wrap gap-1.5">

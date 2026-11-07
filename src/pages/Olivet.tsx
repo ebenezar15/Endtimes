@@ -1,4 +1,7 @@
 import { refLabel } from '../lib/refLabel'
+import { HeroPanel } from '../components/studies/HeroPanel'
+import { KeyIdeas } from '../components/studies/KeyIdeas'
+import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { StudyMap } from '../components/StudyMap'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
@@ -165,34 +168,20 @@ export default function Olivet() {
   return (
     <div className="mx-auto max-w-6xl">
       <ProgressBar />
-      <section className="grid grid-cols-[minmax(0,1fr)] items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
+      <HeroPanel className="grid grid-cols-[minmax(0,1fr)] items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent">{t('Matthew 24 · Mark 13 · Luke 21')}</p>
           <motion.h1 className="mt-2 text-4xl font-bold leading-[1.05] sm:text-5xl" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }}>
             {t('The Olivet Discourse')}
           </motion.h1>
           <Prose text={o.intro} className="mt-4 text-[1.05rem]" />
-          <nav aria-label={t('On this page')} className="mt-5 flex flex-wrap gap-2 text-sm">
-            {([
-              ['setting', t('The setting')],
-              ['questions', t('The questions')],
-              ['discourse', t('Verse by verse')],
-              ['history', t('AD 30–73')],
-              ['fulfilments', t('Prophecy and history')],
-              ['generation', t('“This generation”')],
-              ['related', t('Related passages')],
-            ] as const).map(([id, l]) => (
-              <a key={id} href={`#${id}`} onClick={(e) => (e.preventDefault(), document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }))} className="chip no-underline hover:border-accent">
-                {l}
-              </a>
-            ))}
-          </nav>
         </div>
         <div className="leaf p-3">
           <StonesHero />
         </div>
-      </section>
+      </HeroPanel>
       <StudyMap />
+      <KeyIdeas items={KEY_IDEAS['olivet']()} />
 
       <Section id="setting" title={t('The world Jesus was speaking to')} lede={t('Who heard these words, what they could see from the Mount of Olives, and how the next forty years unfolded.')}>
         <ul className="grid gap-3 md:grid-cols-2">

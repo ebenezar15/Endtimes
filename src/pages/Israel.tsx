@@ -1,4 +1,7 @@
 import { motion } from 'framer-motion'
+import { HeroPanel } from '../components/studies/HeroPanel'
+import { KeyIdeas } from '../components/studies/KeyIdeas'
+import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { StudyMap } from '../components/StudyMap'
 import { DeepDives } from '../components/DeepDives'
 import { Link } from 'react-router-dom'
@@ -18,7 +21,7 @@ export default function Israel() {
   return (
     <div className="mx-auto max-w-6xl">
       <ProgressBar />
-      <section className="grid grid-cols-[minmax(0,1fr)] items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
+      <HeroPanel className="grid grid-cols-[minmax(0,1fr)] items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent">{t('Promise and fulfilment')}</p>
           <motion.h1 className="mt-2 text-4xl font-bold leading-[1.05] sm:text-5xl" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }}>
@@ -35,9 +38,10 @@ export default function Israel() {
           <SeedHero />
           <p className="mt-1 text-center text-xs text-ink-soft">{t('Tap to step through the promise')}</p>
         </div>
-      </section>
+      </HeroPanel>
 
       <StudyMap />
+      <KeyIdeas items={KEY_IDEAS['israel']()} />
 
       <ul className="mt-8 grid gap-3 md:grid-cols-2 lg:grid-cols-4">
         {s.stakes.map((x, i) => (

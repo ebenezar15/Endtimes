@@ -1,4 +1,7 @@
 import { motion } from 'framer-motion'
+import { HeroPanel } from '../components/studies/HeroPanel'
+import { KeyIdeas } from '../components/studies/KeyIdeas'
+import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { RaptureHero } from '../components/rapture/RaptureHero'
 import { StudyMap } from '../components/StudyMap'
 import { DeepDives } from '../components/DeepDives'
@@ -25,7 +28,7 @@ export default function Rapture() {
   return (
     <div className="mx-auto max-w-6xl">
       <ProgressBar />
-      <section className="grid grid-cols-[minmax(0,1fr)] items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
+      <HeroPanel className="grid grid-cols-[minmax(0,1fr)] items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent">{t('When, how long, and what now?')}</p>
           <motion.h1 className="mt-2 text-4xl font-bold leading-[1.05] sm:text-5xl" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }}>
@@ -56,9 +59,10 @@ export default function Rapture() {
             ))}
           </ol>
         </div>
-      </section>
+      </HeroPanel>
 
       <StudyMap />
+      <KeyIdeas items={KEY_IDEAS['rapture']()} />
 
       <Section id="timing" title={t('Where each view places the rapture')} lede={t('Daniel’s seventieth week drawn as seven years. Tap a view to see where it puts the gathering of believers, the outpouring of wrath, and the return.')}>
         <TimingMachine views={s.tribViews} />

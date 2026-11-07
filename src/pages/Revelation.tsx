@@ -1,4 +1,6 @@
 import { AnimatePresence, motion } from 'framer-motion'
+import { KeyIdeas } from '../components/studies/KeyIdeas'
+import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { PageHeader } from '../components/PageHeader'
@@ -43,6 +45,9 @@ export default function Revelation() {
         <motion.div initial={{ opacity: 0, scale: 0.94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }} className="leaf mb-8 p-3">
           <SealedScroll />
         </motion.div>
+      </div>
+      <div className="mb-10">
+        <KeyIdeas items={KEY_IDEAS['revelation']()} />
       </div>
 
       <Link to="/revelation/connections" className="group leaf glow-card mb-12 flex flex-wrap items-center gap-4 p-5 text-ink no-underline transition-transform hover:-translate-y-1">
