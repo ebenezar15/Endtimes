@@ -1,1221 +1,1445 @@
 {
-  "dives": [
+ "dives": [
+  {
+   "id": "all-israel",
+   "topics": [
+    "israel",
+    "hope"
+   ],
+   "title": "“All Israel will be saved”: in this way",
+   "question": "Does Romans 11:26 promise a future national conversion of ethnic Israel, with a rebuilt temple and a throne in Jerusalem, or something Paul was already seeing?",
+   "steps": [
     {
-      "id": "no-double",
-      "topics": [
-        "fulfilled",
-        "rapture",
-        "claims"
-      ],
-      "title": "No double fulfilment of Matthew 24",
-      "question": "Many now agree Matthew 24 was fulfilled in AD 70, but say it will be fulfilled again in our future. Can it be fulfilled twice?",
-      "steps": [
-        {
-          "title": "The double-fulfilment idea",
-          "text": "Some accept that Jesus foretold the fall of Jerusalem, yet keep a future tribulation by saying the prophecy will be fulfilled a second time.",
-          "refs": [
-            "Matthew 24:1-2"
-          ]
-        },
-        {
-          "title": "Real double fulfilments exist",
-          "text": "Scripture does have them: the son of David who builds God's house was Solomon first, then Christ, who builds his church.",
-          "refs": [
-            "2 Samuel 7:12-13",
-            "Matthew 16:18"
-          ]
-        },
-        {
-          "title": "But they follow one pattern",
-          "text": "The first is a shadow before the cross; the greater fulfilment comes after it, in Christ and the church. There is no case of both coming after the cross.",
-          "refs": [
-            "Hebrews 10:1",
-            "Colossians 2:17"
-          ]
-        },
-        {
-          "title": "The flight from Judea",
-          "text": "When the abomination stood in the holy place, those in Judea were to flee: “for then there will be great tribulation.” That flight happened once.",
-          "refs": [
-            "Matthew 24:15-21"
-          ]
-        },
-        {
-          "title": "“Nor ever will be”",
-          "text": "Verse 21 says nothing before the tribulation matched it and nothing after it ever will. A later one equal to it, or greater, would contradict Jesus.",
-          "refs": [
-            "Matthew 24:21"
-          ]
-        },
-        {
-          "title": "One generation",
-          "text": "All these things, beginning with the temple's fall, would happen within that generation, not across two.",
-          "refs": [
-            "Matthew 24:34"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Supporters of a double fulfilment point to prophecies with near and far horizons, such as Isaiah 7:14, and argue that the cosmic signs and the gathering of the elect (24:29-31) go beyond AD 70, so a greater fulfilment is still to come.",
-      "conclusion": "Matthew 24's tribulation was a single, unrepeatable event in Jesus' own generation. If we see that he foretold AD 70, we should not keep a second, future tribulation to protect a system we were taught.",
-      "caution": "Many who hold this reading still expect Christ's future bodily return and the final judgement, which they find in other texts (Acts 1:11; 1 Corinthians 15)."
+     "title": "Start where Paul starts",
+     "text": "Romans 11 answers a question raised in chapter 9: has God's word failed, now that most of Israel has rejected the Messiah?",
+     "refs": [
+      "Romans 9:1-6"
+     ]
     },
     {
-      "id": "timothy-3",
-      "topics": [
-        "hope",
-        "claims"
-      ],
-      "title": "2 Timothy 3: was the world “waxing worse” in Timothy's day?",
-      "question": "Does 2 Timothy 3 describe the world just before a future rapture, and does verse 13 (“evil men will go from bad to worse”) mean history must keep declining?",
-      "steps": [
-        {
-          "title": "The popular reading",
-          "text": "Many prophecy books read the vice list of 3:1-5 as a portrait of our own culture, and verse 13 as a law that history must get worse until the end.",
-          "refs": [
-            "2 Timothy 3:1-5",
-            "2 Timothy 3:13"
-          ]
-        },
-        {
-          "title": "Timothy is told to avoid them",
-          "text": "Paul ends the list with “avoid such people” (3:5). He could only say that if they were in Timothy's world.",
-          "refs": [
-            "2 Timothy 3:5"
-          ]
-        },
-        {
-          "title": "The last days had begun",
-          "text": "Hebrews says God spoke “in these last days” by his Son, and Paul says the ends of the ages had come on his readers. The last days were the closing days of the old covenant age.",
-          "refs": [
-            "Hebrews 1:1-2",
-            "1 Corinthians 10:11"
-          ]
-        },
-        {
-          "title": "Like Jannes and Jambres",
-          "text": "Paul compares the false teachers to Pharaoh's magicians who opposed Moses: they will not get very far, for their folly will be plain to all.",
-          "refs": [
-            "2 Timothy 3:8-9"
-          ]
-        },
-        {
-          "title": "Paul's own persecutions",
-          "text": "The chapter is full of Paul's history: Antioch, Iconium and Lystra. Verse 13 describes the impostors who troubled him and Timothy.",
-          "refs": [
-            "2 Timothy 3:10-13"
-          ]
-        },
-        {
-          "title": "The program: Scripture and good works",
-          "text": "Paul's answer is not escape but Scripture, which equips the believer for every good work. That is a call to build.",
-          "refs": [
-            "2 Timothy 3:14-17"
-          ]
-        },
-        {
-          "title": "Expectation shapes work",
-          "text": "If believers are taught that decline is certain, they stop planning and building. Scripture's model is the ant, which prepares for what is ahead.",
-          "refs": [
-            "Proverbs 6:6-11"
-          ]
-        },
-        {
-          "title": "“Do business until I come”",
-          "text": "The parable of the minas sits in the same chapter as Jesus weeping over Jerusalem and foretelling its siege. Many of his parables warned of the coming judgement on that city.",
-          "refs": [
-            "Luke 19:11-27",
-            "Luke 19:41-44"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Futurists answer that 3:1 is phrased as future (“in the last days there will come times of difficulty”), and that verse 13 states a principle that deception grows over time. Many futurists are themselves active in evangelism and public life and reject the idea that their view forbids building.",
-      "conclusion": "2 Timothy 3 described the opponents of Paul and Timothy in the apostolic generation. It is not a forecast of inevitable decline, and it ends with a program of faithful, Scripture-equipped work.",
-      "caution": "Verse 12, “all who desire to live a godly life in Christ Jesus will be persecuted,” does state a lasting principle; this reading applies the decline of verse 13 to the impostors, not the persecution of verse 12."
+     "title": "Paul defines Israel",
+     "text": "Not everyone descended from Israel is Israel. The children of the promise, not simply the children of the flesh, are counted as Abraham's offspring.",
+     "refs": [
+      "Romans 9:6-8"
+     ]
     },
     {
-      "id": "roman-coins",
-      "topics": [
-        "judgments",
-        "dating",
-        "claims"
-      ],
-      "title": "Do Roman coins date the book of Revelation?",
-      "question": "A coin of Domitian (about AD 82-83) shows his dead infant son on a globe surrounded by seven stars. Does it show that Revelation, with Christ holding seven stars, was written about AD 95?",
-      "steps": [
-        {
-          "title": "The late-date claim",
-          "text": "Some argue that Christ holding the seven stars (Revelation 1:16) answers this coin of Domitian's deified son, so Revelation should be dated to Domitian's reign.",
-          "refs": [
-            "Revelation 1:16"
-          ]
-        },
-        {
-          "title": "Stars meant deification",
-          "text": "On Roman coins a star, or stars, usually marked a ruler or family member declared divine after death. It was a standard design, not a one-off.",
-          "refs": []
-        },
-        {
-          "title": "Seven stars long before Domitian",
-          "text": "A crescent with seven stars appears on a Republican coin of about 76 BC, and seven stars honoured the deified Augustus on Cretan coins under Caligula and Claudius.",
-          "refs": []
-        },
-        {
-          "title": "And long after him",
-          "text": "The crescent and seven stars reappear under Hadrian (AD 125-128) and on coins of Julia Maesa in the 210s-220s. A design used for three centuries cannot point to one decade.",
-          "refs": []
-        },
-        {
-          "title": "Revelation explains its own symbol",
-          "text": "“The seven stars are the angels of the seven churches.” No coin is needed to decode it.",
-          "refs": [
-            "Revelation 1:20"
-          ]
-        },
-        {
-          "title": "Stars as people in Scripture",
-          "text": "Joseph's dream, Abraham's offspring and the woman crowned with twelve stars already use stars for people, and the prophets use falling stars for fallen rulers.",
-          "refs": [
-            "Genesis 37:9-10",
-            "Genesis 22:17",
-            "Revelation 12:1",
-            "Isaiah 14:12"
-          ]
-        },
-        {
-          "title": "The number of the beast",
-          "text": "“Nero Caesar” in Hebrew letters totals 666; without the final n it totals 616, a variant Irenaeus knew. That points to Nero, and to a date before AD 70.",
-          "refs": [
-            "Revelation 13:18"
-          ]
-        },
-        {
-          "title": "The time words",
-          "text": "Revelation says its events must soon take place. Something had to follow soon after it was written.",
-          "refs": [
-            "Revelation 1:1, 3",
-            "Revelation 22:6, 10"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "year": -76,
-          "label": "Republican denarius",
-          "detail": "Crescent moon with seven stars (L. Lucretius Trio).",
-          "key": false
-        },
-        {
-          "year": -18,
-          "label": "DIVVS IVLIVS coin of Augustus",
-          "detail": "Caesar's comet as a sign of his deification (one star, not seven).",
-          "key": false
-        },
-        {
-          "year": 37,
-          "label": "Caligula's coin of Divus Augustus",
-          "detail": "The deified Augustus shown with stars (usually two).",
-          "key": false
-        },
-        {
-          "year": 50,
-          "label": "Cretan coins under Caligula and Claudius",
-          "detail": "Seven stars honouring the deified Augustus.",
-          "key": false
-        },
-        {
-          "year": 83,
-          "label": "Domitian's coin of his dead son",
-          "detail": "The infant on a globe surrounded by seven stars: the coin cited for a late date.",
-          "key": true
-        },
-        {
-          "year": 126,
-          "label": "Hadrian's denarii",
-          "detail": "Crescent and seven stars.",
-          "key": false
-        },
-        {
-          "year": 218,
-          "label": "Julia Maesa's denarius",
-          "detail": "SAECVLI FELICITAS: crescent and seven stars.",
-          "key": false
-        }
-      ],
-      "opponent": "Late-date scholars rest mainly on Irenaeus (about AD 180), who placed the vision near the end of Domitian's reign, and on the condition of the seven churches. For them the coin is background colour (Christ, not the emperor's son, holds the stars), not proof, and most admit it does not settle the date.",
-      "conclusion": "The coin does not date Revelation. Seven stars were a common deification design for three centuries, and Revelation defines its own stars. The Nero number and the “soon” texts fit a date before AD 70 better.",
-      "caution": "Josephus describes a sword-shaped star and a year-long comet over Jerusalem before its fall (Jewish War 6.5.3) but gives no year; linking it to Halley's comet of AD 66 is a modern suggestion."
+     "title": "A remnant, now",
+     "text": "Isaiah foresaw that only a remnant would be saved. Like the 7,000 of Elijah's day, there was a remnant chosen by grace in Paul's own time.",
+     "refs": [
+      "Romans 9:27",
+      "Romans 11:2-5"
+     ]
     },
     {
-      "id": "olivet-futurist",
-      "topics": [
-        "fulfilled",
-        "claims"
-      ],
-      "title": "Does the futurist reading of the Olivet Discourse hold up?",
-      "question": "A widely read futurist book argues that Jesus mentions the temple's fall only in Matthew 24:2 and then answers questions about the end of history. Does the text support that?",
-      "steps": [
-        {
-          "title": "The futurist claim",
-          "text": "Jesus, it is said, “virtually ignores” the disciples' question about when the temple would fall, and describes a future, worldwide tribulation.",
-          "refs": [
-            "Matthew 24:1-3"
-          ]
-        },
-        {
-          "title": "The question was answered",
-          "text": "Nothing says Jesus ignored it. He told them the stones in front of them would fall before “this generation” passed.",
-          "refs": [
-            "Matthew 24:2",
-            "Matthew 24:34"
-          ]
-        },
-        {
-          "title": "A local escape",
-          "text": "The tribulation can be escaped by fleeing from Judea to the mountains, which only makes sense for a local catastrophe.",
-          "refs": [
-            "Matthew 24:16-20"
-          ]
-        },
-        {
-          "title": "Cosmic language, historic judgement",
-          "text": "Sun and moon darkened and stars falling is the prophets' language for the fall of Babylon and of Judah.",
-          "refs": [
-            "Matthew 24:29-30",
-            "Isaiah 13:9-10",
-            "Zephaniah 1:14-16"
-          ]
-        },
-        {
-          "title": "“This generation”",
-          "text": "Everywhere else in the Gospels it means Jesus' contemporaries, and many commentators who are not preterists agree.",
-          "refs": [
-            "Matthew 23:36",
-            "Mark 8:12, 38",
-            "Mark 9:19"
-          ]
-        },
-        {
-          "title": "“Near” means near",
-          "text": "James explains “at hand” as “at the door”: close, not merely possible at any moment.",
-          "refs": [
-            "James 5:8-9",
-            "Matthew 24:33"
-          ]
-        },
-        {
-          "title": "Literal signs, literally fulfilled",
-          "text": "There were real earthquakes, famines and false prophets in that generation; preterism does not spiritualise them.",
-          "refs": [
-            "Acts 11:28",
-            "Acts 16:26",
-            "1 John 4:1"
-          ]
-        },
-        {
-          "title": "The gospel in all the world",
-          "text": "Paul says the gospel had been proclaimed in all creation under heaven; the word for world in Matthew 24:14 means the inhabited Roman world.",
-          "refs": [
-            "Matthew 24:14",
-            "Colossians 1:6, 23",
-            "Luke 2:1"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Futurists answer that the disciples asked two or three questions (the temple, his coming, the end of the age), that AD 70 was a preview of a greater fulfilment, that “generation” can mean “race” or the generation that sees the final signs, and that the gathering of the elect and Matthew 25's judgement go beyond AD 70.",
-      "conclusion": "The futurist reading has to set aside the time texts and the local instructions. A first-century fulfilment of the discourse remains the more natural reading.",
-      "caution": "Some partial preterists themselves see a shift to the final coming at 24:36 or 25:31; the Matthew 24 study shows both."
+     "title": "Hardening opens the door",
+     "text": "Part of Israel was hardened so the Gentiles could come in. Believing Gentiles are grafted into the same olive tree, not a second one.",
+     "refs": [
+      "Romans 11:17-25"
+     ]
     },
     {
-      "id": "scoffers",
-      "topics": [
-        "warnings",
-        "claims"
-      ],
-      "title": "Who were the “last days” scoffers, and when?",
-      "question": "Are the mockers of 2 Peter 3 and Jude modern sceptics of a soon return, or first-century opponents mocking Jesus' prophecy about his own generation?",
-      "steps": [
-        {
-          "title": "Who gets called a scoffer today",
-          "text": "Christians who question date-setting are often called the scoffers of 2 Peter 3. But the time words of Scripture (“soon,” “near,” “at the door”) are the real issue.",
-          "refs": [
-            "James 5:7-9",
-            "Revelation 22:10"
-          ]
-        },
-        {
-          "title": "Jesus tied his coming to his generation",
-          "text": "Some standing there would live to see it, and this generation would not pass until all these things happened.",
-          "refs": [
-            "Matthew 16:28",
-            "Matthew 24:33-34"
-          ]
-        },
-        {
-          "title": "Jude: “these are” the ones",
-          "text": "Jude repeats the apostles' warning about mockers in the last time and then says, in the present tense, “these are” the ones causing divisions. The scoffers were already present.",
-          "refs": [
-            "Jude 17-19"
-          ]
-        },
-        {
-          "title": "What they mocked",
-          "text": "“Where is the promise of his coming?” Decades after Jesus spoke, the temple still stood, recently completed and more splendid than ever.",
-          "refs": [
-            "2 Peter 3:3-4",
-            "Matthew 24:2"
-          ]
-        },
-        {
-          "title": "Scoffers in Jerusalem before",
-          "text": "Isaiah addressed “scoffers who rule this people in Jerusalem,” and God's answer was a cornerstone laid in Zion, which the apostles apply to Christ.",
-          "refs": [
-            "Isaiah 28:14-16",
-            "1 Peter 2:6"
-          ]
-        },
-        {
-          "title": "The prophecy at the trial",
-          "text": "Jesus told the high priest, “from now on you will see the Son of Man seated at the right hand of Power and coming on the clouds.” Then the guards mocked him: “Prophesy!”",
-          "refs": [
-            "Matthew 26:64-68",
-            "Daniel 7:13"
-          ]
-        },
-        {
-          "title": "Last days of Jerusalem",
-          "text": "The 17th-century scholar John Lightfoot read “last days” in these letters as the last days of Jerusalem and the Jewish state, while insisting the warning still applies to every generation.",
-          "refs": [
-            "2 Timothy 3:1",
-            "1 John 2:18"
-          ]
-        },
-        {
-          "title": "The promise kept",
-          "text": "The coming the scoffers mocked arrived in judgement on that generation, and the temple fell, as Jesus said.",
-          "refs": [
-            "Luke 21:20-22",
-            "Matthew 23:36"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Futurists answer that 2 Peter 3 links the coming to heavens and earth dissolved by fire and a new heavens and earth (3:7, 10-13), which sounds like the end of history; that “all things continue as they were” is a timeless sceptic's complaint; that “a day is as a thousand years” expects a long delay; and that many scholars date 2 Peter after AD 70.",
-      "conclusion": "The scoffers Peter and Jude warned about were first-century opponents who mocked Jesus' prophecy for his own generation. The label should not be turned on Christians who take the Bible's time words seriously.",
-      "caution": "2 Peter 3:10-13 is the hardest text for this reading, and partial preterists differ on it: many read it as the final judgement, some as the end of the old covenant world. The date of 2 Peter is also debated."
+     "title": "“And in this way”",
+     "text": "The Greek houtōs means “so” or “in this manner”, not “after that”. In this way, by the remnant plus the grafted-in Gentiles, all Israel is saved.",
+     "refs": [
+      "Romans 11:26"
+     ]
     },
     {
-      "id": "pessimism",
-      "topics": [
-        "hope",
-        "claims"
-      ],
-      "title": "Why prophecy pessimism keeps returning",
-      "question": "Why do so many Christians expect the world to get worse until the end, and what happens to a church that expects only decline?",
-      "steps": [
-        {
-          "title": "Reading fulfilled prophecy as future",
-          "text": "A major reason for recurring end-times fever is reading prophecies that were fulfilled in the first century as if they were still waiting to happen.",
-          "refs": [
-            "Luke 24:44"
-          ]
-        },
-        {
-          "title": "The first-century mistake",
-          "text": "Many in Jesus' day failed to see him as the fulfilment of their own Scriptures; the reverse mistake is failing to see what he fulfilled.",
-          "refs": [
-            "John 1:11",
-            "Luke 24:25-27"
-          ]
-        },
-        {
-          "title": "What we expect shapes what we build",
-          "text": "A church that expects only defeat stops planning and investing in the next generation, while others who expect an earthly future shape the culture.",
-          "refs": [
-            "Proverbs 6:6-8",
-            "Jeremiah 29:4-7"
-          ]
-        },
-        {
-          "title": "The kingdom grows",
-          "text": "Scripture's own pictures are of growth: a stone that fills the earth, a mustard seed, leaven through all the dough.",
-          "refs": [
-            "Daniel 2:35",
-            "Matthew 13:31-33"
-          ]
-        },
-        {
-          "title": "Christ reigns now",
-          "text": "He must reign until all his enemies are under his feet; the believer's labour in the Lord is not in vain.",
-          "refs": [
-            "1 Corinthians 15:25",
-            "1 Corinthians 15:58"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Premillennial and amillennial believers answer that hope rests on Christ's return, not on progress in history, and that many of them have built schools, hospitals and missions while expecting the world to be mixed or worse until the end.",
-      "conclusion": "Reading the prophecies in their setting removes the “everything must get worse” mood and frees the church to work with hope.",
-      "caution": "Claims about which groups will dominate the culture are predictions, not exegesis; the biblical point is the call to faithful work."
-    },
-    {
-      "id": "abomination",
-      "topics": [
-        "fulfilled",
-        "judgments"
-      ],
-      "title": "The abomination of desolation: future, or before AD 70?",
-      "question": "Does Matthew 24:15 still wait for a rebuilt temple and a final Antichrist, or was it fulfilled before Jerusalem fell?",
-      "steps": [
-        {
-          "title": "Jesus said “you”",
-          "text": "He answered the disciples' own question about the temple in front of them, and kept saying “you” to them.",
-          "refs": [
-            "Matthew 24:1-3",
-            "Matthew 24:15"
-          ]
-        },
-        {
-          "title": "Local, first-century details",
-          "text": "Flat rooftops, a cloak left in the field, the Sabbath and fleeing Judea on foot all fit first-century Judea.",
-          "refs": [
-            "Matthew 24:16-20"
-          ]
-        },
-        {
-          "title": "No rebuilt temple in the New Testament",
-          "text": "A future fulfilment needs a third temple, which no New Testament text predicts; Matthew 24 never mentions “the antichrist.”",
-          "refs": [
-            "Matthew 24:2"
-          ]
-        },
-        {
-          "title": "Luke explains it",
-          "text": "Luke's parallel says: when you see Jerusalem surrounded by armies, its desolation is near.",
-          "refs": [
-            "Luke 21:20-21"
-          ]
-        },
-        {
-          "title": "Defiled from within",
-          "text": "Daniel's earlier abomination came with the help of apostate priests, and Ezekiel saw the temple's own leaders defile it before its fall. Many see the zealots' and priests' defilement of the sanctuary in AD 66-70 the same way.",
-          "refs": [
-            "Ezekiel 8:5-18",
-            "Daniel 11:31"
-          ]
-        },
-        {
-          "title": "Within that generation",
-          "text": "All these things would happen before that generation passed.",
-          "refs": [
-            "Matthew 24:34"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Futurists answer that Paul's man of lawlessness sits in the temple (2 Thessalonians 2:4) and Revelation 13 describes a global ruler, so a final Antichrist in a rebuilt temple is still to come.",
-      "conclusion": "The abomination was a first-century event that came just before the temple's destruction, as Jesus warned his hearers.",
-      "caution": "Partial preterists differ on what exactly the abomination was: the Roman armies (Luke 21:20), the zealots' defilement of the temple, or apostate priests."
-    },
-    {
-      "id": "islamic-antichrist",
-      "topics": [
-        "judgments",
-        "claims"
-      ],
-      "title": "Is the Antichrist a Muslim leader, the Mahdi?",
-      "question": "Popular books now say the end-time Antichrist will be the Islamic Mahdi. Is that taught in Scripture, or read from the headlines?",
-      "steps": [
-        {
-          "title": "The villain keeps changing",
-          "text": "Prophecy writers have moved their Antichrist from Rome, to Russia, to Islam as the news changed: after 1979 and again after 2001.",
-          "refs": []
-        },
-        {
-          "title": "Start where the word is used",
-          "text": "Only John's letters use the word “antichrist.” He defines it: anyone who denies that Jesus came in the flesh.",
-          "refs": [
-            "1 John 2:22",
-            "1 John 4:2-3",
-            "2 John 7"
-          ]
-        },
-        {
-          "title": "Many, and already present",
-          "text": "John says many antichrists had already come, which is how his readers knew it was the last hour.",
-          "refs": [
-            "1 John 2:18-19"
-          ]
-        },
-        {
-          "title": "Every century had a candidate",
-          "text": "Popes, Turks, Napoleon, Mussolini, Hitler: each was confidently named, and each identification failed. The Turks were already Gog and the locusts of Revelation 9 for many 16th-century writers.",
-          "refs": [
-            "Revelation 9:1-11",
-            "Ezekiel 38:2"
-          ]
-        },
-        {
-          "title": "Islam is answered by the gospel",
-          "text": "Islam can be opposed and evangelised without making it a prophetic necessity. Christ has all authority, and the strong man is bound.",
-          "refs": [
-            "Matthew 28:18-20",
-            "Matthew 12:28-29"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "year": 1529,
-          "label": "The Turk at Vienna",
-          "detail": "Luther called the Turk Gog and the flesh of Antichrist, the pope its spirit.",
-          "key": false
-        },
-        {
-          "year": 1647,
-          "label": "Westminster Confession",
-          "detail": "Named the pope as the Antichrist (removed in the 1789 American revision).",
-          "key": false
-        },
-        {
-          "year": 1683,
-          "label": "Siege of Vienna",
-          "detail": "Ottoman advance read as a sign of the end.",
-          "key": false
-        },
-        {
-          "year": 1810,
-          "label": "Napoleon",
-          "detail": "Widely named as the beast or Antichrist.",
-          "key": false
-        },
-        {
-          "year": 1940,
-          "label": "Mussolini and Hitler",
-          "detail": "Each identified as the Antichrist by prophecy writers.",
-          "key": false
-        },
-        {
-          "year": 1979,
-          "label": "Russia, then Iran",
-          "detail": "The Soviet Union as Gog; the Islamic revolution begins a new focus.",
-          "key": false
-        },
-        {
-          "year": 2009,
-          "label": "The Islamic Mahdi",
-          "detail": "The latest identification, popular after 2001.",
-          "key": true
-        }
-      ],
-      "opponent": "Supporters point to parallels between Islamic Mahdi traditions and the beast of Daniel and Revelation, and argue that 2 Thessalonians 2 and Daniel 11 describe one future individual, different from John's “many antichrists.”",
-      "conclusion": "The Mahdi theory is the latest round of reading Scripture through the news. John's antichrists belonged to his own generation, and the church's task is to advance the gospel.",
-      "caution": "Scholars differ on who John's antichrists were: many see them as false teachers who had left the church (1 John 2:19)."
-    },
-    {
-      "id": "millennial-sacrifices",
-      "topics": [
-        "rapture",
-        "israel"
-      ],
-      "title": "Animal sacrifices in a future millennium?",
-      "question": "Dispensational teaching expects a rebuilt temple with animal sacrifices in Christ's millennial kingdom. Can that fit with the cross?",
-      "steps": [
-        {
-          "title": "Revelation 20 is silent",
-          "text": "It mentions no earthly reign from Jerusalem, no temple and no sacrifices; these come from Ezekiel 40-48 read literally.",
-          "refs": [
-            "Revelation 20:1-6"
-          ]
-        },
-        {
-          "title": "Hebrews says they are finished",
-          "text": "Christ offered himself once for all; where there is forgiveness, there is no longer any offering for sin.",
-          "refs": [
-            "Hebrews 10:10-18",
-            "Hebrews 9:11-14"
-          ]
-        },
-        {
-          "title": "Ezekiel says “for atonement”",
-          "text": "Ezekiel's offerings are to make atonement, so calling them mere memorials does not fit a literal reading.",
-          "refs": [
-            "Ezekiel 45:15-20"
-          ]
-        },
-        {
-          "title": "Paul resisted any return",
-          "text": "Paul opposed Gentiles being brought back under the old rites, even circumcision; how much more sacrifices.",
-          "refs": [
-            "Galatians 2:4-5",
-            "Colossians 2:16-17"
-          ]
-        },
-        {
-          "title": "The memorial Christ gave",
-          "text": "The Lord's Supper, bread and cup, is the new covenant's memorial of his death.",
-          "refs": [
-            "Luke 22:19-20",
-            "1 Corinthians 11:25-26"
-          ]
-        },
-        {
-          "title": "Ezekiel's temple fulfilled",
-          "text": "Ezekiel's river of life flows from Christ and his people, and Revelation's city has no temple.",
-          "refs": [
-            "John 7:37-39",
-            "Revelation 21:22"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Dispensationalists answer that Ezekiel 40-48 is too detailed to be symbolic, that Jewish believers still offered at the temple after the cross (Acts 21:26) without undermining it, and that the offerings would be memorials or ceremonial cleansing with Christ present.",
-      "conclusion": "Future animal sacrifices would turn back the clock the book of Hebrews was written to stop. Ezekiel's vision is fulfilled in Christ and his people.",
-      "caution": "Acts 21:26 is the strongest text for the other side and deserves careful study."
-    },
-    {
-      "id": "one-day",
-      "topics": [
-        "warnings",
-        "claims"
-      ],
-      "title": "Is there only one “day of the Lord”?",
-      "question": "Some say the Bible knows only one, final day of the Lord at Christ's return. Does Scripture agree?",
-      "steps": [
-        {
-          "title": "Many days in the prophets",
-          "text": "The prophets used the phrase for the fall of Babylon, Egypt, Samaria and Jerusalem: judgements in history.",
-          "refs": [
-            "Isaiah 13:6-10",
-            "Ezekiel 30:2-4",
-            "Amos 5:18-20",
-            "Zephaniah 1:14-18"
-          ]
-        },
-        {
-          "title": "Even futurist reference works agree",
-          "text": "Standard dispensational dictionaries define the day of the Lord as any period when God acts directly in judgement.",
-          "refs": []
-        },
-        {
-          "title": "Peter: “this is” it",
-          "text": "At Pentecost Peter said the prophecy of the Spirit and the great day was being fulfilled.",
-          "refs": [
-            "Acts 2:16-21"
-          ]
-        },
-        {
-          "title": "Paul warned his own readers",
-          "text": "The day would come like a thief on people saying “peace and safety”; Paul warned the Thessalonians themselves, echoing Jesus.",
-          "refs": [
-            "1 Thessalonians 5:2-4",
-            "Luke 21:34-36"
-          ]
-        },
-        {
-          "title": "A day that could be misjudged",
-          "text": "The Thessalonians feared the day had already come, which could not have meant a visible, bodily return.",
-          "refs": [
-            "2 Thessalonians 2:1-2"
-          ]
-        },
-        {
-          "title": "Near, at the door",
-          "text": "James told his readers the Lord's coming was near and the Judge at the door.",
-          "refs": [
-            "James 5:7-9"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "year": -722,
-          "label": "Samaria",
-          "detail": "Amos's day of darkness on Israel.",
-          "key": false
-        },
-        {
-          "year": -586,
-          "label": "Jerusalem",
-          "detail": "Zephaniah's day of wrath.",
-          "key": false
-        },
-        {
-          "year": -568,
-          "label": "Egypt",
-          "detail": "Ezekiel's day of clouds.",
-          "key": false
-        },
-        {
-          "year": -539,
-          "label": "Babylon",
-          "detail": "Isaiah's darkened stars.",
-          "key": false
-        },
-        {
-          "year": 70,
-          "label": "Jerusalem again",
-          "detail": "The great day after Pentecost.",
-          "key": true
-        }
-      ],
-      "opponent": "Futurists answer that the New Testament gathers these into one climactic “day of our Lord Jesus Christ” (1 Corinthians 1:8), with fire and a new creation (2 Peter 3:10-13), which did not happen in AD 70.",
-      "conclusion": "The day of the Lord is a pattern of God's judgements in history; in the New Testament it points first to the judgement on Jerusalem.",
-      "caution": "Partial preterists still look for a final day of judgement (Acts 17:31); the question is which texts refer to which day."
-    },
-    {
-      "id": "church-not-new",
-      "topics": [
-        "israel",
-        "hope"
-      ],
-      "title": "The church is not a new thing",
-      "question": "Is the church a brand-new people born at Pentecost, separate from Israel, or Israel's own assembly renewed and opened to the nations?",
-      "steps": [
-        {
-          "title": "A familiar word",
-          "text": "Jesus said “I will build my ekklēsia” and no one asked what he meant: their Greek Bible already used the word for Israel's assembly (qahal).",
-          "refs": [
-            "Matthew 16:18",
-            "Deuteronomy 31:30"
-          ]
-        },
-        {
-          "title": "“The church in the wilderness”",
-          "text": "Stephen calls Israel at Sinai the ekklēsia, and the first church in Jerusalem was entirely Jewish.",
-          "refs": [
-            "Acts 7:38",
-            "Acts 8:1-3"
-          ]
-        },
-        {
-          "title": "Pentecost was fulfilment",
-          "text": "Peter says “this is what was spoken by the prophet”, not “this is like it.”",
-          "refs": [
-            "Acts 2:16-17"
-          ]
-        },
-        {
-          "title": "Promises kept, not postponed",
-          "text": "Acts keeps saying God has fulfilled what he promised the fathers.",
-          "refs": [
-            "Acts 3:24-26",
-            "Acts 13:32-33"
-          ]
-        },
-        {
-          "title": "Gentiles joined Israel",
-          "text": "Gentiles in Christ become citizens of Israel's commonwealth and part of one new man.",
-          "refs": [
-            "Ephesians 2:11-22",
-            "Romans 11:17-24"
-          ]
-        },
-        {
-          "title": "Israel's titles for the church",
-          "text": "Paul applies Israel's covenant promises (“I will dwell among them … sons and daughters”) to the church in Corinth.",
-          "refs": [
-            "2 Corinthians 6:16-18",
-            "Hebrews 2:12"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Dispensationalists answer that Jesus said “I will build” (future), that the body of Christ began with Spirit baptism at Pentecost (1 Corinthians 12:13), that Ephesians 3 calls the Jew–Gentile union a mystery not revealed before, and that Israel's calling is irrevocable (Romans 11:29).",
-      "conclusion": "Not replacement but continuation: believing Israel became the church, and the nations were added to it.",
-      "caution": "Word history alone does not settle theology; the strongest case rests on Acts and Ephesians 2, not only on the word ekklēsia."
-    },
-    {
-      "id": "future-holocaust",
-      "topics": [
-        "israel",
-        "hope"
-      ],
-      "title": "The “future holocaust” problem",
-      "question": "Non-dispensationalists are often accused of “replacement theology.” But which view predicts a coming slaughter of the Jewish people?",
-      "steps": [
-        {
-          "title": "A grim forecast",
-          "text": "Many futurist teachers read Zechariah 13:8-9 as a future killing of two-thirds of the Jews in the land, during a tribulation worse than the Holocaust.",
-          "refs": [
-            "Zechariah 13:8-9"
-          ]
-        },
-        {
-          "title": "Jesus gave a way of escape",
-          "text": "Jesus' warning of great tribulation was for his own generation, with clear instructions to flee; there is no such warning to modern Israel.",
-          "refs": [
-            "Matthew 24:15-21",
-            "Matthew 24:34"
-          ]
-        },
-        {
-          "title": "Zechariah's setting",
-          "text": "Zechariah 13 follows the striking of the shepherd and the scattering of the sheep, which Jesus applied to his own arrest; the refining of a remnant fits the first century.",
-          "refs": [
-            "Zechariah 13:7",
-            "Matthew 26:31"
-          ]
-        },
-        {
-          "title": "History is sobering",
-          "text": "Historians record that some prophecy teachers in the 1930s treated persecution of Jews as an expected “sign of the times.”",
-          "refs": []
-        },
-        {
-          "title": "A different hope",
-          "text": "The fulfilled reading places the great tribulation in AD 70 and hopes for Jewish people to come to Christ through the gospel, with no future slaughter.",
-          "refs": [
-            "Romans 10:1",
-            "Romans 11:23-24"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Futurists reply that they do not desire Jewish suffering; they read Zechariah and Daniel 12:1 as a final trial from which God rescues a remnant, and they strongly support Israel and Jewish people today.",
-      "conclusion": "The “replacement theology” charge overlooks futurism's own forecast of a future Jewish catastrophe; the fulfilled view expects salvation by the gospel, not a holocaust.",
-      "caution": "The wrongs of some individuals do not by themselves refute a reading of Scripture; Zechariah 13 must be studied on its own terms."
-    },
-    {
-      "id": "isaiah-11",
-      "topics": [
-        "israel",
-        "israel-history"
-      ],
-      "title": "Isaiah 11: the “second time” Israel is gathered",
-      "question": "Isaiah says the Lord will recover his people “a second time.” Is that 1948, or the return from exile?",
-      "steps": [
-        {
-          "title": "Isaiah counts the first time",
-          "text": "The first time was the Exodus from Egypt; the chapter ends by saying so.",
-          "refs": [
-            "Isaiah 11:16"
-          ]
-        },
-        {
-          "title": "Nations of Isaiah's day",
-          "text": "Assyria, Shinar, Philistia, Edom, Moab and Ammon: the places his readers knew, which no longer exist.",
-          "refs": [
-            "Isaiah 11:11-14"
-          ]
-        },
-        {
-          "title": "The second time came",
-          "text": "After seventy years Cyrus let the exiles return; Ezra and Nehemiah record a repentant remnant.",
-          "refs": [
-            "Ezra 1:1-4",
-            "Nehemiah 1:8-9"
-          ]
-        },
-        {
-          "title": "The Root of Jesse for the nations",
-          "text": "Paul quotes Isaiah 11:10 as fulfilled when Gentiles hope in Christ.",
-          "refs": [
-            "Romans 15:12"
-          ]
-        },
-        {
-          "title": "Peace among the peoples",
-          "text": "Wolf and lamb picture enemies reconciled; Scripture often uses animals for nations, as in Peter's vision.",
-          "refs": [
-            "Isaiah 11:6-9",
-            "Acts 10:11-28"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "year": -1446,
-          "label": "First time: the Exodus",
-          "detail": "Out of Egypt (Isaiah 11:16).",
-          "key": false
-        },
-        {
-          "year": -538,
-          "label": "Second time: the return",
-          "detail": "From Assyria and Babylon under Cyrus.",
-          "key": true
-        },
-        {
-          "year": 30,
-          "label": "The Root of Jesse",
-          "detail": "Christ raised to rule the nations (Romans 15:12).",
-          "key": false
-        }
-      ],
-      "opponent": "Futurists answer that the return from Babylon came from one region, while Isaiah 11:12 speaks of the four corners of the earth, and that “in that day” follows the Branch of 11:1, so the second gathering is the worldwide modern return.",
-      "conclusion": "Isaiah's second recovery was the return from exile; its peaceable kingdom is the nations reconciled under the Messiah.",
-      "caution": "The return under Cyrus came before the Branch of 11:1; many read the chapter as moving from that return to its fulfilment in Christ."
-    },
-    {
-      "id": "modern-hebrew",
-      "topics": [
-        "israel",
-        "israel-history"
-      ],
-      "title": "Is modern Hebrew a fulfilment of prophecy?",
-      "question": "Zephaniah 3:9 promises “a pure lip.” Is the revival of spoken Hebrew its fulfilment?",
-      "steps": [
-        {
-          "title": "“Lip,” not language",
-          "text": "The Hebrew word is “lip”: a purified confession, as Isaiah's unclean lips were cleansed.",
-          "refs": [
-            "Zephaniah 3:9",
-            "Isaiah 6:5-7"
-          ]
-        },
-        {
-          "title": "The nations, not Israel",
-          "text": "The verse is about peoples calling on the LORD, from beyond the rivers of Ethiopia.",
-          "refs": [
-            "Zephaniah 3:9-10"
-          ]
-        },
-        {
-          "title": "Hebrew was never lost",
-          "text": "It lived on in worship and scholarship for centuries before its revival as a spoken language around 1900.",
-          "refs": []
-        },
-        {
-          "title": "Babel reversed at Pentecost",
-          "text": "At Pentecost every nation heard God's works in its own language: one confession, many tongues.",
-          "refs": [
-            "Acts 2:5-11",
-            "Genesis 11:1-9"
-          ]
-        },
-        {
-          "title": "The pure lip is confessing Christ",
-          "text": "Whoever confesses with the mouth that Jesus is Lord will be saved, Jew or Greek.",
-          "refs": [
-            "Romans 10:9-13"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Futurists see the regathering of Jews and the unique revival of an ancient language as a remarkable providence, and note that Zephaniah 3:14-20 speaks of Israel's restoration in the same chapter.",
-      "conclusion": "Zephaniah 3:9 is the nations turning to God with one purified confession, fulfilled from Pentecost onwards.",
-      "caution": "Zephaniah 3:14-20 deserves its own study; this dive covers verse 9."
-    },
-    {
-      "id": "literal",
-      "topics": [
-        "claims",
-        "judgments"
-      ],
-      "title": "What does reading “literally” really mean?",
-      "question": "Must Revelation's images be read as physical objects, and what about the Mount of Olives splitting or hundred-pound hail?",
-      "steps": [
-        {
-          "title": "Literal means by kind",
-          "text": "Reading literally means reading each passage by its kind of writing: history as history, poetry as poetry, signs as signs.",
-          "refs": []
-        },
-        {
-          "title": "Revelation says it uses signs",
-          "text": "God “signified” the message by his angel, and the book decodes some of its own images.",
-          "refs": [
-            "Revelation 1:1",
-            "Revelation 1:20"
-          ]
-        },
-        {
-          "title": "Literalists switch methods",
-          "text": "Time words are made elastic while images are made physical; but stars falling to earth (12:4) would end the planet.",
-          "refs": [
-            "Revelation 12:4",
-            "Revelation 22:10"
-          ]
-        },
-        {
-          "title": "Heavy hail at the siege",
-          "text": "Josephus says the Roman engines threw white stones weighing a talent, and watchmen cried “the stone is coming.” God often judges through human armies.",
-          "refs": [
-            "Revelation 16:21",
-            "Daniel 1:1-2"
-          ]
-        },
-        {
-          "title": "The Mount of Olives",
-          "text": "Zechariah's split mountain and living waters are prophetic pictures; Jesus applies the living waters to the Spirit.",
-          "refs": [
-            "Zechariah 14:4, 8",
-            "John 7:37-39"
-          ]
-        },
-        {
-          "title": "Audience relevance",
-          "text": "Nuclear weapons or helicopters could mean nothing to the first readers; the Old Testament is the dictionary for the images.",
-          "refs": [
-            "Judges 7:12"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Futurists answer that the bowls are global and supernatural, that Josephus' stones were later painted black, and that Acts 1:11-12 (Christ ascending from Olivet and returning “in the same way”) supports a literal return to the Mount of Olives.",
-      "conclusion": "Revelation mixes literal and symbolic language; read its time words plainly and its images through the Old Testament.",
-      "caution": "The catapult link to Revelation 16:21 is a suggestion, not proof; partial preterists do expect Christ's literal, visible return (Acts 1:11)."
-    },
-    {
-      "id": "begin-revelation",
-      "topics": [
-        "judgments"
-      ],
-      "title": "Where to begin with Revelation",
-      "question": "What do you need to read Revelation well?",
-      "steps": [
-        {
-          "title": "Start in the Old Testament",
-          "text": "Revelation alludes to the Old Testament hundreds of times, above all Isaiah, Ezekiel, Daniel and Zechariah, but never quotes it formally.",
-          "refs": [
-            "Luke 24:27"
-          ]
-        },
-        {
-          "title": "Daniel sealed, John unsealed",
-          "text": "Daniel was told to seal his book because the time was far off; John is told not to seal his because the time is near.",
-          "refs": [
-            "Daniel 12:4",
-            "Revelation 22:10"
-          ]
-        },
-        {
-          "title": "Ezekiel's order",
-          "text": "Revelation follows Ezekiel's sequence: throne, scroll, judgements, sealing, the temple measured, the harlot, Gog and Magog, the new city and the river of life.",
-          "refs": [
-            "Ezekiel 1-3",
-            "Ezekiel 37-48"
-          ]
-        },
-        {
-          "title": "Exodus and Daniel's beasts",
-          "text": "The plagues and the song of Moses come from Exodus; the beasts come from Daniel 2 and 7.",
-          "refs": [
-            "Revelation 15:1-3",
-            "Daniel 7:1-8"
-          ]
-        },
-        {
-          "title": "A message for its first readers",
-          "text": "Written to seven real churches about things that must soon take place.",
-          "refs": [
-            "Revelation 1:1-4"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Many futurist and idealist interpreters agree on the Old Testament background but say it does not fix when the events happen; Old Testament imagery can describe the end of history.",
-      "conclusion": "Begin Revelation from Ezekiel and Daniel, and read it as a near-term message to its first readers.",
-      "caution": "Proposals that Revelation is structured by the feasts of Leviticus 23 are interesting but debated."
-    },
-    {
-      "id": "hyperbole",
-      "topics": [
-        "fulfilled",
-        "claims"
-      ],
-      "title": "“Such as has not been … nor ever will be”",
-      "question": "Jesus said the great tribulation would be unmatched. Does that rule out AD 70?",
-      "steps": [
-        {
-          "title": "The same words, many times",
-          "text": "Scripture uses “never before or after” for the locusts of Egypt, Egypt's cry, and Jerusalem's fall in 586 BC.",
-          "refs": [
-            "Exodus 10:14",
-            "Exodus 11:6",
-            "Ezekiel 5:9",
-            "Daniel 9:12"
-          ]
-        },
-        {
-          "title": "Three incomparable kings",
-          "text": "Hezekiah, Josiah and Solomon are each called unmatched: the formula is emphasis, not statistics.",
-          "refs": [
-            "2 Kings 18:5",
-            "2 Kings 23:25",
-            "1 Kings 3:12"
-          ]
-        },
-        {
-          "title": "Scripture uses hyperbole",
-          "text": "Cities fortified up to heaven, a bed swimming in tears, “the whole world has gone after him”: overstatement for force is not error.",
-          "refs": [
-            "Deuteronomy 1:28",
-            "Psalm 6:6",
-            "John 12:19"
-          ]
-        },
-        {
-          "title": "“Nor ever will be”",
-          "text": "Jesus adds that nothing like it will happen again, so history continues afterwards; it is not the end of the world.",
-          "refs": [
-            "Matthew 24:21"
-          ]
-        },
-        {
-          "title": "Within this generation",
-          "text": "All these things were to happen before that generation passed.",
-          "refs": [
-            "Matthew 24:34"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Futurists answer that “no flesh would be saved” (24:22) and the cosmic signs describe a global crisis, and that later atrocities exceeded AD 70 in numbers, so the words point to a future event.",
-      "conclusion": "Matthew 24:21 stresses the unique horror of Jerusalem's judgement in the prophets' own idiom, and fits AD 70.",
-      "caution": "Some partial preterists stress that AD 70 was unique in kind, ending the old covenant order, rather than relying on hyperbole alone."
-    },
-    {
-      "id": "chessboard",
-      "topics": [
-        "hope",
-        "claims"
-      ],
-      "title": "Did two world wars kill postmillennialism?",
-      "question": "Critics say the 20th century's wars proved the postmillennial hope wrong. Does history decide the question?",
-      "steps": [
-        {
-          "title": "Clear the board first",
-          "text": "Separate objections from Scripture from objections drawn from the news.",
-          "refs": []
-        },
-        {
-          "title": "Newspaper exegesis again",
-          "text": "Declaring postmillennialism dead because of world wars is the same method that named Mussolini, Hitler and helicopters in prophecy.",
-          "refs": []
-        },
-        {
-          "title": "Try it on the first century",
-          "text": "Arrests, Stephen stoned, James beheaded, Paul beaten and shipwrecked: by that logic the gospel should have failed, yet it outlasted Rome.",
-          "refs": [
-            "Acts 7:54-60",
-            "Acts 12:1-3",
-            "2 Corinthians 11:23-29"
-          ]
-        },
-        {
-          "title": "Hardship is not defeat",
-          "text": "Suffering does not disprove Christ's reign; he rules until every enemy is under his feet.",
-          "refs": [
-            "1 Corinthians 15:25",
-            "Matthew 28:18-20"
-          ]
-        },
-        {
-          "title": "Settle it from Scripture",
-          "text": "The real questions are texts like 2 Timothy 3 and Luke 18:8, which other deep dives take up.",
-          "refs": [
-            "2 Timothy 3:9",
-            "Luke 18:8"
-          ]
-        }
-      ],
-      "evidence": [],
-      "opponent": "Critics answer that texts such as 2 Timothy 3:1-5, Matthew 24:12 and Luke 18:8 predict decline before the return, so their pessimism is exegetical, not merely historical.",
-      "conclusion": "History's setbacks cannot refute postmillennialism; the question must be settled from Scripture.",
-      "caution": "Showing that history does not disprove postmillennialism does not by itself prove it."
+     "title": "Galatians agrees",
+     "text": "The promise went to one Seed, Christ. All who belong to Christ, Jew or Greek, are Abraham's offspring and heirs; Paul blesses “the Israel of God”.",
+     "refs": [
+      "Galatians 3:16, 26-29",
+      "Galatians 6:15-16"
+     ]
     }
-  ]
+   ],
+   "evidence": [],
+   "opponent": "Many readers, including some who reject dispensationalism, take “all Israel” in 11:26 as ethnic Israel, because “Israel” in 11:25 plainly means the hardened nation. They expect a large turning of Jewish people to Christ before the end, and point to “their full inclusion” (11:12) and “life from the dead” (11:15).",
+   "conclusion": "Paul's own definition, the remnant he could already see, and the meaning of “in this way” point to one people of God in Christ. Nothing in the chapter requires a rebuilt temple, sacrifices or a throne in Jerusalem.",
+   "caution": "A future turning of many Jewish people to Christ is held by many postmillennial and Reformed teachers too; it fits a growing kingdom. The point here is that Romans 11 offers no separate plan apart from the church. It is never a reason for hostility to Jewish people."
+  },
+  {
+   "id": "all-things-written",
+   "topics": [
+    "fulfilled",
+    "rapture",
+    "new-creation"
+   ],
+   "title": "“All things written” and a finished work",
+   "question": "Jesus called AD 70 the days of vengeance, when all that was written would be fulfilled. What does that leave for a third temple and a future earthly millennium?",
+   "steps": [
+    {
+     "title": "The bookends of Revelation",
+     "text": "The book opens and closes with the same time words: these things must soon take place, the time is near, I am coming soon.",
+     "refs": [
+      "Revelation 1:1-3",
+      "Revelation 22:6-12"
+     ]
+    },
+    {
+     "title": "The days of vengeance",
+     "text": "Speaking of Jerusalem surrounded by armies, Jesus says these are the days of vengeance, so that all that is written may be fulfilled.",
+     "refs": [
+      "Luke 21:20-22"
+     ]
+    },
+    {
+     "title": "The Song of Moses",
+     "text": "Moses foretold Israel's latter end (Hebrew acharit) and called them a perverse generation with no faith. Jesus and Peter use the same words for their own generation.",
+     "refs": [
+      "Deuteronomy 32:5, 20",
+      "Acts 2:40"
+     ]
+    },
+    {
+     "title": "Abel to Zechariah",
+     "text": "Jesus said all the righteous blood shed on earth would come upon that generation, and that all these things would come upon it.",
+     "refs": [
+      "Matthew 23:34-36"
+     ]
+    },
+    {
+     "title": "The thousand is a symbol",
+     "text": "Revelation was “signified”. God owns the cattle on a thousand hills and keeps covenant for a thousand generations: a thousand means fullness, not a count.",
+     "refs": [
+      "Revelation 1:1",
+      "Psalm 50:10",
+      "Deuteronomy 7:9",
+      "Revelation 20:1-6"
+     ]
+    },
+    {
+     "title": "No way back to shadows",
+     "text": "The old covenant was “ready to vanish”. Going back to animal sacrifice after the cross would treat Christ's once-for-all offering as insufficient.",
+     "refs": [
+      "Hebrews 8:13",
+      "Hebrews 10:10-18",
+      "Hebrews 10:26-29"
+     ]
+    },
+    {
+     "title": "Reigning now",
+     "text": "Christ is already seated on David's throne at the Father's right hand. Believers are not in a waiting room but share in a kingdom that cannot be shaken.",
+     "refs": [
+      "Acts 2:30-36",
+      "Hebrews 12:28"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Futurists answer that Luke 21:22 means all that was written about Jerusalem's judgement, not every prophecy; that “soon” can mean suddenly, or soon in God's reckoning (2 Peter 3:8); and that Ezekiel 40-48 describes a real temple still to be built.",
+   "conclusion": "Taken at their word, the time texts place the judgement of the old covenant order in the first century. A rebuilt temple with renewed sacrifices has no place after the finished work of Christ.",
+   "caution": "Partial preterists usually read “all things written” as all that was written about Jerusalem's judgement, and see the thousand years as the whole present reign of Christ, still going on, not a span ending in AD 70. Scripture still promises Christ's bodily return, the resurrection and the final judgement (Acts 1:11; 1 Corinthians 15:23-28). Saying all prophecy is fulfilled denies these, and the creeds reject it."
+  },
+  {
+   "id": "some-standing",
+   "topics": [
+    "fulfilled",
+    "olivet",
+    "claims"
+   ],
+   "title": "“Some standing here”: Matthew 16:27-28",
+   "question": "Jesus said some of those standing with him would not die before they saw the Son of Man coming in his kingdom. Which event fits?",
+   "steps": [
+    {
+     "title": "A coming about to happen",
+     "text": "The Greek mellō means “about to”. Jesus speaks of a coming that is near, not twenty centuries away.",
+     "refs": [
+      "Matthew 16:27"
+     ]
+    },
+    {
+     "title": "Five details to match",
+     "text": "He comes in his Father's glory, with his angels, repays each person for what they have done, and some, not all, of those present are still alive to see it.",
+     "refs": [
+      "Matthew 16:27-28"
+     ]
+    },
+    {
+     "title": "The transfiguration?",
+     "text": "It came six days later, while all were alive. No angels came and no one was judged; Jesus himself called it a vision.",
+     "refs": [
+      "Matthew 17:1-9"
+     ]
+    },
+    {
+     "title": "Pentecost?",
+     "text": "It too came while nearly all were alive, and it was a gift of the Spirit, not a coming to repay each person for their deeds.",
+     "refs": [
+      "Acts 2:1-4"
+     ]
+    },
+    {
+     "title": "About forty years later",
+     "text": "By AD 70 James, Peter and Paul had died, but John and others still lived. The judgement fell on the city that rejected him, in that generation.",
+     "refs": [
+      "Acts 12:2",
+      "John 21:20-23",
+      "Matthew 24:30, 34"
+     ]
+    },
+    {
+     "title": "The same timeframe elsewhere",
+     "text": "Jesus told the high priest he would see the Son of Man coming on the clouds: the same generation, the same kind of coming in judgement.",
+     "refs": [
+      "Matthew 26:64",
+      "Daniel 7:13-14"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "year": 30,
+     "label": "The promise",
+     "detail": "Jesus speaks at Caesarea Philippi.",
+     "key": true
+    },
+    {
+     "year": 44,
+     "label": "James killed",
+     "detail": "Herod Agrippa I puts James to death.",
+     "key": false
+    },
+    {
+     "year": 62,
+     "label": "James the Just",
+     "detail": "The Lord's brother is stoned in Jerusalem.",
+     "key": false
+    },
+    {
+     "year": 65,
+     "label": "Peter and Paul",
+     "detail": "Both die in Rome under Nero, about AD 64-67.",
+     "key": false
+    },
+    {
+     "year": 70,
+     "label": "The temple falls",
+     "detail": "John and others are still alive.",
+     "key": true
+    }
+   ],
+   "opponent": "Many readers, including some who hold the fulfilled reading of Matthew 24, link the saying to the transfiguration, which follows at once in all three Gospels (Mark 9:1-8; Luke 9:27-36), and note that Peter later calls it a sight of Christ's power and coming (2 Peter 1:16-18).",
+   "conclusion": "Only an event decades later, which some but not all would live to see, fits every detail. AD 70 does; the transfiguration and Pentecost do not.",
+   "caution": "Answer gently: “I know how you feel; I once felt the same; here is what I found.” Many link the transfiguration to the coming as a preview of it rather than the event itself. Christ's final bodily return remains a future hope in every orthodox reading."
+  },
+  {
+   "id": "no-double",
+   "topics": [
+    "fulfilled",
+    "rapture",
+    "claims"
+   ],
+   "title": "No double fulfilment of Matthew 24",
+   "question": "Many now agree Matthew 24 was fulfilled in AD 70, but say it will be fulfilled again in our future. Can it be fulfilled twice?",
+   "steps": [
+    {
+     "title": "The double-fulfilment idea",
+     "text": "Some accept that Jesus foretold the fall of Jerusalem, yet keep a future tribulation by saying the prophecy will be fulfilled a second time.",
+     "refs": [
+      "Matthew 24:1-2"
+     ]
+    },
+    {
+     "title": "Real double fulfilments exist",
+     "text": "Scripture does have them: the son of David who builds God's house was Solomon first, then Christ, who builds his church.",
+     "refs": [
+      "2 Samuel 7:12-13",
+      "Matthew 16:18"
+     ]
+    },
+    {
+     "title": "But they follow one pattern",
+     "text": "The first is a shadow before the cross; the greater fulfilment comes after it, in Christ and the church. There is no case of both coming after the cross.",
+     "refs": [
+      "Hebrews 10:1",
+      "Colossians 2:17"
+     ]
+    },
+    {
+     "title": "The flight from Judea",
+     "text": "When the abomination stood in the holy place, those in Judea were to flee: “for then there will be great tribulation.” That flight happened once.",
+     "refs": [
+      "Matthew 24:15-21"
+     ]
+    },
+    {
+     "title": "“Nor ever will be”",
+     "text": "Verse 21 says nothing before the tribulation matched it and nothing after it ever will. A later one equal to it, or greater, would contradict Jesus.",
+     "refs": [
+      "Matthew 24:21"
+     ]
+    },
+    {
+     "title": "One generation",
+     "text": "All these things, beginning with the temple's fall, would happen within that generation, not across two.",
+     "refs": [
+      "Matthew 24:34"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Supporters of a double fulfilment point to prophecies with near and far horizons, such as Isaiah 7:14, and argue that the cosmic signs and the gathering of the elect (24:29-31) go beyond AD 70, so a greater fulfilment is still to come.",
+   "conclusion": "Matthew 24's tribulation was a single, unrepeatable event in Jesus' own generation. If we see that he foretold AD 70, we should not keep a second, future tribulation to protect a system we were taught.",
+   "caution": "Many who hold this reading still expect Christ's future bodily return and the final judgement, which they find in other texts (Acts 1:11; 1 Corinthians 15)."
+  },
+  {
+   "id": "timothy-3",
+   "topics": [
+    "hope",
+    "claims"
+   ],
+   "title": "2 Timothy 3: was the world “waxing worse” in Timothy's day?",
+   "question": "Does 2 Timothy 3 describe the world just before a future rapture, and does verse 13 (“evil men will go from bad to worse”) mean history must keep declining?",
+   "steps": [
+    {
+     "title": "The popular reading",
+     "text": "Many prophecy books read the vice list of 3:1-5 as a portrait of our own culture, and verse 13 as a law that history must get worse until the end.",
+     "refs": [
+      "2 Timothy 3:1-5",
+      "2 Timothy 3:13"
+     ]
+    },
+    {
+     "title": "Timothy is told to avoid them",
+     "text": "Paul ends the list with “avoid such people” (3:5). He could only say that if they were in Timothy's world.",
+     "refs": [
+      "2 Timothy 3:5"
+     ]
+    },
+    {
+     "title": "The last days had begun",
+     "text": "Hebrews says God spoke “in these last days” by his Son, and Paul says the ends of the ages had come on his readers. The last days were the closing days of the old covenant age.",
+     "refs": [
+      "Hebrews 1:1-2",
+      "1 Corinthians 10:11"
+     ]
+    },
+    {
+     "title": "Like Jannes and Jambres",
+     "text": "Paul compares the false teachers to Pharaoh's magicians who opposed Moses: they will not get very far, for their folly will be plain to all.",
+     "refs": [
+      "2 Timothy 3:8-9"
+     ]
+    },
+    {
+     "title": "Paul's own persecutions",
+     "text": "The chapter is full of Paul's history: Antioch, Iconium and Lystra. Verse 13 describes the impostors who troubled him and Timothy.",
+     "refs": [
+      "2 Timothy 3:10-13"
+     ]
+    },
+    {
+     "title": "The program: Scripture and good works",
+     "text": "Paul's answer is not escape but Scripture, which equips the believer for every good work. That is a call to build.",
+     "refs": [
+      "2 Timothy 3:14-17"
+     ]
+    },
+    {
+     "title": "Expectation shapes work",
+     "text": "If believers are taught that decline is certain, they stop planning and building. Scripture's model is the ant, which prepares for what is ahead.",
+     "refs": [
+      "Proverbs 6:6-11"
+     ]
+    },
+    {
+     "title": "“Do business until I come”",
+     "text": "The parable of the minas sits in the same chapter as Jesus weeping over Jerusalem and foretelling its siege. Many of his parables warned of the coming judgement on that city.",
+     "refs": [
+      "Luke 19:11-27",
+      "Luke 19:41-44"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Futurists answer that 3:1 is phrased as future (“in the last days there will come times of difficulty”), and that verse 13 states a principle that deception grows over time. Many futurists are themselves active in evangelism and public life and reject the idea that their view forbids building.",
+   "conclusion": "2 Timothy 3 described the opponents of Paul and Timothy in the apostolic generation. It is not a forecast of inevitable decline, and it ends with a program of faithful, Scripture-equipped work.",
+   "caution": "Verse 12, “all who desire to live a godly life in Christ Jesus will be persecuted,” does state a lasting principle; this reading applies the decline of verse 13 to the impostors, not the persecution of verse 12."
+  },
+  {
+   "id": "roman-coins",
+   "topics": [
+    "judgments",
+    "dating",
+    "claims"
+   ],
+   "title": "Do Roman coins date the book of Revelation?",
+   "question": "A coin of Domitian (about AD 82-83) shows his dead infant son on a globe surrounded by seven stars. Does it show that Revelation, with Christ holding seven stars, was written about AD 95?",
+   "steps": [
+    {
+     "title": "The late-date claim",
+     "text": "Some argue that Christ holding the seven stars (Revelation 1:16) answers this coin of Domitian's deified son, so Revelation should be dated to Domitian's reign.",
+     "refs": [
+      "Revelation 1:16"
+     ]
+    },
+    {
+     "title": "Stars meant deification",
+     "text": "On Roman coins a star, or stars, usually marked a ruler or family member declared divine after death. It was a standard design, not a one-off.",
+     "refs": []
+    },
+    {
+     "title": "Seven stars long before Domitian",
+     "text": "A crescent with seven stars appears on a Republican coin of about 76 BC, and seven stars honoured the deified Augustus on Cretan coins under Caligula and Claudius.",
+     "refs": []
+    },
+    {
+     "title": "And long after him",
+     "text": "The crescent and seven stars reappear under Hadrian (AD 125-128) and on coins of Julia Maesa in the 210s-220s. A design used for three centuries cannot point to one decade.",
+     "refs": []
+    },
+    {
+     "title": "Revelation explains its own symbol",
+     "text": "“The seven stars are the angels of the seven churches.” No coin is needed to decode it.",
+     "refs": [
+      "Revelation 1:20"
+     ]
+    },
+    {
+     "title": "Stars as people in Scripture",
+     "text": "Joseph's dream, Abraham's offspring and the woman crowned with twelve stars already use stars for people, and the prophets use falling stars for fallen rulers.",
+     "refs": [
+      "Genesis 37:9-10",
+      "Genesis 22:17",
+      "Revelation 12:1",
+      "Isaiah 14:12"
+     ]
+    },
+    {
+     "title": "The number of the beast",
+     "text": "“Nero Caesar” in Hebrew letters totals 666; without the final n it totals 616, a variant Irenaeus knew. That points to Nero, and to a date before AD 70.",
+     "refs": [
+      "Revelation 13:18"
+     ]
+    },
+    {
+     "title": "The time words",
+     "text": "Revelation says its events must soon take place. Something had to follow soon after it was written.",
+     "refs": [
+      "Revelation 1:1, 3",
+      "Revelation 22:6, 10"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "year": -76,
+     "label": "Republican denarius",
+     "detail": "Crescent moon with seven stars (L. Lucretius Trio).",
+     "key": false
+    },
+    {
+     "year": -18,
+     "label": "DIVVS IVLIVS coin of Augustus",
+     "detail": "Caesar's comet as a sign of his deification (one star, not seven).",
+     "key": false
+    },
+    {
+     "year": 37,
+     "label": "Caligula's coin of Divus Augustus",
+     "detail": "The deified Augustus shown with stars (usually two).",
+     "key": false
+    },
+    {
+     "year": 50,
+     "label": "Cretan coins under Caligula and Claudius",
+     "detail": "Seven stars honouring the deified Augustus.",
+     "key": false
+    },
+    {
+     "year": 83,
+     "label": "Domitian's coin of his dead son",
+     "detail": "The infant on a globe surrounded by seven stars: the coin cited for a late date.",
+     "key": true
+    },
+    {
+     "year": 126,
+     "label": "Hadrian's denarii",
+     "detail": "Crescent and seven stars.",
+     "key": false
+    },
+    {
+     "year": 218,
+     "label": "Julia Maesa's denarius",
+     "detail": "SAECVLI FELICITAS: crescent and seven stars.",
+     "key": false
+    }
+   ],
+   "opponent": "Late-date scholars rest mainly on Irenaeus (about AD 180), who placed the vision near the end of Domitian's reign, and on the condition of the seven churches. For them the coin is background colour (Christ, not the emperor's son, holds the stars), not proof, and most admit it does not settle the date.",
+   "conclusion": "The coin does not date Revelation. Seven stars were a common deification design for three centuries, and Revelation defines its own stars. The Nero number and the “soon” texts fit a date before AD 70 better.",
+   "caution": "Josephus describes a sword-shaped star and a year-long comet over Jerusalem before its fall (Jewish War 6.5.3) but gives no year; linking it to Halley's comet of AD 66 is a modern suggestion."
+  },
+  {
+   "id": "olivet-futurist",
+   "topics": [
+    "fulfilled",
+    "claims"
+   ],
+   "title": "Does the futurist reading of the Olivet Discourse hold up?",
+   "question": "A widely read futurist book argues that Jesus mentions the temple's fall only in Matthew 24:2 and then answers questions about the end of history. Does the text support that?",
+   "steps": [
+    {
+     "title": "The futurist claim",
+     "text": "Jesus, it is said, “virtually ignores” the disciples' question about when the temple would fall, and describes a future, worldwide tribulation.",
+     "refs": [
+      "Matthew 24:1-3"
+     ]
+    },
+    {
+     "title": "The question was answered",
+     "text": "Nothing says Jesus ignored it. He told them the stones in front of them would fall before “this generation” passed.",
+     "refs": [
+      "Matthew 24:2",
+      "Matthew 24:34"
+     ]
+    },
+    {
+     "title": "A local escape",
+     "text": "The tribulation can be escaped by fleeing from Judea to the mountains, which only makes sense for a local catastrophe.",
+     "refs": [
+      "Matthew 24:16-20"
+     ]
+    },
+    {
+     "title": "Cosmic language, historic judgement",
+     "text": "Sun and moon darkened and stars falling is the prophets' language for the fall of Babylon and of Judah.",
+     "refs": [
+      "Matthew 24:29-30",
+      "Isaiah 13:9-10",
+      "Zephaniah 1:14-16"
+     ]
+    },
+    {
+     "title": "“This generation”",
+     "text": "Everywhere else in the Gospels it means Jesus' contemporaries, and many commentators who are not preterists agree.",
+     "refs": [
+      "Matthew 23:36",
+      "Mark 8:12, 38",
+      "Mark 9:19"
+     ]
+    },
+    {
+     "title": "“Near” means near",
+     "text": "James explains “at hand” as “at the door”: close, not merely possible at any moment.",
+     "refs": [
+      "James 5:8-9",
+      "Matthew 24:33"
+     ]
+    },
+    {
+     "title": "Literal signs, literally fulfilled",
+     "text": "There were real earthquakes, famines and false prophets in that generation; preterism does not spiritualise them.",
+     "refs": [
+      "Acts 11:28",
+      "Acts 16:26",
+      "1 John 4:1"
+     ]
+    },
+    {
+     "title": "The gospel in all the world",
+     "text": "Paul says the gospel had been proclaimed in all creation under heaven; the word for world in Matthew 24:14 means the inhabited Roman world.",
+     "refs": [
+      "Matthew 24:14",
+      "Colossians 1:6, 23",
+      "Luke 2:1"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Futurists answer that the disciples asked two or three questions (the temple, his coming, the end of the age), that AD 70 was a preview of a greater fulfilment, that “generation” can mean “race” or the generation that sees the final signs, and that the gathering of the elect and Matthew 25's judgement go beyond AD 70.",
+   "conclusion": "The futurist reading has to set aside the time texts and the local instructions. A first-century fulfilment of the discourse remains the more natural reading.",
+   "caution": "Some partial preterists themselves see a shift to the final coming at 24:36 or 25:31; the Matthew 24 study shows both."
+  },
+  {
+   "id": "scoffers",
+   "topics": [
+    "warnings",
+    "claims"
+   ],
+   "title": "Who were the “last days” scoffers, and when?",
+   "question": "Are the mockers of 2 Peter 3 and Jude modern sceptics of a soon return, or first-century opponents mocking Jesus' prophecy about his own generation?",
+   "steps": [
+    {
+     "title": "Who gets called a scoffer today",
+     "text": "Christians who question date-setting are often called the scoffers of 2 Peter 3. But the time words of Scripture (“soon,” “near,” “at the door”) are the real issue.",
+     "refs": [
+      "James 5:7-9",
+      "Revelation 22:10"
+     ]
+    },
+    {
+     "title": "Jesus tied his coming to his generation",
+     "text": "Some standing there would live to see it, and this generation would not pass until all these things happened.",
+     "refs": [
+      "Matthew 16:28",
+      "Matthew 24:33-34"
+     ]
+    },
+    {
+     "title": "Jude: “these are” the ones",
+     "text": "Jude repeats the apostles' warning about mockers in the last time and then says, in the present tense, “these are” the ones causing divisions. The scoffers were already present.",
+     "refs": [
+      "Jude 17-19"
+     ]
+    },
+    {
+     "title": "What they mocked",
+     "text": "“Where is the promise of his coming?” Decades after Jesus spoke, the temple still stood, recently completed and more splendid than ever.",
+     "refs": [
+      "2 Peter 3:3-4",
+      "Matthew 24:2"
+     ]
+    },
+    {
+     "title": "Scoffers in Jerusalem before",
+     "text": "Isaiah addressed “scoffers who rule this people in Jerusalem,” and God's answer was a cornerstone laid in Zion, which the apostles apply to Christ.",
+     "refs": [
+      "Isaiah 28:14-16",
+      "1 Peter 2:6"
+     ]
+    },
+    {
+     "title": "The prophecy at the trial",
+     "text": "Jesus told the high priest, “from now on you will see the Son of Man seated at the right hand of Power and coming on the clouds.” Then the guards mocked him: “Prophesy!”",
+     "refs": [
+      "Matthew 26:64-68",
+      "Daniel 7:13"
+     ]
+    },
+    {
+     "title": "Last days of Jerusalem",
+     "text": "The 17th-century scholar John Lightfoot read “last days” in these letters as the last days of Jerusalem and the Jewish state, while insisting the warning still applies to every generation.",
+     "refs": [
+      "2 Timothy 3:1",
+      "1 John 2:18"
+     ]
+    },
+    {
+     "title": "The promise kept",
+     "text": "The coming the scoffers mocked arrived in judgement on that generation, and the temple fell, as Jesus said.",
+     "refs": [
+      "Luke 21:20-22",
+      "Matthew 23:36"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Futurists answer that 2 Peter 3 links the coming to heavens and earth dissolved by fire and a new heavens and earth (3:7, 10-13), which sounds like the end of history; that “all things continue as they were” is a timeless sceptic's complaint; that “a day is as a thousand years” expects a long delay; and that many scholars date 2 Peter after AD 70.",
+   "conclusion": "The scoffers Peter and Jude warned about were first-century opponents who mocked Jesus' prophecy for his own generation. The label should not be turned on Christians who take the Bible's time words seriously.",
+   "caution": "2 Peter 3:10-13 is the hardest text for this reading, and partial preterists differ on it: many read it as the final judgement, some as the end of the old covenant world. The date of 2 Peter is also debated."
+  },
+  {
+   "id": "pessimism",
+   "topics": [
+    "hope",
+    "claims"
+   ],
+   "title": "Why prophecy pessimism keeps returning",
+   "question": "Why do so many Christians expect the world to get worse until the end, and what happens to a church that expects only decline?",
+   "steps": [
+    {
+     "title": "Reading fulfilled prophecy as future",
+     "text": "A major reason for recurring end-times fever is reading prophecies that were fulfilled in the first century as if they were still waiting to happen.",
+     "refs": [
+      "Luke 24:44"
+     ]
+    },
+    {
+     "title": "The first-century mistake",
+     "text": "Many in Jesus' day failed to see him as the fulfilment of their own Scriptures; the reverse mistake is failing to see what he fulfilled.",
+     "refs": [
+      "John 1:11",
+      "Luke 24:25-27"
+     ]
+    },
+    {
+     "title": "What we expect shapes what we build",
+     "text": "A church that expects only defeat stops planning and investing in the next generation, while others who expect an earthly future shape the culture.",
+     "refs": [
+      "Proverbs 6:6-8",
+      "Jeremiah 29:4-7"
+     ]
+    },
+    {
+     "title": "The kingdom grows",
+     "text": "Scripture's own pictures are of growth: a stone that fills the earth, a mustard seed, leaven through all the dough.",
+     "refs": [
+      "Daniel 2:35",
+      "Matthew 13:31-33"
+     ]
+    },
+    {
+     "title": "Christ reigns now",
+     "text": "He must reign until all his enemies are under his feet; the believer's labour in the Lord is not in vain.",
+     "refs": [
+      "1 Corinthians 15:25",
+      "1 Corinthians 15:58"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Premillennial and amillennial believers answer that hope rests on Christ's return, not on progress in history, and that many of them have built schools, hospitals and missions while expecting the world to be mixed or worse until the end.",
+   "conclusion": "Reading the prophecies in their setting removes the “everything must get worse” mood and frees the church to work with hope.",
+   "caution": "Claims about which groups will dominate the culture are predictions, not exegesis; the biblical point is the call to faithful work."
+  },
+  {
+   "id": "abomination",
+   "topics": [
+    "fulfilled",
+    "judgments"
+   ],
+   "title": "The abomination of desolation: future, or before AD 70?",
+   "question": "Does Matthew 24:15 still wait for a rebuilt temple and a final Antichrist, or was it fulfilled before Jerusalem fell?",
+   "steps": [
+    {
+     "title": "Jesus said “you”",
+     "text": "He answered the disciples' own question about the temple in front of them, and kept saying “you” to them.",
+     "refs": [
+      "Matthew 24:1-3",
+      "Matthew 24:15"
+     ]
+    },
+    {
+     "title": "Local, first-century details",
+     "text": "Flat rooftops, a cloak left in the field, the Sabbath and fleeing Judea on foot all fit first-century Judea.",
+     "refs": [
+      "Matthew 24:16-20"
+     ]
+    },
+    {
+     "title": "No rebuilt temple in the New Testament",
+     "text": "A future fulfilment needs a third temple, which no New Testament text predicts; Matthew 24 never mentions “the antichrist.”",
+     "refs": [
+      "Matthew 24:2"
+     ]
+    },
+    {
+     "title": "Luke explains it",
+     "text": "Luke's parallel says: when you see Jerusalem surrounded by armies, its desolation is near.",
+     "refs": [
+      "Luke 21:20-21"
+     ]
+    },
+    {
+     "title": "Defiled from within",
+     "text": "Daniel's earlier abomination came with the help of apostate priests, and Ezekiel saw the temple's own leaders defile it before its fall. Many see the zealots' and priests' defilement of the sanctuary in AD 66-70 the same way.",
+     "refs": [
+      "Ezekiel 8:5-18",
+      "Daniel 11:31"
+     ]
+    },
+    {
+     "title": "Within that generation",
+     "text": "All these things would happen before that generation passed.",
+     "refs": [
+      "Matthew 24:34"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Futurists answer that Paul's man of lawlessness sits in the temple (2 Thessalonians 2:4) and Revelation 13 describes a global ruler, so a final Antichrist in a rebuilt temple is still to come.",
+   "conclusion": "The abomination was a first-century event that came just before the temple's destruction, as Jesus warned his hearers.",
+   "caution": "Partial preterists differ on what exactly the abomination was: the Roman armies (Luke 21:20), the zealots' defilement of the temple, or apostate priests."
+  },
+  {
+   "id": "islamic-antichrist",
+   "topics": [
+    "judgments",
+    "claims"
+   ],
+   "title": "Is the Antichrist a Muslim leader, the Mahdi?",
+   "question": "Popular books now say the end-time Antichrist will be the Islamic Mahdi. Is that taught in Scripture, or read from the headlines?",
+   "steps": [
+    {
+     "title": "The villain keeps changing",
+     "text": "Prophecy writers have moved their Antichrist from Rome, to Russia, to Islam as the news changed: after 1979 and again after 2001.",
+     "refs": []
+    },
+    {
+     "title": "Start where the word is used",
+     "text": "Only John's letters use the word “antichrist.” He defines it: anyone who denies that Jesus came in the flesh.",
+     "refs": [
+      "1 John 2:22",
+      "1 John 4:2-3",
+      "2 John 7"
+     ]
+    },
+    {
+     "title": "Many, and already present",
+     "text": "John says many antichrists had already come, which is how his readers knew it was the last hour.",
+     "refs": [
+      "1 John 2:18-19"
+     ]
+    },
+    {
+     "title": "Every century had a candidate",
+     "text": "Popes, Turks, Napoleon, Mussolini, Hitler: each was confidently named, and each identification failed. The Turks were already Gog and the locusts of Revelation 9 for many 16th-century writers.",
+     "refs": [
+      "Revelation 9:1-11",
+      "Ezekiel 38:2"
+     ]
+    },
+    {
+     "title": "Islam is answered by the gospel",
+     "text": "Islam can be opposed and evangelised without making it a prophetic necessity. Christ has all authority, and the strong man is bound.",
+     "refs": [
+      "Matthew 28:18-20",
+      "Matthew 12:28-29"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "year": 1529,
+     "label": "The Turk at Vienna",
+     "detail": "Luther called the Turk Gog and the flesh of Antichrist, the pope its spirit.",
+     "key": false
+    },
+    {
+     "year": 1647,
+     "label": "Westminster Confession",
+     "detail": "Named the pope as the Antichrist (removed in the 1789 American revision).",
+     "key": false
+    },
+    {
+     "year": 1683,
+     "label": "Siege of Vienna",
+     "detail": "Ottoman advance read as a sign of the end.",
+     "key": false
+    },
+    {
+     "year": 1810,
+     "label": "Napoleon",
+     "detail": "Widely named as the beast or Antichrist.",
+     "key": false
+    },
+    {
+     "year": 1940,
+     "label": "Mussolini and Hitler",
+     "detail": "Each identified as the Antichrist by prophecy writers.",
+     "key": false
+    },
+    {
+     "year": 1979,
+     "label": "Russia, then Iran",
+     "detail": "The Soviet Union as Gog; the Islamic revolution begins a new focus.",
+     "key": false
+    },
+    {
+     "year": 2009,
+     "label": "The Islamic Mahdi",
+     "detail": "The latest identification, popular after 2001.",
+     "key": true
+    }
+   ],
+   "opponent": "Supporters point to parallels between Islamic Mahdi traditions and the beast of Daniel and Revelation, and argue that 2 Thessalonians 2 and Daniel 11 describe one future individual, different from John's “many antichrists.”",
+   "conclusion": "The Mahdi theory is the latest round of reading Scripture through the news. John's antichrists belonged to his own generation, and the church's task is to advance the gospel.",
+   "caution": "Scholars differ on who John's antichrists were: many see them as false teachers who had left the church (1 John 2:19)."
+  },
+  {
+   "id": "millennial-sacrifices",
+   "topics": [
+    "rapture",
+    "israel"
+   ],
+   "title": "Animal sacrifices in a future millennium?",
+   "question": "Dispensational teaching expects a rebuilt temple with animal sacrifices in Christ's millennial kingdom. Can that fit with the cross?",
+   "steps": [
+    {
+     "title": "Revelation 20 is silent",
+     "text": "It mentions no earthly reign from Jerusalem, no temple and no sacrifices; these come from Ezekiel 40-48 read literally.",
+     "refs": [
+      "Revelation 20:1-6"
+     ]
+    },
+    {
+     "title": "Hebrews says they are finished",
+     "text": "Christ offered himself once for all; where there is forgiveness, there is no longer any offering for sin.",
+     "refs": [
+      "Hebrews 10:10-18",
+      "Hebrews 9:11-14"
+     ]
+    },
+    {
+     "title": "Ezekiel says “for atonement”",
+     "text": "Ezekiel's offerings are to make atonement, so calling them mere memorials does not fit a literal reading.",
+     "refs": [
+      "Ezekiel 45:15-20"
+     ]
+    },
+    {
+     "title": "Paul resisted any return",
+     "text": "Paul opposed Gentiles being brought back under the old rites, even circumcision; how much more sacrifices.",
+     "refs": [
+      "Galatians 2:4-5",
+      "Colossians 2:16-17"
+     ]
+    },
+    {
+     "title": "The memorial Christ gave",
+     "text": "The Lord's Supper, bread and cup, is the new covenant's memorial of his death.",
+     "refs": [
+      "Luke 22:19-20",
+      "1 Corinthians 11:25-26"
+     ]
+    },
+    {
+     "title": "Ezekiel's temple fulfilled",
+     "text": "Ezekiel's river of life flows from Christ and his people, and Revelation's city has no temple.",
+     "refs": [
+      "John 7:37-39",
+      "Revelation 21:22"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Dispensationalists answer that Ezekiel 40-48 is too detailed to be symbolic, that Jewish believers still offered at the temple after the cross (Acts 21:26) without undermining it, and that the offerings would be memorials or ceremonial cleansing with Christ present.",
+   "conclusion": "Future animal sacrifices would turn back the clock the book of Hebrews was written to stop. Ezekiel's vision is fulfilled in Christ and his people.",
+   "caution": "Acts 21:26 is the strongest text for the other side and deserves careful study."
+  },
+  {
+   "id": "one-day",
+   "topics": [
+    "warnings",
+    "claims"
+   ],
+   "title": "Is there only one “day of the Lord”?",
+   "question": "Some say the Bible knows only one, final day of the Lord at Christ's return. Does Scripture agree?",
+   "steps": [
+    {
+     "title": "Many days in the prophets",
+     "text": "The prophets used the phrase for the fall of Babylon, Egypt, Samaria and Jerusalem: judgements in history.",
+     "refs": [
+      "Isaiah 13:6-10",
+      "Ezekiel 30:2-4",
+      "Amos 5:18-20",
+      "Zephaniah 1:14-18"
+     ]
+    },
+    {
+     "title": "Even futurist reference works agree",
+     "text": "Standard dispensational dictionaries define the day of the Lord as any period when God acts directly in judgement.",
+     "refs": []
+    },
+    {
+     "title": "Peter: “this is” it",
+     "text": "At Pentecost Peter said the prophecy of the Spirit and the great day was being fulfilled.",
+     "refs": [
+      "Acts 2:16-21"
+     ]
+    },
+    {
+     "title": "Paul warned his own readers",
+     "text": "The day would come like a thief on people saying “peace and safety”; Paul warned the Thessalonians themselves, echoing Jesus.",
+     "refs": [
+      "1 Thessalonians 5:2-4",
+      "Luke 21:34-36"
+     ]
+    },
+    {
+     "title": "A day that could be misjudged",
+     "text": "The Thessalonians feared the day had already come, which could not have meant a visible, bodily return.",
+     "refs": [
+      "2 Thessalonians 2:1-2"
+     ]
+    },
+    {
+     "title": "Near, at the door",
+     "text": "James told his readers the Lord's coming was near and the Judge at the door.",
+     "refs": [
+      "James 5:7-9"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "year": -722,
+     "label": "Samaria",
+     "detail": "Amos's day of darkness on Israel.",
+     "key": false
+    },
+    {
+     "year": -586,
+     "label": "Jerusalem",
+     "detail": "Zephaniah's day of wrath.",
+     "key": false
+    },
+    {
+     "year": -568,
+     "label": "Egypt",
+     "detail": "Ezekiel's day of clouds.",
+     "key": false
+    },
+    {
+     "year": -539,
+     "label": "Babylon",
+     "detail": "Isaiah's darkened stars.",
+     "key": false
+    },
+    {
+     "year": 70,
+     "label": "Jerusalem again",
+     "detail": "The great day after Pentecost.",
+     "key": true
+    }
+   ],
+   "opponent": "Futurists answer that the New Testament gathers these into one climactic “day of our Lord Jesus Christ” (1 Corinthians 1:8), with fire and a new creation (2 Peter 3:10-13), which did not happen in AD 70.",
+   "conclusion": "The day of the Lord is a pattern of God's judgements in history; in the New Testament it points first to the judgement on Jerusalem.",
+   "caution": "Partial preterists still look for a final day of judgement (Acts 17:31); the question is which texts refer to which day."
+  },
+  {
+   "id": "church-not-new",
+   "topics": [
+    "israel",
+    "hope"
+   ],
+   "title": "The church is not a new thing",
+   "question": "Is the church a brand-new people born at Pentecost, separate from Israel, or Israel's own assembly renewed and opened to the nations?",
+   "steps": [
+    {
+     "title": "A familiar word",
+     "text": "Jesus said “I will build my ekklēsia” and no one asked what he meant: their Greek Bible already used the word for Israel's assembly (qahal).",
+     "refs": [
+      "Matthew 16:18",
+      "Deuteronomy 31:30"
+     ]
+    },
+    {
+     "title": "“The church in the wilderness”",
+     "text": "Stephen calls Israel at Sinai the ekklēsia, and the first church in Jerusalem was entirely Jewish.",
+     "refs": [
+      "Acts 7:38",
+      "Acts 8:1-3"
+     ]
+    },
+    {
+     "title": "Pentecost was fulfilment",
+     "text": "Peter says “this is what was spoken by the prophet”, not “this is like it.”",
+     "refs": [
+      "Acts 2:16-17"
+     ]
+    },
+    {
+     "title": "Promises kept, not postponed",
+     "text": "Acts keeps saying God has fulfilled what he promised the fathers.",
+     "refs": [
+      "Acts 3:24-26",
+      "Acts 13:32-33"
+     ]
+    },
+    {
+     "title": "Gentiles joined Israel",
+     "text": "Gentiles in Christ become citizens of Israel's commonwealth and part of one new man.",
+     "refs": [
+      "Ephesians 2:11-22",
+      "Romans 11:17-24"
+     ]
+    },
+    {
+     "title": "Israel's titles for the church",
+     "text": "Paul applies Israel's covenant promises (“I will dwell among them … sons and daughters”) to the church in Corinth.",
+     "refs": [
+      "2 Corinthians 6:16-18",
+      "Hebrews 2:12"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Dispensationalists answer that Jesus said “I will build” (future), that the body of Christ began with Spirit baptism at Pentecost (1 Corinthians 12:13), that Ephesians 3 calls the Jew–Gentile union a mystery not revealed before, and that Israel's calling is irrevocable (Romans 11:29).",
+   "conclusion": "Not replacement but continuation: believing Israel became the church, and the nations were added to it.",
+   "caution": "Word history alone does not settle theology; the strongest case rests on Acts and Ephesians 2, not only on the word ekklēsia."
+  },
+  {
+   "id": "future-holocaust",
+   "topics": [
+    "israel",
+    "hope"
+   ],
+   "title": "The “future holocaust” problem",
+   "question": "Non-dispensationalists are often accused of “replacement theology.” But which view predicts a coming slaughter of the Jewish people?",
+   "steps": [
+    {
+     "title": "A grim forecast",
+     "text": "Many futurist teachers read Zechariah 13:8-9 as a future killing of two-thirds of the Jews in the land, during a tribulation worse than the Holocaust.",
+     "refs": [
+      "Zechariah 13:8-9"
+     ]
+    },
+    {
+     "title": "Jesus gave a way of escape",
+     "text": "Jesus' warning of great tribulation was for his own generation, with clear instructions to flee; there is no such warning to modern Israel.",
+     "refs": [
+      "Matthew 24:15-21",
+      "Matthew 24:34"
+     ]
+    },
+    {
+     "title": "Zechariah's setting",
+     "text": "Zechariah 13 follows the striking of the shepherd and the scattering of the sheep, which Jesus applied to his own arrest; the refining of a remnant fits the first century.",
+     "refs": [
+      "Zechariah 13:7",
+      "Matthew 26:31"
+     ]
+    },
+    {
+     "title": "History is sobering",
+     "text": "Historians record that some prophecy teachers in the 1930s treated persecution of Jews as an expected “sign of the times.”",
+     "refs": []
+    },
+    {
+     "title": "A different hope",
+     "text": "The fulfilled reading places the great tribulation in AD 70 and hopes for Jewish people to come to Christ through the gospel, with no future slaughter.",
+     "refs": [
+      "Romans 10:1",
+      "Romans 11:23-24"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Futurists reply that they do not desire Jewish suffering; they read Zechariah and Daniel 12:1 as a final trial from which God rescues a remnant, and they strongly support Israel and Jewish people today.",
+   "conclusion": "The “replacement theology” charge overlooks futurism's own forecast of a future Jewish catastrophe; the fulfilled view expects salvation by the gospel, not a holocaust.",
+   "caution": "The wrongs of some individuals do not by themselves refute a reading of Scripture; Zechariah 13 must be studied on its own terms."
+  },
+  {
+   "id": "isaiah-11",
+   "topics": [
+    "israel",
+    "israel-history"
+   ],
+   "title": "Isaiah 11: the “second time” Israel is gathered",
+   "question": "Isaiah says the Lord will recover his people “a second time.” Is that 1948, or the return from exile?",
+   "steps": [
+    {
+     "title": "Isaiah counts the first time",
+     "text": "The first time was the Exodus from Egypt; the chapter ends by saying so.",
+     "refs": [
+      "Isaiah 11:16"
+     ]
+    },
+    {
+     "title": "Nations of Isaiah's day",
+     "text": "Assyria, Shinar, Philistia, Edom, Moab and Ammon: the places his readers knew, which no longer exist.",
+     "refs": [
+      "Isaiah 11:11-14"
+     ]
+    },
+    {
+     "title": "The second time came",
+     "text": "After seventy years Cyrus let the exiles return; Ezra and Nehemiah record a repentant remnant.",
+     "refs": [
+      "Ezra 1:1-4",
+      "Nehemiah 1:8-9"
+     ]
+    },
+    {
+     "title": "The Root of Jesse for the nations",
+     "text": "Paul quotes Isaiah 11:10 as fulfilled when Gentiles hope in Christ.",
+     "refs": [
+      "Romans 15:12"
+     ]
+    },
+    {
+     "title": "Peace among the peoples",
+     "text": "Wolf and lamb picture enemies reconciled; Scripture often uses animals for nations, as in Peter's vision.",
+     "refs": [
+      "Isaiah 11:6-9",
+      "Acts 10:11-28"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "year": -1446,
+     "label": "First time: the Exodus",
+     "detail": "Out of Egypt (Isaiah 11:16).",
+     "key": false
+    },
+    {
+     "year": -538,
+     "label": "Second time: the return",
+     "detail": "From Assyria and Babylon under Cyrus.",
+     "key": true
+    },
+    {
+     "year": 30,
+     "label": "The Root of Jesse",
+     "detail": "Christ raised to rule the nations (Romans 15:12).",
+     "key": false
+    }
+   ],
+   "opponent": "Futurists answer that the return from Babylon came from one region, while Isaiah 11:12 speaks of the four corners of the earth, and that “in that day” follows the Branch of 11:1, so the second gathering is the worldwide modern return.",
+   "conclusion": "Isaiah's second recovery was the return from exile; its peaceable kingdom is the nations reconciled under the Messiah.",
+   "caution": "The return under Cyrus came before the Branch of 11:1; many read the chapter as moving from that return to its fulfilment in Christ."
+  },
+  {
+   "id": "modern-hebrew",
+   "topics": [
+    "israel",
+    "israel-history"
+   ],
+   "title": "Is modern Hebrew a fulfilment of prophecy?",
+   "question": "Zephaniah 3:9 promises “a pure lip.” Is the revival of spoken Hebrew its fulfilment?",
+   "steps": [
+    {
+     "title": "“Lip,” not language",
+     "text": "The Hebrew word is “lip”: a purified confession, as Isaiah's unclean lips were cleansed.",
+     "refs": [
+      "Zephaniah 3:9",
+      "Isaiah 6:5-7"
+     ]
+    },
+    {
+     "title": "The nations, not Israel",
+     "text": "The verse is about peoples calling on the LORD, from beyond the rivers of Ethiopia.",
+     "refs": [
+      "Zephaniah 3:9-10"
+     ]
+    },
+    {
+     "title": "Hebrew was never lost",
+     "text": "It lived on in worship and scholarship for centuries before its revival as a spoken language around 1900.",
+     "refs": []
+    },
+    {
+     "title": "Babel reversed at Pentecost",
+     "text": "At Pentecost every nation heard God's works in its own language: one confession, many tongues.",
+     "refs": [
+      "Acts 2:5-11",
+      "Genesis 11:1-9"
+     ]
+    },
+    {
+     "title": "The pure lip is confessing Christ",
+     "text": "Whoever confesses with the mouth that Jesus is Lord will be saved, Jew or Greek.",
+     "refs": [
+      "Romans 10:9-13"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Futurists see the regathering of Jews and the unique revival of an ancient language as a remarkable providence, and note that Zephaniah 3:14-20 speaks of Israel's restoration in the same chapter.",
+   "conclusion": "Zephaniah 3:9 is the nations turning to God with one purified confession, fulfilled from Pentecost onwards.",
+   "caution": "Zephaniah 3:14-20 deserves its own study; this dive covers verse 9."
+  },
+  {
+   "id": "literal",
+   "topics": [
+    "claims",
+    "judgments"
+   ],
+   "title": "What does reading “literally” really mean?",
+   "question": "Must Revelation's images be read as physical objects, and what about the Mount of Olives splitting or hundred-pound hail?",
+   "steps": [
+    {
+     "title": "Literal means by kind",
+     "text": "Reading literally means reading each passage by its kind of writing: history as history, poetry as poetry, signs as signs.",
+     "refs": []
+    },
+    {
+     "title": "Revelation says it uses signs",
+     "text": "God “signified” the message by his angel, and the book decodes some of its own images.",
+     "refs": [
+      "Revelation 1:1",
+      "Revelation 1:20"
+     ]
+    },
+    {
+     "title": "Literalists switch methods",
+     "text": "Time words are made elastic while images are made physical; but stars falling to earth (12:4) would end the planet.",
+     "refs": [
+      "Revelation 12:4",
+      "Revelation 22:10"
+     ]
+    },
+    {
+     "title": "Heavy hail at the siege",
+     "text": "Josephus says the Roman engines threw white stones weighing a talent, and watchmen cried “the stone is coming.” God often judges through human armies.",
+     "refs": [
+      "Revelation 16:21",
+      "Daniel 1:1-2"
+     ]
+    },
+    {
+     "title": "The Mount of Olives",
+     "text": "Zechariah's split mountain and living waters are prophetic pictures; Jesus applies the living waters to the Spirit.",
+     "refs": [
+      "Zechariah 14:4, 8",
+      "John 7:37-39"
+     ]
+    },
+    {
+     "title": "Audience relevance",
+     "text": "Nuclear weapons or helicopters could mean nothing to the first readers; the Old Testament is the dictionary for the images.",
+     "refs": [
+      "Judges 7:12"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Futurists answer that the bowls are global and supernatural, that Josephus' stones were later painted black, and that Acts 1:11-12 (Christ ascending from Olivet and returning “in the same way”) supports a literal return to the Mount of Olives.",
+   "conclusion": "Revelation mixes literal and symbolic language; read its time words plainly and its images through the Old Testament.",
+   "caution": "The catapult link to Revelation 16:21 is a suggestion, not proof; partial preterists do expect Christ's literal, visible return (Acts 1:11)."
+  },
+  {
+   "id": "begin-revelation",
+   "topics": [
+    "judgments"
+   ],
+   "title": "Where to begin with Revelation",
+   "question": "What do you need to read Revelation well?",
+   "steps": [
+    {
+     "title": "Start in the Old Testament",
+     "text": "Revelation alludes to the Old Testament hundreds of times, above all Isaiah, Ezekiel, Daniel and Zechariah, but never quotes it formally.",
+     "refs": [
+      "Luke 24:27"
+     ]
+    },
+    {
+     "title": "Daniel sealed, John unsealed",
+     "text": "Daniel was told to seal his book because the time was far off; John is told not to seal his because the time is near.",
+     "refs": [
+      "Daniel 12:4",
+      "Revelation 22:10"
+     ]
+    },
+    {
+     "title": "Ezekiel's order",
+     "text": "Revelation follows Ezekiel's sequence: throne, scroll, judgements, sealing, the temple measured, the harlot, Gog and Magog, the new city and the river of life.",
+     "refs": [
+      "Ezekiel 1-3",
+      "Ezekiel 37-48"
+     ]
+    },
+    {
+     "title": "Exodus and Daniel's beasts",
+     "text": "The plagues and the song of Moses come from Exodus; the beasts come from Daniel 2 and 7.",
+     "refs": [
+      "Revelation 15:1-3",
+      "Daniel 7:1-8"
+     ]
+    },
+    {
+     "title": "A message for its first readers",
+     "text": "Written to seven real churches about things that must soon take place.",
+     "refs": [
+      "Revelation 1:1-4"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Many futurist and idealist interpreters agree on the Old Testament background but say it does not fix when the events happen; Old Testament imagery can describe the end of history.",
+   "conclusion": "Begin Revelation from Ezekiel and Daniel, and read it as a near-term message to its first readers.",
+   "caution": "Proposals that Revelation is structured by the feasts of Leviticus 23 are interesting but debated."
+  },
+  {
+   "id": "hyperbole",
+   "topics": [
+    "fulfilled",
+    "claims"
+   ],
+   "title": "“Such as has not been … nor ever will be”",
+   "question": "Jesus said the great tribulation would be unmatched. Does that rule out AD 70?",
+   "steps": [
+    {
+     "title": "The same words, many times",
+     "text": "Scripture uses “never before or after” for the locusts of Egypt, Egypt's cry, and Jerusalem's fall in 586 BC.",
+     "refs": [
+      "Exodus 10:14",
+      "Exodus 11:6",
+      "Ezekiel 5:9",
+      "Daniel 9:12"
+     ]
+    },
+    {
+     "title": "Three incomparable kings",
+     "text": "Hezekiah, Josiah and Solomon are each called unmatched: the formula is emphasis, not statistics.",
+     "refs": [
+      "2 Kings 18:5",
+      "2 Kings 23:25",
+      "1 Kings 3:12"
+     ]
+    },
+    {
+     "title": "Scripture uses hyperbole",
+     "text": "Cities fortified up to heaven, a bed swimming in tears, “the whole world has gone after him”: overstatement for force is not error.",
+     "refs": [
+      "Deuteronomy 1:28",
+      "Psalm 6:6",
+      "John 12:19"
+     ]
+    },
+    {
+     "title": "“Nor ever will be”",
+     "text": "Jesus adds that nothing like it will happen again, so history continues afterwards; it is not the end of the world.",
+     "refs": [
+      "Matthew 24:21"
+     ]
+    },
+    {
+     "title": "Within this generation",
+     "text": "All these things were to happen before that generation passed.",
+     "refs": [
+      "Matthew 24:34"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Futurists answer that “no flesh would be saved” (24:22) and the cosmic signs describe a global crisis, and that later atrocities exceeded AD 70 in numbers, so the words point to a future event.",
+   "conclusion": "Matthew 24:21 stresses the unique horror of Jerusalem's judgement in the prophets' own idiom, and fits AD 70.",
+   "caution": "Some partial preterists stress that AD 70 was unique in kind, ending the old covenant order, rather than relying on hyperbole alone."
+  },
+  {
+   "id": "chessboard",
+   "topics": [
+    "hope",
+    "claims"
+   ],
+   "title": "Did two world wars kill postmillennialism?",
+   "question": "Critics say the 20th century's wars proved the postmillennial hope wrong. Does history decide the question?",
+   "steps": [
+    {
+     "title": "Clear the board first",
+     "text": "Separate objections from Scripture from objections drawn from the news.",
+     "refs": []
+    },
+    {
+     "title": "Newspaper exegesis again",
+     "text": "Declaring postmillennialism dead because of world wars is the same method that named Mussolini, Hitler and helicopters in prophecy.",
+     "refs": []
+    },
+    {
+     "title": "Try it on the first century",
+     "text": "Arrests, Stephen stoned, James beheaded, Paul beaten and shipwrecked: by that logic the gospel should have failed, yet it outlasted Rome.",
+     "refs": [
+      "Acts 7:54-60",
+      "Acts 12:1-3",
+      "2 Corinthians 11:23-29"
+     ]
+    },
+    {
+     "title": "Hardship is not defeat",
+     "text": "Suffering does not disprove Christ's reign; he rules until every enemy is under his feet.",
+     "refs": [
+      "1 Corinthians 15:25",
+      "Matthew 28:18-20"
+     ]
+    },
+    {
+     "title": "Settle it from Scripture",
+     "text": "The real questions are texts like 2 Timothy 3 and Luke 18:8, which other deep dives take up.",
+     "refs": [
+      "2 Timothy 3:9",
+      "Luke 18:8"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Critics answer that texts such as 2 Timothy 3:1-5, Matthew 24:12 and Luke 18:8 predict decline before the return, so their pessimism is exegetical, not merely historical.",
+   "conclusion": "History's setbacks cannot refute postmillennialism; the question must be settled from Scripture.",
+   "caution": "Showing that history does not disprove postmillennialism does not by itself prove it."
+  }
+ ]
 }

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { InThisWay } from '../components/israel/InThisWay'
 import { HeroPanel } from '../components/studies/HeroPanel'
 import { KeyIdeas } from '../components/studies/KeyIdeas'
 import { KEY_IDEAS } from '../components/studies/keyIdeasData'
@@ -122,7 +123,10 @@ export default function Israel() {
       </Section>
 
       <Section id="romans11" title={t('Romans 11: “all Israel will be saved”')} lede={t('The most debated chapter. Five readings, each with its strengths and weaknesses.')}>
-        <Romans11 r={s.romans11} />
+        <InThisWay />
+        <div className="mt-4">
+          <Romans11 r={s.romans11} />
+        </div>
       </Section>
 
       <Section id="reading" title={t('How each side reads the Old Testament')} lede={t('The disagreement is mostly about method. Open each principle to see both readings side by side.')}>

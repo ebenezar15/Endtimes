@@ -3,6 +3,7 @@ import { HeroPanel } from '../components/studies/HeroPanel'
 import { KeyIdeas } from '../components/studies/KeyIdeas'
 import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { StudyMap } from '../components/StudyMap'
+import { DeepDives } from '../components/DeepDives'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Prose } from '../components/Gloss'
@@ -87,6 +88,7 @@ export default function NewCreation() {
         <Flow flow={s.flow} />
       </Section>
 
+      <DeepDives topic="new-creation" />
       <Section id="quiz" title={t('Test yourself')} lede={t('Questions on the texts, the words and the views.')}>
         <Quiz items={s.quiz} />
         <div className="mt-8 flex flex-wrap gap-3">

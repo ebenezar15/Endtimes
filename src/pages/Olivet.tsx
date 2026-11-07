@@ -3,6 +3,7 @@ import { HeroPanel } from '../components/studies/HeroPanel'
 import { KeyIdeas } from '../components/studies/KeyIdeas'
 import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { StudyMap } from '../components/StudyMap'
+import { DeepDives } from '../components/DeepDives'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -329,6 +330,8 @@ export default function Olivet() {
           <Sources ids={o.sources} />
         </div>
       </Section>
+
+      <DeepDives topic="olivet" />
     </div>
   )
 }

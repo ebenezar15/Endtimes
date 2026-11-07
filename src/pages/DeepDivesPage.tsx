@@ -8,7 +8,7 @@ import { deepDives } from '../lib/data/deepDives'
 import { t } from '../lib/i18n'
 
 /** Study keys used in deep-dive topics, mapped to their pages. */
-const ROUTE: Record<string, string> = { fulfilled: '/fulfilled', judgments: '/judgments', dating: '/dating', warnings: '/warnings', hope: '/kingdom-hope', claims: '/objections', israel: '/israel', rapture: '/rapture', 'israel-history': '/israel-history' }
+const ROUTE: Record<string, string> = { fulfilled: '/fulfilled', judgments: '/judgments', dating: '/dating', warnings: '/warnings', hope: '/kingdom-hope', claims: '/objections', israel: '/israel', rapture: '/rapture', 'israel-history': '/israel-history', olivet: '/olivet', 'new-creation': '/new-creation' }
 const label = (k: string) => NAV.find((n) => n.to === ROUTE[k])?.label ?? k
 
 /** Every deep dive in one place, filterable by the study it belongs to. */

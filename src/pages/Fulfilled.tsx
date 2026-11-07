@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { OnceDiagram } from '../components/fulfilled/OnceDiagram'
+import { SomeStanding } from '../components/fulfilled/SomeStanding'
 import { HeroPanel } from '../components/studies/HeroPanel'
 import { KeyIdeas } from '../components/studies/KeyIdeas'
 import { KEY_IDEAS } from '../components/studies/keyIdeasData'
@@ -102,6 +103,10 @@ export default function Fulfilled() {
 
       <Section id="time" title={t('The time texts')} lede={t('What the New Testament writers said about when. Tap each phrase.')}>
         <TimeTexts items={s.timeTexts} />
+      </Section>
+
+      <Section id="standing" title={t('“Some standing here”: which event fits?')} lede={t('Matthew 16:27-28 gives five details. Test each candidate event against them and see who was still alive.')}>
+        <SomeStanding />
       </Section>
 
       <Section id="once" title={t('One fulfilment, not two')} lede={t('Why this reading rejects a second, future fulfilment, and the best case on the other side.')}>

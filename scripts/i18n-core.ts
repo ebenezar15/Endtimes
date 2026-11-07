@@ -21,6 +21,8 @@ const REF = /^(?:[1-3] )?[A-Z][a-z]+(?: of [A-Z][a-z]+)?(?: \d+(?:[:.]\d+)?(?:[â
 
 export function translatable(key: string | undefined, s: string, ctx: string[] = []): boolean {
   if (key === 'era' && ctx.some((c) => PROSE_UNDER.has(c))) return /[A-Za-z]/.test(s) && s.length > 3
+  // `a` holds an answer in question lists, but a reference in Revelation's structure: prose when it reads as a sentence.
+  if (key === 'a' && s.length > 20 && /\s/.test(s) && !REF.test(s.trim())) return true
   if (key && NEVER.has(key)) return false
   if (!/[A-Za-z]/.test(s) || s.trim().length < 3) return false
   if (ID.test(s) || REF.test(s.trim())) return false
