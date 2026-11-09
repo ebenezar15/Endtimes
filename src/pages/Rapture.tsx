@@ -3,6 +3,7 @@ import { HeroPanel } from '../components/studies/HeroPanel'
 import { KeyIdeas } from '../components/studies/KeyIdeas'
 import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { RaptureHero } from '../components/rapture/RaptureHero'
+import { LittleSeason } from '../components/rapture/LittleSeason'
 import { StudyMap } from '../components/StudyMap'
 import { DeepDives } from '../components/DeepDives'
 import { Link } from 'react-router-dom'
@@ -82,6 +83,10 @@ export default function Rapture() {
 
       <Section id="millennium" title={t('The millennium: four views in order')} lede={t('Each view’s order of events from now to the eternal state. Tap a view to read how it handles Revelation 20.')}>
         <MillSequences views={s.millViews} />
+      </Section>
+
+      <Section id="little-season" title={t('“Satan’s little season”: are we in it?')} lede={t('Revelation 20 says Satan is bound for a thousand years, then released for a little while. Where each reading places that season, the enemy’s four names, the final battle decoded, and why evil remains.')}>
+        <LittleSeason />
       </Section>
 
       <Section id="shape" title={t('The shape of history before the return')} lede={t('How far each view expects the gospel to spread, and the world to change, before Christ comes.')}>

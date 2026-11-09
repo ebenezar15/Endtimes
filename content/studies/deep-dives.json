@@ -1,6 +1,94 @@
 {
  "dives": [
   {
+   "id": "little-season",
+   "topics": [
+    "rapture",
+    "judgments",
+    "hope"
+   ],
+   "title": "“Satan’s little season”: are we in it now?",
+   "question": "A popular theory says the world now lies under a demonic deception we can only wait out, Satan’s “little season” of Revelation 20. Does the chapter teach that?",
+   "steps": [
+    {
+     "title": "Where the idea comes from",
+     "text": "It joins two verses: Satan is bound for a thousand years, then released “for a little while” to deceive the nations.",
+     "refs": [
+      "Revelation 20:3",
+      "Revelation 20:7-8"
+     ]
+    },
+    {
+     "title": "Ask the five questions first",
+     "text": "John wrote to seven real churches in Asia, from Patmos, about things that must soon take place. He had heard Jesus' warnings on the Mount of Olives.",
+     "refs": [
+      "Revelation 1:1-4, 9",
+      "Mark 13:3"
+     ]
+    },
+    {
+     "title": "“A thousand” means fullness",
+     "text": "God owns the cattle on a thousand hills and remembers his covenant for a thousand generations. The number speaks of a complete span set by God, not a count of days.",
+     "refs": [
+      "Psalm 50:10",
+      "Psalm 105:8",
+      "Deuteronomy 7:9"
+     ]
+    },
+    {
+     "title": "Bound by Christ",
+     "text": "Jesus bound the strong man and plunders his house; at the cross the ruler of this world was cast out, so the gospel could reach the nations.",
+     "refs": [
+      "Matthew 12:29",
+      "John 12:31-32",
+      "Colossians 2:15"
+     ]
+    },
+    {
+     "title": "Gog, the city and the fire",
+     "text": "Gog and Magog come from Ezekiel 38-39. Armies surround the beloved city and fire from God consumes them, the prophets' picture of judgement.",
+     "refs": [
+      "Ezekiel 38:22",
+      "Revelation 20:8-9",
+      "Luke 21:20"
+     ]
+    },
+    {
+     "title": "Crushed under the church's feet",
+     "text": "Paul promised the Roman Christians that God would soon crush Satan under their feet. The devil is a defeated enemy to resist, not a ruler to wait out.",
+     "refs": [
+      "Romans 16:20",
+      "Hebrews 2:14",
+      "1 John 3:8",
+      "James 4:7"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "year": 30,
+     "label": "The strong man bound",
+     "detail": "Christ's ministry, cross and ascension.",
+     "key": true
+    },
+    {
+     "year": 66,
+     "label": "Revolt and war",
+     "detail": "Rome's armies move against Judea.",
+     "key": false
+    },
+    {
+     "year": 70,
+     "label": "The beloved city falls",
+     "detail": "Jerusalem and the temple are destroyed.",
+     "key": true
+    }
+   ],
+   "opponent": "Readers who place the little season in AD 66-70 point to Revelation's time words and to armies surrounding the city, as Jesus foretold. Most postmillennial and amillennial readers instead see the thousand years as the whole present age, with a brief rebellion just before Christ returns; premillennialists place it after a future thousand-year reign.",
+   "conclusion": "Whatever its timing, the little season is short, limited, and ends in Satan's total defeat. Nothing in Revelation 20 tells the church to sit helplessly under deception; it is sent to make disciples and overcome evil with good.",
+   "caution": "Partial preterists differ on the timing: many place the thousand years across the present age and the brief release at its end, before the final judgement. Treating the great white throne as already past is a full-preterist view outside the creeds. Scripture also presents the devil as a real, personal enemy, not only a mindset."
+  },
+  {
    "id": "all-israel",
    "topics": [
     "israel",
