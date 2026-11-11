@@ -10,6 +10,8 @@ import { SevensDiagram } from '../components/SevensDiagram'
 import { ChurchesMap } from '../components/ChurchesMap'
 import { Icon } from '../components/Icon'
 import { SealedScroll } from '../components/SealedScroll'
+import { NearOrFar } from '../components/revelation/NearOrFar'
+import { DeepDives } from '../components/DeepDives'
 import { chapters, intro } from '../lib/data/revelation'
 import { t } from '../lib/i18n'
 
@@ -61,6 +63,16 @@ export default function Revelation() {
         </span>
         <Icon name="arrow" className="transition-transform group-hover:translate-x-1" />
       </Link>
+
+      <section className="mb-16" aria-labelledby="near-h">
+        <h2 id="near-h" className="text-2xl font-bold">
+          {t('Near or far: what was still future to John?')}
+        </h2>
+        <p className="mt-1 max-w-[70ch] text-ink-soft">{t('Matthew 24 and Revelation on one line. Watch each clue in the text fall into place: fulfilled in the first century, fulfilled now in Christ’s reign, or still to come. Tap a dot or a clue.')}</p>
+        <div className="mt-5">
+          <NearOrFar />
+        </div>
+      </section>
 
       <section aria-labelledby="map-h">
         <h2 id="map-h" className="text-2xl font-bold">
@@ -169,6 +181,7 @@ export default function Revelation() {
           </div>
         </section>
       )}
+      <DeepDives topic="revelation" />
     </div>
   )
 }

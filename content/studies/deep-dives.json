@@ -1,6 +1,107 @@
 {
  "dives": [
   {
+   "id": "near-or-far",
+   "topics": [
+    "revelation",
+    "fulfilled",
+    "judgments"
+   ],
+   "title": "Why Matthew 24 and most of Revelation lie in the past",
+   "question": "Were Matthew 24 and Revelation written about a far-off future, or about events their first readers would live through?",
+   "steps": [
+    {
+     "title": "The temple in front of them",
+     "text": "Jesus said not one stone of the temple his disciples were admiring would be left on another: the Second Temple, not a future one.",
+     "refs": [
+      "Matthew 24:1-2",
+      "Luke 19:41-44"
+     ]
+    },
+    {
+     "title": "Local, specific, timed",
+     "text": "Those in Judea were to flee to the mountains, and all these things would happen within that generation.",
+     "refs": [
+      "Matthew 24:16, 34"
+     ]
+    },
+    {
+     "title": "Heeded and fulfilled",
+     "text": "The early church fled to Pella before the siege; Jerusalem and its temple fell in AD 70. The abomination belonged to that temple, so no third temple is needed.",
+     "refs": [
+      "Luke 21:20-24",
+      "Daniel 9:26-27"
+     ]
+    },
+    {
+     "title": "Revelation's first readers",
+     "text": "John was already their companion in the tribulation, writing to seven real churches about things that must soon take place, for the time was near.",
+     "refs": [
+      "Revelation 1:1-3, 9, 11"
+     ]
+    },
+    {
+     "title": "Rooted in John's day",
+     "text": "The dragon falls after Christ's ascension. Of the seven kings, five had fallen and one was reigning as John wrote. The great city ruled the kings of the earth in his day.",
+     "refs": [
+      "Revelation 12:5-10",
+      "Revelation 17:10, 18"
+     ]
+    },
+    {
+     "title": "The rider and the reign",
+     "text": "The rider conquers by the sword from his mouth, the word of God; then Christ reigns with his martyrs through the thousand years.",
+     "refs": [
+      "Revelation 19:11-16",
+      "Revelation 20:4-6"
+     ]
+    },
+    {
+     "title": "What lay far ahead",
+     "text": "Only what follows the thousand years was distant: Christ's bodily return, the final judgement and the New Jerusalem where God dwells with his people.",
+     "refs": [
+      "Revelation 20:11-15",
+      "Revelation 21:1-4, 23"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "year": 30,
+     "label": "The prophecy",
+     "detail": "Jesus on the Mount of Olives.",
+     "key": true
+    },
+    {
+     "year": 66,
+     "label": "Flight to Pella",
+     "detail": "Christians leave Judea as war begins.",
+     "key": false
+    },
+    {
+     "year": 68,
+     "label": "Nero dies",
+     "detail": "The sixth king falls; Galba reigns seven months.",
+     "key": false
+    },
+    {
+     "year": 70,
+     "label": "Temple destroyed",
+     "detail": "Not one stone left on another.",
+     "key": true
+    },
+    {
+     "year": 313,
+     "label": "Rome turns",
+     "detail": "The empire tolerates, then embraces, the faith.",
+     "key": false
+    }
+   ],
+   "opponent": "Futurists answer that Revelation was written about AD 95, after the temple fell; that “soon” describes the manner or certainty of events; and that the rider of Revelation 19 is plainly Christ's visible second coming, since he comes from an opened heaven with the armies of heaven.",
+   "conclusion": "The audience, the setting and the time words point to the first century. Most of Matthew 24 and Revelation was fulfilled then, Christ reigns now, and his return, the judgement and the new creation are still ahead.",
+   "caution": "Readers who share this view still differ on details: many partial preterists see the harlot as Jerusalem rather than Rome, and many read Revelation 19 as Christ's coming in judgement in AD 70, or as his final return. The date of Revelation is debated; see the dating study."
+  },
+  {
    "id": "little-season",
    "topics": [
     "rapture",
