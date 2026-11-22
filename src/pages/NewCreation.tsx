@@ -4,6 +4,7 @@ import { KeyIdeas } from '../components/studies/KeyIdeas'
 import { KEY_IDEAS } from '../components/studies/keyIdeasData'
 import { StudyMap } from '../components/StudyMap'
 import { DeepDives } from '../components/DeepDives'
+import { BuiltLikeHeaven } from '../components/newcreation/BuiltLikeHeaven'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Prose } from '../components/Gloss'
@@ -58,6 +59,10 @@ export default function NewCreation() {
 
       <Section id="tabernacle" title={t('The tabernacle as heaven and earth')} lede={t('Why ancient readers saw the sanctuary as a small cosmos. Tap each part.')}>
         <Tabernacle parts={s.tabernacle} />
+      </Section>
+
+      <Section id="built" title={t('Israel built heaven and earth')} lede={t('The covenant lawsuit: the tabernacle built in the words of creation, Jesus facing the temple as he spoke of heaven and earth passing, the curtain torn and the house fallen, and a city with no temple.')}>
+        <BuiltLikeHeaven />
       </Section>
 
       <Section id="echoes" title={t('Creation words, used again')} lede={t('When God forms, judges or remakes his people, Scripture reaches for the words of Genesis 1.')}>

@@ -1,6 +1,91 @@
 {
  "dives": [
   {
+   "id": "built-heaven-earth",
+   "topics": [
+    "new-creation",
+    "fulfilled",
+    "olivet"
+   ],
+   "title": "Israel built heaven and earth",
+   "question": "When Jesus said “heaven and earth will pass away” (Matthew 24:35), where was he sitting, and what was he looking at?",
+   "steps": [
+    {
+     "title": "Built like the heavens and the earth",
+     "text": "A psalm says God built his sanctuary like the high heavens and like the earth: a picture of the world God made, with God enthroned at its centre.",
+     "refs": [
+      "Psalm 78:69"
+     ]
+    },
+    {
+     "title": "Finished, saw, blessed",
+     "text": "The end of the tabernacle story repeats the end of the creation story: finished, saw, blessed, the Sabbath, and then God's glory filling the house.",
+     "refs": [
+      "Genesis 2:1-3",
+      "Exodus 39:32, 43",
+      "Exodus 40:33-34"
+     ]
+    },
+    {
+     "title": "Read that way in Jesus' day",
+     "text": "Josephus called the tabernacle an imitation of the world and the temple curtain an image of the universe. Hebrews calls the holy places copies and shadows of heavenly things.",
+     "refs": [
+      "Hebrews 8:5",
+      "Hebrews 9:24"
+     ]
+    },
+    {
+     "title": "Witnesses in a covenant lawsuit",
+     "text": "Moses and the prophets called heaven and earth to witness against Israel when the covenant was broken.",
+     "refs": [
+      "Deuteronomy 32:1",
+      "Isaiah 1:2"
+     ]
+    },
+    {
+     "title": "Facing the temple",
+     "text": "Jesus left the temple, foretold its fall, and sat on the Mount of Olives opposite it. There he said this generation would not pass until all these things happened, and that heaven and earth would pass away.",
+     "refs": [
+      "Matthew 24:1-3, 34-35",
+      "Mark 13:3"
+     ]
+    },
+    {
+     "title": "Torn, then fallen",
+     "text": "At the cross the curtain tore from top to bottom; forty years later the house was gone. Hebrews had warned of a shaking of earth and heaven that would leave only what cannot be shaken.",
+     "refs": [
+      "Matthew 27:51",
+      "Hebrews 12:26-28"
+     ]
+    },
+    {
+     "title": "A city with no temple",
+     "text": "The New Jerusalem is a cube like the Most Holy Place, and it has no temple: God and the Lamb are its temple, and God dwells with his people.",
+     "refs": [
+      "1 Kings 6:20",
+      "Revelation 21:3, 16, 22"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "year": 30,
+     "label": "Curtain torn",
+     "detail": "Jesus dies; the way into the holy place is opened.",
+     "key": true
+    },
+    {
+     "year": 70,
+     "label": "Temple destroyed",
+     "detail": "The house built like heaven and earth falls.",
+     "key": true
+    }
+   ],
+   "opponent": "Most readers take “heaven and earth” in Matthew 24:35 as the created universe: Jesus' words outlast even the world itself. Some add that the verse contrasts the passing of creation, at the end, with the permanence of his word, and is not a description of the temple at all.",
+   "conclusion": "Whatever the phrase includes, Jesus spoke it facing a building Scripture says was built like the heavens and the earth, in a sermon that began with that building's fall. The copy fell in AD 70; the dwelling of God with his people remains.",
+   "caution": "This does not make Genesis 1 about a building, and readers differ on how far to press the temple meaning in Matthew 24:35. Scripture still promises a renewed creation at Christ's return (Romans 8:19-23; 2 Peter 3:13), as the creeds confess."
+  },
+  {
    "id": "near-or-far",
    "topics": [
     "revelation",
