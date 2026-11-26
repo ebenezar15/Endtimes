@@ -33,6 +33,7 @@ const Fulfilled = lazy(() => import('../pages/Fulfilled'))
 const NewCreation = lazy(() => import('../pages/NewCreation'))
 const ProphecyQA = lazy(() => import('../pages/ProphecyQA'))
 const KingdomHope = lazy(() => import('../pages/KingdomHope'))
+const KingdomNow = lazy(() => import('../pages/KingdomNow'))
 const SeventyWeeks = lazy(() => import('../pages/SeventyWeeks'))
 const Judgments = lazy(() => import('../pages/Judgments'))
 const Warnings = lazy(() => import('../pages/Warnings'))
@@ -86,6 +87,7 @@ export function App() {
               <Route path="/new-creation" element={<NewCreation />} />
               <Route path="/questions" element={<ProphecyQA />} />
               <Route path="/kingdom-hope" element={<KingdomHope />} />
+              <Route path="/kingdom-now" element={<KingdomNow />} />
               <Route path="/seventy-weeks" element={<SeventyWeeks />} />
               <Route path="/judgments" element={<Judgments />} />
               <Route path="/warnings" element={<Warnings />} />

@@ -1,6 +1,69 @@
 {
  "dives": [
   {
+   "id": "reign-begins",
+   "topics": [
+    "kingdom-now",
+    "rapture",
+    "hope"
+   ],
+   "title": "Does Christ's reign begin at his return?",
+   "question": "Premillennialism places Christ's reign after his return. Where does Scripture say it begins: at the ascension, or at the second coming?",
+   "steps": [
+    {
+     "title": "The Son of Man goes up",
+     "text": "In Daniel 7 the Son of Man comes with the clouds to the Ancient of Days and receives dominion: an ascension, not a descent.",
+     "refs": [
+      "Daniel 7:13-14",
+      "Acts 1:9"
+     ]
+    },
+    {
+     "title": "Sit at my right hand",
+     "text": "Psalm 110 enthrones David's Lord until his enemies are made his footstool; Peter applies it to the risen Jesus.",
+     "refs": [
+      "Psalm 110:1-2",
+      "Acts 2:30-36"
+     ]
+    },
+    {
+     "title": "Far above every rule",
+     "text": "God seated Christ at his right hand, far above all rule and authority, and seated his people with him.",
+     "refs": [
+      "Ephesians 1:20-23",
+      "Ephesians 2:6",
+      "Revelation 1:5-6"
+     ]
+    },
+    {
+     "title": "Until the last enemy",
+     "text": "He must reign until he has put all enemies under his feet; the last enemy, death, falls at the resurrection.",
+     "refs": [
+      "1 Corinthians 15:24-26, 54"
+     ]
+    },
+    {
+     "title": "Then the handover",
+     "text": "At the end he delivers the kingdom to the Father. The coming completes the reign; it does not start it.",
+     "refs": [
+      "1 Corinthians 15:24, 28"
+     ]
+    },
+    {
+     "title": "David's tent rebuilt now",
+     "text": "James says the Gentiles coming in fulfil the rebuilding of David's fallen tent.",
+     "refs": [
+      "Acts 15:15-17",
+      "Amos 9:11-12"
+     ]
+    }
+   ],
+   "evidence": [],
+   "opponent": "Premillennialists answer that Christ now shares his Father's throne, but his own throne, David's, awaits his return (Revelation 3:21; Matthew 25:31), and that “then comes the end” allows the thousand years of Revelation 20 between the coming and the end.",
+   "conclusion": "Peter, Paul and James place the throne at the resurrection and ascension. Christ reigns now, and his coming brings the reign to its goal: the death of death and the handover to the Father.",
+   "caution": "Every view affirms that Christ is Lord now and will return in glory. The disagreement is about the shape of the reign, not its reality, and is held among faithful Christians."
+  },
+  {
    "id": "built-heaven-earth",
    "topics": [
     "new-creation",

@@ -51,6 +51,12 @@ export const KEY_IDEAS: Record<string, () => KeyIdea[]> = {
     { title: t('A new creation begun'), text: t('If anyone is in Christ, there is a new creation; Isaiah 65 is echoed in Revelation 21.'), ref: '2 Corinthians 5:17' },
     { title: t('And completed at the end'), text: t('Christians differ on how much is fulfilled now; all look for the renewal of all things.'), ref: 'Revelation 21:1-5' },
   ],
+  'kingdom-now': () => [
+    { title: t('Reigning now'), text: t('Christ was enthroned at his ascension and reigns now, with the church as his body.'), ref: 'Acts 2:30-36' },
+    { title: t('The thousand years is now'), text: t('The gospel age: Satan bound as to the nations, the new creation advancing.'), ref: 'Revelation 20:1-6' },
+    { title: t('One coming, one end'), text: t('Resurrection, judgement and the death of death together, at the last trumpet.'), ref: '1 Corinthians 15:23-26' },
+    { title: t('Then the handover'), text: t('He reigns until every enemy is under his feet, then gives the kingdom to the Father.'), ref: '1 Corinthians 15:24-28' },
+  ],
   questions: () => [
     { title: t('Ask any question'), text: t('Hundreds of questions on the end times, each with a short answer, a full answer, examples and the other views.') },
     { title: t('Reading keys first'), text: t('Audience, time words, the Old Testament background and the New Testament’s own fulfilments guide every answer.') },

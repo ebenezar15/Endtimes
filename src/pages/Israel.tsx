@@ -127,6 +127,17 @@ export default function Israel() {
         <div className="mt-4">
           <Romans11 r={s.romans11} />
         </div>
+              <Link to="/kingdom-now" className="group leaf glow-card mt-4 flex items-center gap-4 p-4 text-ink no-underline transition-transform hover:-translate-y-1">
+          <span className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-accent text-[var(--accent-ink)]">
+            <Icon name="crown" size={22} />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block text-xs font-bold uppercase tracking-widest text-accent">{t('The right view')}</span>
+            <span className="block font-bold">{t('The kingdom now, consummated at his coming')}</span>
+            <span className="block text-sm text-ink-soft">{t('Six pillars, three orders side by side, and debate questions for every view.')}</span>
+          </span>
+          <Icon name="arrow" className="transition-transform group-hover:translate-x-1" />
+        </Link>
       </Section>
 
       <Section id="reading" title={t('How each side reads the Old Testament')} lede={t('The disagreement is mostly about method. Open each principle to see both readings side by side.')}>

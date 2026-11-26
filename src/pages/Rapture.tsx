@@ -99,6 +99,17 @@ export default function Rapture() {
 
       <Section id="kingdom" title={t('Establishing the kingdom, or stewarding it?')} lede={t('Christians agree Christ is King. They differ on whether his kingdom on earth is established at his return or already established and now stewarded. Nine models, placed along the spectrum.')}>
         <KingdomSpectrum models={s.kingdomModels} />
+              <Link to="/kingdom-now" className="group leaf glow-card mt-4 flex items-center gap-4 p-4 text-ink no-underline transition-transform hover:-translate-y-1">
+          <span className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-accent text-[var(--accent-ink)]">
+            <Icon name="crown" size={22} />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block text-xs font-bold uppercase tracking-widest text-accent">{t('The right view')}</span>
+            <span className="block font-bold">{t('The kingdom now, consummated at his coming')}</span>
+            <span className="block text-sm text-ink-soft">{t('Six pillars, three orders side by side, and debate questions for every view.')}</span>
+          </span>
+          <Icon name="arrow" className="transition-transform group-hover:translate-x-1" />
+        </Link>
       </Section>
 
       <Section id="stewardship" title={t('Stewardship texts, read both ways')} lede={t('The parables of the waiting servants and other texts, read as waiting for the King and as serving the reigning King.')}>
